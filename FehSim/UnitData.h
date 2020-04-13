@@ -8,17 +8,33 @@
 
 enum UnitColor { RED, BLUE, GREEN, COLORLESS };
 
-enum UnitType { SWORD, LANCE, AXE, TOME, BOW, DAGGER, STAFF, DRAGONSTONE, BEAST };
+enum WeaponType { SWORD, LANCE, AXE, TOME, BOW, DAGGER, STAFF, DRAGONSTONE, BEAST };
 
 enum MvtType { INFANTRY, CAVALRY, FLYER, ARMOUR };
 
+static std::string unitColorStr[4] { "RED", "BLUE", "GREEN", "COLORLESS" };
+static std::string weaponTypeStr[9] { "SWORD", "LANCE", "AXE", "TOME", "BOW", "DAGGER", "STAFF", "DRAGONSTONE", "BEAST" };
+static std::string mvtTypeStr[4] { "INFANTRY", "CAVALRY", "FLYER", "ARMOUR" };
+
+inline std::string FEHSIM_API toString(const UnitColor color) { if (color < RED || color > COLORLESS) return "ERROR"; else return unitColorStr[(int)color]; }
+inline std::string FEHSIM_API toString(const WeaponType type) { if (type < SWORD || type > BEAST)     return "ERROR"; else return weaponTypeStr[(int)type]; }
+inline std::string FEHSIM_API toString(const MvtType type)    { if (type < INFANTRY || type > ARMOUR) return "ERROR"; else return mvtTypeStr[(int)type]; }
+
+int FEHSIM_API findInArray(const std::string& str, std::string* values, int size);
+
+inline UnitColor  FEHSIM_API unitColorFromString (const std::string& str) { return (UnitColor) findInArray(str, unitColorStr, COLORLESS); }
+inline WeaponType FEHSIM_API weaponTypeFromString(const std::string& str) { return (WeaponType)findInArray(str, weaponTypeStr, BEAST); }
+inline MvtType    FEHSIM_API mvtTypeFromString   (const std::string& str) { return (MvtType)   findInArray(str, mvtTypeStr, ARMOUR); }
+
 class FEHSIM_API UnitData
 {
+	friend class DataLoader;
+
 protected:
 	std::string m_name;
 
 	UnitColor m_color;
-	UnitType m_type;
+	WeaponType m_type;
 	MvtType m_mvt;
 
 	int m_baseHP;
@@ -29,8 +45,14 @@ protected:
 
 public:
 	UnitData() {}
-	UnitData(std::string name, UnitColor color, UnitType type, int hp, int atk, int spd, int def, int res)
+	UnitData(std::string name, UnitColor color, WeaponType type, int hp, int atk, int spd, int def, int res)
 		: m_name(name), m_color(color), m_type(type), m_baseHP(hp), m_baseAtk(atk), m_baseSpd(spd), m_baseDef(def), m_baseRes(res) {}
+
+	std::string getName() { return m_name; }
+
+	UnitColor getColor() { return m_color; }
+	WeaponType getWeaponType() { return m_type; }
+	MvtType getMvtType() { return m_mvt; }
 
 	int getBaseHP()  const { return m_baseHP; }
 	int getBaseAtk() const  { return m_baseAtk; }

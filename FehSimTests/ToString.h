@@ -15,8 +15,18 @@ inline std::wstring to_wstring(std::string str) { return strconverter.from_bytes
 namespace Microsoft {
 	namespace VisualStudio {
 		namespace CppUnitTestFramework {
+
 			template<>
 			static std::wstring ToString<Position>(const Position& coord) { return to_wstring(coord.toString()); }
+
+			template<>
+			static std::wstring ToString<UnitColor>(const UnitColor& color) { return to_wstring(toString(color)); }
+
+			template<>
+			static std::wstring ToString<WeaponType>(const WeaponType& type) { return to_wstring(toString(type)); }
+
+			template<>
+			static std::wstring ToString<MvtType>(const MvtType& type) { return to_wstring(toString(type)); }
 		}
 	}
 }
