@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 10,
+    "name": "Beach Banner",
+    "description": "If unit initiates combat, grants Atk/Spd/Def/ Res+2 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_ビーチフラッグ",
+    "nextSkill": {
+        "_id": "weapon:beach-banner-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:beach-banner"
+}

@@ -1,0 +1,9 @@
+{
+    "exclusive": true,
+    "name": "Laws of Sacae",
+    "description": "If foe initiates combat and the number of allies within 2 spaces ≥ 2, grants Atk/Spd/Def/Res+4 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_サカの掟",
+    "spCost": 300,
+    "_id": "passive-a:laws-of-sacae"
+}

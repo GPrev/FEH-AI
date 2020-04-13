@@ -1,0 +1,11 @@
+{
+    "name": "Close Def 1",
+    "description": "If foe initiates combat and uses sword, lance, axe, dragonstone, or beast damage, grants Def/Res+2 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_近距離防御1",
+    "nextSkill": {
+        "_id": "passive-a:close-def-2"
+    },
+    "spCost": 60,
+    "_id": "passive-a:close-def-1"
+}

@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 10,
+    "name": "Legion's Axe",
+    "description": "After combat, if unit attacked, converts bonuses on foe into penalties through its next action.",
+    "docType": "weapon",
+    "idTag": "SID_ローローの斧",
+    "nextSkill": {
+        "_id": "weapon:legions-axe-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:legions-axe"
+}

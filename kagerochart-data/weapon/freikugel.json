@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Freikugel",
+    "description": "Grants Spd+3. At start of ally's combat, if unit is within 2 spaces of any allies with Def > unit's Def, grants Atk/Spd+4 to those allies during combat.  At start of unit's combat, if unit is not within 2 spaces of any allies with Def > unit's Def, grants Atk/Spd+6 to unit during combat.",
+    "docType": "weapon",
+    "idTag": "SID_フライクーゲル",
+    "spCost": 400,
+    "_id": "weapon:freikugel"
+}

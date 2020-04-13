@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Green Gift",
+    "description": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+    "docType": "weapon",
+    "idTag": "SID_緑のプレゼント箱",
+    "nextSkill": {
+        "_id": "weapon:green-gift-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:green-gift"
+}

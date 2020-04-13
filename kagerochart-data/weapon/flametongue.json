@@ -1,0 +1,12 @@
+{
+    "range": 1,
+    "might": 11,
+    "name": "Flametongue",
+    "docType": "weapon",
+    "idTag": "SID_灼熱のブレス",
+    "nextSkill": {
+        "_id": "weapon:flametongue-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:flametongue"
+}

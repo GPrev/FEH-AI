@@ -1,0 +1,9 @@
+{
+    "name": "Sacred Cowl",
+    "description": "If foe's Range = 2, reduces damage from that foe's attack by 30%.",
+    "docType": "special",
+    "idTag": "SID_聖兜",
+    "spCost": 200,
+    "cooldownCount": 2,
+    "_id": "special:sacred-cowl"
+}

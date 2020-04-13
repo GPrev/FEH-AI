@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Refreshing Bolt",
+    "description": "Effective against flying foes. At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Res+2, but after combat, if unit attacked, deals 2 damage to unit.",
+    "docType": "weapon",
+    "idTag": "SID_氷菓子の弓",
+    "nextSkill": {
+        "_id": "weapon:refreshing-bolt-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:refreshing-bolt"
+}

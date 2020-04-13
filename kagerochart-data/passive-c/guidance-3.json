@@ -1,0 +1,8 @@
+{
+    "name": "Guidance 3",
+    "description": "Infantry and armored allies within 2 spaces can move to a space adjacent to unit.",
+    "docType": "passive-c",
+    "idTag": "SID_空からの先導3",
+    "spCost": 240,
+    "_id": "passive-c:guidance-3"
+}

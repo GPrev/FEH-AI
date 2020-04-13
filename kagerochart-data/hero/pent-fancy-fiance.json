@@ -1,0 +1,208 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Pent",
+    "epitet": "Fancy Fiancé",
+    "display": "Pent: Fancy Fiancé",
+    "description": "Mage General, Count Reglay of Etruria. Dressed as a groom, making a pair with his wife, Louise. Appears in Fire Emblem: The Blazing Blade.",
+    "artist": "Wada Sachiko (ワダサチコ)",
+    "voiceActorEN": "Jamison Boaz",
+    "voiceActorJP": "子安武人",
+    "dialogue": [
+        {
+            "text": "I am Pent, Mage General of Etruria. This outfit...makes me a bit anxious.",
+            "context": "joined"
+        },
+        {
+            "text": "Have you seen Louise in her bridal attire? She's somehow managed to shine more brilliantly than usual!",
+            "context": "castle"
+        },
+        {
+            "text": "I'd rather help those in need than be lionized as a Mage General. That's my greatest wish.",
+            "context": "castle"
+        },
+        {
+            "text": "You know, I have an apprentice named Erk. I wonder what he'd say if he saw Louise and me like this...",
+            "context": "castle"
+        },
+        {
+            "text": "Times like these truly underscore the importance of peace.",
+            "context": "castle"
+        },
+        {
+            "text": "Protecting Louise until the end... That's my mission, I feel.",
+            "context": "castle"
+        },
+        {
+            "text": "I am Pent, Mage General of Etruria. I've come regarding a festival invite from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Louise, my power exists so I may protect you.",
+            "context": "level"
+        },
+        {
+            "text": "It seems I've hit my stride. Do these clothes...help?",
+            "context": "level"
+        },
+        {
+            "text": "I can't look Louise in the eye with results like this...",
+            "context": "level"
+        },
+        {
+            "text": "I can feel my power grow. Please, accept my thanks.",
+            "context": "growth"
+        },
+        {
+            "text": "Over their years, people tend to find value in all manner of things. Perhaps a legendary sword or tome for one—or the power of influence and position for another. In my case, the most valuable thing I have, without question, is my wife, Louise. I must become stronger to protect her, for she deserves only kindness and affection in her life. If you look, I'm sure you'll find the same for yourself... Something you value above all else, I mean.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Blue",
+    "origin": "Fire Emblem: The Blazing Blade",
+    "weapon": [
+        {
+            "_id": "weapon:vessel-of-cheer-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:vessel-of-cheer",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:ellight",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:light",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:rally-up-atk-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "assist:rally-up-atk",
+            "unlock": 4
+        },
+        {
+            "_id": "assist:rally-attack",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Blue Tome",
+    "tomeClass": 4,
+    "moveType": "Cavalry",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 6,
+        "spd": 7,
+        "def": 3,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 60,
+        "spd": 60,
+        "def": 35,
+        "res": 35
+    },
+    "passiveB": [
+        {
+            "_id": "passive-b:dull-ranged-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:dull-ranged-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:dull-ranged-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:pulse-smoke-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:pulse-smoke-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:pulse-smoke-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:pent-fancy-fiance",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 37,
+                "low": 34,
+                "high": 41
+            },
+            "atk": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "spd": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "def": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "res": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 144
+            }
+        }
+    }
+}

@@ -1,0 +1,214 @@
+{
+    "refresher": true,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Leanne",
+    "epitet": "Forest's Song",
+    "display": "Leanne: Forest's Song",
+    "description": "Princess of Serenes. Reyson's younger sister. She speaks the ancient tongue and has not yet mastered the language of Tellius. Appears in Fire Emblem: Radiant Dawn.",
+    "artist": "Yura (由良)",
+    "voiceActorEN": "Rachelle Heger",
+    "voiceActorJP": "鈴木絵理",
+    "dialogue": [
+        {
+            "text": "I am Leanne. Can we...be friends?",
+            "context": "joined"
+        },
+        {
+            "text": "Nice to meet you!",
+            "context": "castle"
+        },
+        {
+            "text": "Worried... About Brother, Naesala, Elincia-queen...",
+            "context": "castle"
+        },
+        {
+            "text": "You...can win! I hope.",
+            "context": "castle"
+        },
+        {
+            "text": "Um... Hello!",
+            "context": "castle"
+        },
+        {
+            "text": "My words...ancient language. Words of Serenes.",
+            "context": "castle"
+        },
+        {
+            "text": "Umm... From <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "This is good! All of us...happy.",
+            "context": "level"
+        },
+        {
+            "text": "Now...I can...I can help more.",
+            "context": "level"
+        },
+        {
+            "text": "What? No!",
+            "context": "level"
+        },
+        {
+            "text": "I can...do more! Much more!",
+            "context": "growth"
+        },
+        {
+            "text": "Hello, <Player Name>... Are you...sad? You want to...protect us. Your feelings...I know. Like Elincia-queen, Naesala... Me too! We all...do our best fighting. Together. Here—my hand. To sky, so far away... We promise.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Colorless",
+    "origin": "Fire Emblem: Radiant Dawn",
+    "weapon": [
+        {
+            "_id": "weapon:heron-wing",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:adult-flier",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:fledgling-flier",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:hatchling-flier",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:sing",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Colorless Beast",
+    "tomeClass": 0,
+    "moveType": "Flying",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 13,
+        "atk": 4,
+        "spd": 8,
+        "def": 2,
+        "res": 7
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 50,
+        "spd": 65,
+        "def": 30,
+        "res": 60
+    },
+    "passiveA": [
+        {
+            "_id": "passive-a:mirror-stance-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:mirror-stance-1",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:warding-stance-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:flier-formation-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:flier-formation-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:flier-formation-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:hone-beasts",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:hone-spd-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:hone-spd-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:leanne-forests-song",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 14,
+                "low": 13,
+                "high": 15
+            },
+            "atk": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 36,
+                "low": 32,
+                "high": 39
+            },
+            "atk": {
+                "base": 27,
+                "low": 23,
+                "high": 30
+            },
+            "spd": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "def": {
+                "base": 16,
+                "low": 12,
+                "high": 19
+            },
+            "res": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 150
+            }
+        }
+    }
+}

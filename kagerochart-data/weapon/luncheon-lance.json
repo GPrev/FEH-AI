@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 10,
+    "name": "Luncheon Lance",
+    "description": "If foe initiates combat, grants Atk/Def+4 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_行楽の飾り槍",
+    "nextSkill": {
+        "_id": "weapon:luncheon-lance-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:luncheon-lance"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Initiate Seal Res 3",
+    "description": "Grants Res+3.",
+    "docType": "passive-s",
+    "idTag": "SID_鍛錬の証_魔防3",
+    "spCost": 120,
+    "_id": "passive-s:initiate-seal-res-3"
+}

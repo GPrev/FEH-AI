@@ -1,0 +1,321 @@
+{
+    "_id": "hero:jamke-prince-of-verdane",
+    "display": "Jamke: Prince of Verdane",
+    "name": "Jamke",
+    "color": "Colorless",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:slaying-bow-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:slaying-bow",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-bow",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-bow",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:astra",
+            "unlock": 4
+        },
+        {
+            "_id": "special:night-sky",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Colorless Bow",
+    "moveType": "Infantry",
+    "passiveA": [
+        {
+            "_id": "passive-a:heavy-blade-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:heavy-blade-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:heavy-blade-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:cancel-affinity-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:cancel-affinity-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:cancel-affinity-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [],
+    "insights": [
+        "Jamke has the highest <abbr title=\"Attack\">ATK</abbr> potential possible among Bow heroes.",
+        "Jamke has the highest <abbr title=\"Attack\">ATK</abbr> potential possible among Colorless heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Prince of Verdane",
+    "description": "The prince of Verdane. He does not carry the blood of a crusader in his veins. He turns his bow against his homeland to try to stop the war. Appears in Fire Emblem: Genealogy of the Holy War.",
+    "artist": "Suekane Kumiko (スエカネクミコ)",
+    "voiceActorEN": "Joe Zieja",
+    "voiceActorJP": "檜山修之",
+    "dialogue": [
+        {
+            "text": "I am the youngest son of King Batu of Verdane. If you aim to aid the weak, my strength is yours to wield.",
+            "context": "joined"
+        },
+        {
+            "text": "The smell of the earth and the trees... It reminds me of my homeland, Verdane. Wherever you find yourself, it's nice to see green.",
+            "context": "castle"
+        },
+        {
+            "text": "I find unscrupulous behavior abhorrent. I cannot abide those who abuse their authority.",
+            "context": "castle"
+        },
+        {
+            "text": "That tree, over there... Yes, that one... Take a long look at it. Rest your tired eyes.",
+            "context": "castle"
+        },
+        {
+            "text": "If you would hunt, call on me. The forest is my second home. I crave respite from the clamor of the castle.",
+            "context": "castle"
+        },
+        {
+            "text": "It's impossible to focus on keeping watch with you hovering around me. Return to your room, please.",
+            "context": "castle"
+        },
+        {
+            "text": "I am Jamke, prince of Verdane. I bring you a token of esteem from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "My senses—they sharpen.",
+            "context": "level"
+        },
+        {
+            "text": "I have a long way yet to go. I will strive to maintain my focus.",
+            "context": "level"
+        },
+        {
+            "text": "I have confidence in my bow arm, but that alone is not enough.",
+            "context": "level"
+        },
+        {
+            "text": "Thanks to this, I head back into battle with confidence. You have my gratitude.",
+            "context": "growth"
+        },
+        {
+            "text": "In their weakness, my father and my brothers were blinded to the world and thought only of Verdane. My words fell on deaf ears...and I had no choice but to become a traitor to my fatherland. My family died before my eyes. I am not saying that I regret the choice I made. I followed my convictions. Every day, however, I do wonder if there was a path I could have chosen that avoided the worst... One day, you will be confronted by a decision just as difficult as the one I made. When that time comes, let your heart guide your hand. You must follow your own beliefs. Hold fast to your convictions. That is the only way to avoid regret.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Genealogy of the Holy War",
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 7,
+        "spd": 9,
+        "def": 6,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 65,
+        "spd": 50,
+        "def": 50,
+        "res": 30
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 15,
+                "low": 14,
+                "high": 16
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 15,
+                "low": 14,
+                "high": 16
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "def": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            },
+            "res": {
+                "base": 14,
+                "low": 11,
+                "high": 17
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "atk": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "spd": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "def": {
+                "base": 26,
+                "low": 23,
+                "high": 29
+            },
+            "res": {
+                "base": 15,
+                "low": 12,
+                "high": 18
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 38,
+                "low": 34,
+                "high": 41
+            },
+            "atk": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "spd": {
+                "base": 32,
+                "low": 28,
+                "high": 35
+            },
+            "def": {
+                "base": 29,
+                "low": 25,
+                "high": 32
+            },
+            "res": {
+                "base": 17,
+                "low": 13,
+                "high": 20
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 152
+            }
+        }
+    }
+}

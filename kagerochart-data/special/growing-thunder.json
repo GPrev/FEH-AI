@@ -1,0 +1,9 @@
+{
+    "name": "Growing Thunder",
+    "description": "Before combat this unit initiates, foes in a wide area around target take damage equal to (unit's Atk minus foe's Def or Res).",
+    "docType": "special",
+    "idTag": "SID_爆雷",
+    "spCost": 300,
+    "cooldownCount": 4,
+    "_id": "special:growing-thunder"
+}

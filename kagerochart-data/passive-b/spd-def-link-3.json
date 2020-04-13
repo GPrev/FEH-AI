@@ -1,0 +1,8 @@
+{
+    "name": "Spd/Def Link 3",
+    "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Spd/Def+6 to unit and target ally or unit and targeting ally for 1 turn.",
+    "docType": "passive-b",
+    "idTag": "SID_速さ守備の連携3",
+    "spCost": 240,
+    "_id": "passive-b:spd-def-link-3"
+}

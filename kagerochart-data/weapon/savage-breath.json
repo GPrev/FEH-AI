@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Savage Breath",
+    "description": "Grants Atk+3. Grants Atk/Spd/Def/Res+X. (Calculates X based on number of allies within 2 spaces of unit: 0 allies grants +6; 1 ally grants +4; 2 allies grants +2; ≥3 allies grants +0.) If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
+    "docType": "weapon",
+    "idTag": "SID_暴乱のブレス",
+    "spCost": 400,
+    "_id": "weapon:savage-breath"
+}

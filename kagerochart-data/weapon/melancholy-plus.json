@@ -1,0 +1,32 @@
+{
+    "range": 2,
+    "might": 12,
+    "name": "Melancholy+",
+    "description": "After combat, if unit attacked, resets Special cooldown of target and foes within 2 spaces of target, and inflicts【Guard】on target and foes within 2 spaces of target. (Neutralizes Special cooldown count reductions after combat, but skills that Accelerate and Slow Special are still effective.)  【Guard】 Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)",
+    "docType": "weapon",
+    "idTag": "SID_メランコリー＋",
+    "spCost": 300,
+    "_id": "weapon:melancholy-plus",
+    "refines": [
+        {
+            "might": 12,
+            "stats": {},
+            "description": "Foe cannot counterattack.",
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 12,
+            "stats": {},
+            "description": "Calculates damage from staff like other weapons.",
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        }
+    ]
+}

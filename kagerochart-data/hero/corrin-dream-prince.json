@@ -1,0 +1,225 @@
+{
+    "_id": "hero:corrin-dream-prince",
+    "display": "Corrin: Dream Prince",
+    "name": "Corrin",
+    "color": "Blue",
+    "weapon": [
+        {
+            "_id": "weapon:draconic-rage",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:water-breath",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:fire-breath-plus",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:fire-breath",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:dragon-fang",
+            "unlock": 4
+        },
+        {
+            "_id": "special:dragon-gaze",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Blue Breath",
+    "moveType": "Infantry",
+    "passiveA": [
+        {
+            "_id": "passive-a:atk-def-bond-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:atk-def-bond-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:atk-def-bond-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:null-follow-up-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:null-follow-up-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:null-follow-up-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:hone-dragons",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:hone-spd-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:hone-spd-1",
+            "unlock": 3
+        }
+    ],
+    "insights": [
+        "Corrin is the only hero with Null Follow-Up 3.",
+        "Corrin is the only hero with Null Follow-Up 2.",
+        "Corrin is the only hero with Null Follow-Up 1."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Dream Prince",
+    "description": "A Hoshidan prince raised in another Nohr. He understands young Azura's feelings very well. They are the best of friends. Appears in Fire Emblem Fates.",
+    "artist": "Maiponpon (まいぽんぽん) / INTELLIGENT SYSTEMS",
+    "voiceActorEN": "Cam Clarke",
+    "voiceActorJP": "島﨑信長",
+    "dialogue": [
+        {
+            "text": "My name is Corrin. I am here to see that Azura is smiling once again.",
+            "context": "joined"
+        },
+        {
+            "text": "If I can do my part to help protect someone I care about...if they're smiling...who I am doesn't matter.",
+            "context": "castle"
+        },
+        {
+            "text": "Azura and I were separated for far too long... Finally, we can be together here.",
+            "context": "castle"
+        },
+        {
+            "text": "If I can do anything, please let me know. There is no value to strength unless you use it to help people.",
+            "context": "castle"
+        },
+        {
+            "text": "To be able to fight alongside all of these Heroes... This world itself might be a dream.",
+            "context": "castle"
+        },
+        {
+            "text": "As long as I can make Azura happy, I am prepared to face any hardship.",
+            "context": "castle"
+        },
+        {
+            "text": "I am glad to see you well. A greeting from <Friend Name>!",
+            "context": "friend"
+        },
+        {
+            "text": "I want to see her smile—always. The stronger I get, the better I can protect her.",
+            "context": "level"
+        },
+        {
+            "text": "I will aim ever upward, and my strength will become everyone's rock.",
+            "context": "level"
+        },
+        {
+            "text": "I have disappointed you. I am sorry.",
+            "context": "level"
+        },
+        {
+            "text": "This feeling can't be a dream.",
+            "context": "growth"
+        },
+        {
+            "text": "Some people find pleasure in attacking those who can't fight back. Sad to say, but it's true. Azura's heart has been wounded by people like that. And as long as she seeks revenge, it will never heal. That is why I want to stay at her side. If I protect her and give those wounds time to heal... then perhaps she can grow stronger and find a way to live on her own someday. I know she has the strength to walk on her own two feet. She just has to find it. Until then, I will watch over her. Always.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Fates",
+    "releaseDate": "2018-11-09T07:00:00.000Z",
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 6,
+        "spd": 6,
+        "def": 4,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 60,
+        "atk": 65,
+        "spd": 65,
+        "def": 60,
+        "res": 45
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 42,
+                "low": 39,
+                "high": 45
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "res": {
+                "base": 24,
+                "low": 21,
+                "high": 28
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 167
+            }
+        }
+    }
+}

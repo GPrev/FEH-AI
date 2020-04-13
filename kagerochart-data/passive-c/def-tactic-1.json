@@ -1,0 +1,11 @@
+{
+    "name": "Def Tactic 1",
+    "description": "At start of turn, grants Def+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2.",
+    "docType": "passive-c",
+    "idTag": "SID_守備の指揮1",
+    "nextSkill": {
+        "_id": "passive-c:def-tactic-2"
+    },
+    "spCost": 60,
+    "_id": "passive-c:def-tactic-1"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Rally Atk/Def+",
+    "description": "Grants Atk/Def+6 to target ally for 1 turn.",
+    "docType": "assist",
+    "idTag": "SID_攻撃守備の応援＋",
+    "spCost": 400,
+    "_id": "assist:rally-atk-def-plus"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Steady Blow 1",
+    "description": "If unit initiates combat, grants Spd/Def+2 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_飛燕金剛の一撃1",
+    "nextSkill": {
+        "_id": "passive-a:steady-blow-2"
+    },
+    "spCost": 120,
+    "_id": "passive-a:steady-blow-1"
+}

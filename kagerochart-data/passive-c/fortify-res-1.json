@@ -1,0 +1,11 @@
+{
+    "name": "Fortify Res 1",
+    "description": "At start of turn, grants Res+2 to adjacent allies for 1 turn.",
+    "docType": "passive-c",
+    "idTag": "SID_魔防の鼓舞1",
+    "nextSkill": {
+        "_id": "passive-c:fortify-res-2"
+    },
+    "spCost": 50,
+    "_id": "passive-c:fortify-res-1"
+}

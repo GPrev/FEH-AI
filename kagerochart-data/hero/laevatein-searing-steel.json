@@ -1,0 +1,231 @@
+{
+    "_id": "hero:laevatein-searing-steel",
+    "display": "Laevatein: Searing Steel",
+    "name": "Laevatein",
+    "color": "Red",
+    "weapon": [
+        {
+            "_id": "weapon:laevatein",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-sword",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:swap",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [
+        {
+            "_id": "special:blazing-flame"
+        },
+        {
+            "_id": "special:growing-flame"
+        },
+        {
+            "_id": "special:rising-flame"
+        }
+    ],
+    "weaponType": "Red Sword",
+    "moveType": "Infantry",
+    "passiveA": [
+        {
+            "_id": "passive-a:fury-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:fury-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:fury-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:atk-def-link-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:atk-def-link-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:atk-def-link-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:odd-spd-wave-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:odd-spd-wave-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:odd-spd-wave-1",
+            "unlock": 3
+        }
+    ],
+    "insights": [
+        "Laevatein is the only hero with Odd Spd Wave 3.",
+        "Laevatein is the only hero with Odd Spd Wave 2.",
+        "Laevatein is the only hero with Odd Spd Wave 1."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Searing Steel",
+    "description": "The second princess of Múspell, the Kingdom of Flame. She sees herself and the blade she wields as one and the same, and keeps her emotions in check.",
+    "artist": "Maeshima Shigeki (前嶋重機)",
+    "voiceActorEN": "Sarah Williams",
+    "voiceActorJP": "釘宮理恵",
+    "dialogue": [
+        {
+            "text": "I am Laevatein of Múspell, the blade that cuts when commanded. Will you give the order?",
+            "context": "joined"
+        },
+        {
+            "text": "Nifl is cold, covered in snow. Askr is warmer. It's still a bit chilly.",
+            "context": "castle"
+        },
+        {
+            "text": "Múspell is a kingdom of flames... I was born there. I grew up there. I don't love it. I don't hate it.",
+            "context": "castle"
+        },
+        {
+            "text": "My sister is kind and clever. She knows what the enemy is thinking. She taught me so much, so patiently...",
+            "context": "castle"
+        },
+        {
+            "text": "Morning, noon, and night, we trained. My sister and I... I don't remember when it started. My father kills weaklings.",
+            "context": "castle"
+        },
+        {
+            "text": "My blade is Laevatein, the Searing Steel... We share a name. You can't separate us.",
+            "context": "castle"
+        },
+        {
+            "text": "I will greet you as I was taught to do. Good day. This place reminds me of <Friend Name>'s castle.",
+            "context": "friend"
+        },
+        {
+            "text": "My body is burning... I like it.",
+            "context": "level"
+        },
+        {
+            "text": "I am the blade. I am Laevatein.",
+            "context": "level"
+        },
+        {
+            "text": "I am cold. It's interfering.",
+            "context": "level"
+        },
+        {
+            "text": "I must become sharper... I cannot fail.",
+            "context": "growth"
+        },
+        {
+            "text": "A blade has no feelings. A blade has no thoughts. I am a lethal tool, my father said. Nothing more. But spending time with you...I have thought about many things. My sister said she wants me to live. And...I want to live... Together, here, with you. Is this my idea, or is it my sister's? I am unsure. And now...this feeling... I do not dislike it. Even if it is unfamiliar.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem Heroes",
+    "releaseDate": "2018-09-21T07:00:00.000Z",
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 10,
+        "spd": 6,
+        "def": 7,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 55,
+        "def": 60,
+        "res": 40
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 39,
+                "low": 35,
+                "high": 42
+            },
+            "atk": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "spd": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "def": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "res": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 163
+            }
+        }
+    }
+}

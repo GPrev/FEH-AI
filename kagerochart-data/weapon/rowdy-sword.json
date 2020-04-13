@@ -1,0 +1,73 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 11,
+    "name": "Rowdy Sword",
+    "description": "Inflicts Spd-5. If unit initiates combat, unit attacks twice.",
+    "docType": "weapon",
+    "idTag": "SID_明日の聖騎士の剣",
+    "spCost": 400,
+    "_id": "weapon:rowdy-sword",
+    "refines": [
+        {
+            "might": 11,
+            "stats": {
+                "hp": 5,
+                "spd": 3
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 12,
+            "stats": {
+                "hp": 5,
+                "atk": 1
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 11,
+            "stats": {
+                "hp": 5,
+                "def": 4
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 11,
+            "stats": {
+                "hp": 5,
+                "res": 4
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 11,
+            "stats": {
+                "hp": 3
+            },
+            "description": "If a bonus granted by a skill like Rally or Hone is not active on foe, grants Atk/Def+6 during combat.",
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        }
+    ]
+}

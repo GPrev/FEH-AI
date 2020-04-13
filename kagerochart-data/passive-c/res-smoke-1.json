@@ -1,0 +1,11 @@
+{
+    "name": "Res Smoke 1",
+    "description": "Inflicts Res-3 on foes within 2 spaces of target through their next actions after combat.",
+    "docType": "passive-c",
+    "idTag": "SID_魔防の紫煙1",
+    "nextSkill": {
+        "_id": "passive-c:res-smoke-2"
+    },
+    "spCost": 60,
+    "_id": "passive-c:res-smoke-1"
+}

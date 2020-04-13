@@ -1,0 +1,211 @@
+{
+    "_id": "hero:kana-dragon-princess",
+    "display": "Kana: Dragon Princess",
+    "name": "Kana",
+    "color": "Green",
+    "weapon": [
+        {
+            "_id": "weapon:water-breath-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:water-breath",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:fire-breath-plus",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:fire-breath",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:draconic-aura",
+            "unlock": 4
+        },
+        {
+            "_id": "special:dragon-gaze",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Green Breath",
+    "moveType": "Infantry",
+    "passiveA": [
+        {
+            "_id": "passive-a:fierce-stance-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:fierce-stance-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:fierce-stance-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:goad-dragons",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:spur-atk-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:spur-atk-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [],
+    "insights": [
+        "Kana is the only hero with Goad Dragons.",
+        "Kana has the lowest <abbr title=\"Health Points\">HP</abbr> potential possible among Breath heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Dragon Princess",
+    "description": "Corrin's daughter. Cheerful and honest but has lived a lonely life so far. Appears in Fire Emblem Fates.",
+    "artist": "Miwabe Sakura (みわべさくら)",
+    "voiceActorEN": "Claudia Lenz",
+    "voiceActorJP": "佐藤聡美",
+    "dialogue": [
+        {
+            "text": "Hi. It's good to meet you! I'm Kana. My papa is Corrin. I can fight hard with dragon power too!",
+            "context": "joined"
+        },
+        {
+            "text": "I always wanted to grow up to be strong like my papa. But I think a summoner like you is neat too!",
+            "context": "castle"
+        },
+        {
+            "text": "I grew up in the Deeprealms. It was lonely without my papa or mama. Really lonely. But I'm fine now!",
+            "context": "castle"
+        },
+        {
+            "text": "Great job today! You deserve a really, really good back rub. And I'm really, really good at that.",
+            "context": "castle"
+        },
+        {
+            "text": "I should turn into a dragon and give you a ride on my back sometime! And if I flew you around the battlefield, we'd be unstoppable!",
+            "context": "castle"
+        },
+        {
+            "text": "Hee hee! I'm trying to wrap my scarf to look more like these Order of Heroes people here. I hope I can wear a cape like theirs though someday!",
+            "context": "castle"
+        },
+        {
+            "text": "Oh, hey! By any chance, are you <Player Name>? I came all this way to give you a hello from <Friend Name>!",
+            "context": "friend"
+        },
+        {
+            "text": "Am I stronger like Papa now?",
+            "context": "level"
+        },
+        {
+            "text": "I've been extra good!",
+            "context": "level"
+        },
+        {
+            "text": "I'll try harder. I promise.",
+            "context": "level"
+        },
+        {
+            "text": "Thanks for that. You're really kind, just like my papa.",
+            "context": "growth"
+        },
+        {
+            "text": "Yay, it's you! Thanks for coming to see me, <Player Name>! I'm polishing my dragonstone—isn't it pretty? I think I get stronger when it's really clean and shiny! I like to be strong, 'cause then I can help you more... I hope I'm doing enough... Don't tell anybody, but I think you're a lot like my papa. He's really kind and brave, too! Someday I'm gonna be just like you and him. I'm getting stronger all the time—I hardly ever cry anymore! You watch, I'm gonna be a super- strong Hero you can be proud of. But it might take a while, so let's stay together forever—that way you won't miss it!",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Fates",
+    "releaseDate": "2018-04-24T07:00:00.000Z",
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 7,
+        "spd": 7,
+        "def": 6,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 50,
+        "spd": 60,
+        "def": 60,
+        "res": 45
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 40,
+                "low": 36,
+                "high": 43
+            },
+            "atk": {
+                "base": 30,
+                "low": 26,
+                "high": 33
+            },
+            "spd": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "def": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "res": {
+                "base": 26,
+                "low": 23,
+                "high": 30
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 163
+            }
+        }
+    }
+}

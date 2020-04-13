@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Toasty Skewer",
+    "description": "If a foe initiates combat against an ally within 2 spaces of unit, grants Def/Res+3 to that ally during combat.",
+    "docType": "weapon",
+    "idTag": "SID_マシュマロの杖",
+    "nextSkill": {
+        "_id": "weapon:toasty-skewer-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:toasty-skewer"
+}

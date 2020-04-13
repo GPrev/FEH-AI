@@ -1,0 +1,8 @@
+{
+    "name": "Kestrel Stance 2",
+    "description": "If foe initiates combat, grants Atk/Spd+4 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_鬼神飛燕の構え2",
+    "spCost": 240,
+    "_id": "passive-a:kestrel-stance-2"
+}

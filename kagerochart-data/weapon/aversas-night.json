@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Aversa's Night",
+    "description": "Grants Res+3. At start of turn, if any foe's HP ≤ unit’s HP-3 and that foe is adjacent to another foe, inflicts Atk/Spd/Def/Res-3 on that foe and bonuses on that foe become penalties through its next action.",
+    "docType": "weapon",
+    "idTag": "SID_インバースの暗闇",
+    "spCost": 400,
+    "_id": "weapon:aversas-night"
+}

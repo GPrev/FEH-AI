@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Ardent Durandal",
+    "description": "Grants Atk+3. At start of turn, grants 【Bonus Doubler】to ally with the highest Atk.  【Bonus Doubler】 Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats for 1 turn. Calculates each stat bonus independently.",
+    "docType": "weapon",
+    "idTag": "SID_緋剣デュランダル",
+    "spCost": 400,
+    "_id": "weapon:ardent-durandal"
+}

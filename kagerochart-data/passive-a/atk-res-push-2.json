@@ -1,0 +1,11 @@
+{
+    "name": "Atk/Res Push 2",
+    "description": "At start of combat, if unit's HP = 100%, grants Atk/Res+4, but if unit attacked, deals 1 damage to unit after combat.",
+    "docType": "passive-a",
+    "idTag": "SID_攻撃魔防の渾身2",
+    "nextSkill": {
+        "_id": "passive-a:atk-res-push-3"
+    },
+    "spCost": 120,
+    "_id": "passive-a:atk-res-push-2"
+}

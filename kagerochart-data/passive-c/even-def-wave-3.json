@@ -1,0 +1,8 @@
+{
+    "name": "Even Def Wave 3",
+    "description": "At start of even-numbered turns, grants Def+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)",
+    "docType": "passive-c",
+    "idTag": "SID_守備の波・偶数3",
+    "spCost": 240,
+    "_id": "passive-c:even-def-wave-3"
+}

@@ -1,0 +1,219 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Edelgard",
+    "epitet": "The Future",
+    "display": "Edelgard: The Future",
+    "description": "Princess and heir apparent of the Adrestian Empire. Her steadfast ambition is veiled by her elegant, self-confident demeanor. Appears in Fire Emblem: Three Houses.",
+    "artist": "Suda Ayaka (須田彩加)",
+    "voiceActorEN": "Tara Platt",
+    "voiceActorJP": "加隈亜衣",
+    "dialogue": [
+        {
+            "text": "I am Edelgard von Hresvelg, heir apparent of the Adrestian Empire. I will follow you, but I bow to no one.",
+            "context": "joined"
+        },
+        {
+            "text": "As a princess myself, I feel sympathy for Princess Veronica. I wonder if she is acting of her own volition.",
+            "context": "castle"
+        },
+        {
+            "text": "My father, the Adrestian emperor, was stripped of his power. As his successor, I will reclaim what he lost.",
+            "context": "castle"
+        },
+        {
+            "text": "Having been thrust into an unfamiliar world, I find it difficult to feel at ease. Perhaps you know the feeling.",
+            "context": "castle"
+        },
+        {
+            "text": "Your enemies are similar to my foes in my own world. We may both stand to learn from our time together.",
+            "context": "castle"
+        },
+        {
+            "text": "Excuse me. I was taking a moment to rest. In my own world, I was so busy that I rarely had the time.",
+            "context": "castle"
+        },
+        {
+            "text": "I was asked to say hello to you. Now that I have, I will take my leave.",
+            "context": "friend"
+        },
+        {
+            "text": "I am always getting stronger.",
+            "context": "level"
+        },
+        {
+            "text": "A step forward.",
+            "context": "level"
+        },
+        {
+            "text": "An underwhelming result... I will not let it happen again.",
+            "context": "level"
+        },
+        {
+            "text": "Watch as I master this new power.",
+            "context": "growth"
+        },
+        {
+            "text": "You tend to look at me as though you expect me to leave at any moment. I suppose it can't be helped. You need not worry, however. Even if I did not care about this country and its people... For the sake of my own ambitions, I would still be sure to see this effort to its end. I promise you that. Remember who I am. I am Edelgard von Hresvelg, and I am sworn to help you vanquish your enemies. With my allegiance to your cause, victory is a foregone conclusion.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Green",
+    "origin": "Fire Emblem: Three Houses",
+    "releaseDate": "2019-07-22T07:00:00.000Z",
+    "weapon": [
+        {
+            "_id": "weapon:victorious-axe",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-axe",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-axe",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-axe",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:luna",
+            "unlock": 4
+        },
+        {
+            "_id": "special:new-moon",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Green Axe",
+    "tomeClass": 0,
+    "moveType": "Infantry",
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 8,
+        "spd": 7,
+        "def": 8,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 70,
+        "spd": 50,
+        "def": 65,
+        "res": 35
+    },
+    "passiveB": [
+        {
+            "_id": "passive-b:dull-close-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:dull-close-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:dull-close-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:atk-def-solo-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:atk-def-solo-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:atk-def-solo-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:rouse-atk-def-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:rouse-atk-def-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:rouse-atk-def-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:edelgard-the-future",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 41,
+                "low": 38,
+                "high": 44
+            },
+            "atk": {
+                "base": 39,
+                "low": 36,
+                "high": 43
+            },
+            "spd": {
+                "base": 30,
+                "low": 26,
+                "high": 33
+            },
+            "def": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "res": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 168
+            }
+        }
+    }
+}

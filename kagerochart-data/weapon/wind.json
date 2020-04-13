@@ -1,0 +1,12 @@
+{
+    "range": 2,
+    "might": 4,
+    "name": "Wind",
+    "docType": "weapon",
+    "idTag": "SID_ウインド",
+    "nextSkill": {
+        "_id": "weapon:elwind"
+    },
+    "spCost": 50,
+    "_id": "weapon:wind"
+}

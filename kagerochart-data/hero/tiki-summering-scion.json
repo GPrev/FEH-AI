@@ -1,0 +1,219 @@
+{
+    "_id": "hero:tiki-summering-scion",
+    "display": "Tiki: Summering Scion",
+    "name": "Tiki",
+    "color": "Green",
+    "weapon": [
+        {
+            "_id": "weapon:melon-crusher-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:melon-crusher",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-axe",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-axe",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:sol",
+            "unlock": 4
+        },
+        {
+            "_id": "special:daylight",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:close-def-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:close-def-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:close-def-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:axe-valor-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:axe-valor-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:axe-valor-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "description": "Known as the Voice of the Divine Dragon. Has lived through thousands of summers, but usually doesn't need to worry about swimming gear. Appears in Fire Emblem Awakening.",
+    "weaponType": "Green Axe",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Awakening",
+    "gender": "Female",
+    "voiceActorEN": "Mela Lee",
+    "voiceActorJP": "大谷育江",
+    "releaseDate": "2017-06-30T00:00:00.000Z",
+    "artistJP": "岡谷",
+    "artistEN": "Okaya",
+    "voiceActorJPEN": "Ohtani Ikue",
+    "insights": [
+        "Tiki is the only hero with Melon Crusher+.",
+        "Tiki is the only hero with Melon Crusher.",
+        "Tiki is the only hero with Axe Valor 3.",
+        "Tiki is the only hero with Axe Valor 2.",
+        "Tiki is the only hero with Axe Valor 1.",
+        "Tiki has the lowest <abbr title=\"Health Points\">HP</abbr> potential possible among Axe heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Summering Scion",
+    "artist": "Okaya (岡谷)",
+    "dialogue": [
+        {
+            "text": "I'm Tiki, a descendant of the divine dragon tribe. I can take the form of a dragon, of course... But for the summer, I'm liking the look of this swimsuit a little bit better! ",
+            "context": "joined"
+        },
+        {
+            "text": "I'll guess the image that \"3,000-year- old in a swimsuit\" conjures up doesn't match the reality... Does it?",
+            "context": "castle"
+        },
+        {
+            "text": "That resort was beautiful...but far too hot to take a decent nap. I think I'll be able to rest here, though.",
+            "context": "castle"
+        },
+        {
+            "text": "It's good to take a break now and again. I just learned a fun game we can play, actually... You put on a blindfold and then try to smash a large melon. Want to try?",
+            "context": "castle"
+        },
+        {
+            "text": "Why don't you put on a bathing suit? Look at me—I'm the divine dragon's oracle! If I'm dressed like this, nobody will even blink to see the Summoner in summer attire.",
+            "context": "castle"
+        },
+        {
+            "text": "Does the Askran Kingdom have beautiful oceans? We must do all we can to ensure the waters of this kingdom do not run red...",
+            "context": "castle"
+        },
+        {
+            "text": "I bring greetings from <Friend Name>. My attire? If you don't consider it appropriate for the circumstances, I could always turn into a dragon.",
+            "context": "friend"
+        },
+        {
+            "text": "In a swimsuit, no less. At my age, you take whatever you can get!",
+            "context": "level"
+        },
+        {
+            "text": "Keeping cool in the summer— that's my secret.",
+            "context": "level"
+        },
+        {
+            "text": "Maybe I'm getting a little old to fight in a swimsuit...",
+            "context": "level"
+        },
+        {
+            "text": "Thanks for this. I'll treasure my memory of this summer with you.",
+            "context": "growth"
+        },
+        {
+            "text": "Thanks for taking the time to come and see me, even with this heat... Or is it just me?  We Heroes who dropped in from the resort seem to be stuck in an eternal summer... I'm not sure why. This world is certainly mysterious. I've seen so many summers, but none have been as thrilling as this one. I thought I'd gotten to an age where nothing could surprise me, but I was wrong about that! This summer has filled me with the joy of a child. I find myself wishing it would not end.  I want to stay here with you. ",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 7,
+        "spd": 5,
+        "def": 7,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 40,
+        "atk": 65,
+        "spd": 55,
+        "def": 55,
+        "res": 40
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "atk": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "spd": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "def": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "res": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 157
+            }
+        }
+    }
+}

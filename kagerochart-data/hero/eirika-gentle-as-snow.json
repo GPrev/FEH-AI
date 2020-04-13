@@ -1,0 +1,232 @@
+{
+    "_id": "hero:eirika-gentle-as-snow",
+    "display": "Eirika: Gentle as Snow",
+    "name": "Eirika",
+    "color": "Colorless",
+    "weapon": [
+        {
+            "_id": "weapon:joyous-lantern-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:joyous-lantern",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:assault",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:heavenly-light",
+            "unlock": 3
+        },
+        {
+            "_id": "special:imbue",
+            "unlock": 2
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:restore-plus",
+            "unlock": 0
+        },
+        {
+            "_id": "assist:restore",
+            "unlock": 3
+        },
+        {
+            "_id": "assist:reconcile",
+            "unlock": 2
+        },
+        {
+            "_id": "assist:heal",
+            "unlock": 0
+        }
+    ],
+    "docType": "hero",
+    "weaponType": "Colorless Staff",
+    "moveType": "Armored",
+    "passiveB": [
+        {
+            "_id": "passive-b:dazzling-staff-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:dazzling-staff-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:dazzling-staff-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:atk-opening-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:atk-opening-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:atk-opening-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [],
+    "insights": [
+        "Eirika is the only Staff/Armored hero.",
+        "Eirika is the only hero with Joyous Lantern+.",
+        "Eirika is the only hero with Joyous Lantern.",
+        "Eirika is the only hero with Atk Opening 3.",
+        "Eirika is the only hero with Atk Opening 2.",
+        "Eirika is the only hero with Atk Opening 1.",
+        "Eirika has the highest <abbr title=\"Attack\">ATK</abbr> potential possible among Staff heroes.",
+        "Eirika has the highest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Staff heroes.",
+        "Eirika has the highest <abbr title=\"Attack\">ATK</abbr> potential possible among Colorless heroes.",
+        "Eirika has the highest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Colorless heroes.",
+        "Eirika has the lowest <abbr title=\"Speed\">SPD</abbr> potential possible among Staff heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Gentle as Snow",
+    "description": "Princess of Renais. Ephraim's twin. Her gentle mien blankets the winter festival. Appears in Fire Emblem: The Sacred Stones.",
+    "artist": "Asatani Tomoyo (麻谷知世)",
+    "voiceActorEN": "Kira Buckland",
+    "voiceActorJP": "水橋かおり",
+    "dialogue": [
+        {
+            "text": "I'm Princess Eirika of Renais. My brother Ephraim and I have come to the winter festival this year.",
+            "context": "joined"
+        },
+        {
+            "text": "It has been quite some time since I have seen my brother so excited. I'm getting excited myself!",
+            "context": "castle"
+        },
+        {
+            "text": "The envoys of the winter festival bring happiness to all the children. Isn't that wonderful?",
+            "context": "castle"
+        },
+        {
+            "text": "You're curious about what kinds of presents I wished for as a child? That information...will remain secret.",
+            "context": "castle"
+        },
+        {
+            "text": "I want to leave a gift beside Ephraim's pillow. Do you think he will realize it is from me?",
+            "context": "castle"
+        },
+        {
+            "text": "This festival is for everyone to enjoy equally. Everyone is special at this festival, or so I'm told. You should make sure to have as much fun with everyone as you can, even if you're a little bit cold.",
+            "context": "castle"
+        },
+        {
+            "text": "I bring you an invitation to the winter festival from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "This is more than I wished for! I feel that I have been blessed.",
+            "context": "level"
+        },
+        {
+            "text": "Seeing everyone enjoying themselves has given me the courage to fight.",
+            "context": "level"
+        },
+        {
+            "text": "The cold has numbed my hands. I must prepare more thoroughly next time.",
+            "context": "level"
+        },
+        {
+            "text": "I can feel this warming my heart... Truly, I am grateful.",
+            "context": "growth"
+        },
+        {
+            "text": "Taking part in this festival with Ephraim... It's been so long since I've enjoyed myself this much. Everyone's in a cheery mood, with laughter in the air... And they give presents that really mean something. The weather may be cold, but the warmth of the heart more than makes up for that. I hope that one day the chill of war may be replaced by this warmth and everyone can enjoy days like these. It's up to me to do what I can to realize a world where everyone comes together in kindness.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: The Sacred Stones",
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 9,
+        "spd": 5,
+        "def": 7,
+        "res": 9
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 60,
+        "spd": 40,
+        "def": 50,
+        "res": 55
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 42,
+                "low": 39,
+                "high": 45
+            },
+            "atk": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "spd": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            },
+            "def": {
+                "base": 30,
+                "low": 26,
+                "high": 33
+            },
+            "res": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 165
+            }
+        }
+    }
+}

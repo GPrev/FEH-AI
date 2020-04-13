@@ -1,0 +1,71 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Tactical Gale",
+    "description": "Grants weapon-triangle advantage against colorless foes, and inflicts weapon-triangle disadvantage on colorless foes during combat.",
+    "docType": "weapon",
+    "idTag": "SID_軍師の風書",
+    "spCost": 400,
+    "_id": "weapon:tactical-gale",
+    "refines": [
+        {
+            "might": 14,
+            "stats": {
+                "hp": 2,
+                "spd": 2
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 15,
+            "stats": {
+                "hp": 2,
+                "atk": 1
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 14,
+            "stats": {
+                "hp": 2,
+                "def": 3
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 14,
+            "stats": {
+                "hp": 2,
+                "res": 3
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 14,
+            "stats": {},
+            "description": "At start of turn, grants Atk/Spd/Def/Res+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2.",
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        }
+    ]
+}

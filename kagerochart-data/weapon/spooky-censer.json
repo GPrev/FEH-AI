@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Spooky Censer",
+    "description": "Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit.",
+    "docType": "weapon",
+    "idTag": "SID_カボチャの行灯",
+    "nextSkill": {
+        "_id": "weapon:spooky-censer-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:spooky-censer"
+}

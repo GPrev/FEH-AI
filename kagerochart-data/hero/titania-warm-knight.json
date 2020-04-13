@@ -1,0 +1,256 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Titania",
+    "epitet": "Warm Knight",
+    "display": "Titania: Warm Knight",
+    "description": "Talented second-in-command of the Greil Mercenaries. Her heart stirs at the reunion of Ike and Greil. Appears in Fire Emblem: Path of Radiance.",
+    "artist": "Wada Sachiko (ワダサチコ)",
+    "voiceActorEN": "Misty Lee",
+    "voiceActorJP": "宮川美保",
+    "lowestRarity": 4,
+    "dialogue": [
+        {
+            "text": "I am Titania, deputy commander of the Greil Mercenaries. Tell me...is Commander Greil really here?",
+            "context": "joined"
+        },
+        {
+            "text": "The thought that I might meet Commander Greil again... I...",
+            "context": "castle"
+        },
+        {
+            "text": "Money can't buy happiness. That's something we in the Greil Mercenaries understand well.",
+            "context": "castle"
+        },
+        {
+            "text": "I put a lot of thought into the present I got for you. I hope that you don't mind that I got you something.",
+            "context": "castle"
+        },
+        {
+            "text": "Hmm... I feel like I just saw a very familiar face in the crowd. My mind must be playing tricks on me.",
+            "context": "castle"
+        },
+        {
+            "text": "If there's someone you care about— a person you want to become stronger for—hold on to that feeling.",
+            "context": "castle"
+        },
+        {
+            "text": "The festival for the Day of Devotion is such fun that I've been asked to invite you by <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "There is nothing more joyful than sharing your feelings.",
+            "context": "level"
+        },
+        {
+            "text": "Knowing how to express your feelings is as important as sharing them.",
+            "context": "level"
+        },
+        {
+            "text": "I guess I was a little too playful, even though I didn't mean to be.",
+            "context": "level"
+        },
+        {
+            "text": "I thank you, because I understand how you feel now.",
+            "context": "growth"
+        },
+        {
+            "text": "I was wondering if I should even go to the festival, and I ended up having so much fun I lost track of time. Everywhere you look, you see people giving gifts and sharing their feelings. Everyone's grateful to one another. Telling someone how you feel about them makes you feel alive... Fate can be cruel. You may never get the chance to tell someone how you really feel about them. If you have something you want to tell someone, don't hesitate. This is the Day of Devotion, after all. Your feelings will blossom beautifully. I'm sure of it.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Red",
+    "origin": "Fire Emblem: Path of Radiance",
+    "weapon": [
+        {
+            "_id": "weapon:loyal-wreath-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:loyal-wreath",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elfire",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:fire",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:swap",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Red Tome",
+    "tomeClass": 1,
+    "moveType": "Cavalry",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 7,
+        "spd": 8,
+        "def": 3,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 50,
+        "spd": 55,
+        "def": 30,
+        "res": 55
+    },
+    "passiveB": [
+        {
+            "_id": "passive-b:atk-res-link-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:atk-res-link-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:atk-res-link-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:triangle-adept-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:triangle-adept-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:triangle-adept-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:titania-warm-knight",
+    "minStats": {
+        "4": {
+            "hp": {
+                "base": 15,
+                "low": 14,
+                "high": 16
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "4": {
+            "hp": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "atk": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "spd": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "def": {
+                "base": 15,
+                "low": 12,
+                "high": 18
+            },
+            "res": {
+                "base": 27,
+                "low": 24,
+                "high": 30
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 39
+            },
+            "atk": {
+                "base": 30,
+                "low": 26,
+                "high": 33
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 17,
+                "low": 13,
+                "high": 20
+            },
+            "res": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 145
+            }
+        }
+    }
+}

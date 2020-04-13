@@ -1,0 +1,8 @@
+{
+    "name": "Fortify Def 3",
+    "description": "At start of turn, grants Def+4 to adjacent allies for 1 turn.",
+    "docType": "passive-c",
+    "idTag": "SID_守備の鼓舞3",
+    "spCost": 200,
+    "_id": "passive-c:fortify-def-3"
+}

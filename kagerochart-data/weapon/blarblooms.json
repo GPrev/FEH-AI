@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Blárblooms",
+    "description": "If unit is adjacent to an ally, grants Atk/Spd/Def/Res+3 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_青の花かご",
+    "nextSkill": {
+        "_id": "weapon:blarblooms-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:blarblooms"
+}

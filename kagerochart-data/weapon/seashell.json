@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 7,
+    "name": "Seashell",
+    "description": "At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Res+2, but after combat, if unit attacked, deals 2 damage to unit. After combat, if unit attacked, inflicts Def/Res-5 on foe through its next action.",
+    "docType": "weapon",
+    "idTag": "SID_貝殻",
+    "nextSkill": {
+        "_id": "weapon:seashell-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:seashell"
+}

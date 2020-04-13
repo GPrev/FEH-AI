@@ -1,0 +1,11 @@
+{
+    "name": "Res Ploy 1",
+    "description": "At start of turn, inflicts Res-3 on foes in cardinal directions with Res < unit’s Res through their next actions.",
+    "docType": "passive-c",
+    "idTag": "SID_魔防の謀策1",
+    "nextSkill": {
+        "_id": "passive-c:res-ploy-2"
+    },
+    "spCost": 60,
+    "_id": "passive-c:res-ploy-1"
+}

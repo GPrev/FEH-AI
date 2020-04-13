@@ -1,0 +1,9 @@
+{
+    "name": "Ignis",
+    "description": "Boosts damage by 80% of unit's Def.",
+    "docType": "special",
+    "idTag": "SID_華炎",
+    "spCost": 200,
+    "cooldownCount": 4,
+    "_id": "special:ignis"
+}

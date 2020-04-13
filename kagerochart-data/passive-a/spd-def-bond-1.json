@@ -1,0 +1,11 @@
+{
+    "name": "Spd/Def Bond 1",
+    "description": "If unit is adjacent to an ally, grants Spd/Def+3 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_速さ守備の絆1",
+    "nextSkill": {
+        "_id": "passive-a:spd-def-bond-2"
+    },
+    "spCost": 60,
+    "_id": "passive-a:spd-def-bond-1"
+}

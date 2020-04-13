@@ -1,0 +1,21 @@
+{
+    "_id": "passive-s:close-def-2",
+    "name": "Close Def 2",
+    "sp": 120,
+    "type": "s",
+    "description": "If unit is attacked by foe using sword, axe, lance, or dragonstone, unit receives Def/Res+4 during combat.",
+    "icon": "/images/icons/passives/close-def-2.png",
+    "docType": "passive-s",
+    "typeDefendMod": {
+        "weaponType": {
+            "sword": true,
+            "axe": true,
+            "lance": true,
+            "breath": true
+        },
+        "statMod": {
+            "def": 4,
+            "res": 4
+        }
+    }
+}

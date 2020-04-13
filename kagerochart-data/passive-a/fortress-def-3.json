@@ -1,0 +1,8 @@
+{
+    "name": "Fortress Def 3",
+    "description": "Grants Def+5. Inflicts Atk-3.",
+    "docType": "passive-a",
+    "idTag": "SID_守備の城塞3",
+    "spCost": 160,
+    "_id": "passive-a:fortress-def-3"
+}

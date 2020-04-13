@@ -1,0 +1,32 @@
+{
+    "range": 2,
+    "might": 10,
+    "name": "Pain+",
+    "description": "Deals 10 damage to target and foes within 2 spaces of target after combat.",
+    "docType": "weapon",
+    "idTag": "SID_ペイン＋",
+    "spCost": 300,
+    "_id": "weapon:pain-plus",
+    "refines": [
+        {
+            "might": 10,
+            "stats": {},
+            "description": "Foe cannot counterattack.",
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 10,
+            "stats": {},
+            "description": "Calculates damage from staff like other weapons.",
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        }
+    ]
+}

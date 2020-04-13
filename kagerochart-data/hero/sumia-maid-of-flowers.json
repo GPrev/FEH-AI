@@ -1,0 +1,210 @@
+{
+    "_id": "hero:sumia-maid-of-flowers",
+    "display": "Sumia: Maid of Flowers",
+    "name": "Sumia",
+    "color": "Blue",
+    "weapon": [
+        {
+            "_id": "weapon:reprisal-lance-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:reprisal-lance",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:reposition",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "weaponType": "Blue Lance",
+    "moveType": "Flying",
+    "passiveA": [
+        {
+            "_id": "passive-a:close-def-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:close-def-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:close-def-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:atk-def-link-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:atk-def-link-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:atk-def-link-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [],
+    "insights": [
+        "Sumia is the only hero with Reprisal Lance+.",
+        "Sumia is the only hero with Reprisal Lance.",
+        "Sumia has the highest <abbr title=\"Speed\">SPD</abbr> potential possible among Flying heroes.",
+        "Sumia has the highest <abbr title=\"Speed\">SPD</abbr> potential possible among Lance heroes.",
+        "Sumia has the highest <abbr title=\"Speed\">SPD</abbr> potential possible among Blue heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Maid of Flowers",
+    "description": "A gentle Shepherd who enjoys flower fortunes. Shows talent at working with animals. Appears in Fire Emblem Awakening.",
+    "artist": "pikomaro",
+    "voiceActorEN": "—",
+    "voiceActorJP": "山本彩乃",
+    "dialogue": [
+        {
+            "text": "I'm Sumia, of Chrom's Shepherds. I'm a bit clumsy, but I promise I'll do my best to help you out!",
+            "context": "joined"
+        },
+        {
+            "text": "Does the Order of Heroes have a pegasus stable? I'd love to help take care of the pegasi if you do. That's one thing I'm good at!",
+            "context": "castle"
+        },
+        {
+            "text": "I'm part of Lord Chrom's Shepherds. I was a trainee, but I became a much better fighter after I met my pegasus.",
+            "context": "castle"
+        },
+        {
+            "text": "Out on patrol? Thank you for doing that. But please make sure you watch where you step. I tripped right around here just a moment ago...",
+            "context": "castle"
+        },
+        {
+            "text": "Would you like to try some flower fortunes with me? Don't worry about getting an unlucky result. That just means you'll have to work hard to make sure it doesn't come true!",
+            "context": "castle"
+        },
+        {
+            "text": "I was just reading one of my favorite books: Mad Tales of a Bloodthirsty Falcon Knight, Volume 2. I can lend you volume one if you're interested.",
+            "context": "castle"
+        },
+        {
+            "text": "Hello! I've come to bring you a greeting from your friend <Friend Name>. Oh, I don't mind waiting. I was doing flower fortunes with the Heroes here!",
+            "context": "friend"
+        },
+        {
+            "text": "This makes me so happy. I'll work ever harder!",
+            "context": "level"
+        },
+        {
+            "text": "About time I made some progress.",
+            "context": "level"
+        },
+        {
+            "text": "I just can't do anything right, can I?",
+            "context": "level"
+        },
+        {
+            "text": "Sorry if I made you feel like you should spend extra time on me.",
+            "context": "growth"
+        },
+        {
+            "text": "I can do it. I can't do it... I can do it. I can't do it... I can— Oh, hello, <Player Name>. I was just doing flower fortunes. I'm trying to figure out if I can become a proper Hero or not. Fighting by your side has given me a new goal. I don't want to be a klutz forever. I want to become stronger. I want to become a Hero that looks like she belongs by your side. But I'm...just not that confident... So I thought I'd consult the flowers. I can't do it. I can do it... I can't... I can! Oh, thank goodness! The flower says I can do it! Now I just need to work hard to prove it right. I'll become your strongest wings!",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Awakening",
+    "releaseDate": "2018-07-20T07:00:00.000Z",
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 5,
+        "spd": 10,
+        "def": 6,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 55,
+        "spd": 65,
+        "def": 50,
+        "res": 45
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 39,
+                "low": 35,
+                "high": 42
+            },
+            "atk": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "spd": {
+                "base": 39,
+                "low": 36,
+                "high": 42
+            },
+            "def": {
+                "base": 29,
+                "low": 25,
+                "high": 32
+            },
+            "res": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 162
+            }
+        }
+    }
+}

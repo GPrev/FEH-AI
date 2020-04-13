@@ -1,0 +1,229 @@
+{
+    "legendary": {
+        "element": "Wind",
+        "bst": 175,
+        "stats": {
+            "hp": 3
+        },
+        "duel": true,
+        "duo_skill_id": null,
+        "kind": 1,
+        "pair_up": true
+    },
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Eliwood",
+    "epitet": "Blazing Knight",
+    "display": "Eliwood: Blazing Knight",
+    "description": "Marquess of Pherae. After overcoming the death of his father, Elbert, he foils Nergal's wicked ambitions with his comrades. Appears in Fire Emblem: The Blazing Blade.",
+    "artist": "Wada Sachiko (ワダサチコ)",
+    "voiceActorEN": "Yuri Lowenthal",
+    "voiceActorJP": "櫻井孝宏",
+    "dialogue": [
+        {
+            "text": "I am Eliwood. Is anything causing you trouble? I will gladly assist with any task for which you believe I'm suited.",
+            "context": "joined"
+        },
+        {
+            "text": "Seeing all the Heroes gathered here... I'm reminded that dragon and human are not so different.",
+            "context": "castle"
+        },
+        {
+            "text": "Hector has a certain sturdiness that I envy. I want to train with him as equals, but that may not be realistic...",
+            "context": "castle"
+        },
+        {
+            "text": "Are you making sure to get enough rest? Be sure to take breaks often! ...People often tell me that too.",
+            "context": "castle"
+        },
+        {
+            "text": "Care to join me for some training? All right. Then hold the sword like that... And set your feet like this...",
+            "context": "castle"
+        },
+        {
+            "text": "I've been preparing a special elixir... It tastes horrible, but if it means I stay healthy for Pherae, it's worth it.",
+            "context": "castle"
+        },
+        {
+            "text": "I'm Eliwood, Marquess of Pherae. I've come to exchange pleasantries. Are you...<Player Name>?",
+            "context": "friend"
+        },
+        {
+            "text": "I seem to be in unusually good form... All my training must be adding up!",
+            "context": "level"
+        },
+        {
+            "text": "I will remember this feeling for a long time to come.",
+            "context": "level"
+        },
+        {
+            "text": "Have I...reached my potential?",
+            "context": "level"
+        },
+        {
+            "text": "Thank you. Much appreciated. If I can live up to your expectations, I will do so happily.",
+            "context": "growth"
+        },
+        {
+            "text": "Hello, <Player Name>... Your coordination of the troops on the field the other day was superb. It reminded me of an old friend... Tell me—does someone as powerful as you find me...lacking? Please, you may speak freely... I ask only because...I am no match for Hector in strength, nor can I match you in wisdom. The one gift I have is my unyielding resolve. I am willing to weather any storm in order to seize victory. Even if I'm not the most impressive person here, I am proud of that gift. And proud to be at your command.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Red",
+    "origin": "Fire Emblem: The Blazing Blade",
+    "weapon": [
+        {
+            "_id": "weapon:ardent-durandal",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-sword",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:rally-spd-res-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "assist:rally-spd-res",
+            "unlock": 4
+        },
+        {
+            "_id": "assist:rally-speed",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Red Sword",
+    "tomeClass": 0,
+    "moveType": "Cavalry",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 5,
+        "spd": 9,
+        "def": 8,
+        "res": 2
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 70,
+        "spd": 55,
+        "def": 55,
+        "res": 30
+    },
+    "passiveB": [
+        {
+            "_id": "passive-b:chill-atk-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:chill-atk-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:chill-atk-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:death-blow-4",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:death-blow-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:death-blow-2",
+            "unlock": 3
+        },
+        {
+            "_id": "passive-a:death-blow-1",
+            "unlock": 2
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:vision-of-arcadia",
+            "unlock": 5
+        }
+    ],
+    "_id": "hero:eliwood-blazing-knight",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "def": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 37,
+                "low": 34,
+                "high": 41
+            },
+            "atk": {
+                "base": 36,
+                "low": 33,
+                "high": 40
+            },
+            "spd": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "def": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "res": {
+                "base": 16,
+                "low": 12,
+                "high": 19
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 156
+            }
+        }
+    }
+}

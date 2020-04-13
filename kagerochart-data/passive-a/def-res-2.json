@@ -1,0 +1,8 @@
+{
+    "name": "Def/Res 2",
+    "description": "Grants Def/Res+2.",
+    "docType": "passive-a",
+    "idTag": "SID_守備魔防2",
+    "spCost": 160,
+    "_id": "passive-a:def-res-2"
+}

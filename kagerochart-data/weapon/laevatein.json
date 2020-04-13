@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Laevatein",
+    "description": "Grants Atk+3. Grants bonus to unit’s Atk = total bonuses on unit during combat.",
+    "docType": "weapon",
+    "idTag": "SID_レーヴァテイン",
+    "spCost": 400,
+    "_id": "weapon:laevatein"
+}

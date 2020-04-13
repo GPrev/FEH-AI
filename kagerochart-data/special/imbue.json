@@ -1,0 +1,9 @@
+{
+    "name": "Imbue",
+    "description": "When healing an ally with a staff, restores an additional 10 HP to target ally.",
+    "docType": "special",
+    "idTag": "SID_治癒",
+    "spCost": 50,
+    "cooldownCount": 1,
+    "_id": "special:imbue"
+}

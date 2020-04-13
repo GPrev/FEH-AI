@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Melancholy",
+    "description": "After combat, if unit attacked, resets Special cooldown of foe, and inflicts【Guard】on foe. (Neutralizes Special cooldown count reductions after combat, but skills that Accelerate and Slow Special are still effective.)  【Guard】 Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)",
+    "docType": "weapon",
+    "idTag": "SID_メランコリー",
+    "nextSkill": {
+        "_id": "weapon:melancholy-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:melancholy"
+}

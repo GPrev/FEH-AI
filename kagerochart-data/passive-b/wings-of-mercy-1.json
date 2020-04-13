@@ -1,0 +1,11 @@
+{
+    "name": "Wings of Mercy 1",
+    "description": "If an ally's HP ≤ 30%, unit can move to a space adjacent to that ally.",
+    "docType": "passive-b",
+    "idTag": "SID_救援の行路1",
+    "nextSkill": {
+        "_id": "passive-b:wings-of-mercy-2"
+    },
+    "spCost": 60,
+    "_id": "passive-b:wings-of-mercy-1"
+}

@@ -1,0 +1,13 @@
+{
+    "_id": "passive-s:fortress-res-2",
+    "name": "Fortress Res 2",
+    "sp": 80,
+    "type": "s",
+    "description": "Grants Res+4. Inflicts Atk-3.",
+    "icon": "/images/icons/passives/fortress-res-2.png",
+    "docType": "passive-s",
+    "statMod": {
+        "atk": -3,
+        "res": 4
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Spd/Def Form 2",
+    "description": "Grants Spd/Def+X to unit during combat. (X = number of allies within 2 spaces + 2; max 5.)",
+    "docType": "passive-a",
+    "idTag": "SID_速さ守備の密集2",
+    "nextSkill": {
+        "_id": "passive-a:spd-def-form-3"
+    },
+    "spCost": 120,
+    "_id": "passive-a:spd-def-form-2"
+}

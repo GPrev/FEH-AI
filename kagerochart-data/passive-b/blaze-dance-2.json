@@ -1,0 +1,11 @@
+{
+    "name": "Blaze Dance 2",
+    "description": "If Sing or Dance is used, grants Atk+3 to target.",
+    "docType": "passive-b",
+    "idTag": "SID_業火の舞い2",
+    "nextSkill": {
+        "_id": "passive-b:blaze-dance-3"
+    },
+    "spCost": 100,
+    "_id": "passive-b:blaze-dance-2"
+}

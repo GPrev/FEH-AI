@@ -1,0 +1,222 @@
+{
+    "_id": "hero:hector-brave-warrior",
+    "display": "Hector: Brave Warrior",
+    "name": "Hector",
+    "color": "Blue",
+    "weapon": [
+        {
+            "_id": "weapon:maltet",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-lance",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:ignis",
+            "unlock": 4
+        },
+        {
+            "_id": "special:glowing-ember",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Blue Lance",
+    "moveType": "Armored",
+    "passiveA": [
+        {
+            "_id": "passive-a:ostian-counter",
+            "unlock": 5
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:bold-fighter-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:bold-fighter-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:bold-fighter-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:even-res-wave-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:even-res-wave-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:even-res-wave-1",
+            "unlock": 1
+        }
+    ],
+    "insights": [
+        "Hector is the only hero with Maltet.",
+        "Hector is the only hero with Ostian Counter.",
+        "Hector is the only hero with Even Res Wave 3.",
+        "Hector is the only hero with Even Res Wave 2.",
+        "Hector is the only hero with Even Res Wave 1.",
+        "Hector has the highest <abbr title=\"Defense\">DEF</abbr> potential possible among Lance heroes.",
+        "Hector has the highest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Lance heroes.",
+        "Hector has the highest <abbr title=\"Defense\">DEF</abbr> potential possible among Blue heroes.",
+        "Hector has the lowest <abbr title=\"Speed\">SPD</abbr> potential possible among Lance heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Brave Warrior",
+    "description": "Inherited the title of Marquess Ostia after the sudden death of his elder brother. Here an armored knight, he wields the lance of one of the Eight Legends. Appears in Fire Emblem: The Blazing Blade.",
+    "artist": "Kita Senri (北千里)",
+    "voiceActorEN": "Patrick Seitz",
+    "voiceActorJP": "鳥海浩輔",
+    "dialogue": [
+        {
+            "text": "I'm Hector, Marquess of Ostia. I was wondering why I was called here, but... Well, if you have some foes that need routing, I have just the lance for the job.",
+            "context": "joined"
+        },
+        {
+            "text": "Uther... I wish I could have been at your side to aid you, Brother...",
+            "context": "castle"
+        },
+        {
+            "text": "This here is the freezing lance Maltet. Just like Armads, it's counted among the legendary weapons of Elibe. That said, wielding it is quite different from wielding an axe...",
+            "context": "castle"
+        },
+        {
+            "text": "Don't get too close. One wrong step and this heavy armor could crush you flat. Hahaha! I'm only joking, friend! Do be careful around me, though...",
+            "context": "castle"
+        },
+        {
+            "text": "Daily training is essential if you want to move around in heavy armor like this. Care to join me? Once you get used to being sore all the time, it's actually quite fun!",
+            "context": "castle"
+        },
+        {
+            "text": "Hey, what's with that strange look you're giving me? Oh, this? It's just a book. What?! Aw, come on. I read! A lord has to have some refinement!",
+            "context": "castle"
+        },
+        {
+            "text": "I'm Hector, Marquess of Ostia. And I've brought you a message from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Heh, I couldn't lose right now if I tried!",
+            "context": "level"
+        },
+        {
+            "text": "I think I'm finally getting the hang of this lance.",
+            "context": "level"
+        },
+        {
+            "text": "Ugh... This armor sure is heavy...",
+            "context": "level"
+        },
+        {
+            "text": "Oho! Thanks, friend! I'll pay you back like I always do—on the battlefield!",
+            "context": "growth"
+        },
+        {
+            "text": "Hey, let me ask you a question... What qualities do you suppose are most important for a ruler to have? I've been thinking about this since I succeeded the throne. And aside from bravery, I'm at a total loss... The respect of the people, you say? Hm... Without the backing of the people, one isn't qualified to rule... Yes, I think that makes good sense. However, respect is not something you can see with your eyes. Huh? Seeing isn't always believing? There you go again, doling out wisdom faster than I can keep up! Well, if that's the expectation set for me as a ruler, then I'll just have to meet it. For those who have put their faith in me...and for my brother.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: The Blazing Blade",
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 23,
+        "atk": 10,
+        "spd": 4,
+        "def": 8,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 60,
+        "spd": 40,
+        "def": 70,
+        "res": 50
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 24,
+                "low": 23,
+                "high": 25
+            },
+            "atk": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 48,
+                "low": 45,
+                "high": 51
+            },
+            "atk": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "spd": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "def": {
+                "base": 39,
+                "low": 36,
+                "high": 43
+            },
+            "res": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 174
+            }
+        }
+    }
+}

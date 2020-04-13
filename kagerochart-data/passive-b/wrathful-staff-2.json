@@ -1,0 +1,11 @@
+{
+    "name": "Wrathful Staff 2",
+    "description": "At start of combat, if unit's HP ≥ 50%, calculates damage from staff like other weapons.",
+    "docType": "passive-b",
+    "idTag": "SID_神罰の杖2",
+    "nextSkill": {
+        "_id": "passive-b:wrathful-staff-3"
+    },
+    "spCost": 120,
+    "_id": "passive-b:wrathful-staff-2"
+}

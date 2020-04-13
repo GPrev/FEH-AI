@@ -1,0 +1,11 @@
+{
+    "name": "Sorcery Blade 2",
+    "description": "At start of combat, if unit's HP ≥ 50% and unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res.",
+    "docType": "passive-a",
+    "idTag": "SID_魔道の刃2",
+    "nextSkill": {
+        "_id": "passive-a:sorcery-blade-3"
+    },
+    "spCost": 120,
+    "_id": "passive-a:sorcery-blade-2"
+}

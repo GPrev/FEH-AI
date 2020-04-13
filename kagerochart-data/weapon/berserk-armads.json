@@ -1,0 +1,12 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Berserk Armads",
+    "description": "Accelerates Special trigger (cooldown count-1). At start of turn, if unit's HP ≤ 75% and unit's attack triggers Special, grants Special cooldown count-1, and deals +10 damage when Special triggers.",
+    "docType": "weapon",
+    "idTag": "SID_狂斧アルマーズ",
+    "spCost": 400,
+    "cooldownCount": -1,
+    "_id": "weapon:berserk-armads"
+}

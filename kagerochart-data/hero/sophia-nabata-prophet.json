@@ -1,0 +1,329 @@
+{
+    "_id": "hero:sophia-nabata-prophet",
+    "display": "Sophia: Nabata Prophet",
+    "name": "Sophia",
+    "color": "Red",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:eternal-tome",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:fenrir-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:fenrir",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:ruin",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:flux",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:dragon-fang",
+            "unlock": 4
+        },
+        {
+            "_id": "special:dragon-gaze",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:warding-blow-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:warding-blow-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:warding-blow-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:fortify-res-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:fortify-res-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:fortify-res-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "description": "A shaman of Nabata who has lived a sheltered life away from other people. Sees the future. Appears in Fire Emblem: The Binding Blade.",
+    "weaponType": "Red Tome",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: The Binding Blade",
+    "gender": "Female",
+    "voiceActorEN": "Wendee Lee",
+    "voiceActorJP": "大西沙織",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistJP": "ザザ",
+    "artistEN": "Zaza",
+    "voiceActorJPEN": "Oonishi Saori",
+    "insights": [
+        "Sophia is the only hero with Fenrir+."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Nabata Prophet",
+    "artist": "Zaza (ザザ)",
+    "dialogue": [
+        {
+            "text": "I am...Sophia. I am...? Forgive me— I get winded. I am a priestess from the Nabata Desert.",
+            "context": "joined"
+        },
+        {
+            "text": "Castles and towns... And so many people... My, it's all so...different from what I'm used to!",
+            "context": "castle"
+        },
+        {
+            "text": "I was raised to...avoid... outsiders.",
+            "context": "castle"
+        },
+        {
+            "text": "I am half human, half dragon... But why should halves...divide us? My halves make me...whole.",
+            "context": "castle"
+        },
+        {
+            "text": "How I long for my village. And most of all...the oasis there. The waters, so pure!",
+            "context": "castle"
+        },
+        {
+            "text": "I have been...outside on rare occasion. Everyone can seem so odd to me. For instance, some arrows are called...quarrels. Isn't that strange?",
+            "context": "castle"
+        },
+        {
+            "text": "You there... You must be... <Player Name>? I have seen...your future.",
+            "context": "friend"
+        },
+        {
+            "text": "I foresaw that...today would be a good day.",
+            "context": "level"
+        },
+        {
+            "text": "I foresaw that this would come to pass.",
+            "context": "level"
+        },
+        {
+            "text": "My future looks suddenly... very dim.",
+            "context": "level"
+        },
+        {
+            "text": "This—! And my dragon blood—! So light-headed...",
+            "context": "growth"
+        },
+        {
+            "text": "Your future...has shifted and swirled since we met. At first, your future was a fog that not even my eyes could pierce. Over time, I made out the faintest nimbus around you. A weak glow, if you will. That glow has grown, illumined by light—many lights, from many sources! These have mystified me until recently, when I realized that I...am one of those lights. You invite such lights to you, and your glow is becoming like a beacon, banishing the fog! And so...I want to stay with you to see what your future will look like when the fog...is gone.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 5,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 8,
+        "spd": 3,
+        "def": 5,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 55,
+        "spd": 35,
+        "def": 50,
+        "res": 50
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "atk": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "spd": {
+                "base": 16,
+                "low": 13,
+                "high": 19
+            },
+            "def": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "res": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "atk": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "spd": {
+                "base": 17,
+                "low": 14,
+                "high": 20
+            },
+            "def": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            },
+            "res": {
+                "base": 27,
+                "low": 24,
+                "high": 30
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 40,
+                "low": 36,
+                "high": 43
+            },
+            "atk": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "spd": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "def": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "res": {
+                "base": 29,
+                "low": 25,
+                "high": 32
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 149
+            }
+        }
+    }
+}

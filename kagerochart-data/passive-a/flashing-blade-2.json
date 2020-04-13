@@ -1,0 +1,11 @@
+{
+    "name": "Flashing Blade 2",
+    "description": "If unit’s Spd ≥ foe’s Spd+3, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)",
+    "docType": "passive-a",
+    "idTag": "SID_柔剣2",
+    "nextSkill": {
+        "_id": "passive-a:flashing-blade-3"
+    },
+    "spCost": 120,
+    "_id": "passive-a:flashing-blade-2"
+}

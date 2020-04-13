@@ -1,0 +1,330 @@
+{
+    "_id": "hero:robin-high-deliverer",
+    "display": "Robin: High Deliverer",
+    "name": "Robin",
+    "color": "Blue",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:tactical-bolt",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:blarraven-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:blarraven",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elthunder",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:thunder",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:bonfire",
+            "unlock": 4
+        },
+        {
+            "_id": "special:glowing-ember",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:defiant-spd-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:defiant-spd-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:defiant-spd-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:spur-def-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:spur-def-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:spur-def-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "description": "A tactician of Ylisse and Chrom's close ally. Lost memory of his life before meeting Chrom. Appears in Fire Emblem Awakening.",
+    "weaponType": "Blue Tome",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Awakening",
+    "gender": "Male",
+    "voiceActorEN": "David Vincent",
+    "voiceActorJP": "細谷佳正",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistJP": "冨士原良",
+    "artistEN": "Fujiwara Ryo",
+    "voiceActorJPEN": "Hosoya Yoshimasa",
+    "insights": [
+        "Robin is the only hero with Blárraven+.",
+        "Robin is the only hero with Blárraven."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "High Deliverer",
+    "artist": "Fujiwara Ryo (冨士原良)",
+    "dialogue": [
+        {
+            "text": "Hello, I'm Robin. I'm a tactician for the Shepherds, so let me know if you need a battle plan.",
+            "context": "joined"
+        },
+        {
+            "text": "Is everyone here a Hero summoned from somewhere else?",
+            "context": "castle"
+        },
+        {
+            "text": "I have no memories from before the time I met Chrom. But I still have a fine mind for tactics. Oh, you too? How intriguing.",
+            "context": "castle"
+        },
+        {
+            "text": "Back home, I was always checking on everyone, too. It helps me relax, knowing they're safe and well.",
+            "context": "castle"
+        },
+        {
+            "text": "Do you have a moment to go over some tactical options? I'd love to hear your thoughts.",
+            "context": "castle"
+        },
+        {
+            "text": "This kingdom has some amazing authors! ...Oh, ah, is it OK if I borrow books from the library?",
+            "context": "castle"
+        },
+        {
+            "text": "Nice to meet you. I'm Robin. I was asked to come say hello by your good friend <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Even I couldn't have seen this coming!",
+            "context": "level"
+        },
+        {
+            "text": "This is all part of the plan.",
+            "context": "level"
+        },
+        {
+            "text": "Er, is that it?",
+            "context": "level"
+        },
+        {
+            "text": "I'm glad you see my strategic value to the team.",
+            "context": "growth"
+        },
+        {
+            "text": "I appreciate the opportunity you've given me to observe your battle tactics in depth. Every time we head out, I can't help but be proud that you've chosen me to fight at your side. But I do feel bad for interfering with the bonding process between partners. You and Alfonse share something special, right? Similar to the bond between Chrom and me? But there is also an understanding between fellow tacticians, and I vow to support you to the end.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 2,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 6,
+        "spd": 6,
+        "def": 6,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 50,
+        "spd": 50,
+        "def": 50,
+        "res": 40
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "atk": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            },
+            "spd": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            },
+            "def": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            },
+            "res": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "atk": {
+                "base": 27,
+                "low": 24,
+                "high": 30
+            },
+            "spd": {
+                "base": 27,
+                "low": 24,
+                "high": 30
+            },
+            "def": {
+                "base": 26,
+                "low": 23,
+                "high": 29
+            },
+            "res": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 40,
+                "low": 36,
+                "high": 43
+            },
+            "atk": {
+                "base": 29,
+                "low": 25,
+                "high": 32
+            },
+            "spd": {
+                "base": 29,
+                "low": 25,
+                "high": 32
+            },
+            "def": {
+                "base": 29,
+                "low": 25,
+                "high": 32
+            },
+            "res": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 149
+            }
+        }
+    }
+}

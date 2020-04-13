@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 14,
+    "name": "Wolfpup Fang",
+    "description": "Grants Spd+3. At the start of turn 1, grants special cooldown count-2 to unit and unit's support partner (if any). At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.",
+    "docType": "weapon",
+    "idTag": "SID_人狼娘の爪牙",
+    "spCost": 400,
+    "_id": "weapon:wolfpup-fang"
+}

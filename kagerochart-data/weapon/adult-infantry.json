@@ -1,0 +1,10 @@
+{
+    "range": 1,
+    "might": 9,
+    "name": "Adult (Infantry)",
+    "description": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.",
+    "docType": "weapon",
+    "idTag": "SID_成獣の化身・歩行",
+    "spCost": 200,
+    "_id": "weapon:adult-infantry"
+}

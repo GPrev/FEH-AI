@@ -1,0 +1,214 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Fjorm",
+    "epitet": "New Traditions",
+    "display": "Fjorm: New Traditions",
+    "description": "The gentle second princess of Nifl, the Kingdom of Ice. Her joy in joining Laegjarn and the others for a trip to the shrine shines through.",
+    "artist": "Maeshima Shigeki (前嶋重機)",
+    "voiceActorEN": "Heather Watson",
+    "voiceActorJP": "高橋李依",
+    "dialogue": [
+        {
+            "text": "I am Fjorm, second princess of Nifl. I hear that some people plan their entire year on New Year's Day. Let's set our goals together, shall we?",
+            "context": "joined"
+        },
+        {
+            "text": "This may not be my typical weapon, but my brother Hríd and I trained with bows when we were young. I should be of some assistance to you still.",
+            "context": "castle"
+        },
+        {
+            "text": "Nifl is all but closed off due to the snow this time of year. Askr is so warm and cozy by comparison!",
+            "context": "castle"
+        },
+        {
+            "text": "Thank you for inviting me to accompany you to the shrine. I already know what I'll wish for... And I hope your wish comes true, too.",
+            "context": "castle"
+        },
+        {
+            "text": "Seeing the dawn of the new year from the sky is like nothing else. You can join me up there if you'd like. Don't worry, I'll hold the reins!",
+            "context": "castle"
+        },
+        {
+            "text": "There is never enough time. We must take life one day at a time and stride steadily toward our goals.",
+            "context": "castle"
+        },
+        {
+            "text": "I come with a greeting for the new year from your dear friend <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "I'm so happy right now. Recalling this feeling will carry me through the year!",
+            "context": "level"
+        },
+        {
+            "text": "I never want to forget this sensation.",
+            "context": "level"
+        },
+        {
+            "text": "This means I'm not yet strong enough...",
+            "context": "level"
+        },
+        {
+            "text": "Surely a good sign... I'll make this year better than the last.",
+            "context": "growth"
+        },
+        {
+            "text": "To be able to visit you for the new year is exactly what I wanted. It's made me very glad. I've been reflecting on my actions of this past year, and I've decided to embrace new goals for this new year. I don't want to spend my days idle. I will continue moving forward, and I'll do all I can with the time I have. And also... I want to help you in any way I can. Even more than I did last year. Well then... Shall we head to the shrine? Let us both make new promises for this new year.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Green",
+    "origin": "Fire Emblem Heroes",
+    "weapon": [
+        {
+            "_id": "weapon:kabura-ya-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:kabura-ya",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-bow",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-bow",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:reposition",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Green Bow",
+    "tomeClass": 0,
+    "moveType": "Flying",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 8,
+        "spd": 8,
+        "def": 4,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 60,
+        "def": 35,
+        "res": 40
+    },
+    "passiveC": [
+        {
+            "_id": "passive-c:even-res-wave-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:even-res-wave-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:even-res-wave-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:atk-spd-bond-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:atk-spd-bond-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:atk-spd-bond-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:atk-spd-link-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:atk-spd-link-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:atk-spd-link-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:fjorm-new-traditions",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 39,
+                "low": 35,
+                "high": 42
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "res": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 150
+            }
+        }
+    }
+}

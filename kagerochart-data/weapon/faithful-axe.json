@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 10,
+    "name": "Faithful Axe",
+    "description": "If unit is adjacent to an ally, grants Atk/Spd/Def/Res+3 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_祝祭の斧",
+    "nextSkill": {
+        "_id": "weapon:faithful-axe-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:faithful-axe"
+}

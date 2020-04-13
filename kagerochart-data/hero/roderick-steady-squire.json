@@ -1,0 +1,322 @@
+{
+    "_id": "hero:roderick-steady-squire",
+    "display": "Roderick: Steady Squire",
+    "name": "Roderick",
+    "color": "Blue",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:steady-lance",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:firesweep-l-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:firesweep-lance",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:rally-def-res",
+            "unlock": 4
+        },
+        {
+            "_id": "assist:rally-defense",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveB": [
+        {
+            "_id": "passive-b:drag-back",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:drive-def-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:drive-def-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:spur-def-1",
+            "unlock": 3
+        }
+    ],
+    "passiveA": [],
+    "description": "An aspiring knight of Altea. Of calm demeanor. Luke's longtime friend and rival. Appears in Fire Emblem: New Mystery of the Emblem.",
+    "weaponType": "Blue Lance",
+    "moveType": "Cavalry",
+    "origin": "Fire Emblem: Mystery of the Emblem",
+    "gender": "Male",
+    "voiceActorEN": "Christian La Monte",
+    "voiceActorJP": "八代拓",
+    "releaseDate": "2017-06-14T07:00:00.000Z",
+    "artistJP": "板垣ハコ",
+    "artistEN": "Itagaki Hako",
+    "voiceActorJPEN": "Taku Yashiro",
+    "insights": [
+        "Roderick is the only hero with Firesweep Lance+.",
+        "Roderick is the only hero with Firesweep Lance."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Steady Squire",
+    "artist": "Itagaki Hako (板垣ハコ)",
+    "dialogue": [
+        {
+            "text": "My name is Roderick, a knight in training for Altea. I will do my best to prove my use.",
+            "context": "joined"
+        },
+        {
+            "text": "This castle welcomes Heroes, but does that include me? I'm only a knight in training!",
+            "context": "castle"
+        },
+        {
+            "text": "The leader we had in our platoon back home is someone I deeply respected. I have to admit that you remind me somewhat of that person!",
+            "context": "castle"
+        },
+        {
+            "text": "I want to become a true knight of Altea, and thus a man of any importance. But to do that, I must complete my time as a knight in training.",
+            "context": "castle"
+        },
+        {
+            "text": "I have known my friend Luke for a long time. He may act rashly, but I know he has a good heart.",
+            "context": "castle"
+        },
+        {
+            "text": "I would like to join you to scout the area outside of the castle. It's always best to be prepared for anything.",
+            "context": "castle"
+        },
+        {
+            "text": "I beg your pardon. I'm Roderick, a knight in training. I bring greetings from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "I'll savor this only for a moment. There's work to do.",
+            "context": "level"
+        },
+        {
+            "text": "How encouraging. Slow and steady wins the race.",
+            "context": "level"
+        },
+        {
+            "text": "I may falter at this rate. I must work harder.",
+            "context": "level"
+        },
+        {
+            "text": "I owe you thanks plus a vow to give you my all.",
+            "context": "growth"
+        },
+        {
+            "text": "Have I yet proven my use? I hope I have grown strong enough to be of great help to you. I find it hard to know whether I measure up, but I sense that I haven't disappointed you. I promise that I'll keep doing my best not to be a burden. I hope to even lighten your load. This order relies so much on your strength. I can't imagine what it must be like to bear that load. But if you'll allow me to remain...? I will help you carry it.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 6,
+        "spd": 7,
+        "def": 5,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 55,
+        "spd": 60,
+        "def": 45,
+        "res": 40
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "atk": {
+                "base": 27,
+                "low": 24,
+                "high": 30
+            },
+            "spd": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "atk": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "spd": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "def": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            },
+            "res": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 40,
+                "low": 36,
+                "high": 43
+            },
+            "atk": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "spd": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "def": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "res": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 154
+            }
+        }
+    }
+}

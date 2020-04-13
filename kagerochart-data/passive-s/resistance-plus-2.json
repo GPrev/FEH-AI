@@ -1,0 +1,12 @@
+{
+    "_id": "passive-s:resistance-plus-2",
+    "name": "Resistance +2",
+    "sp": 60,
+    "type": "s",
+    "description": "Grants Res +2",
+    "icon": "/images/icons/passives/resistance-plus-2.png",
+    "docType": "passive-s",
+    "statMod": {
+        "res": 2
+    }
+}

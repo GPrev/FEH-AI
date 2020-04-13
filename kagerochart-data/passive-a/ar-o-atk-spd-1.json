@@ -1,0 +1,11 @@
+{
+    "name": "AR-O Atk/Spd 1",
+    "description": "If attacking in Aether Raids, grants Atk/Spd+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +4; 3 grants +3; 4 grants +2; ≥5 grants +1. Destroyed defensive structures are not counted.)",
+    "docType": "passive-a",
+    "idTag": "SID_攻撃速さの攻城戦1",
+    "nextSkill": {
+        "_id": "passive-a:ar-o-atk-spd-2"
+    },
+    "spCost": 60,
+    "_id": "passive-a:ar-o-atk-spd-1"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Renewal 2",
+    "description": "At the start of every third turn, restores 10 HP.",
+    "docType": "passive-b",
+    "idTag": "SID_回復2",
+    "nextSkill": {
+        "_id": "passive-b:renewal-3"
+    },
+    "spCost": 120,
+    "_id": "passive-b:renewal-2"
+}

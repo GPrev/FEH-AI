@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Deep-Blue Bow",
+    "description": "Grants Spd+3. Effective against flying and armored foes. If foe's HP = 100% and unit initiates combat, grants Atk/Spd/Def/Res+4 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_絶海の蒼弓",
+    "spCost": 400,
+    "_id": "weapon:deep-blue-bow"
+}

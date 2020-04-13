@@ -1,0 +1,11 @@
+{
+    "name": "Poison Strike 1",
+    "description": "If unit initiates combat, deals 4 damage to foe after combat.",
+    "docType": "passive-b",
+    "idTag": "SID_蛇毒1",
+    "nextSkill": {
+        "_id": "passive-b:poison-strike-2"
+    },
+    "spCost": 60,
+    "_id": "passive-b:poison-strike-1"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Atk/Spd 1",
+    "description": "Grants Atk/Spd+1.",
+    "docType": "passive-a",
+    "idTag": "SID_攻撃速さ1",
+    "nextSkill": {
+        "_id": "passive-a:atk-spd-2"
+    },
+    "spCost": 80,
+    "_id": "passive-a:atk-spd-1"
+}

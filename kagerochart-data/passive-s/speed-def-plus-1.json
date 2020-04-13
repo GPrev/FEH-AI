@@ -1,0 +1,12 @@
+{
+    "_id": "passive-s:speed-def-plus-1",
+    "name": "Speed Def +1",
+    "sp": 80,
+    "description": "Grants Spd/Def+1.",
+    "type": "s",
+    "docType": "passive-s",
+    "statMod": {
+        "spd": 1,
+        "def": 1
+    }
+}

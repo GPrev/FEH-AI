@@ -1,0 +1,11 @@
+{
+    "name": "Staff Valor 1",
+    "description": "While unit lives and uses a staff, unit gets 1.5x SP after combat or after using a healing Assist skill. (Only highest value applied. Does not stack.)",
+    "docType": "passive-c",
+    "idTag": "SID_杖の技量1",
+    "nextSkill": {
+        "_id": "passive-c:staff-valor-2"
+    },
+    "spCost": 30,
+    "_id": "passive-c:staff-valor-1"
+}

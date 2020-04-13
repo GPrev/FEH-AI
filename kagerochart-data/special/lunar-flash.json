@@ -1,0 +1,10 @@
+{
+    "exclusive": true,
+    "name": "Lunar Flash",
+    "description": "Treats foe’s Def/Res as if reduced by 20% during combat. Boosts damage by 20% of unit's Spd.",
+    "docType": "special",
+    "idTag": "SID_月光閃",
+    "spCost": 500,
+    "cooldownCount": 2,
+    "_id": "special:lunar-flash"
+}

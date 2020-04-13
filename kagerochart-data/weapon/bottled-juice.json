@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Bottled Juice",
+    "description": "Inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.) After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions.",
+    "docType": "weapon",
+    "idTag": "SID_果汁のボトル",
+    "nextSkill": {
+        "_id": "weapon:bottled-juice-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:bottled-juice"
+}

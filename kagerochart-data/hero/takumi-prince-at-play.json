@@ -1,0 +1,210 @@
+{
+    "_id": "hero:takumi-prince-at-play",
+    "display": "Takumi: Prince at Play",
+    "name": "Takumi",
+    "color": "Colorless",
+    "weapon": [
+        {
+            "_id": "weapon:fishie-bow-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:fishie-bow",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-bow",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-bow",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:glimmer",
+            "unlock": 4
+        },
+        {
+            "_id": "special:night-sky",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Colorless Bow",
+    "moveType": "Flying",
+    "passiveA": [
+        {
+            "_id": "passive-a:fury-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:fury-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:fury-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:odd-res-wave-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:odd-res-wave-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:odd-res-wave-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [],
+    "insights": [
+        "Takumi is the only hero with Fishie Bow+.",
+        "Takumi is the only hero with Fishie Bow."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Prince at Play",
+    "description": "Prince of Hoshido who wields the divine bow Fujin Yumi. He is genuinely happy about being able to spend time on a tropical island. Appears in Fire Emblem Fates.",
+    "artist": "Tobi",
+    "voiceActorEN": "Michael Sinterniklaas",
+    "voiceActorJP": "梶裕貴",
+    "dialogue": [
+        {
+            "text": "Cannonbaaaall— Waah! Wh-where'd the water go?! And where did I go?! And who are you?! Me? I'm Takumi, of Hoshido! Are you the one who interrupted my vacation?",
+            "context": "joined"
+        },
+        {
+            "text": "Clear blue skies, clouds in shapes I can't even name, and an ocean that stretches on forever... Ahh... Tropical islands are simply wonderful places.",
+            "context": "castle"
+        },
+        {
+            "text": "I once bested my own brother Ryoma in a battle for a ticket to a tropical island. I never would have succeeded had it not been for Oboro and Hinata. I have nothing but praise for those two.",
+            "context": "castle"
+        },
+        {
+            "text": "Here, I brought you some water. You need to remember to stay hydrated with the sun beating down on you.",
+            "context": "castle"
+        },
+        {
+            "text": "Admiring my swimsuit, huh? Oboro made it for me. You should ask her to make one for you, too!",
+            "context": "castle"
+        },
+        {
+            "text": "When I'm away from home, I can't help but miss all the foods I grew up with. But there is a lot to be said for the foods of another nation that you'd never have back home.",
+            "context": "castle"
+        },
+        {
+            "text": "Hi, I'm Takumi. And yes, I'm wearing a swimsuit. Just take this message from <Friend Name>, OK?",
+            "context": "friend"
+        },
+        {
+            "text": "I feel amazing... Summer and the beach go hand in hand!",
+            "context": "level"
+        },
+        {
+            "text": "Nothing beats the feeling of the summer sun's rays.",
+            "context": "level"
+        },
+        {
+            "text": "I'm sure I'm just tired from all the swimming...",
+            "context": "level"
+        },
+        {
+            "text": "And with this power, I can now fully enjoy the summer!",
+            "context": "growth"
+        },
+        {
+            "text": "The tropical island was so much more than I expected. Each day was as exciting as the last. I was in a literal paradise, so you can't blame me for being a little bitter when you first summoned me here... That said, being here is just as satisfying. This smile is all natural, if you couldn't tell. I'm not ungrateful for the chance to be here, but I do still have unfinished business back on the island. So let's end this world's fighting quickly and go back to it together. I'll show you how to really have some summer fun! That's a promise, <Player Name>.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Fates",
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 8,
+        "spd": 6,
+        "def": 5,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 65,
+        "def": 35,
+        "res": 35
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 40,
+                "low": 36,
+                "high": 43
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "res": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 150
+            }
+        }
+    }
+}

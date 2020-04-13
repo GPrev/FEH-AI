@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Verðandi",
+    "description": "If Sing or Dance is used, grants Atk/Spd/Def/Res+4 to target.",
+    "docType": "weapon",
+    "idTag": "SID_ヴェルザンディ",
+    "spCost": 400,
+    "_id": "weapon:verandi"
+}

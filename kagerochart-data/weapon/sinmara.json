@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Sinmara",
+    "description": "Grants Def+3. At start of turn, deals 20 damage to foes within 2 spaces.",
+    "docType": "weapon",
+    "idTag": "SID_シンモラ",
+    "spCost": 400,
+    "_id": "weapon:sinmara"
+}

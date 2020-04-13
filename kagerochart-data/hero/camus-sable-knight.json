@@ -1,0 +1,315 @@
+{
+    "_id": "hero:camus-sable-knight",
+    "display": "Camus: Sable Knight",
+    "name": "Camus",
+    "color": "Blue",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:gradivus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-lance",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:growing-thunder",
+            "unlock": 4
+        },
+        {
+            "_id": "special:rising-thunder",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:granis-shield",
+            "unlock": 4
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:goad-cavalry",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:spur-atk-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:spur-atk-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "description": "A knight who's devoted to his motherland, Grust. Wields the lance Gradivus. Appears in Fire Emblem: Mystery of the Emblem.",
+    "weaponType": "Blue Lance",
+    "moveType": "Cavalry",
+    "origin": "Fire Emblem: Mystery of the Emblem",
+    "gender": "Male",
+    "voiceActorEN": "Travis Willingham",
+    "voiceActorJP": "井上和彦",
+    "releaseDate": "2017-06-02T00:00:00.000Z",
+    "artistJP": "スエカネクミコ",
+    "artistEN": "Suekane Kumiko",
+    "voiceActorJPEN": "Inoue Kazuhiko",
+    "insights": [],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Sable Knight",
+    "artist": "Suekane Kumiko (スエカネクミコ)",
+    "dialogue": [
+        {
+            "text": "My name is Camus of Grust. I am captain of the Sable Order of knights.",
+            "context": "joined"
+        },
+        {
+            "text": "An Order of Heroes, hm? I can respect those who fight loyally for their motherland.",
+            "context": "castle"
+        },
+        {
+            "text": "I am certain everyone has someone in their past that they will never forget...",
+            "context": "castle"
+        },
+        {
+            "text": "What is it? Is there something on my face?",
+            "context": "castle"
+        },
+        {
+            "text": "I live and breathe for my motherland. Will I bleed for her? Every last drop.",
+            "context": "castle"
+        },
+        {
+            "text": "My early career as a knight was at a remote post. Training was the only way to pass the time.",
+            "context": "castle"
+        },
+        {
+            "text": "I have come with greetings from afar. I take it that you are <Player Name>. Who sent me? A fair question. It was <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Let this power be ever in service to the motherland!",
+            "context": "level"
+        },
+        {
+            "text": "As ever, I must prepare for the next battle.",
+            "context": "level"
+        },
+        {
+            "text": "A bitter moment.",
+            "context": "level"
+        },
+        {
+            "text": "Allow me to demonstrate the might of Grust!",
+            "context": "growth"
+        },
+        {
+            "text": "I wonder when it was that I first began actively shutting others out. Obviously my experiences played a part, but since fighting at your side, I feel my thinking has changed. At first my isolation protected me from the pain of losing someone I cared about...or so I thought. But to allow that fear to prevent genuine connection with others is to rob yourself of their strength. You taught me that, and you will always have my gratitude.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 7,
+        "spd": 8,
+        "def": 6,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 55,
+        "spd": 55,
+        "def": 55,
+        "res": 30
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 38,
+                "low": 35,
+                "high": 41
+            },
+            "atk": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "spd": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "def": {
+                "base": 27,
+                "low": 24,
+                "high": 30
+            },
+            "res": {
+                "base": 14,
+                "low": 11,
+                "high": 17
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 39,
+                "low": 36,
+                "high": 42
+            },
+            "atk": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "spd": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "def": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "res": {
+                "base": 15,
+                "low": 12,
+                "high": 18
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 42,
+                "low": 39,
+                "high": 45
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "res": {
+                "base": 17,
+                "low": 13,
+                "high": 20
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 155
+            }
+        }
+    }
+}

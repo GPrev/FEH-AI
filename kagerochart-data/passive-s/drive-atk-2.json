@@ -1,0 +1,9 @@
+{
+    "_id": "passive-s:drive-atk-2",
+    "name": "Drive Atk 2",
+    "sp": 240,
+    "type": "s",
+    "description": "Grants allies within 2 spaces Atk+3 during combat.",
+    "icon": "/images/icons/passives/drive-atk-2.png",
+    "docType": "passive-s"
+}

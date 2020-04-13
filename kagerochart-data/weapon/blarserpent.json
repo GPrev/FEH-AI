@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Blárserpent",
+    "description": "If foe initiates combat and uses bow, dagger, magic, or staff, grants Def/Res+6 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_ブラーサーペント",
+    "nextSkill": {
+        "_id": "weapon:blarserpent-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:blarserpent"
+}

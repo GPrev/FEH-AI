@@ -1,0 +1,11 @@
+{
+    "name": "Armor March 2",
+    "description": "At start of turn, if unit's HP ≥ 50% and unit is adjacent to an armored ally, unit and adjacent armored allies can move 1 extra space. (That turn only. Does not stack.)",
+    "docType": "passive-c",
+    "idTag": "SID_重装の行軍2",
+    "nextSkill": {
+        "_id": "passive-c:armor-march-3"
+    },
+    "spCost": 120,
+    "_id": "passive-c:armor-march-2"
+}

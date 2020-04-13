@@ -1,0 +1,8 @@
+{
+    "name": "Spd/Def 2",
+    "description": "Grants Spd/Def+2.",
+    "docType": "passive-a",
+    "idTag": "SID_速さ守備2",
+    "spCost": 160,
+    "_id": "passive-a:spd-def-2"
+}

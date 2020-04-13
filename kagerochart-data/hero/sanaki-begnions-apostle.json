@@ -1,0 +1,213 @@
+{
+    "_id": "hero:sanaki-begnions-apostle",
+    "display": "Sanaki: Begnion's Apostle",
+    "name": "Sanaki",
+    "color": "Red",
+    "weapon": [
+        {
+            "_id": "weapon:cymbeline",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:bolganone",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elfire",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:fire",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:harsh-command",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:triangle-adept-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:triangle-adept-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:triangle-adept-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:hone-atk-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:hone-atk-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:hone-atk-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "description": "Empress of Begnion. Known as the Apostle, voice of the goddess. Young but dutiful ruler. Appears in Fire Emblem: Radiant Dawn.",
+    "weaponType": "Red Tome",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Radiant Dawn",
+    "gender": "Female",
+    "voiceActorEN": "Erin Fitzgerald",
+    "voiceActorJP": "中原麻衣",
+    "releaseDate": "2017-03-02T07:00:00.000Z",
+    "artistJP": "富岡二郎",
+    "artistEN": "Tomioka Jiro",
+    "voiceActorJPEN": "Nakahara Mai",
+    "insights": [
+        "Sanaki is the only hero with Cymbeline.",
+        "Sanaki has the highest <abbr title=\"Attack\">ATK</abbr> potential possible among Tome heroes.",
+        "Sanaki has the lowest <abbr title=\"Health Points\">HP</abbr> potential possible among Tome heroes.",
+        "Sanaki has the lowest <abbr title=\"Health Points\">HP</abbr> potential possible among Red heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Begnion's Apostle",
+    "artist": "Tomioka Jiro (富岡二郎)",
+    "dialogue": [
+        {
+            "text": "You stand in the presence of Sanaki, Empress of Begnion! I am the Apostle—the voice of the goddess!",
+            "context": "joined"
+        },
+        {
+            "text": "Power can cast shadows, as it did over the senate in my realm. The prince and princess here, however, remain radiant. May they stay that way forever.",
+            "context": "castle"
+        },
+        {
+            "text": "Oh! Do you have candy? I mean, I am far from being a child and care nothing for such things. But if you have some, I wouldn't say no.",
+            "context": "castle"
+        },
+        {
+            "text": "You always strive to do so much for everyone. And so I reward you now with my thanks.",
+            "context": "castle"
+        },
+        {
+            "text": "I have an older sister who I didn't know about for years. But she has become so precious to me.",
+            "context": "castle"
+        },
+        {
+            "text": "I will now present to you my full name—Sanaki Kirsch Altina. I expect you will remember it.",
+            "context": "castle"
+        },
+        {
+            "text": "You are standing in the presence of Sanaki—37th Empress of Begnion. You may kneel, if you wish.",
+            "context": "friend"
+        },
+        {
+            "text": "It's only natural for the Apostle.",
+            "context": "level"
+        },
+        {
+            "text": "Average things can happen to even the Apostle.",
+            "context": "level"
+        },
+        {
+            "text": "It's...a fluke. That's all. No reason to fret.",
+            "context": "level"
+        },
+        {
+            "text": "What was that? I felt as if I just transcended in some way!",
+            "context": "growth"
+        },
+        {
+            "text": "Hmpf. I seem to have grown while here in this world. Have you noticed any differences? I mean, avert your eyes! You gaze upon the Empress of Begnion! I am a privilege to behold! And yet, you don't give a fig for all that, do you? You stand in my presence without fear. Most would beg my permission to approach. But not you. I must say that I find it...refreshing. Still, I am not a commoner, and though I seem to be a girl like any other, I am not. I don't have the luxury of acting juvenile. But when I'm with you, I wish I did. I think you might be a bad influence on me. How curious. I wonder what it means... Still, never forget who I am—the Empress of Begnion!",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 1,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 8,
+        "spd": 6,
+        "def": 3,
+        "res": 7
+    },
+    "growthRates": {
+        "hp": 40,
+        "atk": 65,
+        "spd": 45,
+        "def": 30,
+        "res": 60
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "atk": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "spd": {
+                "base": 26,
+                "low": 23,
+                "high": 30
+            },
+            "def": {
+                "base": 17,
+                "low": 13,
+                "high": 20
+            },
+            "res": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 147
+            }
+        }
+    }
+}

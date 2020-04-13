@@ -1,0 +1,205 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Hubert",
+    "epitet": "Sinister Servant",
+    "display": "Hubert: Sinister Servant",
+    "description": "The Adrestian Empire's Minister of the Imperial Household and legitimate son of Marquis Vestra. Has sworn complete fealty to Edelgard. Appears in Fire Emblem: Three Houses.",
+    "artist": "PenekoR (п猫Ｒ)",
+    "voiceActorEN": "Robbie Daymond",
+    "voiceActorJP": "小西克幸",
+    "dialogue": [
+        {
+            "text": "I am Hubert, heir to House Vestra and future minister to the emperor. Pleased to make your acquaintance.",
+            "context": "joined"
+        },
+        {
+            "text": "A big family of Heroes, caring and watching out for one another. How nauseating.",
+            "context": "castle"
+        },
+        {
+            "text": "I am Lady Edelgard's humble servant. I serve you for now, but my true loyalties lie with her. Don't forget it.",
+            "context": "castle"
+        },
+        {
+            "text": "You like watching from afar as others spill blood on your behalf. You and the goddess have that in common.",
+            "context": "castle"
+        },
+        {
+            "text": "Some say I'm a rat—always conniving in the shadows. Perhaps so. But I'm not the only rat around here.",
+            "context": "castle"
+        },
+        {
+            "text": "I have been analyzing the enemy's weak points so we can exploit them. I will give you a report shortly.",
+            "context": "castle"
+        },
+        {
+            "text": "I come bearing well wishes on your friend's behalf. Please tell your friend I have more important things to do.",
+            "context": "friend"
+        },
+        {
+            "text": "Any experience is worth having.",
+            "context": "level"
+        },
+        {
+            "text": "This strength will serve Lady Edelgard well!",
+            "context": "level"
+        },
+        {
+            "text": "This is harder than expected.",
+            "context": "level"
+        },
+        {
+            "text": "Heh, this suits me well.",
+            "context": "growth"
+        },
+        {
+            "text": "You have a useful talent for expelling enemies from the world of the living. I find it charming. Provided you held no ill will toward Lady Edelgard, I would consider inviting you to join me in the Empire. Of course, I cannot allow a personal attachment to compromise my devotion to Lady Edelgard. I am sworn eternally and irrevocably to her service. However... If there existed a version of me who had never thus pledged himself, he may have offered his life to you.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Red",
+    "origin": "Fire Emblem: Three Houses",
+    "releaseDate": "2019-08-07T07:00:00.000Z",
+    "weapon": [
+        {
+            "_id": "weapon:raurfox-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:raurfox",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:ruin",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:flux",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:growing-thunder",
+            "unlock": 4
+        },
+        {
+            "_id": "special:rising-thunder",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Red Tome",
+    "tomeClass": 5,
+    "moveType": "Infantry",
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 10,
+        "spd": 7,
+        "def": 3,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 65,
+        "spd": 55,
+        "def": 35,
+        "res": 45
+    },
+    "passiveB": [
+        {
+            "_id": "passive-b:chill-res-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:chill-res-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:chill-res-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:inf-hexblade-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:inf-hexblade-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:inf-hexblade-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:hubert-sinister-servant",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 41,
+                "low": 38,
+                "high": 44
+            },
+            "atk": {
+                "base": 39,
+                "low": 36,
+                "high": 42
+            },
+            "spd": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "def": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "res": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 156
+            }
+        }
+    }
+}

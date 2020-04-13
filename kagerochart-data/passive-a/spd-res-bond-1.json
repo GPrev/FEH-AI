@@ -1,0 +1,11 @@
+{
+    "name": "Spd/Res Bond 1",
+    "description": "If unit is adjacent to an ally, grants Spd/Res+3 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_速さ魔防の絆1",
+    "nextSkill": {
+        "_id": "passive-a:spd-res-bond-2"
+    },
+    "spCost": 60,
+    "_id": "passive-a:spd-res-bond-1"
+}

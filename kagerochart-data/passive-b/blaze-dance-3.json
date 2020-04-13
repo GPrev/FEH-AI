@@ -1,0 +1,8 @@
+{
+    "name": "Blaze Dance 3",
+    "description": "If Sing or Dance is used, grants Atk+4 to target.",
+    "docType": "passive-b",
+    "idTag": "SID_業火の舞い3",
+    "spCost": 200,
+    "_id": "passive-b:blaze-dance-3"
+}

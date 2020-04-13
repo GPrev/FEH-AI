@@ -1,0 +1,11 @@
+{
+    "name": "Brash Assault 1",
+    "description": "If unit initiates combat against a foe that can counter and unit's HP ≤ 30%, unit makes a guaranteed follow-up attack.",
+    "docType": "passive-b",
+    "idTag": "SID_差し違え1",
+    "nextSkill": {
+        "_id": "passive-b:brash-assault-2"
+    },
+    "spCost": 50,
+    "_id": "passive-b:brash-assault-1"
+}

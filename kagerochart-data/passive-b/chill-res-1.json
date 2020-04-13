@@ -1,0 +1,11 @@
+{
+    "name": "Chill Res 1",
+    "description": "At start of turn, inflicts Res-3 on foe on the enemy team with the highest Res through its next action.",
+    "docType": "passive-b",
+    "idTag": "SID_魔防の封印1",
+    "nextSkill": {
+        "_id": "passive-b:chill-res-2"
+    },
+    "spCost": 60,
+    "_id": "passive-b:chill-res-1"
+}

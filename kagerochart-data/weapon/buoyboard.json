@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Buoyboard",
+    "description": "If a bonus granted by a skill like Rally or Hone is active on unit, grants Atk/Res+4 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_海に浮かぶ板",
+    "nextSkill": {
+        "_id": "weapon:buoyboard-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:buoyboard"
+}

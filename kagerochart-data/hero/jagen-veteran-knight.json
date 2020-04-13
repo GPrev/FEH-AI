@@ -1,0 +1,328 @@
+{
+    "_id": "hero:jagen-veteran-knight",
+    "display": "Jagen: Veteran Knight",
+    "name": "Jagen",
+    "color": "Blue",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:silver-lance-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-lance",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:aegis",
+            "unlock": 4
+        },
+        {
+            "_id": "special:holy-vestments",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:fury-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:fury-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:fury-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:fortify-cavalry",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:fortify-res-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:fortify-res-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "description": "Veteran knight of Altea who protected Marth since he was young. Appears in Fire Emblem: Mystery of the Emblem.",
+    "weaponType": "Blue Lance",
+    "moveType": "Cavalry",
+    "origin": "Fire Emblem: Mystery of the Emblem",
+    "gender": "Male",
+    "voiceActorEN": "Walden James",
+    "voiceActorJP": "五王四郎",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistJP": "山田章博",
+    "artistEN": "Yamada Akihiro",
+    "voiceActorJPEN": "Gou Shirou",
+    "insights": [
+        "Jagen is the only hero with Fortify Cavalry.",
+        "Jagen has the highest <abbr title=\"Resistance\">RES</abbr> potential possible among Cavalry heroes.",
+        "Jagen has the highest <abbr title=\"Resistance\">RES</abbr> potential possible among Lance heroes.",
+        "Jagen has the highest <abbr title=\"Resistance\">RES</abbr> potential possible among Blue heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Veteran Knight",
+    "artist": "Yamada Akihiro (山田章博)",
+    "dialogue": [
+        {
+            "text": "I am Jagen of the knights of Altea, Prince Marth's guardian. I will thank you not to treat me like an old man.",
+            "context": "joined"
+        },
+        {
+            "text": "This is a fine castle, full of history and style. Perhaps not as grand as Altea Castle, but that's a high bar...",
+            "context": "castle"
+        },
+        {
+            "text": "King Cornelius, you should know that Prince Marth has matured into a fine man...",
+            "context": "castle"
+        },
+        {
+            "text": "Exemplary patrolling! Next time, I shall accompany you—don't think I can't keep up!",
+            "context": "castle"
+        },
+        {
+            "text": "I could regale you with the history of Altea and Prince Marth's deeds... but we would be here for days.",
+            "context": "castle"
+        },
+        {
+            "text": "It seems I've injured my back. Would you be so kind as to press hard just there?",
+            "context": "castle"
+        },
+        {
+            "text": "You are <Player Name>? I bring kindest greetings from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Hmph. It would appear I'm still good for something.",
+            "context": "level"
+        },
+        {
+            "text": "Only natural for a paladin of Altea.",
+            "context": "level"
+        },
+        {
+            "text": "I have dishonored my rank and my country.",
+            "context": "level"
+        },
+        {
+            "text": "To think I still had new tricks to learn...",
+            "context": "growth"
+        },
+        {
+            "text": "I have served many years as a knight, but never have I met someone quite like you. Do we all follow you because you summoned us? I think not. At least not solely. There is something about you that inspires others to fight for you. I can't put it into words... It reminds me a bit of Prince Marth, who also naturally draws heroes to his cause. In any case, I sincerely wish to spend what days I have left fighting at your side.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 19,
+        "atk": 7,
+        "spd": 6,
+        "def": 7,
+        "res": 10
+    },
+    "growthRates": {
+        "hp": 40,
+        "atk": 45,
+        "spd": 40,
+        "def": 40,
+        "res": 55
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 19,
+                "low": 18,
+                "high": 20
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 19,
+                "low": 18,
+                "high": 20
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 20,
+                "low": 19,
+                "high": 21
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "atk": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "spd": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "atk": {
+                "base": 26,
+                "low": 23,
+                "high": 29
+            },
+            "spd": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "def": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            },
+            "res": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "atk": {
+                "base": 27,
+                "low": 24,
+                "high": 31
+            },
+            "spd": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "def": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            },
+            "res": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 148
+            }
+        }
+    }
+}

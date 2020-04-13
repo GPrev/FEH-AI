@@ -1,0 +1,322 @@
+{
+    "_id": "hero:gunter-inveterate-soldier",
+    "display": "Gunter: Inveterate Soldier",
+    "name": "Gunter",
+    "color": "Green",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:silver-axe-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-axe",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-axe",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-axe",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:harsh-command",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:armored-blow-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:armored-blow-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:armored-blow-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:hone-cavalry",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:hone-atk-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:hone-atk-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "description": "Veteran knight of Nohr. One of Corrin's retainers. Extremely strict. Appears in Fire Emblem Fates.",
+    "weaponType": "Green Axe",
+    "moveType": "Cavalry",
+    "origin": "Fire Emblem: Fates",
+    "gender": "Male",
+    "voiceActorEN": "DC Douglas",
+    "voiceActorJP": "納谷六朗",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistJP": "山田章博",
+    "artistEN": "Yamada Akihiro",
+    "voiceActorJPEN": "Naya Rokuro",
+    "insights": [
+        "Gunter is the only hero with Silver Axe+.",
+        "Gunter is the only hero with Hone Cavalry."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Inveterate Soldier",
+    "artist": "Yamada Akihiro (山田章博)",
+    "dialogue": [
+        {
+            "text": "I am Gunter, a knight of Nohr. Some might call me too old. Their mistake. This knight is a seasoned veteran!",
+            "context": "joined"
+        },
+        {
+            "text": "I'm impressed by the commander of this Order of Heroes here—a keen mind for one still in her bloom.",
+            "context": "castle"
+        },
+        {
+            "text": "I was the caretaker for my liege Corrin for many years. So rather than a retainer, I'm more a parent.",
+            "context": "castle"
+        },
+        {
+            "text": "I admire your initiative doing patrols. We should trade stories over tea. I'm no butler, but I can brew the stuff.",
+            "context": "castle"
+        },
+        {
+            "text": "My lifetime of training served me well in my world. Will it in this one? Maybe I should train with you ranking members of this order.",
+            "context": "castle"
+        },
+        {
+            "text": "I maintain my armor often. When I got here, I had little more than that on me. So I have to take good care of it all.",
+            "context": "castle"
+        },
+        {
+            "text": "Hmm, I take it that you are <Player Name>. Then I've finally found you. I bring greetings from your friend <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "It feels good to be in action again!",
+            "context": "level"
+        },
+        {
+            "text": "Guess I can learn new tricks...",
+            "context": "level"
+        },
+        {
+            "text": "At my age, I'm lucky I don't feel weaker.",
+            "context": "level"
+        },
+        {
+            "text": "A lot of power for an old man. But I'll use it as best I can.",
+            "context": "growth"
+        },
+        {
+            "text": "I heard from your commander that you're a...Great Hero. Come now—out with it. Are you a Great Hero? Perhaps you're too humble to say as much. You might not have my years, but embrace who you are and develop your potential! That weapon of yours—make yourself into the sort of person who is worthy of holding it! I have known another one in my days who faced a similar dilemma. Now, before you dismiss this as the ramblings of an old man, know this: I have also sensed it while we've been in battle—a gap between your title and your confidence. No need to apologize. It's only natural, and it's also where I come in. Let this veteran fight for you a bit longer. I offer my sword and my years, until you are great inside and out.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 20,
+        "atk": 9,
+        "spd": 6,
+        "def": 10,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 50,
+        "spd": 40,
+        "def": 50,
+        "res": 30
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 20,
+                "low": 19,
+                "high": 21
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 20,
+                "low": 19,
+                "high": 21
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 21,
+                "low": 20,
+                "high": 22
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 39,
+                "low": 36,
+                "high": 42
+            },
+            "atk": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "spd": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "def": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "res": {
+                "base": 15,
+                "low": 12,
+                "high": 18
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 40,
+                "low": 37,
+                "high": 43
+            },
+            "atk": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "spd": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "def": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "res": {
+                "base": 16,
+                "low": 13,
+                "high": 19
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 43,
+                "low": 39,
+                "high": 46
+            },
+            "atk": {
+                "base": 32,
+                "low": 28,
+                "high": 35
+            },
+            "spd": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "def": {
+                "base": 33,
+                "low": 29,
+                "high": 36
+            },
+            "res": {
+                "base": 18,
+                "low": 14,
+                "high": 21
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 150
+            }
+        }
+    }
+}

@@ -1,0 +1,218 @@
+{
+    "_id": "hero:olivia-sky-high-dancer",
+    "display": "Olivia: Sky-High Dancer",
+    "name": "Olivia",
+    "color": "Red",
+    "weapon": [
+        {
+            "_id": "weapon:skuld",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-sword",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:dance",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "weaponType": "Red Sword",
+    "moveType": "Flying",
+    "passiveA": [
+        {
+            "_id": "passive-a:bracing-stance-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:bracing-stance-1",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:steady-stance-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:chill-spd-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:chill-spd-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:chill-spd-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:guidance-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:guidance-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:guidance-1",
+            "unlock": 3
+        }
+    ],
+    "insights": [
+        "Olivia is the only hero with Skuld."
+    ],
+    "refresher": true,
+    "dragonflowers": 5,
+    "epitet": "Sky-High Dancer",
+    "description": "A dancer who travels widely and is quite gifted, despite extreme shyness. Dancing in the sky has opened new horizons of boldness for her! Appears in Fire Emblem Awakening.",
+    "artist": "AKIRA",
+    "voiceActorEN": "Karen Strassman",
+    "voiceActorJP": "松嵜麗",
+    "dialogue": [
+        {
+            "text": "My name is Olivia, and from atop my falicorn I'll— Eek! W-wait, don't take off so suddenly! Please land!",
+            "context": "joined"
+        },
+        {
+            "text": "Dancing is embarrassing enough, but dancing up in the sky is just plain dangerous! One mistake and I'll fall!",
+            "context": "castle"
+        },
+        {
+            "text": "I've ridden in a wagon, of course, and on horseback. But never did I think I'd ride something that can fly! And I especially didn't imagine I'd be dancing all the way up there...",
+            "context": "castle"
+        },
+        {
+            "text": "Let me know if you start to feel worn out, OK? I'd be so glad if I could raise your spirits with a dance!",
+            "context": "castle"
+        },
+        {
+            "text": "Oh, I was just giving my friend here a much-needed brushing. Judging by his reaction, he really likes it!",
+            "context": "castle"
+        },
+        {
+            "text": "I just got back from the market. I found a ton of fruits and vegetables that I know falicorns just love!",
+            "context": "castle"
+        },
+        {
+            "text": "Allow me to introduce myself. I'm Olivia, a dancer with Chrom's Shepherds. I've been entrusted with a letter to you from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "I feel like I'm flying all on my own! Is this what it means to be one with your steed?",
+            "context": "level"
+        },
+        {
+            "text": "My partner and I became fast friends. He's such a good boy!",
+            "context": "level"
+        },
+        {
+            "text": "Hey, whoa! Stop! Listen to me! No, you're going the wrong way!",
+            "context": "level"
+        },
+        {
+            "text": "Thank you! I promise I'll use this to soar to even grander heights!",
+            "context": "growth"
+        },
+        {
+            "text": "O-oh! Were you watching me dance? Well, yes, you have a good eye... It is a brand-new dance I'm working on. But please don't tell anyone about it! It's not ready for an audience yet, so promise me. OK? I thought I could make my dances much more expressive by making better use of the sky and my falicorn. Flying through the sky on his back for the first time was such a moving experience for me. The sound of cutting through the wind, the color of the sky, the brisk air all around me... I want to convey all of those things through my dancing! My hope is to give people who have never flown before a sense of how amazing it is. I've been trying a lot of new moves, but it isn't going as well as I had hoped. I've taken my fair share of tumbles lately... But when this new dance is finally ready, I want you to be the first person who sees it!",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Awakening",
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 5,
+        "spd": 7,
+        "def": 3,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 55,
+        "spd": 60,
+        "def": 50,
+        "res": 45
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 40
+            },
+            "atk": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "spd": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "def": {
+                "base": 26,
+                "low": 22,
+                "high": 29
+            },
+            "res": {
+                "base": 23,
+                "low": 20,
+                "high": 27
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 149
+            }
+        }
+    }
+}

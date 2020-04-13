@@ -1,0 +1,8 @@
+{
+    "name": "Embla's Ward",
+    "description": "Reduces damage dealt to unit to 0.",
+    "docType": "passive-s",
+    "idTag": "SID_エンブラの加護",
+    "spCost": 0,
+    "_id": "passive-s:emblas-ward"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Rehabilitate+",
+    "description": "Restores HP = 50% of Atk -10. (Minimum of 7 HP.) If target's HP is ≤ 50%, the lower the target's HP, the more HP is restored.",
+    "docType": "assist",
+    "idTag": "SID_リバース＋",
+    "spCost": 300,
+    "_id": "assist:rehabilitate-plus"
+}

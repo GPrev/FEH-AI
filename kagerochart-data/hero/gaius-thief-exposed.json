@@ -1,0 +1,216 @@
+{
+    "_id": "hero:gaius-thief-exposed",
+    "display": "Gaius: Thief Exposed",
+    "name": "Gaius",
+    "color": "Colorless",
+    "weapon": [
+        {
+            "_id": "weapon:refreshing-bolt-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:refreshing-bolt",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-bow",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-bow",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:astra",
+            "unlock": 4
+        },
+        {
+            "_id": "special:night-sky",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveB": [
+        {
+            "_id": "passive-b:vantage-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:vantage-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:vantage-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:def-ploy-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:def-ploy-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:def-ploy-1",
+            "unlock": 3
+        }
+    ],
+    "passiveA": [],
+    "description": "A thief from Ylisse known for his sweet tooth. Usually secrets candy in his clothes, but can't when he's dressed like this. Appears in Fire Emblem Awakening.",
+    "weaponType": "Colorless Bow",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Awakening",
+    "gender": "Male",
+    "voiceActorEN": "Ray Chase",
+    "voiceActorJP": "松本忍",
+    "releaseDate": "2017-06-30T00:00:00.000Z",
+    "artistJP": "一色箱",
+    "artistEN": "Ichiiro Hako",
+    "voiceActorJPEN": "Matsumoto Shinobu",
+    "insights": [
+        "Gaius is the only hero with Refreshing Bolt+.",
+        "Gaius is the only hero with Refreshing Bolt.",
+        "Gaius has the lowest <abbr title=\"Health Points\">HP</abbr> potential possible among Bow heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Thief Exposed",
+    "artist": "Ichiiro Hako (一色箱)",
+    "dialogue": [
+        {
+            "text": "I'm Gaius. I don't turn down jobs, even when I'm on vacation. You got one for me?",
+            "context": "joined"
+        },
+        {
+            "text": "I bet you know all the hiding spots. For candy, I mean! Your outfit...looks useful for that. Dressed like this, I don't have anywhere I can stash my sweets.",
+            "context": "castle"
+        },
+        {
+            "text": "We got the army together at an Outrealms resort for some fun... We collected shells and got attacked by bugs, and somebody tried to feed me a very disturbing cake.",
+            "context": "castle"
+        },
+        {
+            "text": "Those Order of Heroes uniforms look really toasty. Take a page from my book and shed a few layers!",
+            "context": "castle"
+        },
+        {
+            "text": "Can I ask you a favor? Would you go and get some honey for me? I'd do it myself, but...would you be brave enough to fight off bees while dressed like this? Me neither.",
+            "context": "castle"
+        },
+        {
+            "text": "I guess that's just about enough training for today! If I hear another crack about baby fat...",
+            "context": "castle"
+        },
+        {
+            "text": "What are you looking at me like that for? I know I look a little shifty...but I'm just delivering greetings! Honest.",
+            "context": "friend"
+        },
+        {
+            "text": "After working so hard in the summer heat...I deserve this.",
+            "context": "level"
+        },
+        {
+            "text": "I get the job done...no matter how I'm dressed.",
+            "context": "level"
+        },
+        {
+            "text": "Well, what did you expect? I'm wearing a swimsuit, here.",
+            "context": "level"
+        },
+        {
+            "text": "Thanks... Now let's sneak off and eat ice pops together.",
+            "context": "growth"
+        },
+        {
+            "text": "Man, is it hot... Wait. What do you want? I don't have any sweets to share... You saw the tattoo on my arm when I was swimming?! Keep it down! I'm trying to keep a lid on that... It's a mark they put on convicts where I come from. I did a favor for a buddy, and that's what it got me... Talk is cheap, and I don't need your pity. But...it's nice to know you're not judging me for my past. And you know what? It's summer. I should let loose and try to have fun. Be a good guy for once. After all, I've got you on my side, don't I? Things could be worse!",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 7,
+        "spd": 8,
+        "def": 3,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 40,
+        "atk": 50,
+        "spd": 65,
+        "def": 35,
+        "res": 50
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "atk": {
+                "base": 30,
+                "low": 26,
+                "high": 33
+            },
+            "spd": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "def": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "res": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 148
+            }
+        }
+    }
+}

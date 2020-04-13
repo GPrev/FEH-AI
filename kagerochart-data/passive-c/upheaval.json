@@ -1,0 +1,9 @@
+{
+    "exclusive": true,
+    "name": "Upheaval",
+    "description": "At the start of turn 1, deals 7 damage to all foes, and if defending in Aether Raids during anima season, destroys offensive structure within same column as unit. (Does not affect structures that cannot be destroyed.)",
+    "docType": "passive-c",
+    "idTag": "SID_メガクェイク",
+    "spCost": 300,
+    "_id": "passive-c:upheaval"
+}

@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Warrior Princess",
+    "description": "Effective against flying and armored foes. Grants Spd+3. Grants Atk+3 to allies within 2 spaces during combat.",
+    "docType": "weapon",
+    "idTag": "SID_戦姫の和弓",
+    "spCost": 400,
+    "_id": "weapon:warrior-princess"
+}

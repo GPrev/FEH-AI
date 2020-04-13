@@ -1,0 +1,8 @@
+{
+    "name": "Bonus Doubler 3",
+    "description": "Grants bonus to Atk/Spd/Def/Res during combat = current bonus on each of unit's stats. Calculates each stat bonus independently.",
+    "docType": "passive-a",
+    "idTag": "SID_強化増幅3",
+    "spCost": 240,
+    "_id": "passive-a:bonus-doubler-3"
+}

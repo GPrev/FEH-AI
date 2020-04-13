@@ -1,0 +1,60 @@
+{
+    "range": 2,
+    "might": 12,
+    "name": "Red-Hot Ducks+",
+    "description": "If unit's Spd > foe's Spd, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.) After combat, if unit attacked, inflicts Def/Res-7 on foes within 2 spaces of target through their next actions.",
+    "docType": "weapon",
+    "idTag": "SID_赤いアヒル＋",
+    "spCost": 300,
+    "_id": "weapon:red-hot-ducks-plus",
+    "refines": [
+        {
+            "might": 12,
+            "stats": {
+                "hp": 2,
+                "spd": 2
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 13,
+            "stats": {
+                "hp": 2,
+                "atk": 1
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 12,
+            "stats": {
+                "hp": 2,
+                "def": 3
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 12,
+            "stats": {
+                "hp": 2,
+                "res": 3
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        }
+    ]
+}

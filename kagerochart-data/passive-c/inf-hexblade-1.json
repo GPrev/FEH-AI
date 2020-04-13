@@ -1,0 +1,11 @@
+{
+    "name": "Inf. Hexblade 1",
+    "description": "If adjacent infantry allies use sword, lance, axe, bow, or dagger, calculates their damage using the lower of foe's Def or Res during combat. (Does not affect damage dealt by Specials that trigger before combat.)",
+    "docType": "passive-c",
+    "idTag": "SID_歩行の魔刃1",
+    "nextSkill": {
+        "_id": "passive-c:inf-hexblade-2"
+    },
+    "spCost": 60,
+    "_id": "passive-c:inf-hexblade-1"
+}

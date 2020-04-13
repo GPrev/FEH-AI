@@ -1,0 +1,214 @@
+{
+    "_id": "hero:jaffar-angel-of-death",
+    "display": "Jaffar: Angel of Death",
+    "name": "Jaffar",
+    "color": "Colorless",
+    "weapon": [
+        {
+            "_id": "weapon:deathly-dagger",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-dagger",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-dagger",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-dagger",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:glimmer",
+            "unlock": 4
+        },
+        {
+            "_id": "special:night-sky",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:life-and-death-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:life-and-death-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:life-and-death-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:threaten-spd-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:threaten-spd-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:threaten-spd-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [],
+    "description": "An emotionless member of the Black Fang assassins. Known as the Angel of Death. Appears in Fire Emblem: The Blazing Blade.",
+    "weaponType": "Colorless Dagger",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: The Blazing Blade",
+    "gender": "Male",
+    "voiceActorEN": "Walden James",
+    "voiceActorJP": "内田雄馬",
+    "releaseDate": "2017-03-16T07:00:00.000Z",
+    "artistJP": "久杉トク",
+    "artistEN": "Kusugi Toku",
+    "voiceActorJPEN": "Uchida Yuuma",
+    "insights": [
+        "Jaffar is the only hero with Deathly Dagger."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Angel of Death",
+    "artist": "Kusugi Toku (久杉トク)",
+    "dialogue": [
+        {
+            "text": "I am Jaffar. Known also as the Angel of Death. But only by those in Black Fang—and now, you.",
+            "context": "joined"
+        },
+        {
+            "text": "Order of Heroes... Odd name. This is a group that kills and kills for your homeland, yes?",
+            "context": "castle"
+        },
+        {
+            "text": "In my world, I was a corpse. Or nearly one since birth. But meeting Nino...changed me.",
+            "context": "castle"
+        },
+        {
+            "text": "Patrolling again, are you? That is the effective way to find spies and deter assassins.",
+            "context": "castle"
+        },
+        {
+            "text": "We are making conversation, aren't we? All right. The best time to assassinate someone is when the target is eating or sleeping.",
+            "context": "castle"
+        },
+        {
+            "text": "When I have time to myself, I think of assassination. I have thought of little else since my youngest days.",
+            "context": "castle"
+        },
+        {
+            "text": "Don't run. I'm not here to deliver death. Only a greeting from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Only luck.",
+            "context": "level"
+        },
+        {
+            "text": "Not bad.",
+            "context": "level"
+        },
+        {
+            "text": "Must be rusty.",
+            "context": "level"
+        },
+        {
+            "text": "Will this help me do...what I do?",
+            "context": "growth"
+        },
+        {
+            "text": "You are too kind—to me, to all around us, to everyone. That is your weak spot, <Player Name>. You make a grave mistake if you think me a friend. I am your tool to use. Nothing else. When I fail, cast me into the heap with the trash and offal. You must, for that is the way of life... What? You won't? Then you leave me no choice but to live on and on, serving you. Know then that there is no mission too cruel for me to handle on your behalf. I will finish it. I will return to you. There is no need to worry.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 6,
+        "spd": 8,
+        "def": 5,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 45,
+        "spd": 55,
+        "def": 45,
+        "res": 40
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 41,
+                "low": 38,
+                "high": 44
+            },
+            "atk": {
+                "base": 26,
+                "low": 23,
+                "high": 30
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "res": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 147
+            }
+        }
+    }
+}

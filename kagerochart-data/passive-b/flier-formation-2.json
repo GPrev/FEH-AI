@@ -1,0 +1,11 @@
+{
+    "name": "Flier Formation 2",
+    "description": "If unit's HP ≥ 50%, unit can move to a space adjacent to a flying ally within 2 spaces.",
+    "docType": "passive-b",
+    "idTag": "SID_編隊飛行2",
+    "nextSkill": {
+        "_id": "passive-b:flier-formation-3"
+    },
+    "spCost": 120,
+    "_id": "passive-b:flier-formation-2"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Vantage 1",
+    "description": "If unit’s HP ≤ 25% and foe initiates combat, unit can counterattack before foe’s first attack.",
+    "docType": "passive-b",
+    "idTag": "SID_待ち伏せ1",
+    "nextSkill": {
+        "_id": "passive-b:vantage-2"
+    },
+    "spCost": 50,
+    "_id": "passive-b:vantage-1"
+}

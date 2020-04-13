@@ -1,0 +1,216 @@
+{
+    "_id": "hero:nowi-eternal-witch",
+    "display": "Nowi: Eternal Witch",
+    "name": "Nowi",
+    "color": "Red",
+    "weapon": [
+        {
+            "_id": "weapon:grimoire",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:fenrir",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:ruin",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:flux",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:reposition",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:atk-res-bond-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:atk-res-bond-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:atk-res-bond-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:live-for-bounty",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:hone-fliers",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:hone-atk-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:hone-atk-1",
+            "unlock": 1
+        }
+    ],
+    "description": "Manakete who travels with Chrom's group. She may be over a thousand years old, but she still gets candy. Appears in Fire Emblem Awakening.",
+    "weaponType": "Red Tome",
+    "moveType": "Flying",
+    "origin": "Fire Emblem: Awakening",
+    "gender": "Female",
+    "voiceActorEN": "Hunter MacKenzie Austin",
+    "voiceActorJP": "たなか久美",
+    "releaseDate": "2017-10-30T00:00:00.000Z",
+    "artistJP": "円居雄一郎",
+    "artistEN": "Enkyo Yuichiro",
+    "voiceActorJPEN": "Tanaka Kumi",
+    "insights": [
+        "Nowi is the only hero with Grimoire.",
+        "Nowi has the lowest <abbr title=\"Health Points\">HP</abbr> potential possible among Flying heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Eternal Witch",
+    "artist": "Enkyo Yuichiro (円居雄一郎)",
+    "dialogue": [
+        {
+            "text": "Ta-da! It's Nowi the witch! I'll use my magic to celebrate the harvest and get lots and lots of candy!",
+            "context": "joined"
+        },
+        {
+            "text": "Look around, and you'll see Heroes dressed all kinds of different ways! It's like they're all wearing costumes... It feels like it's always festival time around here. Hee hee!",
+            "context": "castle"
+        },
+        {
+            "text": "A long time ago, I went to a harvest festival in the Outrealms. That night, I gazed at the stars with my friend Tiki!",
+            "context": "castle"
+        },
+        {
+            "text": "Are you busy? You look busy. Yeah, you're busy. Here, have some candy! You'll feel better if you eat a treat!",
+            "context": "castle"
+        },
+        {
+            "text": "The next time you go to the ruins to summon, take me! I want to watch. Those shiny stones look like candy!",
+            "context": "castle"
+        },
+        {
+            "text": "Look! I just made a potion, like a real witch! It has a lizard's tail, one of my scales, and...some plant...juice...stuff.",
+            "context": "castle"
+        },
+        {
+            "text": "If you don't cough up some candy, I'm going to flatten you! Uh...actually, I'm just here to say hello. Sorry!",
+            "context": "friend"
+        },
+        {
+            "text": "Yay! I think I've matured. Don't you?",
+            "context": "level"
+        },
+        {
+            "text": "I'm exploding with witchy energy! That's good, right?",
+            "context": "level"
+        },
+        {
+            "text": "I guess I need more training if I want to be a witch...",
+            "context": "level"
+        },
+        {
+            "text": "The power you've given me is even better than candy!",
+            "context": "growth"
+        },
+        {
+            "text": "Hi there! There's something I wanted to tell you, actually. Thanks for always coming to say hi. I'm sorry, though... Why? Because you keep coming, but I never have any candy! I mean, it's the harvest festival, after all... Huh? You don't come for the candy? Then...does that mean you're here to see me? That's totally amazing! Honestly, I'd rather chat with you than get candy, too! How about that? Come say hi anytime you want. You know, it doesn't matter if you say something selfish or play a trick... I'll always forgive you! I'm an adult, after all. I have to take the high road!",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 5,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 7,
+        "spd": 5,
+        "def": 4,
+        "res": 7
+    },
+    "growthRates": {
+        "hp": 40,
+        "atk": 60,
+        "spd": 60,
+        "def": 35,
+        "res": 45
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "atk": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "spd": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "def": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "res": {
+                "base": 27,
+                "low": 24,
+                "high": 31
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 147
+            }
+        }
+    }
+}

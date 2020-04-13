@@ -1,0 +1,323 @@
+{
+    "_id": "hero:lachesis-lionhearts-sister",
+    "display": "Lachesis: Lionheart's Sister",
+    "name": "Lachesis",
+    "color": "Colorless",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:absorb-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:absorb",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:assault",
+            "unlock": 1
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:solid-earth-balm",
+            "unlock": 3
+        },
+        {
+            "_id": "special:imbue",
+            "unlock": 2
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:physic-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "assist:physic",
+            "unlock": 4
+        },
+        {
+            "_id": "assist:mend",
+            "unlock": 2
+        },
+        {
+            "_id": "assist:heal",
+            "unlock": 0
+        }
+    ],
+    "docType": "hero",
+    "passiveC": [
+        {
+            "_id": "passive-c:spur-res-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:spur-res-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:spur-res-1",
+            "unlock": 3
+        }
+    ],
+    "passiveA": [],
+    "passiveB": [],
+    "description": "Lady of House Nordion. Adores her older brother, Eldigan, to the point that other men pale in comparison. Appears in Fire Emblem: Genealogy of the Holy War.",
+    "weaponType": "Colorless Staff",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Genealogy of the Holy War",
+    "gender": "Female",
+    "voiceActorEN": "Cristina Valenzuela",
+    "voiceActorJP": "大西沙織",
+    "releaseDate": "2017-03-02T07:00:00.000Z",
+    "artistJP": "みわべさくら",
+    "artistEN": "Miwabe Sakura",
+    "voiceActorJPEN": "Oonishi Saori",
+    "insights": [],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Lionheart's Sister",
+    "artist": "Miwabe Sakura (みわべさくら)",
+    "dialogue": [
+        {
+            "text": "One wonders—who are you? Not to mention, what are your intentions? And what is this curious place?",
+            "context": "joined"
+        },
+        {
+            "text": "Though not quite as fine a man as Eldigan, my brother, Alfonse has recommendable qualities. No doubt, the prince will one day help Askr become a truly great realm.",
+            "context": "castle"
+        },
+        {
+            "text": "My brother set a high standard for what is possible in a man. How could one ever marry, knowing him?",
+            "context": "castle"
+        },
+        {
+            "text": "You mustn't ever perish. I have suffered far too much loss as it is. I would wither away.",
+            "context": "castle"
+        },
+        {
+            "text": "One wonders—if you served a foolish ruler, would you obey without question or defy his will?",
+            "context": "castle"
+        },
+        {
+            "text": "My brother Eldigan possessed Mystletainn, the Demon Sword, a legendary blade in my world. He was also known as a lord of lionhearted courage. I'll never meet the likes of Eldigan again.",
+            "context": "castle"
+        },
+        {
+            "text": "How do you do? Oh, on second glance, let me answer that. You're doing surprisingly well here.",
+            "context": "friend"
+        },
+        {
+            "text": "Simply splendid, isn't it?",
+            "context": "level"
+        },
+        {
+            "text": "No less than one expected. And yet, no more either.",
+            "context": "level"
+        },
+        {
+            "text": "One isn't used to such disappointments.",
+            "context": "level"
+        },
+        {
+            "text": "One can only hope to be as talented as her brother in time.",
+            "context": "growth"
+        },
+        {
+            "text": "In my world, my dear brother gave all, struggling to serve the highest of knightly ideals. How I tried to keep him from being consumed by his situation. Tried—and failed. My heart has been torn to ribbons, and those ribbons, to tatters. Dearest, darling Eldie—I mean, Brother—how I miss you and your noble bearing. Though one longs to walk through life with as superlative a person, one must carry on. You have proven that you, like he, fight to preserve the hope of others who depend on you. One hopes—that is, I hope—that you will take great care and let me battle with you. I can't stand any more loss.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 5,
+        "spd": 7,
+        "def": 4,
+        "res": 7
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 40,
+        "def": 40,
+        "res": 50
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "atk": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "spd": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "def": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "res": {
+                "base": 26,
+                "low": 23,
+                "high": 29
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "atk": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "spd": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "def": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "res": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 39,
+                "low": 35,
+                "high": 42
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 30,
+                "low": 26,
+                "high": 33
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 148
+            }
+        }
+    }
+}

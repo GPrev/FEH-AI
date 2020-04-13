@@ -1,0 +1,11 @@
+{
+    "name": "Escape Route 2",
+    "description": "If unit’s HP ≤ 40%, unit can move to a space adjacent to any ally.",
+    "docType": "passive-b",
+    "idTag": "SID_離脱の行路2",
+    "nextSkill": {
+        "_id": "passive-b:escape-route-3"
+    },
+    "spCost": 120,
+    "_id": "passive-b:escape-route-2"
+}

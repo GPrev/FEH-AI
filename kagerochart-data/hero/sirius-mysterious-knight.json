@@ -1,0 +1,205 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Sirius",
+    "epitet": "Mysterious Knight",
+    "display": "Sirius: Mysterious Knight",
+    "description": "A wandering knight whose face is always hidden under a mask. A mysterious figure told of only in records of the War of Heroes. Appears in Fire Emblem: Mystery of the Emblem.",
+    "artist": "Suekane Kumiko (スエカネクミコ)",
+    "voiceActorEN": "Patrick Seitz",
+    "voiceActorJP": "井上和彦",
+    "dialogue": [
+        {
+            "text": "I am...merely a traveler. You may call me Sirius.",
+            "context": "joined"
+        },
+        {
+            "text": "If this is my fate...I will fight to ease the sorrows of the people.",
+            "context": "castle"
+        },
+        {
+            "text": "I must get back so I might protect my homeland...and the future of the one I love.",
+            "context": "castle"
+        },
+        {
+            "text": "...Are you, too, in its grip? A power beyond human reason... No, of course not. Forget I said anything...",
+            "context": "castle"
+        },
+        {
+            "text": "I want to study the techniques of Heroes from other worlds... It reminds me of my early days, as one young knight among many.",
+            "context": "castle"
+        },
+        {
+            "text": "You would do well to announce your presence! I have not fully adjusted to being surrounded by others just yet...",
+            "context": "castle"
+        },
+        {
+            "text": "Walk the path of your beliefs. That is the message I have for you, sent from your friend <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "I will not meet my end here. Despite my misfortune, I must press on.",
+            "context": "level"
+        },
+        {
+            "text": "I must catch up.",
+            "context": "level"
+        },
+        {
+            "text": "Apologies...",
+            "context": "level"
+        },
+        {
+            "text": "With this, defeating us should not be possible. Shame our foes will learn as much only once it is too late...",
+            "context": "growth"
+        },
+        {
+            "text": "The Order of Heroes is a beautiful thing. The patriots of a righteous land... I can relate to that. I, too, gave up everything to fight for my country, king, and people... Every thrust of my lance reinforced that there were no other paths for me than to live and die as a knight. When I finally lost everything, I met some people who showed me what it meant to fight for those you love. If I had known then what I know now, perhaps I would have met with a different fate—as would have others... ...Ahem. I fear I've said too much. Please, forget all that. Now, I fight for you alone, and that is all I am.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Blue",
+    "origin": "Fire Emblem: Mystery of the Emblem",
+    "releaseDate": "2019-09-19T07:00:00.000Z",
+    "weapon": [
+        {
+            "_id": "weapon:sable-lance",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-lance",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:luna",
+            "unlock": 4
+        },
+        {
+            "_id": "special:new-moon",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Blue Lance",
+    "tomeClass": 0,
+    "moveType": "Cavalry",
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 7,
+        "spd": 8,
+        "def": 8,
+        "res": 2
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 65,
+        "def": 60,
+        "res": 30
+    },
+    "passiveA": [
+        {
+            "_id": "passive-a:atk-spd-solo-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:atk-spd-solo-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:atk-spd-solo-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:lull-atk-spd-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:lull-atk-spd-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:lull-atk-spd-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:sirius-mysterious-knight",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 40,
+                "low": 36,
+                "high": 43
+            },
+            "atk": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "spd": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "def": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "res": {
+                "base": 16,
+                "low": 12,
+                "high": 19
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 162
+            }
+        }
+    }
+}

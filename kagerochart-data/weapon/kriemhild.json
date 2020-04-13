@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Kriemhild",
+    "description": "If a bow, dagger, magic, or staff foe initiates combat and unit is within 2 spaces of an ally, unit can counterattack regardless of foe's range and foe cannot make a follow-up attack, but after combat, if unit attacked, deals 20 damage to nearest ally.",
+    "docType": "weapon",
+    "idTag": "SID_クリムヒルド",
+    "spCost": 400,
+    "_id": "weapon:kriemhild"
+}

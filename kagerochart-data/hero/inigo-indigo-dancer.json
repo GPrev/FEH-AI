@@ -1,0 +1,214 @@
+{
+    "_id": "hero:inigo-indigo-dancer",
+    "display": "Inigo: Indigo Dancer",
+    "name": "Inigo",
+    "color": "Green",
+    "weapon": [
+        {
+            "_id": "weapon:dancers-ring-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:dancers-ring",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elwind",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:wind",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:dance",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveB": [
+        {
+            "_id": "passive-b:gale-dance-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:gale-dance-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:gale-dance-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:hone-atk-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:hone-atk-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:hone-atk-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [],
+    "description": "A descendant of the dancer Olivia. He carries on his departed mother's dancing and her power. Appears in Fire Emblem Awakening.",
+    "weaponType": "Green Tome",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Awakening",
+    "gender": "Male",
+    "voiceActorEN": "Mick Wingert",
+    "voiceActorJP": "木島隆一",
+    "releaseDate": "2017-09-29T00:00:00.000Z",
+    "artistJP": "スエカネクミコ",
+    "artistEN": "Suekane Kumiko",
+    "voiceActorJPEN": "Kijima Ryuichi",
+    "insights": [
+        "Inigo is the only hero with Dancer's Ring+.",
+        "Inigo is the only hero with Dancer's Ring.",
+        "Inigo is the only hero with Gale Dance 3.",
+        "Inigo is the only hero with Gale Dance 2.",
+        "Inigo has the lowest <abbr title=\"Attack\">ATK</abbr> potential possible among Green heroes."
+    ],
+    "refresher": true,
+    "dragonflowers": 10,
+    "epitet": "Indigo Dancer",
+    "artist": "Suekane Kumiko (スエカネクミコ)",
+    "dialogue": [
+        {
+            "text": "I am Inigo. I've long dreamed of being a dancer, and I'll dance my heart out on this stage you've provided me.",
+            "context": "joined"
+        },
+        {
+            "text": "My, what a variety of Heroes! I never expected to clap eyes on so many realmsworth of adorable creatures...",
+            "context": "castle"
+        },
+        {
+            "text": "I'm told some don't appreciate male dancers, but I do my best to support everyone all the same.",
+            "context": "castle"
+        },
+        {
+            "text": "I lost my mother, and sometimes, I wonder if she'd smile if she saw me as I am now, carrying on her legacy.",
+            "context": "castle"
+        },
+        {
+            "text": "At the performing arts festival, my friends put on plays, they sang, they danced... Why don't we do something like that here? A wonderful idea, wouldn't you say?",
+            "context": "castle"
+        },
+        {
+            "text": "When I'm dancing is the only time I don't need to remind myself to smile. It just happens naturally.",
+            "context": "castle"
+        },
+        {
+            "text": "I've moseyed over here to bring you <Friend Name>'s best. My outfit? It's for dancing, of course! Isn't it something? ",
+            "context": "friend"
+        },
+        {
+            "text": "I've danced so much for you... I have that to thank for this.",
+            "context": "level"
+        },
+        {
+            "text": "My dream came true—I'm a dancer. Now the real work starts!",
+            "context": "level"
+        },
+        {
+            "text": "How embarrassing! And it means more practice, too...",
+            "context": "level"
+        },
+        {
+            "text": "With this power, I'll dance even more beautifully. Just watch me!",
+            "context": "growth"
+        },
+        {
+            "text": "I have to thank you for calling me to this world and letting me dance for so many Heroes. I've been to a lot of places, seen a lot of things, and met a lot of people... Many of them are dear to me now. But none of them—not a single one— was able to see me as I am now. Nobody saw my dream made real. But now, thanks to you, my dream IS real. Nothing could make me happier. It's not so easy to say this, and maybe it's not easy to hear it, either... Your support means a lot. I'm in your debt. I hope to stay by your side for a long time to come. I want to help you reach your dream. I want to see you smile. Now, and forever...my heart brims with affection for you.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 3,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 14,
+        "atk": 5,
+        "spd": 6,
+        "def": 4,
+        "res": 2
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 50,
+        "spd": 60,
+        "def": 40,
+        "res": 40
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 15,
+                "low": 14,
+                "high": 16
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 37,
+                "low": 33,
+                "high": 40
+            },
+            "atk": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 140
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Spd Opening 1",
+    "description": "At start of turn, grants Spd+2 to ally with the highest Spd for 1 turn. (Excludes unit.)",
+    "docType": "passive-c",
+    "idTag": "SID_速さの開放1",
+    "nextSkill": {
+        "_id": "passive-c:spd-opening-2"
+    },
+    "spCost": 60,
+    "_id": "passive-c:spd-opening-1"
+}

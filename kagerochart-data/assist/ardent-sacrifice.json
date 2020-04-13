@@ -1,0 +1,8 @@
+{
+    "name": "Ardent Sacrifice",
+    "description": "Restores 10 HP to target ally. Unit loses 10 HP but cannot go below 1.",
+    "docType": "assist",
+    "idTag": "SID_献身",
+    "spCost": 150,
+    "_id": "assist:ardent-sacrifice"
+}

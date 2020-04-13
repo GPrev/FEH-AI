@@ -1,0 +1,12 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Vassal's Blade",
+    "description": "Accelerates Special trigger (cooldown count-1). If unit's Spd > foe's Spd, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.)",
+    "docType": "weapon",
+    "idTag": "SID_剣姫の刀",
+    "spCost": 400,
+    "cooldownCount": -1,
+    "_id": "weapon:vassals-blade"
+}

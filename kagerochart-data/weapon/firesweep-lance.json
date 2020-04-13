@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 11,
+    "name": "Firesweep Lance",
+    "description": "Unit and foe cannot counterattack.",
+    "docType": "weapon",
+    "idTag": "SID_火薙ぎの槍",
+    "nextSkill": {
+        "_id": "weapon:firesweep-l-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:firesweep-lance"
+}

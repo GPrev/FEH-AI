@@ -1,0 +1,11 @@
+{
+    "name": "Spd/Res 1",
+    "description": "Grants Spd/Res+1.",
+    "docType": "passive-a",
+    "idTag": "SID_速さ魔防1",
+    "nextSkill": {
+        "_id": "passive-a:spd-res-2"
+    },
+    "spCost": 80,
+    "_id": "passive-a:spd-res-1"
+}

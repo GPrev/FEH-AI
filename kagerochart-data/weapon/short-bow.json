@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Short Bow",
+    "description": "Effective against flying foes. Deals +10 damage when Special triggers.",
+    "docType": "weapon",
+    "idTag": "SID_短弓",
+    "nextSkill": {
+        "_id": "weapon:short-bow-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:short-bow"
+}

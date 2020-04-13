@@ -1,0 +1,224 @@
+{
+    "_id": "hero:mia-moonlit-witch",
+    "display": "Mia: Moonlit Witch",
+    "name": "Mia",
+    "color": "Colorless",
+    "weapon": [
+        {
+            "_id": "weapon:witchy-wand-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:witchy-wand",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:assault",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:heavenly-light",
+            "unlock": 3
+        },
+        {
+            "_id": "special:imbue",
+            "unlock": 2
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:recover-plus",
+            "unlock": 0
+        },
+        {
+            "_id": "assist:recover",
+            "unlock": 3
+        },
+        {
+            "_id": "assist:mend",
+            "unlock": 2
+        },
+        {
+            "_id": "assist:heal",
+            "unlock": 0
+        }
+    ],
+    "docType": "hero",
+    "weaponType": "Colorless Staff",
+    "moveType": "Flying",
+    "passiveA": [
+        {
+            "_id": "passive-a:spd-res-bond-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:spd-res-bond-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:spd-res-bond-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:hone-fliers",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:hone-spd-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:hone-spd-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "insights": [
+        "Mia is the only Staff/Flying hero.",
+        "Mia is the only hero with Witchy Wand+.",
+        "Mia is the only hero with Witchy Wand."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Moonlit Witch",
+    "description": "A mercenary fighting to improve her sword skills. She can't wait to get to the harvest festival. Appears in Fire Emblem: Radiant Dawn.",
+    "artist": "Yoneyama Mai (米山舞)",
+    "voiceActorEN": "Lani Minella",
+    "voiceActorJP": "浅川悠",
+    "dialogue": [
+        {
+            "text": "Is it a trick or a treat? Only you can determine your fate! Oh, I'm Mia, by the way. I'm a mercenary.",
+            "context": "joined"
+        },
+        {
+            "text": "An ambush would be a good trick to play on someone... But where should I hide? Huh? You overheard me just now? I meant, um...a friendly ambush.",
+            "context": "castle"
+        },
+        {
+            "text": "I've visited a lot of countries in my time as a mercenary. And no matter where I go, festivals are always fun!",
+            "context": "castle"
+        },
+        {
+            "text": "This outfit isn't too much, is it? Well, if you think it's perfect for the festival, then let's get witchin'!",
+            "context": "castle"
+        },
+        {
+            "text": "Hey, don't hold back! This candy isn't going to eat itself, boss. Have another handful! Let loose a little!",
+            "context": "castle"
+        },
+        {
+            "text": "I don't ever skip a training session. Especially when it comes to keeping this broomstick steady! Almost took a nasty tumble my first few times out.",
+            "context": "castle"
+        },
+        {
+            "text": "I'm under direct orders to enjoy the festival! Want to join me and your friend <Friend Name>?",
+            "context": "friend"
+        },
+        {
+            "text": "Ha! I'm doing so well today. I feel like I could conquer anything!",
+            "context": "level"
+        },
+        {
+            "text": "I haven't reached the top yet... The fun's just getting started!",
+            "context": "level"
+        },
+        {
+            "text": "Maybe I was distracted by all the candy... I need to refocus!",
+            "context": "level"
+        },
+        {
+            "text": "Let's keep the festival going!",
+            "context": "growth"
+        },
+        {
+            "text": "People often ask me why a girl is out on the battlefield. Can you believe that? I tell them that underestimating my skills can be hazardous to their health! Once they see me in action, they understand I can fight as well as any soldier out there. If not better! But I just know I'll get that question again before the next battle. That's why I like festivals like these. It doesn't matter whether you're a boy or girl, old or young. Everyone just accepts that you're here to have fun! Whether you're playing a trick, being tricked, or just eating candy, you can't help but smile through it all. Well, anyway, festivals like these don't happen everyday. So let's get out there and enjoy ourselves! Come on, boss, you're with me!",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Radiant Dawn",
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 5,
+        "spd": 9,
+        "def": 4,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 55,
+        "spd": 55,
+        "def": 40,
+        "res": 50
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 40
+            },
+            "atk": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "spd": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 150
+            }
+        }
+    }
+}

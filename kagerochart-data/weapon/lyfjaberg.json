@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Lyfjaberg",
+    "description": "Grants Res+3. At start of combat, if unit's HP ≥ 50%, grants Atk/Spd+4 during combat, and if unit initiates combat, foe cannot make a follow-up attack. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions, and if bonus was granted to unit, deals 4 damage to unit.",
+    "docType": "weapon",
+    "idTag": "SID_リフィア",
+    "spCost": 400,
+    "_id": "weapon:lyfjaberg"
+}

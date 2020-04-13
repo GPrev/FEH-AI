@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Ífingr",
+    "description": "Effective against dragon foes. If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 and neutralizes effects that guarantee foe's follow-up attacks during combat, but after combat, if unit attacked, inflicts Atk/Spd/Def/ Res-4 on nearest ally through its next action.",
+    "docType": "weapon",
+    "idTag": "SID_イーヴィングル",
+    "spCost": 400,
+    "_id": "weapon:ifingr"
+}

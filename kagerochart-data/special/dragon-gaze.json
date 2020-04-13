@@ -1,0 +1,12 @@
+{
+    "name": "Dragon Gaze",
+    "description": "Boosts damage by 30% of unit's Atk.",
+    "docType": "special",
+    "idTag": "SID_伏竜",
+    "nextSkill": {
+        "_id": "special:dragon-fang"
+    },
+    "spCost": 100,
+    "cooldownCount": 4,
+    "_id": "special:dragon-gaze"
+}

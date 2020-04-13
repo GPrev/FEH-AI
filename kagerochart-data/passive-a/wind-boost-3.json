@@ -1,0 +1,8 @@
+{
+    "name": "Wind Boost 3",
+    "description": "At start of combat, if unit’s HP ≥ foe's HP+3, grants Spd+6 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_生命の疾風3",
+    "spCost": 200,
+    "_id": "passive-a:wind-boost-3"
+}

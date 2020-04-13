@@ -1,0 +1,11 @@
+{
+    "name": "Warding Stance 1",
+    "description": "If foe initiates combat, grants Res+2 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_明鏡の構え1",
+    "nextSkill": {
+        "_id": "passive-a:warding-stance-2"
+    },
+    "spCost": 50,
+    "_id": "passive-a:warding-stance-1"
+}

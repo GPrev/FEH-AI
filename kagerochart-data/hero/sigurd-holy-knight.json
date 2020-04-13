@@ -1,0 +1,216 @@
+{
+    "_id": "hero:sigurd-holy-knight",
+    "display": "Sigurd: Holy Knight",
+    "name": "Sigurd",
+    "color": "Red",
+    "weapon": [
+        {
+            "_id": "weapon:divine-tyrfing",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-sword",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "docType": "hero",
+    "special": [
+        {
+            "_id": "special:miracle",
+            "unlock": 3
+        }
+    ],
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:close-def-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:close-def-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:close-def-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:crusaders-ward",
+            "unlock": 5
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:spd-smoke-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:spd-smoke-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:spd-smoke-1",
+            "unlock": 3
+        }
+    ],
+    "description": "Heir to Chalphy, descendant of the crusader Baldr, and Seliph's father. He's courageous and has a strong sense of justice. Appears in Fire Emblem: Genealogy of the Holy War.",
+    "weaponType": "Red Sword",
+    "moveType": "Cavalry",
+    "origin": "Fire Emblem: Genealogy of the Holy War",
+    "gender": "Male",
+    "voiceActorEN": "Grant George",
+    "voiceActorJP": "森川智之",
+    "releaseDate": "2017-10-16T07:00:00.000Z",
+    "artistJP": "沙汰",
+    "artistEN": "Sata",
+    "voiceActorJPEN": "Morikawa Toshiyuki",
+    "insights": [
+        "Sigurd is the only hero with Crusader's Ward.",
+        "Sigurd has the highest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Cavalry heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Holy Knight",
+    "artist": "Sata (沙汰)",
+    "dialogue": [
+        {
+            "text": "I am Sigurd. I am the heir to the duchy of Chalphy and descend from the crusader Baldr.",
+            "context": "joined"
+        },
+        {
+            "text": "I love Deirdre—so much so that even were my love for her a crime, I would continue to love her without regret.",
+            "context": "castle"
+        },
+        {
+            "text": "Eldigan, my dear friend... Why were you fated to die?",
+            "context": "castle"
+        },
+        {
+            "text": "I know there's a lot of work to do, and many rely on you. Surely, though, you can find others willing to take on some of these tasks. I, for one, would be happy to help.",
+            "context": "castle"
+        },
+        {
+            "text": "My son, Seliph, is safe. Nothing else could make me happier.",
+            "context": "castle"
+        },
+        {
+            "text": "When the fighting is done, I will rejoin my son, Seliph. This is the promise I made him.",
+            "context": "castle"
+        },
+        {
+            "text": "Are you <Player Name>? Good. I bring a letter for you, from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "As a descendant of Baldr, I will not betray your confidence in me.",
+            "context": "level"
+        },
+        {
+            "text": "I must get stronger. My country and its people need me.",
+            "context": "level"
+        },
+        {
+            "text": "What a poor example I set.",
+            "context": "level"
+        },
+        {
+            "text": "You honor me more than I deserve. I will repay you.",
+            "context": "growth"
+        },
+        {
+            "text": "When others schemed against us, my father and I were branded as traitors. Our family's honor was lost. I fought to bring the truth to light and honor back to our name. But I failed. Seliph fought so hard to dispel the regrets I left behind, even at his young age... The Scion of Light, eradicating the darkness, and avenging his father— that's how people must see him. Of course, there's more than one way to look at things. Evil can be seen as good—and good, evil. This is, unfortunately, something I learned too late. I must explain this to Seliph. It is my duty as his father—I must do what I can to help him become a true king.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 18,
+        "atk": 8,
+        "spd": 7,
+        "def": 5,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 55,
+        "def": 65,
+        "res": 30
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 19,
+                "low": 18,
+                "high": 20
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 41,
+                "low": 37,
+                "high": 44
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "def": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "res": {
+                "base": 17,
+                "low": 13,
+                "high": 20
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 159
+            }
+        }
+    }
+}

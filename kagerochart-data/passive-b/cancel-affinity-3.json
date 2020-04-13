@@ -1,0 +1,8 @@
+{
+    "name": "Cancel Affinity 3",
+    "description": "Neutralizes weapon-triangle advantage granted by unit's skills. If unit has weapon-triangle disadvantage, reverses weapon-triangle advantage granted by foe's skills.",
+    "docType": "passive-b",
+    "idTag": "SID_相性殺し3",
+    "spCost": 200,
+    "_id": "passive-b:cancel-affinity-3"
+}

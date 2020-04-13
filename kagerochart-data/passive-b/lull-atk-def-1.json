@@ -1,0 +1,11 @@
+{
+    "name": "Lull Atk/Def 1",
+    "description": "Inflicts Atk/Def-1 on foe and neutralizes foe's bonuses to Atk/Def (from skills like Fortify, Rally, etc.) during combat.",
+    "docType": "passive-b",
+    "idTag": "SID_攻撃守備の凪1",
+    "nextSkill": {
+        "_id": "passive-b:lull-atk-def-2"
+    },
+    "spCost": 60,
+    "_id": "passive-b:lull-atk-def-1"
+}

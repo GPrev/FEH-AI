@@ -1,0 +1,229 @@
+{
+    "_id": "hero:ryoma-supreme-samurai",
+    "display": "Ryoma: Supreme Samurai",
+    "name": "Ryoma",
+    "color": "Red",
+    "legendary": {
+        "element": "Water",
+        "bst": 0,
+        "stats": {
+            "hp": 3,
+            "def": 4
+        },
+        "duel": false,
+        "duo_skill_id": null,
+        "kind": 1,
+        "pair_up": false
+    },
+    "weapon": [
+        {
+            "_id": "weapon:raijinto",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-sword",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:glimmer",
+            "unlock": 4
+        },
+        {
+            "_id": "special:night-sky",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Red Sword",
+    "moveType": "Flying",
+    "passiveA": [
+        {
+            "_id": "passive-a:kestrel-stance-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:kestrel-stance-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:fierce-stance-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:bushido",
+            "unlock": 5
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:guidance-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:guidance-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:guidance-1",
+            "unlock": 1
+        }
+    ],
+    "insights": [
+        "Ryoma is the only hero with Kestrel Stance 2.",
+        "Ryoma is the only hero with Kestrel Stance 1.",
+        "Ryoma is the only hero with Bushido.",
+        "Ryoma has the highest <abbr title=\"Speed\">SPD</abbr> potential possible among Flying heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Supreme Samurai",
+    "description": "The eldest brother of the Hoshidan royal siblings. Rules from the heavens on the back of a legendary kinshi. Appears in Fire Emblem Fates.",
+    "artist": "Kita Senri (北千里)",
+    "voiceActorEN": "Matt Mercer",
+    "voiceActorJP": "中村悠一",
+    "dialogue": [
+        {
+            "text": "My name is Ryoma. My kinshi and I are in your service, ready to fight. I...apologize for greeting you from all the way up here...",
+            "context": "joined"
+        },
+        {
+            "text": "Please, don't flatter me with titles such as Legendary Hero. I'm well aware of my own shortcomings. Let's leave it to my kinshi to elevate me to such grand heights, shall we?",
+            "context": "castle"
+        },
+        {
+            "text": "I wonder if my siblings back in Hoshido are doing well... I hope they aren't getting into any trouble. I'm especially worried about Takumi. He knows how to hold a grudge, even for something like harmless teasing...",
+            "context": "castle"
+        },
+        {
+            "text": "Anyone who's spent time on the battlefield knows you must claim rest whenever you are able. That said, there is a difference between resting and slacking off... Make sure you get your work done.",
+            "context": "castle"
+        },
+        {
+            "text": "Would you care to meditate with me? A tranquil soul is the key to achieving your goals.",
+            "context": "castle"
+        },
+        {
+            "text": "Soaring through the sky above this kingdom allows me to appreciate it on a whole new level. The vast fields, the towering mountains... It's simply breathtaking.",
+            "context": "castle"
+        },
+        {
+            "text": "Are you <Player Name>? I come carrying a greeting from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Perhaps this has brought me one step closer to mastery.",
+            "context": "level"
+        },
+        {
+            "text": "Daily devotion is the only way.",
+            "context": "level"
+        },
+        {
+            "text": "The road to true mastery remains a long and winding one.",
+            "context": "level"
+        },
+        {
+            "text": "No matter how many skills I gain, I still have a long way to go.",
+            "context": "growth"
+        },
+        {
+            "text": "I must admit, being summoned to this world and called a Hero has lit a fire inside me. The warrior within me feels joy at fighting alongside Heroes from so many other worlds... And also pride at being able to lend my skills on so many different battlefields. However, what I've felt most keenly since arriving is just how precious peace and tranquility truly are. Endless fighting should by no means be the norm for any country. We must restore peace to this kingdom, just as we once did for my homeland Hoshido. I wish to one day soar through the peaceful skies of Askr. You and I can achieve this goal together. But for now, we must continue to soar into battle... Let's fly, <Player Name>!",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Fates",
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 7,
+        "spd": 10,
+        "def": 5,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 60,
+        "spd": 65,
+        "def": 50,
+        "res": 35
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 41,
+                "low": 38,
+                "high": 44
+            },
+            "atk": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "spd": {
+                "base": 39,
+                "low": 36,
+                "high": 42
+            },
+            "def": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "res": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 162
+            }
+        }
+    }
+}

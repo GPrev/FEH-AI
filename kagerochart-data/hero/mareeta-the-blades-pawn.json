@@ -1,0 +1,209 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Mareeta",
+    "epitet": "The Blade's Pawn",
+    "display": "Mareeta: The Blade's Pawn",
+    "description": "Foster daughter of Eyvel, mistress of Fiana. As part of a wicked plot, she laid hands on a cursed sword. Appears in Fire Emblem: Thracia 776.",
+    "artist": "kiyu / Exys Inc.",
+    "voiceActorEN": "Kayli Mills",
+    "voiceActorJP": "井上麻里奈",
+    "dialogue": [
+        {
+            "text": "Wh-who... Where am I? Ah...no matter. With this sword... Kill... Everyone...",
+            "context": "joined"
+        },
+        {
+            "text": "Kill...kill...kill... By this sword... Kill them all.",
+            "context": "castle"
+        },
+        {
+            "text": "My head... Wh-who are they...you?",
+            "context": "castle"
+        },
+        {
+            "text": "Don't interrupt... Unless you have a death wish!",
+            "context": "castle"
+        },
+        {
+            "text": "I need prey...FASTER! Maybe I'll start with you...",
+            "context": "castle"
+        },
+        {
+            "text": "Ah, a sharpened body... Now, to draw fresh blood.",
+            "context": "castle"
+        },
+        {
+            "text": "Instead of a greeting...take my blade instead, <Player Name>...",
+            "context": "friend"
+        },
+        {
+            "text": "Heh heh...",
+            "context": "level"
+        },
+        {
+            "text": "Hmm... Not bad...",
+            "context": "level"
+        },
+        {
+            "text": "Gah. More waiting...",
+            "context": "level"
+        },
+        {
+            "text": "More blood and slaughter!",
+            "context": "growth"
+        },
+        {
+            "text": "This world is good. Full of war, the scent of fresh blood on the air... Swords are a good tool for war... They can kill hordes, shedding their blood on the field... ...No, no...NO! My...sword is not meant for that... It's for something far more important—to protect. But I can't— My name... My loved ones... I-I can't remember! Th-there's nothing... Only...darkness! Mother... Father... <Player Name>...",
+            "context": "maxed"
+        }
+    ],
+    "color": "Red",
+    "origin": "Fire Emblem: Thracia 776",
+    "releaseDate": "2019-05-10T07:00:00.000Z",
+    "weapon": [
+        {
+            "_id": "weapon:shadow-sword",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-sword",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:luna",
+            "unlock": 4
+        },
+        {
+            "_id": "special:new-moon",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Red Sword",
+    "tomeClass": 0,
+    "moveType": "Infantry",
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 8,
+        "spd": 10,
+        "def": 6,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 55,
+        "spd": 70,
+        "def": 50,
+        "res": 45
+    },
+    "passiveA": [
+        {
+            "_id": "passive-a:flashing-blade-4",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:flashing-blade-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:flashing-blade-2",
+            "unlock": 3
+        },
+        {
+            "_id": "passive-a:flashing-blade-1",
+            "unlock": 2
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:null-follow-up-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:null-follow-up-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:null-follow-up-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:mareeta-the-blades-pawn",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 42,
+                "low": 39,
+                "high": 45
+            },
+            "atk": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "spd": {
+                "base": 41,
+                "low": 38,
+                "high": 45
+            },
+            "def": {
+                "base": 29,
+                "low": 25,
+                "high": 32
+            },
+            "res": {
+                "base": 23,
+                "low": 20,
+                "high": 27
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 168
+            }
+        }
+    }
+}

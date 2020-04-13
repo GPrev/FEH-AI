@@ -1,0 +1,318 @@
+{
+    "_id": "hero:sheena-princess-of-gra",
+    "display": "Sheena: Princess of Gra",
+    "name": "Sheena",
+    "color": "Green",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:killer-axe-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:killer-axe",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-axe",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-axe",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:escutcheon",
+            "unlock": 4
+        },
+        {
+            "_id": "special:buckler",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:svalinn-shield",
+            "unlock": 4
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:fortify-armor",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:fortify-def-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:fortify-def-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "description": "Princess of Gra, a failing realm. Feels the heavy weight of her responsibility. Appears in Fire Emblem: Mystery of the Emblem.",
+    "weaponType": "Green Axe",
+    "moveType": "Armored",
+    "origin": "Fire Emblem: Mystery of the Emblem",
+    "gender": "Female",
+    "voiceActorEN": "Lauren Landa",
+    "voiceActorJP": "小林ゆう",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistJP": "まよ",
+    "artistEN": "Mayo",
+    "voiceActorJPEN": "Kobayashi Yuu",
+    "insights": [
+        "Sheena is the only hero with Svalinn Shield.",
+        "Sheena has the lowest <abbr title=\"Attack\">ATK</abbr> potential possible among Armored heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Princess of Gra",
+    "artist": "Mayo (まよ)",
+    "dialogue": [
+        {
+            "text": "I am Princess Sheena of Gra. I reluctantly assumed the throne after my father, King Jiol, passed away.",
+            "context": "joined"
+        },
+        {
+            "text": "This is a good castle—simple, solid, defendable. I hope the same can be said of your country.",
+            "context": "castle"
+        },
+        {
+            "text": "I am an inexperienced leader. But I cannot betray my people's needs and expectations.",
+            "context": "castle"
+        },
+        {
+            "text": "I'm grateful to you for all you've done. Is there something I can help you with?",
+            "context": "castle"
+        },
+        {
+            "text": "I visited the town nearby, and it was filled with smiling faces. The people of this kingdom must be protected.",
+            "context": "castle"
+        },
+        {
+            "text": "How heavy is my armor? Not nearly so heavy as my crown.",
+            "context": "castle"
+        },
+        {
+            "text": "I am Sheena. I come with greetings on behalf of your good friend <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Ever forward, and with ever greater power!",
+            "context": "level"
+        },
+        {
+            "text": "I will better myself one step at a time.",
+            "context": "level"
+        },
+        {
+            "text": "This step is not worthy of being called progress.",
+            "context": "level"
+        },
+        {
+            "text": "My power grows yet greater. It's hard to believe.",
+            "context": "growth"
+        },
+        {
+            "text": "I have heard that you are not originally from this world. So why is it that you continue to fight for it? Is it simply that you value the friends you have made here and do not wish to abandon them? If so...I can understand your feelings. I, too, cannot abandon those who need my help... As such, I will not leave you here. As long as you remain, I promise to support you as well.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 20,
+        "atk": 7,
+        "spd": 5,
+        "def": 11,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 50,
+        "spd": 45,
+        "def": 55,
+        "res": 60
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 20,
+                "low": 19,
+                "high": 21
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 20,
+                "low": 19,
+                "high": 21
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 12,
+                "low": 11,
+                "high": 13
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 21,
+                "low": 20,
+                "high": 22
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 12,
+                "low": 11,
+                "high": 13
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 41,
+                "low": 38,
+                "high": 44
+            },
+            "atk": {
+                "base": 26,
+                "low": 23,
+                "high": 29
+            },
+            "spd": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "def": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "res": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 42,
+                "low": 39,
+                "high": 45
+            },
+            "atk": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "spd": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            },
+            "def": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "res": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 45,
+                "low": 42,
+                "high": 48
+            },
+            "atk": {
+                "base": 30,
+                "low": 26,
+                "high": 33
+            },
+            "spd": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "def": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "res": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 169
+            }
+        }
+    }
+}

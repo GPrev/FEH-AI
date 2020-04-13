@@ -1,0 +1,11 @@
+{
+    "name": "Def Opening 1",
+    "description": "At start of turn, grants Def+2 to ally with the highest Def for 1 turn. (Excludes unit.)",
+    "docType": "passive-c",
+    "idTag": "SID_守備の開放1",
+    "nextSkill": {
+        "_id": "passive-c:def-opening-2"
+    },
+    "spCost": 60,
+    "_id": "passive-c:def-opening-1"
+}

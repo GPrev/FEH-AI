@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Gjöll",
+    "description": "Grants Atk+3. If a penalty inflicted by a skill like Panic or Threaten and/or a negative status effect (preventing counterattacks or restricting movement) is active on foe, unit makes a guaranteed follow-up attack and foe cannot.",
+    "docType": "weapon",
+    "idTag": "SID_ギョッル",
+    "spCost": 400,
+    "_id": "weapon:gjoll"
+}

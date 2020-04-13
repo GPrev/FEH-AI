@@ -1,0 +1,10 @@
+{
+    "range": 1,
+    "might": 12,
+    "name": "Ruby Sword+",
+    "description": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.",
+    "docType": "weapon",
+    "idTag": "SID_旭日の剣＋",
+    "spCost": 300,
+    "_id": "weapon:ruby-sword-plus"
+}

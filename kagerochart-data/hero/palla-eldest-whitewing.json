@@ -1,0 +1,326 @@
+{
+    "_id": "hero:palla-eldest-whitewing",
+    "display": "Palla: Eldest Whitewing",
+    "name": "Palla",
+    "color": "Red",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:whitewing-blade",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:ruby-sword-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:ruby-sword",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:moonbow",
+            "unlock": 4
+        },
+        {
+            "_id": "special:new-moon",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveB": [
+        {
+            "_id": "passive-b:wings-of-mercy-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:wings-of-mercy-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:wings-of-mercy-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:goad-fliers",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:spur-spd-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:spur-spd-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [],
+    "description": "Eldest of three sisters who are pegasus knights for Macedon. Appears in Fire Emblem: Mystery of the Emblem.",
+    "weaponType": "Red Sword",
+    "moveType": "Flying",
+    "origin": "Fire Emblem: Mystery of the Emblem",
+    "gender": "Female",
+    "voiceActorEN": "—",
+    "voiceActorJP": "種田梨沙",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistEN": "cuboon",
+    "voiceActorJPEN": "Taneda Risa",
+    "insights": [],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Eldest Whitewing",
+    "artist": "cuboon",
+    "dialogue": [
+        {
+            "text": "I am Palla, a pegasus knight of the Whitewings of Macedon. Pleased to be of service.",
+            "context": "joined"
+        },
+        {
+            "text": "I wonder how Catria and Est are doing... It's natural to worry about my younger sisters, of course.",
+            "context": "castle"
+        },
+        {
+            "text": "I'm told that I'm good at looking out for others. Perhaps because of my younger sisters?",
+            "context": "castle"
+        },
+        {
+            "text": "Thank you for all you do. When you've finished checking on everyone, please do get some rest.",
+            "context": "castle"
+        },
+        {
+            "text": "How are you today? If you're sore from battle, I actually know how to massage hurting muscles.",
+            "context": "castle"
+        },
+        {
+            "text": "Ah! I just remembered I should go look after the pegasi...",
+            "context": "castle"
+        },
+        {
+            "text": "Honored to meet you. Someone sent me to say hello—your friend <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "How wonderful! I can't help but smile.",
+            "context": "level"
+        },
+        {
+            "text": "Oh, I know I can grow stronger than this!",
+            "context": "level"
+        },
+        {
+            "text": "How disheartening...",
+            "context": "level"
+        },
+        {
+            "text": "Thank you so much. I will continue to do my best.",
+            "context": "growth"
+        },
+        {
+            "text": "Of course, Princess Minerva will always be my liege and foremost in my thoughts. And obviously my two sisters are very dear to me. However... I must confess that someone else is now occupying many of my thoughts. Someone I met here... Ahem. I hope I can continue to stay by your side and make you proud. Oh, thank you so much! You've made me so happy!",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 6,
+        "spd": 8,
+        "def": 5,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 55,
+        "spd": 50,
+        "def": 50,
+        "res": 45
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 38,
+                "low": 35,
+                "high": 41
+            },
+            "atk": {
+                "base": 27,
+                "low": 24,
+                "high": 30
+            },
+            "spd": {
+                "base": 27,
+                "low": 24,
+                "high": 30
+            },
+            "def": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "res": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 39,
+                "low": 36,
+                "high": 42
+            },
+            "atk": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "spd": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "def": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            },
+            "res": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 42,
+                "low": 39,
+                "high": 45
+            },
+            "atk": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "spd": {
+                "base": 31,
+                "low": 27,
+                "high": 34
+            },
+            "def": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "res": {
+                "base": 26,
+                "low": 23,
+                "high": 30
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 158
+            }
+        }
+    }
+}

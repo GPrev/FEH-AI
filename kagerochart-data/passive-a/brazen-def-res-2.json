@@ -1,0 +1,11 @@
+{
+    "name": "Brazen Def/Res 2",
+    "description": "At start of combat, if unit's HP ≤ 80%, grants Def/Res+5 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_守備魔防の大覚醒2",
+    "nextSkill": {
+        "_id": "passive-a:brazen-def-res-3"
+    },
+    "spCost": 120,
+    "_id": "passive-a:brazen-def-res-2"
+}

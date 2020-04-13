@@ -1,0 +1,11 @@
+{
+    "name": "Steady Stance 2",
+    "description": "If foe initiates combat, grants Def+4 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_金剛の構え2",
+    "nextSkill": {
+        "_id": "passive-a:steady-stance-3"
+    },
+    "spCost": 100,
+    "_id": "passive-a:steady-stance-2"
+}

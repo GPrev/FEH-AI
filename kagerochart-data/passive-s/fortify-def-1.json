@@ -1,0 +1,9 @@
+{
+    "_id": "passive-s:fortify-def-1",
+    "name": "Fortify Def 1",
+    "sp": 50,
+    "type": "s",
+    "description": "Grants adjacent allies Def+2 through their next actions at the start of each turn.",
+    "icon": "/images/icons/passives/fortify-def-1.png",
+    "docType": "passive-s"
+}

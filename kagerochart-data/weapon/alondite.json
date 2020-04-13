@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Alondite",
+    "description": "Unit can counterattack regardless of foe's range.",
+    "docType": "weapon",
+    "idTag": "SID_エタルド",
+    "spCost": 400,
+    "_id": "weapon:alondite"
+}

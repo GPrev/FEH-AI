@@ -1,0 +1,8 @@
+{
+    "name": "Goad Dragons",
+    "description": "Grants Atk/Spd+4 to dragon allies within 2 spaces during combat.",
+    "docType": "passive-c",
+    "idTag": "SID_竜刃の紋章",
+    "spCost": 200,
+    "_id": "passive-c:goad-dragons"
+}

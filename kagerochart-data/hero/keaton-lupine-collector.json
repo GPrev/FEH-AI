@@ -1,0 +1,205 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Keaton",
+    "epitet": "Lupine Collector",
+    "display": "Keaton: Lupine Collector",
+    "description": "Leader of the wolfskin who set up their stronghold on Mount Garou. Sociable but isn't always honest with himself or others. Appears in Fire Emblem Fates.",
+    "artist": "Okuma Yugo (大熊ゆうご)",
+    "voiceActorEN": "Ted Sroka",
+    "voiceActorJP": "大須賀純",
+    "dialogue": [
+        {
+            "text": "I'm Keaton! I'll show you how a proud wolfskin hunts!",
+            "context": "joined"
+        },
+        {
+            "text": "Aren't these the most beautiful spiders you've ever seen? They're black and purple and green and blue! No? But they're so pretty... Aw, some people will just never get it.",
+            "context": "castle"
+        },
+        {
+            "text": "I'm proud to be a wolfskin! Turning into wolves is what we do.",
+            "context": "castle"
+        },
+        {
+            "text": "My tail looks nice and rugged when it's all messed up and filled with junk.",
+            "context": "castle"
+        },
+        {
+            "text": "Let's take a look at my treasure collection! Just one of my many fine pieces is an embalmed lizard! I also have a giant bat corpse! It's huge!",
+            "context": "castle"
+        },
+        {
+            "text": "This way? No... How about that way? No... I'm not lost! This castle is just WAY too big!",
+            "context": "castle"
+        },
+        {
+            "text": "Where did I end up now? Hey, you— do you have any idea how to get back to <Friend Name>'s castle?",
+            "context": "friend"
+        },
+        {
+            "text": "Ha ha! Did you SEE that? That's what it looks like when I get serious!",
+            "context": "level"
+        },
+        {
+            "text": "I wanna play some more. C'mon!",
+            "context": "level"
+        },
+        {
+            "text": "I'm a little bit lost... Don't leave me behind, OK?",
+            "context": "level"
+        },
+        {
+            "text": "What, my tail? No, it's not wagging! It's just...twitching! I'm not excited!",
+            "context": "growth"
+        },
+        {
+            "text": "In a wolfskin pack, those who contribute can walk with pride. So what do you say? Am I pulling my weight? Really? That's a relief. I know I can trust you to be honest with me. I mean...not that I was worried. I'm not happy to hear you say that. Nope. If I stick with you, I can avoid getting lost and maybe even accomplish something! Leave it to me! I'll hunt your enemies and collect some awesome hair balls along the way!",
+            "context": "maxed"
+        }
+    ],
+    "color": "Red",
+    "origin": "Fire Emblem: Fates",
+    "releaseDate": "2019-02-20T07:00:00.000Z",
+    "weapon": [
+        {
+            "_id": "weapon:wolfskin-fang",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:adult-infantry",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:yearling-infantry",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:whelp-infantry",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:draconic-aura",
+            "unlock": 4
+        },
+        {
+            "_id": "special:dragon-gaze",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Red Beast",
+    "tomeClass": 0,
+    "moveType": "Infantry",
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 18,
+        "atk": 10,
+        "spd": 6,
+        "def": 7,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 60,
+        "atk": 70,
+        "spd": 40,
+        "def": 70,
+        "res": 35
+    },
+    "passiveC": [
+        {
+            "_id": "passive-c:beast-valor-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:beast-valor-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:beast-valor-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:special-spiral-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:special-spiral-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:special-spiral-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:keaton-lupine-collector",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 19,
+                "low": 18,
+                "high": 20
+            },
+            "atk": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 45,
+                "low": 42,
+                "high": 48
+            },
+            "atk": {
+                "base": 41,
+                "low": 38,
+                "high": 45
+            },
+            "spd": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "def": {
+                "base": 38,
+                "low": 35,
+                "high": 42
+            },
+            "res": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 167
+            }
+        }
+    }
+}

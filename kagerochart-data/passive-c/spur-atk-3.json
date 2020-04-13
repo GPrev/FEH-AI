@@ -1,0 +1,8 @@
+{
+    "name": "Spur Atk 3",
+    "description": "Grants Atk+4 to adjacent allies during combat.",
+    "docType": "passive-c",
+    "idTag": "SID_攻撃の紋章3",
+    "spCost": 200,
+    "_id": "passive-c:spur-atk-3"
+}

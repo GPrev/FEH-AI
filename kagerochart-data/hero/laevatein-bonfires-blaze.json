@@ -1,0 +1,218 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Laevatein",
+    "epitet": "Bonfire's Blaze",
+    "display": "Laevatein: Bonfire's Blaze",
+    "description": "The second princess of Múspell, the Kingdom of Flame. She's begun to practice swimming.",
+    "artist": "Masatsugu Saito (齋藤将嗣)",
+    "voiceActorEN": "Sarah Williams",
+    "voiceActorJP": "釘宮理恵",
+    "dialogue": [
+        {
+            "text": "I am Laevatein. I have come to swim with my sister. But...I must improve my swimming technique a bit first.",
+            "context": "joined"
+        },
+        {
+            "text": "Laegjarn looks lovely in her swimsuit. She sparkles in the summer sun. I just want to watch her forever...",
+            "context": "castle"
+        },
+        {
+            "text": "I have trained with the sword. Swimming, though... You don't need to swim on the battlefield.",
+            "context": "castle"
+        },
+        {
+            "text": "I have never worn anything like this. Being so far from my sword, I feel like part of me is missing...",
+            "context": "castle"
+        },
+        {
+            "text": "I saw someone buried up to their neck in the sand. I would like to try being buried, too.",
+            "context": "castle"
+        },
+        {
+            "text": "I've seen others training by trying to smash watermelons... Such training is new to me. I must try it.",
+            "context": "castle"
+        },
+        {
+            "text": "I am Laevatein. I'm on vacation, but... <Friend Name> says hello.",
+            "context": "friend"
+        },
+        {
+            "text": "Summer is...the best season.",
+            "context": "level"
+        },
+        {
+            "text": "All the sunlight blinded me a little, that's all. I'll...do better next time.",
+            "context": "level"
+        },
+        {
+            "text": "I think I swallowed some sand...",
+            "context": "level"
+        },
+        {
+            "text": "Thank you. I will cherish this.",
+            "context": "growth"
+        },
+        {
+            "text": "Have you been watching me swim, <Player Name>? I think I've gotten much better since I first started... Thank you for teaching me. Now, if anything happens to my sister while she's out in the waves, I'll be able to help her. Of course...I'd swim out to rescue you, too. You taught me to swim, after all. Why don't we all go swimming together? All three of us. We can race to that island... Ready?",
+            "context": "maxed"
+        }
+    ],
+    "color": "Green",
+    "origin": "Fire Emblem Heroes",
+    "weapon": [
+        {
+            "_id": "weapon:buoyboard-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:buoyboard",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elwind",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:wind",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:smite",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Green Tome",
+    "tomeClass": 3,
+    "moveType": "Flying",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 7,
+        "spd": 5,
+        "def": 6,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 70,
+        "spd": 25,
+        "def": 55,
+        "res": 45
+    },
+    "passiveC": [
+        {
+            "_id": "passive-c:odd-atk-wave-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:odd-atk-wave-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:odd-atk-wave-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:mirror-impact",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:mirror-strike-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:mirror-strike-1",
+            "unlock": 3
+        },
+        {
+            "_id": "passive-a:death-blow-1",
+            "unlock": 2
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:def-res-link-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:def-res-link-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:def-res-link-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:laevatein-bonfires-blaze",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 38,
+                "low": 34,
+                "high": 41
+            },
+            "atk": {
+                "base": 38,
+                "low": 35,
+                "high": 42
+            },
+            "spd": {
+                "base": 16,
+                "low": 13,
+                "high": 20
+            },
+            "def": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "res": {
+                "base": 26,
+                "low": 23,
+                "high": 30
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 149
+            }
+        }
+    }
+}

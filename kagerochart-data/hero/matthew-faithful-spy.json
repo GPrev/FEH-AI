@@ -1,0 +1,323 @@
+{
+    "_id": "hero:matthew-faithful-spy",
+    "display": "Matthew: Faithful Spy",
+    "name": "Matthew",
+    "color": "Colorless",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:spys-dagger",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:rogue-dagger-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:rogue-dagger",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-dagger",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-dagger",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:reciprocal-aid",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveB": [
+        {
+            "_id": "passive-b:poison-strike-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:poison-strike-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:poison-strike-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:hone-spd-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:hone-spd-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:hone-spd-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [],
+    "description": "Happy-go-lucky spy who's actually quite sly. Serves Hector, brother of the Marquess of Ostia. Appears in Fire Emblem: The Blazing Blade.",
+    "weaponType": "Colorless Dagger",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: The Blazing Blade",
+    "gender": "Male",
+    "voiceActorEN": "Ben Diskin",
+    "voiceActorJP": "保志総一朗",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistJP": "岡谷",
+    "artistEN": "Okaya",
+    "voiceActorJPEN": "Hoshi Souichirou",
+    "insights": [],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Faithful Spy",
+    "artist": "Okaya (岡谷)",
+    "dialogue": [
+        {
+            "text": "The name's Matthew. I'm in the service of the young master—I mean, milord—Hector. Good to meet you.",
+            "context": "joined"
+        },
+        {
+            "text": "Working for the Order of Heroes members here isn't much different from what I was doing before.",
+            "context": "castle"
+        },
+        {
+            "text": "Want to know the real Matthew? Ha! Let's take it slow. I'll give you half-truths instead of lies.",
+            "context": "castle"
+        },
+        {
+            "text": "Hey there. Good work on the patrols. I'm keeping an eye out too to make sure no one suspicious sneaks in.",
+            "context": "castle"
+        },
+        {
+            "text": "The way this strange world works... I wonder... Could I ever be reunited with my dear Leila again?",
+            "context": "castle"
+        },
+        {
+            "text": "Spy training? Sure, that's a thing, but we never do it in public. That always leads to bad sorts finding you.",
+            "context": "castle"
+        },
+        {
+            "text": "My boss wanted me to come deliver a hello to you, <Player Name>. You two must have a pretty strong friendship there.",
+            "context": "friend"
+        },
+        {
+            "text": "Ha! Isn't that rich! A spy like me—with this much power?",
+            "context": "level"
+        },
+        {
+            "text": "I'm good in combat, but now I'll be even better!",
+            "context": "level"
+        },
+        {
+            "text": "Hmm. Maybe I should stick to the shadows.",
+            "context": "level"
+        },
+        {
+            "text": "I work behind the scenes, but I won't waste this—I promise.",
+            "context": "growth"
+        },
+        {
+            "text": "Whoa, never a dull moment with you around, is there? You really keep a spy on his toes! Speaking of which, you know how we spies stick to the shadows? It's not smart to have close friends. Makes sense, right? A spy needs the flexibility to do what he needs to, when he needs to. Friends just muck things up. The only problem with all this is you. You're the kind of person a spy can't evade forever. Oh, I'll keep trying, friend, but for now, forget I said anything.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 5,
+        "spd": 9,
+        "def": 5,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 45,
+        "spd": 55,
+        "def": 55,
+        "res": 30
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "atk": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "spd": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "def": {
+                "base": 26,
+                "low": 23,
+                "high": 29
+            },
+            "res": {
+                "base": 15,
+                "low": 12,
+                "high": 18
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 38,
+                "low": 35,
+                "high": 41
+            },
+            "atk": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "spd": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "def": {
+                "base": 27,
+                "low": 24,
+                "high": 30
+            },
+            "res": {
+                "base": 16,
+                "low": 13,
+                "high": 19
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 41,
+                "low": 38,
+                "high": 44
+            },
+            "atk": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "spd": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "def": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "res": {
+                "base": 18,
+                "low": 14,
+                "high": 21
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 148
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Escutcheon",
+    "description": "Reduces damage from an adjacent foe's attack by 30%.",
+    "docType": "special",
+    "idTag": "SID_長盾",
+    "spCost": 200,
+    "cooldownCount": 2,
+    "_id": "special:escutcheon"
+}

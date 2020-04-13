@@ -1,0 +1,8 @@
+{
+    "name": "Spd/Def Solo 3",
+    "description": "If unit is not adjacent to an ally, grants Spd/Def+6 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_速さ守備の孤軍3",
+    "spCost": 240,
+    "_id": "passive-a:spd-def-solo-3"
+}

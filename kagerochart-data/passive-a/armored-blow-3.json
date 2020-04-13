@@ -1,0 +1,8 @@
+{
+    "name": "Armored Blow 3",
+    "description": "If unit initiates combat, grants Def+6 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_金剛の一撃3",
+    "spCost": 200,
+    "_id": "passive-a:armored-blow-3"
+}

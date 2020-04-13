@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Sökkvabekkr",
+    "description": "If unit is within 3 spaces of an ally, grants Atk/Spd/Def/Res+4 during combat, and unit makes a guaranteed follow-up attack, but after combat, if unit attacked, deals 20 damage to nearest ally.",
+    "docType": "weapon",
+    "idTag": "SID_セクヴァベク",
+    "spCost": 400,
+    "_id": "weapon:sokkvabekkr"
+}

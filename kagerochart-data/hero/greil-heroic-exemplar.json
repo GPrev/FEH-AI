@@ -1,0 +1,226 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Greil",
+    "epitet": "Heroic Exemplar",
+    "display": "Greil: Heroic Exemplar",
+    "description": "The first leader of the Greil Mercenaries. Father of Ike and Mist. Will meet his family again at the Day of Devotion festival. Appears in Fire Emblem: Path of Radiance.",
+    "artist": "Daisuke Izuka",
+    "voiceActorEN": "Frank Todaro",
+    "voiceActorJP": "長嶝高士",
+    "dialogue": [
+        {
+            "text": "The name's Greil. I used to be a mercenary commander. I hear that Ike and Mist are here. That true?",
+            "context": "joined"
+        },
+        {
+            "text": "No matter the outfit, wear it with pride. If you hold your head high, unkind comments roll off your back.",
+            "context": "castle"
+        },
+        {
+            "text": "Who would have guessed I'd see my family again like this? And that I'd have a festival to thank for it...",
+            "context": "castle"
+        },
+        {
+            "text": "I've got all the gifts I need. Ike and Mist are all I could ask for. Nothing could compare.",
+            "context": "castle"
+        },
+        {
+            "text": "It's good to see so many smiling faces. Gives you a little jolt of energy, and keeps you moving.",
+            "context": "castle"
+        },
+        {
+            "text": "It may be tempting to be gentle and kind, but sometimes love means you have to be strict. Oh, don't listen to me...",
+            "context": "castle"
+        },
+        {
+            "text": "I'm here on behalf of <Friend Name>. Go help 'em out!",
+            "context": "friend"
+        },
+        {
+            "text": "My kids are watching. I have to give 'em a show.",
+            "context": "level"
+        },
+        {
+            "text": "Getting back into the swing of things...",
+            "context": "level"
+        },
+        {
+            "text": "Whoops. Sorry about that.",
+            "context": "level"
+        },
+        {
+            "text": "Seems like you expect a lot from me. I'd better deliver.",
+            "context": "growth"
+        },
+        {
+            "text": "As mercenaries, we fight and win. We have to stay in perfect condition, or we won't survive. That's the job. If you do survive, all that fighting wears on you. Believe me, I know! There's no magic medicine that'll heal that wear and tear on your heart. Money, status, honor... They won't do the trick either. It's people who help. My comrades, and more than that, my children... They lift my spirits. It's thanks to them that I can see a path forward. I'm truly grateful to them, from the bottom of my heart.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Green",
+    "origin": "Fire Emblem: Path of Radiance",
+    "weapon": [
+        {
+            "_id": "weapon:faithful-axe-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:faithful-axe",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-axe",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-axe",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:aether",
+            "unlock": 5
+        },
+        {
+            "_id": "special:luna",
+            "unlock": 4
+        },
+        {
+            "_id": "special:new-moon",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Green Axe",
+    "tomeClass": 0,
+    "moveType": "Armored",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 22,
+        "atk": 10,
+        "spd": 4,
+        "def": 9,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 70,
+        "spd": 30,
+        "def": 65,
+        "res": 55
+    },
+    "passiveB": [
+        {
+            "_id": "passive-b:wary-fighter-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:wary-fighter-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:wary-fighter-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:fury-4",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:fury-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:fury-2",
+            "unlock": 3
+        },
+        {
+            "_id": "passive-a:fury-1",
+            "unlock": 2
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:armor-march-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:armor-march-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:armor-march-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:greil-heroic-exemplar",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 23,
+                "low": 22,
+                "high": 24
+            },
+            "atk": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 47,
+                "low": 44,
+                "high": 50
+            },
+            "atk": {
+                "base": 41,
+                "low": 38,
+                "high": 45
+            },
+            "spd": {
+                "base": 18,
+                "low": 14,
+                "high": 21
+            },
+            "def": {
+                "base": 38,
+                "low": 35,
+                "high": 41
+            },
+            "res": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 174
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Warding Blow 1",
+    "description": "If unit initiates combat, grants Res+2 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_明鏡の一撃1",
+    "nextSkill": {
+        "_id": "passive-a:warding-blow-2"
+    },
+    "spCost": 50,
+    "_id": "passive-a:warding-blow-1"
+}

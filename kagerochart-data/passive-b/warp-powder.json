@@ -1,0 +1,9 @@
+{
+    "exclusive": true,
+    "name": "Warp Powder",
+    "description": "If unit's HP ≥ 80%, unit can move to a space adjacent to any ally within 2 spaces.",
+    "docType": "passive-b",
+    "idTag": "SID_転移の粉",
+    "spCost": 300,
+    "_id": "passive-b:warp-powder"
+}

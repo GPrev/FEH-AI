@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Noble Lance",
+    "description": "Grants Atk+3. At start of combat, if both unit's and foe's HP = 100% or if both unit's and foe's HP < 100%, unit makes a guaranteed follow-up attack.",
+    "docType": "weapon",
+    "idTag": "SID_高潔の戦槍",
+    "spCost": 400,
+    "_id": "weapon:noble-lance"
+}

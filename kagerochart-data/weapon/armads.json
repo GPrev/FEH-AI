@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Armads",
+    "description": "If unit’s HP ≥ 80% and foe initiates combat, unit makes a guaranteed follow-up attack.",
+    "docType": "weapon",
+    "idTag": "SID_アルマーズ",
+    "spCost": 400,
+    "_id": "weapon:armads"
+}

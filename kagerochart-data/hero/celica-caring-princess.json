@@ -1,0 +1,214 @@
+{
+    "_id": "hero:celica-caring-princess",
+    "display": "Celica: Caring Princess",
+    "name": "Celica",
+    "color": "Red",
+    "weapon": [
+        {
+            "_id": "weapon:ragnarok",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:bolganone",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elfire",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:fire",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:blazing-light",
+            "unlock": 4
+        },
+        {
+            "_id": "special:rising-light",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:distant-def-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:distant-def-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:distant-def-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:spur-def-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:spur-def-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:spur-def-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "description": "The princess of Zofia; trained as a priestess. Caring toward others, and dislikes fighting. Bears the Brand on her right hand. Appears in Fire Emblem Echoes: Shadows of Valentia.",
+    "weaponType": "Red Tome",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem Echoes: Shadows of Valentia",
+    "gender": "Female",
+    "voiceActorEN": "Erica Lindbeck",
+    "voiceActorJP": "東山奈央",
+    "releaseDate": "2017-05-15T07:00:00.000Z",
+    "artistJP": "藤川祥",
+    "artistEN": "Fujikawa Akira",
+    "voiceActorJPEN": "Touyama Nao",
+    "insights": [
+        "Celica is the only hero with Ragnarok."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Caring Princess",
+    "artist": "Fujikawa Akira (藤川祥)",
+    "dialogue": [
+        {
+            "text": "I am Celica, a priestess. Though I'd rather avoid bloodshed, I am prepared to fight if I must.",
+            "context": "joined"
+        },
+        {
+            "text": "The Askran Kingdom is so beautiful. It saddens me to hear that it is also engulfed in conflict.",
+            "context": "castle"
+        },
+        {
+            "text": "I trained as a priestess at a priory. And before that, I lived in Ram, a small village... But even further back, I lived in a castle. Keep that between us, OK?",
+            "context": "castle"
+        },
+        {
+            "text": "If you get tired, please let me know. I'll pour you some hot tea, and we'll take a break together.",
+            "context": "castle"
+        },
+        {
+            "text": "I'm going to offer a prayer to Mila. Would you care to join me? I think you'll find it calming. I know I do.",
+            "context": "castle"
+        },
+        {
+            "text": "I was thinking about a childhood friend of mine. For some reason, we can never quite seem to meet up... Is it fate that keeps us apart?",
+            "context": "castle"
+        },
+        {
+            "text": "Are you <Player Name>? I was asked to bring you a message from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "I have the strength to fight, too!",
+            "context": "level"
+        },
+        {
+            "text": "Hard work does bring results.",
+            "context": "level"
+        },
+        {
+            "text": "Oh... What a disappointment.",
+            "context": "level"
+        },
+        {
+            "text": "This strength that you've given me will not go to waste.",
+            "context": "growth"
+        },
+        {
+            "text": "There's something I'd like to speak to you about. Will you listen to what I have to say? As you know, people call me Celica. But, actually...I have another name. My true name is Anthiese. This is a secret I must guard closely. If the people of Zofia were to learn of it, it would result in a pointless war. I do feel safe telling you, though. In fact, I want you to understand. You matter to me. I trust you with my life. Even if I return to my world, please remember the time we spent. Think of me...  The girl called both Celica...and Anthiese. ",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 1,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 7,
+        "spd": 6,
+        "def": 4,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 55,
+        "spd": 60,
+        "def": 40,
+        "res": 35
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 39,
+                "low": 35,
+                "high": 42
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 148
+            }
+        }
+    }
+}

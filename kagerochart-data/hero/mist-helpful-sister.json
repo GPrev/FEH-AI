@@ -1,0 +1,212 @@
+{
+    "_id": "hero:mist-helpful-sister",
+    "display": "Mist: Helpful Sister",
+    "name": "Mist",
+    "color": "Colorless",
+    "weapon": [
+        {
+            "_id": "weapon:slow-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:slow",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:assault",
+            "unlock": 1
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:miracle",
+            "unlock": 3
+        },
+        {
+            "_id": "special:imbue",
+            "unlock": 2
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:recover-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "assist:recover",
+            "unlock": 4
+        },
+        {
+            "_id": "assist:mend",
+            "unlock": 2
+        },
+        {
+            "_id": "assist:heal",
+            "unlock": 0
+        }
+    ],
+    "docType": "hero",
+    "passiveC": [
+        {
+            "_id": "passive-c:spur-def-res-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:spur-def-res-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:spur-res-1",
+            "unlock": 3
+        }
+    ],
+    "passiveA": [],
+    "passiveB": [],
+    "description": "Ike's younger sister. Active and cheerful, and takes care of the Greil Mercenaries. Appears in Fire Emblem: Path of Radiance.",
+    "weaponType": "Colorless Staff",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Path of Radiance",
+    "gender": "Female",
+    "voiceActorEN": "Sarah Williams",
+    "voiceActorJP": "榎本温子",
+    "releaseDate": "2017-04-28T07:00:00.000Z",
+    "artistJP": "みわべさくら",
+    "artistEN": "Miwabe Sakura",
+    "voiceActorJPEN": "Enomoto Atsuko",
+    "insights": [],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Helpful Sister",
+    "artist": "Miwabe Sakura (みわべさくら)",
+    "dialogue": [
+        {
+            "text": "Hi! I'm Mist. But where am I? This all happened so fast! Well, I bet you'll help me get settled in, right?",
+            "context": "joined"
+        },
+        {
+            "text": "This place is amazing. Even the air— it's so, I don't know...fresh? We must be really high up or something!",
+            "context": "castle"
+        },
+        {
+            "text": "I'm not too happy being in battles, but I'm glad to help any way I can. You know what I do love doing? Cleaning and doing laundry, believe it or not!",
+            "context": "castle"
+        },
+        {
+            "text": "You should sit down and relax for a while, <Player Name>. I'll get you some water.",
+            "context": "castle"
+        },
+        {
+            "text": "Oh, Father... Mother... And my brother...",
+            "context": "castle"
+        },
+        {
+            "text": "The wind can really pick up around here—and that can blow all of my laundry right off the line!",
+            "context": "castle"
+        },
+        {
+            "text": "Hi there! Oh, wait.... Right! I'm here mainly to pass on a hello from <Friend Name>!",
+            "context": "friend"
+        },
+        {
+            "text": "Getting stronger! Only figures. I am my father's daughter!",
+            "context": "level"
+        },
+        {
+            "text": "Looks like I'm getting a bit better at all of this!",
+            "context": "level"
+        },
+        {
+            "text": "See? I'm just not meant to be out here in battle!",
+            "context": "level"
+        },
+        {
+            "text": "Nice you did that, but I hope you don't have better things to do.",
+            "context": "growth"
+        },
+        {
+            "text": "Oh, <Player Name>! You caught me in the middle of working on laundry. It's something that really helps me relax. You know I'm not that comfortable being in the middle of battles, but I do like helping everyone. I've come to love being here with so many people. You must have seen that I was nervous at first. Some of the Heroes seemed a bit intimidating! But I knew I could trust you from the very start. I don't really know why, but I knew it from the second I saw you. Anyway, I've been glad to work hard for you. So, right... What was my point? Oh, yes. Thanks! And you can count on me to keep doing my best!",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 7,
+        "spd": 5,
+        "def": 4,
+        "res": 7
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 45,
+        "spd": 50,
+        "def": 35,
+        "res": 60
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 39,
+                "low": 35,
+                "high": 42
+            },
+            "atk": {
+                "base": 27,
+                "low": 24,
+                "high": 31
+            },
+            "spd": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "def": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "res": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 148
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Panther Lance",
+    "description": "During combat, boosts unit's Atk/Def by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.)",
+    "docType": "weapon",
+    "idTag": "SID_黒豹の槍",
+    "spCost": 400,
+    "_id": "weapon:panther-lance",
+    "refines": [
+        {
+            "might": 16,
+            "stats": {
+                "hp": 5,
+                "spd": 3
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 18,
+            "stats": {
+                "hp": 5,
+                "atk": 2
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 16,
+            "stats": {
+                "hp": 5,
+                "def": 4
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 16,
+            "stats": {
+                "hp": 5,
+                "res": 4
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 16,
+            "stats": {
+                "hp": 3
+            },
+            "description": "If cavalry allies within 2 spaces use sword, lance, or axe and unit initiates combat, unit attacks twice.",
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        }
+    ]
+}

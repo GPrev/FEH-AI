@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 6,
+    "name": "Steel Bow",
+    "description": "Effective against flying foes.",
+    "docType": "weapon",
+    "idTag": "SID_鋼の弓",
+    "nextSkill": {
+        "_id": "weapon:silver-bow"
+    },
+    "spCost": 100,
+    "_id": "weapon:steel-bow"
+}

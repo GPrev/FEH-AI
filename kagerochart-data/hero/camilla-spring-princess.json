@@ -1,0 +1,203 @@
+{
+    "_id": "hero:camilla-spring-princess",
+    "display": "Camilla: Spring Princess",
+    "name": "Camilla",
+    "color": "Green",
+    "weapon": [
+        {
+            "_id": "weapon:green-egg-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:green-egg",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elwind",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:wind",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:rally-attack",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:defiant-spd-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:defiant-spd-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:defiant-spd-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:live-for-bounty",
+            "unlock": 4
+        }
+    ],
+    "passiveC": [],
+    "description": "Princess of Nohr who dotes on her sibling Corrin. Loves her new outfit ever since Corrin said it was cute. Appears in Fire Emblem Fates.",
+    "weaponType": "Green Tome",
+    "moveType": "Flying",
+    "origin": "Fire Emblem: Fates",
+    "gender": "Female",
+    "voiceActorEN": "Misty Lee",
+    "voiceActorJP": "沢城みゆき",
+    "releaseDate": "2017-03-30T00:00:00.000Z",
+    "artistJP": "前嶋重機",
+    "artistEN": "Maeshima Shigeki",
+    "voiceActorJPEN": "Sawashiro Miyuki",
+    "insights": [
+        "Camilla is the only hero with Green Egg+.",
+        "Camilla is the only hero with Green Egg."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Spring Princess",
+    "artist": "Maeshima Shigeki (前嶋重機)",
+    "dialogue": [
+        {
+            "text": "I'm Camilla, eldest princess of Nohr, come dressed for the spring fest. But it's rather tight, don't you think?",
+            "context": "joined"
+        },
+        {
+            "text": "Princess Sharena really catches my eye. That girl is as adorable as she is formidable. I'd love to dress her up in a spring-festival outfit!",
+            "context": "castle"
+        },
+        {
+            "text": "The realm outside my family's castle is very dark. So every spring, we go all out to decorate our home. Flowers of all colors...bunnies of all shapes and sizes...and more eggs than you can imagine!",
+            "context": "castle"
+        },
+        {
+            "text": "The spring festival always reminds me to live a life of sweet ease, <Player Name>. Do remember that you can lay your weary head in my lap.",
+            "context": "castle"
+        },
+        {
+            "text": "Care to dress up in one of these festival outfits? It'd really suit you. Oh, yes. Just too cute!",
+            "context": "castle"
+        },
+        {
+            "text": "I adore strolling around here in the spring. It's simply ideal—so many flowers!",
+            "context": "castle"
+        },
+        {
+            "text": "I've come with spring greetings...and with jealousy for how close you are with <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "How glorious! I could jump for joy!",
+            "context": "level"
+        },
+        {
+            "text": "Festival or not, I just can't help growing by leaps and bounds!",
+            "context": "level"
+        },
+        {
+            "text": "Oh my... Is this outfit holding me back in some way?",
+            "context": "level"
+        },
+        {
+            "text": "How sweet of you. Building me up for summer, perhaps?",
+            "context": "growth"
+        },
+        {
+            "text": "Did you want to celebrate the spring festival with me today, <Player Name>? Delighted to oblige. Shall I pop some rabbit ears on your head? Rest your head in my lap? No one relaxes better than I do. Back in my world, we lounge all day in public baths. Or at least I do. Oh, wouldn't it just be the icing on the cake to luxuriate in such steaming-hot water right now? Hmm? That has nothing to do with this festival? Well, leave it to you to stay on task. Great Hero of another world, you have outmaneuvered me. I was hoping we'd get a holiday together. I love to get away from it all with members of my family—and I do consider you family. That means I'll also protect you as I would a brother or sister, even if you are my superior here. Still, if you ever grow weary and need to get some sleep, remember my lap is forever yours.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 3,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 8,
+        "spd": 5,
+        "def": 7,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 45,
+        "def": 50,
+        "res": 35
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 39,
+                "low": 35,
+                "high": 42
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "def": {
+                "base": 30,
+                "low": 26,
+                "high": 33
+            },
+            "res": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 148
+            }
+        }
+    }
+}

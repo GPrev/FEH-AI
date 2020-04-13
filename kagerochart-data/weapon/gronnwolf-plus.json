@@ -1,0 +1,10 @@
+{
+    "range": 2,
+    "might": 10,
+    "name": "Gronnwolf+",
+    "description": "Effective against cavalry foes.",
+    "docType": "weapon",
+    "idTag": "SID_ウルファグラン＋",
+    "spCost": 300,
+    "_id": "weapon:gronnwolf-plus"
+}

@@ -1,0 +1,315 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Delthea",
+    "epitet": "Tatarrah's Puppet",
+    "display": "Delthea: Tatarrah's Puppet",
+    "description": "A naturally gifted mage who has fallen under the control of Tatarrah, of the Duma Faithful. Appears in Fire Emblem Echoes: Shadows of Valentia.",
+    "artist": "Umiu Geso (海鵜げそ)",
+    "voiceActorEN": "Christine Marie Cabanos",
+    "voiceActorJP": "鈴木絵理",
+    "lowestRarity": 3,
+    "dialogue": [
+        {
+            "text": "Where...am I? ...Tatarrah? It's me, Delthea. Please...give me your orders.",
+            "context": "joined"
+        },
+        {
+            "text": "What am...I doing here? I must return to...killing the enemies of Tatarrah.",
+            "context": "castle"
+        },
+        {
+            "text": "I am Tatarrah's faithful servant... All those who oppose Tatarrah...will be killed for their foolishness.",
+            "context": "castle"
+        },
+        {
+            "text": "Is there anyone you want dead? Just point out a target...and I'll leave no survivors... Would you like that?",
+            "context": "castle"
+        },
+        {
+            "text": "You should join me as Tatarrah's servant. Then we...could crush those Zofian fools together.",
+            "context": "castle"
+        },
+        {
+            "text": "Tatarrah's orders are to protect the sluice gates that lead to Rigel...so no Zofian scum may enter...",
+            "context": "castle"
+        },
+        {
+            "text": "Come with me. It's time for you to become a loyal servant of Tatarrah... By <Friend Name>'s will.",
+            "context": "friend"
+        },
+        {
+            "text": "You...oppose Tatarrah? You will perish under the weight of his power.",
+            "context": "level"
+        },
+        {
+            "text": "You don't understand the full truth of my power... Come along—I will make you understand.",
+            "context": "level"
+        },
+        {
+            "text": "Tatarrah... Forgive me...",
+            "context": "level"
+        },
+        {
+            "text": "Now I'll be even more able...to visit Tatarrah's will upon Zofia...",
+            "context": "growth"
+        },
+        {
+            "text": "I remember...a small village...always fighting with someone. Who was that, I wonder... ...No matter. If they are an enemy of Tatarrah, I'll kill them just the same. With you, it is just as it is with Tatarrah... You tell me who to kill. Your will cannot be opposed. You pretend there is a difference, but I am your tool. I kill for you like I kill for Tatarrah. Do not worry... With me at your side, all your enemies are as good as dead already... I'll kill them all for you.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Blue",
+    "origin": "Fire Emblem Echoes: Shadows of Valentia",
+    "weapon": [
+        {
+            "_id": "weapon:death",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:thoron",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elthunder",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:thunder",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:glacies",
+            "unlock": 4
+        },
+        {
+            "_id": "special:chilling-wind",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Blue Tome",
+    "tomeClass": 2,
+    "moveType": "Infantry",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 9,
+        "spd": 8,
+        "def": 3,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 60,
+        "spd": 55,
+        "def": 35,
+        "res": 50
+    },
+    "passiveC": [
+        {
+            "_id": "passive-c:even-atk-wave-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:even-atk-wave-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:even-atk-wave-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:death-blow-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:death-blow-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:death-blow-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:delthea-tatarrahs-puppet",
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "def": {
+                "base": 16,
+                "low": 13,
+                "high": 19
+            },
+            "res": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 38,
+                "low": 35,
+                "high": 41
+            },
+            "atk": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "spd": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "def": {
+                "base": 17,
+                "low": 14,
+                "high": 20
+            },
+            "res": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 41,
+                "low": 38,
+                "high": 44
+            },
+            "atk": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "res": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 157
+            }
+        }
+    }
+}

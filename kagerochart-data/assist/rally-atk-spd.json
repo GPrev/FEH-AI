@@ -1,0 +1,8 @@
+{
+    "name": "Rally Atk/Spd",
+    "description": "Grants Atk/Spd+3 to target ally for 1 turn.",
+    "docType": "assist",
+    "idTag": "SID_攻撃速さの応援",
+    "spCost": 300,
+    "_id": "assist:rally-atk-spd"
+}

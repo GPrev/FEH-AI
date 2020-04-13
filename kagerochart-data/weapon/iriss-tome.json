@@ -1,0 +1,71 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Iris's Tome",
+    "description": "Grants bonus to unit’s Atk = total bonuses on unit during combat.",
+    "docType": "weapon",
+    "idTag": "SID_アイリスの書",
+    "spCost": 400,
+    "_id": "weapon:iriss-tome",
+    "refines": [
+        {
+            "might": 14,
+            "stats": {
+                "hp": 2,
+                "spd": 2
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 15,
+            "stats": {
+                "hp": 2,
+                "atk": 1
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 14,
+            "stats": {
+                "hp": 2,
+                "def": 3
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 14,
+            "stats": {
+                "hp": 2,
+                "res": 3
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 14,
+            "stats": {},
+            "description": "At start of even-numbered turns, grants Atk+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)",
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        }
+    ]
+}

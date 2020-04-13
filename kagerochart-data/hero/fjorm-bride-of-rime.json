@@ -1,0 +1,218 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Fjorm",
+    "epitet": "Bride of Rime",
+    "display": "Fjorm: Bride of Rime",
+    "description": "The middle princess of Nifl. Dressed in an elegant dress with clean lines, she elevates the style of the bridal festival.",
+    "artist": "Maeshima Shigeki (前嶋重機)",
+    "voiceActorEN": "Heather Watson",
+    "voiceActorJP": "高橋李依",
+    "dialogue": [
+        {
+            "text": "I am Fjorm, second princess of Nifl, the Kingdom of Ice. W-would this suit me...if I were getting married?",
+            "context": "joined"
+        },
+        {
+            "text": "This is considered a traditional wedding gown in Nifl. D-do you think the style suits me?",
+            "context": "castle"
+        },
+        {
+            "text": "I seem to wear armor more often than I do dresses, so...I am a little out of my element.",
+            "context": "castle"
+        },
+        {
+            "text": "I am so grateful I'm able to participate in such a lovely festival—I've already started planning your thank-you gift!",
+            "context": "castle"
+        },
+        {
+            "text": "My ideal...partner? F-for marriage? I, umm... Sorry, it's kind of...personal.",
+            "context": "castle"
+        },
+        {
+            "text": "I wish Mother could see me in such a lovely dress. I'm sure she'd love it.",
+            "context": "castle"
+        },
+        {
+            "text": "I am Fjorm of Nifl. I've come bearing an invitation to a festival, courtesy of <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Mother... Aren't I elegant?",
+            "context": "level"
+        },
+        {
+            "text": "I'll be careful, and put one foot in front of the other.",
+            "context": "level"
+        },
+        {
+            "text": "Wearing unusual clothes... makes me nervous.",
+            "context": "level"
+        },
+        {
+            "text": "I owe you so much, I worry I will never repay my debt.",
+            "context": "growth"
+        },
+        {
+            "text": "I never imagined I would wear a dress like this one day. Especially at a crowded festival. It's...awkward. When you helped me fight for Nifl, my home, there wasn't any time to reflect on what normal life is like... But now, having dressed as a bride, I can feel the weight of the peace we seek resting on my shoulders again. A world where we can spend our lives surrounded by loved ones... That is the life I want for everyone. And so I'd like to renew my vow to help build a peaceful world with you, <Player Name>—together!",
+            "context": "maxed"
+        }
+    ],
+    "color": "Colorless",
+    "origin": "Fire Emblem Heroes",
+    "weapon": [
+        {
+            "_id": "weapon:gjallarbru",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:assault",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:restore-plus",
+            "unlock": 0
+        },
+        {
+            "_id": "assist:restore",
+            "unlock": 3
+        },
+        {
+            "_id": "assist:reconcile",
+            "unlock": 2
+        },
+        {
+            "_id": "assist:heal",
+            "unlock": 0
+        }
+    ],
+    "weaponType": "Colorless Staff",
+    "tomeClass": 0,
+    "moveType": "Flying",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 7,
+        "spd": 9,
+        "def": 3,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 60,
+        "spd": 55,
+        "def": 30,
+        "res": 45
+    },
+    "passiveA": [
+        {
+            "_id": "passive-a:hp-atk-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:hp-atk-1",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:hp-plus-3",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:dazzling-staff-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:dazzling-staff-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:dazzling-staff-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:ground-orders-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:ground-orders-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:ground-orders-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:fjorm-bride-of-rime",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 42,
+                "low": 39,
+                "high": 45
+            },
+            "atk": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "spd": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "def": {
+                "base": 17,
+                "low": 13,
+                "high": 20
+            },
+            "res": {
+                "base": 23,
+                "low": 20,
+                "high": 27
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 150
+            }
+        }
+    }
+}

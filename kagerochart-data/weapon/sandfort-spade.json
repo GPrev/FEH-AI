@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 10,
+    "name": "Sandfort Spade",
+    "description": "If a bonus granted by a skill like Rally or Hone is active on unit, grants Atk/Def+4 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_砂浜のスコップ",
+    "nextSkill": {
+        "_id": "weapon:sandfort-spade-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:sandfort-spade"
+}

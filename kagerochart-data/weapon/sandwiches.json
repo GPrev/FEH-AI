@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Sandwiches!",
+    "description": "If foe initiates combat, grants Atk/Res+4 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_サラダサンド",
+    "nextSkill": {
+        "_id": "weapon:sandwiches-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:sandwiches"
+}

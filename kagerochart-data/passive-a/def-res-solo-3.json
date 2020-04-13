@@ -1,0 +1,8 @@
+{
+    "name": "Def/Res Solo 3",
+    "description": "If unit is not adjacent to an ally, grants Def/Res+6 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_守備魔防の孤軍3",
+    "spCost": 240,
+    "_id": "passive-a:def-res-solo-3"
+}

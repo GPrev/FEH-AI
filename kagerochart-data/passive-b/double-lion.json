@@ -1,0 +1,9 @@
+{
+    "exclusive": true,
+    "name": "Double Lion",
+    "description": "If unit's HP = 100% at start of combat and unit initiates combat, unit attacks twice, but deals 1 damage to unit after combat. (Does not stack.)",
+    "docType": "passive-b",
+    "idTag": "SID_獅子連斬",
+    "spCost": 300,
+    "_id": "passive-b:double-lion"
+}

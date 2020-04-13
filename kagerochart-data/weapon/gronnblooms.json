@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Gronnblooms",
+    "description": "If unit is adjacent to an ally, grants Atk/Spd/Def/Res+3 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_緑の花かご",
+    "nextSkill": {
+        "_id": "weapon:gronnblooms-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:gronnblooms"
+}

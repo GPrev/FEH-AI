@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Veðrfölnir's Egg",
+    "description": "Grants Spd+3. At start of combat, if unit's HP ≥ 75%, grants Atk/Spd/Def/Res+4 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_フェルニルの妖卵",
+    "spCost": 400,
+    "_id": "weapon:verfolnirs-egg"
+}

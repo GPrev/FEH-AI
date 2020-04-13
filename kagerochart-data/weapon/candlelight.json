@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 7,
+    "name": "Candlelight",
+    "description": "After combat, if unit attacked, inflicts status on foe preventing counterattacks through its next action.",
+    "docType": "weapon",
+    "idTag": "SID_キャンドルサービス",
+    "nextSkill": {
+        "_id": "weapon:candlelight-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:candlelight"
+}

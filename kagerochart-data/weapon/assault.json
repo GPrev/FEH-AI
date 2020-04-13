@@ -1,0 +1,12 @@
+{
+    "range": 2,
+    "might": 10,
+    "name": "Assault",
+    "docType": "weapon",
+    "idTag": "SID_アサルト",
+    "nextSkill": {
+        "_id": "weapon:fear"
+    },
+    "spCost": 50,
+    "_id": "weapon:assault"
+}

@@ -1,0 +1,228 @@
+{
+    "_id": "hero:nino-pale-flower",
+    "display": "Nino: Pale Flower",
+    "name": "Nino",
+    "color": "Green",
+    "weapon": [
+        {
+            "_id": "weapon:giga-excalibur",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:rexcalibur",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elwind",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:wind",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:moonbow",
+            "unlock": 4
+        },
+        {
+            "_id": "special:new-moon",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Green Tome",
+    "moveType": "Flying",
+    "passiveA": [
+        {
+            "_id": "passive-a:swift-sparrow-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:swift-sparrow-1",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:death-blow-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:aerobatics-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:aerobatics-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:aerobatics-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:spd-smoke-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:spd-smoke-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:spd-smoke-1",
+            "unlock": 3
+        }
+    ],
+    "insights": [
+        "Nino is the only hero with Giga Excalibur.",
+        "Nino is the only hero with Aerobatics 3.",
+        "Nino is the only hero with Aerobatics 2.",
+        "Nino is the only hero with Aerobatics 1.",
+        "Nino has the highest <abbr title=\"Speed\">SPD</abbr> potential possible among Tome heroes.",
+        "Nino has the highest <abbr title=\"Speed\">SPD</abbr> potential possible among Green heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Pale Flower",
+    "description": "A young woman who was part of the assassin group Black Fang. Now she communes with a pegasus in order to aid her allies. Appears in Fire Emblem: The Blazing Blade.",
+    "artist": "Amagaitaro (アマガイタロー)",
+    "voiceActorEN": "Sarah Blandy",
+    "voiceActorJP": "優木かな",
+    "dialogue": [
+        {
+            "text": "Hi, I'm Nino! My pegasus and I will do our very best! That's a promise!",
+            "context": "joined"
+        },
+        {
+            "text": "It was a little scary at first, flying up so high on a pegasus... But now it's so cool, and wonderful, and strange all at the same time!",
+            "context": "castle"
+        },
+        {
+            "text": "I was only able to befriend my pegasus thanks to Florina. Florina's so kind... She's like a big sister to me.",
+            "context": "castle"
+        },
+        {
+            "text": "Thanks for all your hard work. How about we take a little break? I think we've earned it!",
+            "context": "castle"
+        },
+        {
+            "text": "I've been practicing cooking, because you can't get better if you don't try! So, want to be my taste tester?",
+            "context": "castle"
+        },
+        {
+            "text": "I may not be able to read books, but I can commune with the spirits. Talking with them is so much fun!",
+            "context": "castle"
+        },
+        {
+            "text": "Hi, I'm Nino! I'm here on an errand from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "I hear the spirits' voices... I feel like I can do anything right now!",
+            "context": "level"
+        },
+        {
+            "text": "Maybe I'll be able to help now? Even if it's just a little bit!",
+            "context": "level"
+        },
+        {
+            "text": "Maybe I really am just slowing everyone down...",
+            "context": "level"
+        },
+        {
+            "text": "Oh, thank you! I'll work even harder now, just for you!",
+            "context": "growth"
+        },
+        {
+            "text": "You know, you're really kind. And so is everyone else around here, for that matter. They're all so serious about helping others—not just themselves. I can feel their kindness... And their strength. Sometimes I think that if I had people like these around back then... Maybe my life would have gone differently. But you can't change the past, right? I have to focus on what I can do for the future! And I'll start by helping the people who are super close to me. So if you're ever in trouble, come to me! I'll be sure to do my very best for you. Got it? Then it's a promise!",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: The Blazing Blade",
+    "releaseDate": "2018-06-08T07:00:00.000Z",
+    "tomeClass": 3,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 6,
+        "spd": 9,
+        "def": 3,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 60,
+        "spd": 65,
+        "def": 30,
+        "res": 45
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 40
+            },
+            "atk": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "spd": {
+                "base": 38,
+                "low": 35,
+                "high": 41
+            },
+            "def": {
+                "base": 17,
+                "low": 13,
+                "high": 20
+            },
+            "res": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 149
+            }
+        }
+    }
+}

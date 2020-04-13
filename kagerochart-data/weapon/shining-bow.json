@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Shining Bow",
+    "description": "Effective against flying foes. If foe's Def ≥ foe's Res+5, deals +7 damage.",
+    "docType": "weapon",
+    "idTag": "SID_シャイニングボウ",
+    "nextSkill": {
+        "_id": "weapon:shining-bow-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:shining-bow"
+}

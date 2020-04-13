@@ -1,0 +1,11 @@
+{
+    "name": "Def Ploy 2",
+    "description": "At start of turn, inflicts Def-4 on foes in cardinal directions with Res < unit’s Res through their next actions.",
+    "docType": "passive-c",
+    "idTag": "SID_守備の謀策2",
+    "nextSkill": {
+        "_id": "passive-c:def-ploy-3"
+    },
+    "spCost": 120,
+    "_id": "passive-c:def-ploy-2"
+}

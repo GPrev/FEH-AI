@@ -1,0 +1,8 @@
+{
+    "name": "Rally Def/Res",
+    "description": "Grants Def/Res+3 to target ally for 1 turn.",
+    "docType": "assist",
+    "idTag": "SID_守備魔防の応援",
+    "spCost": 300,
+    "_id": "assist:rally-def-res"
+}

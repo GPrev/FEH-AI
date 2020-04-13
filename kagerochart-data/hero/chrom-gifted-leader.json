@@ -1,0 +1,210 @@
+{
+    "_id": "hero:chrom-gifted-leader",
+    "display": "Chrom: Gifted Leader",
+    "name": "Chrom",
+    "color": "Green",
+    "weapon": [
+        {
+            "_id": "weapon:sack-o-gifts-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:sack-o-gifts",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-axe",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-axe",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:pivot",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:brazen-atk-def-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:brazen-atk-def-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:brazen-atk-def-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:wary-fighter-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:wary-fighter-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:wary-fighter-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [],
+    "description": "A prince of Ylisse and descendant of the Hero-King. He was summoned in the middle of a party for a winter festival. Appears in Fire Emblem Awakening.",
+    "weaponType": "Green Axe",
+    "moveType": "Armored",
+    "origin": "Fire Emblem: Awakening",
+    "gender": "Male",
+    "voiceActorEN": "Matt Mercer",
+    "voiceActorJP": "杉田智和",
+    "releaseDate": "2017-12-18T00:00:00.000Z",
+    "artistEN": "Ebila",
+    "voiceActorJPEN": "Sugita Tomokazu",
+    "insights": [
+        "Chrom is the only hero with Sack o' Gifts+.",
+        "Chrom is the only hero with Sack o' Gifts."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Gifted Leader",
+    "artist": "Ebila (えびら)",
+    "dialogue": [
+        {
+            "text": "Season's greetings! I'm Prince Chrom of the Halidom of Ylisse. Naughty or nice—which is it? Speak up!",
+            "context": "joined"
+        },
+        {
+            "text": "I had Prince Alfonse try on this outfit. It annoys me how much better it suits him than it suits me.",
+            "context": "castle"
+        },
+        {
+            "text": "When the winter festival comes, we festoon the castle at Ylisstol in red and green. Do you think you'd like to do the same here?",
+            "context": "castle"
+        },
+        {
+            "text": "Aren't you cold? I wouldn't be much of a Hero if I let our summoner collapse. Here, take my cape.",
+            "context": "castle"
+        },
+        {
+            "text": "Can you show me to town after our next mission? I'd like to buy presents for all of these hardworking Heroes.",
+            "context": "castle"
+        },
+        {
+            "text": "I took a look inside this sack... Turns out it's full of presents for the entire army. I better not lose it, eh?",
+            "context": "castle"
+        },
+        {
+            "text": "Season's greetings! I bring glad tidings and presents, too... If you've been good, that is.",
+            "context": "friend"
+        },
+        {
+            "text": "I've been graced with a present myself, it seems.",
+            "context": "level"
+        },
+        {
+            "text": "It's pretty tough to fight while lugging this sack around.",
+            "context": "level"
+        },
+        {
+            "text": "I guess I lost my holiday spirit for a moment there.",
+            "context": "level"
+        },
+        {
+            "text": "Is this your gift to me? I thank you!",
+            "context": "growth"
+        },
+        {
+            "text": "Here for a chat? I appreciate that you braved the cold to come and find me, but spare a thought for your health. If you caught a cold, you wouldn't be able to enjoy the winter celebrations. In Ylisse, we have a tradition... On the day of the winter festival, we give gifts to our family and our closest friends. Normally, I'd be giving out the gifts. But hear me out, no matter how odd this sounds... It seems to me that, ever since I arrived in Askr, it's been you that's been giving gifts to me. Does that make any sense? Gifts aren't just things. You spend time with me. You're by my side, cheering me on. You make me stronger. That...makes me happier than you can guess. I'm truly grateful. I'll do what I can to do the same for you.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 24,
+        "atk": 11,
+        "spd": 3,
+        "def": 8,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 60,
+        "atk": 65,
+        "spd": 35,
+        "def": 60,
+        "res": 55
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 25,
+                "low": 24,
+                "high": 26
+            },
+            "atk": {
+                "base": 12,
+                "low": 11,
+                "high": 13
+            },
+            "spd": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "def": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 51,
+                "low": 48,
+                "high": 54
+            },
+            "atk": {
+                "base": 40,
+                "low": 37,
+                "high": 43
+            },
+            "spd": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "def": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "res": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 174
+            }
+        }
+    }
+}

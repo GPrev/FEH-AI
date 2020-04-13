@@ -1,0 +1,327 @@
+{
+    "_id": "hero:hinata-wild-samurai",
+    "display": "Hinata: Wild Samurai",
+    "name": "Hinata",
+    "color": "Red",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:hinatas-katana",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:ruby-sword-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:ruby-sword",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:pavise",
+            "unlock": 4
+        },
+        {
+            "_id": "special:buckler",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:fury-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:fury-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:fury-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:brash-assault-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:brash-assault-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:brash-assault-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [],
+    "description": "A coarse, yet caring, samurai of Hoshido. One of Takumi's retainers. Appears in Fire Emblem Fates.",
+    "weaponType": "Red Sword",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Fates",
+    "gender": "Male",
+    "voiceActorEN": "Delem Donaldson",
+    "voiceActorJP": "市来光弘",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistJP": "上田夢人",
+    "artistEN": "Ueda Yumehito",
+    "voiceActorJPEN": "Ichiki Mitsuhiro",
+    "insights": [],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Wild Samurai",
+    "artist": "Ueda Yumehito (上田夢人)",
+    "dialogue": [
+        {
+            "text": "Name's Hinata! I'm a samurai from Hoshido. I'm always training with my katana—got the best slice around!",
+            "context": "joined"
+        },
+        {
+            "text": "As long as we're all here, we should have a big competition. We'll see how good you members of this order are!",
+            "context": "castle"
+        },
+        {
+            "text": "I'm a retainer for Lord Takumi. I wouldn't hesitate to give up my life if it meant protecting him.",
+            "context": "castle"
+        },
+        {
+            "text": "Hey! On patrol? Good work! If you ever need a hand, just holler, and then I'll come running!",
+            "context": "castle"
+        },
+        {
+            "text": "Say, you free? Then why not train with me, <Player Name>! Need to keep my arm in swingin' shape!",
+            "context": "castle"
+        },
+        {
+            "text": "Just bought veggies from a pretty lady. Nah, she didn't overcharge me. No way pretty ladies would do that!",
+            "context": "castle"
+        },
+        {
+            "text": "You're <Player Name>, right? Your buddy sent me over to say hello. Which buddy? Ha! It was <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "I kinda want to brag to everyone now.",
+            "context": "level"
+        },
+        {
+            "text": "Oh wow, I'm getting stronger!",
+            "context": "level"
+        },
+        {
+            "text": "I wanted to become even stronger.",
+            "context": "level"
+        },
+        {
+            "text": "This is gonna be an exciting change!",
+            "context": "growth"
+        },
+        {
+            "text": "Hey there! Just wanna throw a whole bucket of thanks on you for putting me in battle a lot. You know I live for that, and that sorta thing helps me keep my skills sharp, <Player Name>! Have to admit that when I first landed here, I was all kinds of homesick. I mean, seriously! This place doesn't have anything good from Hoshido! No dojos. No miso soup. But you know what? I love this place now, even without the soup! Good for a guy to open up to new things, right? Otherwise, life's just dull. Besides, battling strong foes from so many worlds helps me get better at protecting Lord Takumi. Ha! Don't think I forgot about you. Me and my katana? We are SO here to keep you safe!",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 20,
+        "atk": 7,
+        "spd": 4,
+        "def": 9,
+        "res": 2
+    },
+    "growthRates": {
+        "hp": 60,
+        "atk": 55,
+        "spd": 45,
+        "def": 60,
+        "res": 35
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 20,
+                "low": 19,
+                "high": 21
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "def": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "res": {
+                "base": 2,
+                "low": 1,
+                "high": 3
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 20,
+                "low": 19,
+                "high": 21
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "def": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "res": {
+                "base": 2,
+                "low": 1,
+                "high": 3
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 21,
+                "low": 20,
+                "high": 22
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 43,
+                "low": 40,
+                "high": 46
+            },
+            "atk": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "spd": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "def": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "res": {
+                "base": 15,
+                "low": 12,
+                "high": 18
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 44,
+                "low": 41,
+                "high": 47
+            },
+            "atk": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "spd": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "def": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "res": {
+                "base": 16,
+                "low": 13,
+                "high": 19
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 47,
+                "low": 44,
+                "high": 50
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 24,
+                "low": 21,
+                "high": 28
+            },
+            "def": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "res": {
+                "base": 18,
+                "low": 15,
+                "high": 21
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 157
+            }
+        }
+    }
+}

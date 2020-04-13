@@ -1,0 +1,8 @@
+{
+    "name": "Atk/Def Link 3",
+    "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Def+6 to unit and target ally or unit and targeting ally for 1 turn.",
+    "docType": "passive-b",
+    "idTag": "SID_攻撃守備の連携3",
+    "spCost": 240,
+    "_id": "passive-b:atk-def-link-3"
+}

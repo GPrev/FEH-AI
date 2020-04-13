@@ -1,0 +1,11 @@
+{
+    "name": "Obstruct 2",
+    "description": "If unit's HP ≥ 70%, foes cannot move through spaces adjacent to unit. (Does not affect foes with Pass skills.)",
+    "docType": "passive-b",
+    "idTag": "SID_進軍阻止2",
+    "nextSkill": {
+        "_id": "passive-b:obstruct-3"
+    },
+    "spCost": 100,
+    "_id": "passive-b:obstruct-2"
+}

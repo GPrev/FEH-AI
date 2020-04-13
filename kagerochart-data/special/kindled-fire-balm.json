@@ -1,0 +1,9 @@
+{
+    "name": "Kindled-Fire Balm",
+    "description": "When healing an ally with a staff, grants Atk+4 to all allies for 1 turn.",
+    "docType": "special",
+    "idTag": "SID_業火の祝福",
+    "spCost": 150,
+    "cooldownCount": 1,
+    "_id": "special:kindled-fire-balm"
+}

@@ -1,0 +1,218 @@
+{
+    "refresher": true,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Ishtar",
+    "epitet": "Thunder's Waltz",
+    "display": "Ishtar: Thunder's Waltz",
+    "description": "The heir to Mjölnir, she carries the blood of Friege's royal family. Dances with the power of rolling thunder. Appears in Fire Emblem: Thracia 776.",
+    "artist": "Chiko (チーコ)",
+    "voiceActorEN": "Ratana",
+    "voiceActorJP": "門脇舞以",
+    "dialogue": [
+        {
+            "text": "I am Ishtar, of Friege. I have some small mastery of dancing. You are welcome to confirm that.",
+            "context": "joined"
+        },
+        {
+            "text": "Simply splendid, Reinhardt. Beautiful footwork. A dance befitting a knight of Friege.",
+            "context": "castle"
+        },
+        {
+            "text": "For the ball, we don our finest. I do wonder, however, if dressing for the battlefield befits me better.",
+            "context": "castle"
+        },
+        {
+            "text": "I expect that, as members of the royal family, Princess Sharena and Prince Alfonse are schooled in dance.",
+            "context": "castle"
+        },
+        {
+            "text": "Askr is home to such beautiful music... It lightens my step.",
+            "context": "castle"
+        },
+        {
+            "text": "Dreaming of sharing a dance, I once practiced my steps so intently, with a specific partner in mind...",
+            "context": "castle"
+        },
+        {
+            "text": "I am Ishtar, visiting from <Friend Name>'s castle. Shall we take a turn on the floor?",
+            "context": "friend"
+        },
+        {
+            "text": "Behold the dance of the Goddess of Thunder!",
+            "context": "level"
+        },
+        {
+            "text": "I must allow the music to flow through my heart.",
+            "context": "level"
+        },
+        {
+            "text": "I hesitated to step, didn't I?",
+            "context": "level"
+        },
+        {
+            "text": "I will show you an even more elegant dance—one that befits the Goddess of Thunder.",
+            "context": "growth"
+        },
+        {
+            "text": "How was that? Are you satisfied with my dancing? If I concentrate, everything but the dance fades... I feel as if a bolt of lightning is coursing through my body, filling me with vigor. I do not dance to escape my sadness. Everything I do is with the aim of moving forward. I will continue on my path, dancing without cessation, seeking the future.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Red",
+    "origin": "Fire Emblem: Thracia 776",
+    "weapon": [
+        {
+            "_id": "weapon:mograsir",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:bolganone",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elfire",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:fire",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:dance",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Red Tome",
+    "tomeClass": 1,
+    "moveType": "Flying",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 5,
+        "spd": 7,
+        "def": 2,
+        "res": 2
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 65,
+        "spd": 65,
+        "def": 30,
+        "res": 45
+    },
+    "passiveB": [
+        {
+            "_id": "passive-b:desperation-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:desperation-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:desperation-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:swift-sparrow-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:swift-sparrow-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:swift-sparrow-1",
+            "unlock": 3
+        },
+        {
+            "_id": "passive-a:darting-blow-1",
+            "unlock": 2
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:air-orders-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:air-orders-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:air-orders-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:ishtar-thunders-waltz",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 40
+            },
+            "atk": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "spd": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "def": {
+                "base": 16,
+                "low": 12,
+                "high": 19
+            },
+            "res": {
+                "base": 22,
+                "low": 19,
+                "high": 26
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 144
+            }
+        }
+    }
+}

@@ -1,0 +1,211 @@
+{
+    "_id": "hero:gray-wry-comrade",
+    "display": "Gray: Wry Comrade",
+    "name": "Gray",
+    "color": "Red",
+    "weapon": [
+        {
+            "_id": "weapon:zanbato-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:zanbato",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:swap",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:wind-boost-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:wind-boost-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:wind-boost-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:sword-valor-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:sword-valor-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:sword-valor-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "description": "Alm's childhood friend from Ram Village. Worldly and competent. Appears in Fire Emblem Echoes: Shadows of Valentia.",
+    "weaponType": "Red Sword",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem Echoes: Shadows of Valentia",
+    "gender": "Male",
+    "voiceActorEN": "Max Mittelman",
+    "voiceActorJP": "谷山紀章",
+    "releaseDate": "2017-07-13T07:00:00.000Z",
+    "artistJP": "かわすみ",
+    "artistEN": "kawasumi",
+    "voiceActorJPEN": "Taniyama Kisho",
+    "insights": [
+        "Gray is the only hero with Zanbato+.",
+        "Gray is the only hero with Zanbato."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Wry Comrade",
+    "artist": "kawasumi (かわすみ)",
+    "dialogue": [
+        {
+            "text": "I'm just an average guy from a village in the middle of nowhere. I'll help out, if you want me to. Name's Gray.",
+            "context": "joined"
+        },
+        {
+            "text": "This place sure is beautiful. So beautiful it's unsettling... Truth told, just being here makes me anxious.",
+            "context": "castle"
+        },
+        {
+            "text": "When Ram Village was attacked, it wasn't like I could just do nothing.",
+            "context": "castle"
+        },
+        {
+            "text": "You on patrol? You look stressed out. If you ever want to unwind, just give me a holler.",
+            "context": "castle"
+        },
+        {
+            "text": "Where do people go to have fun around here? I know how to have a good time, so anywhere's fine. You've gotta show me around!",
+            "context": "castle"
+        },
+        {
+            "text": "This place is messing me up. It makes the world I've known up till now feel so...insignificant...",
+            "context": "castle"
+        },
+        {
+            "text": "Hey, <Player Name>! Hi there! That's from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "I can't stand to lose.",
+            "context": "level"
+        },
+        {
+            "text": "This'll do. I guess.",
+            "context": "level"
+        },
+        {
+            "text": "Damn it... Not good.",
+            "context": "level"
+        },
+        {
+            "text": "If you believe in me, well... I better not slack off.",
+            "context": "growth"
+        },
+        {
+            "text": "Hey, <Player Name>... I have to ask you this. Why did you summon me here? Take a look around. Princes and princesses...even from other worlds. Everywhere! I have to laugh. You know I'm just some schlub from a tiny village in the middle of nowhere, right? You're saying you need my help? You called me here...because I'm a Hero, too? Joke's on you! I knew that's what you were going to say. But I'm surprised that you kept a straight face... If you really do think of me as a Hero, well... I feel like I'm stronger than anyone—even some king.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 6,
+        "spd": 5,
+        "def": 5,
+        "res": 2
+    },
+    "growthRates": {
+        "hp": 60,
+        "atk": 65,
+        "spd": 60,
+        "def": 55,
+        "res": 45
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 43,
+                "low": 40,
+                "high": 46
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "def": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "res": {
+                "base": 22,
+                "low": 19,
+                "high": 26
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 162
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Mirror Impact",
+    "description": "If unit initiates combat, grants Atk+6, Res+10 during combat and foe cannot make a follow-up attack.",
+    "docType": "passive-a",
+    "idTag": "SID_鬼神明鏡の瞬撃3",
+    "spCost": 300,
+    "_id": "passive-a:mirror-impact"
+}

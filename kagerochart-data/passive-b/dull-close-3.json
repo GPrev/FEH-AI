@@ -1,0 +1,8 @@
+{
+    "name": "Dull Close 3",
+    "description": "If foe uses sword, lance, axe, dragonstone, or beast damage, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+    "docType": "passive-b",
+    "idTag": "SID_強化無効・近距離3",
+    "spCost": 240,
+    "_id": "passive-b:dull-close-3"
+}

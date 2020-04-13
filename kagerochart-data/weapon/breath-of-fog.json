@@ -1,0 +1,73 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Breath of Fog",
+    "description": "Effective against dragon foes. At the start of every second turn, restores 10 HP. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
+    "docType": "weapon",
+    "idTag": "SID_霧のブレス",
+    "spCost": 400,
+    "_id": "weapon:breath-of-fog",
+    "refines": [
+        {
+            "might": 16,
+            "stats": {
+                "hp": 5,
+                "spd": 3
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 18,
+            "stats": {
+                "hp": 5,
+                "atk": 2
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 16,
+            "stats": {
+                "hp": 5,
+                "def": 4
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 16,
+            "stats": {
+                "hp": 5,
+                "res": 4
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 16,
+            "stats": {
+                "hp": 3
+            },
+            "description": "If unit is within 2 spaces of sword or dragon ally, grants Atk/Def+5 during combat.",
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        }
+    ]
+}

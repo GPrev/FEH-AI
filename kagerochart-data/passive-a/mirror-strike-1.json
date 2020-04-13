@@ -1,0 +1,11 @@
+{
+    "name": "Mirror Strike 1",
+    "description": "If unit initiates combat, grants Atk/Res+2 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_鬼神明鏡の一撃1",
+    "nextSkill": {
+        "_id": "passive-a:mirror-strike-2"
+    },
+    "spCost": 120,
+    "_id": "passive-a:mirror-strike-1"
+}

@@ -1,0 +1,11 @@
+{
+    "_id": "passive-s:poison-strike-1",
+    "name": "Poison Strike 1",
+    "sp": 60,
+    "type": "s",
+    "description": "Inflicts 4 damage to foe after any combat this unit initiates.",
+    "icon": "/images/icons/passives/poison-strike-1.png",
+    "poison": 4,
+    "docType": "passive-s",
+    "weaponRestrict": "Staff"
+}

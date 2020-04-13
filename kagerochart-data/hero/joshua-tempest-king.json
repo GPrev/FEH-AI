@@ -1,0 +1,270 @@
+{
+    "_id": "hero:joshua-tempest-king",
+    "display": "Joshua: Tempest King",
+    "name": "Joshua",
+    "color": "Red",
+    "lowestRarity": 4,
+    "weapon": [
+        {
+            "_id": "weapon:audhulma",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:slaying-edge",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:moonbow",
+            "unlock": 4
+        },
+        {
+            "_id": "special:new-moon",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:close-def-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:close-def-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:close-def-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:windsweep-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:windsweep-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:windsweep-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [],
+    "description": "A mercenary who loves to gamble. He has an evasive, almost aggravating personality. Appears in Fire Emblem: The Sacred Stones.",
+    "weaponType": "Red Sword",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: The Sacred Stones",
+    "gender": "Male",
+    "voiceActorEN": "Todd Haberkorn",
+    "voiceActorJP": "野島裕史",
+    "releaseDate": "2017-11-21T00:00:00.000Z",
+    "artistJP": "冨士原良",
+    "artistEN": "Fujiwara Ryo",
+    "voiceActorJPEN": "Hirofumi Nojima",
+    "insights": [
+        "Joshua is the only hero with Audhulma."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Tempest King",
+    "artist": "Fujiwara Ryo (冨士原良)",
+    "dialogue": [
+        {
+            "text": "I'm Joshua, a mercenary. Did a coin flip bring me here? Well, either way... I guess you're my new boss.",
+            "context": "joined"
+        },
+        {
+            "text": "I've got a pretty heavy task ahead of me. You could say my gambling has been a way to test my luck. A way to make sure I'm ready for it.",
+            "context": "castle"
+        },
+        {
+            "text": "As a journeyman, I traveled far and wide. I worked as a mercenary back then. Made a fair bit of money gambling at pubs, too!",
+            "context": "castle"
+        },
+        {
+            "text": "This place is a lot different from my country, but it's pretty nice. Could use a gambling hall, though...",
+            "context": "castle"
+        },
+        {
+            "text": "So... You want to make a bet? Ha, don't worry. You're an amateur, so I'll go easy on you!",
+            "context": "castle"
+        },
+        {
+            "text": "The way I see it, there are two ways to look at gambling. Sure, you could lose all your money... But you could also consider that paying your tuition! After all, losing is a valuable life lesson, innit?",
+            "context": "castle"
+        },
+        {
+            "text": "Your pal <Friend Name> asked me to give you this and was insistent I not gamble it away.",
+            "context": "friend"
+        },
+        {
+            "text": "Hm. Must be what they call \"dumb luck.\"",
+            "context": "level"
+        },
+        {
+            "text": "My luck hasn't run dry yet.",
+            "context": "level"
+        },
+        {
+            "text": "Not my lucky day...",
+            "context": "level"
+        },
+        {
+            "text": "I'll use this strength for Jehanna, for my mother...and for everyone.",
+            "context": "growth"
+        },
+        {
+            "text": "I left my home at a young age to travel the land. I spent a long time just wandering all over. Looking back, it may not have been the smartest decision... But it did lead me to you. I'll return to my country eventually. Then I'll succeed to the throne and devote myself fully to ruling. Oh, did I mention? I'm the crown prince of Jehanna. And when I go back, I want you to come with me. I don't need your answer now, but give it some thought. Maybe we can flip a coin to decide?",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 6,
+        "spd": 8,
+        "def": 7,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 55,
+        "spd": 60,
+        "def": 50,
+        "res": 50
+    },
+    "minStats": {
+        "4": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "4": {
+            "hp": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "atk": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "res": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 40,
+                "low": 36,
+                "high": 43
+            },
+            "atk": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 30,
+                "low": 26,
+                "high": 33
+            },
+            "res": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 164
+            }
+        }
+    }
+}

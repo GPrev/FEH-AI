@@ -1,0 +1,222 @@
+{
+    "legendary": {
+        "element": "Anima",
+        "bst": 0,
+        "stats": {
+            "hp": 5,
+            "atk": 3
+        },
+        "duel": false,
+        "duo_skill_id": null,
+        "kind": 1,
+        "pair_up": false
+    },
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Duma",
+    "epitet": "God of Strength",
+    "display": "Duma: God of Strength",
+    "description": "God of Strength and brother of the goddess Mila. He and Mila fought over the continent of Valentia and split it in twain. Rigel, the north of Valentia, is his domain. Appears in Fire Emblem Echoes: Shadows of Valentia.",
+    "artist": "Yoneko (米子)",
+    "voiceActorEN": "Josh Petersdorf",
+    "voiceActorJP": "銀河万丈",
+    "dialogue": [
+        {
+            "text": "I am Duma. Strength is my domain. I created the Rigelian Empire.",
+            "context": "joined"
+        },
+        {
+            "text": "Mankind must become strong. My sister does not seem to understand this. It is regrettable.",
+            "context": "castle"
+        },
+        {
+            "text": "In Rigel, the land I rule, the people must become strong and self-reliant thanks to the harsh climate. That is how mankind should be.",
+            "context": "castle"
+        },
+        {
+            "text": "You find yourself in another world, yet you temper your spirit on the battlefield here. You are a true warrior in my eyes.",
+            "context": "castle"
+        },
+        {
+            "text": "You are said to be only a summoner, but I find your demeanor familiar. Would you cross swords with me?",
+            "context": "castle"
+        },
+        {
+            "text": "The people of Rigel... If only they could be diligent in my absence, all would be well. It vexes me.",
+            "context": "castle"
+        },
+        {
+            "text": "I come to you from my place at <Friend Name>'s side. I grant you my protection.",
+            "context": "friend"
+        },
+        {
+            "text": "Only power holds meaning. This is a true blessing.",
+            "context": "level"
+        },
+        {
+            "text": "With this strength, I will strike down the wicked and guide the people.",
+            "context": "level"
+        },
+        {
+            "text": "Justice without strength means nothing.",
+            "context": "level"
+        },
+        {
+            "text": "This world holds new power, even for me. Well done, Summoner.",
+            "context": "growth"
+        },
+        {
+            "text": "I have come to know you in the time since you called me here, Summoner. You are a strong one. But your strength is not the strength I hope to see in mankind. At times, you do approach my ideal... But your kindness is more like my sister Mila's. Seeing you makes me ponder what things would have been like if we had ruled the land together. No, this is foolishness. A god like me, learning from you, who is as dirt? Pay this no heed.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Colorless",
+    "origin": "Fire Emblem Echoes: Shadows of Valentia",
+    "weapon": [
+        {
+            "_id": "weapon:fell-breath",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:flametongue",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:fire-breath-plus",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:fire-breath",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:draconic-aura",
+            "unlock": 4
+        },
+        {
+            "_id": "special:dragon-gaze",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Colorless Breath",
+    "tomeClass": 0,
+    "moveType": "Armored",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 23,
+        "atk": 9,
+        "spd": 5,
+        "def": 7,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 70,
+        "spd": 35,
+        "def": 60,
+        "res": 55
+    },
+    "passiveA": [
+        {
+            "_id": "passive-a:def-res-solo-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:def-res-solo-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:def-res-solo-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:bold-fighter-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:bold-fighter-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:bold-fighter-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:upheaval",
+            "unlock": 5
+        }
+    ],
+    "_id": "hero:duma-god-of-strength",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 24,
+                "low": 23,
+                "high": 25
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 48,
+                "low": 45,
+                "high": 51
+            },
+            "atk": {
+                "base": 40,
+                "low": 37,
+                "high": 44
+            },
+            "spd": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "def": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "res": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 174
+            }
+        }
+    }
+}

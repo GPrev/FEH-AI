@@ -1,0 +1,11 @@
+{
+    "name": "Rockslide Dance 1",
+    "description": "If Sing or Dance is used, grants Spd+2 and Def+3 to target.",
+    "docType": "passive-b",
+    "idTag": "SID_疾風大地の舞い1",
+    "nextSkill": {
+        "_id": "passive-b:rockslide-dance-2"
+    },
+    "spCost": 120,
+    "_id": "passive-b:rockslide-dance-1"
+}

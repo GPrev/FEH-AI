@@ -1,0 +1,11 @@
+{
+    "name": "Spur Atk/Res 1",
+    "description": "Grants Atk/Res+2 to adjacent allies during combat.",
+    "docType": "passive-c",
+    "idTag": "SID_攻撃魔防の紋章1",
+    "nextSkill": {
+        "_id": "passive-c:spur-atk-res-2"
+    },
+    "spCost": 120,
+    "_id": "passive-c:spur-atk-res-1"
+}

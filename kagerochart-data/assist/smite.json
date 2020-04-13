@@ -1,0 +1,8 @@
+{
+    "name": "Smite",
+    "description": "Pushes target ally 2 spaces away.",
+    "docType": "assist",
+    "idTag": "SID_ぶちかまし",
+    "spCost": 150,
+    "_id": "assist:smite"
+}

@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 9,
+    "name": "Harmonic Lance",
+    "description": "Deals +10 damage when Special triggers.",
+    "docType": "weapon",
+    "idTag": "SID_倭鉾",
+    "nextSkill": {
+        "_id": "weapon:harmonic-lance-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:harmonic-lance"
+}

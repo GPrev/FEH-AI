@@ -1,0 +1,11 @@
+{
+    "name": "Brazen Spd/Def 2",
+    "description": "At start of combat, if unit's HP ≤ 80%, grants Spd/Def+5 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_速さ守備の大覚醒2",
+    "nextSkill": {
+        "_id": "passive-a:brazen-spd-def-3"
+    },
+    "spCost": 120,
+    "_id": "passive-a:brazen-spd-def-2"
+}

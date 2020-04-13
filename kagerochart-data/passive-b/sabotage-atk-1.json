@@ -1,0 +1,11 @@
+{
+    "name": "Sabotage Atk 1",
+    "description": "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Atk-3 on that foe through its next action.",
+    "docType": "passive-b",
+    "idTag": "SID_攻撃の混乱1",
+    "nextSkill": {
+        "_id": "passive-b:sabotage-atk-2"
+    },
+    "spCost": 60,
+    "_id": "passive-b:sabotage-atk-1"
+}

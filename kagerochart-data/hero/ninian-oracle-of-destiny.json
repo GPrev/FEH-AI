@@ -1,0 +1,212 @@
+{
+    "_id": "hero:ninian-oracle-of-destiny",
+    "display": "Ninian: Oracle of Destiny",
+    "name": "Ninian",
+    "color": "Blue",
+    "weapon": [
+        {
+            "_id": "weapon:light-breath-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:light-breath",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:fire-breath-plus",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:fire-breath",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:dance",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveB": [
+        {
+            "_id": "passive-b:escape-route-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:escape-route-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:escape-route-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:fortify-dragons",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:fortify-def-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:fortify-def-1",
+            "unlock": 3
+        }
+    ],
+    "passiveA": [],
+    "description": "A young dancer who has a serene and mystical presence. Her dances are divine tributes. Appears in Fire Emblem: The Blazing Blade.",
+    "weaponType": "Blue Breath",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: The Blazing Blade",
+    "gender": "Female",
+    "voiceActorEN": "Brianna Knickerbocker",
+    "voiceActorJP": "洲崎綾",
+    "releaseDate": "2017-03-16T07:00:00.000Z",
+    "artistJP": "切符",
+    "artistEN": "Kippu",
+    "voiceActorJPEN": "Suzaki Aya",
+    "insights": [
+        "Ninian has the lowest <abbr title=\"Attack\">ATK</abbr> potential possible among Breath heroes.",
+        "Ninian has the lowest <abbr title=\"Defense\">DEF</abbr> potential possible among Breath heroes.",
+        "Ninian has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Breath heroes."
+    ],
+    "refresher": true,
+    "dragonflowers": 10,
+    "epitet": "Oracle of Destiny",
+    "artist": "Kippu (切符)",
+    "dialogue": [
+        {
+            "text": "I am Ninian—quite simply, a traveling performer, glad to put on a show. It's nothing much, really.",
+            "context": "joined"
+        },
+        {
+            "text": "The wind here...and this land... I find it all so refreshing.",
+            "context": "castle"
+        },
+        {
+            "text": "I sense that you are somehow... different than everyone else around us.",
+            "context": "castle"
+        },
+        {
+            "text": "Thank you for your kindness. I don't take it for granted, <Player Name>.",
+            "context": "castle"
+        },
+        {
+            "text": "I know many dances—those for any occasion and a few for special ones. Care to see some?",
+            "context": "castle"
+        },
+        {
+            "text": "I am able to sense impending danger. But at the moment, I sense... nothing that puts us in peril.",
+            "context": "castle"
+        },
+        {
+            "text": "I bear greetings as well as a dance of friendship on behalf of <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Does this please you? Then I am satisfied.",
+            "context": "level"
+        },
+        {
+            "text": "I sense that...I can do still better than this.",
+            "context": "level"
+        },
+        {
+            "text": "Sorry. I will never be able to help at this rate.",
+            "context": "level"
+        },
+        {
+            "text": "I sense that this has helped awaken my potential.",
+            "context": "growth"
+        },
+        {
+            "text": "So you surely realize by now that...dragon blood courses through my veins. Dragons have not often lived in harmony with humans...or is it vice versa? Yet here I feel as if I can truly be myself without fear or shame. That's because of you. You have the rare gift of seeing others, or at least me, as if there are no divisions between us. I appreciate this more than you can know. And so, I offer you all my dances in deep gratitude.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 4,
+        "spd": 6,
+        "def": 5,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 60,
+        "atk": 45,
+        "spd": 60,
+        "def": 40,
+        "res": 50
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 42,
+                "low": 39,
+                "high": 45
+            },
+            "atk": {
+                "base": 24,
+                "low": 21,
+                "high": 28
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            },
+            "res": {
+                "base": 27,
+                "low": 23,
+                "high": 30
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 149
+            }
+        }
+    }
+}

@@ -1,0 +1,217 @@
+{
+    "_id": "hero:julia-nagas-blood",
+    "display": "Julia: Naga's Blood",
+    "name": "Julia",
+    "color": "Green",
+    "weapon": [
+        {
+            "_id": "weapon:naga",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:rexcalibur",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elwind",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:wind",
+            "unlock": 0
+        },
+        {
+            "_id": "weapon:wind"
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:dragon-fang",
+            "unlock": 4
+        },
+        {
+            "_id": "special:dragon-gaze",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:resistance-plus-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:resistance-plus-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:resistance-plus-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:breath-of-life-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:breath-of-life-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:breath-of-life-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [],
+    "description": "Inheritor of the Book of Naga. Seliph's half sister by a different father. Gentle, yet faces her destiny with strength. Appears in Fire Emblem: Genealogy of the Holy War.",
+    "weaponType": "Green Tome",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Genealogy of the Holy War",
+    "gender": "Female",
+    "voiceActorEN": "Cassandra Lee Morris",
+    "voiceActorJP": "佐倉綾音",
+    "releaseDate": "2017-02-13T07:00:00.000Z",
+    "artistJP": "はいむらきよたか",
+    "artistEN": "Haimura Kiyotaka",
+    "voiceActorJPEN": "Sakura Ayane",
+    "insights": [
+        "Julia is the only hero with Naga."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Naga's Blood",
+    "artist": "Haimura Kiyotaka (はいむらきよたか)",
+    "dialogue": [
+        {
+            "text": "My name is Julia—she who inherited the ability to use the book of the Divine Dragon, Naga.",
+            "context": "joined"
+        },
+        {
+            "text": "The Book of Naga...has always seemed both familiar...and mysterious.",
+            "context": "castle"
+        },
+        {
+            "text": "My mother and father...and my brother Julius... They were all as kind as you can imagine.",
+            "context": "castle"
+        },
+        {
+            "text": "As always, thank you for all that you do. Let me know if there's anything more I can do to help.",
+            "context": "castle"
+        },
+        {
+            "text": "Seliph...that is, my brother...is the sort of person who could lead a world toward peace. As are you, clearly.",
+            "context": "castle"
+        },
+        {
+            "text": "My brother Julius, once very kind, turned into a twisted devil... Then by that devil's hands, my mother...and my father... Oh, it's beyond anything!",
+            "context": "castle"
+        },
+        {
+            "text": "Ah. Sorry to be a bother, but I've found myself here and... Where am I exactly?",
+            "context": "friend"
+        },
+        {
+            "text": "I will fight—no matter who our foe!",
+            "context": "level"
+        },
+        {
+            "text": "I want to grow stronger so I can give my all.",
+            "context": "level"
+        },
+        {
+            "text": "I won't take flight, no matter how dire things may get.",
+            "context": "level"
+        },
+        {
+            "text": "I grow closer to understanding the reason I am here.",
+            "context": "growth"
+        },
+        {
+            "text": "My brother Julius and I both inherited a special power through our lineage. I...gained the ability to use the Book of Naga. My brother...could take hold of a book of terrible darkness, and it turned him into a devil of a man. Both of our fates were made merely because of lineage. What if I could succumb to what took hold of my brother—become your worst enemy against my will? The thought terrifies me. But I take heart in one thing—how you have continued to be there for me. I believe, were that to happen, that one word from you would bring me back to my senses. I ask you to never leave my side, so that I...can never leave yours.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 3,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 8,
+        "spd": 6,
+        "def": 3,
+        "res": 7
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 45,
+        "def": 30,
+        "res": 55
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 38,
+                "low": 34,
+                "high": 41
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 26,
+                "low": 23,
+                "high": 30
+            },
+            "def": {
+                "base": 17,
+                "low": 13,
+                "high": 20
+            },
+            "res": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 148
+            }
+        }
+    }
+}

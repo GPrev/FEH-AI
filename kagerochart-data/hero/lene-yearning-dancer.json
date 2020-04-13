@@ -1,0 +1,209 @@
+{
+    "_id": "hero:lene-yearning-dancer",
+    "display": "Lene: Yearning Dancer",
+    "name": "Lene",
+    "color": "Red",
+    "weapon": [
+        {
+            "_id": "weapon:safeguard-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:safeguard",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:dance",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "weaponType": "Red Sword",
+    "moveType": "Infantry",
+    "passiveB": [
+        {
+            "_id": "passive-b:firestorm-dance-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:firestorm-dance-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:gale-dance-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:sword-valor-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:sword-valor-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:sword-valor-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [],
+    "insights": [
+        "Lene is the only hero with Safeguard+.",
+        "Lene is the only hero with Safeguard.",
+        "Lene is the only hero with Firestorm Dance 2.",
+        "Lene is the only hero with Firestorm Dance 1.",
+        "Lene has the lowest <abbr title=\"Health Points\">HP</abbr> potential possible among Sword heroes."
+    ],
+    "refresher": true,
+    "dragonflowers": 10,
+    "epitet": "Yearning Dancer",
+    "description": "A dancer and descendant of the high priest Bragi. She understands how the world works, but she doesn't let it get her down. Appears in Fire Emblem: Genealogy of the Holy War.",
+    "artist": "Yoshiku (四々九)",
+    "voiceActorEN": "Faye Mata",
+    "voiceActorJP": "高橋美佳子",
+    "dialogue": [
+        {
+            "text": "I'm Lene! You'll get to know me faster if I dance instead of talk, so... Here goes!",
+            "context": "joined"
+        },
+        {
+            "text": "When it's time to go shopping, I dance to earn money for ingredients... What do you want for dinner?",
+            "context": "castle"
+        },
+        {
+            "text": "Through dancing, I transmit energy to the audience. Even though I'm in a new world now, that hasn't changed.",
+            "context": "castle"
+        },
+        {
+            "text": "You're always up so early. Impressive! Hey, why don't I accompany you on your rounds?",
+            "context": "castle"
+        },
+        {
+            "text": "As a dancer, I spend a lot of time on my appearance. Of course, it starts with clothes, but it doesn't end there... So... Wanna take me shopping?",
+            "context": "castle"
+        },
+        {
+            "text": "Hey, <Player Name>... Something wrong? What is it? You keep looking my way... Ha! I was just teasing. You can take it easy.",
+            "context": "castle"
+        },
+        {
+            "text": "Hi there. I'm Lene! I've come all the way here just to say hello. Hi, from <Friend Name>!",
+            "context": "friend"
+        },
+        {
+            "text": "Perfect! I'm moving wonderfully today!",
+            "context": "level"
+        },
+        {
+            "text": "That was about usual. At least I'm not getting worse...",
+            "context": "level"
+        },
+        {
+            "text": "That's no good at all! I guess I was out too late last night.",
+            "context": "level"
+        },
+        {
+            "text": "My body feels so light... I have some ideas for new footwork— I'll show you later!",
+            "context": "growth"
+        },
+        {
+            "text": "Hmm... What color should I wear today? Just a touch of makeup, and... Oh, <Player Name>! What's that? When you look at me, you forget about the war? That's the idea—I dance to raise people's spirits! And if I dance in rags, it will just remind them of the war, not make them forget about it. I am not a warrior... I am a dancer. I want to bring a touch of color to people's lives. If I can make the sadness and the terror of fighting disappear from their minds, even for a moment, then... I've done my job. If the war is getting you down, and you're feeling exhausted... Just come and see me. I'll dance just for you!",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Genealogy of the Holy War",
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 5,
+        "spd": 6,
+        "def": 3,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 50,
+        "spd": 65,
+        "def": 45,
+        "res": 50
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 39
+            },
+            "atk": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 23,
+                "low": 20,
+                "high": 27
+            },
+            "res": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 149
+            }
+        }
+    }
+}

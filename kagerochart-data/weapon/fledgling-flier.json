@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 6,
+    "name": "Fledgling (Flier)",
+    "description": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.",
+    "docType": "weapon",
+    "idTag": "SID_若獣の化身・飛行",
+    "nextSkill": {
+        "_id": "weapon:adult-flier"
+    },
+    "spCost": 100,
+    "_id": "weapon:fledgling-flier"
+}

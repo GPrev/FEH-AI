@@ -1,0 +1,9 @@
+{
+    "exclusive": true,
+    "name": "Gray Waves",
+    "description": "Grants another action to target ally, and if target is an infantry or flying ally, target can move 1 extra space. (That turn only. Does not stack. Cannot target an ally with Sing or Dance. This skill treated as Sing or Dance.)",
+    "docType": "assist",
+    "idTag": "SID_ユラリユルレリ",
+    "spCost": 400,
+    "_id": "assist:gray-waves"
+}

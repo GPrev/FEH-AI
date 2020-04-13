@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 10,
+    "name": "Vanguard",
+    "description": "If foe initiates combat, grants Def+7 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_守りの槍",
+    "nextSkill": {
+        "_id": "weapon:vanguard-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:vanguard"
+}

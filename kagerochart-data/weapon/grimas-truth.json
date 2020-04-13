@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Grima's Truth",
+    "description": "Grants Def+3. After combat, if unit attacked, inflicts Atk/Spd-5 on target and foes within 2 spaces of target through their next actions, and grants Atk/Spd+5 to unit and allies within 2 spaces for 1 turn.",
+    "docType": "weapon",
+    "idTag": "SID_魔書ギムレー",
+    "spCost": 400,
+    "_id": "weapon:grimas-truth"
+}

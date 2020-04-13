@@ -1,0 +1,60 @@
+{
+    "range": 2,
+    "might": 12,
+    "name": "Blue Gift+",
+    "description": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+    "docType": "weapon",
+    "idTag": "SID_青のプレゼント箱＋",
+    "spCost": 300,
+    "_id": "weapon:blue-gift-plus",
+    "refines": [
+        {
+            "might": 12,
+            "stats": {
+                "hp": 2,
+                "spd": 2
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 13,
+            "stats": {
+                "hp": 2,
+                "atk": 1
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 12,
+            "stats": {
+                "hp": 2,
+                "def": 3
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 12,
+            "stats": {
+                "hp": 2,
+                "res": 3
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        }
+    ]
+}

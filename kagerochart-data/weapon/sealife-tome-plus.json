@@ -1,0 +1,60 @@
+{
+    "range": 2,
+    "might": 12,
+    "name": "Sealife Tome+",
+    "description": "Grants Atk/Spd+1 to allies within 2 spaces during combat.",
+    "docType": "weapon",
+    "idTag": "SID_熱帯魚の本＋",
+    "spCost": 300,
+    "_id": "weapon:sealife-tome-plus",
+    "refines": [
+        {
+            "might": 12,
+            "stats": {
+                "hp": 2,
+                "spd": 2
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 13,
+            "stats": {
+                "hp": 2,
+                "atk": 1
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 12,
+            "stats": {
+                "hp": 2,
+                "def": 3
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 12,
+            "stats": {
+                "hp": 2,
+                "res": 3
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        }
+    ]
+}

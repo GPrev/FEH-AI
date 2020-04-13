@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Divine Tyrfing",
+    "description": "Grants Res+3. Reduces damage from magic foe's first attack by 50%.",
+    "docType": "weapon",
+    "idTag": "SID_聖剣ティルフィング",
+    "spCost": 400,
+    "_id": "weapon:divine-tyrfing"
+}

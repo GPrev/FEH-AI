@@ -1,0 +1,73 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Hinoka's Spear",
+    "description": "If unit is within 2 spaces of a flying or infantry ally, grants Atk/Spd+4 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_ヒノカの紅薙刀",
+    "spCost": 400,
+    "_id": "weapon:hinokas-spear",
+    "refines": [
+        {
+            "might": 16,
+            "stats": {
+                "hp": 5,
+                "spd": 3
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 18,
+            "stats": {
+                "hp": 5,
+                "atk": 2
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 16,
+            "stats": {
+                "hp": 5,
+                "def": 4
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 16,
+            "stats": {
+                "hp": 5,
+                "res": 4
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 16,
+            "stats": {
+                "hp": 3
+            },
+            "description": "Infantry and flying allies within 2 spaces can move to a space adjacent to unit.",
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        }
+    ]
+}

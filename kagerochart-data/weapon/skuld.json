@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Skuld",
+    "description": "If Sing or Dance is used, grants Atk/Spd/Def/Res+3 to target.",
+    "docType": "weapon",
+    "idTag": "SID_スクルド",
+    "spCost": 400,
+    "_id": "weapon:skuld"
+}

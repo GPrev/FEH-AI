@@ -1,0 +1,8 @@
+{
+    "name": "Hone Atk 4",
+    "description": "At start of turn, grants Atk+7 to adjacent allies for 1 turn.",
+    "docType": "passive-c",
+    "idTag": "SID_攻撃の鼓舞4",
+    "spCost": 300,
+    "_id": "passive-c:hone-atk-4"
+}

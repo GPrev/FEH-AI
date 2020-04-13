@@ -1,0 +1,8 @@
+{
+    "name": "Gale Dance 3",
+    "description": "If Sing or Dance is used, grants Spd+4 to target.",
+    "docType": "passive-b",
+    "idTag": "SID_疾風の舞い3",
+    "spCost": 200,
+    "_id": "passive-b:gale-dance-3"
+}

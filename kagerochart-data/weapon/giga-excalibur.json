@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Giga Excalibur",
+    "description": "Grants Spd+3. If unit's Spd > foe's Spd, deals damage = 70% of difference between stats. (Maximum bonus of +7 damage. Combos with Phantom Spd.)",
+    "docType": "weapon",
+    "idTag": "SID_ギガスカリバー",
+    "spCost": 400,
+    "_id": "weapon:giga-excalibur"
+}

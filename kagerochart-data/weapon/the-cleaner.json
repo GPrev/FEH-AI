@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "The Cleaner",
+    "description": "Grants bonus to unit’s Atk = total bonuses on unit during combat. After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions.",
+    "docType": "weapon",
+    "idTag": "SID_粛清の暗器",
+    "nextSkill": {
+        "_id": "weapon:the-cleaner-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:the-cleaner"
+}

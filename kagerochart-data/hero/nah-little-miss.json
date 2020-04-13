@@ -1,0 +1,219 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Nah",
+    "epitet": "Little Miss",
+    "display": "Nah: Little Miss",
+    "description": "Nowi's daughter. She might look young, but she's actually very responsible. She tries to control her emotions and act maturely. Appears in Fire Emblem Awakening.",
+    "artist": "Kousei Horiguchi (恒星ホリグチ)",
+    "voiceActorEN": "—",
+    "voiceActorJP": "松嵜麗",
+    "dialogue": [
+        {
+            "text": "My name's Nah. It is an odd name, but it's the one my mother gave me. Either way, I'll chew our enemies up and spit them back out! Oh, I should mention: I'm a Manakete.",
+            "context": "joined"
+        },
+        {
+            "text": "I'm a Manakete, so I can hear Naga's voice. But...I haven't heard it at all since coming to Askr...",
+            "context": "castle"
+        },
+        {
+            "text": "Both my parents died when I was young, so I was sent to live with the family of one of their soldier friends. I didn't have anyone to talk to about how lonely I was...",
+            "context": "castle"
+        },
+        {
+            "text": "Working so hard all the time must leave you feeling pretty hungry, huh? Well, go bite down on a tree root. If you can gnaw on it with the teeth in the back, you won't feel as hungry! Pretty good tip, right?",
+            "context": "castle"
+        },
+        {
+            "text": "I'm still inexperienced in the ways of Manakete. Sometimes I have trouble fighting the urge to go wild... So if I lose control, I want you to take me out to a forest where I can't hurt anyone. All right?",
+            "context": "castle"
+        },
+        {
+            "text": "Oh, hi! I was just polishing my dragonstone. It's important to be ready for anything, right? You should polish up that divine weapon of yours, too!",
+            "context": "castle"
+        },
+        {
+            "text": "Aren't you <Player Name>? I've come with a greeting for you from <Friend Name>! Always value your friends, all right?",
+            "context": "friend"
+        },
+        {
+            "text": "Wow... I feel like I could ravage an entire army!",
+            "context": "level"
+        },
+        {
+            "text": "I'm so happy I can grow stronger!",
+            "context": "level"
+        },
+        {
+            "text": "I'm sorry. I'll do better next time, I promise.",
+            "context": "level"
+        },
+        {
+            "text": "Thanks for making me stronger. I'll help you the best I can!",
+            "context": "growth"
+        },
+        {
+            "text": "Hiya! Do you need my help with something? Whatever it is, just leave it to me! Huh? You just want to...spend time with me? But that doesn't sound helpful... I'd really rather be helpful. You'd let me stay here if I didn't help? Really? Even if I was weak? Even if I asked for things?! <Player Name>, that's... That's so kind of you... I was raised by a foster family so I was always trying to prove my worth. But I guess I don't need to here... Thank you for this. I'll stay by your side for ever and ever, <Player Name>! Even when I'm an old lady!",
+            "context": "maxed"
+        }
+    ],
+    "color": "Red",
+    "origin": "Fire Emblem: Awakening",
+    "releaseDate": "2019-06-11T07:00:00.000Z",
+    "weapon": [
+        {
+            "_id": "weapon:oracles-breath",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:flametongue",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:fire-breath-plus",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:fire-breath",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:bonfire",
+            "unlock": 4
+        },
+        {
+            "_id": "special:glowing-ember",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Red Breath",
+    "tomeClass": 0,
+    "moveType": "Infantry",
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 5,
+        "spd": 5,
+        "def": 4,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 60,
+        "atk": 65,
+        "spd": 45,
+        "def": 75,
+        "res": 60
+    },
+    "passiveB": [
+        {
+            "_id": "passive-b:quick-riposte-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:quick-riposte-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:quick-riposte-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:bonus-doubler-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:bonus-doubler-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:bonus-doubler-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:infantry-breath-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:infantry-breath-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:infantry-breath-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:nah-little-miss",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 44,
+                "low": 41,
+                "high": 47
+            },
+            "atk": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "spd": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "def": {
+                "base": 38,
+                "low": 34,
+                "high": 41
+            },
+            "res": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 173
+            }
+        }
+    }
+}

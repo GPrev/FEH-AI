@@ -1,0 +1,73 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Sol Katti",
+    "description": "If unit’s HP ≤ 50% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+    "docType": "weapon",
+    "idTag": "SID_ソールカティ",
+    "spCost": 400,
+    "_id": "weapon:sol-katti",
+    "refines": [
+        {
+            "might": 16,
+            "stats": {
+                "hp": 5,
+                "spd": 3
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 18,
+            "stats": {
+                "hp": 5,
+                "atk": 2
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 16,
+            "stats": {
+                "hp": 5,
+                "def": 4
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 16,
+            "stats": {
+                "hp": 5,
+                "res": 4
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 16,
+            "stats": {
+                "hp": 3
+            },
+            "description": "If unit initiates combat against a foe that can counter and unit's HP ≤ 75%, unit makes a guaranteed follow-up attack.",
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        }
+    ]
+}

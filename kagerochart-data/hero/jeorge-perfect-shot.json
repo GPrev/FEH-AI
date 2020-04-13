@@ -1,0 +1,333 @@
+{
+    "_id": "hero:jeorge-perfect-shot",
+    "display": "Jeorge: Perfect Shot",
+    "name": "Jeorge",
+    "color": "Colorless",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:parthia",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-bow",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-bow",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-bow",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:rising-flame",
+            "unlock": 0
+        },
+        {
+            "_id": "special:rising-flame"
+        }
+    ],
+    "docType": "hero",
+    "assist": [
+        {
+            "_id": "special:blazing-flame",
+            "unlock": 4
+        },
+        {
+            "_id": "special:rising-flame",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:seal-atk-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:seal-atk-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:seal-atk-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:spur-spd-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:spur-spd-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:spur-spd-1",
+            "unlock": 3
+        }
+    ],
+    "passiveA": [],
+    "description": "Archanean archer thought to be the best on his continent. A skilled strategist. Appears in Fire Emblem: Mystery of the Emblem.",
+    "weaponType": "Colorless Bow",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Mystery of the Emblem",
+    "gender": "Male",
+    "voiceActorEN": "Mick Wingert",
+    "voiceActorJP": "間島淳司",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistJP": "まよ",
+    "artistEN": "Mayo",
+    "voiceActorJPEN": "Majima Junji",
+    "insights": [
+        "Jeorge is the only hero with Parthia."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Perfect Shot",
+    "artist": "Mayo (まよ)",
+    "dialogue": [
+        {
+            "text": "I'm Jeorge, an Archanean archer. I'm not sure if I have anything to offer you, but you have my aid.",
+            "context": "joined"
+        },
+        {
+            "text": "Your realm is goodness itself. That rekindles my faith in people. Courtly intrigue had...smothered it somewhat.",
+            "context": "castle"
+        },
+        {
+            "text": "Any nonsense you've heard about my prowess is spread by those who want to bring fame to my family.",
+            "context": "castle"
+        },
+        {
+            "text": "I feel you are always coming to my aid. And so I thank you, <Player Name>.",
+            "context": "castle"
+        },
+        {
+            "text": "I come from a noble family. They have no prowess at anything save intrigue. They are despicable filth.",
+            "context": "castle"
+        },
+        {
+            "text": "True aim comes from a strong heart that doesn't waver in the face of obstacles. How's yours?",
+            "context": "castle"
+        },
+        {
+            "text": "It's a pleasure to meet you. I come with greetings from <Friend Name>!",
+            "context": "friend"
+        },
+        {
+            "text": "I wasn't expecting this! A happy miscalculation, to be sure.",
+            "context": "level"
+        },
+        {
+            "text": "Hmm. This seems about right...",
+            "context": "level"
+        },
+        {
+            "text": "Well...er... Unfortunate.",
+            "context": "level"
+        },
+        {
+            "text": "I must meet your obviously high expectations of me!",
+            "context": "growth"
+        },
+        {
+            "text": "You've heard tales of me? Well, it's not as if I was trying to keep my life secret, I suppose. True or not, rumors spread like wildfires. There's no point in trying to correct or refute them. It's refreshing to speak so frankly. It's wonderful that everyone here trusts each other so implicitly. Being in such company agrees with me very much. Thank you for bringing me here. I do believe I shall stick around, if you don't mind.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 7,
+        "spd": 7,
+        "def": 4,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 55,
+        "spd": 55,
+        "def": 45,
+        "res": 40
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "atk": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "spd": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "def": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "res": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "atk": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "spd": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 37,
+                "low": 34,
+                "high": 41
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "def": {
+                "base": 24,
+                "low": 21,
+                "high": 28
+            },
+            "res": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 147
+            }
+        }
+    }
+}

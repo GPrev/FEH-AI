@@ -1,0 +1,211 @@
+{
+    "_id": "hero:hector-general-of-ostia",
+    "display": "Hector: General of Ostia",
+    "name": "Hector",
+    "color": "Green",
+    "weapon": [
+        {
+            "_id": "weapon:armads",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-axe",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-axe",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-axe",
+            "unlock": 0
+        },
+        {
+            "_id": "weapon:iron-axe"
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:pavise",
+            "unlock": 4
+        },
+        {
+            "_id": "special:buckler",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:distant-counter",
+            "unlock": 5
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:goad-armor",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:spur-atk-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:spur-atk-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "description": "Eliwood's friend and brother of the Marquess of Ostia. Prefers action to court formality. Appears in Fire Emblem: The Blazing Blade.",
+    "weaponType": "Green Axe",
+    "moveType": "Armored",
+    "origin": "Fire Emblem: The Blazing Blade",
+    "gender": "Male",
+    "voiceActorEN": "Patrick Seitz",
+    "voiceActorJP": "鳥海浩輔",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistEN": "AKIRA",
+    "voiceActorJPEN": "Toriumi Kousuke",
+    "insights": [
+        "Hector is the only hero with Armads.",
+        "Hector has the highest <abbr title=\"Health Points\">HP</abbr> potential possible among Axe heroes.",
+        "Hector has the highest <abbr title=\"Health Points\">HP</abbr> potential possible among Green heroes.",
+        "Hector has been <a href=\"https://en.wikipedia.org/wiki/Fire_Emblem_(video_game)\">OP since 2003</a>."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "General of Ostia",
+    "artist": "AKIRA",
+    "dialogue": [
+        {
+            "text": "I'm Hector, from a realm called Ostia. But I'm not its ruler. My brother, Uther, is marquess at the moment.",
+            "context": "joined"
+        },
+        {
+            "text": "Fine castle you have here. It's not really my thing to stay cooped up all day though. Let's get to battling!",
+            "context": "castle"
+        },
+        {
+            "text": "The name of my axe is Armads. It was once wielded by a legendary berserker, you know. Once had a chance to meet the man, believe it or not. He's one dangerous-looking fellow.",
+            "context": "castle"
+        },
+        {
+            "text": "One of my best friends goes by the name of Eliwood. We spar for fun. He even wins half the time!",
+            "context": "castle"
+        },
+        {
+            "text": "I'm really bored. How about we spar for a while? Don't worry. I'll go easy on you, friend!",
+            "context": "castle"
+        },
+        {
+            "text": "Someone once told me that knights should stand their ground, but that's really just not my style.",
+            "context": "castle"
+        },
+        {
+            "text": "I'm Hector. You must be <Player Name>. I've come to say hello—sent over by <Friend Name>, in fact!",
+            "context": "friend"
+        },
+        {
+            "text": "Whoa! Now that's how to do it!",
+            "context": "level"
+        },
+        {
+            "text": "Good enough. Now if I can only keep this up.",
+            "context": "level"
+        },
+        {
+            "text": "Bah! I'll lose to Eliwood if I can't do better.",
+            "context": "level"
+        },
+        {
+            "text": "Now I'll show you what Hector of Ostia is all about!",
+            "context": "growth"
+        },
+        {
+            "text": "I'm no poet, friend, so bear with me here. I have a hard time putting my thoughts into words. But before I joined you, I thought that as long as I just kept on swinging in battle... I'd always come out on top and bring everyone back from battle, safe and sound. Then I noticed how you, as tactician, see the line between life and death like no one else. Not sure why, but that hit me hard. Anyway, know that I've got your back—long as you've got mine.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 23,
+        "atk": 9,
+        "spd": 4,
+        "def": 10,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 65,
+        "atk": 60,
+        "spd": 45,
+        "def": 60,
+        "res": 35
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 24,
+                "low": 23,
+                "high": 25
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 52,
+                "low": 49,
+                "high": 55
+            },
+            "atk": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "spd": {
+                "base": 24,
+                "low": 21,
+                "high": 28
+            },
+            "def": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "res": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 168
+            }
+        }
+    }
+}

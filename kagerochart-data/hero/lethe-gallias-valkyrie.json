@@ -1,0 +1,205 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Lethe",
+    "epitet": "Gallia's Valkyrie",
+    "display": "Lethe: Gallia's Valkyrie",
+    "description": "A cat warrior from Gallia, the home of the beast tribe of laguz. Once had a distrust of all beorc, but that's slowly changing. Appears in Fire Emblem: Radiant Dawn.",
+    "artist": "kaya8",
+    "voiceActorEN": "Kirsten Day",
+    "voiceActorJP": "大空直美",
+    "dialogue": [
+        {
+            "text": "I'm Lethe, a warrior of the beast tribe. I will lend you my strength if you lend me yours.",
+            "context": "joined"
+        },
+        {
+            "text": "The smell of iron and blood... The smell of war.",
+            "context": "castle"
+        },
+        {
+            "text": "So many fools throw themselves at me, thinking I'm a beorc girl... Their scratches will heal.",
+            "context": "castle"
+        },
+        {
+            "text": "You look tired, but you're trying to hide it, aren't you? You can't fool me. I led a unit in Gallia.",
+            "context": "castle"
+        },
+        {
+            "text": "Try as hard as you like, but your tricks will be no use to you when you face the laguz.",
+            "context": "castle"
+        },
+        {
+            "text": "You don't need to concern yourself with my well-being. Come find me when it's time to fight.",
+            "context": "castle"
+        },
+        {
+            "text": "What do you think you're staring at? I'm here for <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "No need to brag. I'm just getting better.",
+            "context": "level"
+        },
+        {
+            "text": "Not too bad, but if I don't grab my chance, it might slip away.",
+            "context": "level"
+        },
+        {
+            "text": "I'm out of step, but keep your eye on me—I'll make up for this soon.",
+            "context": "level"
+        },
+        {
+            "text": "It seems I'm even stronger. You'll see the difference.",
+            "context": "growth"
+        },
+        {
+            "text": "Can't you take a hint? How many times do I have to tell you that friendships don't interest me? Friends or not, I must admit these so-called Heroes are as skilled in battle as the laguz. Somewhere along the way, I've started to see them as warriors. They have strength I can count on. And you, in particular, seem not to hold prejudice against the laguz. That's rare for a beorc. Hey, I'm not planning to cozy up to you. That wasn't an invitation to take my hand. But if you want to train, well...that, I can do. What, now? All right... But no complaining about the workout!",
+            "context": "maxed"
+        }
+    ],
+    "color": "Red",
+    "origin": "Fire Emblem: Radiant Dawn",
+    "releaseDate": "2019-04-10T07:00:00.000Z",
+    "weapon": [
+        {
+            "_id": "weapon:brazen-cat-fang",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:adult-cavalry",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:yearling-cavalry",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:whelp-cavalry",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:moonbow",
+            "unlock": 4
+        },
+        {
+            "_id": "special:new-moon",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Red Beast",
+    "tomeClass": 0,
+    "moveType": "Cavalry",
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 8,
+        "spd": 9,
+        "def": 3,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 55,
+        "spd": 65,
+        "def": 50,
+        "res": 30
+    },
+    "passiveC": [
+        {
+            "_id": "passive-c:hone-beasts",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:hone-atk-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:hone-atk-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:spd-def-solo-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:spd-def-solo-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:spd-def-solo-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:lethe-gallias-valkyrie",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 41,
+                "low": 38,
+                "high": 44
+            },
+            "atk": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "spd": {
+                "base": 38,
+                "low": 35,
+                "high": 41
+            },
+            "def": {
+                "base": 26,
+                "low": 22,
+                "high": 29
+            },
+            "res": {
+                "base": 19,
+                "low": 15,
+                "high": 22
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 157
+            }
+        }
+    }
+}

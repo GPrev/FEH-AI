@@ -1,0 +1,12 @@
+{
+    "name": "Holy Vestments",
+    "description": "If foe's Range = 2, reduces damage from that foe's attack by 30%.",
+    "docType": "special",
+    "idTag": "SID_聖衣",
+    "nextSkill": {
+        "_id": "special:aegis"
+    },
+    "spCost": 100,
+    "cooldownCount": 3,
+    "_id": "special:holy-vestments"
+}

@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Candlewax Bow",
+    "description": "Effective against flying foes. Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit.",
+    "docType": "weapon",
+    "idTag": "SID_ロウソクの弓",
+    "nextSkill": {
+        "_id": "weapon:candlewax-bow-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:candlewax-bow"
+}

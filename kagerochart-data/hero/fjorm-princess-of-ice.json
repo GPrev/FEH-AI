@@ -1,0 +1,244 @@
+{
+    "_id": "hero:fjorm-princess-of-ice",
+    "display": "Fjorm: Princess of Ice",
+    "name": "Fjorm",
+    "color": "Blue",
+    "legendary": {
+        "element": "Water",
+        "bst": 0,
+        "stats": {
+            "hp": 3,
+            "spd": 3
+        },
+        "duel": false,
+        "duo_skill_id": null,
+        "kind": 1,
+        "pair_up": false
+    },
+    "weapon": [
+        {
+            "_id": "weapon:leiptr",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-lance",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:ice-mirror",
+            "unlock": 5
+        },
+        {
+            "_id": "special:sacred-cowl",
+            "unlock": 4
+        },
+        {
+            "_id": "special:holy-vestments",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:atk-def-bond-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:atk-def-bond-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:atk-def-bond-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:shield-pulse-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:shield-pulse-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:shield-pulse-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:drive-atk-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:drive-atk-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:spur-atk-1",
+            "unlock": 3
+        }
+    ],
+    "description": "The gentle second princess of Nifl, the Kingdom of Ice. Seeks revenge against Surtr.",
+    "weaponType": "Blue Lance",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem Heroes",
+    "gender": "Female",
+    "voiceActorEN": "Heather Watson",
+    "voiceActorJP": "高橋李依",
+    "releaseDate": "2017-11-28T00:00:00.000Z",
+    "artistJP": "前嶋重機",
+    "artistEN": "Maeshima Shigeki",
+    "voiceActorJPEN": "Takahashi Rie",
+    "insights": [
+        "Fjorm is the only hero with Leiptr.",
+        "Fjorm is the only hero with Ice Mirror."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Princess of Ice",
+    "artist": "Maeshima Shigeki (前嶋重機)",
+    "dialogue": [
+        {
+            "text": "I am Fjorm, princess of Nifl, the Kingdom of Ice. I will not rest until my homeland is restored and I have my vengeance.",
+            "context": "joined"
+        },
+        {
+            "text": "Askr is very beautiful, and everyone here has been so kind to me. I want to fight to protect this peace.",
+            "context": "castle"
+        },
+        {
+            "text": "As far as the eye can see, Nifl gleams white, snow sparkling under the sun... I love my homeland. That's just one reason.",
+            "context": "castle"
+        },
+        {
+            "text": "You possess such power...but you never show off. You treat all of us with kindness. I respect you for that.",
+            "context": "castle"
+        },
+        {
+            "text": "In my kingdom, we have a custom. If you're rescued from the snow, you owe your rescuer a debt... You must allow me to repay you.",
+            "context": "castle"
+        },
+        {
+            "text": "My weapon is Leiptr, the Lance of Ice, a legendary weapon. It is said it was born of Nifl's highest peak.",
+            "context": "castle"
+        },
+        {
+            "text": "I am Princess Fjorm of Nifl, the Kingdom of Ice. I'm here on behalf of <Friend Name>. I hope your friendship remains true.",
+            "context": "friend"
+        },
+        {
+            "text": "I owe my continued strength to <Player Name>.",
+            "context": "level"
+        },
+        {
+            "text": "Mother... I promise to do my very best.",
+            "context": "level"
+        },
+        {
+            "text": "I apologize. I assure you...next time, I'll do better.",
+            "context": "level"
+        },
+        {
+            "text": "I thank you. And don't worry... I'll be sure to repay your kindness.",
+            "context": "growth"
+        },
+        {
+            "text": "My homeland, the ice kingdom of Nifl, is blanketed in snow. Of course, avalanches sometimes bury people... If you're ever caught in one and someone saves you...you owe that person a debt. Where I come from, this is important. And you're the one who saved me, <Player Name>. Now you understand why I want to repay you by fighting at your side. But no matter how hard I try...I feel that you're the one who's helping me—not just then, but now. I feel like my debt to you is increasing, layer by layer...just like snowfall accumulates in the mountains. That's why I wanted to talk to you. Let me know if there's anything I can do. I'll help you however I can. I want to repay my debt. And I promise that I will.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 7,
+        "spd": 6,
+        "def": 7,
+        "res": 7
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 50,
+        "spd": 55,
+        "def": 50,
+        "res": 60
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 39,
+                "low": 35,
+                "high": 42
+            },
+            "atk": {
+                "base": 30,
+                "low": 26,
+                "high": 33
+            },
+            "spd": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "def": {
+                "base": 30,
+                "low": 26,
+                "high": 33
+            },
+            "res": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 164
+            }
+        }
+    }
+}

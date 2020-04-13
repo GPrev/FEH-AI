@@ -1,0 +1,230 @@
+{
+    "_id": "hero:robin-fell-vessel",
+    "display": "Robin: Fell Vessel",
+    "name": "Robin",
+    "color": "Colorless",
+    "legendary": {
+        "element": "Earth",
+        "bst": 0,
+        "stats": {
+            "hp": 3,
+            "spd": 3
+        },
+        "duel": false,
+        "duo_skill_id": null,
+        "kind": 1,
+        "pair_up": false
+    },
+    "weapon": [
+        {
+            "_id": "weapon:expiration",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:flametongue",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:fire-breath-plus",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:fire-breath",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:bonfire",
+            "unlock": 4
+        },
+        {
+            "_id": "special:glowing-ember",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Colorless Breath",
+    "moveType": "Flying",
+    "passiveA": [
+        {
+            "_id": "passive-a:dragonskin",
+            "unlock": 5
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:cancel-affinity-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:cancel-affinity-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:cancel-affinity-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:res-smoke-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:res-smoke-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:res-smoke-1",
+            "unlock": 1
+        }
+    ],
+    "insights": [
+        "Robin is the only hero with Dragonskin.",
+        "Robin is the only hero with Res Smoke 3.",
+        "Robin is the only hero with Res Smoke 2.",
+        "Robin is the only hero with Res Smoke 1.",
+        "Robin has the lowest <abbr title=\"Health Points\">HP</abbr> potential possible among Breath heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Fell Vessel",
+    "description": "The Ylissean tactician Robin with body and soul ruled by the Fell Dragon, Grima. Appears in Fire Emblem Awakening.",
+    "artist": "Chiko (チーコ)",
+    "voiceActorEN": "Lauren Landa",
+    "voiceActorJP": "沢城みゆき",
+    "dialogue": [
+        {
+            "text": "I am the wings of despair. I am the breath of ruin. I am the fell dragon, Grima. Pay me the respect I am due, and I will consider granting you a quick death when the time comes.",
+            "context": "joined"
+        },
+        {
+            "text": "Wriggle like a worm trying to escape my boot, or die squished like a worthless maggot. Either way, you are little more than an insect.",
+            "context": "castle"
+        },
+        {
+            "text": "Ugh... My splitting head... I remember nothing of my time in that other world... Nothing at all.",
+            "context": "castle"
+        },
+        {
+            "text": "How about you stop pretending to be so selfless and tell me what you really wish for? Maybe I can grant it...",
+            "context": "castle"
+        },
+        {
+            "text": "You show promise, despite being human. Of course, that's like being the smartest worm in the dirt. But still... I see enough in you that I could entertain the idea of keeping you by my side.",
+            "context": "castle"
+        },
+        {
+            "text": "Memories or no, I will lay waste to the world all the same. You think me so fickle I'd change my mind?",
+            "context": "castle"
+        },
+        {
+            "text": "Heh, don't look so frightened. Your friend <Friend Name> is perfectly safe... For now.",
+            "context": "friend"
+        },
+        {
+            "text": "Insolent worms... I shall teach you what it means to feel true fear.",
+            "context": "level"
+        },
+        {
+            "text": "I suppose this will be enough for stomping lowly insects.",
+            "context": "level"
+        },
+        {
+            "text": "I already possess more than enough power to crush humans.",
+            "context": "level"
+        },
+        {
+            "text": "This power surpasses that of the gods. I will bring destruction...",
+            "context": "growth"
+        },
+        {
+            "text": "Come to butter me up some more? How very irksome. I've nothing to chat about with a human. Humans spout their ideals, but it's nothing but lip service. Let's all join together and hold hands, you'll say. We can overcome our differences despite being different species, despite our differing core ideologies. The truth is what you see daily in this place. Day after day, night after night, all you have is never-ending war. One person's satisfaction means another must suffer. That is the truth of all worlds. But my power of destruction is the one true equalizer. If you think there's someone out there capable of leading the world with such high-minded ideas of love and bonds... I'd love to meet them. Hmph. After all that, you still talk your big talk? Very well. I'll watch over you... Right until your bitter end.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Awakening",
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 7,
+        "spd": 8,
+        "def": 7,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 55,
+        "spd": 60,
+        "def": 50,
+        "res": 45
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 40,
+                "low": 37,
+                "high": 43
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 30,
+                "low": 26,
+                "high": 33
+            },
+            "res": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 162
+            }
+        }
+    }
+}

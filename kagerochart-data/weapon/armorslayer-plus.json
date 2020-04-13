@@ -1,0 +1,10 @@
+{
+    "range": 1,
+    "might": 12,
+    "name": "Armorslayer+",
+    "description": "Effective against armored foes.",
+    "docType": "weapon",
+    "idTag": "SID_アーマーキラー＋",
+    "spCost": 300,
+    "_id": "weapon:armorslayer-plus"
+}

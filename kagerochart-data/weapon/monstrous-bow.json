@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Monstrous Bow",
+    "description": "Effective against flying foes. After combat, if unit attacked, converts bonuses on foes within 2 spaces of target into penalties through their next actions.",
+    "docType": "weapon",
+    "idTag": "SID_骨の弓",
+    "nextSkill": {
+        "_id": "weapon:monstrous-bow-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:monstrous-bow"
+}

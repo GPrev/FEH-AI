@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 10,
+    "name": "Water Breath",
+    "description": "If foe initiates combat, grants Def/Res+4 during combat. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
+    "docType": "weapon",
+    "idTag": "SID_水のブレス",
+    "nextSkill": {
+        "_id": "weapon:water-breath-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:water-breath"
+}

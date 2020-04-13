@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Peshkatz",
+    "description": "After combat, if unit attacked, inflicts Atk/ Spd/Def/Res-4 on target and foes within 2 spaces of target through their next actions, and grants Atk/Spd/Def/Res+4 to unit and allies within 2 spaces for 1 turn.",
+    "docType": "weapon",
+    "idTag": "SID_ペシュカド",
+    "spCost": 400,
+    "_id": "weapon:peshkatz"
+}

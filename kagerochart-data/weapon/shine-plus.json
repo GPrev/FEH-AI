@@ -1,0 +1,62 @@
+{
+    "range": 2,
+    "might": 13,
+    "name": "Shine+",
+    "docType": "weapon",
+    "idTag": "SID_シャイン＋",
+    "spCost": 300,
+    "_id": "weapon:shine-plus",
+    "refines": [
+        {
+            "might": 14,
+            "stats": {
+                "hp": 2,
+                "atk": 1,
+                "spd": 2
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 15,
+            "stats": {
+                "hp": 2,
+                "atk": 2
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 14,
+            "stats": {
+                "hp": 2,
+                "atk": 1,
+                "def": 3
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 14,
+            "stats": {
+                "hp": 2,
+                "atk": 1,
+                "res": 3
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        }
+    ]
+}

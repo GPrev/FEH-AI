@@ -1,0 +1,8 @@
+{
+    "name": "Ward Dragons",
+    "description": "Grants Def/Res+4 to dragon allies within 2 spaces during combat.",
+    "docType": "passive-c",
+    "idTag": "SID_竜盾の紋章",
+    "spCost": 200,
+    "_id": "passive-c:ward-dragons"
+}

@@ -1,0 +1,10 @@
+{
+    "range": 1,
+    "might": 12,
+    "name": "Heavy Spear+",
+    "description": "Effective against armored foes.",
+    "docType": "weapon",
+    "idTag": "SID_貫きの槍＋",
+    "spCost": 300,
+    "_id": "weapon:heavy-spear-plus"
+}

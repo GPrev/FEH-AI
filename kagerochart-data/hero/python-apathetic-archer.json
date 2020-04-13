@@ -1,0 +1,205 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Python",
+    "epitet": "Apathetic Archer",
+    "display": "Python: Apathetic Archer",
+    "description": "An archer with the Deliverance. His nonchalant exterior belies a serious character that cares deeply for his allies. Appears in Fire Emblem Echoes: Shadows of Valentia.",
+    "artist": "Suda Ayaka (須田彩加)",
+    "voiceActorEN": "Doug Erholz",
+    "voiceActorJP": "川田紳司",
+    "dialogue": [
+        {
+            "text": "Hey! Name's Python. Uh...where are we, anyway? And just so we're clear, I ain't much for chores, all right? So don't go gettin' any ideas...",
+            "context": "joined"
+        },
+        {
+            "text": "With all these hoity-toity royals and Heroes around, this war must be about to end...right?",
+            "context": "castle"
+        },
+        {
+            "text": "Yeah, I joined the Deliverance 'cause Forsyth invited me, but...I'm gettin' tired of the whole war situation... Wake me up when it's over... Deal?",
+            "context": "castle"
+        },
+        {
+            "text": "If training's wearing you down...just skip a few sessions! Ya gotta carve out time for yourself once in a while.",
+            "context": "castle"
+        },
+        {
+            "text": "Know a good place to catch a few winks? Feel free to join me! Some jobs are just made for ditchin'.",
+            "context": "castle"
+        },
+        {
+            "text": "Huh? I wasn't up to anything. Just starin' off into space... Do you...have a problem with that?",
+            "context": "castle"
+        },
+        {
+            "text": "Huh. Guess this place is about what I imagined it'd be... Wait—you are <Player Name>, aren't ya?",
+            "context": "friend"
+        },
+        {
+            "text": "Nice one, Python! ...Yeah, I welcome any and all praise. Even from myself!",
+            "context": "level"
+        },
+        {
+            "text": "Hmm... That felt, well...normal. Nothin' wrong with normal, though!",
+            "context": "level"
+        },
+        {
+            "text": "Woof. That was...not great. Everyone has off days, though, right?",
+            "context": "level"
+        },
+        {
+            "text": "Can't say I don't appreciate this, but... what're you expectin' me to do with this, exactly?",
+            "context": "growth"
+        },
+        {
+            "text": "Oh, it's you. Sorry if you expected me to thank you for summoning me... It's just I already had plenty to do. Seriously. Couldn't you have taken care of all this yourself? You needed MY help? C'mon—did ya even try?! Whatever. Too late now! Not sendin' me back anytime soon, I imagine... Fine. I'll do what needs doin'... But AT LEAST tell me what's in it for me... Bribery does wonders for my motivation, y'know! By the time I head back, I expect ya to have a nice reward ready for ol' Python. Better get started planning!",
+            "context": "maxed"
+        }
+    ],
+    "color": "Green",
+    "origin": "Fire Emblem Echoes: Shadows of Valentia",
+    "releaseDate": "2019-10-21T07:00:00.000Z",
+    "weapon": [
+        {
+            "_id": "weapon:short-bow-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:short-bow",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-bow",
+            "unlock": 0
+        },
+        {
+            "_id": "weapon:iron-bow",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:moonbow",
+            "unlock": 4
+        },
+        {
+            "_id": "special:new-moon",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Green Bow",
+    "tomeClass": 0,
+    "moveType": "Cavalry",
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 18,
+        "atk": 5,
+        "spd": 6,
+        "def": 6,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 60,
+        "spd": 65,
+        "def": 55,
+        "res": 35
+    },
+    "passiveB": [
+        {
+            "_id": "passive-b:b-tomebreaker-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:b-tomebreaker-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:b-tomebreaker-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:steady-blow-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:steady-blow-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:darting-blow-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:python-apathetic-archer",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 19,
+                "low": 18,
+                "high": 20
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 38,
+                "low": 35,
+                "high": 42
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "res": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 156
+            }
+        }
+    }
+}

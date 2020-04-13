@@ -1,0 +1,11 @@
+{
+    "name": "Dazzling Staff 2",
+    "description": "At start of combat, if unit's HP ≥ 50%, foe cannot counterattack.",
+    "docType": "passive-b",
+    "idTag": "SID_幻惑の杖2",
+    "nextSkill": {
+        "_id": "passive-b:dazzling-staff-3"
+    },
+    "spCost": 120,
+    "_id": "passive-b:dazzling-staff-2"
+}

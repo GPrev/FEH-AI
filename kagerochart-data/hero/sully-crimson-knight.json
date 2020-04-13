@@ -1,0 +1,323 @@
+{
+    "_id": "hero:sully-crimson-knight",
+    "display": "Sully: Crimson Knight",
+    "name": "Sully",
+    "color": "Blue",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:bull-spear",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:sapphire-lance-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:sapphire-lance",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:draw-back",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveB": [
+        {
+            "_id": "passive-b:swordbreaker-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:swordbreaker-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:swordbreaker-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:spur-def-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:spur-def-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:spur-def-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [],
+    "description": "A member of the Shepherds who is serious about becoming a great knight. Appears in Fire Emblem Awakening.",
+    "weaponType": "Blue Lance",
+    "moveType": "Cavalry",
+    "origin": "Fire Emblem: Awakening",
+    "gender": "Female",
+    "voiceActorEN": "Amanda Miller",
+    "voiceActorJP": "大原桃子",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistJP": "まよ",
+    "artistEN": "Mayo",
+    "voiceActorJPEN": "Ohara Momoko",
+    "insights": [],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Crimson Knight",
+    "artist": "Mayo (まよ)",
+    "dialogue": [
+        {
+            "text": "Hey. I'm Sully. Count on me to do my best. And between you and me? My best is pretty damn good.",
+            "context": "joined"
+        },
+        {
+            "text": "Your commander seems strict—bet I could learn a lot from her. Maybe I'll join the Order of Heroes...",
+            "context": "castle"
+        },
+        {
+            "text": "Different world, same deal: fight to keep the peace and make the world a little better.",
+            "context": "castle"
+        },
+        {
+            "text": "I know you don't fight, but I'll teach you to defend yourself. Don't worry. I won't hurt ya too bad!",
+            "context": "castle"
+        },
+        {
+            "text": "Sometime let's you and me ride my horse out to the forest and get some quiet.",
+            "context": "castle"
+        },
+        {
+            "text": "Whew—just got done training! I'm from a long line of knights, but I still gotta earn the title myself.",
+            "context": "castle"
+        },
+        {
+            "text": "Hey, nice to meet ya. I'm actually just here to say hi to you from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Good. Training's paying off.",
+            "context": "level"
+        },
+        {
+            "text": "I can do better than THIS.",
+            "context": "level"
+        },
+        {
+            "text": "Dammit!",
+            "context": "level"
+        },
+        {
+            "text": "Ready to smash heads! ...Is that still my job?",
+            "context": "growth"
+        },
+        {
+            "text": "Hey, you gonna be fighting by our side again today? Good to hear, <Player Name>. Fighting here has been a great experience for me. And you're pretty damn inspiring, you know? I know you can't fight directly, but you still always seem like the biggest deal on the field. Someday maybe I'll inspire courage in my allies like you do. That's my dream since I came here. Until that dream comes true, I guess I'll just have to stay near you! Thanks, partner.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 6,
+        "spd": 7,
+        "def": 6,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 45,
+        "spd": 60,
+        "def": 40,
+        "res": 50
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 38,
+                "low": 35,
+                "high": 41
+            },
+            "atk": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            },
+            "spd": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "def": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "res": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 39,
+                "low": 36,
+                "high": 42
+            },
+            "atk": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            },
+            "spd": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 42,
+                "low": 39,
+                "high": 45
+            },
+            "atk": {
+                "base": 26,
+                "low": 23,
+                "high": 30
+            },
+            "spd": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "def": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "res": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 154
+            }
+        }
+    }
+}

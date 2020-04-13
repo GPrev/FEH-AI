@@ -1,0 +1,217 @@
+{
+    "_id": "hero:ephraim-restoration-lord",
+    "display": "Ephraim: Restoration Lord",
+    "name": "Ephraim",
+    "color": "Blue",
+    "weapon": [
+        {
+            "_id": "weapon:siegmund",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:heavy-spear",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        },
+        {
+            "_id": "weapon:iron-lance"
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:moonbow",
+            "unlock": 4
+        },
+        {
+            "_id": "special:new-moon",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveB": [
+        {
+            "_id": "passive-b:seal-def-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:seal-def-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:seal-def-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:threaten-def-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:threaten-def-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:threaten-def-1",
+            "unlock": 3
+        }
+    ],
+    "passiveA": [],
+    "description": "Prince of Renais. Eirika's twin. Cares deeply for his sister. His confidence has sometimes put him in danger. Appears in Fire Emblem: The Sacred Stones.",
+    "weaponType": "Blue Lance",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: The Sacred Stones",
+    "gender": "Male",
+    "voiceActorEN": "Greg Chun",
+    "voiceActorJP": "八代拓",
+    "releaseDate": "2017-02-13T07:00:00.000Z",
+    "artistJP": "麻谷知世",
+    "artistEN": "Asatani Tomoyo",
+    "voiceActorJPEN": "Taku Yashiro",
+    "insights": [
+        "Ephraim is the only hero with Siegmund."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Restoration Lord",
+    "artist": "Asatani Tomoyo (麻谷知世)",
+    "dialogue": [
+        {
+            "text": "I am Ephraim of Renais, a prince and skilled spearman. So, point me at my enemy. I'll get to work.",
+            "context": "joined"
+        },
+        {
+            "text": "I might not look it, but I really do hope for peace. I've always got my lance handy, but there's nothing more precious to me than a kingdom at ease.",
+            "context": "castle"
+        },
+        {
+            "text": "I always worry about my sister, Eirika. If I'm not there to protect her, anything could happen.",
+            "context": "castle"
+        },
+        {
+            "text": "You're always looking after us. That sort of kindness reminds me of my sister. Must be why I like you.",
+            "context": "castle"
+        },
+        {
+            "text": "You say weapons are shaped like your Breidablik back in your world? I'd like to visit and see that for myself.",
+            "context": "castle"
+        },
+        {
+            "text": "The royalty of other worlds seem to prefer the sword. I like the lance. Lances have the edge over swords. You know, I once had ambitions to be the greatest spearman on Magvel, the continent I call home.",
+            "context": "castle"
+        },
+        {
+            "text": "I'm Ephraim. Now, how about we cut this short and get to sparring? It's a better way to get to know each other.",
+            "context": "friend"
+        },
+        {
+            "text": "My power grows. But I mustn't let it go to my head.",
+            "context": "level"
+        },
+        {
+            "text": "I must get more powerful. And I will.",
+            "context": "level"
+        },
+        {
+            "text": "How can I ever protect my sister at this rate?",
+            "context": "level"
+        },
+        {
+            "text": "I will be the master of my power. Not the reverse.",
+            "context": "growth"
+        },
+        {
+            "text": "It seems that I've gotten much stronger here. My power has grown almost to overflowing. That isn't enough. Oh, I don't mean my strength. I've always been capable enough there. I mean that strength isn't always enough to protect us. Yes, it helps force a foe to submit. But strength can also blind one to others' feelings. That is exactly how I once lost a good friend. I must become kinder and more compassionate, or else I risk repeating my mistakes. You have those qualities. And so I must remain with you. Then I will learn all I need to. You'll find that I'm a grateful student...and friend.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 18,
+        "atk": 8,
+        "spd": 5,
+        "def": 7,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 60,
+        "atk": 60,
+        "spd": 45,
+        "def": 55,
+        "res": 35
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 19,
+                "low": 18,
+                "high": 20
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 45,
+                "low": 42,
+                "high": 48
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "def": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "res": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 157
+            }
+        }
+    }
+}

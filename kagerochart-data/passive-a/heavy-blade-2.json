@@ -1,0 +1,11 @@
+{
+    "name": "Heavy Blade 2",
+    "description": "If unit’s Atk ≥ foe’s Atk+3, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)",
+    "docType": "passive-a",
+    "idTag": "SID_剛剣2",
+    "nextSkill": {
+        "_id": "passive-a:heavy-blade-3"
+    },
+    "spCost": 120,
+    "_id": "passive-a:heavy-blade-2"
+}

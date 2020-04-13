@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Sol Lance",
+    "description": "Grants Res+3. When unit deals damage to foe during combat, restores 10 HP to unit. (Triggers even if 0 damage is dealt.)",
+    "docType": "weapon",
+    "idTag": "SID_太陽槍",
+    "spCost": 400,
+    "_id": "weapon:sol-lance"
+}

@@ -1,0 +1,12 @@
+{
+    "range": 2,
+    "might": 9,
+    "name": "Bolganone",
+    "docType": "weapon",
+    "idTag": "SID_ボルガノン",
+    "nextSkill": {
+        "_id": "weapon:bolganone-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:bolganone"
+}

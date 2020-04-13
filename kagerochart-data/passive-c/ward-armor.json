@@ -1,0 +1,8 @@
+{
+    "name": "Ward Armor",
+    "description": "Grants Def/Res+4 to armored allies within 2 spaces during combat.",
+    "docType": "passive-c",
+    "idTag": "SID_重盾の紋章",
+    "spCost": 200,
+    "_id": "passive-c:ward-armor"
+}

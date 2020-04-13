@@ -1,0 +1,11 @@
+{
+    "name": "R Tomebreaker 1",
+    "description": "If unit's HP ≥ 90% in combat against a red tome foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+    "docType": "passive-b",
+    "idTag": "SID_赤魔殺し1",
+    "nextSkill": {
+        "_id": "passive-b:r-tomebreaker-2"
+    },
+    "spCost": 50,
+    "_id": "passive-b:r-tomebreaker-1"
+}

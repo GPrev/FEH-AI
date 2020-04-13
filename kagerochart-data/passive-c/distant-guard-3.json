@@ -1,0 +1,8 @@
+{
+    "name": "Distant Guard 3",
+    "description": "Allies within 2 spaces gain: \"If foe uses bow, dagger, magic, or staff, grants Def/Res+4 during combat.\"",
+    "docType": "passive-c",
+    "idTag": "SID_遠距離警戒3",
+    "spCost": 240,
+    "_id": "passive-c:distant-guard-3"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Time's Pulse 3",
+    "description": "At start of turn, if Special cooldown count is at its maximum value, grants Special cooldown count-1.",
+    "docType": "passive-c",
+    "idTag": "SID_始まりの鼓動3",
+    "spCost": 240,
+    "_id": "passive-c:times-pulse-3"
+}

@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Book of Shadows",
+    "description": "Grants Spd+3. If unit is adjacent to an ally, inflicts Atk/Spd/Def/Res-4 on foe during combat.",
+    "docType": "weapon",
+    "idTag": "SID_泡影の書",
+    "spCost": 400,
+    "_id": "weapon:book-of-shadows"
+}

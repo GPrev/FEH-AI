@@ -1,0 +1,10 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Kitty Paddle+",
+    "description": "Effective against magic foes. After combat, if unit attacked and if foe uses magic, inflicts Def/Res-7 on foe through its next action.",
+    "docType": "weapon",
+    "idTag": "SID_猫の暗器＋",
+    "spCost": 300,
+    "_id": "weapon:kitty-paddle-plus"
+}

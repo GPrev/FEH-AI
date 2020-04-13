@@ -1,0 +1,11 @@
+{
+    "name": "Seal Def/Res 1",
+    "description": "Inflicts Def/Res-3 on foe through its next action after combat.",
+    "docType": "passive-b",
+    "idTag": "SID_守備魔防封じ1",
+    "nextSkill": {
+        "_id": "passive-b:seal-def-res-2"
+    },
+    "spCost": 100,
+    "_id": "passive-b:seal-def-res-1"
+}

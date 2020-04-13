@@ -1,0 +1,12 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Shadow Sword",
+    "description": "Accelerates Special trigger (cooldown count-1). If unit's HP ≥ 50% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+    "docType": "weapon",
+    "idTag": "SID_暗黒の剣",
+    "spCost": 400,
+    "cooldownCount": -1,
+    "_id": "weapon:shadow-sword"
+}

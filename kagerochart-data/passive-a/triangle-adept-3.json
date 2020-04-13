@@ -1,0 +1,8 @@
+{
+    "name": "Triangle Adept 3",
+    "description": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.",
+    "docType": "passive-a",
+    "idTag": "SID_相性激化3",
+    "spCost": 200,
+    "_id": "passive-a:triangle-adept-3"
+}

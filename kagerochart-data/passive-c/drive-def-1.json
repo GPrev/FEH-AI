@@ -1,0 +1,11 @@
+{
+    "name": "Drive Def 1",
+    "description": "Grants Def+2 to allies within 2 spaces during combat.",
+    "docType": "passive-c",
+    "idTag": "SID_守備の大紋章1",
+    "nextSkill": {
+        "_id": "passive-c:drive-def-2"
+    },
+    "spCost": 120,
+    "_id": "passive-c:drive-def-1"
+}

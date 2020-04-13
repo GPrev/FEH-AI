@@ -1,0 +1,235 @@
+{
+    "_id": "hero:lucina-glorious-archer",
+    "display": "Lucina: Glorious Archer",
+    "name": "Lucina",
+    "color": "Blue",
+    "legendary": {
+        "element": "Wind",
+        "bst": 0,
+        "stats": {
+            "hp": 3,
+            "spd": 3
+        },
+        "duel": false,
+        "duo_skill_id": null,
+        "kind": 1,
+        "pair_up": false
+    },
+    "weapon": [
+        {
+            "_id": "weapon:thogn",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-bow",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-bow",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-bow",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:future-vision",
+            "unlock": 5
+        },
+        {
+            "_id": "assist:swap",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "weaponType": "Blue Bow",
+    "moveType": "Infantry",
+    "passiveA": [
+        {
+            "_id": "passive-a:swift-sparrow-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:swift-sparrow-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:death-blow-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:wings-of-mercy-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:wings-of-mercy-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:wings-of-mercy-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:distant-guard-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:distant-guard-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:distant-guard-1",
+            "unlock": 3
+        }
+    ],
+    "insights": [
+        "Lucina is the only hero with Thögn.",
+        "Lucina is the only hero with Future Vision."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Glorious Archer",
+    "description": "A princess and the daughter of Chrom who traveled to the past. With a new outfit and divine weapon in hand, she fights once again. Appears in Fire Emblem Awakening.",
+    "artist": "Yamada Kotaro (山田孝太郎)",
+    "voiceActorEN": "Alexis Tipton",
+    "voiceActorJP": "小林ゆう",
+    "dialogue": [
+        {
+            "text": "I am Lucina, daughter of the Exalt Chrom of the Halidom of Ylisse. I come wielding a legendary bow.",
+            "context": "joined"
+        },
+        {
+            "text": "I'm heading out on patrol. I heard that Grima may have been spotted in this world, so we must remain vigilant.",
+            "context": "castle"
+        },
+        {
+            "text": "It's hard to feel at ease when wielding a weapon I'm not used to. I suppose the only remedy is more training...",
+            "context": "castle"
+        },
+        {
+            "text": "You have bags under your eyes. Have you not been resting well? Or were you up late reading again?",
+            "context": "castle"
+        },
+        {
+            "text": "It requires a keen eye to hit a distant target. My eyesight happens to be quite finely honed. I often keep an eye on you as well.",
+            "context": "castle"
+        },
+        {
+            "text": "You...you wish to inquire regarding this...shattered training dummy? It was...um...beyond my control... I was practicing speed nocking, and I became so focused that...well...as you can see...",
+            "context": "castle"
+        },
+        {
+            "text": "My name is Lucina. It's quite nice to see you, <Player Name>. You're right—this isn't my usual outfit. Good eye!",
+            "context": "friend"
+        },
+        {
+            "text": "I feel as if I could shoot a star out of the sky!",
+            "context": "level"
+        },
+        {
+            "text": "Not bad...but I'll continue to improve with more experience.",
+            "context": "level"
+        },
+        {
+            "text": "My apologies... Perhaps I'm just better with a sword.",
+            "context": "level"
+        },
+        {
+            "text": "This thrill is second only to slipping into a new outfit.",
+            "context": "growth"
+        },
+        {
+            "text": "Oh, <Player Name>! M-my apologies. I must seem so flustered right now... Was my visage truly contorted in such a manner? I heard the fell dragon Grima may have appeared in this world, as well... The very same that led my own world to ruin. I was not strong enough back then... I was unable to protect my own parents...my own precious friends and allies... I could protect no one. When I think that the same awful fate may befall another world, I suppose I cannot help but scowl. Even the aid of a legendary weapon such as this does little to console me. But, <Player Name>... Thank you. You are kind to offer your assistance. I will never turn it down. I don't want to lose anyone so special to me ever again. And with your aid, perhaps I won't.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Awakening",
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 7,
+        "spd": 8,
+        "def": 5,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 60,
+        "spd": 60,
+        "def": 45,
+        "res": 35
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 40
+            },
+            "atk": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "res": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 150
+            }
+        }
+    }
+}

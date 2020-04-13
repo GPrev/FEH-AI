@@ -1,0 +1,9 @@
+{
+    "exclusive": true,
+    "name": "Chaos Named",
+    "description": "At start of turn, if foes within 3 columns centered on unit have Res ≤ unit's Res-3, inflicts -5 on the highest of those foes' Atk/Spd/Def/Res through their next actions. (When calculating highest stat, treats Atk as -15. Calculates each stat penalty independently.)",
+    "docType": "passive-c",
+    "idTag": "SID_我が名は混沌",
+    "spCost": 300,
+    "_id": "passive-c:chaos-named"
+}

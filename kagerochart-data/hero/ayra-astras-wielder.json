@@ -1,0 +1,219 @@
+{
+    "_id": "hero:ayra-astras-wielder",
+    "display": "Ayra: Astra's Wielder",
+    "name": "Ayra",
+    "color": "Red",
+    "weapon": [
+        {
+            "_id": "weapon:ayras-blade",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-sword",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:regnal-astra",
+            "unlock": 5
+        },
+        {
+            "_id": "special:astra",
+            "unlock": 4
+        },
+        {
+            "_id": "special:night-sky",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:swift-sparrow-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:swift-sparrow-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:darting-blow-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:desperation-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:desperation-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:desperation-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [],
+    "description": "Princess of Isaach, master of the sword, and descendant of the crusader Od. She fights for her homeland. Appears in Fire Emblem: Genealogy of the Holy War.",
+    "weaponType": "Red Sword",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Genealogy of the Holy War",
+    "gender": "Female",
+    "voiceActorEN": "Brina Palencia",
+    "voiceActorJP": "折笠愛",
+    "releaseDate": "2017-10-16T07:00:00.000Z",
+    "artistJP": "麻谷知世",
+    "artistEN": "Asatani Tomoyo",
+    "voiceActorJPEN": "Orikasa Ai",
+    "insights": [
+        "Ayra is the only hero with Ayra's Blade.",
+        "Ayra is the only hero with Regnal Astra."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Astra's Wielder",
+    "artist": "Asatani Tomoyo (麻谷知世)",
+    "dialogue": [
+        {
+            "text": "I am Princess Ayra of Isaach—a descendant of the crusader Od.",
+            "context": "joined"
+        },
+        {
+            "text": "I've been observing the people here—they know what they're doing. I find that reassuring.",
+            "context": "castle"
+        },
+        {
+            "text": "My country faces destruction. Nothing is more important than protecting our prince.",
+            "context": "castle"
+        },
+        {
+            "text": "I fought beside Lord Sigurd until the very end. I don't regret it for a second.",
+            "context": "castle"
+        },
+        {
+            "text": "If you wish to study the sword, I'll teach you. But if you accept my offer, don't expect me to hold back.",
+            "context": "castle"
+        },
+        {
+            "text": "Flowers? Dresses? No thank you. I don't have time to waste. If I have some time, I grab my sword and train.",
+            "context": "castle"
+        },
+        {
+            "text": "My name is Ayra. I bring greetings from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "I have Od's blood to thank for this!",
+            "context": "level"
+        },
+        {
+            "text": "To study the sword is to walk a long road. I walk it every day.",
+            "context": "level"
+        },
+        {
+            "text": "I must steady myself.",
+            "context": "level"
+        },
+        {
+            "text": "In Isaach, we repay our debts. I will repay mine on the battlefield.",
+            "context": "growth"
+        },
+        {
+            "text": "Before I came here, I fought alongside my comrades in a great battle. We were defeated. That's just how it is. And even if I could go back in time... I'd still fight. Yes, I'd fight to the bitter end. I have no doubt. What's really important is how you live your life. Being here, with you...I can't complain. I'm satisfied with things as they are. But we might part ways—one day. Keeping that in mind reminds me how precious our time together really is.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 18,
+        "atk": 6,
+        "spd": 10,
+        "def": 6,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 60,
+        "def": 55,
+        "res": 40
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 19,
+                "low": 18,
+                "high": 20
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 41,
+                "low": 37,
+                "high": 44
+            },
+            "atk": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "spd": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "def": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "res": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 163
+            }
+        }
+    }
+}

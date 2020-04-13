@@ -1,0 +1,9 @@
+{
+    "exclusive": true,
+    "name": "Ostia's Pulse",
+    "description": "At the start of turn 1, grants Special cooldown count-1 to all allies. Granted only if number of those allies' movement types on current team ≤ 2.",
+    "docType": "passive-c",
+    "idTag": "SID_オスティアの鼓動",
+    "spCost": 300,
+    "_id": "passive-c:ostias-pulse"
+}

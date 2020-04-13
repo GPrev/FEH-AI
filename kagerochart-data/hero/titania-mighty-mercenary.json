@@ -1,0 +1,327 @@
+{
+    "_id": "hero:titania-mighty-mercenary",
+    "display": "Titania: Mighty Mercenary",
+    "name": "Titania",
+    "color": "Green",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:draconic-poleax",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:emerald-axe-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:emerald-axe",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-axe",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-axe",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:reciprocal-aid",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:armored-blow-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:armored-blow-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:armored-blow-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:guard-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:guard-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:guard-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [],
+    "description": "Deputy commander of the Greil Mercenaries. An idealistic former knight who values honor. Appears in Fire Emblem: Path of Radiance.",
+    "weaponType": "Green Axe",
+    "moveType": "Cavalry",
+    "origin": "Fire Emblem: Path of Radiance",
+    "gender": "Female",
+    "voiceActorEN": "Misty Lee",
+    "voiceActorJP": "宮川美保",
+    "releaseDate": "2017-04-28T07:00:00.000Z",
+    "artistJP": "ワダサチコ",
+    "artistEN": "Wada Sachiko",
+    "voiceActorJPEN": "Miyagawa Miho",
+    "insights": [
+        "Titania is the only hero with Draconic Poleax.",
+        "Titania has the lowest <abbr title=\"Attack\">ATK</abbr> potential possible among Axe heroes.",
+        "Titania has the lowest <abbr title=\"Attack\">ATK</abbr> potential possible among Green heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Mighty Mercenary",
+    "artist": "Wada Sachiko (ワダサチコ)",
+    "dialogue": [
+        {
+            "text": "I am Titania, deputy commander of the Greil Mercenaries. Do you have a job for me? If so, let's start now.",
+            "context": "joined"
+        },
+        {
+            "text": "The Order of Heroes isn't doing all of this to gain rewards or gather accolades. It's purely in the interest of saving people. I find that marvelous.",
+            "context": "castle"
+        },
+        {
+            "text": "Our mercenary group has an unusual reputation. We're known to do jobs without payment. And we sometimes take a job only to help save people. But we never do it solely for the money.",
+            "context": "castle"
+        },
+        {
+            "text": "Anything I can assist you with? I'm glad to handle any task, for all jobs are crucial among mercenaries. Why, I've even been known to help Mist with laundry on occasion. No dirtier task than that in our group.",
+            "context": "castle"
+        },
+        {
+            "text": "Training must become instinct for those who want to survive on the battlefield. And so, we must master our abilities, our very bodies, until our training is in our blood.",
+            "context": "castle"
+        },
+        {
+            "text": "I wish our mercenary group's old commander, Greil, could see how well his son has developed. He has carried on Greil's legacy very nicely as our leader.",
+            "context": "castle"
+        },
+        {
+            "text": "Hello. I've come to bring you greetings from your friend <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Delightful! This reminds me of my earliest days in battle.",
+            "context": "level"
+        },
+        {
+            "text": "I use the experience of each and every battle to fuel my fire.",
+            "context": "level"
+        },
+        {
+            "text": "It's sometimes clear that I'm not as spry as I once was.",
+            "context": "level"
+        },
+        {
+            "text": "Thank you for placing such trust in me. I will strive to do my best.",
+            "context": "growth"
+        },
+        {
+            "text": "Today I'd like to show you what it's like to wield an axe, <Player Name>. First lesson! Make sure you swing the axe so the axe doesn't swing you. Now, give my axe a try. Good, but set your hips so it makes a base that will not sway. Oh? Ready to stop so soon? Working such training into your bones and blood could save you. But I suppose that's my job, and I'm glad that you've summoned me into this world to do it. It's long been my desire to fight with pride, saving people, with no regard for money or honor. How lucky I am to have found a friend in you. So, if you wish it, I'll protect your life, as one of your truest friends, for as long as you'll have me.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 5,
+        "spd": 7,
+        "def": 5,
+        "res": 7
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 50,
+        "spd": 60,
+        "def": 45,
+        "res": 50
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "atk": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "spd": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 26,
+                "low": 23,
+                "high": 29
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "atk": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            },
+            "spd": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "def": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            },
+            "res": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 37,
+                "low": 34,
+                "high": 41
+            },
+            "atk": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "spd": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "def": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "res": {
+                "base": 30,
+                "low": 26,
+                "high": 33
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 154
+            }
+        }
+    }
+}

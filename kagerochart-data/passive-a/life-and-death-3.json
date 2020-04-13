@@ -1,0 +1,8 @@
+{
+    "name": "Life and Death 3",
+    "description": "Grants Atk/Spd+5. Inflicts Def/Res-5.",
+    "docType": "passive-a",
+    "idTag": "SID_死線3",
+    "spCost": 200,
+    "_id": "passive-a:life-and-death-3"
+}

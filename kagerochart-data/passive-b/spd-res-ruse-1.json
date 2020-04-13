@@ -1,0 +1,11 @@
+{
+    "name": "Spd/Res Ruse 1",
+    "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd/Res-1 and【Guard】on foes in cardinal directions of unit and target through their next actions.  【Guard】 Inflicts Special cooldown charge -1 on target per attack during combat through its next action. (Only highest value applied. Does not stack.)",
+    "docType": "passive-b",
+    "idTag": "SID_速さ魔防の大共謀1",
+    "nextSkill": {
+        "_id": "passive-b:spd-res-ruse-2"
+    },
+    "spCost": 60,
+    "_id": "passive-b:spd-res-ruse-1"
+}

@@ -1,0 +1,71 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Tharja's Hex",
+    "description": "Grants bonus to unit’s Atk = total bonuses on unit during combat.",
+    "docType": "weapon",
+    "idTag": "SID_サーリャの禁呪",
+    "spCost": 400,
+    "_id": "weapon:tharjas-hex",
+    "refines": [
+        {
+            "might": 14,
+            "stats": {
+                "hp": 2,
+                "spd": 2
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 15,
+            "stats": {
+                "hp": 2,
+                "atk": 1
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 14,
+            "stats": {
+                "hp": 2,
+                "def": 3
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 14,
+            "stats": {
+                "hp": 2,
+                "res": 3
+            },
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        },
+        {
+            "might": 14,
+            "stats": {},
+            "description": "Inflicts Atk/Spd-4 on foes within 2 spaces during combat.",
+            "cost": {
+                "sp": 400,
+                "medal": 500,
+                "dew": 200
+            }
+        }
+    ]
+}

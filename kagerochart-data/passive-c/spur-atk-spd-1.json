@@ -1,0 +1,11 @@
+{
+    "name": "Spur Atk/Spd 1",
+    "description": "Grants Atk/Spd+2 to adjacent allies during combat.",
+    "docType": "passive-c",
+    "idTag": "SID_攻撃速さの紋章1",
+    "nextSkill": {
+        "_id": "passive-c:spur-atk-spd-2"
+    },
+    "spCost": 120,
+    "_id": "passive-c:spur-atk-spd-1"
+}

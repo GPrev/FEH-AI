@@ -1,0 +1,329 @@
+{
+    "_id": "hero:soleil-adorable-adorer",
+    "display": "Soleil: Adorable Adorer",
+    "name": "Soleil",
+    "color": "Red",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:firesweep-s-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:firesweep-s",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:blazing-wind",
+            "unlock": 4
+        },
+        {
+            "_id": "special:rising-wind",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:darting-blow-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:darting-blow-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:darting-blow-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:drive-res-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:drive-res-1",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:spur-res-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "description": "Laslow's daughter. Cheerful and not even slightly shy. Looks up to cool women. Appears in Fire Emblem Fates.",
+    "weaponType": "Red Sword",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Fates",
+    "gender": "Female",
+    "voiceActorEN": "Michelle Ruff",
+    "voiceActorJP": "鈴木絵理",
+    "releaseDate": "2017-11-28T07:00:00.000Z",
+    "artistJP": "円居雄一郎",
+    "artistEN": "Enkyo Yuichiro",
+    "voiceActorJPEN": "Suzuki Eri",
+    "insights": [
+        "Soleil is the only hero with Firesweep Sword+.",
+        "Soleil is the only hero with Firesweep Sword.",
+        "Soleil has the highest <abbr title=\"Attack\">ATK</abbr> potential possible among Infantry heroes.",
+        "Soleil has the highest <abbr title=\"Attack\">ATK</abbr> potential possible among Sword heroes.",
+        "Soleil has the highest <abbr title=\"Attack\">ATK</abbr> potential possible among Red heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Adorable Adorer",
+    "artist": "Enkyo Yuichiro (円居雄一郎)",
+    "dialogue": [
+        {
+            "text": "It's good to meet you! I'm Soleil. My father's name is Laslow. I'll fight hard for all the cuties out there!",
+            "context": "joined"
+        },
+        {
+            "text": "Are you going to summon some Heroes? Bring lots of cuties back with you! You can do it—I know you can!",
+            "context": "castle"
+        },
+        {
+            "text": "I was raised in the Deeprealms, but I wanted to fight beside my dad, so I ended up leading my own band!",
+            "context": "castle"
+        },
+        {
+            "text": "Looks like the Order of Heroes keeps you pretty busy. Don't work too hard! I want to see you keep on smiling.",
+            "context": "castle"
+        },
+        {
+            "text": "Why don't we go and get a cup of tea sometime? I have a lot to thank you for, and I know we'll have some fun.",
+            "context": "castle"
+        },
+        {
+            "text": "You saw me? Oh, no! I was working on my dancing. Problem is, I'm nowhere near as good as my dad.",
+            "context": "castle"
+        },
+        {
+            "text": "Wow! You've got a lot of cuties here... Hi from <Friend Name>! ",
+            "context": "friend"
+        },
+        {
+            "text": "Look how tough I am! See? See?!",
+            "context": "level"
+        },
+        {
+            "text": "Oooh, I'm getting cuter by the day!",
+            "context": "level"
+        },
+        {
+            "text": "Ugh! So embarrassing.",
+            "context": "level"
+        },
+        {
+            "text": "I'm stronger than ever? And cooler, too? Well, thank you!",
+            "context": "growth"
+        },
+        {
+            "text": "There you are! Thanks for always taking the time to chat with me. What do you say to a date this time? Hah! I'm just kidding. I know you're way too busy with your Order of Heroes business. It's a bit embarrassing to put it into words, but watching you work so hard is a real pleasure. Maybe that sounded a little forward... I just think you look cool when you work so hard to help everybody. You're kind of like a coolness role model for me, so keep it up! But if you ever want to let me have you all to myself, let me know. I'll scout out a great café just for us!",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 9,
+        "spd": 8,
+        "def": 5,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 65,
+        "spd": 60,
+        "def": 50,
+        "res": 45
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "atk": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "spd": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "def": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "res": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "atk": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            },
+            "res": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 37,
+                "low": 34,
+                "high": 41
+            },
+            "atk": {
+                "base": 38,
+                "low": 35,
+                "high": 41
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "res": {
+                "base": 24,
+                "low": 21,
+                "high": 28
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 162
+            }
+        }
+    }
+}

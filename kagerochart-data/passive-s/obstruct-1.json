@@ -1,0 +1,9 @@
+{
+    "_id": "passive-s:obstruct-1",
+    "name": "Obstruct 1",
+    "sp": 50,
+    "type": "s",
+    "description": "Prevents foes from moving through adjacent spaces while this unit's HP ≥ 90%.(No effect on foes with a Pass skill.)",
+    "icon": "/images/icons/passives/obstruct-1.png",
+    "docType": "passive-s"
+}

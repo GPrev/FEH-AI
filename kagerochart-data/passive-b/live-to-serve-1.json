@@ -1,0 +1,11 @@
+{
+    "name": "Live to Serve 1",
+    "description": "When healing an ally with a staff, restores HP to unit = 50% of HP restored to target.",
+    "docType": "passive-b",
+    "idTag": "SID_ご奉仕の喜び1",
+    "nextSkill": {
+        "_id": "passive-b:live-to-serve-2"
+    },
+    "spCost": 40,
+    "_id": "passive-b:live-to-serve-1"
+}

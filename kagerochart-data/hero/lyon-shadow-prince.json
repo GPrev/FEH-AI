@@ -1,0 +1,320 @@
+{
+    "_id": "hero:lyon-shadow-prince",
+    "display": "Lyon: Shadow Prince",
+    "name": "Lyon",
+    "color": "Red",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:naglfar",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:fenrir",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:ruin",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:flux",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:vengeance",
+            "unlock": 4
+        },
+        {
+            "_id": "special:retribution",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Red Tome",
+    "moveType": "Infantry",
+    "passiveA": [
+        {
+            "_id": "passive-a:attack-res-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:attack-res-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:resistance-plus-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:drive-res-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:drive-res-1",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:spur-res-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "insights": [
+        "Lyon is the only hero with Naglfar."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Shadow Prince",
+    "description": "Prince of Grado; not fond of fighting. A childhood friend of Ephraim and Eirika. Appears in Fire Emblem: The Sacred Stones.",
+    "artist": "Miyajima Haru (ミヤジマハル)",
+    "voiceActorEN": "Mark P. Whitten",
+    "voiceActorJP": "中村悠一",
+    "dialogue": [
+        {
+            "text": "It is good to meet you. I am Lyon, prince of Grado. I hope that we can become friends.",
+            "context": "joined"
+        },
+        {
+            "text": "Ephraim is strong, and he cuts a dashing figure. When it comes to his studies, though... Of course, he did rely on my help for that. I was very glad to aid him.",
+            "context": "castle"
+        },
+        {
+            "text": "My kingdom, Grado, can be a harsh and inhospitable place. Still, I do love my homeland.",
+            "context": "castle"
+        },
+        {
+            "text": "You work so hard, but I want you to know that—if you need to—it's OK to cry. Nobody here knows what you've been through but you.",
+            "context": "castle"
+        },
+        {
+            "text": "I am useless with a sword. Eirika disarms me so quickly... It's really an embarrassment.",
+            "context": "castle"
+        },
+        {
+            "text": "I tripped just a moment ago. My leg still hurts, but it hasn't ruined my mood in the slightest. It's strange. Being alive is wonderful, isn't it?",
+            "context": "castle"
+        },
+        {
+            "text": "I am Lyon. I am glad to meet you, <Player Name>. May my visit sustain your friendship with <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Something rises from deep within me. With this, I can be of aid...",
+            "context": "level"
+        },
+        {
+            "text": "I think I've progressed a little. Yes, I'm certain of it.",
+            "context": "level"
+        },
+        {
+            "text": "I cannot remain despondent... I will redeem myself.",
+            "context": "level"
+        },
+        {
+            "text": "No books have taught me of power like this. I'm glad of this strength, but...a little scared.",
+            "context": "growth"
+        },
+        {
+            "text": "To tell the truth...some of my memories from before I came to this world...are lost. It's all so indistinct, as though a fog has been cast on them. And other things, I can't remember at all... I feel like I may have done some things that would make the people dear to me so very sad. Oh, <Player Name>... You are far too kind. Please don't look at me so. I want to see you smile. Always. I had friends back home who worried about me just as you do... Dear friends. Ephraim, Eirika... I hope that someday, we can gather together for a good, long chat.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: The Sacred Stones",
+    "tomeClass": 5,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 18,
+        "atk": 9,
+        "spd": 3,
+        "def": 3,
+        "res": 7
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 55,
+        "spd": 40,
+        "def": 50,
+        "res": 50
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 19,
+                "low": 18,
+                "high": 20
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "atk": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "spd": {
+                "base": 18,
+                "low": 15,
+                "high": 21
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 26,
+                "low": 23,
+                "high": 29
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 38,
+                "low": 35,
+                "high": 41
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "def": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            },
+            "res": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 41,
+                "low": 37,
+                "high": 44
+            },
+            "atk": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "spd": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "def": {
+                "base": 26,
+                "low": 22,
+                "high": 29
+            },
+            "res": {
+                "base": 30,
+                "low": 26,
+                "high": 33
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 152
+            }
+        }
+    }
+}

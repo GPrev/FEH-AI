@@ -1,0 +1,11 @@
+{
+    "name": "Beast Valor 1",
+    "description": "While unit lives and uses beast damage, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
+    "docType": "passive-c",
+    "idTag": "SID_獣の技量1",
+    "nextSkill": {
+        "_id": "passive-c:beast-valor-2"
+    },
+    "spCost": 30,
+    "_id": "passive-c:beast-valor-1"
+}

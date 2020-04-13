@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Witchy Wand",
+    "description": "After combat, if unit attacked, resets Special cooldown of foe, and inflicts the following status on foe through its next action: \"Inflicts Special cooldown charge -1 per attack during combat. (Only highest value applied. Does not stack.)\" (Neutralizes Special cooldown count reductions after combat, but skills that Accelerate and Slow Special are still effective.)",
+    "docType": "weapon",
+    "idTag": "SID_キャンディの杖",
+    "nextSkill": {
+        "_id": "weapon:witchy-wand-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:witchy-wand"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Resistance +3",
+    "description": "Grants Res+3.",
+    "docType": "passive-a",
+    "idTag": "SID_魔防3",
+    "spCost": 120,
+    "_id": "passive-a:resistance-plus-3"
+}

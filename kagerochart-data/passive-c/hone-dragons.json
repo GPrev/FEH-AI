@@ -1,0 +1,8 @@
+{
+    "name": "Hone Dragons",
+    "description": "At start of turn, grants Atk/Spd+6 to adjacent dragon allies for 1 turn.",
+    "docType": "passive-c",
+    "idTag": "SID_竜刃の鼓舞",
+    "spCost": 200,
+    "_id": "passive-c:hone-dragons"
+}

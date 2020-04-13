@@ -1,0 +1,11 @@
+{
+    "name": "Seal Atk 1",
+    "description": "Inflicts Atk-3 on foe through its next action after combat.",
+    "docType": "passive-b",
+    "idTag": "SID_攻撃封じ1",
+    "nextSkill": {
+        "_id": "passive-b:seal-atk-2"
+    },
+    "spCost": 40,
+    "_id": "passive-b:seal-atk-1"
+}

@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 7,
+    "name": "Clarisse's Bow",
+    "description": "Effective against flying foes. If unit initiates combat, inflicts Atk/Spd-5 on foes within 2 spaces of target through their next actions after combat.",
+    "docType": "weapon",
+    "idTag": "SID_クライネの弓",
+    "nextSkill": {
+        "_id": "weapon:clarisses-bow-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:clarisses-bow"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Atk/Spd Bond 3",
+    "description": "If unit is adjacent to an ally, grants Atk/Spd+5 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_攻撃速さの絆3",
+    "spCost": 240,
+    "_id": "passive-a:atk-spd-bond-3"
+}

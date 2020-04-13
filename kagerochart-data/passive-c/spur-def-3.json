@@ -1,0 +1,8 @@
+{
+    "name": "Spur Def 3",
+    "description": "Grants Def+4 to adjacent allies during combat.",
+    "docType": "passive-c",
+    "idTag": "SID_守備の紋章3",
+    "spCost": 200,
+    "_id": "passive-c:spur-def-3"
+}

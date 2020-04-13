@@ -1,0 +1,8 @@
+{
+    "name": "Geyser Dance 2",
+    "description": "If Sing or Dance is used, grants Def/Res+4 to target.",
+    "docType": "passive-b",
+    "idTag": "SID_大地静水の舞い2",
+    "spCost": 240,
+    "_id": "passive-b:geyser-dance-2"
+}

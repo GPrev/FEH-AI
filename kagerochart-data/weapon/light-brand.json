@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Light Brand",
+    "description": "Grants Def+3. If foe's Def ≥ foe's Res+5, deals +7 damage.",
+    "docType": "weapon",
+    "idTag": "SID_光の剣",
+    "spCost": 400,
+    "_id": "weapon:light-brand"
+}

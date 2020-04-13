@@ -1,0 +1,12 @@
+{
+    "range": 2,
+    "might": 4,
+    "name": "Thunder",
+    "docType": "weapon",
+    "idTag": "SID_サンダー",
+    "nextSkill": {
+        "_id": "weapon:elthunder"
+    },
+    "spCost": 50,
+    "_id": "weapon:thunder"
+}

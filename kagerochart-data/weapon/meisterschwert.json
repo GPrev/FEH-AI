@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 11,
+    "name": "Meisterschwert",
+    "description": "Inflicts Spd-5. Unit attacks twice. (Even if foe initiates combat, unit attacks twice.)",
+    "docType": "weapon",
+    "idTag": "SID_マスターソード",
+    "spCost": 400,
+    "_id": "weapon:meisterschwert"
+}

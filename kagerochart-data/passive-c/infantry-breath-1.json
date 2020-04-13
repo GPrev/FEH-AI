@@ -1,0 +1,11 @@
+{
+    "name": "Infantry Breath 1",
+    "description": "Adjacent infantry allies gain: \"If foe initiates combat, grants Special cooldown charge +1 per attack during combat. (Only highest value applied. Does not stack.)\"",
+    "docType": "passive-c",
+    "idTag": "SID_歩行の呼吸1",
+    "nextSkill": {
+        "_id": "passive-c:infantry-breath-2"
+    },
+    "spCost": 60,
+    "_id": "passive-c:infantry-breath-1"
+}

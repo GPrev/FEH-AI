@@ -1,0 +1,8 @@
+{
+    "name": "Wary Fighter 3",
+    "description": "If unit's HP ≥ 50%, unit and foe cannot make a follow-up attack.",
+    "docType": "passive-b",
+    "idTag": "SID_守備隊形3",
+    "spCost": 240,
+    "_id": "passive-b:wary-fighter-3"
+}

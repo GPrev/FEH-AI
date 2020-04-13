@@ -1,0 +1,12 @@
+{
+    "range": 2,
+    "might": 4,
+    "name": "Light",
+    "docType": "weapon",
+    "idTag": "SID_ライト",
+    "nextSkill": {
+        "_id": "weapon:ellight"
+    },
+    "spCost": 50,
+    "_id": "weapon:light"
+}

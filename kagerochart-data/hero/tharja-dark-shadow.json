@@ -1,0 +1,329 @@
+{
+    "_id": "hero:tharja-dark-shadow",
+    "display": "Tharja: Dark Shadow",
+    "name": "Tharja",
+    "color": "Red",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:tharjas-hex",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:raurblade-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:raurblade",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:ruin",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:flux",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:vengeance",
+            "unlock": 4
+        },
+        {
+            "_id": "special:retribution",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:darting-blow-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:darting-blow-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:darting-blow-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:spur-res-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:spur-res-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:spur-res-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [],
+    "description": "A mage from Plegia with a dark side and a possessive streak, especially with Robin. Appears in Fire Emblem Awakening.",
+    "weaponType": "Red Tome",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Awakening",
+    "gender": "Female",
+    "voiceActorEN": "Stephanie Sheh",
+    "voiceActorJP": "高田憂希",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistEN": "ZIS",
+    "voiceActorJPEN": "Takada Yuuki",
+    "insights": [
+        "Tharja is the only hero with Rauðrblade+.",
+        "Tharja is the only hero with Rauðrblade."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Dark Shadow",
+    "artist": "ZIS",
+    "dialogue": [
+        {
+            "text": "You may call me Tharja. I am a dark mage from Plegia. Now, I shall be your shadow...",
+            "context": "joined"
+        },
+        {
+            "text": "Sharena and Anna both asked me for my \"beauty secrets.\" My secrets have NOTHING to do with beauty...",
+            "context": "castle"
+        },
+        {
+            "text": "I served Plegia until I chose to cast my lot with Ylisse. But you know... I was truly braided by fate with only one person in my past.",
+            "context": "castle"
+        },
+        {
+            "text": "Tired from all that walking around? I could curse you so you can't sleep, if you like.",
+            "context": "castle"
+        },
+        {
+            "text": "Ah, er, goodness me! This weather is benign, eh? ...Did that sound normal? Which version of me do you like?",
+            "context": "castle"
+        },
+        {
+            "text": "I like working on new hexes. So if you talk to me at the wrong time, you might suffer...consequences.",
+            "context": "castle"
+        },
+        {
+            "text": "I would have words with you. Now, you must be the one called <Player Name>, yes? Someone close to me has taken an interest in you... Someone named <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "I can feel the darkness growing ever stronger...",
+            "context": "level"
+        },
+        {
+            "text": "Hee hee hee...",
+            "context": "level"
+        },
+        {
+            "text": "Who DARED to curse me?!",
+            "context": "level"
+        },
+        {
+            "text": "Enhancing MY power? You don't know what's good for you...",
+            "context": "growth"
+        },
+        {
+            "text": "Ah, excellent—it seems my hex to summon you worked immediately. Yes, that's right. You came here because of a hex—a hex that made you want to talk to me. I sprinkled powdered lizard on this paper, and you were drawn toward it. ...Hm? The lizard's worn off... So you came here of your own free will? Surprising, yet...not. Heehee... I already have someone I'm destined to be with, but you're just as precious to me.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 5,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 7,
+        "spd": 7,
+        "def": 5,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 55,
+        "spd": 60,
+        "def": 40,
+        "res": 35
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "atk": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "spd": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "def": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "res": {
+                "base": 17,
+                "low": 14,
+                "high": 20
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "atk": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "spd": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "def": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "res": {
+                "base": 18,
+                "low": 15,
+                "high": 21
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 39,
+                "low": 35,
+                "high": 42
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "def": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            },
+            "res": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 148
+            }
+        }
+    }
+}

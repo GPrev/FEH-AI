@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Ayra's Blade",
+    "description": "Grants Spd+3. If unit's Spd > foe's Spd, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)",
+    "docType": "weapon",
+    "idTag": "SID_瞬閃アイラの剣",
+    "spCost": 400,
+    "_id": "weapon:ayras-blade"
+}

@@ -1,0 +1,60 @@
+{
+    "range": 1,
+    "might": 14,
+    "name": "Ardent Service+",
+    "description": "At start of turn, if unit is adjacent to an ally, grants Atk+4 to unit and adjacent allies for 1 turn.",
+    "docType": "weapon",
+    "idTag": "SID_愛のケーキサーバ＋",
+    "spCost": 300,
+    "_id": "weapon:ardent-service-plus",
+    "refines": [
+        {
+            "might": 14,
+            "stats": {
+                "hp": 5,
+                "spd": 3
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 16,
+            "stats": {
+                "hp": 5,
+                "atk": 2
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 14,
+            "stats": {
+                "hp": 5,
+                "def": 4
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 14,
+            "stats": {
+                "hp": 5,
+                "res": 4
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        }
+    ]
+}

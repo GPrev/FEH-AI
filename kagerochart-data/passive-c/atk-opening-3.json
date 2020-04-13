@@ -1,0 +1,8 @@
+{
+    "name": "Atk Opening 3",
+    "description": "At start of turn, grants Atk+6 to ally with the highest Atk for 1 turn. (Excludes unit.)",
+    "docType": "passive-c",
+    "idTag": "SID_攻撃の開放3",
+    "spCost": 240,
+    "_id": "passive-c:atk-opening-3"
+}

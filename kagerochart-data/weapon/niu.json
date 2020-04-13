@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Níu",
+    "description": "Grants Spd+3. Adds 50% of total bonuses on foe to unit's Atk/Spd/Def/Res during combat.",
+    "docType": "weapon",
+    "idTag": "SID_ニーウ",
+    "spCost": 400,
+    "_id": "weapon:niu"
+}

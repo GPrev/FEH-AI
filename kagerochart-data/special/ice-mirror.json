@@ -1,0 +1,10 @@
+{
+    "exclusive": true,
+    "name": "Ice Mirror",
+    "description": "If foe's Range = 2, reduces damage from foe's attacks by 30%. Boosts unit's next attack by total damage reduced (by any source, including other skills) when Special triggers. Resets at end of combat. (Skill cannot be inherited.)",
+    "docType": "special",
+    "idTag": "SID_氷の聖鏡",
+    "spCost": 500,
+    "cooldownCount": 2,
+    "_id": "special:ice-mirror"
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Moonbow",
+    "description": "Treats foe’s Def/Res as if reduced by 30% during combat.",
+    "docType": "special",
+    "idTag": "SID_月虹",
+    "spCost": 200,
+    "cooldownCount": 2,
+    "_id": "special:moonbow"
+}

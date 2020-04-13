@@ -1,0 +1,8 @@
+{
+    "name": "Physic+",
+    "description": "Restores HP = 50% of Atk. (Minimum of 8 HP.) Range = 2.",
+    "docType": "assist",
+    "idTag": "SID_リブロー＋",
+    "spCost": 300,
+    "_id": "assist:physic-plus"
+}

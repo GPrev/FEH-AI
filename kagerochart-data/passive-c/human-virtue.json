@@ -1,0 +1,9 @@
+{
+    "exclusive": true,
+    "name": "Human Virtue",
+    "description": "At start of turn, if unit is adjacent to any allies that are not beast or dragon allies, grants Atk/Spd+6 to unit and those allies for 1 turn.",
+    "docType": "passive-c",
+    "idTag": "SID_人の可能性を！",
+    "spCost": 300,
+    "_id": "passive-c:human-virtue"
+}

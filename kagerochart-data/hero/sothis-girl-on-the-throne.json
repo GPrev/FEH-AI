@@ -1,0 +1,234 @@
+{
+    "legendary": {
+        "element": "Dark",
+        "bst": 0,
+        "stats": {
+            "hp": 5,
+            "res": 5
+        },
+        "duel": false,
+        "duo_skill_id": null,
+        "kind": 1,
+        "pair_up": false
+    },
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Sothis",
+    "epitet": "Girl on the Throne",
+    "display": "Sothis: Girl on the Throne",
+    "description": "Mysterious girl that sits upon a throne within dreams. Full of emotion, her attitude changes by the moment. Appears in Fire Emblem: Three Houses.",
+    "artist": "Maiponpon (まいぽんぽん) / INTELLIGENT SYSTEMS",
+    "voiceActorEN": "Cassandra Lee Morris",
+    "voiceActorJP": "黒沢ともよ",
+    "dialogue": [
+        {
+            "text": "My name is Sothis. I'm also known as...The Beginning. To summon me, you must be in desperate need.",
+            "context": "joined"
+        },
+        {
+            "text": "This world of yours is quite a sight. Was this one of my own creations, or... Ah. Never mind that last part.",
+            "context": "castle"
+        },
+        {
+            "text": "I have already lived my fate. I may appear to stand before you now, but is it truly so?",
+            "context": "castle"
+        },
+        {
+            "text": "Enough with your patrolling already! Will you not spend some time with me? I am overcome with boredom!",
+            "context": "castle"
+        },
+        {
+            "text": "Prepare a bed for me, for I am tired! ...I am only joking. I can and do sleep wherever I please!",
+            "context": "castle"
+        },
+        {
+            "text": "Deep in my mind, I glimpse the distant past. Once familiar faces, lost in the mist...just out of reach.",
+            "context": "castle"
+        },
+        {
+            "text": "I come with regards from your friend. Your abode is much the same as theirs. How strange.",
+            "context": "friend"
+        },
+        {
+            "text": "The flow of time is kind to me.",
+            "context": "level"
+        },
+        {
+            "text": "I seem to be of use.",
+            "context": "level"
+        },
+        {
+            "text": "Perhaps I am not at my best.",
+            "context": "level"
+        },
+        {
+            "text": "Is this the power that I lost? Or am I imagining things?",
+            "context": "growth"
+        },
+        {
+            "text": "Hello! How good it is to see you. You look surprised. Is it truly a shock that I enjoy your company? I lost my worldly form so long ago. This shape you see before you is just a shadow, or perhaps a dream. Yet here I spend my days conversing with friends and battling foes, just like a worldly being. One might say you gave me new life by bringing me here. For that I feel indebted to you. As thanks, I will gladly grant you any wish I can. Impart your desires to me...The Beginning.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Red",
+    "origin": "Fire Emblem: Three Houses",
+    "weapon": [
+        {
+            "_id": "weapon:sublime-surge",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:flametongue",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:fire-breath-plus",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:fire-breath",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:sirius",
+            "unlock": 5
+        },
+        {
+            "_id": "special:noontime",
+            "unlock": 4
+        },
+        {
+            "_id": "special:daylight",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Red Breath",
+    "tomeClass": 0,
+    "moveType": "Infantry",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 5,
+        "spd": 8,
+        "def": 5,
+        "res": 2
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 65,
+        "spd": 70,
+        "def": 60,
+        "res": 55
+    },
+    "passiveA": [
+        {
+            "_id": "passive-a:atk-spd-solo-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:atk-spd-solo-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:atk-spd-solo-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:wrath-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:wrath-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:wrath-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:times-pulse-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:times-pulse-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:times-pulse-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:sothis-girl-on-the-throne",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 41,
+                "low": 38,
+                "high": 44
+            },
+            "atk": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "spd": {
+                "base": 39,
+                "low": 36,
+                "high": 43
+            },
+            "def": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "res": {
+                "base": 27,
+                "low": 24,
+                "high": 30
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 173
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Rapier",
+    "description": "Effective against armored and cavalry foes. Grants Spd+3. If unit’s HP ≤ 75% and foe initiates combat, unit can counterattack before foe's first attack.",
+    "docType": "weapon",
+    "idTag": "SID_レイピア",
+    "spCost": 400,
+    "_id": "weapon:rapier"
+}

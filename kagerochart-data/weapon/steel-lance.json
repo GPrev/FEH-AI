@@ -1,0 +1,12 @@
+{
+    "range": 1,
+    "might": 8,
+    "name": "Steel Lance",
+    "docType": "weapon",
+    "idTag": "SID_鋼の槍",
+    "nextSkill": {
+        "_id": "weapon:silver-lance"
+    },
+    "spCost": 100,
+    "_id": "weapon:steel-lance"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Seal Spd/Def 2",
+    "description": "Inflicts Spd/Def-5 on foe through its next action after combat.",
+    "docType": "passive-b",
+    "idTag": "SID_速さ守備封じ2",
+    "spCost": 200,
+    "_id": "passive-b:seal-spd-def-2"
+}

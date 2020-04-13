@@ -1,0 +1,9 @@
+{
+    "name": "Glacies",
+    "description": "Boosts damage by 80% of unit's Res.",
+    "docType": "special",
+    "idTag": "SID_氷華",
+    "spCost": 200,
+    "cooldownCount": 4,
+    "_id": "special:glacies"
+}

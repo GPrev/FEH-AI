@@ -1,0 +1,215 @@
+{
+    "_id": "hero:tana-winged-princess",
+    "display": "Tana: Winged Princess",
+    "name": "Tana",
+    "color": "Blue",
+    "weapon": [
+        {
+            "_id": "weapon:vidofnir",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:heavy-spear",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:moonbow",
+            "unlock": 4
+        },
+        {
+            "_id": "special:new-moon",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:spd-def-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:spd-def-1",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:speed-plus-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:guidance-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:guidance-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:guidance-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [],
+    "description": "The princess of Frelia. Innes's sister. Somewhat naive, but cheery and very sociable. Appears in Fire Emblem: The Sacred Stones.",
+    "weaponType": "Blue Lance",
+    "moveType": "Flying",
+    "origin": "Fire Emblem: The Sacred Stones",
+    "gender": "Female",
+    "voiceActorEN": "Melissa Fahn",
+    "voiceActorJP": "たなか久美",
+    "releaseDate": "2017-08-15T07:00:00.000Z",
+    "artistEN": "cuboon",
+    "voiceActorJPEN": "Tanaka Kumi",
+    "insights": [
+        "Tana is the only hero with Vidofnir.",
+        "Tana is the only hero with Spd Def 2.",
+        "Tana is the only hero with Spd Def 1."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Winged Princess",
+    "artist": "cuboon",
+    "dialogue": [
+        {
+            "text": "My name is Tana, and I'm a pegasus knight. Oh, and I'm also the princess of Frelia. I hope you won't let that get in the way of us being friends, though!",
+            "context": "joined"
+        },
+        {
+            "text": "My brother is nobody's fool. But when it comes to Ephraim...well, that's the exception. He sees him as a rival.",
+            "context": "castle"
+        },
+        {
+            "text": "I left the castle without my father's permission. I wonder if he'll be angry with me...",
+            "context": "castle"
+        },
+        {
+            "text": "How are you doing? Just let me know if you need something. That's what friends are for, right?",
+            "context": "castle"
+        },
+        {
+            "text": "Come on! Let's get out of here! Show me a good time. After all, taking time out is important—even in war. If you don't relax now and again, you'll suffer for it.",
+            "context": "castle"
+        },
+        {
+            "text": "Outside of training? I spend my time making friends, I suppose... I just want to meet people who have the same aspirations I do!",
+            "context": "castle"
+        },
+        {
+            "text": "Hello, <Player Name>! Thank you for being such a good friend to <Friend Name>!",
+            "context": "friend"
+        },
+        {
+            "text": "My brother will have no choice but to acknowledge my skill now!",
+            "context": "level"
+        },
+        {
+            "text": "I wish we could be more like Eirika and Ephraim. Maybe now...",
+            "context": "level"
+        },
+        {
+            "text": "I can just imagine what my brother would say about this...",
+            "context": "level"
+        },
+        {
+            "text": "I can hold my head high and fight alongside everyone! Thank you!",
+            "context": "growth"
+        },
+        {
+            "text": "I had seen so little of the world. But somehow, when I left the castle, I thought I was ready... But no. Coming here has simply shown me that there is so much that I don't yet understand. Traveling with you has opened my eyes, though. I am sure of it. Eirika is my best friend. Of that, I have no doubt. But you've become just as important to me. I love Eirika, Ephraim, and my brother with all of my heart. And I feel the same about you!",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 7,
+        "spd": 9,
+        "def": 5,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 60,
+        "spd": 60,
+        "def": 45,
+        "res": 45
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 40
+            },
+            "atk": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "spd": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "def": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "res": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 156
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Speed +3",
+    "description": "Grants Spd+3.",
+    "docType": "passive-a",
+    "idTag": "SID_速さ3",
+    "spCost": 120,
+    "_id": "passive-a:speed-plus-3"
+}

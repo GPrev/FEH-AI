@@ -1,0 +1,12 @@
+{
+    "range": 2,
+    "might": 6,
+    "name": "Ellight",
+    "docType": "weapon",
+    "idTag": "SID_エルライト",
+    "nextSkill": {
+        "_id": "weapon:shine"
+    },
+    "spCost": 100,
+    "_id": "weapon:ellight"
+}

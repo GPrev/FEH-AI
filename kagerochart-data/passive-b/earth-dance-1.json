@@ -1,0 +1,11 @@
+{
+    "name": "Earth Dance 1",
+    "description": "If Sing or Dance is used, grants Def+3 to target.",
+    "docType": "passive-b",
+    "idTag": "SID_大地の舞い1",
+    "nextSkill": {
+        "_id": "passive-b:earth-dance-2"
+    },
+    "spCost": 50,
+    "_id": "passive-b:earth-dance-1"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Bowbreaker 2",
+    "description": "If unit's HP ≥ 70% in combat against a colorless bow foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+    "docType": "passive-b",
+    "idTag": "SID_弓殺し2",
+    "nextSkill": {
+        "_id": "passive-b:bowbreaker-3"
+    },
+    "spCost": 100,
+    "_id": "passive-b:bowbreaker-2"
+}

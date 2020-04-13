@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Sealed Falchion",
+    "description": "Effective against dragon foes. At start of combat, if unit's HP < 100%, grants Atk/Spd/Def/Res+5 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_封剣ファルシオン",
+    "spCost": 400,
+    "_id": "weapon:sealed-falchion"
+}

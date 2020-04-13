@@ -1,0 +1,8 @@
+{
+    "name": "Fortify Beasts",
+    "description": "At start of turn, grants Def/Res+6 to adjacent beast allies for 1 turn.",
+    "docType": "passive-c",
+    "idTag": "SID_獣盾の鼓舞",
+    "spCost": 200,
+    "_id": "passive-c:fortify-beasts"
+}

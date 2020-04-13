@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Luna Arc",
+    "description": "Effective against flying foes. Grants Spd+3. If unit initiates combat, deals damage = 25% of foe's Def. (Ignores reductions to Def from special skills like Lunar Flash.)",
+    "docType": "weapon",
+    "idTag": "SID_月光弓",
+    "spCost": 400,
+    "_id": "weapon:luna-arc"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Aerobatics 3",
+    "description": "Unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces.",
+    "docType": "passive-b",
+    "idTag": "SID_曲技飛行3",
+    "spCost": 240,
+    "_id": "passive-b:aerobatics-3"
+}

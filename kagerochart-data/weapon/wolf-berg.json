@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Wolf Berg",
+    "description": "Grants Def+3. If the number of foes within 2 spaces (excluding target) ≥ the number of allies within 2 spaces (excluding unit), grants Atk/Spd/Def/Res+4 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_ヴォルフベルグ",
+    "spCost": 400,
+    "_id": "weapon:wolf-berg"
+}

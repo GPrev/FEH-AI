@@ -1,0 +1,325 @@
+{
+    "_id": "hero:selena-cutting-wit",
+    "display": "Selena: Cutting Wit",
+    "name": "Selena",
+    "color": "Red",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:selenas-blade",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:armorslayer-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:armorslayer",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:reposition",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:triangle-adept-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:triangle-adept-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:triangle-adept-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:threaten-spd-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:threaten-spd-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:threaten-spd-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "description": "A mysterious woman devoted to service. One of Camilla's retainers. Snarky. Appears in Fire Emblem Fates.",
+    "weaponType": "Red Sword",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Fates",
+    "gender": "Female",
+    "voiceActorEN": "Julie Ann Taylor",
+    "voiceActorJP": "世戸さおり",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistJP": "ザザ",
+    "artistEN": "Zaza",
+    "voiceActorJPEN": "Seto Saori",
+    "insights": [
+        "Selena has the lowest <abbr title=\"Attack\">ATK</abbr> potential possible among Sword heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Cutting Wit",
+    "artist": "Zaza (ザザ)",
+    "dialogue": [
+        {
+            "text": "I'm Selena, a mercenary who works for Nohr. Very talented. Ask anyone! They'll say I'm cute too. Bonus!",
+            "context": "joined"
+        },
+        {
+            "text": "I am so bored. Isn't there any good shopping around here?!",
+            "context": "castle"
+        },
+        {
+            "text": "I'm Lady Camilla's retainer. She only dotes on me because I'm strong and cute. I gotta maintain!",
+            "context": "castle"
+        },
+        {
+            "text": "Look at you, patrolling! I like it. You're taking a page right outta MY book!",
+            "context": "castle"
+        },
+        {
+            "text": "You're bored too, huh? You should show me around this place. It's my third world I've ever— Wait, no! Just kidding. Two! Just two. Heh.",
+            "context": "castle"
+        },
+        {
+            "text": "I know I'm pretty fierce, but I've got to look great too. Hair that looks THIS good takes a lot of combing!",
+            "context": "castle"
+        },
+        {
+            "text": "I've come with a hello from <Friend Name>. So, there you go.",
+            "context": "friend"
+        },
+        {
+            "text": "I'm not average. I deserve better!",
+            "context": "level"
+        },
+        {
+            "text": "Bah. Not good enough for me.",
+            "context": "level"
+        },
+        {
+            "text": "This isn't like me!",
+            "context": "level"
+        },
+        {
+            "text": "Thanks for looking out for me.",
+            "context": "growth"
+        },
+        {
+            "text": "Ah, THERE you are! Hey, do you want to form a team with me? I mean, we already hang out... Great! We are now the Selen<Player Name> Alliance! Why are you making that face?! It does NOT sound dumb! I'll have you know I put A LOT of time and effort into that name so we could become closer friends! Huh? Oh, well, that's better. I knew you'd come around. Now that we're a team, no secrets! My name's not Selena, and I'm not from the world you found me in. You can call me Severa...privately.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 5,
+        "spd": 8,
+        "def": 7,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 45,
+        "spd": 60,
+        "def": 55,
+        "res": 50
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "atk": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "spd": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "def": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "res": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "atk": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "res": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 37,
+                "low": 34,
+                "high": 41
+            },
+            "atk": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "res": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 157
+            }
+        }
+    }
+}

@@ -1,0 +1,321 @@
+{
+    "_id": "hero:gaius-candy-stealer",
+    "display": "Gaius: Candy Stealer",
+    "name": "Gaius",
+    "color": "Colorless",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:rogue-dagger-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:rogue-dagger",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-dagger",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-dagger",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:rally-speed",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:defiant-atk-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:defiant-atk-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:defiant-atk-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:pass-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:pass-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:pass-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [],
+    "description": "Thief of Ylisse known for his nimble hands and sweet tooth. Hides sweets in his pockets. Appears in Fire Emblem Awakening.",
+    "weaponType": "Colorless Dagger",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Awakening",
+    "gender": "Male",
+    "voiceActorEN": "Ray Chase",
+    "voiceActorJP": "松本忍",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistJP": "一色箱",
+    "artistEN": "Ichiiro Hako",
+    "voiceActorJPEN": "Matsumoto Shinobu",
+    "insights": [
+        "Gaius has the highest <abbr title=\"Health Points\">HP</abbr> potential possible among Dagger heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Candy Stealer",
+    "artist": "Ichiiro Hako (一色箱)",
+    "dialogue": [
+        {
+            "text": "I'm Gaius. You need a thief, I've got the goods—as long as you keep me in the sweet stuff.",
+            "context": "joined"
+        },
+        {
+            "text": "My emergency torte got crushed in the last fight. I need to reinforce my candy pouches.",
+            "context": "castle"
+        },
+        {
+            "text": "I used to do any job for the right price. I grew some standards after I joined the Shepherds.",
+            "context": "castle"
+        },
+        {
+            "text": "Hey, nice work out there. I think it's time for a lollipop break, <Player Name>.",
+            "context": "castle"
+        },
+        {
+            "text": "Hey, do you know where the good beehives are around here? I'm running low on honey.",
+            "context": "castle"
+        },
+        {
+            "text": "Hey, try a slice of this cake I made. I think it needs something, but I can't figure out what.",
+            "context": "castle"
+        },
+        {
+            "text": "So I'm betting that you're <Player Name>. I was hired to come say hello to you. What, by whom? It was <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Someone should reward me for this!",
+            "context": "level"
+        },
+        {
+            "text": "A little sugar in my tank, and watch out!",
+            "context": "level"
+        },
+        {
+            "text": "Sweet work.",
+            "context": "level"
+        },
+        {
+            "text": "I gotta say—that is pretty darn tasty.",
+            "context": "growth"
+        },
+        {
+            "text": "Hey there. Seems like I've been seeing a lot of you lately, <Player Name>. Here to beg more candy off me? I'm not sharing this one, though— it's my favorite right now. Packed with sweet, sweet honey... Hm? You don't want candy? You got work for me, then? ...No? Wait, you're not just here to spend time with me, are ya? 'Cause that'd make you a big ol' marshmallow. Only softies try to build relationships up for their own sake. And here you are—soft as cotton candy. Heh. I changed my mind. Take the honey candy. No reason—just my way of saying thanks.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 6,
+        "spd": 9,
+        "def": 4,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 50,
+        "spd": 60,
+        "def": 40,
+        "res": 35
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 38,
+                "low": 35,
+                "high": 41
+            },
+            "atk": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            },
+            "spd": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "def": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "res": {
+                "base": 16,
+                "low": 13,
+                "high": 19
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 39,
+                "low": 36,
+                "high": 42
+            },
+            "atk": {
+                "base": 27,
+                "low": 24,
+                "high": 30
+            },
+            "spd": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "def": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "res": {
+                "base": 17,
+                "low": 14,
+                "high": 20
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 42,
+                "low": 39,
+                "high": 45
+            },
+            "atk": {
+                "base": 29,
+                "low": 25,
+                "high": 32
+            },
+            "spd": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 148
+            }
+        }
+    }
+}

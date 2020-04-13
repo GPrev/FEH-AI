@@ -1,0 +1,11 @@
+{
+    "name": "Chill Atk 2",
+    "description": "At start of turn, inflicts Atk-5 on foe on the enemy team with the highest Atk through its next action.",
+    "docType": "passive-b",
+    "idTag": "SID_攻撃の封印2",
+    "nextSkill": {
+        "_id": "passive-b:chill-atk-3"
+    },
+    "spCost": 120,
+    "_id": "passive-b:chill-atk-2"
+}

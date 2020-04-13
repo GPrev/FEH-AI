@@ -1,0 +1,11 @@
+{
+    "name": "Breath of Life 1",
+    "description": "If unit initiates combat, restores 3 HP to adjacent allies after combat.",
+    "docType": "passive-c",
+    "idTag": "SID_生の息吹1",
+    "nextSkill": {
+        "_id": "passive-c:breath-of-life-2"
+    },
+    "spCost": 50,
+    "_id": "passive-c:breath-of-life-1"
+}

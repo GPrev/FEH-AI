@@ -1,0 +1,9 @@
+{
+    "exclusive": true,
+    "name": "Follow-Up Ring",
+    "description": "At start of combat, if unit's HP ≥ 50%, unit makes a guaranteed follow-up attack. (Skill cannot be inherited.)",
+    "docType": "passive-b",
+    "idTag": "SID_追撃リング",
+    "spCost": 200,
+    "_id": "passive-b:follow-up-ring"
+}

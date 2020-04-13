@@ -1,0 +1,330 @@
+{
+    "_id": "hero:lucius-the-light",
+    "display": "Lucius: The Light",
+    "name": "Lucius",
+    "color": "Colorless",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:pain-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:pain",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:assault",
+            "unlock": 1
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:miracle",
+            "unlock": 3
+        },
+        {
+            "_id": "special:imbue",
+            "unlock": 2
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:martyr-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "assist:martyr",
+            "unlock": 4
+        },
+        {
+            "_id": "assist:reconcile",
+            "unlock": 2
+        },
+        {
+            "_id": "assist:heal",
+            "unlock": 0
+        }
+    ],
+    "docType": "hero",
+    "passiveA": [
+        {
+            "_id": "passive-a:hp-plus-5",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:hp-plus-4",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:hp-plus-3",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [],
+    "passiveC": [],
+    "description": "A gentle cleric who serves Raven. Carries a heavy burden from a dark childhood. Appears in Fire Emblem: The Blazing Blade.",
+    "weaponType": "Colorless Staff",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: The Blazing Blade",
+    "gender": "Male",
+    "voiceActorEN": "Michael Sinterniklaas",
+    "voiceActorJP": "行成とあ",
+    "releaseDate": "2017-03-16T07:00:00.000Z",
+    "artistJP": "板垣ハコ",
+    "artistEN": "Itagaki Hako",
+    "voiceActorJPEN": "Yukinari Toa",
+    "insights": [
+        "Lucius has the lowest <abbr title=\"Defense\">DEF</abbr> potential possible in Fire Emblem Heroes.",
+        "Lucius has the lowest <abbr title=\"Defense\">DEF</abbr> potential possible among Infantry heroes.",
+        "Lucius has the lowest <abbr title=\"Defense\">DEF</abbr> potential possible among Staff heroes.",
+        "Lucius has the lowest <abbr title=\"Defense\">DEF</abbr> potential possible among Colorless heroes.",
+        "Lucius was far more effective in The Blazing Blade.",
+        "Lucius is a boy."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "The Light",
+    "artist": "Itagaki Hako (板垣ハコ)",
+    "dialogue": [
+        {
+            "text": "My name is Lucius. I can tend to your wounded. So I beg you—please put me to work immediately.",
+            "context": "joined"
+        },
+        {
+            "text": "This kingdom is blessed by such abundance—and graced with such bright spirits! I believe that this place is so happy that there are few, if any, orphans that go unloved.",
+            "context": "castle"
+        },
+        {
+            "text": "In case anyone asks, feel free to share the fact that I am a man—and not a woman. It is hardly anyone's business, yet still the question has nipped at my heels for years.",
+            "context": "castle"
+        },
+        {
+            "text": "I have pledged my service to Lord Raym— Oh, sorry! I mean Raven, of course. I continue to worry about his welfare.",
+            "context": "castle"
+        },
+        {
+            "text": "My staff can be used to heal my allies but also to hurt my foes. That is, if I must.",
+            "context": "castle"
+        },
+        {
+            "text": "A moment...I beg you...please... Ah, there. What ails me has already passed.",
+            "context": "castle"
+        },
+        {
+            "text": "You must be <Player Name>. I have come to deliver good tidings from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Such gains might better suit others in our party.",
+            "context": "level"
+        },
+        {
+            "text": "I fared well—and pledge to put this to use for us all.",
+            "context": "level"
+        },
+        {
+            "text": "Sorry... Merely a moment... of weakness.",
+            "context": "level"
+        },
+        {
+            "text": "I hope that I have grown in both body and spirit.",
+            "context": "growth"
+        },
+        {
+            "text": "I have come to trust you more than most I meet, so I feel it's safe to share my story with you. When I was young, I suffered terribly in an orphanage—children ought never be so tormented. I also suffer what some might call a sickness of the soul. What it is, exactly, is difficult to say. Even now, when I think of how I suffered...at that orphanage...my body falls into lapses and strange fits. I'm sorry. I should have told you all about this, but I wasn't yet comfortable confiding it. I feared that you'd lose respect for me if you knew the truth—or would even be repulsed. I do such good works that I shouldn't allow myself to care, but when it comes to you...I do. I put myself in your hands. Will you like or loathe me? But know this, you will have my loyalty.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 5,
+        "spd": 7,
+        "def": 2,
+        "res": 8
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 60,
+        "spd": 50,
+        "def": 25,
+        "res": 60
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 2,
+                "low": 1,
+                "high": 3
+            },
+            "res": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 2,
+                "low": 1,
+                "high": 3
+            },
+            "res": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "atk": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "spd": {
+                "base": 26,
+                "low": 23,
+                "high": 29
+            },
+            "def": {
+                "base": 11,
+                "low": 8,
+                "high": 14
+            },
+            "res": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "atk": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "spd": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "def": {
+                "base": 12,
+                "low": 9,
+                "high": 15
+            },
+            "res": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 37,
+                "low": 34,
+                "high": 41
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 30,
+                "low": 26,
+                "high": 33
+            },
+            "def": {
+                "base": 13,
+                "low": 10,
+                "high": 17
+            },
+            "res": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 147
+            }
+        }
+    }
+}

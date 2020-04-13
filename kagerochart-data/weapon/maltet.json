@@ -1,0 +1,12 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Maltet",
+    "description": "Accelerates Special trigger (cooldown count-1). If unit's HP ≥ 50% and foe initiates combat, unit makes a guaranteed follow-up attack.",
+    "docType": "weapon",
+    "idTag": "SID_マルテ",
+    "spCost": 400,
+    "cooldownCount": -1,
+    "_id": "weapon:maltet"
+}

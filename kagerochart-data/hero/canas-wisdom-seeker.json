@@ -1,0 +1,259 @@
+{
+    "_id": "hero:canas-wisdom-seeker",
+    "display": "Canas: Wisdom Seeker",
+    "name": "Canas",
+    "color": "Red",
+    "lowestRarity": 4,
+    "weapon": [
+        {
+            "_id": "weapon:raurowl-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:raurowl",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:ruin",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:flux",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:reciprocal-aid",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "weaponType": "Red Tome",
+    "moveType": "Infantry",
+    "passiveA": [
+        {
+            "_id": "passive-a:hp-res-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:hp-res-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:resistance-plus-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:res-tactic-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:res-tactic-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:res-tactic-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "insights": [],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Wisdom Seeker",
+    "description": "Fourth son of Niime, the Mountain Hermit. Devoted entirely to research and reading. Appears in Fire Emblem: The Blazing Blade.",
+    "artist": "Tobi",
+    "voiceActorEN": "Joe Zieja",
+    "voiceActorJP": "森久保祥太郎",
+    "dialogue": [
+        {
+            "text": "What a fascinating place... Oh, but where are my manners? I am Canas, a simple scholar.",
+            "context": "joined"
+        },
+        {
+            "text": "How fascinating! If that's true, then— Of course! Now, let me just see... Oh! Don't mind me. I'm just caught up in a book, as usual...",
+            "context": "castle"
+        },
+        {
+            "text": "I am told that in this world dwells one called a \"summoner,\" who can call forth Heroes from other realms... Do you think you might introduce us?",
+            "context": "castle"
+        },
+        {
+            "text": "Don't think I haven't noticed how tireless you are in patrolling the castle... Overwork is no good for you, however. Do not forget that taking breaks is part of the job, too.",
+            "context": "castle"
+        },
+        {
+            "text": "Have you considered reading as a way to lift your spirits or clear your mind? I have some recommendations. Take this book—it's a well-crafted yarn, but it's a light read, too.",
+            "context": "castle"
+        },
+        {
+            "text": "The library here is truly a wonder... So many volumes! I hope I never have to leave...",
+            "context": "castle"
+        },
+        {
+            "text": "I am Canas. I bring greetings to you from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Excellent! Each step brings me closer to fundamental truths...",
+            "context": "level"
+        },
+        {
+            "text": "Ah, well. No more than average— this time.",
+            "context": "level"
+        },
+        {
+            "text": "Further indication that I am lacking in talent, I suppose...",
+            "context": "level"
+        },
+        {
+            "text": "Goodness! I can't help but wonder what you're scheming...",
+            "context": "growth"
+        },
+        {
+            "text": "My apologies... I didn't even see you there, with my nose buried in this book... But you must understand how fascinating it is! Truly! You want to know why I'm always reading? You could say that I am driven by curiosity... Once I identify a topic of interest, I must study it from every angle. I do wonder, sometimes, where this habit will take me... When I consider the fate that befell my brothers, as they pushed the limits of magical study, I... But I must be honest with you. I cannot control my thirst for knowledge. It is a flaw in my character. One could even call it greed... The short answer to your question is this: For me, to read is to live. Now, while I have you here, perhaps you could answer one of my questions... Observe the pattern on this page. It is totally unfamiliar to me—like nothing from my realm. Tell me...",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: The Blazing Blade",
+    "tomeClass": 5,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 9,
+        "spd": 4,
+        "def": 3,
+        "res": 8
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 50,
+        "spd": 55,
+        "def": 40,
+        "res": 55
+    },
+    "minStats": {
+        "4": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "4": {
+            "hp": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "atk": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "spd": {
+                "base": 26,
+                "low": 23,
+                "high": 29
+            },
+            "def": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "res": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 40
+            },
+            "atk": {
+                "base": 32,
+                "low": 28,
+                "high": 35
+            },
+            "spd": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "def": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "res": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 151
+            }
+        }
+    }
+}

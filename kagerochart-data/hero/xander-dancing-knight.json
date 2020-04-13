@@ -1,0 +1,221 @@
+{
+    "_id": "hero:xander-dancing-knight",
+    "display": "Xander: Dancing Knight",
+    "name": "Xander",
+    "color": "Colorless",
+    "weapon": [
+        {
+            "_id": "weapon:dusk-uchiwa-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:dusk-uchiwa",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-dagger",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-dagger",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:dance",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "weaponType": "Colorless Dagger",
+    "moveType": "Infantry",
+    "passiveA": [
+        {
+            "_id": "passive-a:close-counter",
+            "unlock": 5
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:quick-riposte-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:quick-riposte-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:quick-riposte-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:odd-def-wave-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:odd-def-wave-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:odd-def-wave-1",
+            "unlock": 3
+        }
+    ],
+    "insights": [
+        "Xander is the only hero with Dusk Uchiwa+.",
+        "Xander is the only hero with Dusk Uchiwa.",
+        "Xander has the highest <abbr title=\"Defense\">DEF</abbr> potential possible among Dagger heroes.",
+        "Xander has the highest <abbr title=\"Defense\">DEF</abbr> potential possible among Colorless heroes.",
+        "Xander has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible in Fire Emblem Heroes.",
+        "Xander has the lowest <abbr title=\"Speed\">SPD</abbr> potential possible among Infantry heroes.",
+        "Xander has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Infantry heroes.",
+        "Xander has the lowest <abbr title=\"Speed\">SPD</abbr> potential possible among Dagger heroes.",
+        "Xander has the lowest <abbr title=\"Resistance\">RES</abbr> potential possible among Dagger heroes.",
+        "Xander has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Dagger heroes.",
+        "Xander has the lowest <abbr title=\"Speed\">SPD</abbr> potential possible among Colorless heroes.",
+        "Xander has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Colorless heroes."
+    ],
+    "refresher": true,
+    "dragonflowers": 10,
+    "epitet": "Dancing Knight",
+    "description": "Crown Prince of Nohr. Seeks to better himself. Invited to a Hoshidan festival, he opted to don the traditional garb and participate. Appears in Fire Emblem Fates.",
+    "artist": "PenekoR (п猫Ｒ)",
+    "voiceActorEN": "George Spelvin",
+    "voiceActorJP": "小西克幸",
+    "dialogue": [
+        {
+            "text": "I am Xander, Crown Prince of Nohr. I've long heard rumors of the dances of the Hoshidan summer festival. If I may, allow me to join in.",
+            "context": "joined"
+        },
+        {
+            "text": "As Crown Prince of Nohr, it wouldn't do for me to be seen dancing without the grace that befits my station...",
+            "context": "castle"
+        },
+        {
+            "text": "So this is Hoshido's summer festival... The rumors did not do it justice—it's more intriguing than anticipated.",
+            "context": "castle"
+        },
+        {
+            "text": "Are you certain you don't want to join in? To tell you the truth...I, too, was unsure at first. If you try it yourself, I think you'll find what is so wonderful about the dance.",
+            "context": "castle"
+        },
+        {
+            "text": "Nohr and Hoshido were once locked in a bitter war with each other. Battle after battle raged on, no end in sight. Look how far we've come... Now we are here, together, hand in hand.",
+            "context": "castle"
+        },
+        {
+            "text": "I must tell my siblings about the joys of this dance! I'm certain they would enjoy it, given the opportunity.",
+            "context": "castle"
+        },
+        {
+            "text": "I bring greetings from <Friend Name>! Curious about my outfit, are you? It's traditional Hoshidan garb! I'm told it's considered sacred in their culture.",
+            "context": "friend"
+        },
+        {
+            "text": "With practice comes skill! Observe!",
+            "context": "level"
+        },
+        {
+            "text": "Adequate... Is my adherence to decorum holding me back?",
+            "context": "level"
+        },
+        {
+            "text": "Hmph. Am I failing to perform the steps properly? I must focus...",
+            "context": "level"
+        },
+        {
+            "text": "You have my thanks. Now my dancing can reach new heights!",
+            "context": "growth"
+        },
+        {
+            "text": "Many chronicles of the past describe the history of humankind as one of war. Given my experience, the sentiment rings true to me. But could it be that we exist solely to fight and kill one another? I do not believe so. Sometimes we can come together in celebration, link hands, and step forward into the future. All the proof I need is in the smiling faces of the people joining in the summer festival's celebrations. In their eyes, borders and nations do not exist. Here, there is no division between Hoshido and Nohr. The festival brings people together, uniting us as one... I pray that peace like this can endure forever.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Fates",
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 6,
+        "spd": 3,
+        "def": 5,
+        "res": 2
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 65,
+        "spd": 30,
+        "def": 65,
+        "res": 30
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 38,
+                "low": 34,
+                "high": 41
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 17,
+                "low": 13,
+                "high": 20
+            },
+            "def": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "res": {
+                "base": 16,
+                "low": 12,
+                "high": 19
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 140
+            }
+        }
+    }
+}

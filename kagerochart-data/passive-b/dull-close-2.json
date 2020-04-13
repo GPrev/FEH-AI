@@ -1,0 +1,11 @@
+{
+    "name": "Dull Close 2",
+    "description": "At start of combat, if unit's HP ≥ 50% and foe uses sword, lance, axe, dragonstone, or beast damage, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+    "docType": "passive-b",
+    "idTag": "SID_強化無効・近距離2",
+    "nextSkill": {
+        "_id": "passive-b:dull-close-3"
+    },
+    "spCost": 120,
+    "_id": "passive-b:dull-close-2"
+}

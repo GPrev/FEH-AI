@@ -1,0 +1,226 @@
+{
+    "_id": "hero:ephraim-legendary-lord",
+    "display": "Ephraim: Legendary Lord",
+    "name": "Ephraim",
+    "color": "Blue",
+    "legendary": {
+        "element": "Fire",
+        "bst": 0,
+        "stats": {
+            "hp": 3,
+            "def": 4
+        },
+        "duel": false,
+        "duo_skill_id": null,
+        "kind": 1,
+        "pair_up": false
+    },
+    "weapon": [
+        {
+            "_id": "weapon:flame-siegmund",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-lance",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:sol",
+            "unlock": 4
+        },
+        {
+            "_id": "special:daylight",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Blue Lance",
+    "moveType": "Cavalry",
+    "passiveA": [
+        {
+            "_id": "passive-a:sturdy-stance-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:sturdy-stance-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:fierce-stance-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:solar-brace",
+            "unlock": 5
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:fortify-def-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:fortify-def-2",
+            "unlock": 3
+        },
+        {
+            "_id": "passive-c:fortify-def-1",
+            "unlock": 1
+        }
+    ],
+    "insights": [
+        "Ephraim is the only hero with Solar Brace."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Legendary Lord",
+    "description": "Prince of Renais. Eirika's twin. It's said he destroyed the Demon King of old and saved the world. Appears in Fire Emblem: The Sacred Stones.",
+    "artist": "Asatani Tomoyo (麻谷知世)",
+    "voiceActorEN": "Greg Chun",
+    "voiceActorJP": "八代拓",
+    "dialogue": [
+        {
+            "text": "I am Prince Ephraim of Renais. You say I'm a...legendary Hero? I was only able to defeat the Demon King thanks to all those who lent their strength to me.",
+            "context": "joined"
+        },
+        {
+            "text": "Legendary Hero? Am I really so praiseworthy? I have a feeling the stories that are told about me tend to omit my thirst for battle.",
+            "context": "castle"
+        },
+        {
+            "text": "Eirika is my twin sister. We've always been together, ever since we were born. Well, actually, even before that.",
+            "context": "castle"
+        },
+        {
+            "text": "People criticize my fighting style— \"reckless,\" they call me! Call me that when I lose—because I won't.",
+            "context": "castle"
+        },
+        {
+            "text": "Studying books is so very tedious... I could only make my way through them with help from my friend Lyon.",
+            "context": "castle"
+        },
+        {
+            "text": "I have a lot of experience fighting on horseback. I'm interested in anything that'll give me the edge in battle.",
+            "context": "castle"
+        },
+        {
+            "text": "I'm Ephraim. Would you be willing to spar with me? I want to get the measure of the army you have here.",
+            "context": "friend"
+        },
+        {
+            "text": "I will be king, and defend the people with my own two hands.",
+            "context": "level"
+        },
+        {
+            "text": "The lessons I've learned in battle give me strength.",
+            "context": "level"
+        },
+        {
+            "text": "It's just a little bad luck. Why worry? On to the next battle.",
+            "context": "level"
+        },
+        {
+            "text": "I must steel my will, so that power will never lead me astray.",
+            "context": "growth"
+        },
+        {
+            "text": "Thanks to your ability to summon Heroes, you've been thrust into the position of a leader. That power is truly profound. It has the potential to shake the worlds. You should consider the impact you could make. What foe could possibly be beyond your grasp? I know that's a strange thought, but I've pondered this for a long time... You see, I'm drawn to battle. The stronger I get, the more I want to fight. I'm driven to test myself. I know that's just how I am. But I also realize that this is not a healthy impulse for a king. People here call me a Legendary Hero, and sing my praises... They say that I am a good king, one who has vowed to protect his people. I will become king, one day. And though I am not yet that man, I hope to be. And I will protect my people... Not just them. My friend also hoped to save his people, and I will protect them, too... My goal is to be a king beyond kings—one who breaks the bounds of human frailty. I hope I can reach that goal one day.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: The Sacred Stones",
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 18,
+        "atk": 9,
+        "spd": 4,
+        "def": 8,
+        "res": 2
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 60,
+        "spd": 50,
+        "def": 55,
+        "res": 35
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 19,
+                "low": 18,
+                "high": 20
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 43,
+                "low": 40,
+                "high": 46
+            },
+            "atk": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "spd": {
+                "base": 27,
+                "low": 23,
+                "high": 30
+            },
+            "def": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "res": {
+                "base": 18,
+                "low": 15,
+                "high": 21
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 157
+            }
+        }
+    }
+}

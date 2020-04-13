@@ -1,0 +1,11 @@
+{
+    "name": "Fire Boost 1",
+    "description": "At start of combat, if unit’s HP ≥ foe's HP+3, grants Atk+2 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_生命の業火1",
+    "nextSkill": {
+        "_id": "passive-a:fire-boost-2"
+    },
+    "spCost": 50,
+    "_id": "passive-a:fire-boost-1"
+}

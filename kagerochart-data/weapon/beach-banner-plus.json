@@ -1,0 +1,60 @@
+{
+    "range": 1,
+    "might": 14,
+    "name": "Beach Banner+",
+    "description": "If unit initiates combat, grants Atk/Spd/Def/ Res+2 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_ビーチフラッグ＋",
+    "spCost": 300,
+    "_id": "weapon:beach-banner-plus",
+    "refines": [
+        {
+            "might": 14,
+            "stats": {
+                "hp": 5,
+                "spd": 3
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 16,
+            "stats": {
+                "hp": 5,
+                "atk": 2
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 14,
+            "stats": {
+                "hp": 5,
+                "def": 4
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 14,
+            "stats": {
+                "hp": 5,
+                "res": 4
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        }
+    ]
+}

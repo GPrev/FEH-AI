@@ -1,0 +1,10 @@
+{
+    "range": 2,
+    "might": 10,
+    "name": "Blárwolf+",
+    "description": "Effective against cavalry foes.",
+    "docType": "weapon",
+    "idTag": "SID_ウルファブラー＋",
+    "spCost": 300,
+    "_id": "weapon:blarwolf-plus"
+}

@@ -1,0 +1,227 @@
+{
+    "_id": "hero:tharja-normal-girl",
+    "display": "Tharja: \"Normal Girl\"",
+    "name": "Tharja",
+    "color": "Red",
+    "weapon": [
+        {
+            "_id": "weapon:candelabra-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:candelabra",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:ruin",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:flux",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:iceberg",
+            "unlock": 4
+        },
+        {
+            "_id": "special:chilling-wind",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:close-counter",
+            "unlock": 5
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:vengeful-fighter-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:vengeful-fighter-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:vengeful-fighter-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:r-tome-valor-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:r-tome-valor-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:r-tome-valor-1",
+            "unlock": 1
+        }
+    ],
+    "description": "A mage from Plegia who, while usually creepy, is acting bright and cheerful...for some reason. Appears in Fire Emblem Awakening.",
+    "weaponType": "Red Tome",
+    "moveType": "Armored",
+    "origin": "Fire Emblem: Awakening",
+    "gender": "Female",
+    "voiceActorEN": "Stephanie Sheh",
+    "voiceActorJP": "高田憂希",
+    "releaseDate": "2017-12-18T00:00:00.000Z",
+    "artistJP": "わし元",
+    "artistEN": "Washimoto",
+    "voiceActorJPEN": "Takada Yuuki",
+    "insights": [
+        "Tharja is the only hero with Candelabra+.",
+        "Tharja is the only hero with Candelabra.",
+        "Tharja is the only hero with R Tome Valor 3.",
+        "Tharja is the only hero with R Tome Valor 2.",
+        "Tharja is the only hero with R Tome Valor 1.",
+        "Tharja has the highest <abbr title=\"Defense\">DEF</abbr> potential possible among Tome heroes.",
+        "Tharja has the highest <abbr title=\"Resistance\">RES</abbr> potential possible among Tome heroes.",
+        "Tharja has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Armored heroes.",
+        "Tharja has the lowest <abbr title=\"Speed\">SPD</abbr> potential possible among Tome heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "\"Normal Girl\"",
+    "artist": "Washimoto (わし元)",
+    "dialogue": [
+        {
+            "text": "Oh-ho and huzzah! I'm Tharja, just a typically normally plain girl! Have a happy winter festival! Do you think Robin heard me being normal?",
+            "context": "joined"
+        },
+        {
+            "text": "Princess Sharena started chatting with me while I was in the middle of my \"normal practice.\" She grew quite fond of me in that time, so now I'm not sure when I can stop acting like that...",
+            "context": "castle"
+        },
+        {
+            "text": "Robin once said I should act more normal, so today I'm putting my \"normal practice\" to use. Huzzah!",
+            "context": "castle"
+        },
+        {
+            "text": "Am I chilly in this outfit? How sweet of you to be concerned for my welfare! But I'm fine. To be honest...it's usually other people who get the chills around me. Oh-ho-ho...",
+            "context": "castle"
+        },
+        {
+            "text": "Would you be so kind as to escort me to a shop here in Askr, huzzah? I must buy a \"gift\" for my dear Robin.",
+            "context": "castle"
+        },
+        {
+            "text": "Oh-ho, you think my outfit is cute? Stare too long, and... I'll burn you with this candle.",
+            "context": "castle"
+        },
+        {
+            "text": "Oh-ho and huzzah! I've brought you a festive greeting from your friend <Friend Name>!",
+            "context": "friend"
+        },
+        {
+            "text": "Gracious, look how I've grown! It had better not be a curse...",
+            "context": "level"
+        },
+        {
+            "text": "Huzzah! Aren't you proud of my hard work?",
+            "context": "level"
+        },
+        {
+            "text": "What is the meaning of this?",
+            "context": "level"
+        },
+        {
+            "text": "New power? Huzzah, and... Um... Something...normal-sounding?",
+            "context": "growth"
+        },
+        {
+            "text": "Why good day, <Player Name>! How fare you? Enjoying the weather? Huzzah, I baked you a pie! I do so adore baking. It's even topped with a blood-colored—er, red—berry sauce. It's a special gift just for Y-O-U, for taking such good care of me. Give me just a moment to slash it— I mean, slice it—into ribbons—I mean, into pieces... Oh-ho-ho, what a lovely and deep cut! Doesn't the oozing sauce remind you of a beautiful curse? Oh, er... I mean... Huzzah, or... Hm. I seem to have forgotten my \"normal practice.\" Well, I guess it's no use pretending anymore. This is the real me: a hex- loving, curse-slinging witch. I take it you're disappointed? You're not disappointed at all? Well, thank you. You're...surprisingly kind... I suppose it's OK to celebrate the winter festival as my true self... Just because it's with you.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 5,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 18,
+        "atk": 9,
+        "spd": 4,
+        "def": 7,
+        "res": 9
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 55,
+        "spd": 30,
+        "def": 60,
+        "res": 60
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 19,
+                "low": 18,
+                "high": 20
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 43,
+                "low": 40,
+                "high": 46
+            },
+            "atk": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "spd": {
+                "base": 18,
+                "low": 14,
+                "high": 21
+            },
+            "def": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "res": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 165
+            }
+        }
+    }
+}

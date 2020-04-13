@@ -1,0 +1,11 @@
+{
+    "name": "Atk/Res Oath 2",
+    "description": "At start of turn, if unit is adjacent to an ally, grants Atk/Res+4 to unit for 1 turn.",
+    "docType": "passive-c",
+    "idTag": "SID_攻撃魔防の信義2",
+    "nextSkill": {
+        "_id": "passive-c:atk-res-oath-3"
+    },
+    "spCost": 120,
+    "_id": "passive-c:atk-res-oath-2"
+}

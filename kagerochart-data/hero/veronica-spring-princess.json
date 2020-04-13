@@ -1,0 +1,204 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Veronica",
+    "epitet": "Spring Princess",
+    "display": "Veronica: Spring Princess",
+    "description": "Imperial princess of the Emblian Empire. Dressed as a bunny for the festival at her brother Bruno's request.",
+    "artist": "Umiu Geso (海鵜げそ)",
+    "voiceActorEN": "Wendee Lee",
+    "voiceActorJP": "日高里菜",
+    "dialogue": [
+        {
+            "text": "Hippity-hop. I'm Veronica. I hear there's some kind of festival here... I'll join in.",
+            "context": "joined"
+        },
+        {
+            "text": "Saying \"hippity-hop\" makes my ears bounce. It's fun, but I don't know why.",
+            "context": "castle"
+        },
+        {
+            "text": "What's hopping? I see how you're looking at me. It's the spring festival. I have to say \"hop.\" A lot.",
+            "context": "castle"
+        },
+        {
+            "text": "My brother must be the best- looking bunny in this world.",
+            "context": "castle"
+        },
+        {
+            "text": "Prince Alfonse dressed this way? Hmm...",
+            "context": "castle"
+        },
+        {
+            "text": "This is a lot of fun. I wish I could spend more days like this.",
+            "context": "castle"
+        },
+        {
+            "text": "The spring festival is on, and <Friend Name> is there. You should come too.",
+            "context": "friend"
+        },
+        {
+            "text": "Hippity-hop. I'm getting stronger.",
+            "context": "level"
+        },
+        {
+            "text": "I'll hop around the festival some more.",
+            "context": "level"
+        },
+        {
+            "text": "Not funny, bunny.",
+            "context": "level"
+        },
+        {
+            "text": "I like this festival.",
+            "context": "growth"
+        },
+        {
+            "text": "Hippity-hop... A happy rabbit, enjoying the springtime...that's me. It seems everybody is having fun here. He's usually so serious... And he's bravely suffering... But today, they're both happy. I think I like spring... It's getting to me, too. I'm about to laugh—watch me. You can join in.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Green",
+    "origin": "Fire Emblem Heroes",
+    "weapon": [
+        {
+            "_id": "weapon:verfolnirs-egg",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:rexcalibur",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elwind",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:wind",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:glimmer",
+            "unlock": 4
+        },
+        {
+            "_id": "special:night-sky",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Green Tome",
+    "tomeClass": 3,
+    "moveType": "Flying",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 8,
+        "spd": 9,
+        "def": 2,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 60,
+        "def": 30,
+        "res": 45
+    },
+    "passiveB": [
+        {
+            "_id": "passive-b:chill-res-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:chill-res-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:chill-res-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:g-duel-flying-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:g-duel-flying-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:g-duel-flying-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:veronica-spring-princess",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 38,
+                "low": 34,
+                "high": 41
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "def": {
+                "base": 16,
+                "low": 12,
+                "high": 19
+            },
+            "res": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 150
+            }
+        }
+    }
+}

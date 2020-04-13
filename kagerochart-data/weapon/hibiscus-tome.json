@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Hibiscus Tome",
+    "description": "Grants Atk/Spd+1 to allies within 2 spaces during combat.",
+    "docType": "weapon",
+    "idTag": "SID_ハイビスカスの本",
+    "nextSkill": {
+        "_id": "weapon:hibiscus-tome-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:hibiscus-tome"
+}

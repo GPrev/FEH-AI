@@ -1,0 +1,11 @@
+{
+    "name": "Defiant Def 2",
+    "description": "At start of turn, if unit's HP ≤ 50%, grants Def+5 for 1 turn.",
+    "docType": "passive-a",
+    "idTag": "SID_守備の覚醒2",
+    "nextSkill": {
+        "_id": "passive-a:defiant-def-3"
+    },
+    "spCost": 80,
+    "_id": "passive-a:defiant-def-2"
+}

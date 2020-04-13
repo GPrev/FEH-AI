@@ -1,0 +1,10 @@
+{
+    "range": 2,
+    "might": 10,
+    "name": "Rauðrwolf+",
+    "description": "Effective against cavalry foes.",
+    "docType": "weapon",
+    "idTag": "SID_ウルファラウア＋",
+    "spCost": 300,
+    "_id": "weapon:raurwolf-plus"
+}

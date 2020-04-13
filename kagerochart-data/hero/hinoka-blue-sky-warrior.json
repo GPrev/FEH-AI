@@ -1,0 +1,226 @@
+{
+    "_id": "hero:hinoka-blue-sky-warrior",
+    "display": "Hinoka: Blue Sky Warrior",
+    "name": "Hinoka",
+    "color": "Colorless",
+    "weapon": [
+        {
+            "_id": "weapon:warrior-princess",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-bow",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-bow",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-bow",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:luna",
+            "unlock": 4
+        },
+        {
+            "_id": "special:new-moon",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Colorless Bow",
+    "moveType": "Flying",
+    "passiveA": [
+        {
+            "_id": "passive-a:atk-spd-bond-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:atk-spd-bond-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:atk-spd-bond-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:flier-formation-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:flier-formation-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:flier-formation-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:flier-guidance-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:flier-guidance-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:flier-guidance-1",
+            "unlock": 3
+        }
+    ],
+    "insights": [
+        "Hinoka is the only hero with Warrior Princess.",
+        "Hinoka is the only hero with Flier Guidance 3.",
+        "Hinoka is the only hero with Flier Guidance 2.",
+        "Hinoka is the only hero with Flier Guidance 1."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Blue Sky Warrior",
+    "description": "Princess of Hoshido. Soars higher and higher upon the back of a legendary kinshi. Appears in Fire Emblem Fates.",
+    "artist": "Chiko (チーコ)",
+    "voiceActorEN": "Cindy Robinson",
+    "voiceActorJP": "名塚佳織",
+    "dialogue": [
+        {
+            "text": "I'm Hinoka, a princess of Hoshido. If you need my help to win a fight, just call on me and my bow! We'll pierce through your enemies, rows at a time!",
+            "context": "joined"
+        },
+        {
+            "text": "I've spent my life training to be a warrior so I never had time to learn domestic skills like cooking or sewing. But learning a less warlike skill may help broaden my horizons... What do you think?",
+            "context": "castle"
+        },
+        {
+            "text": "Kinshi are legendary giant birds, native to my homeland. I'd love to someday take you to Hoshido so we can watch them soar across the skies together.",
+            "context": "castle"
+        },
+        {
+            "text": "I know you've got plenty of experience with all sorts of Heroes, but let me give you some advice... When it comes to choosing a retainer, do your research! Otherwise, you may be in for a rude awakening...",
+            "context": "castle"
+        },
+        {
+            "text": "I'm gonna get myself pumped up for the next fight with a short jog. Wanna come with?",
+            "context": "castle"
+        },
+        {
+            "text": "When it comes to taking down a flying target, nothing beats a bow. But using one requires the proper technique. So I don't slack off when it comes to training. I'm out there each and every day!",
+            "context": "castle"
+        },
+        {
+            "text": "Am I...in the right place? Is <Player Name> here? Perfect! I bring greetings from <Friend Name>!",
+            "context": "friend"
+        },
+        {
+            "text": "I feel the power surging through me. OK, Hinoka, you can do this!",
+            "context": "level"
+        },
+        {
+            "text": "All right! Let's keep on training!",
+            "context": "level"
+        },
+        {
+            "text": "Maybe my head was too in the clouds...",
+            "context": "level"
+        },
+        {
+            "text": "Now I'm even better prepared for battle! Let's get out there!",
+            "context": "growth"
+        },
+        {
+            "text": "You sure put in a hard day's work in that last battle. I've gotta say, it's impressive watching you out there! Heh, my fighting was worthy of a warrior princess? Aw, shucks. Thanks for saying! Although... I wasn't always a warrior like I am now. When I was younger, I was more like a typical little girl. But then, something...happened... And afterward, I decided I would learn how to fight. Ever since, I've been training to hone my battle skills. And I'm glad I did, too! Otherwise, I'd have never been summoned here, and I'd never have the chance to fight by your side. Heh, I should be sending a thank-you note to my past self. Umm... Well, that was all a little embarrassing to say out loud, so I'm gonna go for a stroll in the sky. And you're coming with!",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Fates",
+    "releaseDate": "2018-04-24T07:00:00.000Z",
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 5,
+        "spd": 8,
+        "def": 3,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 60,
+        "spd": 60,
+        "def": 30,
+        "res": 50
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 37,
+                "low": 34,
+                "high": 41
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 17,
+                "low": 13,
+                "high": 20
+            },
+            "res": {
+                "base": 29,
+                "low": 25,
+                "high": 32
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 150
+            }
+        }
+    }
+}

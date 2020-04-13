@@ -1,0 +1,14 @@
+{
+    "range": 1,
+    "might": 10,
+    "name": "Slaying Lance",
+    "description": "Accelerates Special trigger (cooldown count-1).",
+    "docType": "weapon",
+    "idTag": "SID_キラーランス2",
+    "nextSkill": {
+        "_id": "weapon:slaying-lance-plus"
+    },
+    "spCost": 200,
+    "cooldownCount": -1,
+    "_id": "weapon:slaying-lance"
+}

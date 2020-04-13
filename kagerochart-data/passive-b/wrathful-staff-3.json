@@ -1,0 +1,8 @@
+{
+    "name": "Wrathful Staff 3",
+    "description": "Calculates damage from staff like other weapons.",
+    "docType": "passive-b",
+    "idTag": "SID_神罰の杖3",
+    "spCost": 240,
+    "_id": "passive-b:wrathful-staff-3"
+}

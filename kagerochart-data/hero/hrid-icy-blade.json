@@ -1,0 +1,221 @@
+{
+    "_id": "hero:hrid-icy-blade",
+    "display": "Hríd: Icy Blade",
+    "name": "Hríd",
+    "color": "Red",
+    "legendary": {
+        "element": "Wind",
+        "bst": 0,
+        "stats": {
+            "hp": 3,
+            "def": 4
+        },
+        "duel": false,
+        "duo_skill_id": null,
+        "kind": 1,
+        "pair_up": false
+    },
+    "weapon": [
+        {
+            "_id": "weapon:gjoll",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-sword",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:moonbow",
+            "unlock": 4
+        },
+        {
+            "_id": "special:new-moon",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Red Sword",
+    "moveType": "Cavalry",
+    "passiveA": [
+        {
+            "_id": "passive-a:distant-counter",
+            "unlock": 5
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:freezing-seal",
+            "unlock": 5
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:atk-smoke-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:atk-smoke-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:atk-smoke-1",
+            "unlock": 1
+        }
+    ],
+    "insights": [
+        "Hríd is the only hero with Gjöll.",
+        "Hríd is the only hero with Freezing Seal.",
+        "Hríd has the highest <abbr title=\"Attack\">ATK</abbr> potential possible among Cavalry heroes.",
+        "Hríd has the lowest <abbr title=\"Speed\">SPD</abbr> potential possible among Cavalry heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Icy Blade",
+    "description": "The eldest prince of Nifl, Kingdom of Ice. With a steady, calm demeanor, he's always prepared for danger.",
+    "artist": "Maeshima Shigeki (前嶋重機)",
+    "voiceActorEN": "Mark P. Whitten",
+    "voiceActorJP": "松岡禎丞",
+    "dialogue": [
+        {
+            "text": "I am Hríd, eldest prince of Nifl, the Kingdom of Ice. I pledge on my good name to be of aid to you.",
+            "context": "joined"
+        },
+        {
+            "text": "The peace of this realm depends on you. That means your attention is as valuable as any jewel in the treasury.",
+            "context": "castle"
+        },
+        {
+            "text": "Thanks to everything you've done, Nifl can rebuild. I will never forget the debt we owe all of you.",
+            "context": "castle"
+        },
+        {
+            "text": "Please, rest yourself, if only for a moment. Fatigue clouds judgment... Allow me to keep watch in your stead.",
+            "context": "castle"
+        },
+        {
+            "text": "I know I can come across as a little cold. I apologize. I'd love to share a joke, but that's not how I'm made.",
+            "context": "castle"
+        },
+        {
+            "text": "As long as I live...I will never forget that I failed in my duty to protect my people and my sisters...",
+            "context": "castle"
+        },
+        {
+            "text": "I am Hríd, eldest prince of Nifl, the Kingdom of Ice. I bring word from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "This is exceedingly good, wouldn't you say?",
+            "context": "level"
+        },
+        {
+            "text": "This, now... A reasonable result.",
+            "context": "level"
+        },
+        {
+            "text": "This, though... This is not satisfactory.",
+            "context": "level"
+        },
+        {
+            "text": "Thank you. In order to protect that which I cherish, I need strength.",
+            "context": "growth"
+        },
+        {
+            "text": "My kingdom was as peaceful as any. Of others, we asked only for alliances, not conflict. Nifl was as pure as the freshly fallen snow, in other words. But once Múspell invaded, everything changed. A heart that desires only peace is precious, but its bearer is easy prey. I learned that the hard way. Even if I want peace—no, BECAUSE I want peace—I must become strong. I must be the blade that secures our realm. I can permit no further threat to Nifl's sovereignty.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem Heroes",
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 18,
+        "atk": 6,
+        "spd": 3,
+        "def": 11,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 70,
+        "spd": 30,
+        "def": 55,
+        "res": 50
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 19,
+                "low": 18,
+                "high": 20
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "def": {
+                "base": 12,
+                "low": 11,
+                "high": 13
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 41,
+                "low": 37,
+                "high": 44
+            },
+            "atk": {
+                "base": 37,
+                "low": 34,
+                "high": 41
+            },
+            "spd": {
+                "base": 17,
+                "low": 13,
+                "high": 20
+            },
+            "def": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "res": {
+                "base": 26,
+                "low": 22,
+                "high": 29
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 157
+            }
+        }
+    }
+}

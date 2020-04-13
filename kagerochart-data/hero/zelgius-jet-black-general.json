@@ -1,0 +1,223 @@
+{
+    "_id": "hero:zelgius-jet-black-general",
+    "display": "Zelgius: Jet-Black General",
+    "name": "Zelgius",
+    "color": "Red",
+    "weapon": [
+        {
+            "_id": "weapon:alondite",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-sword",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:black-luna",
+            "unlock": 5
+        },
+        {
+            "_id": "special:luna",
+            "unlock": 4
+        },
+        {
+            "_id": "special:new-moon",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:fierce-stance-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:fierce-stance-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:fierce-stance-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:warp-powder",
+            "unlock": 5
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:panic-ploy-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:panic-ploy-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:panic-ploy-1",
+            "unlock": 1
+        }
+    ],
+    "description": "A general clad head to toe in the blackest of armor, naturally known as the Black Knight. His holy sword, Alondite, has the power to rend the heavens. Appears in Fire Emblem: Radiant Dawn.",
+    "weaponType": "Red Sword",
+    "moveType": "Armored",
+    "origin": "Fire Emblem: Radiant Dawn",
+    "gender": "Male",
+    "voiceActorEN": "Robert Clotworthy",
+    "voiceActorJP": "間島淳司",
+    "releaseDate": "2018-01-12T07:00:00.000Z",
+    "artistEN": "Daisuke Izuka",
+    "voiceActorJPEN": "Majima Junji",
+    "insights": [
+        "Zelgius is the only hero with Warp Powder.",
+        "Zelgius has the highest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Sword heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Jet-Black General",
+    "artist": "Daisuke Izuka",
+    "dialogue": [
+        {
+            "text": "I am Zelgius. As a general, I fought for two different realms. Now, I serve you. We shall see for how long.",
+            "context": "joined"
+        },
+        {
+            "text": "We are in the midst of a war—yet this castle remains at peace. It's enough to make one lose a sense of purpose.",
+            "context": "castle"
+        },
+        {
+            "text": "My own world was also filled with suffering, but we had a guiding light. I vowed my life and honor to that light.",
+            "context": "castle"
+        },
+        {
+            "text": "If a man's convictions are unbending, his mind will break instead. It's the job of a general to repair that damage.",
+            "context": "castle"
+        },
+        {
+            "text": "Training for battle is admirable. I would be pleased to spar with you, should you wish to go one-on-one.",
+            "context": "castle"
+        },
+        {
+            "text": "My name is Zelgius. I once hid my name, but there is no longer need. I have moved on, and so has time.",
+            "context": "castle"
+        },
+        {
+            "text": "I bring wishes for continuing good health from your trusted comrade, <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "A glimmer of good fortune, I suppose.",
+            "context": "level"
+        },
+        {
+            "text": "Good enough.",
+            "context": "level"
+        },
+        {
+            "text": "Pitiful.",
+            "context": "level"
+        },
+        {
+            "text": "If this power means you desire more from me in battle, you shall be satisfied, and soon.",
+            "context": "growth"
+        },
+        {
+            "text": "Here to check on me, are you? I am surprised you'd spare time for someone like me. How generous. I have seen the way you cut to the heart of the matter, and deliver even the cruelest order without hesitation... Your rationality befits the battlefield. But, <Player Name>... You are still young. Do not rush. Results are not everything, and you will find your own answers in time. It is sometimes only possible to realize how precious something is until after you've lost it. You may do what you want with this advice. However, if ever you cannot see the road ahead... I will cleave a path for you with my blade—straight through your enemies. I vow this on my contract with you, and on my holy sword.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 21,
+        "atk": 9,
+        "spd": 6,
+        "def": 9,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 60,
+        "spd": 60,
+        "def": 65,
+        "res": 35
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 22,
+                "low": 21,
+                "high": 23
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 46,
+                "low": 43,
+                "high": 49
+            },
+            "atk": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 38,
+                "low": 35,
+                "high": 41
+            },
+            "res": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 174
+            }
+        }
+    }
+}

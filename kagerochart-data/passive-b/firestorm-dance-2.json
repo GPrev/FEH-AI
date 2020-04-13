@@ -1,0 +1,8 @@
+{
+    "name": "Firestorm Dance 2",
+    "description": "If Sing or Dance is used, grants Atk/Spd+3 to target.",
+    "docType": "passive-b",
+    "idTag": "SID_業火疾風の舞い2",
+    "spCost": 240,
+    "_id": "passive-b:firestorm-dance-2"
+}

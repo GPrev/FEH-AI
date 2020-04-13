@@ -1,0 +1,11 @@
+{
+    "name": "Threaten Def 1",
+    "description": "At start of turn, inflicts Def-3 on foes within 2 spaces through their next actions.",
+    "docType": "passive-c",
+    "idTag": "SID_守備の威嚇1",
+    "nextSkill": {
+        "_id": "passive-c:threaten-def-2"
+    },
+    "spCost": 50,
+    "_id": "passive-c:threaten-def-1"
+}

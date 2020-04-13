@@ -1,0 +1,217 @@
+{
+    "_id": "hero:karla-sword-vassal",
+    "display": "Karla: Sword Vassal",
+    "name": "Karla",
+    "color": "Red",
+    "weapon": [
+        {
+            "_id": "weapon:vassals-blade",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:wo-dao",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:draconic-aura",
+            "unlock": 4
+        },
+        {
+            "_id": "special:dragon-gaze",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Red Sword",
+    "moveType": "Infantry",
+    "passiveB": [
+        {
+            "_id": "passive-b:wrath-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:wrath-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:wrath-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:even-spd-wave-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:even-spd-wave-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:even-spd-wave-1",
+            "unlock": 3
+        }
+    ],
+    "passiveA": [],
+    "insights": [
+        "Karla is the only hero with Vassal's Blade.",
+        "Karla is the only hero with Even Spd Wave 3.",
+        "Karla is the only hero with Even Spd Wave 2.",
+        "Karla is the only hero with Even Spd Wave 1.",
+        "Karla has the highest <abbr title=\"Speed\">SPD</abbr> potential possible in Fire Emblem Heroes.",
+        "Karla has the highest <abbr title=\"Speed\">SPD</abbr> potential possible among Infantry heroes.",
+        "Karla has the highest <abbr title=\"Speed\">SPD</abbr> potential possible among Sword heroes.",
+        "Karla has the highest <abbr title=\"Speed\">SPD</abbr> potential possible among Red heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Sword Vassal",
+    "description": "A traveling swordswoman in search of her brother. Her impressive skills and good looks have enlivened many arenas. Appears in Fire Emblem: The Blazing Blade.",
+    "artist": "Kita Senri (北千里)",
+    "voiceActorEN": "Allegra Clark",
+    "voiceActorJP": "諏訪彩花",
+    "dialogue": [
+        {
+            "text": "I am Karla. This place is very strange... Who might you be?",
+            "context": "joined"
+        },
+        {
+            "text": "Karel... Even if things can never again be how they were... I must keep going.",
+            "context": "castle"
+        },
+        {
+            "text": "Only one can wield the sword of our clan. Aside from my brother, all have fallen... As will I, someday. And yet...here I am.",
+            "context": "castle"
+        },
+        {
+            "text": "Your diligence is worthy of respect. Take care not to overtax yourself, however.",
+            "context": "castle"
+        },
+        {
+            "text": "I have seen much on my journey, but the sights here are rare indeed. Do you have the time to be my guide?",
+            "context": "castle"
+        },
+        {
+            "text": "Saw me training, did you? You might think I have no need to, but the habit is ingrained deep within me.",
+            "context": "castle"
+        },
+        {
+            "text": "I am called Karla, and I have come to deliver greetings. You have a friend in <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "My body feels so light. Is this what it means to wield a sword?",
+            "context": "level"
+        },
+        {
+            "text": "Am I more my brother's match now?",
+            "context": "level"
+        },
+        {
+            "text": "I have fallen short...",
+            "context": "level"
+        },
+        {
+            "text": "What strength... Thank you. I will make use of this.",
+            "context": "growth"
+        },
+        {
+            "text": "My clan lives by the sword. Our lives are spent improving our skills and slaying our foes. Even our kin fall to our blades... After leaving the plains, I came to realize that this is not the only form strength takes. A sword is just a sword. One man showed me how to truly become stronger... My brother has also realized that the way of the sword is not merely killing others. And after spending some time observing you, I have seen a new kind of strength. How can I describe it? It is a strength honed by choosing not to fight. I find it fascinating. Until I can fully understand it... I will stay by your side.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: The Blazing Blade",
+    "releaseDate": "2018-06-08T07:00:00.000Z",
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 6,
+        "spd": 9,
+        "def": 5,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 65,
+        "spd": 70,
+        "def": 40,
+        "res": 35
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 42,
+                "low": 39,
+                "high": 45
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 40,
+                "low": 37,
+                "high": 44
+            },
+            "def": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            },
+            "res": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 162
+            }
+        }
+    }
+}

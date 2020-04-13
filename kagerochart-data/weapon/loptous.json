@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Loptous",
+    "description": "Grants Res+3. Skills with \"effective against dragons\" are effective against unit. If foe has no skills with \"effective against dragons,\" inflicts Atk-6 on foe during combat.",
+    "docType": "weapon",
+    "idTag": "SID_ロプトウス",
+    "spCost": 400,
+    "_id": "weapon:loptous"
+}

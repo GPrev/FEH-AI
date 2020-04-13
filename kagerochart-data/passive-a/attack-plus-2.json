@@ -1,0 +1,11 @@
+{
+    "name": "Attack +2",
+    "description": "Grants Atk+2.",
+    "docType": "passive-a",
+    "idTag": "SID_攻撃2",
+    "nextSkill": {
+        "_id": "passive-a:attack-plus-3"
+    },
+    "spCost": 60,
+    "_id": "passive-a:attack-plus-2"
+}

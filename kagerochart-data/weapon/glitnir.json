@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Glitnir",
+    "description": "Grants Atk+3. If unit initiates combat and foe uses sword, lance, axe, dragonstone, or beast damage, grants Atk+6 during combat, and if unit initiates combat against a foe that can counter, unit makes a guaranteed follow-up attack.",
+    "docType": "weapon",
+    "idTag": "SID_グリトニル",
+    "spCost": 400,
+    "_id": "weapon:glitnir"
+}

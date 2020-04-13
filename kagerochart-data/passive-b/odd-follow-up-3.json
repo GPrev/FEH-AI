@@ -1,0 +1,8 @@
+{
+    "name": "Odd Follow-Up 3",
+    "description": "If it is an odd-numbered turn, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+    "docType": "passive-b",
+    "idTag": "SID_追撃隊形・奇数3",
+    "spCost": 240,
+    "_id": "passive-b:odd-follow-up-3"
+}

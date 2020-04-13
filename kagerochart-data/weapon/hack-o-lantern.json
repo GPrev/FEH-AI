@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 10,
+    "name": "Hack-o'-Lantern",
+    "description": "Inflicts Special cooldown charge -1 on foe per attack during combat. (Only highest value applied. Does not stack.)",
+    "docType": "weapon",
+    "idTag": "SID_カボチャの斧",
+    "nextSkill": {
+        "_id": "weapon:hack-o-lantern-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:hack-o-lantern"
+}

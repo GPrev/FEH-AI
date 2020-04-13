@@ -1,0 +1,325 @@
+{
+    "_id": "hero:corrin-fateful-prince",
+    "display": "Corrin: Fateful Prince",
+    "name": "Corrin",
+    "color": "Red",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:yato",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-sword",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:dragon-fang",
+            "unlock": 4
+        },
+        {
+            "_id": "special:dragon-gaze",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:defense-plus-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:defense-plus-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:defense-plus-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:obstruct-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:obstruct-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:obstruct-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [],
+    "description": "A Hoshidan prince raised in Nohr. Fights on his chosen path with the divine blade Yato. Appears in Fire Emblem Fates.",
+    "weaponType": "Red Sword",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Fates",
+    "gender": "Male",
+    "voiceActorEN": "Cam Clarke",
+    "voiceActorJP": "島﨑信長",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistJP": "まいぽんぽん",
+    "artistEN": "Maiponpon",
+    "voiceActorJPEN": "Nobunaga Shimazaki",
+    "insights": [
+        "Corrin is the only hero with Yato."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Fateful Prince",
+    "artist": "Maiponpon (まいぽんぽん) / INTELLIGENT SYSTEMS",
+    "dialogue": [
+        {
+            "text": "I'm Corrin—raised in Nohr but born in Hoshido. I devote my Yato blade to your cause, and my dragon power!",
+            "context": "joined"
+        },
+        {
+            "text": "What path will this realm follow? It's not my place to make any pivotal decisions. You must help them.",
+            "context": "castle"
+        },
+        {
+            "text": "I once had to make a hard decision: to side with the kingdom of my birth or with the one that raised me.",
+            "context": "castle"
+        },
+        {
+            "text": "It reassures me to see you do patrols. I used to do the same at my castle. Brings back memories!",
+            "context": "castle"
+        },
+        {
+            "text": "I wish I could show you my castle. There's so much to do there. It's even got a tree house—where I sleep!",
+            "context": "castle"
+        },
+        {
+            "text": "I was just thinking about my siblings. I've got quite a few. Do you have any brothers or sisters?",
+            "context": "castle"
+        },
+        {
+            "text": "I've come with greetings from <Friend Name>. Very nice castle you have here!",
+            "context": "friend"
+        },
+        {
+            "text": "I've become so strong thanks to everyone's help.",
+            "context": "level"
+        },
+        {
+            "text": "Good. I'll be able to help more folks now.",
+            "context": "level"
+        },
+        {
+            "text": "It seems I didn't get much stronger...",
+            "context": "level"
+        },
+        {
+            "text": "Let's see what I can do now!",
+            "context": "growth"
+        },
+        {
+            "text": "It's good to see you. We've spent so much time together, I'm uneasy when you're not around. I'd like to just keep you where I can see you, but people would call me overprotective. Heh. I've felt...overprotected my whole life, so it's a strange feeling to want to do it myself. You are obviously essential to the realm's defense, so it's natural to protect you, I suppose. I guess I'm saying we've got your back, so don't worry about what path to choose. Just keep going.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 19,
+        "atk": 7,
+        "spd": 7,
+        "def": 5,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 55,
+        "spd": 55,
+        "def": 50,
+        "res": 45
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 19,
+                "low": 18,
+                "high": 20
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 19,
+                "low": 18,
+                "high": 20
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 20,
+                "low": 19,
+                "high": 21
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 38,
+                "low": 35,
+                "high": 41
+            },
+            "atk": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "spd": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "def": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "res": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 39,
+                "low": 36,
+                "high": 42
+            },
+            "atk": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "spd": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "def": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            },
+            "res": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 42,
+                "low": 38,
+                "high": 45
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "def": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "res": {
+                "base": 24,
+                "low": 21,
+                "high": 28
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 158
+            }
+        }
+    }
+}

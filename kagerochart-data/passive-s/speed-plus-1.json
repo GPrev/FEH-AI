@@ -1,0 +1,12 @@
+{
+    "_id": "passive-s:speed-plus-1",
+    "name": "Speed +1",
+    "sp": 30,
+    "type": "s",
+    "description": "Grants Spd +1.",
+    "icon": "/images/icons/passives/speed-plus-1.png",
+    "docType": "passive-s",
+    "statMod": {
+        "spd": 1
+    }
+}

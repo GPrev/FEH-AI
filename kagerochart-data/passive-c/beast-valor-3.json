@@ -1,0 +1,8 @@
+{
+    "name": "Beast Valor 3",
+    "description": "While unit lives, all beast allies on team get 2x SP. (Only highest value applied. Does not stack.)",
+    "docType": "passive-c",
+    "idTag": "SID_獣の技量3",
+    "spCost": 120,
+    "_id": "passive-c:beast-valor-3"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Brazen Atk/Def 3",
+    "description": "At start of combat, if unit's HP ≤ 80%, grants Atk/Def+7 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_攻撃守備の大覚醒3",
+    "spCost": 240,
+    "_id": "passive-a:brazen-atk-def-3"
+}

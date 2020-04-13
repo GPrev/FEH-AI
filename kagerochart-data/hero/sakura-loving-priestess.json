@@ -1,0 +1,323 @@
+{
+    "_id": "hero:sakura-loving-priestess",
+    "display": "Sakura: Loving Priestess",
+    "name": "Sakura",
+    "color": "Colorless",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:fear-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:fear",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:assault",
+            "unlock": 1
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:still-water-balm",
+            "unlock": 3
+        },
+        {
+            "_id": "special:imbue",
+            "unlock": 2
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:physic-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "assist:physic",
+            "unlock": 4
+        },
+        {
+            "_id": "assist:mend",
+            "unlock": 2
+        },
+        {
+            "_id": "assist:heal",
+            "unlock": 0
+        }
+    ],
+    "docType": "hero",
+    "passiveC": [
+        {
+            "_id": "passive-c:fortify-def-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:fortify-def-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:fortify-def-1",
+            "unlock": 3
+        }
+    ],
+    "passiveA": [],
+    "passiveB": [],
+    "description": "Princess of Hoshido who is a gentle healer. Struggles with her shyness. Appears in Fire Emblem Fates.",
+    "weaponType": "Colorless Staff",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Fates",
+    "gender": "Female",
+    "voiceActorEN": "Brianna Knickerbocker",
+    "voiceActorJP": "金元寿子",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistJP": "藤ちょこ",
+    "artistEN": "Fuzichoco",
+    "voiceActorJPEN": "Kanemoto Hisako",
+    "insights": [],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Loving Priestess",
+    "artist": "Fuzichoco (藤ちょこ)",
+    "dialogue": [
+        {
+            "text": "I'm a princess from the Kingdom of Hoshido. But, please, call me Sakura. I'm delighted to help you!",
+            "context": "joined"
+        },
+        {
+            "text": "Do none of you members of the Order of Heroes use staves to support others in battle? Then I'll double my efforts!",
+            "context": "castle"
+        },
+        {
+            "text": "My retainers are Hana and Subaki, both equally strong and reliable. Th-they're almost too good for me!",
+            "context": "castle"
+        },
+        {
+            "text": "Are you checking on the others? So was I. It's important to make sure that everyone's doing all right.",
+            "context": "castle"
+        },
+        {
+            "text": "I'm pretty fond of sweets. If you see any sweetshops around, please let me know right away!",
+            "context": "castle"
+        },
+        {
+            "text": "Sorry, I was just practicing. I really want to be as useful as all my older siblings are in battle.",
+            "context": "castle"
+        },
+        {
+            "text": "Why, hello! I come with greetings from <Friend Name>!",
+            "context": "friend"
+        },
+        {
+            "text": "Now I can really do my part!",
+            "context": "level"
+        },
+        {
+            "text": "That was nice! Every bit helps.",
+            "context": "level"
+        },
+        {
+            "text": "Oh, my! I'll just need to try harder.",
+            "context": "level"
+        },
+        {
+            "text": "You've made me stronger? Thank you so much!",
+            "context": "growth"
+        },
+        {
+            "text": "Oh! Thank you so very much for checking up on me, <Player Name>. I'm doing well, but may I tell you something? When I first got here, I wasn't sure how to act around you. They call you a Great Hero, so I thought I should respect such a great person by keeping my distance. But then I got to know you. You're so kind and put everyone at ease—most of all, me. It's almost like you've become a part of my family. I mean, here we are now, simply chatting. S-so now...I have s-something to ask you. Would you consider thinking of m-me... as a friend? What? You already do? Why, that's wonderful! I am so glad you summoned me into your life. I promise to help you any way that I can...friend!",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 5,
+        "spd": 7,
+        "def": 4,
+        "res": 7
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 50,
+        "spd": 50,
+        "def": 45,
+        "res": 50
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "atk": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "spd": {
+                "base": 26,
+                "low": 23,
+                "high": 29
+            },
+            "def": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "res": {
+                "base": 26,
+                "low": 23,
+                "high": 29
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "atk": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            },
+            "spd": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 40
+            },
+            "atk": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "spd": {
+                "base": 30,
+                "low": 26,
+                "high": 33
+            },
+            "def": {
+                "base": 24,
+                "low": 21,
+                "high": 28
+            },
+            "res": {
+                "base": 30,
+                "low": 26,
+                "high": 33
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 148
+            }
+        }
+    }
+}

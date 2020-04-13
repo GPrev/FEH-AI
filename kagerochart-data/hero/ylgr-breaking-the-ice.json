@@ -1,0 +1,260 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Ylgr",
+    "epitet": "Breaking the Ice",
+    "display": "Ylgr: Breaking the Ice",
+    "description": "The naive youngest princess of Nifl. Excited to go to a beach for the first time.",
+    "artist": "Tobi",
+    "voiceActorEN": "Megan Lee",
+    "voiceActorJP": "大空直美",
+    "lowestRarity": 4,
+    "dialogue": [
+        {
+            "text": "I'm Ylgr, and I'm from Nifl. Since this is my first time at the beach, I wanna play as much as I can!",
+            "context": "joined"
+        },
+        {
+            "text": "The beach in summer is AMAZING! The sun is so bright! Hey, let's go swimming already! C'mon—hurry up!",
+            "context": "castle"
+        },
+        {
+            "text": "Nifl is cold even in the summer, so if you ever wear a swimsuit, you'll freeze! Here, though, it's no problem!",
+            "context": "castle"
+        },
+        {
+            "text": "What do you think of my swimsuit? Cute, right? My sister Gunnthrá gave it to me! I love it!",
+            "context": "castle"
+        },
+        {
+            "text": "When I grow up, I hope I can be as stylish as Gunnthrá is...",
+            "context": "castle"
+        },
+        {
+            "text": "Askr is such a nice place... But the best part is that I can be together with everyone I love!",
+            "context": "castle"
+        },
+        {
+            "text": "I'm Ylgr from Nifl! I'm here with a summertime greeting from your friend <Friend Name>!",
+            "context": "friend"
+        },
+        {
+            "text": "The beach is so fun! What game should we play next?",
+            "context": "level"
+        },
+        {
+            "text": "I feel like I'm starting to get pretty good at swimming!",
+            "context": "level"
+        },
+        {
+            "text": "Ugh... I'm not feeling too good... Did I get too much sun?",
+            "context": "level"
+        },
+        {
+            "text": "Is this because we're friends? Yay!",
+            "context": "growth"
+        },
+        {
+            "text": "The beach is so fun during summer! The sun is so bright, and all the food is so yummy! It's always so cold in Nifl, I never once thought of wearing a swimsuit! The beaches are mostly ice... Thank you so much for showing me such a good time. I will always remember this with a smile! Next, I want to do something for you, so I'm going to do my best to get real strong—just like you! Wait and see! But even when I'm super strong... I still want to go to the beach with you next summer! OK? Promise?!",
+            "context": "maxed"
+        }
+    ],
+    "color": "Green",
+    "origin": "Fire Emblem Heroes",
+    "weapon": [
+        {
+            "_id": "weapon:shoreline-rake-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:shoreline-rake",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-axe",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-axe",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:luna",
+            "unlock": 4
+        },
+        {
+            "_id": "special:new-moon",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Green Axe",
+    "tomeClass": 0,
+    "moveType": "Infantry",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 8,
+        "spd": 11,
+        "def": 5,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 60,
+        "atk": 60,
+        "spd": 55,
+        "def": 55,
+        "res": 45
+    },
+    "passiveC": [
+        {
+            "_id": "passive-c:even-def-wave-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:even-def-wave-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:even-def-wave-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:flashing-blade-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:flashing-blade-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:flashing-blade-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:ylgr-breaking-the-ice",
+    "minStats": {
+        "4": {
+            "hp": {
+                "base": 15,
+                "low": 14,
+                "high": 16
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 12,
+                "low": 11,
+                "high": 13
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 12,
+                "low": 11,
+                "high": 13
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "4": {
+            "hp": {
+                "base": 39,
+                "low": 36,
+                "high": 42
+            },
+            "atk": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "spd": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "def": {
+                "base": 27,
+                "low": 24,
+                "high": 30
+            },
+            "res": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 42,
+                "low": 39,
+                "high": 45
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "def": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "res": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 168
+            }
+        }
+    }
+}

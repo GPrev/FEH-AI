@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Loyal Wreath",
+    "description": "If unit is adjacent to an ally, grants Atk/Spd/Def/Res+3 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_花輪",
+    "nextSkill": {
+        "_id": "weapon:loyal-wreath-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:loyal-wreath"
+}

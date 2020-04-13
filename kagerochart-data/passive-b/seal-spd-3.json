@@ -1,0 +1,8 @@
+{
+    "name": "Seal Spd 3",
+    "description": "Inflicts Spd-7 on foe through its next action after combat.",
+    "docType": "passive-b",
+    "idTag": "SID_速さ封じ3",
+    "spCost": 160,
+    "_id": "passive-b:seal-spd-3"
+}

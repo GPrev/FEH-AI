@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 4,
+    "name": "Brave Bow",
+    "description": "Effective against flying foes. Inflicts Spd-5. If unit initiates combat, unit attacks twice.",
+    "docType": "weapon",
+    "idTag": "SID_勇者の弓",
+    "nextSkill": {
+        "_id": "weapon:brave-bow-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:brave-bow"
+}

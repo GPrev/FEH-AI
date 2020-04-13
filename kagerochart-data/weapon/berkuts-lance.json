@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 10,
+    "name": "Berkut's Lance",
+    "description": "If foe initiates combat, grants Res+4 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_ベルクトの槍",
+    "nextSkill": {
+        "_id": "weapon:berkuts-lance-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:berkuts-lance"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Bold Fighter 1",
+    "description": "If unit's HP = 100% and unit initiates combat, grants Special cooldown charge +1 per unit's attack, and unit makes a guaranteed follow-up attack. (Does not stack.)",
+    "docType": "passive-b",
+    "idTag": "SID_攻撃隊形1",
+    "nextSkill": {
+        "_id": "passive-b:bold-fighter-2"
+    },
+    "spCost": 60,
+    "_id": "passive-b:bold-fighter-1"
+}

@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 5,
+    "name": "Brave Lance",
+    "description": "Inflicts Spd-5. If unit initiates combat, unit attacks twice.",
+    "docType": "weapon",
+    "idTag": "SID_勇者の槍",
+    "nextSkill": {
+        "_id": "weapon:brave-lance-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:brave-lance"
+}

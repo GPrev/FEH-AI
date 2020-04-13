@@ -1,0 +1,11 @@
+{
+    "name": "Infantry Flash 2",
+    "description": "Infantry allies within 2 spaces gain: \"If unit's Spd ≥ foe's Spd+3, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)\"",
+    "docType": "passive-c",
+    "idTag": "SID_歩行の柔撃2",
+    "nextSkill": {
+        "_id": "passive-c:infantry-flash-3"
+    },
+    "spCost": 120,
+    "_id": "passive-c:infantry-flash-2"
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Rising Light",
+    "description": "Before combat this unit initiates, foes in an area near target take damage equal to (unit's Atk minus foe's Def or Res).",
+    "docType": "special",
+    "idTag": "SID_砕光",
+    "nextSkill": {
+        "_id": "special:blazing-light"
+    },
+    "spCost": 150,
+    "cooldownCount": 4,
+    "_id": "special:rising-light"
+}

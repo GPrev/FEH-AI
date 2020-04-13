@@ -1,0 +1,12 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Hoarfrost Knife",
+    "description": "Accelerates Special trigger (cooldown count-1). If unit initiates combat and foe uses sword, lance, axe, dragonstone, or beast damage, grants Def+20 during combat, and if foe can counter, unit makes a guaranteed follow-up attack. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
+    "docType": "weapon",
+    "idTag": "SID_霧氷のナイフ",
+    "spCost": 400,
+    "cooldownCount": -1,
+    "_id": "weapon:hoarfrost-knife"
+}

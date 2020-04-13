@@ -1,0 +1,321 @@
+{
+    "_id": "hero:julius-scion-of-darkness",
+    "display": "Julius: Scion of Darkness",
+    "name": "Julius",
+    "color": "Red",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:loptous",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:fenrir",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:ruin",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:flux",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:draconic-aura",
+            "unlock": 4
+        },
+        {
+            "_id": "special:dragon-gaze",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Red Tome",
+    "moveType": "Infantry",
+    "passiveB": [
+        {
+            "_id": "passive-b:guard-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:guard-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:guard-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:atk-ploy-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:atk-ploy-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:atk-ploy-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [],
+    "insights": [
+        "Julius is the only hero with Loptous.",
+        "Julius has the lowest <abbr title=\"Defense\">DEF</abbr> potential possible among Red heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Scion of Darkness",
+    "description": "Prince of the Grannvale Empire. Was once a kind boy but suddenly came to have a cruel nature. Appears in Fire Emblem: Genealogy of the Holy War.",
+    "artist": "sachie (茶ちえ)",
+    "voiceActorEN": "Griffin Burns",
+    "voiceActorJP": "櫻井孝宏",
+    "dialogue": [
+        {
+            "text": "I am Julius, Prince of Grannvale. What a lively place you have here! Good. I do so hate to be bored.",
+            "context": "joined"
+        },
+        {
+            "text": "Damn that Julia... Don't look at me like that! It's infuriating. Leave!",
+            "context": "castle"
+        },
+        {
+            "text": "How dare I hunt children? You misunderstand. I was simply educating my subjects... The gifted ones, at any rate.",
+            "context": "castle"
+        },
+        {
+            "text": "Snooping around again, are you? Searching for a traitor in our midst, perhaps? Heh heh. Merely a joke, I assure you.",
+            "context": "castle"
+        },
+        {
+            "text": "Have some free time? Let's see... That flower bed is just crawling with bugs. Let's crush them all.",
+            "context": "castle"
+        },
+        {
+            "text": "You know, if I get bored...I could tear this castle stone from stone. Let's hope you keep me entertained.",
+            "context": "castle"
+        },
+        {
+            "text": "My name is Julius. I was forced to visit this tedious hovel by <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Hahaha! Think of the merriment I'll make!",
+            "context": "level"
+        },
+        {
+            "text": "Good enough, I suppose.",
+            "context": "level"
+        },
+        {
+            "text": "Dull.",
+            "context": "level"
+        },
+        {
+            "text": "It seems you do understand how to use power. I will gladly make use of this.",
+            "context": "growth"
+        },
+        {
+            "text": "Why, hello, <Player Name>! Back from the slaughter? Let's talk about who you plan to crush next. Tell me, what will you destroy? You don't enjoy fighting, you say? Don't play coy with me. You must enjoy it. Down to the very, very depths of your soul, I think... People live by taking from others—by defeating them, do they not? Those who don't fight aren't fit to live. Human kindness? There you go again, spouting nonsense. Surely you don't really mean it! You may say whatever you like now, but you'll be forced to acknowledge the truth sooner or later. And when you find out what lies beyond all of the fighting... I'll be waiting for you, a smile on my face.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Genealogy of the Holy War",
+    "tomeClass": 5,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 8,
+        "spd": 7,
+        "def": 2,
+        "res": 8
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 45,
+        "def": 30,
+        "res": 60
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 15,
+                "low": 14,
+                "high": 16
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 2,
+                "low": 1,
+                "high": 3
+            },
+            "res": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 15,
+                "low": 14,
+                "high": 16
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 2,
+                "low": 1,
+                "high": 3
+            },
+            "res": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "atk": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "spd": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "def": {
+                "base": 13,
+                "low": 10,
+                "high": 16
+            },
+            "res": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "atk": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "spd": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            },
+            "def": {
+                "base": 14,
+                "low": 11,
+                "high": 17
+            },
+            "res": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 38,
+                "low": 34,
+                "high": 41
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 27,
+                "low": 24,
+                "high": 31
+            },
+            "def": {
+                "base": 16,
+                "low": 12,
+                "high": 19
+            },
+            "res": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 151
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 14,
+    "name": "Hawk King Claw",
+    "description": "Grants Atk+3. If foe's HP = 100% and if unit initiates combat, unit makes a guaranteed follow-up attack. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, unit can move 1 extra space. (That turn only. Does not stack.) If unit transforms, grants Atk+2.",
+    "docType": "weapon",
+    "idTag": "SID_鷹王の嘴爪",
+    "spCost": 400,
+    "_id": "weapon:hawk-king-claw"
+}

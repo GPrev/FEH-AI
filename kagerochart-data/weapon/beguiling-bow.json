@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Beguiling Bow",
+    "description": "Effective against flying foes. At start of combat, if foe’s HP = 100%, grants Atk/Spd/Def/Res+2 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_春の妖弓",
+    "nextSkill": {
+        "_id": "weapon:beguiling-bow-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:beguiling-bow"
+}

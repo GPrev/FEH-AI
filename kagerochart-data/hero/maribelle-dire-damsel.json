@@ -1,0 +1,228 @@
+{
+    "_id": "hero:maribelle-dire-damsel",
+    "display": "Maribelle: Dire Damsel",
+    "name": "Maribelle",
+    "color": "Colorless",
+    "weapon": [
+        {
+            "_id": "weapon:trilemma-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:trilemma",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:assault",
+            "unlock": 1
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:miracle",
+            "unlock": 3
+        },
+        {
+            "_id": "special:imbue",
+            "unlock": 2
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:martyr-plus",
+            "unlock": 0
+        },
+        {
+            "_id": "assist:martyr",
+            "unlock": 3
+        },
+        {
+            "_id": "assist:reconcile",
+            "unlock": 2
+        },
+        {
+            "_id": "assist:heal",
+            "unlock": 0
+        }
+    ],
+    "docType": "hero",
+    "weaponType": "Colorless Staff",
+    "moveType": "Cavalry",
+    "passiveB": [
+        {
+            "_id": "passive-b:dazzling-staff-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:dazzling-staff-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:dazzling-staff-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:staff-valor-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:staff-valor-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:staff-valor-1",
+            "unlock": 3
+        }
+    ],
+    "passiveA": [],
+    "insights": [
+        "Maribelle is the only hero with Trilemma+.",
+        "Maribelle is the only hero with Trilemma.",
+        "Maribelle is the only hero with Staff Valor 3.",
+        "Maribelle is the only hero with Staff Valor 2.",
+        "Maribelle is the only hero with Staff Valor 1.",
+        "Maribelle has the lowest <abbr title=\"Defense\">DEF</abbr> potential possible among Cavalry heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Dire Damsel",
+    "description": "A proud noble from one of Ylisse's most well-to-do houses. A Shepherd and Lissa's best friend. Appears in Fire Emblem Awakening.",
+    "artist": "Kousei Horiguchi (恒星ホリグチ)",
+    "voiceActorEN": "Melissa Fahn",
+    "voiceActorJP": "五十嵐裕美",
+    "dialogue": [
+        {
+            "text": "I am Maribelle, of the Shepherds. I will lend you my aid if you so desire.",
+            "context": "joined"
+        },
+        {
+            "text": "Sharena is quite good humored, don't you agree? Perhaps I'll invite her and Lissa both for tea...",
+            "context": "castle"
+        },
+        {
+            "text": "I'm with a group known as the Shepherds. A noblewoman such as myself must help preserve the peace.",
+            "context": "castle"
+        },
+        {
+            "text": "You always seem so busy. Please, leave the patrols to me. I shall deliver a sound thrashing to any unsavory individuals I should happen across.",
+            "context": "castle"
+        },
+        {
+            "text": "Awright then, pet? Everythin' luvverly jubberly, ain't it? Why are you giving me that ghastly look? I was merely practicing slang used by commoners in my homeland.",
+            "context": "castle"
+        },
+        {
+            "text": "Of course studying is expected of a noblewoman, but I do it so I can fulfill my dream of becoming a magistrate.",
+            "context": "castle"
+        },
+        {
+            "text": "Stand up straight! I've come all this way with a gift from your friend <Friend Name>. The very least you could do is look presentable when you accept it.",
+            "context": "friend"
+        },
+        {
+            "text": "One step closer and I'll be forced to maim you.",
+            "context": "level"
+        },
+        {
+            "text": "Results such as these are rather easy for me to come by.",
+            "context": "level"
+        },
+        {
+            "text": "This is completely unacceptable.",
+            "context": "level"
+        },
+        {
+            "text": "I'll perform even more brilliantly from now on.",
+            "context": "growth"
+        },
+        {
+            "text": "Goodness me, that slack posture of yours simply will not do. Aren't you some sort of great hero in this world? Then you should carry yourself accordingly. You must straighten your neck like so, and puff out your chest with pride. No, no, that is ALL wrong! Imagine yourself bound tightly to a rod that keeps you stiff from head to toe. Well! I see you can do it if you truly apply yourself. I suppose you have a decent base to work from... Even just a tiny improvement can make a world of difference. As a noblewoman, I do not care to follow anyone who lacks the proper decorum. You, however... Even as you are now, I would follow you to the end. Now, let us have a small break and partake of some tea, shall we? I use only the highest quality herbs. And since you did so well with your posture, I won't even scold you for your dreadful tea-drinking manners!",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Awakening",
+    "releaseDate": "2018-07-20T07:00:00.000Z",
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 8,
+        "spd": 8,
+        "def": 2,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 40,
+        "atk": 60,
+        "spd": 55,
+        "def": 30,
+        "res": 50
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 16,
+                "low": 12,
+                "high": 19
+            },
+            "res": {
+                "base": 27,
+                "low": 23,
+                "high": 30
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 145
+            }
+        }
+    }
+}

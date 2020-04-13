@@ -1,0 +1,210 @@
+{
+    "_id": "hero:hardin-dark-emperor",
+    "display": "Hardin: Dark Emperor",
+    "name": "Hardin",
+    "color": "Blue",
+    "weapon": [
+        {
+            "_id": "weapon:gradivus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-lance",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:vengeance",
+            "unlock": 4
+        },
+        {
+            "_id": "special:retribution",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Blue Lance",
+    "moveType": "Armored",
+    "passiveA": [
+        {
+            "_id": "passive-a:brazen-def-res-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:brazen-def-res-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:brazen-def-res-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:bold-fighter-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:bold-fighter-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:bold-fighter-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [],
+    "insights": [
+        "Hardin has the highest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Lance heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Dark Emperor",
+    "description": "Emperor of the Holy Empire of Archanea. Known as the Dark Emperor due to his bloody reign. Appears in Fire Emblem: Mystery of the Emblem.",
+    "artist": "Daisuke Izuka",
+    "voiceActorEN": "Richard Epcar",
+    "voiceActorJP": "中谷一博",
+    "dialogue": [
+        {
+            "text": "My name is Hardin, Emperor of the Holy Empire of Archanea. If you do not wish to be scarred by my fury, you will give me your name in return.",
+            "context": "joined"
+        },
+        {
+            "text": "It seems human greed and warmongering are traits that persist across many worlds. Fascinating... Let me see just what the power of your many Heroes can achieve.",
+            "context": "castle"
+        },
+        {
+            "text": "Parading this prince of light as some devoted patriot knight... Nothing but a grand deception. It will not feed the citizens. If a country is weak, its future holds only decay and inevitable collapse.",
+            "context": "castle"
+        },
+        {
+            "text": "Uncommon though your strength may be, it is no match for the Darksphere I hold. Do not forget your place.",
+            "context": "castle"
+        },
+        {
+            "text": "It is my duty to elevate individuals who demonstrate greatness. If you do so, I will gladly welcome you into the Archanean Imperial Army.",
+            "context": "castle"
+        },
+        {
+            "text": "I feel as if I've freshly awoken from a nightmare... Yet I long for battle still. The spirit of the Coyote lives on.",
+            "context": "castle"
+        },
+        {
+            "text": "You're gathering Heroes from across many countries? Surely you don't intend on defying my army with them.",
+            "context": "friend"
+        },
+        {
+            "text": "The strong are rightfully rewarded!",
+            "context": "level"
+        },
+        {
+            "text": "Some enemies remain. Ready the army for our next strike!",
+            "context": "level"
+        },
+        {
+            "text": "It seems the shine of my weapon has been dimmed...",
+            "context": "level"
+        },
+        {
+            "text": "Preparations are complete. Now, eradicate the enemy!",
+            "context": "growth"
+        },
+        {
+            "text": "There are countless kings and even more nobles in the world, but most lack the power to back up their status. Most of them simply rot in the mud of their privilege. These fools invite war to their doorsteps and then send their own citizens off to die. What point is there for such a country to exist? Perhaps it would be best for such places to be destroyed outright. This very world included... However, through the fog of war I saw a light. Archanea's true treasure... I swore on my sword to protect her. It was that purpose which showed me that the country—the world—needed to be cleansed. I needed to exile the fools and kill all who opposed me. Even if that meant cutting down someone entrusted with the Fire Emblem itself. Pardon me, what... What was I saying just now? Right... I must annihilate the rebels. Ready the army!",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Mystery of the Emblem",
+    "releaseDate": "2018-02-21T07:00:00.000Z",
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 22,
+        "atk": 7,
+        "spd": 5,
+        "def": 9,
+        "res": 7
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 50,
+        "def": 60,
+        "res": 55
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 23,
+                "low": 22,
+                "high": 24
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "res": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 45,
+                "low": 41,
+                "high": 48
+            },
+            "atk": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "spd": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "def": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "res": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 175
+            }
+        }
+    }
+}

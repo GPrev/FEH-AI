@@ -1,0 +1,11 @@
+{
+    "name": "Odd Follow-Up 2",
+    "description": "If it is an odd-numbered turn and unit's HP ≥ 50%, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+    "docType": "passive-b",
+    "idTag": "SID_追撃隊形・奇数2",
+    "nextSkill": {
+        "_id": "passive-b:odd-follow-up-3"
+    },
+    "spCost": 120,
+    "_id": "passive-b:odd-follow-up-2"
+}

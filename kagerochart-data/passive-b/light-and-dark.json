@@ -1,0 +1,9 @@
+{
+    "exclusive": true,
+    "name": "Light and Dark",
+    "description": "Inflicts Atk/Spd/Def/Res-2 on foe, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.), and disables foe's skills that \"calculate damage using the lower of foe's Def or Res\" during combat.",
+    "docType": "passive-b",
+    "idTag": "SID_光と闇と",
+    "spCost": 300,
+    "_id": "passive-b:light-and-dark"
+}

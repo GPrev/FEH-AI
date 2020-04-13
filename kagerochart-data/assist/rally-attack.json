@@ -1,0 +1,8 @@
+{
+    "name": "Rally Attack",
+    "description": "Grants Atk+4 to target ally for 1 turn.",
+    "docType": "assist",
+    "idTag": "SID_攻撃の応援",
+    "spCost": 150,
+    "_id": "assist:rally-attack"
+}

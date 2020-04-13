@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 6,
+    "name": "Gravity",
+    "description": "After combat, if unit attacked, inflicts status on foe restricting movement to 1 space through its next action.",
+    "docType": "weapon",
+    "idTag": "SID_グラビティ",
+    "nextSkill": {
+        "_id": "weapon:gravity-plus"
+    },
+    "spCost": 150,
+    "_id": "weapon:gravity"
+}

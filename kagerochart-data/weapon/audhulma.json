@@ -1,0 +1,12 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Audhulma",
+    "description": "Accelerates Special trigger (cooldown count-1). Grants Res+5.",
+    "docType": "weapon",
+    "idTag": "SID_氷剣アウドムラ",
+    "spCost": 400,
+    "cooldownCount": -1,
+    "_id": "weapon:audhulma"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Savage Blow 1",
+    "description": "If unit initiates combat, deals 3 damage to foes within 2 spaces of target after combat.",
+    "docType": "passive-c",
+    "idTag": "SID_死の吐息1",
+    "nextSkill": {
+        "_id": "passive-c:savage-blow-2"
+    },
+    "spCost": 50,
+    "_id": "passive-c:savage-blow-1"
+}

@@ -1,0 +1,326 @@
+{
+    "_id": "hero:klein-silver-nobleman",
+    "display": "Klein: Silver Nobleman",
+    "name": "Klein",
+    "color": "Colorless",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:argent-bow",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:brave-bow-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:brave-bow",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-bow",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-bow",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:glacies",
+            "unlock": 4
+        },
+        {
+            "_id": "special:chilling-wind",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:death-blow-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:death-blow-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:death-blow-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:quick-riposte-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:quick-riposte-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:quick-riposte-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [],
+    "description": "A young general of Etruria. Clarine's brother. Treats all as equals. Appears in Fire Emblem: The Binding Blade.",
+    "weaponType": "Colorless Bow",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: The Binding Blade",
+    "gender": "Male",
+    "voiceActorEN": "Edward Bosco",
+    "voiceActorJP": "太田悠介",
+    "releaseDate": "2017-03-02T07:00:00.000Z",
+    "artistEN": "Tobi",
+    "voiceActorJPEN": "Oota Yuusuke",
+    "insights": [],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Silver Nobleman",
+    "artist": "Tobi",
+    "dialogue": [
+        {
+            "text": "I am Klein, son of Count Reglay of Etruria. I'll be happy to accompany you!",
+            "context": "joined"
+        },
+        {
+            "text": "Some call me the Archer General, but I feel I can serve a kingdom better as an administrator than a general.",
+            "context": "castle"
+        },
+        {
+            "text": "I see myself clearly, I think. I don't have my parents' battle acumen. So I make myself useful in other ways.",
+            "context": "castle"
+        },
+        {
+            "text": "I'm also glad to handle some tasks for you at the castle. Your burden is heavy. I'm glad to bear some of it.",
+            "context": "castle"
+        },
+        {
+            "text": "I have a younger sister named Clarine. She's nice, once you get to know her. Clarine does live a bit too much in her own world though. Still, she's very sweet in her own way.",
+            "context": "castle"
+        },
+        {
+            "text": "I learned all of the etiquette needed at court in my own world. I hope that some of it applies here.",
+            "context": "castle"
+        },
+        {
+            "text": "Well, greetings. I've come to say hello on behalf of your friend <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "What a surprise! This is unusual for me.",
+            "context": "level"
+        },
+        {
+            "text": "It seems I'm growing at a respectable pace.",
+            "context": "level"
+        },
+        {
+            "text": "Hmm. A reminder of my shortcomings.",
+            "context": "level"
+        },
+        {
+            "text": "Thank you. I'll do my best to live up to your expectations.",
+            "context": "growth"
+        },
+        {
+            "text": "Thanks to my noble birth, I've had the fortune to meet many different people during my life. I feel it's made me a good judge of character. For example, those who talk the talk rarely walk the walk. And they often run away. Then there are those who hardly say a word and never boast, yet are quick to help others. Such a person saved me when I was a child. That's how I know that I can trust you fully. And I devote my skills to your cause and will continue to do so. It's an honor to serve you.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 8,
+        "spd": 6,
+        "def": 4,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 50,
+        "spd": 60,
+        "def": 35,
+        "res": 45
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "atk": {
+                "base": 27,
+                "low": 24,
+                "high": 30
+            },
+            "spd": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "def": {
+                "base": 17,
+                "low": 14,
+                "high": 20
+            },
+            "res": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "atk": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "spd": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "def": {
+                "base": 18,
+                "low": 15,
+                "high": 21
+            },
+            "res": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 40,
+                "low": 36,
+                "high": 43
+            },
+            "atk": {
+                "base": 31,
+                "low": 27,
+                "high": 34
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "res": {
+                "base": 24,
+                "low": 21,
+                "high": 28
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 148
+            }
+        }
+    }
+}

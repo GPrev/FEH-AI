@@ -1,0 +1,11 @@
+{
+    "name": "R Tome Valor 1",
+    "description": "While unit lives and uses a red tome, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
+    "docType": "passive-c",
+    "idTag": "SID_赤魔の技量1",
+    "nextSkill": {
+        "_id": "passive-c:r-tome-valor-2"
+    },
+    "spCost": 30,
+    "_id": "passive-c:r-tome-valor-1"
+}

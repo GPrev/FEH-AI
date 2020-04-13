@@ -1,0 +1,8 @@
+{
+    "name": "Infantry Pulse 3",
+    "description": "At the start of turn 1, grants Special cooldown count-1 to all infantry allies on team with HP < unit’s HP. (Stacks with similar skills.)",
+    "docType": "passive-c",
+    "idTag": "SID_歩行の鼓動3",
+    "spCost": 240,
+    "_id": "passive-c:infantry-pulse-3"
+}

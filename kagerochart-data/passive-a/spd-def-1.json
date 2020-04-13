@@ -1,0 +1,11 @@
+{
+    "name": "Spd/Def 1",
+    "description": "Grants Spd/Def+1.",
+    "docType": "passive-a",
+    "idTag": "SID_速さ守備1",
+    "nextSkill": {
+        "_id": "passive-a:spd-def-2"
+    },
+    "spCost": 80,
+    "_id": "passive-a:spd-def-1"
+}

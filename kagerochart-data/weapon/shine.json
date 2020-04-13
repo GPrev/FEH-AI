@@ -1,0 +1,12 @@
+{
+    "range": 2,
+    "might": 9,
+    "name": "Shine",
+    "docType": "weapon",
+    "idTag": "SID_シャイン",
+    "nextSkill": {
+        "_id": "weapon:shine-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:shine"
+}

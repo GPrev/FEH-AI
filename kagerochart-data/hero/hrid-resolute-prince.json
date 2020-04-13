@@ -1,0 +1,218 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Hríd",
+    "epitet": "Resolute Prince",
+    "display": "Hríd: Resolute Prince",
+    "description": "The eldest prince of Nifl, Kingdom of Ice. With a steady, calm demeanor, he's always prepared for danger, even when on a simple trip to a shrine.",
+    "artist": "argon / Exys Inc.",
+    "voiceActorEN": "Mark P. Whitten",
+    "voiceActorJP": "松岡禎丞",
+    "dialogue": [
+        {
+            "text": "My name is Hríd. As the new year rises, let us celebrate the sunset of the last.",
+            "context": "joined"
+        },
+        {
+            "text": "In a way, this outfit is sobering. I feel motivated to confront the new year with purpose.",
+            "context": "castle"
+        },
+        {
+            "text": "It's much warmer here than in Nifl. Here, I suspect we won't be snowed in during the new year.",
+            "context": "castle"
+        },
+        {
+            "text": "If I can protect just one person from a sad fate this year, well...that's my New Year's wish come true.",
+            "context": "castle"
+        },
+        {
+            "text": "I've just eaten some sort of soft and white delicacy for the first time. It was called...mochi?",
+            "context": "castle"
+        },
+        {
+            "text": "It's exhilarating to dash through the icy New Year's air. It may be chilly, but it warms the heart.",
+            "context": "castle"
+        },
+        {
+            "text": "I have New Year's tidings for you from <Friend Name>. I wish you good health this year.",
+            "context": "friend"
+        },
+        {
+            "text": "That was better than I expected! Perhaps this is a year for change.",
+            "context": "level"
+        },
+        {
+            "text": "Not bad... My luck seems to be improving.",
+            "context": "level"
+        },
+        {
+            "text": "To not be ready to face the challenges of the new year... I must gird myself.",
+            "context": "level"
+        },
+        {
+            "text": "The year is still young, yet I've already found myself in your debt.",
+            "context": "growth"
+        },
+        {
+            "text": "Nifl's winters are long and arduous. They fiercely test the will and the strength of our people. Despite knowing this, we stay, and every year we brace ourselves until winter gives way to spring. For us, the new year is the halfway mark between winter and spring. It signals our coming salvation. I'd like to assist you in reaching your own spring this year, <Player Name>. This year, I will be at your side with my sword to repay the debt I owe you.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Red",
+    "origin": "Fire Emblem Heroes",
+    "weapon": [
+        {
+            "_id": "weapon:geishun-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:geishun",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:swap",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Red Sword",
+    "tomeClass": 0,
+    "moveType": "Flying",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 9,
+        "spd": 3,
+        "def": 9,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 65,
+        "spd": 35,
+        "def": 60,
+        "res": 50
+    },
+    "passiveB": [
+        {
+            "_id": "passive-b:quick-riposte-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:quick-riposte-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:quick-riposte-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:hone-atk-4",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:hone-atk-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:hone-atk-2",
+            "unlock": 3
+        },
+        {
+            "_id": "passive-c:hone-atk-1",
+            "unlock": 2
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:atk-def-bond-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:atk-def-bond-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:atk-def-bond-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:hrid-resolute-prince",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "def": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 42,
+                "low": 39,
+                "high": 45
+            },
+            "atk": {
+                "base": 38,
+                "low": 35,
+                "high": 41
+            },
+            "spd": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "def": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "res": {
+                "base": 27,
+                "low": 23,
+                "high": 30
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 162
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "exclusive": true,
+    "name": "Crusader's Ward",
+    "description": "If unit receives consecutive attacks and foe's Range = 2, reduces damage from foe's second attack onward by 80%. (Skill cannot be inherited.)",
+    "docType": "passive-b",
+    "idTag": "SID_聖騎士の加護",
+    "spCost": 300,
+    "_id": "passive-b:crusaders-ward"
+}

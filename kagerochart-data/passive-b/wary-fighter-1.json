@@ -1,0 +1,11 @@
+{
+    "name": "Wary Fighter 1",
+    "description": "If unit's HP ≥ 90%, unit and foe cannot make a follow-up attack.",
+    "docType": "passive-b",
+    "idTag": "SID_守備隊形1",
+    "nextSkill": {
+        "_id": "passive-b:wary-fighter-2"
+    },
+    "spCost": 60,
+    "_id": "passive-b:wary-fighter-1"
+}

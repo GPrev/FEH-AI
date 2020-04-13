@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Huginn's Egg",
+    "description": "Grants Res+3. At start of turn, if unit's HP ≥ 50%, inflicts Atk/Def-5 on foe on the enemy team with the lowest Res through its next action.",
+    "docType": "weapon",
+    "idTag": "SID_フギンの魔卵",
+    "spCost": 400,
+    "_id": "weapon:huginns-egg"
+}

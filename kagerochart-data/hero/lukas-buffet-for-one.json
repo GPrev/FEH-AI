@@ -1,0 +1,200 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Lukas",
+    "epitet": "Buffet for One",
+    "display": "Lukas: Buffet for One",
+    "description": "A young noble with the Deliverance. Spends his free time in quiet solitude when he can. Appears in Fire Emblem Echoes: Shadows of Valentia.",
+    "artist": "cuboon",
+    "voiceActorEN": "Greg Chun",
+    "voiceActorJP": "櫻井孝宏",
+    "dialogue": [
+        {
+            "text": "Whoa... I've arrived at an unexpected place, haven't I? My name is Lukas. Let's have a good time today.",
+            "context": "joined"
+        },
+        {
+            "text": "I haven't been on a picnic in a while, so I'm a little uneasy... Did we forget anything?",
+            "context": "castle"
+        },
+        {
+            "text": "I never had time to do anything like this before I got here... No question about it.",
+            "context": "castle"
+        },
+        {
+            "text": "You may not be surprised to hear that I've never really cooked before... I can roast wild game on a spit. It's my campfire specialty. Shall we try that?",
+            "context": "castle"
+        },
+        {
+            "text": "Let's go on a boat ride in the lake. I'll row—I'm used to it.",
+            "context": "castle"
+        },
+        {
+            "text": "I brought a book, and perhaps it's the scenery, but I'm finding that it's resonating rather strongly with me.",
+            "context": "castle"
+        },
+        {
+            "text": "The weather's beautiful, isn't it? I'm here to invite you to a picnic with <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "I'm in uncharacteristically high spirits. Is it the weather, I wonder?",
+            "context": "level"
+        },
+        {
+            "text": "Even in the midst of all this hubbub, one must remain centered.",
+            "context": "level"
+        },
+        {
+            "text": "Having too much fun can pose a problem...",
+            "context": "level"
+        },
+        {
+            "text": "Where shall we head to next? Wherever you go, I'll stay by your side.",
+            "context": "growth"
+        },
+        {
+            "text": "I must thank you for that meal. You're quite a cook, aren't you? It was truly delicious. When I was first summoned here, I found this place rather puzzling. It was a relief to find I liked the food. A soldier is useless on an empty stomach, after all. I'm grateful that we can share a delicious meal together under a beautiful blue sky. Let's do this again sometime. I find that anything is enjoyable as long as I'm with you.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Blue",
+    "origin": "Fire Emblem Echoes: Shadows of Valentia",
+    "weapon": [
+        {
+            "_id": "weapon:luncheon-lance-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:luncheon-lance",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:pivot",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Blue Lance",
+    "tomeClass": 0,
+    "moveType": "Armored",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 24,
+        "atk": 8,
+        "spd": 5,
+        "def": 11,
+        "res": 2
+    },
+    "growthRates": {
+        "hp": 60,
+        "atk": 65,
+        "spd": 35,
+        "def": 70,
+        "res": 45
+    },
+    "passiveB": [
+        {
+            "_id": "passive-b:wary-fighter-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:wary-fighter-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:wary-fighter-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:ar-o-atk-def-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:ar-o-atk-def-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:ar-o-atk-def-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:lukas-buffet-for-one",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 25,
+                "low": 24,
+                "high": 26
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 12,
+                "low": 11,
+                "high": 13
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 51,
+                "low": 48,
+                "high": 54
+            },
+            "atk": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "spd": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "def": {
+                "base": 42,
+                "low": 39,
+                "high": 46
+            },
+            "res": {
+                "base": 22,
+                "low": 19,
+                "high": 26
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 173
+            }
+        }
+    }
+}

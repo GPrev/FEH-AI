@@ -1,0 +1,11 @@
+{
+    "name": "Pass 1",
+    "description": "If unit’s HP ≥ 75%, unit can move through foes’ spaces.",
+    "docType": "passive-b",
+    "idTag": "SID_すり抜け1",
+    "nextSkill": {
+        "_id": "passive-b:pass-2"
+    },
+    "spCost": 50,
+    "_id": "passive-b:pass-1"
+}

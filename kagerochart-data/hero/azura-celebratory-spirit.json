@@ -1,0 +1,215 @@
+{
+    "_id": "hero:azura-celebratory-spirit",
+    "display": "Azura: Celebratory Spirit",
+    "name": "Azura",
+    "color": "Green",
+    "weapon": [
+        {
+            "_id": "weapon:hagoita-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:hagoita",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-axe",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-axe",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:sing",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveB": [
+        {
+            "_id": "passive-b:earth-dance-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:earth-dance-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:earth-dance-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:hone-fliers",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:hone-spd-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:hone-spd-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [],
+    "description": "An enchanting princess raised in Hoshido who has never lost a match of the traditional sport hanetsuki when played at the New Year. Appears in Fire Emblem Fates.",
+    "weaponType": "Green Axe",
+    "moveType": "Flying",
+    "origin": "Fire Emblem: Fates",
+    "gender": "Female",
+    "voiceActorEN": "Rena Strober",
+    "voiceActorJP": "Lynn",
+    "releaseDate": "2017-12-31T00:00:00.000Z",
+    "artistEN": "kaya8",
+    "voiceActorJPEN": "Lynn",
+    "insights": [
+        "Azura is the only hero with Hagoita+.",
+        "Azura is the only hero with Hagoita.",
+        "Azura is the only hero with Earth Dance 3.",
+        "Azura is the only hero with Earth Dance 2.",
+        "Azura is the only hero with Earth Dance 1.",
+        "Azura has the lowest <abbr title=\"Health Points\">HP</abbr> potential possible among Axe heroes.",
+        "Azura has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Axe heroes."
+    ],
+    "refresher": true,
+    "dragonflowers": 5,
+    "epitet": "Celebratory Spirit",
+    "artist": "kaya8",
+    "dialogue": [
+        {
+            "text": "Happy New Year! I'm Azura. I was heading out for my first shrine visit of the new year, but... Somehow I wound up here, instead.",
+            "context": "joined"
+        },
+        {
+            "text": "Oh, this? It's a hagoita. In Hoshido, we use these to play a game called hanetsuki. I've never lost a match.",
+            "context": "castle"
+        },
+        {
+            "text": "Every year, the first trip I make is to a shrine. So imagine my surprise when I instead found myself in some ruins! I guess this year my first trip is to visit a powerful summoner instead.",
+            "context": "castle"
+        },
+        {
+            "text": "Doesn't all of the bustle around the new year make you hungry? It isn't much, but I did bring some osechi. That's what we call the foods we eat at the start of a new year. They can be quite a feast sometimes!",
+            "context": "castle"
+        },
+        {
+            "text": "Who was the first Hero you summoned this year? They were the first to answer your call, so... Well, you should hold that memory especially dear.",
+            "context": "castle"
+        },
+        {
+            "text": "Just...like...this! Adjusting the obi on a kimono seems complicated, but it's simple once you get the hang of it. If you ever want to try wearing one, I'd be happy to teach you the proper way to put it on.",
+            "context": "castle"
+        },
+        {
+            "text": "Happy New Year. I bear the greetings of <Friend Name>. May your friendship blossom in this new year!",
+            "context": "friend"
+        },
+        {
+            "text": "An auspicious start to the year. How delightful.",
+            "context": "level"
+        },
+        {
+            "text": "I hope I can grow strong like this each and every year.",
+            "context": "level"
+        },
+        {
+            "text": "An ill omen... As though I pulled a bad fortune from a shrine.",
+            "context": "level"
+        },
+        {
+            "text": "Is this your New Year's gift to me? Thank you.",
+            "context": "growth"
+        },
+        {
+            "text": "I just love New Year's. The crisp air at the break of dawn truly makes it feel like a new start. Hmm, I know... Let's celebrate with a song, shall we? What kind of music do you enjoy? I like songs that remind me of people from my past. To be honest, those songs can make me feel lonely... But when I sing them, I feel like my thoughts and feelings can reach someone no matter the distance. Though, maybe it's best to ring in the new year with a happier song. I don't want to sing for people who are far away. I'd rather sing for you, right here in front of me. I'm so happy to have met you. I'll sing to show you my gratitude, so I hope I can stay by your side all year.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 14,
+        "atk": 5,
+        "spd": 8,
+        "def": 4,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 55,
+        "spd": 60,
+        "def": 40,
+        "res": 50
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 15,
+                "low": 14,
+                "high": 16
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 37,
+                "low": 33,
+                "high": 40
+            },
+            "atk": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 26,
+                "low": 22,
+                "high": 29
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 150
+            }
+        }
+    }
+}

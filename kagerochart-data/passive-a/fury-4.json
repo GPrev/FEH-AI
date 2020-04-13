@@ -1,0 +1,8 @@
+{
+    "name": "Fury 4",
+    "description": "Grants Atk/Spd/Def/Res+4. After combat, deals 8 damage to unit.",
+    "docType": "passive-a",
+    "idTag": "SID_獅子奮迅4",
+    "spCost": 300,
+    "_id": "passive-a:fury-4"
+}

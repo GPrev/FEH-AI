@@ -1,0 +1,11 @@
+{
+    "name": "Shield Pulse 1",
+    "description": "At the start of turn 1, if foe's attack triggers Special, grants Special cooldown count-1.",
+    "docType": "passive-b",
+    "idTag": "SID_盾の鼓動1",
+    "nextSkill": {
+        "_id": "passive-b:shield-pulse-2"
+    },
+    "spCost": 60,
+    "_id": "passive-b:shield-pulse-1"
+}

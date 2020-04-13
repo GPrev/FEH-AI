@@ -1,0 +1,11 @@
+{
+    "name": "Sturdy Blow 1",
+    "description": "If unit initiates combat, grants Atk/Def+2 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_鬼神金剛の一撃1",
+    "nextSkill": {
+        "_id": "passive-a:sturdy-blow-2"
+    },
+    "spCost": 120,
+    "_id": "passive-a:sturdy-blow-1"
+}

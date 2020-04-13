@@ -1,0 +1,200 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Sigrun",
+    "epitet": "Steadfast Bride",
+    "display": "Sigrun: Steadfast Bride",
+    "description": "Commander of Begnion's Holy Guard. Serves and supports Empress Sanaki. She heard that Sanaki had participated previously, so she came to see the festival for herself. Appears in Fire Emblem: Path of Radiance.",
+    "artist": "pikomaro",
+    "voiceActorEN": "Megan Lee",
+    "voiceActorJP": "荒川美穂",
+    "dialogue": [
+        {
+            "text": "I am Sigrun, commander of the Holy Guard of Begnion. I had to rush to put this wedding attire on in time.",
+            "context": "joined"
+        },
+        {
+            "text": "It feels a little tight up top... Are we sure the measurements are correct?",
+            "context": "castle"
+        },
+        {
+            "text": "A loving heart is the same whether beorc or laguz.",
+            "context": "castle"
+        },
+        {
+            "text": "If being a bride means thinking about the one you love and hoping for their happiness, then...perhaps I'm a bride.",
+            "context": "castle"
+        },
+        {
+            "text": "I will grow strong so I can protect the person I love... You know the feeling, don't you, <Player Name>?",
+            "context": "castle"
+        },
+        {
+            "text": "If I stood beside Empress Sanaki with her dressed as a bride... I think we would make a brilliant pair!",
+            "context": "castle"
+        },
+        {
+            "text": "My name is Sigrun. I'm here to deliver an invitation to the festival—directly from <Friend Name>!",
+            "context": "friend"
+        },
+        {
+            "text": "I can abide no loveless act directed at the empress.",
+            "context": "level"
+        },
+        {
+            "text": "Love has a force all its own!",
+            "context": "level"
+        },
+        {
+            "text": "I need to get used to these clothes... No time to waste!",
+            "context": "level"
+        },
+        {
+            "text": "You have my thanks. Your support will not go to waste.",
+            "context": "growth"
+        },
+        {
+            "text": "If you ask me, spending time with the one you love is the definition of joy. That joy doesn't come freely—it's something you have to protect and nurture with your own two hands... It's a vow you must make to protect what is precious to you...which is something even I can understand. I will continue my fight—and I hope you do too, <Player Name>. Protect and support those close to you...and stride toward your future, together.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Red",
+    "origin": "Fire Emblem: Path of Radiance",
+    "weapon": [
+        {
+            "_id": "weapon:cake-cutter-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:cake-cutter",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:ardent-sacrifice",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Red Sword",
+    "tomeClass": 0,
+    "moveType": "Flying",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 6,
+        "spd": 11,
+        "def": 4,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 55,
+        "spd": 60,
+        "def": 50,
+        "res": 55
+    },
+    "passiveA": [
+        {
+            "_id": "passive-a:ar-d-spd-def-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:ar-d-spd-def-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:ar-d-spd-def-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:air-orders-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:air-orders-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:air-orders-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:sigrun-steadfast-bride",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 12,
+                "low": 11,
+                "high": 13
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 39
+            },
+            "atk": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "spd": {
+                "base": 38,
+                "low": 35,
+                "high": 41
+            },
+            "def": {
+                "base": 27,
+                "low": 23,
+                "high": 30
+            },
+            "res": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 162
+            }
+        }
+    }
+}

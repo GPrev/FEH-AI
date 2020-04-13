@@ -1,0 +1,12 @@
+{
+    "range": 2,
+    "might": 4,
+    "name": "Fire",
+    "docType": "weapon",
+    "idTag": "SID_ファイアー",
+    "nextSkill": {
+        "_id": "weapon:elfire"
+    },
+    "spCost": 50,
+    "_id": "weapon:fire"
+}

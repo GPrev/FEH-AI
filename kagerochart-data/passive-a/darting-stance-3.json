@@ -1,0 +1,8 @@
+{
+    "name": "Darting Stance 3",
+    "description": "If foe initiates combat, grants Spd+6 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_飛燕の構え3",
+    "spCost": 200,
+    "_id": "passive-a:darting-stance-3"
+}

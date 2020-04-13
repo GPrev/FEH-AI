@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Chaos Manifest",
+    "description": "Grants Res+3. If a penalty inflicted by a skill like Panic or Threaten and/or a negative status effect (preventing counterattacks or restricting movement) is active on foe, grants Atk+6 during combat and unit makes a guaranteed follow-up attack.",
+    "docType": "weapon",
+    "idTag": "SID_負の力",
+    "spCost": 400,
+    "_id": "weapon:chaos-manifest"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Windsweep 1",
+    "description": "If unit initiates combat, unit cannot make a follow-up attack. If unit’s Spd ≥ foe’s Spd+5 and foe uses sword, lance, axe, bow, dagger, or beast damage, foe cannot counterattack.",
+    "docType": "passive-b",
+    "idTag": "SID_風薙ぎ1",
+    "nextSkill": {
+        "_id": "passive-b:windsweep-2"
+    },
+    "spCost": 60,
+    "_id": "passive-b:windsweep-1"
+}

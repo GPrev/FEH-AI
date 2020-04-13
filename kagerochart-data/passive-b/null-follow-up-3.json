@@ -1,0 +1,8 @@
+{
+    "name": "Null Follow-Up 3",
+    "description": "Neutralizes effects that guarantee foe's follow-up attacks and effects that prevent unit's follow-up attacks during combat.",
+    "docType": "passive-b",
+    "idTag": "SID_見切り・追撃効果3",
+    "spCost": 240,
+    "_id": "passive-b:null-follow-up-3"
+}

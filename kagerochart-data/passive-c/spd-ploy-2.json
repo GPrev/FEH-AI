@@ -1,0 +1,11 @@
+{
+    "name": "Spd Ploy 2",
+    "description": "At start of turn, inflicts Spd-4 on foes in cardinal directions with Res < unit’s Res through their next actions.",
+    "docType": "passive-c",
+    "idTag": "SID_速さの謀策2",
+    "nextSkill": {
+        "_id": "passive-c:spd-ploy-3"
+    },
+    "spCost": 120,
+    "_id": "passive-c:spd-ploy-2"
+}

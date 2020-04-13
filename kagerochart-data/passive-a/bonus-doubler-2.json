@@ -1,0 +1,11 @@
+{
+    "name": "Bonus Doubler 2",
+    "description": "Grants bonus to Atk/Spd/Def/Res during combat = 75% of current bonus on each of unit's stats. Calculates each stat bonus independently.",
+    "docType": "passive-a",
+    "idTag": "SID_強化増幅2",
+    "nextSkill": {
+        "_id": "passive-a:bonus-doubler-3"
+    },
+    "spCost": 120,
+    "_id": "passive-a:bonus-doubler-2"
+}

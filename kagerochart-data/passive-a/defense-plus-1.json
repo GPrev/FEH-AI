@@ -1,0 +1,11 @@
+{
+    "name": "Defense +1",
+    "description": "Grants Def+1.",
+    "docType": "passive-a",
+    "idTag": "SID_守備1",
+    "nextSkill": {
+        "_id": "passive-a:defense-plus-2"
+    },
+    "spCost": 30,
+    "_id": "passive-a:defense-plus-1"
+}

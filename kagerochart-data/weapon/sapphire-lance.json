@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 8,
+    "name": "Sapphire Lance",
+    "description": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.",
+    "docType": "weapon",
+    "idTag": "SID_蒼海の槍",
+    "nextSkill": {
+        "_id": "weapon:sapphire-lance-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:sapphire-lance"
+}

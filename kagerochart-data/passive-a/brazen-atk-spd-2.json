@@ -1,0 +1,11 @@
+{
+    "name": "Brazen Atk/Spd 2",
+    "description": "At start of combat, if unit's HP ≤ 80%, grants Atk/Spd+5 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_攻撃速さの大覚醒2",
+    "nextSkill": {
+        "_id": "passive-a:brazen-atk-spd-3"
+    },
+    "spCost": 120,
+    "_id": "passive-a:brazen-atk-spd-2"
+}

@@ -1,0 +1,13 @@
+{
+    "_id": "passive-s:heavy-blade-2",
+    "name": "Heavy Blade 2",
+    "sp": 120,
+    "type": "s",
+    "description": "If unit's Atk - foe's Atk ≥ 3, unit gains Special cooldown charge +1 per attack.\r\n(If using other similar skill, only highest value applied.)",
+    "icon": "/images/icons/passives/heavy-blade-2.png",
+    "docType": "passive-s",
+    "specAccel": {
+        "stat": "atk",
+        "adv": 3
+    }
+}

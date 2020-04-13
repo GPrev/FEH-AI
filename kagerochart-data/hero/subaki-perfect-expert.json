@@ -1,0 +1,322 @@
+{
+    "_id": "hero:subaki-perfect-expert",
+    "display": "Subaki: Perfect Expert",
+    "name": "Subaki",
+    "color": "Blue",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:sapphire-lance-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:sapphire-lance",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:swap",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:resistance-plus-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:resistance-plus-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:resistance-plus-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:quick-riposte-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:quick-riposte-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:quick-riposte-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [],
+    "description": "Sky Knight of Hoshido who aims for perfection. One of Sakura's retainers. Appears in Fire Emblem Fates.",
+    "weaponType": "Blue Lance",
+    "moveType": "Flying",
+    "origin": "Fire Emblem: Fates",
+    "gender": "Male",
+    "voiceActorEN": "Walden James",
+    "voiceActorJP": "茂木たかまさ",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistJP": "由良",
+    "artistEN": "Yura",
+    "voiceActorJPEN": "Mogi Takamasa",
+    "insights": [
+        "Subaki has the lowest <abbr title=\"Attack\">ATK</abbr> potential possible among Flying heroes.",
+        "Subaki has the lowest <abbr title=\"Attack\">ATK</abbr> potential possible among Lance heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Perfect Expert",
+    "artist": "Yura (由良)",
+    "dialogue": [
+        {
+            "text": "I am Subaki, a Sky Knight from the Kingdom of Hoshido. I'm perfectly delighted to answer your call.",
+            "context": "joined"
+        },
+        {
+            "text": "I can't believe that I came out of your weapon. This realm is so different than my home, the Kingdom of Hoshido!",
+            "context": "castle"
+        },
+        {
+            "text": "I serve Lady Sakura, whose grace is peerless. She is patient even in the face of my worst imperfections.",
+            "context": "castle"
+        },
+        {
+            "text": "Your patrols in this large place must be very exacting. I'd be glad to do my part anytime you need rest.",
+            "context": "castle"
+        },
+        {
+            "text": "You'll find that I try to perform perfectly in battle. And I vow to try even harder for your sake.",
+            "context": "castle"
+        },
+        {
+            "text": "You may detect a floral scent from me. Sorry if it troubles your nose. It's a hair tonic made from camellia blooms.",
+            "context": "castle"
+        },
+        {
+            "text": "Hello there. I'm positive that you must be <Player Name>. Yes? Good. I bring you brightest greetings from your fine friend <Friend Name>!",
+            "context": "friend"
+        },
+        {
+            "text": "I'm really coming along, right?",
+            "context": "level"
+        },
+        {
+            "text": "This will do just fine for now.",
+            "context": "level"
+        },
+        {
+            "text": "Perhaps I should practice more.",
+            "context": "level"
+        },
+        {
+            "text": "Thank you for helping me get a little closer to perfection.",
+            "context": "growth"
+        },
+        {
+            "text": "You and I have been in battle plenty of times now. Haven't we, <Player Name>? I'm sure you've seen me make little mistakes now and then. It's only natural. But it still bothers me, especially here where I rank among the Heroes called upon in this world. I feel like I must be even more perfect here than back home. And you, Great Hero! You must be under an even greater pressure to be the best...of the best! What? You say sometimes your tactics aren't up to snuff? Aha! How wonderful. You and I have been hiding our little failures. Well, your secret is safe with me. We will help each other achieve total perfection. Until then, you can count on me—absolutely!",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 5,
+        "spd": 8,
+        "def": 8,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 45,
+        "spd": 60,
+        "def": 60,
+        "res": 40
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "atk": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "spd": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "def": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "res": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "atk": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "res": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 40,
+                "low": 36,
+                "high": 43
+            },
+            "atk": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "res": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 157
+            }
+        }
+    }
+}

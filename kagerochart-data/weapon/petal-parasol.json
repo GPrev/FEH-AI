@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 10,
+    "name": "Petal Parasol",
+    "description": "If【Penalty】is active on foe, grants Atk/Spd+5 during combat.  【Penalty】 All effects that last \"on foe through its next action.\" Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).",
+    "docType": "weapon",
+    "idTag": "SID_日傘",
+    "nextSkill": {
+        "_id": "weapon:petal-parasol-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:petal-parasol"
+}

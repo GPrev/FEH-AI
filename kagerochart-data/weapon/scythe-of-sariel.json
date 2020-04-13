@@ -1,0 +1,12 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Scythe of Sariel",
+    "description": "Accelerates Special trigger (cooldown count-1). If a bonus granted by a skill like Rally or Hone and/or extra movement granted by a skill like Armor March or Armored Boots is active on foe, grants Atk/Spd/Def/Res+4 to unit during combat and foe cannot make a follow-up attack.",
+    "docType": "weapon",
+    "idTag": "SID_サリエルの大鎌",
+    "spCost": 400,
+    "cooldownCount": -1,
+    "_id": "weapon:scythe-of-sariel"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "G Tomebreaker 3",
+    "description": "If unit's HP ≥ 50% in combat against a green tome foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+    "docType": "passive-b",
+    "idTag": "SID_緑魔殺し3",
+    "spCost": 200,
+    "_id": "passive-b:g-tomebreaker-3"
+}

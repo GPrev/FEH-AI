@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 7,
+    "name": "Assassin's Bow",
+    "description": "Effective against flying foes. In combat against a colorless dagger foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+    "docType": "weapon",
+    "idTag": "SID_暗器殺しの弓",
+    "nextSkill": {
+        "_id": "weapon:assassins-bow-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:assassins-bow"
+}

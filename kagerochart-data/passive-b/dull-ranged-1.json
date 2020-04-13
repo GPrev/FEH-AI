@@ -1,0 +1,11 @@
+{
+    "name": "Dull Ranged 1",
+    "description": "At start of combat, if unit's HP = 100% and foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+    "docType": "passive-b",
+    "idTag": "SID_強化無効・遠距離1",
+    "nextSkill": {
+        "_id": "passive-b:dull-ranged-2"
+    },
+    "spCost": 60,
+    "_id": "passive-b:dull-ranged-1"
+}

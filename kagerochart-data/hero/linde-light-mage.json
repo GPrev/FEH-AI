@@ -1,0 +1,213 @@
+{
+    "_id": "hero:linde-light-mage",
+    "display": "Linde: Light Mage",
+    "name": "Linde",
+    "color": "Blue",
+    "weapon": [
+        {
+            "_id": "weapon:aura",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:thoron",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elthunder",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:thunder",
+            "unlock": 0
+        },
+        {
+            "_id": "weapon:thunder"
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:ardent-sacrifice",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:speed-plus-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:speed-plus-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:speed-plus-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:fortify-res-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:fortify-res-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:fortify-res-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [],
+    "description": "Daughter of Pontifex Miloah from Archanea. Inherited the light tome Aura. Wants to avenge her father's death. Appears in Fire Emblem: Mystery of the Emblem.",
+    "weaponType": "Blue Tome",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Mystery of the Emblem",
+    "gender": "Female",
+    "voiceActorEN": "Julie Ann Taylor",
+    "voiceActorJP": "瀬戸麻沙美",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistJP": "切符",
+    "artistEN": "Kippu",
+    "voiceActorJPEN": "Seto Asami",
+    "insights": [
+        "Linde is the only hero with Aura."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Light Mage",
+    "artist": "Kippu (切符)",
+    "dialogue": [
+        {
+            "text": "I am Linde, daughter to Pontifex Miloah. I...also don't like having everyone look at me.",
+            "context": "joined"
+        },
+        {
+            "text": "I will avenge my father by destroying Gharnef with my inheritance, the great tome Aura!",
+            "context": "castle"
+        },
+        {
+            "text": "I was once captured by some ruffians. It was terrifying, but Prince Marth saved me.",
+            "context": "castle"
+        },
+        {
+            "text": "I wanted to thank you. I know that you've been looking out for all of us.",
+            "context": "castle"
+        },
+        {
+            "text": "Thank you for the kind words about my outfit, but please don't make a fuss.",
+            "context": "castle"
+        },
+        {
+            "text": "This robe is precious to me. It was a gift from my late father.",
+            "context": "castle"
+        },
+        {
+            "text": "I think that you must be <Player Name>, yes? I've been sent to say hello by <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Today is turning out pretty nicely!",
+            "context": "level"
+        },
+        {
+            "text": "I'm starting to come into my true power.",
+            "context": "level"
+        },
+        {
+            "text": "I can't bear the thought of my father seeing me like this.",
+            "context": "level"
+        },
+        {
+            "text": "It is not enough that I inherited Aura—I must be worthy of it.",
+            "context": "growth"
+        },
+        {
+            "text": "Excuse me—not to embarrass you or anything—but I wanted to thank you. Much has happened since we first met, but I've made a lot of happy memories with you and the others. Back where I came from, I had just lost my father, and I was...so... Sorry. I'm OK now. But I wanted you to know how grateful I am for this new life. Thank you for your concern and your kindness. You are an inspiration to everyone.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 2,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 8,
+        "spd": 9,
+        "def": 3,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 60,
+        "spd": 60,
+        "def": 25,
+        "res": 50
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 39
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "def": {
+                "base": 14,
+                "low": 11,
+                "high": 18
+            },
+            "res": {
+                "base": 27,
+                "low": 23,
+                "high": 30
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 147
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "range": 2,
+    "might": 10,
+    "name": "Rauðrowl+",
+    "description": "During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies × 2.",
+    "docType": "weapon",
+    "idTag": "SID_ラウアアウル＋",
+    "spCost": 300,
+    "_id": "weapon:raurowl-plus",
+    "refines": [
+        {
+            "might": 11,
+            "stats": {
+                "hp": 2,
+                "atk": 1,
+                "spd": 2
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 12,
+            "stats": {
+                "hp": 2,
+                "atk": 2
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 11,
+            "stats": {
+                "hp": 2,
+                "atk": 1,
+                "def": 3
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 11,
+            "stats": {
+                "hp": 2,
+                "atk": 1,
+                "res": 3
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        }
+    ]
+}

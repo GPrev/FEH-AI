@@ -1,0 +1,334 @@
+{
+    "_id": "hero:kagero-honorable-ninja",
+    "display": "Kagero: Honorable Ninja",
+    "name": "Kagero",
+    "color": "Colorless",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:kageros-dart",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:poison-dagger-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:poison-dagger",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-dagger",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-dagger",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:reprisal",
+            "unlock": 4
+        },
+        {
+            "_id": "special:retribution",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:warding-blow-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:warding-blow-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:warding-blow-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:daggerbreaker-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:daggerbreaker-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:daggerbreaker-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [],
+    "description": "A ninja of Hoshido who is ready to lay down her life for her liege. One of Ryoma's retainers. Appears in Fire Emblem Fates.",
+    "weaponType": "Colorless Dagger",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Fates",
+    "gender": "Female",
+    "voiceActorEN": "Sarah Blandy",
+    "voiceActorJP": "村川梨衣",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistEN": "lack",
+    "voiceActorJPEN": "Murakawa Rie",
+    "insights": [
+        "Kagero is the only hero with Poison Dagger+.",
+        "Kagero is the only hero with Poison Dagger.",
+        "Kagero is the only hero with Daggerbreaker 3.",
+        "Kagero is the only hero with Daggerbreaker 2.",
+        "Kagero is the only hero with Daggerbreaker 1.",
+        "Kagero has the lowest <abbr title=\"Health Points\">HP</abbr> potential possible among Infantry heroes.",
+        "Kagero has the lowest <abbr title=\"Health Points\">HP</abbr> potential possible among Dagger heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Honorable Ninja",
+    "artist": "lack",
+    "dialogue": [
+        {
+            "text": "I am Kagero, a ninja from Hoshido. You have a mission for me? Then I will serve you from the shadows.",
+            "context": "joined"
+        },
+        {
+            "text": "The royals of this realm seem to employ no retainers. I find that... interesting. Both Hoshido and Nohr use them to safeguard royals. Are they that able to defend themselves here?",
+            "context": "castle"
+        },
+        {
+            "text": "My liege is Lord Ryoma, a noble leader, strong in spirit and body. It is my honor to serve him.",
+            "context": "castle"
+        },
+        {
+            "text": "You are so dutiful. I would be glad to prepare a tea ceremony for you. You'll find it relaxing. I prefer to use green tea, though mine tends to be bitter. It goes with sweet treats nicely, however.",
+            "context": "castle"
+        },
+        {
+            "text": "You're also new here. You'll want to remember everything from these days when all seems unusual. I find that keeping a diary helps one preserve memories—especially if you draw pictures too.",
+            "context": "castle"
+        },
+        {
+            "text": "I draw pictures of the local scenery in my diary. I'm afraid that they look a bit hellish. It's...just how I draw.",
+            "context": "castle"
+        },
+        {
+            "text": "I've come on a mission from <Friend Name>. Basically, it's to say hello. That done, I'll be on my way.",
+            "context": "friend"
+        },
+        {
+            "text": "A ninja shows no emotion. Not even joy.",
+            "context": "level"
+        },
+        {
+            "text": "Good enough.",
+            "context": "level"
+        },
+        {
+            "text": "Less than I'd like...",
+            "context": "level"
+        },
+        {
+            "text": "I'll make greater gains with this power. I thank you.",
+            "context": "growth"
+        },
+        {
+            "text": "I've been doing flower arrangements from whatever I can find in this world. Here's my latest creation. What do you think of it? Ah. It looks like something from a hellscape? Well, I appreciate your honesty. Curious to think how I'd have never been able to work with these flowers had I not come to this world. In a way, you have played a large part in the creation of this flower arrangement. I can thank you for many things, and most of all, that every one of us remains safe. So I vow to keep you safe, no matter what dread events come to pass, <Player Name>.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 8,
+        "spd": 7,
+        "def": 4,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 35,
+        "atk": 60,
+        "spd": 55,
+        "def": 40,
+        "res": 50
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 15,
+                "low": 14,
+                "high": 16
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 15,
+                "low": 14,
+                "high": 16
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "atk": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "spd": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "def": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "res": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "atk": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "spd": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "def": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "res": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 148
+            }
+        }
+    }
+}

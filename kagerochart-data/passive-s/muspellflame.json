@@ -1,0 +1,8 @@
+{
+    "name": "Múspellflame",
+    "description": "Reduces damage dealt to unit to 0.",
+    "docType": "passive-s",
+    "idTag": "SID_ムスペルの炎",
+    "spCost": 0,
+    "_id": "passive-s:muspellflame"
+}

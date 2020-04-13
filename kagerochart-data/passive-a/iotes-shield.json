@@ -1,0 +1,8 @@
+{
+    "name": "Iote's Shield",
+    "description": "Neutralizes \"effective against flying\" bonuses.",
+    "docType": "passive-a",
+    "idTag": "SID_アイオテの盾",
+    "spCost": 200,
+    "_id": "passive-a:iotes-shield"
+}

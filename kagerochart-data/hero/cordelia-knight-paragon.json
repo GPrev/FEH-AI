@@ -1,0 +1,327 @@
+{
+    "_id": "hero:cordelia-knight-paragon",
+    "display": "Cordelia: Knight Paragon",
+    "name": "Cordelia",
+    "color": "Blue",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:brave-lance-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:brave-lance",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:galeforce",
+            "unlock": 5
+        },
+        {
+            "_id": "special:astra",
+            "unlock": 4
+        },
+        {
+            "_id": "special:night-sky",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:triangle-adept-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:triangle-adept-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:triangle-adept-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:pass-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:pass-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:pass-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [],
+    "description": "The sole survivor of Ylisse's pegasus knights. Humble and supremely talented. Appears in Fire Emblem Awakening.",
+    "weaponType": "Blue Lance",
+    "moveType": "Flying",
+    "origin": "Fire Emblem: Awakening",
+    "gender": "Female",
+    "voiceActorEN": "Julie Ann Taylor",
+    "voiceActorJP": "岡田栄美",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistJP": "上田夢人",
+    "artistEN": "Ueda Yumehito",
+    "voiceActorJPEN": "Okada Eimi",
+    "insights": [],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Knight Paragon",
+    "artist": "Ueda Yumehito (上田夢人)",
+    "dialogue": [
+        {
+            "text": "I'm Cordelia of the Ylissean army under milord Chrom. I will do my best to meet your expectations.",
+            "context": "joined"
+        },
+        {
+            "text": "Your team reminds me of my old unit. I hope I do them proud... wherever they are now.",
+            "context": "castle"
+        },
+        {
+            "text": "I was once one of the Ylissean pegasus knights. The others all died...but their spirits live on in me.",
+            "context": "castle"
+        },
+        {
+            "text": "Your diligence is admirable, but don't overexert yourself. You're our only summoner, you know.",
+            "context": "castle"
+        },
+        {
+            "text": "Can I watch you summon sometime? I'd like to learn more about how I came to be here.",
+            "context": "castle"
+        },
+        {
+            "text": "I was just inspecting the armory. Next I shall look over the mess tent, the stables, and the latrines.",
+            "context": "castle"
+        },
+        {
+            "text": "Ah, I'm glad I found you! I've come to bid you greetings from your friend <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Hard work is its own reward.",
+            "context": "level"
+        },
+        {
+            "text": "This was to be expected.",
+            "context": "level"
+        },
+        {
+            "text": "I'm sorry. You can expect better from me next time.",
+            "context": "level"
+        },
+        {
+            "text": "Thank you for the trust you've put in me. I vow to be worthy.",
+            "context": "growth"
+        },
+        {
+            "text": "Let's see...to summon Heroes, first I'd have to pose, then fire a shot like so... Yes, I have the moves down perfec— Ahhh! Were you watching me? Why didn't you say something sooner, <Player Name>?! Hm? Because I let my guard down? You're very rude to spy on me like that! But I must admit...it's nice that you can see me this way and not just as everyone's \"natural talent.\" I won't let my guard down on the battlefield, though. You are precious to me, and I swear to protect you.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 8,
+        "spd": 8,
+        "def": 4,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 60,
+        "def": 40,
+        "res": 45
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "atk": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "spd": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "def": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "res": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "atk": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "res": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 40,
+                "low": 36,
+                "high": 43
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 157
+            }
+        }
+    }
+}

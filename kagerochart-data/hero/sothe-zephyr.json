@@ -1,0 +1,328 @@
+{
+    "_id": "hero:sothe-zephyr",
+    "display": "Sothe: Zephyr",
+    "name": "Sothe",
+    "color": "Colorless",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:peshkatz",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-dagger",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-dagger",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-dagger",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:glimmer",
+            "unlock": 4
+        },
+        {
+            "_id": "special:night-sky",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:life-and-death-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:life-and-death-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:life-and-death-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:spur-atk-spd-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:spur-atk-spd-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:spur-atk-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [],
+    "description": "A thief for the Dawn Brigade. He generally shows little interest in others but tends to be overprotective of his Micaiah, who's like a sister to him. Appears in Fire Emblem: Radiant Dawn.",
+    "weaponType": "Colorless Dagger",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Radiant Dawn",
+    "gender": "Male",
+    "voiceActorEN": "Nicolas Roye",
+    "voiceActorJP": "間島淳司",
+    "releaseDate": "2018-01-12T07:00:00.000Z",
+    "artistJP": "久杉トク",
+    "artistEN": "Kusugi Toku",
+    "voiceActorJPEN": "Majima Junji",
+    "insights": [
+        "Sothe is the only hero with Peshkatz.",
+        "Sothe is the only hero with Spur Atk Spd 2.",
+        "Sothe is the only hero with Spur Atk Spd 1.",
+        "Sothe has the highest <abbr title=\"Attack\">ATK</abbr> potential possible among Colorless heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Zephyr",
+    "artist": "Kusugi Toku (久杉トク)",
+    "dialogue": [
+        {
+            "text": "I'm Sothe. I may not have any special powers, but I'll do my best. We need to protect those who matter to us.",
+            "context": "joined"
+        },
+        {
+            "text": "When I heard I was in another world, well... I prepared for the worst. Truth is, it doesn't seem so different. About the only thing I miss is the cooking. Ours is better.",
+            "context": "castle"
+        },
+        {
+            "text": "No matter where I end up, no matter who I'm with...it won't change who I am or what I have to do. It doesn't change what matters to me, either.",
+            "context": "castle"
+        },
+        {
+            "text": "One look at you and I can see that you're exhausted. If our tactician is about to keel over... What does that do for morale? Go and splash your face with some cold water. That should do the trick.",
+            "context": "castle"
+        },
+        {
+            "text": "I don't care who you are. If you do anything to hurt Micaiah, you'll answer to me. Got it?",
+            "context": "castle"
+        },
+        {
+            "text": "I was just sharpening my knives. You've got to be ready for anything, and you can only rely on yourself.",
+            "context": "castle"
+        },
+        {
+            "text": "Don't ask me why they picked me, out of everybody, but I have a message from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "There we go. I'll be able to keep up the pace.",
+            "context": "level"
+        },
+        {
+            "text": "That's about what I expected. I'll keep working hard.",
+            "context": "level"
+        },
+        {
+            "text": "That's it? I need to get stronger!",
+            "context": "level"
+        },
+        {
+            "text": "What's this? Guess I learned something. Hope it's useful.",
+            "context": "growth"
+        },
+        {
+            "text": "Micaiah and I don't really look alike? Well, of course we don't. We're not related by blood. When I was a kid, Micaiah took me by the hand. All she wanted was for me to not have to cry anymore... She held me tight. That's when we became a family. Our bond is thicker than blood. No matter what, we support one another. We trust each other completely. When I see you fight alongside Alfonse and the others, never asking for any kind of reward... Well, if I squint, it's almost like looking at Micaiah. I can't say I really trust you just yet. Not like I trust her. That said, I've come to believe in you. Why? Because you fight for the people. I can trust in that.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 9,
+        "spd": 8,
+        "def": 4,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 55,
+        "def": 40,
+        "res": 40
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "def": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "res": {
+                "base": 18,
+                "low": 15,
+                "high": 21
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "atk": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "spd": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "def": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "res": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 39,
+                "low": 35,
+                "high": 42
+            },
+            "atk": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 151
+            }
+        }
+    }
+}

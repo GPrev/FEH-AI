@@ -1,0 +1,11 @@
+{
+    "name": "Desperation 1",
+    "description": "If unit’s HP ≤ 25% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+    "docType": "passive-b",
+    "idTag": "SID_攻め立て1",
+    "nextSkill": {
+        "_id": "passive-b:desperation-2"
+    },
+    "spCost": 50,
+    "_id": "passive-b:desperation-1"
+}

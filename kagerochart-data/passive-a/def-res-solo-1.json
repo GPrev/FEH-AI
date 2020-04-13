@@ -1,0 +1,11 @@
+{
+    "name": "Def/Res Solo 1",
+    "description": "If unit is not adjacent to an ally, grants Def/Res+2 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_守備魔防の孤軍1",
+    "nextSkill": {
+        "_id": "passive-a:def-res-solo-2"
+    },
+    "spCost": 60,
+    "_id": "passive-a:def-res-solo-1"
+}

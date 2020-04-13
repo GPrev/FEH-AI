@@ -1,0 +1,229 @@
+{
+    "_id": "hero:kliff-curious-spirit",
+    "display": "Kliff: Curious Spirit",
+    "name": "Kliff",
+    "color": "Blue",
+    "weapon": [
+        {
+            "_id": "weapon:sagittae",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:shine",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:ellight",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:light",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:growing-light",
+            "unlock": 4
+        },
+        {
+            "_id": "special:rising-light",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Blue Tome",
+    "moveType": "Infantry",
+    "passiveA": [
+        {
+            "_id": "passive-a:fort-def-res-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:fort-def-res-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:fort-def-res-1",
+            "unlock": 3
+        },
+        {
+            "_id": "passive-a:fortress-def-1",
+            "unlock": 2
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:chill-spd-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:chill-spd-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:chill-spd-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:fortify-res-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:fortify-res-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:fortify-res-1",
+            "unlock": 1
+        }
+    ],
+    "insights": [
+        "Kliff is the only hero with Sagittae.",
+        "Kliff is the only hero with Fort. Def Res 3.",
+        "Kliff is the only hero with Fort. Def Res 2.",
+        "Kliff is the only hero with Fort. Def Res 1."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Curious Spirit",
+    "description": "Alm's childhood friend from Ram Village. Loves learning and hungers to see more of the world. Appears in Fire Emblem Echoes: Shadows of Valentia.",
+    "artist": "Tobi",
+    "voiceActorEN": "Christopher Patton",
+    "voiceActorJP": "斎賀みつき",
+    "dialogue": [
+        {
+            "text": "My name is Kliff. Hmm... This place looks like it could be a lot of fun. Don't let me get bored.",
+            "context": "joined"
+        },
+        {
+            "text": "The chance to meet with so many Heroes from a variety of cultures... I actually find it kind of interesting.",
+            "context": "castle"
+        },
+        {
+            "text": "Life in the village was getting boring, so when Alm asked me to join the Deliverance, I took the plunge.",
+            "context": "castle"
+        },
+        {
+            "text": "Being a summoner sounds like it's pretty interesting. Mind if we switch jobs for a day? Yes, I'm kidding.",
+            "context": "castle"
+        },
+        {
+            "text": "I've spent so much time in the library here. I'm getting bored. Why don't you show me around? I bet they let you go anywhere.",
+            "context": "castle"
+        },
+        {
+            "text": "I'm taking notes on this place, but when I get back to my world... nobody is going to believe me.",
+            "context": "castle"
+        },
+        {
+            "text": "I was asked to carry this greeting by <Friend Name>. Can I go now?",
+            "context": "friend"
+        },
+        {
+            "text": "Impressive! I didn't know I had this kind of potential.",
+            "context": "level"
+        },
+        {
+            "text": "This is nothing to complain about. Did you expect more?",
+            "context": "level"
+        },
+        {
+            "text": "What? How boring.",
+            "context": "level"
+        },
+        {
+            "text": "Now this looks interesting... As a favor, I'll use it to help you out.",
+            "context": "growth"
+        },
+        {
+            "text": "Hey, <Player Name>... Want to talk? Honestly, I wanted to ask you something. Do I have a bad attitude? My friends say I do. It's true, isn't it? I don't know why, but just about everything irritates me. Maybe it's because I'm young. I'm not free to do what I want... I feel like I'm still waiting to grow up. My dream is to travel the world on my own. I won't be going back to my village. That's a secret, by the way. When I can go wherever I please, I'll try and find the time to visit you again. Probably. Don't be surprised if I turn up!",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem Echoes: Shadows of Valentia",
+    "tomeClass": 4,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 14,
+        "atk": 5,
+        "spd": 3,
+        "def": 2,
+        "res": 8
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 55,
+        "spd": 75,
+        "def": 50,
+        "res": 45
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 15,
+                "low": 14,
+                "high": 16
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 37,
+                "low": 33,
+                "high": 40
+            },
+            "atk": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "spd": {
+                "base": 37,
+                "low": 33,
+                "high": 40
+            },
+            "def": {
+                "base": 25,
+                "low": 21,
+                "high": 28
+            },
+            "res": {
+                "base": 28,
+                "low": 25,
+                "high": 32
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 157
+            }
+        }
+    }
+}

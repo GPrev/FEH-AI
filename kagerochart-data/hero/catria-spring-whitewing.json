@@ -1,0 +1,208 @@
+{
+    "_id": "hero:catria-spring-whitewing",
+    "display": "Catria: Spring Whitewing",
+    "name": "Catria",
+    "color": "Blue",
+    "weapon": [
+        {
+            "_id": "weapon:huginns-egg",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:thoron",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elthunder",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:thunder",
+            "unlock": 0
+        }
+    ],
+    "passive": [
+        "draw-back"
+    ],
+    "docType": "hero",
+    "special": [],
+    "assist": [
+        {
+            "_id": "assist:draw-back",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Blue Tome",
+    "moveType": "Cavalry",
+    "passiveB": [
+        {
+            "_id": "passive-b:chill-res-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:chill-res-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:chill-res-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:drive-spd-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:drive-spd-1",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:spur-spd-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [],
+    "insights": [
+        "Catria is the only hero with Huginn's Egg."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Spring Whitewing",
+    "description": "Middle of three sisters who are pegasus knights for Macedon. She takes her duty to participate in the Spring Festival seriously. Appears in Fire Emblem: Mystery of the Emblem.",
+    "artist": "Amagaitaro (アマガイタロー)",
+    "voiceActorEN": "Connor Kelley",
+    "voiceActorJP": "生天目仁美",
+    "dialogue": [
+        {
+            "text": "I'm Catria of the Whitewings. These clothes... They're part of my mission. Just...try to forget about them.",
+            "context": "joined"
+        },
+        {
+            "text": "It has gotten a little warmer, hasn't it? We are at war, I know...but you must take a break sometime.",
+            "context": "castle"
+        },
+        {
+            "text": "I have never really had the chance to pause and enjoy the changing of the seasons before... Spring really is lovely, isn't it?",
+            "context": "castle"
+        },
+        {
+            "text": "How about some training? I know the spring festival is exciting, but we can't get carried away.",
+            "context": "castle"
+        },
+        {
+            "text": "You'll see a lot of rabbits at the spring festival. They represent prosperity and fertility. I hear that some visitors even wish on them, hoping to be blessed with a child that's healthy and happy.",
+            "context": "castle"
+        },
+        {
+            "text": "Now that it's getting warmer, it might be a good time to scrub down the pegasi. I'm sure they'd enjoy it.",
+            "context": "castle"
+        },
+        {
+            "text": "I bring <Friend Name>'s greetings. That's not why I'm dressed like this, though.",
+            "context": "friend"
+        },
+        {
+            "text": "Spring brings growth. Something good is on its way...",
+            "context": "level"
+        },
+        {
+            "text": "The breeze is gentle and warm...",
+            "context": "level"
+        },
+        {
+            "text": "Spring may be on its way, but it isn't here quite yet.",
+            "context": "level"
+        },
+        {
+            "text": "This is a fresh start, like the first day of spring. I will do my best.",
+            "context": "growth"
+        },
+        {
+            "text": "Stopping to enjoy a spring festival... It's a little bit hard for me to wrap my head around, frankly. The thought would never have crossed my mind before. I was too busy fighting for my life... Then again, perhaps the struggles we went through give meaning to our celebrations today. Oh, I'm sorry. I didn't mean to take the conversation down such a serious path. I can't help but speak my mind... Really, I should just drop everything and enjoy myself for now. But that's not a thing I really know how to do. Maybe you can help me figure it out— help me figure out how to change. When I'm with you, I feel like I can get a glimpse into what it might be like...to live a different life. Thank you, <Player Name>.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Mystery of the Emblem",
+    "tomeClass": 2,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 5,
+        "spd": 8,
+        "def": 4,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 60,
+        "spd": 60,
+        "def": 30,
+        "res": 40
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 40
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 18,
+                "low": 14,
+                "high": 21
+            },
+            "res": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 144
+            }
+        }
+    }
+}

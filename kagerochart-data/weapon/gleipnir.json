@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Gleipnir",
+    "description": "Grants Res+3. At start of combat, if foe's HP = 100%, grants Atk/Spd+3 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_グレイプニル",
+    "spCost": 400,
+    "_id": "weapon:gleipnir"
+}

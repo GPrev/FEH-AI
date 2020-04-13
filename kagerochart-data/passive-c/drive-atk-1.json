@@ -1,0 +1,11 @@
+{
+    "name": "Drive Atk 1",
+    "description": "Grants Atk+2 to allies within 2 spaces during combat.",
+    "docType": "passive-c",
+    "idTag": "SID_攻撃の大紋章1",
+    "nextSkill": {
+        "_id": "passive-c:drive-atk-2"
+    },
+    "spCost": 120,
+    "_id": "passive-c:drive-atk-1"
+}

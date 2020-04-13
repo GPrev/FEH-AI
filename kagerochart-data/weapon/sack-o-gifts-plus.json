@@ -1,0 +1,60 @@
+{
+    "range": 1,
+    "might": 14,
+    "name": "Sack o' Gifts+",
+    "description": "If foe initiates combat, grants Atk/Spd/Def/Res+2 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_プレゼント袋＋",
+    "spCost": 300,
+    "_id": "weapon:sack-o-gifts-plus",
+    "refines": [
+        {
+            "might": 14,
+            "stats": {
+                "hp": 5,
+                "spd": 3
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 16,
+            "stats": {
+                "hp": 5,
+                "atk": 2
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 14,
+            "stats": {
+                "hp": 5,
+                "def": 4
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 14,
+            "stats": {
+                "hp": 5,
+                "res": 4
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        }
+    ]
+}

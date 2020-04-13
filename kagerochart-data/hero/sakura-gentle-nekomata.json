@@ -1,0 +1,233 @@
+{
+    "_id": "hero:sakura-gentle-nekomata",
+    "display": "Sakura: Gentle Nekomata",
+    "name": "Sakura",
+    "color": "Colorless",
+    "weapon": [
+        {
+            "_id": "weapon:kitty-paddle-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:kitty-paddle",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-dagger",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-dagger",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:glacies",
+            "unlock": 4
+        },
+        {
+            "_id": "special:chilling-wind",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:warding-stance-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:warding-stance-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:warding-stance-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:guard-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:guard-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:guard-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:dagger-valor-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:dagger-valor-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:dagger-valor-1",
+            "unlock": 1
+        }
+    ],
+    "description": "This Hoshidan princess is so kind that she wouldn't play a trick on anyone, even if they didn't give her candy. Appears in Fire Emblem Fates.",
+    "weaponType": "Colorless Dagger",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Fates",
+    "gender": "Female",
+    "voiceActorEN": "Brianna Knickerbocker",
+    "voiceActorJP": "金元寿子",
+    "releaseDate": "2017-10-30T00:00:00.000Z",
+    "artistJP": "藤ちょこ",
+    "artistEN": "Fuzichoco",
+    "voiceActorJPEN": "Kanemoto Hisako",
+    "insights": [
+        "Sakura is the only hero with Kitty Paddle+.",
+        "Sakura is the only hero with Kitty Paddle.",
+        "Sakura is the only hero with Warding Stance 3.",
+        "Sakura is the only hero with Dagger Valor 3.",
+        "Sakura is the only hero with Dagger Valor 2.",
+        "Sakura is the only hero with Dagger Valor 1.",
+        "Sakura has the lowest <abbr title=\"Defense\">DEF</abbr> potential possible among Dagger heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Gentle Nekomata",
+    "artist": "Fuzichoco (藤ちょこ)",
+    "dialogue": [
+        {
+            "text": "My name is Sakura. I'm a princess of Hoshido. I'm d-dressed as a cat spirit called a nekomata. How do I look?",
+            "context": "joined"
+        },
+        {
+            "text": "Um... W-would you like to try on my cat ears? A kitty-cat summoner would be...pretty cute, I think!",
+            "context": "castle"
+        },
+        {
+            "text": "The Nohrian festival in the Outrealms was a lot of fun. We had a sleepover, and I got to spend time with Elise!",
+            "context": "castle"
+        },
+        {
+            "text": "Dressed like this, I... I can't really use my staff. But if you need healing, please ask. I can still help a little.",
+            "context": "castle"
+        },
+        {
+            "text": "The harvest festival we hold in Hoshido doesn't involve dressing up. It's still a lot of fun, though. Why don't you come and visit next time?",
+            "context": "castle"
+        },
+        {
+            "text": "Legends say that nekomata can bring people back from the dead... If I had that power... I'd... I'd...",
+            "context": "castle"
+        },
+        {
+            "text": "If you don't g-give me candy, I'll play a trick on you! But...that would be kind of mean. I'm sorry! I'll just say hello!",
+            "context": "friend"
+        },
+        {
+            "text": "I feel like I could play an amazing trick on somebody!",
+            "context": "level"
+        },
+        {
+            "text": "Even if you d-don't give me any candy...I'll still do my best!",
+            "context": "level"
+        },
+        {
+            "text": "Aw... Maybe I should take off this costume and behave seriously.",
+            "context": "level"
+        },
+        {
+            "text": "Oh! I-I promise to become a stronger nekomata for you!",
+            "context": "growth"
+        },
+        {
+            "text": "Meow! Hee hee. What do you think? I've gotten used to wearing this costume. This isn't the only Hoshidan spirit... There are stories of ones with long necks, ones in willow trees... There's one that really frightens me. It's the ghost that appears in the royal castle... It stands at the end of dark hallways and sings in a sobbing voice! It's one of the seven wonders of the castle. Why are you making that face? Are you scared? I'm so sorry! But don't worry! As long as I'm here with you, you have nothing to fear. I'll protect you. I promise.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 7,
+        "spd": 7,
+        "def": 3,
+        "res": 7
+    },
+    "growthRates": {
+        "hp": 40,
+        "atk": 55,
+        "spd": 60,
+        "def": 25,
+        "res": 60
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "def": {
+                "base": 14,
+                "low": 11,
+                "high": 18
+            },
+            "res": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 147
+            }
+        }
+    }
+}

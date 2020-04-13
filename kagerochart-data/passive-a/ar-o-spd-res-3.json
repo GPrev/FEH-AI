@@ -1,0 +1,8 @@
+{
+    "name": "AR-O Spd/Res 3",
+    "description": "If attacking in Aether Raids, grants Spd/Res+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +10; 3 grants +7; 4 grants +4; ≥5 grants +1. Destroyed defensive structures are not counted.)",
+    "docType": "passive-a",
+    "idTag": "SID_速さ魔防の攻城戦3",
+    "spCost": 240,
+    "_id": "passive-a:ar-o-spd-res-3"
+}

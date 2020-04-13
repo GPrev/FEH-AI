@@ -1,0 +1,11 @@
+{
+    "name": "Atk/Def Push 1",
+    "description": "At start of combat, if unit's HP = 100%, grants Atk/Def+3, but if unit attacked, deals 1 damage to unit after combat.",
+    "docType": "passive-a",
+    "idTag": "SID_攻撃守備の渾身1",
+    "nextSkill": {
+        "_id": "passive-a:atk-def-push-2"
+    },
+    "spCost": 60,
+    "_id": "passive-a:atk-def-push-1"
+}

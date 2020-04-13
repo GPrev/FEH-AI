@@ -1,0 +1,8 @@
+{
+    "name": "Rally Up Res+",
+    "description": "Grants Res+6 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.",
+    "docType": "assist",
+    "idTag": "SID_魔防の大応援＋",
+    "spCost": 400,
+    "_id": "assist:rally-up-res-plus"
+}

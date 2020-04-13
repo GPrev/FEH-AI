@@ -1,0 +1,32 @@
+{
+    "range": 2,
+    "might": 12,
+    "name": "Joyous Lantern+",
+    "description": "At start of turn, grants Def/Res+5 to ally with the highest Atk for 1 turn. (Excludes unit.)",
+    "docType": "weapon",
+    "idTag": "SID_ランタンの杖＋",
+    "spCost": 300,
+    "_id": "weapon:joyous-lantern-plus",
+    "refines": [
+        {
+            "might": 12,
+            "stats": {},
+            "description": "Foe cannot counterattack.",
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 12,
+            "stats": {},
+            "description": "Calculates damage from staff like other weapons.",
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        }
+    ]
+}

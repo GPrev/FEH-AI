@@ -1,0 +1,14 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Barb Shuriken",
+    "description": "Accelerates Special trigger (cooldown count-1). After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions.",
+    "docType": "weapon",
+    "idTag": "SID_暗殺手裏剣",
+    "nextSkill": {
+        "_id": "weapon:barb-shuriken-plus"
+    },
+    "spCost": 200,
+    "cooldownCount": -1,
+    "_id": "weapon:barb-shuriken"
+}

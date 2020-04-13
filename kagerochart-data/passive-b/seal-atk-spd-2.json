@@ -1,0 +1,8 @@
+{
+    "name": "Seal Atk/Spd 2",
+    "description": "Inflicts Atk/Spd-5 on foe through its next action after combat.",
+    "docType": "passive-b",
+    "idTag": "SID_攻撃速さ封じ2",
+    "spCost": 200,
+    "_id": "passive-b:seal-atk-spd-2"
+}

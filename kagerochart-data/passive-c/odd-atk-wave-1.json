@@ -1,0 +1,11 @@
+{
+    "name": "Odd Atk Wave 1",
+    "description": "At start of odd-numbered turns, grants Atk+2 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)",
+    "docType": "passive-c",
+    "idTag": "SID_攻撃の波・奇数1",
+    "nextSkill": {
+        "_id": "passive-c:odd-atk-wave-2"
+    },
+    "spCost": 60,
+    "_id": "passive-c:odd-atk-wave-1"
+}

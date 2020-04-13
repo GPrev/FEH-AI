@@ -1,0 +1,11 @@
+{
+    "name": "Close Guard 2",
+    "description": "Allies within 2 spaces gain: \"If foe uses sword, lance, axe, dragonstone, or beast damage, grants Def/Res+3 during combat.\"",
+    "docType": "passive-c",
+    "idTag": "SID_近距離警戒2",
+    "nextSkill": {
+        "_id": "passive-c:close-guard-3"
+    },
+    "spCost": 120,
+    "_id": "passive-c:close-guard-2"
+}

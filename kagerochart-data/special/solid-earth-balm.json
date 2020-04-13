@@ -1,0 +1,9 @@
+{
+    "name": "Solid-Earth Balm",
+    "description": "When healing an ally with a staff, grants Def+4 to all allies for 1 turn.",
+    "docType": "special",
+    "idTag": "SID_大地の祝福",
+    "spCost": 150,
+    "cooldownCount": 1,
+    "_id": "special:solid-earth-balm"
+}

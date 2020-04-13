@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 14,
+    "name": "Bunny Fang",
+    "description": "Grants Spd+3. Effective against cavalry foes. After combat, if unit's HP ≤ 75%, grants Special cooldown count-2. Effect:【Beast (Cavalry)】  【Beast (Cavalry)】 At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.",
+    "docType": "weapon",
+    "idTag": "SID_タグエルの子の爪牙",
+    "spCost": 400,
+    "_id": "weapon:bunny-fang"
+}

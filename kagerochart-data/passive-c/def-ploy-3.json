@@ -1,0 +1,8 @@
+{
+    "name": "Def Ploy 3",
+    "description": "At start of turn, inflicts Def-5 on foes in cardinal directions with Res < unit’s Res through their next actions.",
+    "docType": "passive-c",
+    "idTag": "SID_守備の謀策3",
+    "spCost": 240,
+    "_id": "passive-c:def-ploy-3"
+}

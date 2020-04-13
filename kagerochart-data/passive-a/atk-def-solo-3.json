@@ -1,0 +1,8 @@
+{
+    "name": "Atk/Def Solo 3",
+    "description": "If unit is not adjacent to an ally, grants Atk/Def+6 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_攻撃守備の孤軍3",
+    "spCost": 240,
+    "_id": "passive-a:atk-def-solo-3"
+}

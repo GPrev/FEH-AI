@@ -1,0 +1,327 @@
+{
+    "_id": "hero:tailtiu-thunder-noble",
+    "display": "Tailtiu: Thunder Noble",
+    "name": "Tailtiu",
+    "color": "Blue",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:tome-of-thoron",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:blarblade-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:blarblade",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elthunder",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:thunder",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:rally-spd-res",
+            "unlock": 4
+        },
+        {
+            "_id": "assist:rally-resistance",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:attack-res-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:attack-res-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:attack-plus-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:drive-spd-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:drive-spd-1",
+            "unlock": 3
+        },
+        {
+            "_id": "passive-c:spur-spd-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "description": "A noblewoman from Friege and descendant of the crusader Thrud. She appears cheerful but is hiding her troubles. Appears in Fire Emblem: Genealogy of the Holy War.",
+    "weaponType": "Blue Tome",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Genealogy of the Holy War",
+    "gender": "Female",
+    "voiceActorEN": "Heather Watson",
+    "voiceActorJP": "桑島法子",
+    "releaseDate": "2017-10-16T07:00:00.000Z",
+    "artistJP": "しおえもん",
+    "artistEN": "Shioemon",
+    "voiceActorJPEN": "Kuwashima Houko",
+    "insights": [],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Thunder Noble",
+    "artist": "Shioemon (しおえもん) / INTELLIGENT SYSTEMS",
+    "dialogue": [
+        {
+            "text": "I'm Tailtiu! I'm a descendant of the crusader Thrud. Well...why don't we forget about that—tell me about you!",
+            "context": "joined"
+        },
+        {
+            "text": "Everybody here is all talk, talk, talk about the most tedious stuff in the world. I'm so bored!",
+            "context": "castle"
+        },
+        {
+            "text": "What's up with that weird rod? Wait... You say you can summon Heroes with it? No way!",
+            "context": "castle"
+        },
+        {
+            "text": "You're on patrol? That's no fun. Let me help out. We can do it together!",
+            "context": "castle"
+        },
+        {
+            "text": "Father, I'm sorry... Because of me, our family's lost its honor.",
+            "context": "castle"
+        },
+        {
+            "text": "Keep it interesting, and I'll chat with you for as long as you like. Got a spare hour or two?",
+            "context": "castle"
+        },
+        {
+            "text": "Hey there! I'm Tailtiu. I was sent by <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "That was great, wasn't it? I want to hear you say it!",
+            "context": "level"
+        },
+        {
+            "text": "That...was pretty good! It was, wasn't it?",
+            "context": "level"
+        },
+        {
+            "text": "Hmm. What in the world was that?",
+            "context": "level"
+        },
+        {
+            "text": "Thank you! I'm bursting with energy and ready to go!",
+            "context": "growth"
+        },
+        {
+            "text": "Hey there! Do you have a minute? No matter what's going on, you're always so nice. It's one of the things I really like about you. Wait...are you blushing? You are! I never know what to expect from you! I try not to think too hard, but I do have good instincts when it comes to people. You're a good person. And when I feel this way about somebody, I do what I can to help them out. I always have a good time when I talk to you, <Player Name>. So you keep on helping me, and I'll keep on helping you!",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 2,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 7,
+        "spd": 8,
+        "def": 3,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 55,
+        "spd": 60,
+        "def": 30,
+        "res": 45
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "atk": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "spd": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "def": {
+                "base": 14,
+                "low": 11,
+                "high": 17
+            },
+            "res": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "atk": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 15,
+                "low": 12,
+                "high": 18
+            },
+            "res": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 39,
+                "low": 35,
+                "high": 42
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 17,
+                "low": 13,
+                "high": 20
+            },
+            "res": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 148
+            }
+        }
+    }
+}

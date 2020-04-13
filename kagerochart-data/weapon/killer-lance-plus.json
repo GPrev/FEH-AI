@@ -1,0 +1,11 @@
+{
+    "range": 1,
+    "might": 11,
+    "name": "Killer Lance+",
+    "description": "Accelerates Special trigger (cooldown count-1).",
+    "docType": "weapon",
+    "idTag": "SID_キラーランス＋",
+    "spCost": 300,
+    "cooldownCount": -1,
+    "_id": "weapon:killer-lance-plus"
+}

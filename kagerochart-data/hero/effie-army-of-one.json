@@ -1,0 +1,322 @@
+{
+    "_id": "hero:effie-army-of-one",
+    "display": "Effie: Army of One",
+    "name": "Effie",
+    "color": "Blue",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:silver-lance-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-lance",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:smite",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:death-blow-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:death-blow-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:death-blow-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:wary-fighter-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:wary-fighter-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:wary-fighter-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [],
+    "description": "A gentle knight with great strength and devotion. One of Elise's retainers. Appears in Fire Emblem Fates.",
+    "weaponType": "Blue Lance",
+    "moveType": "Armored",
+    "origin": "Fire Emblem: Fates",
+    "gender": "Female",
+    "voiceActorEN": "Marisha Ray",
+    "voiceActorJP": "桑原由気",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistEN": "HACCAN",
+    "voiceActorJPEN": "Kuwahara Yuuki",
+    "insights": [
+        "Effie has the highest <abbr title=\"Health Points\">HP</abbr> potential possible among Lance heroes.",
+        "Effie has the highest <abbr title=\"Health Points\">HP</abbr> potential possible among Blue heroes.",
+        "Effie has the lowest <abbr title=\"Speed\">SPD</abbr> potential possible among Lance heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Army of One",
+    "artist": "HACCAN",
+    "dialogue": [
+        {
+            "text": "The name's Effie. I'm a knight from Nohr. Need protection? I'll crush anyone that gets in your way.",
+            "context": "joined"
+        },
+        {
+            "text": "We've got to defeat all of the Heroes that we can if it frees them from being forced to serve.",
+            "context": "castle"
+        },
+        {
+            "text": "I work for Lady Elise. My job is to be a wall between her and enemies. So I bulk up—as much as I can.",
+            "context": "castle"
+        },
+        {
+            "text": "You're always working. If you need my strength, know that I can crush rocks to dust with my bare hands!",
+            "context": "castle"
+        },
+        {
+            "text": "Takes a lot of food to keep me bulky enough to be a good wall. So we should hit all the feasts we can.",
+            "context": "castle"
+        },
+        {
+            "text": "I keep stones in my armor to weigh me down. That way, I can train even when I'm just standing around.",
+            "context": "castle"
+        },
+        {
+            "text": "Going around in armor makes a girl hungry. Worth it to deliver a hello from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "I feel like I could take on anyone!",
+            "context": "level"
+        },
+        {
+            "text": "Strict training is the trick!",
+            "context": "level"
+        },
+        {
+            "text": "I'll have to work even harder tomorrow.",
+            "context": "level"
+        },
+        {
+            "text": "Thanks. Every brick makes me a better wall.",
+            "context": "growth"
+        },
+        {
+            "text": "*munch munch* Tasty... Oh, hey, <Player Name>! Is it snack time for you, too? You brought me a sandwich? Thanks! Nice of you to hand- deliver it and everything! I've been eating even more since I got here. Got to be ready to protect Lady Elise and... you know...protect you as well. I need to eat a lot and train even more so I can be the shield that keeps you safe. Thanks again for the sandwich. *munch munch* That was great— packed with kindness.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 21,
+        "atk": 11,
+        "spd": 4,
+        "def": 10,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 65,
+        "atk": 65,
+        "spd": 40,
+        "def": 50,
+        "res": 45
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 21,
+                "low": 20,
+                "high": 22
+            },
+            "atk": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "spd": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "def": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 21,
+                "low": 20,
+                "high": 22
+            },
+            "atk": {
+                "base": 12,
+                "low": 11,
+                "high": 13
+            },
+            "spd": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "def": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 22,
+                "low": 21,
+                "high": 23
+            },
+            "atk": {
+                "base": 12,
+                "low": 11,
+                "high": 13
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 46,
+                "low": 43,
+                "high": 49
+            },
+            "atk": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "spd": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "def": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "res": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 47,
+                "low": 44,
+                "high": 50
+            },
+            "atk": {
+                "base": 38,
+                "low": 35,
+                "high": 41
+            },
+            "spd": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "def": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "res": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 50,
+                "low": 47,
+                "high": 53
+            },
+            "atk": {
+                "base": 40,
+                "low": 37,
+                "high": 43
+            },
+            "spd": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "def": {
+                "base": 33,
+                "low": 29,
+                "high": 36
+            },
+            "res": {
+                "base": 23,
+                "low": 20,
+                "high": 27
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 168
+            }
+        }
+    }
+}

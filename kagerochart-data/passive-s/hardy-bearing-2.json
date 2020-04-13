@@ -1,0 +1,8 @@
+{
+    "name": "Hardy Bearing 2",
+    "description": "Disables unit's skills that change attack priority. At start of combat, if unit's HP ≥ 50%, disables foe's skills that change attack priority.",
+    "docType": "passive-s",
+    "idTag": "SID_不動の姿勢2",
+    "spCost": 100,
+    "_id": "passive-s:hardy-bearing-2"
+}

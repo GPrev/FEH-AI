@@ -1,0 +1,214 @@
+{
+    "_id": "hero:chrom-spring-exalt",
+    "display": "Chrom: Spring Exalt",
+    "name": "Chrom",
+    "color": "Green",
+    "weapon": [
+        {
+            "_id": "weapon:carrot-axe-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:carrot-axe",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-axe",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-axe",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:shove",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:attack-def-plus-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:attack-def-plus-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:defense-plus-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:axe-experience-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:axe-experience-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:axe-experience-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "description": "A prince of Ylisse and descendant of the Hero-King. Dressed to celebrate the spring festival. Appears in Fire Emblem Awakening.",
+    "weaponType": "Green Axe",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Awakening",
+    "gender": "Male",
+    "voiceActorEN": "Matthew Mercer",
+    "voiceActorJP": "杉田智和",
+    "releaseDate": "2017-03-30T00:00:00.000Z",
+    "artistJP": "えびら",
+    "artistEN": "Ebila",
+    "voiceActorJPEN": "Sugita Tomokazu",
+    "insights": [
+        "Chrom is the only hero with Carrot Axe+.",
+        "Chrom is the only hero with Carrot Axe.",
+        "Chrom is the only hero with Axe Experience 3.",
+        "Chrom is the only hero with Axe Experience 2.",
+        "Chrom is the only hero with Axe Experience 1."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Spring Exalt",
+    "artist": "Ebila (えびら)",
+    "dialogue": [
+        {
+            "text": "I'm Chrom, Prince of the Halidom of Ylisse. Enjoying the spring festival? I've dressed for the occasion!",
+            "context": "joined"
+        },
+        {
+            "text": "Anna wants to master painting eggs for the spring festival. No doubt she wants to sell them.",
+            "context": "castle"
+        },
+        {
+            "text": "We were right in the middle of celebrating the arrival of spring when I was summoned. Had I known I would be plucked from our castle like that, I would have come...better prepared.",
+            "context": "castle"
+        },
+        {
+            "text": "On patrol, <Player Name>? I know that this time of year can put a spring in our steps. Just remember that if you get tired, I'll take my turn.",
+            "context": "castle"
+        },
+        {
+            "text": "We have a custom of painting eggs during our spring festival. But I have a habit of crushing the eggs I make.",
+            "context": "castle"
+        },
+        {
+            "text": "I have to take special care with my, er, weapon here. It chips easily. Hmm...I miss Falchion.",
+            "context": "castle"
+        },
+        {
+            "text": "Greetings from <Friend Name>. Do you enjoy the spring season, <Player Name>? I do!",
+            "context": "friend"
+        },
+        {
+            "text": "Ha! The spirit of spring moves through me.",
+            "context": "level"
+        },
+        {
+            "text": "In the spirit of spring, I will grow stronger!",
+            "context": "level"
+        },
+        {
+            "text": "I'm not living up to the whole idea of spring growth here.",
+            "context": "level"
+        },
+        {
+            "text": "Whatever you did there is making this costume fit me better!",
+            "context": "growth"
+        },
+        {
+            "text": "Ah, if it isn't <Player Name>! I just finished painting some spring-festival eggs. Not bad, if I say so myself. Take a look. What? Curious what all that lettering is? It's written in the language of Ylisse. It's a bit of a poem, I guess, that says how much I value your presence here. And see? On this side, I've painted a picture of you. Good likeness, don't you think? What, it isn't? Well, I tried, and at least now you know that I truly do value our strong bond. Now, may we spend many spring festivals together and...I promise to work on my painting skills.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 18,
+        "atk": 8,
+        "spd": 7,
+        "def": 5,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 60,
+        "spd": 55,
+        "def": 50,
+        "res": 35
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 19,
+                "low": 18,
+                "high": 20
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 43,
+                "low": 40,
+                "high": 46
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "def": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "res": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 158
+            }
+        }
+    }
+}

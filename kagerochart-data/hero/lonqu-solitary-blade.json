@@ -1,0 +1,326 @@
+{
+    "_id": "hero:lonqu-solitary-blade",
+    "display": "Lon'qu: Solitary Blade",
+    "name": "Lon'qu",
+    "color": "Red",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:solitary-blade",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:killing-edge-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:killing-edge",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:glimmer",
+            "unlock": 4
+        },
+        {
+            "_id": "special:night-sky",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:speed-plus-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:speed-plus-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:speed-plus-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:vantage-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:vantage-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:vantage-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [],
+    "description": "A skilled swordsman of Regna Ferox who is oddly skittish around women. Appears in Fire Emblem Awakening.",
+    "weaponType": "Red Sword",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Awakening",
+    "gender": "Male",
+    "voiceActorEN": "Travis Willingham",
+    "voiceActorJP": "子安武人",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistEN": "AKIRA",
+    "voiceActorJPEN": "Koyasu Takehito",
+    "insights": [],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Solitary Blade",
+    "artist": "AKIRA",
+    "dialogue": [
+        {
+            "text": "I'm Lon'qu, a swordsman from Regna Ferox. And...that's all there is to know about me.",
+            "context": "joined"
+        },
+        {
+            "text": "I hope to truly master the sword...but something might be throwing off my hand. Maybe if I...steadied myself around women, that would do the trick.",
+            "context": "castle"
+        },
+        {
+            "text": "Before becoming a Shepherd, I was right hand to Basilio, West-Khan of Regna Ferox.",
+            "context": "castle"
+        },
+        {
+            "text": "If you are too busy, I can patrol in your stead.",
+            "context": "castle"
+        },
+        {
+            "text": "Would you care to spar? If you have no combat training, you could always throw rocks at me.",
+            "context": "castle"
+        },
+        {
+            "text": "I was just sharpening my sword. If it won't work when I need it, then that will be the end of me.",
+            "context": "castle"
+        },
+        {
+            "text": "I think you're the one I was sent here to find. You know <Friend Name>, yes? I'm here to deliver a hello. Now that I have, I will leave.",
+            "context": "friend"
+        },
+        {
+            "text": "This is only the start of what I can do.",
+            "context": "level"
+        },
+        {
+            "text": "...Good.",
+            "context": "level"
+        },
+        {
+            "text": "The path to mastering the sword is a lonely one.",
+            "context": "level"
+        },
+        {
+            "text": "Being granted power instead of slowly earning it...isn't so bad.",
+            "context": "growth"
+        },
+        {
+            "text": "You're here again. Why? What have I done to deserve this attention? I have no wealth, no power. Nothing but my skills as a swordsman. What? You value my presence? You find my help...reassuring? No one has ever said that to me before, but I am glad my presence gives you strength. Understood. I shall be your bodyguard, then. I will stay by your side for as long as you want me.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 18,
+        "atk": 6,
+        "spd": 10,
+        "def": 4,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 60,
+        "atk": 50,
+        "spd": 65,
+        "def": 40,
+        "res": 40
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 19,
+                "low": 18,
+                "high": 20
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 41,
+                "low": 38,
+                "high": 44
+            },
+            "atk": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "res": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 42,
+                "low": 39,
+                "high": 45
+            },
+            "atk": {
+                "base": 27,
+                "low": 24,
+                "high": 30
+            },
+            "spd": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "def": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "res": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 45,
+                "low": 42,
+                "high": 48
+            },
+            "atk": {
+                "base": 29,
+                "low": 25,
+                "high": 32
+            },
+            "spd": {
+                "base": 39,
+                "low": 36,
+                "high": 42
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 157
+            }
+        }
+    }
+}

@@ -1,0 +1,210 @@
+{
+    "_id": "hero:azura-lady-of-the-lake",
+    "display": "Azura: Lady of the Lake",
+    "name": "Azura",
+    "color": "Blue",
+    "weapon": [
+        {
+            "_id": "weapon:sapphire-lance-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:sapphire-lance",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:sing",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:speed-plus-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:speed-plus-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:speed-plus-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:fortify-res-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:fortify-res-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:fortify-res-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "description": "An enchanting princess raised in Hoshido who sings in battle to help her allies. Appears in Fire Emblem Fates.",
+    "weaponType": "Blue Lance",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Fates",
+    "gender": "Female",
+    "voiceActorEN": "Rena Strober",
+    "voiceActorJP": "Lynn",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistEN": "kaya8",
+    "voiceActorJPEN": "Lynn",
+    "insights": [
+        "Azura has the lowest <abbr title=\"Defense\">DEF</abbr> potential possible among Lance heroes.",
+        "Azura has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Lance heroes."
+    ],
+    "refresher": true,
+    "dragonflowers": 10,
+    "epitet": "Lady of the Lake",
+    "artist": "kaya8",
+    "dialogue": [
+        {
+            "text": "My name is Azura. I offer you my song. As for where I'm from? Two kingdoms, in a way... Both Nohr and Hoshido.",
+            "context": "joined"
+        },
+        {
+            "text": "Your uniform for this order is so attractive. And it's a lovely match for what I like to wear too!",
+            "context": "castle"
+        },
+        {
+            "text": "I'm sorry to say that I mustn't ever tell you of my homeland. Still, I will be absolutely true to you in battle.",
+            "context": "castle"
+        },
+        {
+            "text": "There's no knowing for how long you and I will be here. So, friend, let's be sure to take care of each other.",
+            "context": "castle"
+        },
+        {
+            "text": "I'm fond of singing, especially while standing in lakes. Believe me, it's far different from singing on battlefields.",
+            "context": "castle"
+        },
+        {
+            "text": "You'll often find me singing. I hope you like songs. They convey truth in ways that the written word cannot.",
+            "context": "castle"
+        },
+        {
+            "text": "By any chance, are you perhaps <Player Name>? I bring best wishes from our group to yours in the name of <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "I must sing in celebration of such wonderful success!",
+            "context": "level"
+        },
+        {
+            "text": "Even my voice feels a little stronger!",
+            "context": "level"
+        },
+        {
+            "text": "Well, every difference makes a ripple.",
+            "context": "level"
+        },
+        {
+            "text": "My heart swells in thanks. I will give you my all!",
+            "context": "growth"
+        },
+        {
+            "text": "You are the ocean's gray waves—♪ So you've come to see me again, <Player Name>... You visit so often, I find myself looking for you whenever I am singing. You are a lovely audience.  My song is powerful, but that power is both great and terrible. It can be used to rally and refresh the spirit...or enslave it. But it seems the song's power is much less in this world, as is the danger to the singer. So I can stay by your side to the end. And one day I will tell you of the kingdom of silence I was born in.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 4,
+        "spd": 6,
+        "def": 3,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 60,
+        "spd": 60,
+        "def": 40,
+        "res": 50
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 40
+            },
+            "atk": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "res": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 149
+            }
+        }
+    }
+}

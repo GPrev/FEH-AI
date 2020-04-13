@@ -1,0 +1,8 @@
+{
+    "name": "Rally Atk/Res",
+    "description": "Grants Atk/Res+3 to target ally for 1 turn.",
+    "docType": "assist",
+    "idTag": "SID_攻撃魔防の応援",
+    "spCost": 300,
+    "_id": "assist:rally-atk-res"
+}

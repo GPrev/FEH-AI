@@ -1,0 +1,222 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Mist",
+    "epitet": "Purest Spirit",
+    "display": "Mist: Purest Spirit",
+    "description": "Ike's sister and a great help to the Greil Mercenaries. Looks forward to shopping at the Day of Devotion festival. Appears in Fire Emblem: Path of Radiance.",
+    "artist": "Miwabe Sakura (みわべさくら)",
+    "voiceActorEN": "Sarah Williams",
+    "voiceActorJP": "榎本温子",
+    "dialogue": [
+        {
+            "text": "Did I make it to the festival? My name is Mist, and I want to let everyone know how much they mean to me.",
+            "context": "joined"
+        },
+        {
+            "text": "My brother and Soren don't look like they're enjoying the festival much, do they? Cheer up, you two!",
+            "context": "castle"
+        },
+        {
+            "text": "Father... I've done my best. Ike, too.",
+            "context": "castle"
+        },
+        {
+            "text": "There's something so nice about giving presents to people. I wish this festival would never end...",
+            "context": "castle"
+        },
+        {
+            "text": "Huh? Who do I like? I...haven't even thought about that yet!",
+            "context": "castle"
+        },
+        {
+            "text": "I did my best to make sure everyone else was dressed for the festival, so Titania gifted me my dress.",
+            "context": "castle"
+        },
+        {
+            "text": "Hello there! Do you like my dress? On this Day of Devotion, don't forget <Friend Name>!",
+            "context": "friend"
+        },
+        {
+            "text": "I see that someone understands how I feel!",
+            "context": "level"
+        },
+        {
+            "text": "I want to let everyone know my feelings.",
+            "context": "level"
+        },
+        {
+            "text": "Huh? Where is it? Where's the present? Oh no!",
+            "context": "level"
+        },
+        {
+            "text": "I'll treasure the kindness you've shown me.",
+            "context": "growth"
+        },
+        {
+            "text": "Love may not be something you can see, but you can feel it. That warms my heart. And if you want to give it a shape... you can always give the ones you love presents. Even if you're far away from someone you care about, you can show them you're thinking about them. Friends really are nice to have, aren't they? Because you've helped me so much, I thought I could show you how I really feel with a present. I hope you like it—I chose it just for you. Let's never drift apart, OK? ",
+            "context": "maxed"
+        }
+    ],
+    "color": "Green",
+    "origin": "Fire Emblem: Path of Radiance",
+    "weapon": [
+        {
+            "_id": "weapon:gronnblooms-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:gronnblooms",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elwind",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:wind",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:rally-def-res-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "assist:rally-def-res",
+            "unlock": 4
+        },
+        {
+            "_id": "assist:rally-resistance",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Green Tome",
+    "tomeClass": 3,
+    "moveType": "Cavalry",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 9,
+        "spd": 7,
+        "def": 3,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 55,
+        "spd": 60,
+        "def": 30,
+        "res": 45
+    },
+    "passiveC": [
+        {
+            "_id": "passive-c:g-tome-valor-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:g-tome-valor-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:g-tome-valor-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:swift-sparrow-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:swift-sparrow-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:darting-blow-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:res-feint-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:res-feint-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:res-feint-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:mist-purest-spirit",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 40
+            },
+            "atk": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "spd": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "def": {
+                "base": 17,
+                "low": 13,
+                "high": 20
+            },
+            "res": {
+                "base": 23,
+                "low": 20,
+                "high": 27
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 144
+            }
+        }
+    }
+}

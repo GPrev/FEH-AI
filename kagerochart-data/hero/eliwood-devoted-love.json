@@ -1,0 +1,267 @@
+{
+    "_id": "hero:eliwood-devoted-love",
+    "display": "Eliwood: Devoted Love",
+    "name": "Eliwood",
+    "color": "Blue",
+    "lowestRarity": 4,
+    "weapon": [
+        {
+            "_id": "weapon:casa-blanca-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:casa-blanca",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:rally-atk-def",
+            "unlock": 4
+        },
+        {
+            "_id": "assist:rally-attack",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "weaponType": "Blue Lance",
+    "moveType": "Armored",
+    "passiveA": [
+        {
+            "_id": "passive-a:fire-boost-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:fire-boost-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:fire-boost-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:goad-armor",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:spur-atk-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:spur-atk-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "insights": [
+        "Eliwood is the only hero with Casa Blanca+.",
+        "Eliwood is the only hero with Casa Blanca.",
+        "Eliwood has the highest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Lance heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Devoted Love",
+    "description": "A sincere noble of Pherae. Wishes to enjoy the festival together with his close friends Hector and Lyn. Appears in Fire Emblem: The Blazing Blade.",
+    "artist": "Ito Misei (伊藤未生)",
+    "voiceActorEN": "Yuri Lowenthal",
+    "voiceActorJP": "櫻井孝宏",
+    "dialogue": [
+        {
+            "text": "I am Eliwood of Pherae. If you have the time, would you accompany me to the Day of Devotion celebration?",
+            "context": "joined"
+        },
+        {
+            "text": "So, you celebrate a festival of devotion in this world as well? Just goes to show that no matter where we come from, the fact that we care for each other remains true.",
+            "context": "castle"
+        },
+        {
+            "text": "Hm? You wish my advice on a gift for a lady you care for? Well, if it was up to me... I suppose I'd send flowers.",
+            "context": "castle"
+        },
+        {
+            "text": "Is there somebody you're thinking about giving a present to? You can always come to me for advice.",
+            "context": "castle"
+        },
+        {
+            "text": "It seems like every shop in town turns into a candy shop this time of year... Well, would you like to go see them?",
+            "context": "castle"
+        },
+        {
+            "text": "Hector has been a dear friend of mine since childhood. I'm grateful for his friendship even as we grow older. Perhaps this would be a good opportunity to send him a gift of some sort...",
+            "context": "castle"
+        },
+        {
+            "text": "I've come with greetings from your friend <Friend Name>. I have a small gift for you as well.",
+            "context": "friend"
+        },
+        {
+            "text": "Have I now gained the strength to express my feelings?",
+            "context": "level"
+        },
+        {
+            "text": "Ha. Do you suppose this will help make me more popular?",
+            "context": "level"
+        },
+        {
+            "text": "My apologies... It seems I've been remiss.",
+            "context": "level"
+        },
+        {
+            "text": "I only grow stronger thanks to the people I love.",
+            "context": "growth"
+        },
+        {
+            "text": "Many people say the Day of Devotion is for celebrating those we have romantic feelings for... But in truth, it's much more than that. It's a day for expressing your love to your friends and family as well. If people were more compassionate toward others, there just might be far less fighting. And then someday... The world could become a truly peaceful place. I believe the Day of Devotion is also a wish for peace. Thank you for all you do, <Player Name>. My gift to you is my undying feeling of gratitude.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: The Blazing Blade",
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 22,
+        "atk": 9,
+        "spd": 7,
+        "def": 6,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 65,
+        "spd": 55,
+        "def": 50,
+        "res": 50
+    },
+    "minStats": {
+        "4": {
+            "hp": {
+                "base": 22,
+                "low": 21,
+                "high": 23
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 23,
+                "low": 22,
+                "high": 24
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "4": {
+            "hp": {
+                "base": 44,
+                "low": 41,
+                "high": 47
+            },
+            "atk": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "spd": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "def": {
+                "base": 26,
+                "low": 23,
+                "high": 29
+            },
+            "res": {
+                "base": 26,
+                "low": 23,
+                "high": 29
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 47,
+                "low": 44,
+                "high": 50
+            },
+            "atk": {
+                "base": 38,
+                "low": 35,
+                "high": 41
+            },
+            "spd": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "def": {
+                "base": 29,
+                "low": 25,
+                "high": 32
+            },
+            "res": {
+                "base": 29,
+                "low": 25,
+                "high": 32
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 175
+            }
+        }
+    }
+}

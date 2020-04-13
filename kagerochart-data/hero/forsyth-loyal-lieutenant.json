@@ -1,0 +1,223 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Forsyth",
+    "epitet": "Loyal Lieutenant",
+    "display": "Forsyth: Loyal Lieutenant",
+    "description": "A soldier with the Deliverance. Advisor to Clive, whom he has sworn an ardent allegiance to. Appears in Fire Emblem Echoes: Shadows of Valentia.",
+    "artist": "Sainosuke (さいのすけ)",
+    "voiceActorEN": "Chris Cason",
+    "voiceActorJP": "相楽信頼",
+    "dialogue": [
+        {
+            "text": "Seems it is my turn to make my entrance. I'm Forsyth! Now then... which direction to the enemy?",
+            "context": "joined"
+        },
+        {
+            "text": "Heroes from other worlds, hm? I am sure we can learn much from them. I must thank you for summoning me.",
+            "context": "castle"
+        },
+        {
+            "text": "I served as Sir Clive's right-hand man during our time with the Deliverance. ...Time neither of us will soon forget.",
+            "context": "castle"
+        },
+        {
+            "text": "Are you resting enough? While it is true that tenacity is a virtue, fatigue can spell your end. Do take care.",
+            "context": "castle"
+        },
+        {
+            "text": "A castle like this must surely be home to a tactical codex or two. Would you mind pointing me toward the library?",
+            "context": "castle"
+        },
+        {
+            "text": "Here, my relationship with Sir Clive may not be defined by our ranks, yet I would still like to serve him. How to best do so, I wonder...",
+            "context": "castle"
+        },
+        {
+            "text": "Your sworn ally wishes to express support. I come bearing good tidings from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Hah! I look rather dashing today, do I not?",
+            "context": "level"
+        },
+        {
+            "text": "Tolerable results, I suppose. Ah well. Even small steps are forward motion.",
+            "context": "level"
+        },
+        {
+            "text": "Forgive me for this failure. I will push myself harder to live up to your expectations...",
+            "context": "level"
+        },
+        {
+            "text": "I swear to become a Hero worthy of your support!",
+            "context": "growth"
+        },
+        {
+            "text": "Hello there. How are you doing? I, for one, couldn't be better. In fact, I'd like to be deployed even more! I enlisted with dreams of knighthood, but I got stuck out in the middle of nowhere somehow... But now I'm glad for any chance to make a name for myself! Honestly, I thought I was dreaming, being summoned to another world by someone in need of my power... I just hope I'm able to meet your expectations... I must be ever ready to lend my renowned strength... Hah! Er... Forgive my levity. In any case, for peace, I shall spare no effort! Please, give me whatever orders you will!",
+            "context": "maxed"
+        }
+    ],
+    "color": "Blue",
+    "origin": "Fire Emblem Echoes: Shadows of Valentia",
+    "releaseDate": "2019-10-21T07:00:00.000Z",
+    "weapon": [
+        {
+            "_id": "weapon:sol-lance",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-lance",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:bonfire",
+            "unlock": 4
+        },
+        {
+            "_id": "special:glowing-ember",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Blue Lance",
+    "tomeClass": 0,
+    "moveType": "Armored",
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 22,
+        "atk": 9,
+        "spd": 4,
+        "def": 10,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 70,
+        "spd": 35,
+        "def": 65,
+        "res": 60
+    },
+    "passiveA": [
+        {
+            "_id": "passive-a:def-res-bond-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:def-res-bond-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:def-res-bond-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:joint-hone-def",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:fortify-def-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:fortify-def-2",
+            "unlock": 3
+        },
+        {
+            "_id": "passive-c:fortify-def-1",
+            "unlock": 2
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:bold-fighter-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:bold-fighter-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:bold-fighter-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:forsyth-loyal-lieutenant",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 23,
+                "low": 22,
+                "high": 24
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 47,
+                "low": 44,
+                "high": 50
+            },
+            "atk": {
+                "base": 40,
+                "low": 37,
+                "high": 44
+            },
+            "spd": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "def": {
+                "base": 39,
+                "low": 36,
+                "high": 42
+            },
+            "res": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 179
+            }
+        }
+    }
+}

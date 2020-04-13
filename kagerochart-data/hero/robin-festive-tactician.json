@@ -1,0 +1,211 @@
+{
+    "_id": "hero:robin-festive-tactician",
+    "display": "Robin: Festive Tactician",
+    "name": "Robin",
+    "color": "Blue",
+    "weapon": [
+        {
+            "_id": "weapon:tannenboom-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:tannenboom",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:reciprocal-aid",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:brazen-atk-spd-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:brazen-atk-spd-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:brazen-atk-spd-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:armor-march-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:armor-march-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:armor-march-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "description": "Chrom's right-hand man and a tactician who has amnesia. Spends all day thinking of plans for enjoying the winter festival. Appears in Fire Emblem Awakening.",
+    "weaponType": "Blue Lance",
+    "moveType": "Armored",
+    "origin": "Fire Emblem: Awakening",
+    "gender": "Male",
+    "voiceActorEN": "David Vincent",
+    "voiceActorJP": "細谷佳正",
+    "releaseDate": "2017-12-18T00:00:00.000Z",
+    "artistEN": "Fujiwara Ryo",
+    "voiceActorJPEN": "Hosoya Yoshimasa",
+    "insights": [
+        "Robin is the only hero with Tannenboom!+.",
+        "Robin is the only hero with Tannenboom!.",
+        "Robin has the highest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Lance heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Festive Tactician",
+    "artist": "Fujiwara Ryo (冨士原良)",
+    "dialogue": [
+        {
+            "text": "My name is Robin. If you want someone to plan winter festivities, you're in luck. Leave it all to me.",
+            "context": "joined"
+        },
+        {
+            "text": "I asked Commander Anna what she'd like for the winter festival, and she said \"money.\" I think I'll stick to asking kids that question. I'm not sure my holiday spirit will survive otherwise.",
+            "context": "castle"
+        },
+        {
+            "text": "Before you summoned me, I was at a winter festival party at Ylisstol. The entire halidom is in fine spirits!",
+            "context": "castle"
+        },
+        {
+            "text": "I'm feeling chilly again today... I need to come up with a plan to stay warm. I hope no one catches a cold.",
+            "context": "castle"
+        },
+        {
+            "text": "Which Heroes are naughty, and which are nice? Just whisper their names into my ear. I'll keep that info tucked away until the next winter festival.",
+            "context": "castle"
+        },
+        {
+            "text": "I was just taking care of my tree. It's a bit of a pain to keep all of the decorations on it during battle.",
+            "context": "castle"
+        },
+        {
+            "text": "Happy winter festival! I come with greetings, but no gifts, from your friend <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "I will use this power to make the winter festival even more exciting!",
+            "context": "level"
+        },
+        {
+            "text": "My stocking was filled with potential for battle, I suppose.",
+            "context": "level"
+        },
+        {
+            "text": "This is no good at all! I'm trying to enjoy the winter festival...",
+            "context": "level"
+        },
+        {
+            "text": "Well, if you're going to give me a gift, I'll do the best I can with it!",
+            "context": "growth"
+        },
+        {
+            "text": "I was just mulling over a plan. What plan? How to help my dear friend— that's you—enjoy the winter festival. Well, first, you're going to need a red outfit like mine. Then we'd decorate a tree and eat a huge feast. When it got late, we'd go around delivering presents... It's hard to put presents next to everyone's pillows without waking them up, you realize. We're both tacticians, though, so I'm sure we could figure it out. In fact, maybe we should brainstorm some tactics before we begin. This is kind of exciting—a council of war! I've been looking forward to winter ever since I got here, you see... If I got my wish, I'd spend the winter festival with you for years to come!",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 22,
+        "atk": 8,
+        "spd": 7,
+        "def": 8,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 60,
+        "def": 60,
+        "res": 45
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 23,
+                "low": 22,
+                "high": 24
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 45,
+                "low": 41,
+                "high": 48
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "def": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "res": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 174
+            }
+        }
+    }
+}

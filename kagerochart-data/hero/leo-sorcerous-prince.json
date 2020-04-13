@@ -1,0 +1,214 @@
+{
+    "_id": "hero:leo-sorcerous-prince",
+    "display": "Leo: Sorcerous Prince",
+    "name": "Leo",
+    "color": "Red",
+    "weapon": [
+        {
+            "_id": "weapon:brynhildr",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:fenrir",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:ruin",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:flux",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:blazing-light",
+            "unlock": 4
+        },
+        {
+            "_id": "special:rising-light",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveB": [
+        {
+            "_id": "passive-b:quick-riposte-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:quick-riposte-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:quick-riposte-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:savage-blow-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:savage-blow-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:savage-blow-1",
+            "unlock": 3
+        }
+    ],
+    "passiveA": [],
+    "description": "A talented Nohrian prince who wields the divine tome Brynhildr. Appears in Fire Emblem Fates.",
+    "weaponType": "Red Tome",
+    "moveType": "Cavalry",
+    "origin": "Fire Emblem: Fates",
+    "gender": "Male",
+    "voiceActorEN": "Max Mittelman",
+    "voiceActorJP": "宮野真守",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistJP": "日野慎之助",
+    "artistEN": "Hino Shinnosuke",
+    "voiceActorJPEN": "Miyano Mamoru",
+    "insights": [
+        "Leo is the only hero with Brynhildr."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Sorcerous Prince",
+    "artist": "Hino Shinnosuke (日野慎之助)",
+    "dialogue": [
+        {
+            "text": "I am Leo, a prince of Nohr. I hold the divine tome Brynhildr, which grants me mastery over gravity. With less than a gesture, I have blasted many a fool to ashes.",
+            "context": "joined"
+        },
+        {
+            "text": "So, I came out of that divine weapon of yours, right? Ugh. A disgraceful way to summon royals!",
+            "context": "castle"
+        },
+        {
+            "text": "My retainers are Niles and Odin. You might find them...odd. But they're really not bad fellows.",
+            "context": "castle"
+        },
+        {
+            "text": "Good work with the patrols. It seems that the Order of Heroes keeps you on your toes. Let me know if I can help.",
+            "context": "castle"
+        },
+        {
+            "text": "I'm hoping this place maintains a library. I'd love to pore over books of this realm—especially its history.",
+            "context": "castle"
+        },
+        {
+            "text": "I have mastery over gravity, but I'll tell you, it's not the best idea to shake a tree for fruit. What a...mess.",
+            "context": "castle"
+        },
+        {
+            "text": "Hello there. I've come to convey greetings from someone you know named <Friend Name>. So, there you go.",
+            "context": "friend"
+        },
+        {
+            "text": "Amazing! Then again, I did work hard for it.",
+            "context": "level"
+        },
+        {
+            "text": "Any growth is good growth.",
+            "context": "level"
+        },
+        {
+            "text": "Given that, I can hardly call anyone else a disgrace.",
+            "context": "level"
+        },
+        {
+            "text": "You have my gratitude for giving me more power.",
+            "context": "growth"
+        },
+        {
+            "text": "I'm not surprised to see you here, <Player Name>. You always seem eager to chat. Even when I am cold and distant with you, you check up on me after battle with a kind word. And that concern and connection have made me stronger than I've ever been. This isn't something I would normally say aloud, but you make me feel valuable—even needed. That's why...I want you always to stay by my side. I never would have imagined this when I first got here, but...I feel as if I could trust my life to you. Argh, I sound pathetic. I don't imagine you'll ever let me hear the end of this, will you?",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 5,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 6,
+        "spd": 4,
+        "def": 5,
+        "res": 7
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 50,
+        "spd": 40,
+        "def": 45,
+        "res": 50
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 39,
+                "low": 35,
+                "high": 42
+            },
+            "atk": {
+                "base": 29,
+                "low": 25,
+                "high": 32
+            },
+            "spd": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "def": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "res": {
+                "base": 30,
+                "low": 26,
+                "high": 33
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 145
+            }
+        }
+    }
+}

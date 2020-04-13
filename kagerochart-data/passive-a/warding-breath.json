@@ -1,0 +1,8 @@
+{
+    "name": "Warding Breath",
+    "description": "If foe initiates combat, grants Res+4 during combat and Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
+    "docType": "passive-a",
+    "idTag": "SID_明鏡の呼吸",
+    "spCost": 240,
+    "_id": "passive-a:warding-breath"
+}

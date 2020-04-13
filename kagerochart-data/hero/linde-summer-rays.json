@@ -1,0 +1,208 @@
+{
+    "_id": "hero:linde-summer-rays",
+    "display": "Linde: Summer Rays",
+    "name": "Linde",
+    "color": "Colorless",
+    "weapon": [
+        {
+            "_id": "weapon:starfish-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:starfish",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-dagger",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-dagger",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:ardent-sacrifice",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "weaponType": "Colorless Dagger",
+    "moveType": "Cavalry",
+    "passiveA": [
+        {
+            "_id": "passive-a:brazen-atk-res-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:brazen-atk-res-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:brazen-atk-res-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:cancel-affinity-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:cancel-affinity-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:cancel-affinity-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [],
+    "insights": [
+        "Linde is the only Dagger/Cavalry hero.",
+        "Linde is the only hero with Starfish+.",
+        "Linde is the only hero with Starfish.",
+        "Linde has the lowest <abbr title=\"Defense\">DEF</abbr> potential possible among Cavalry heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Summer Rays",
+    "description": "Daughter of Pontifex Miloah from Archanea. She's a bit flustered, since she's not wearing her usual robe. Appears in Fire Emblem: Mystery of the Emblem.",
+    "artist": "Kippu (切符)",
+    "voiceActorEN": "Julie Ann Taylor",
+    "voiceActorJP": "瀬戸麻沙美",
+    "dialogue": [
+        {
+            "text": "I am Linde, daughter of Pontifex Miloah. My duty as a mage in your ranks will always come first, but... I am hoping to find some time to enjoy the summer weather as well.",
+            "context": "joined"
+        },
+        {
+            "text": "Swimsuits are made for swimming. Had I known I'd be battling too, I would have brought another outfit.",
+            "context": "castle"
+        },
+        {
+            "text": "I've never played at the beach before... I must be sure to tell Princess Nyna how much fun it is!",
+            "context": "castle"
+        },
+        {
+            "text": "You brought me a parasol for the sun? Thank you so much! But... Are you going to be OK? It's very sunny.",
+            "context": "castle"
+        },
+        {
+            "text": "You want to race me to the water? If you insist. But I must warn you... Walking normally on sand is a basic skill among mages!",
+            "context": "castle"
+        },
+        {
+            "text": "I don't have much swimming experience... Am I supposed to warm up first? Can you show me how?",
+            "context": "castle"
+        },
+        {
+            "text": "Are you <Player Name>? I have a summertime greeting for you from <Friend Name>!",
+            "context": "friend"
+        },
+        {
+            "text": "I feel amazing right now! Perhaps I'll go for a swim.",
+            "context": "level"
+        },
+        {
+            "text": "Don't underestimate me because I'm without my usual battle attire.",
+            "context": "level"
+        },
+        {
+            "text": "Sorry... I just didn't want to get a sunburn!",
+            "context": "level"
+        },
+        {
+            "text": "Oh, thank you so much! Now if only I could find my parasol...",
+            "context": "growth"
+        },
+        {
+            "text": "Don't you get hot wearing that hood in this heat? You're always looking after me, so I want to do the same for you. Huh? It's because you have nothing better to do? Hehe, well, if you say so... But I've seen how you help us. I am truly thankful to you for helping me find a few peaceful days among so much awful battle. Speaking of... Would you like to go for a swim with me while things are calm? We need to appreciate these peaceful moments while we can. But also... I'd like to remember this summer with you forever.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Mystery of the Emblem",
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 7,
+        "spd": 8,
+        "def": 2,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 40,
+        "atk": 60,
+        "spd": 60,
+        "def": 30,
+        "res": 45
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "atk": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 16,
+                "low": 12,
+                "high": 19
+            },
+            "res": {
+                "base": 26,
+                "low": 23,
+                "high": 30
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 144
+            }
+        }
+    }
+}

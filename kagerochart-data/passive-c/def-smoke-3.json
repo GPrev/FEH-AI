@@ -1,0 +1,8 @@
+{
+    "name": "Def Smoke 3",
+    "description": "Inflicts Def-7 on foes within 2 spaces of target through their next actions after combat.",
+    "docType": "passive-c",
+    "idTag": "SID_守備の紫煙3",
+    "spCost": 240,
+    "_id": "passive-c:def-smoke-3"
+}

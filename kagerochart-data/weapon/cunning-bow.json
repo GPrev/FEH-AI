@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Cunning Bow",
+    "description": "Grants Spd+3. Effective against flying foes. When total bonuses on unit + total penalties on foe ≥ 10, inflicts Atk/Spd/Def/Res-5 on foe during combat. (Example: if unit has a +5 bonus and foe has a -5 penalty, the calculated total will be 10.)",
+    "docType": "weapon",
+    "idTag": "SID_謀略の戦弓",
+    "spCost": 400,
+    "_id": "weapon:cunning-bow"
+}

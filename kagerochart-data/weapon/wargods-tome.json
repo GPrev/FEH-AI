@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Wargod's Tome",
+    "description": "At start of turn, inflicts Atk/Res-4 on foes in cardinal directions with Res < unit's Res through their next actions.",
+    "docType": "weapon",
+    "idTag": "SID_軍神の書",
+    "spCost": 400,
+    "_id": "weapon:wargods-tome"
+}

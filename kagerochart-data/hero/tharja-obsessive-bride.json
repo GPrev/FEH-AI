@@ -1,0 +1,212 @@
+{
+    "_id": "hero:tharja-obsessive-bride",
+    "display": "Tharja: Obsessive Bride",
+    "name": "Tharja",
+    "color": "Red",
+    "weapon": [
+        {
+            "_id": "weapon:muspell-fireposy",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:bolganone",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elfire",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:fire",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:rally-atk-spd",
+            "unlock": 4
+        },
+        {
+            "_id": "assist:rally-speed",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "weaponType": "Red Tome",
+    "moveType": "Infantry",
+    "passiveA": [
+        {
+            "_id": "passive-a:atk-spd-bond-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:atk-spd-bond-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:atk-spd-bond-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:spd-feint-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:spd-feint-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:spd-feint-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [],
+    "insights": [
+        "Tharja is the only hero with Múspell Fireposy.",
+        "Tharja is the only hero with Spd Feint 3.",
+        "Tharja is the only hero with Spd Feint 2.",
+        "Tharja is the only hero with Spd Feint 1."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Obsessive Bride",
+    "description": "A mage from Plegia with a dark side and a possessive streak. Determined to get her hands on the festival's prize, a bouquet. Appears in Fire Emblem Awakening.",
+    "artist": "Sencha (煎茶)",
+    "voiceActorEN": "Stephanie Sheh",
+    "voiceActorJP": "高田憂希",
+    "dialogue": [
+        {
+            "text": "I'm Tharja—just a typical spring bride! So, point me in the direction of my fated one, and I'll handle the rest.",
+            "context": "joined"
+        },
+        {
+            "text": "This gown is simply stifling... But I suppose we all suffer for those we love, from time to time.",
+            "context": "castle"
+        },
+        {
+            "text": "Love is a hex that binds two souls for as long as they both shall live. Whether I'm the hexed or the one doing the hexing... I'm ready.",
+            "context": "castle"
+        },
+        {
+            "text": "Ahh, I feel so relaxed right now... Maybe I'll cast a little curse on you.",
+            "context": "castle"
+        },
+        {
+            "text": "A little bit of this... And a little of that... Hmhmhm... This love potion will... Huh? Oh, it's you. Trust me when I say you're better off forgetting what you saw just now.",
+            "context": "castle"
+        },
+        {
+            "text": "Normally I spend my time researching new curses, but for some reason this outfit has my thoughts...elsewhere...",
+            "context": "castle"
+        },
+        {
+            "text": "Here's a message from <Friend Name>. Don't worry—I didn't hide a curse inside.",
+            "context": "friend"
+        },
+        {
+            "text": "I feel like the whole world is celebrating with me. Heehee...",
+            "context": "level"
+        },
+        {
+            "text": "Must be the power of love. Hmhmhm...",
+            "context": "level"
+        },
+        {
+            "text": "Someone is standing in the way of my happiness...",
+            "context": "level"
+        },
+        {
+            "text": "Is this a symbol of your love? Why, thank you...",
+            "context": "growth"
+        },
+        {
+            "text": "I'm glad you're here, <Player Name>. I...need your advice on something... I know who I'm fated to be with, of course. After all, I'm dressed up just for him. But then I came here and met you... And, well, somehow you've become just as important to me. So how am I supposed to choose between the two of you? Ugh, this is all your fault. So, now what should I do? I used to think love was a hex of happiness. But now I see it's a curse as dark and malicious as any other.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Awakening",
+    "tomeClass": 1,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 8,
+        "spd": 8,
+        "def": 5,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 60,
+        "def": 35,
+        "res": 40
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 39,
+                "low": 35,
+                "high": 42
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "res": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 151
+            }
+        }
+    }
+}

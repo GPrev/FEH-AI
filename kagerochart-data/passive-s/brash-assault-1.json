@@ -1,0 +1,14 @@
+{
+    "_id": "passive-s:brash-assault-1",
+    "name": "Brash Assault 1",
+    "sp": 50,
+    "type": "B",
+    "description": "Unit automatically makes a follow-up attack when at HP ≤ 30% and attacking a foe that can counter.",
+    "icon": "/images/icons/passives/brash-assault-1.png",
+    "docType": "passive-s",
+    "attackFollowUp": {
+        "trigger": "damaged",
+        "threshold": 0.3,
+        "counterable": true
+    }
+}

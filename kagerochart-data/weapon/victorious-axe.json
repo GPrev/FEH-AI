@@ -1,0 +1,12 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Victorious Axe",
+    "description": "Accelerates Special trigger (cooldown count-1). If the number of foes within 2 spaces (excluding target) ≥ the number of allies within 2 spaces (excluding unit), unit makes a guaranteed follow-up attack.",
+    "docType": "weapon",
+    "idTag": "SID_覇道の戦斧",
+    "spCost": 400,
+    "cooldownCount": -1,
+    "_id": "weapon:victorious-axe"
+}

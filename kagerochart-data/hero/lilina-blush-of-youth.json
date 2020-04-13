@@ -1,0 +1,212 @@
+{
+    "_id": "hero:lilina-blush-of-youth",
+    "display": "Lilina: Blush of Youth",
+    "name": "Lilina",
+    "color": "Green",
+    "weapon": [
+        {
+            "_id": "weapon:green-gift-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:green-gift",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elwind",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:wind",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:blazing-flame",
+            "unlock": 4
+        },
+        {
+            "_id": "special:rising-flame",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Green Tome",
+    "moveType": "Cavalry",
+    "passiveA": [
+        {
+            "_id": "passive-a:hp-atk-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:hp-atk-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:attack-plus-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:atk-tactic-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:atk-tactic-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:atk-tactic-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "insights": [
+        "Lilina is the only hero with Green Gift+.",
+        "Lilina is the only hero with Green Gift.",
+        "Lilina is the only hero with HP Atk 2.",
+        "Lilina is the only hero with HP Atk 1."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Blush of Youth",
+    "description": "A noble of Ostia and Roy's friend since childhood. Focused on choosing gifts for those dearest to her. Appears in Fire Emblem: The Binding Blade.",
+    "artist": "BUNBUN",
+    "voiceActorEN": "Julie Kliewer",
+    "voiceActorJP": "小澤亜李",
+    "dialogue": [
+        {
+            "text": "I'm Lilina, daughter of the Marquess Ostia. Will you be giving a gift to somebody as well?",
+            "context": "joined"
+        },
+        {
+            "text": "If I was going to give someone candy as a gift, would it be better if I made it by hand? I'd love to hear your opinion.",
+            "context": "castle"
+        },
+        {
+            "text": "You have a festival about love in your world, too? Who did you share your feelings with? Or maybe it was someone else who shared their feelings with you...",
+            "context": "castle"
+        },
+        {
+            "text": "You're saying sometimes the girl confesses her feelings first? I... I... You shouldn't try to rush things!",
+            "context": "castle"
+        },
+        {
+            "text": "If you don't mind, could you teach me how to bake? Something simple, like cakes or muffins.",
+            "context": "castle"
+        },
+        {
+            "text": "It's hard sometimes, telling someone how much you appreciate all they've done for you.",
+            "context": "castle"
+        },
+        {
+            "text": "I was asked by <Friend Name> to bring you a greeting. I have some sweets for you, too, if you'd like to try them.",
+            "context": "friend"
+        },
+        {
+            "text": "I feel courage welling up inside me... Time to share my feelings!",
+            "context": "level"
+        },
+        {
+            "text": "How wonderful. Today will be filled with lovely things!",
+            "context": "level"
+        },
+        {
+            "text": "Maybe I should wait until tomorrow to hand out gifts...",
+            "context": "level"
+        },
+        {
+            "text": "Thank you! I hope you look forward to my gift to you in return.",
+            "context": "growth"
+        },
+        {
+            "text": "What sort of present would be best? And when should I give it? What should I say when I do give it?! Eek! Oh, sorry! You startled me! Um... Would you mind forgetting my rambling just now? Though, actually... If you have a moment... May I ask you for some advice? I was hoping you could share what you know about this festival of love. You will? Oh, thank you! Heehee, you're so kind. OK, I'm counting on you to teach me everything you can!",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: The Binding Blade",
+    "tomeClass": 3,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 8,
+        "spd": 7,
+        "def": 4,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 40,
+        "atk": 60,
+        "spd": 50,
+        "def": 35,
+        "res": 50
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 30,
+                "low": 26,
+                "high": 33
+            },
+            "def": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "res": {
+                "base": 26,
+                "low": 22,
+                "high": 29
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 145
+            }
+        }
+    }
+}

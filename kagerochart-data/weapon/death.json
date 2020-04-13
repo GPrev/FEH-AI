@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Death",
+    "description": "Grants Res+3. Grants Atk/Spd/Def/Res+4 during combat. After combat, if unit attacked, deals 4 damage to unit.",
+    "docType": "weapon",
+    "idTag": "SID_デス",
+    "spCost": 400,
+    "_id": "weapon:death"
+}

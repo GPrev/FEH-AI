@@ -1,0 +1,11 @@
+{
+    "name": "Heal",
+    "description": "Restores 5 HP to target ally.",
+    "docType": "assist",
+    "idTag": "SID_ライブ",
+    "nextSkill": {
+        "_id": "assist:mend"
+    },
+    "spCost": 50,
+    "_id": "assist:heal"
+}

@@ -1,0 +1,218 @@
+{
+    "_id": "hero:olivia-festival-dancer",
+    "display": "Olivia: Festival Dancer",
+    "name": "Olivia",
+    "color": "Colorless",
+    "weapon": [
+        {
+            "_id": "weapon:dancers-fan-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:dancers-fan",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-dagger",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-dagger",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:dance",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:distant-def-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:distant-def-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:distant-def-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:blaze-dance-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:blaze-dance-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:blaze-dance-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [],
+    "description": "A dancer who brings a smile to people's faces. She had appeared at a performing arts festival in Ylisse. Appears in Fire Emblem Awakening.",
+    "weaponType": "Colorless Dagger",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Awakening",
+    "gender": "Female",
+    "voiceActorEN": "Karen Strassman",
+    "voiceActorJP": "松嵜麗",
+    "releaseDate": "2017-09-29T00:00:00.000Z",
+    "artistJP": "チ一コ",
+    "artistEN": "Chiko",
+    "voiceActorJPEN": "Matsuzaki Rei",
+    "insights": [
+        "Olivia is the only hero with Dancer's Fan+.",
+        "Olivia is the only hero with Dancer's Fan.",
+        "Olivia is the only hero with Blaze Dance 3.",
+        "Olivia is the only hero with Blaze Dance 2.",
+        "Olivia is the only hero with Blaze Dance 1.",
+        "Olivia has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible in Fire Emblem Heroes.",
+        "Olivia has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Infantry heroes.",
+        "Olivia has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Dagger heroes.",
+        "Olivia has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Colorless heroes."
+    ],
+    "refresher": true,
+    "dragonflowers": 10,
+    "epitet": "Festival Dancer",
+    "artist": "Chiko (チーコ)",
+    "dialogue": [
+        {
+            "text": "Hi there... I'm Olivia. I was performing my dance at an arts festival. Where am I now?",
+            "context": "joined"
+        },
+        {
+            "text": "Dancing for the Order of Heroes is a lot of fun. And all my experiences here will help me grow as a dancer.",
+            "context": "castle"
+        },
+        {
+            "text": "I once ran into an old friend during a performing arts festival in Ylisse. I had so much fun dancing with everyone!",
+            "context": "castle"
+        },
+        {
+            "text": "I really appreciate how you watch over us all. If you ever need me to lift your spirits, I'll dance for you, anytime.",
+            "context": "castle"
+        },
+        {
+            "text": "Do you know how to dance? I'd love to learn some of this world's dances. I never forget choreography.",
+            "context": "castle"
+        },
+        {
+            "text": "Whew! I'm all done with maintenance on my dancing costumes and fans. They're an important part of the performance—they make everything more enjoyable to watch.",
+            "context": "castle"
+        },
+        {
+            "text": "Well, hello there! I bring greetings for <Player Name>! Would you like to see a dance, too? I'd love to show you one!",
+            "context": "friend"
+        },
+        {
+            "text": "Dancing is quite a workout!",
+            "context": "level"
+        },
+        {
+            "text": "I need to get in shape by the next festival!",
+            "context": "level"
+        },
+        {
+            "text": "Oh, no! I guess it's practice, practice, practice for me... ",
+            "context": "level"
+        },
+        {
+            "text": "Thank you! I should be able to dance with strength now.",
+            "context": "growth"
+        },
+        {
+            "text": "5...6...7...8... Oh, hi there! Are you curious to learn more about this dance? That's great! I'm thinking about performing this at the next festival. When people watch dances from across the worlds... You should see the way their faces light up. I'm working out how to include some Askran flourishes. No, I misspoke... I'm basing my choreography on you. I always keep an eye on you—and how you move. When you summon, during battle... And in particular, how you look at all of us Heroes. Your kindness shines. You see, when I return home someday... I want everyone to really see what a wonderful person you are. Thank you for that smile. It...means a lot to me. You'll always have a place in my heart.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 14,
+        "atk": 5,
+        "spd": 7,
+        "def": 2,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 50,
+        "spd": 60,
+        "def": 30,
+        "res": 55
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 15,
+                "low": 14,
+                "high": 16
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 34,
+                "low": 31,
+                "high": 38
+            },
+            "atk": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "spd": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "def": {
+                "base": 16,
+                "low": 12,
+                "high": 19
+            },
+            "res": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 140
+            }
+        }
+    }
+}

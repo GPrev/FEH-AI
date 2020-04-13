@@ -1,0 +1,219 @@
+{
+    "_id": "hero:hector-marquess-of-ostia",
+    "display": "Hector: Marquess of Ostia",
+    "name": "Hector",
+    "color": "Green",
+    "legendary": {
+        "element": "Fire",
+        "bst": 0,
+        "stats": {
+            "hp": 3,
+            "atk": 2
+        },
+        "duel": false,
+        "duo_skill_id": null,
+        "kind": 1,
+        "pair_up": false
+    },
+    "weapon": [
+        {
+            "_id": "weapon:thunder-armads",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-axe",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-axe",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-axe",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:draconic-aura",
+            "unlock": 4
+        },
+        {
+            "_id": "special:dragon-gaze",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Green Axe",
+    "moveType": "Armored",
+    "passiveA": [
+        {
+            "_id": "passive-a:distant-counter",
+            "unlock": 5
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:vengeful-fighter-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:vengeful-fighter-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:vengeful-fighter-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:ostias-pulse",
+            "unlock": 5
+        }
+    ],
+    "insights": [
+        "Hector is the only hero with Thunder Armads.",
+        "Hector is the only hero with Ostia's Pulse."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Marquess of Ostia",
+    "description": "Hector has ascended as the Marquess of Ostia. Will renewed, he swings Armads and leads the people. Appears in Fire Emblem: The Blazing Blade.",
+    "artist": "Wada Sachiko (ワダサチコ)",
+    "voiceActorEN": "Patrick Seitz",
+    "voiceActorJP": "鳥海浩輔",
+    "dialogue": [
+        {
+            "text": "I'm Hector, Marquess of Ostia. Armads and I both are in your service. Man, fancy introductions like that just aren't my style...",
+            "context": "joined"
+        },
+        {
+            "text": "Being marquess has me cooped up in a castle all day. I don't have time to move around like this anymore. That's a pretty big plus for this place!",
+            "context": "castle"
+        },
+        {
+            "text": "I often wonder who would win in a spar... My kid, or Eliwood's. Those two don't spar like we used to!",
+            "context": "castle"
+        },
+        {
+            "text": "Hey, try not to look like you're just loitering. The big boss has gotta be looking in control and composed! Huh? Same goes for me? Aw, you know as well as I do, that just isn't my style.",
+            "context": "castle"
+        },
+        {
+            "text": "Armads has been my stalwart partner for quite some time. He loves to fight, so I bet you he's happy here!",
+            "context": "castle"
+        },
+        {
+            "text": "This castle never fails to impress. But my hope is that someday kingdoms won't need sturdy walls for protection. There will just be peace.",
+            "context": "castle"
+        },
+        {
+            "text": "I'm Hector, Marquess of Ostia. I'm here at the request of your friend <Friend Name>. Can you make sure their message gets to the right person?",
+            "context": "friend"
+        },
+        {
+            "text": "Oho, now this is more like it! The great Lord Hector's true power!",
+            "context": "level"
+        },
+        {
+            "text": "Not bad, not bad... But I know there's more I can do!",
+            "context": "level"
+        },
+        {
+            "text": "Uh... Is that it? Maybe I'm losing my touch.",
+            "context": "level"
+        },
+        {
+            "text": "It's like polishing a diamond. I just get brighter and brighter!",
+            "context": "growth"
+        },
+        {
+            "text": "Mind sitting with me for a bit? There's something I want to ask you. Do you...believe in destiny? Not too long ago, I would've laughed at the idea. But now... Well, things sure have changed. Whether or not you believe in destiny isn't what matters. What matters is that you don't regret your decisions. As long as you're strong to the core, you'll be ready no matter what the future throws at you. You won't blink when faced with a life- or-death moment. This goes for me... But it goes for you, too. I can just tell. The look on your face says it all. I know, I know, I'm not usually one for talks such as these. Being marquess is one thing I'm not cut out for. But I guess... It is what it is, right? And that means I've gotta lecture from time to time, so just work with me.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: The Blazing Blade",
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 22,
+        "atk": 9,
+        "spd": 5,
+        "def": 11,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 70,
+        "spd": 40,
+        "def": 60,
+        "res": 50
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 23,
+                "low": 22,
+                "high": 24
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 12,
+                "low": 11,
+                "high": 13
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 47,
+                "low": 44,
+                "high": 50
+            },
+            "atk": {
+                "base": 40,
+                "low": 37,
+                "high": 44
+            },
+            "spd": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            },
+            "def": {
+                "base": 38,
+                "low": 35,
+                "high": 41
+            },
+            "res": {
+                "base": 26,
+                "low": 22,
+                "high": 29
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 174
+            }
+        }
+    }
+}

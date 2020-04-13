@@ -1,0 +1,11 @@
+{
+    "name": "Threaten Atk 2",
+    "description": "At start of turn, inflicts Atk-4 on foes within 2 spaces through their next actions.",
+    "docType": "passive-c",
+    "idTag": "SID_攻撃の威嚇2",
+    "nextSkill": {
+        "_id": "passive-c:threaten-atk-3"
+    },
+    "spCost": 100,
+    "_id": "passive-c:threaten-atk-2"
+}

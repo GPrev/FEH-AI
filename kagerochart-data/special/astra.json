@@ -1,0 +1,9 @@
+{
+    "name": "Astra",
+    "description": "Boosts damage dealt by 150%.",
+    "docType": "special",
+    "idTag": "SID_流星",
+    "spCost": 200,
+    "cooldownCount": 4,
+    "_id": "special:astra"
+}

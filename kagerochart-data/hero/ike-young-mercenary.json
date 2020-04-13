@@ -1,0 +1,218 @@
+{
+    "_id": "hero:ike-young-mercenary",
+    "display": "Ike: Young Mercenary",
+    "name": "Ike",
+    "color": "Red",
+    "weapon": [
+        {
+            "_id": "weapon:ragnell",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-sword",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:aether",
+            "unlock": 5
+        },
+        {
+            "_id": "special:luna",
+            "unlock": 4
+        },
+        {
+            "_id": "special:new-moon",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:heavy-blade-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:heavy-blade-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:heavy-blade-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:swordbreaker-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:swordbreaker-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:swordbreaker-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [],
+    "description": "A kindhearted but stoic young man who has taken command of his father's mercenary band. Appears in Fire Emblem: Path of Radiance.",
+    "weaponType": "Red Sword",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Path of Radiance",
+    "gender": "Male",
+    "voiceActorEN": "Greg Chun",
+    "voiceActorJP": "萩道彦",
+    "releaseDate": "2017-04-28T07:00:00.000Z",
+    "artistJP": "めか",
+    "artistEN": "Meka",
+    "voiceActorJPEN": "Hagi Michihiko",
+    "insights": [
+        "Orb bait."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Young Mercenary",
+    "artist": "Meka (めか)",
+    "dialogue": [
+        {
+            "text": "I'm Ike of the Greil Mercenaries. You the one hiring me? Fine. I'm ready to get to work.",
+            "context": "joined"
+        },
+        {
+            "text": "The Heroes here are strong. Being around them makes me feel... Huh. Doesn't matter. I just need to get stronger.",
+            "context": "castle"
+        },
+        {
+            "text": "I'm part of a group known as the Greil Mercenaries back in my world. Though I'm its leader... I wouldn't exactly say that I've got a handle on our finances yet.",
+            "context": "castle"
+        },
+        {
+            "text": "You worn out? Let me know if you are. I'll help, unless you think I'll just get in your way.",
+            "context": "castle"
+        },
+        {
+            "text": "I train when I can, though usually by myself. I'm not all that great when it comes to...you know, talk.",
+            "context": "castle"
+        },
+        {
+            "text": "I'd spar with my father a lot during practice when I was younger. I'd lose every time. Get upset. Then take him on again.",
+            "context": "castle"
+        },
+        {
+            "text": "Are you the leader here? In any case, I've come with greetings from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Feels good to have a surge like that. Real good!",
+            "context": "level"
+        },
+        {
+            "text": "I must get stronger. I must avenge my father.",
+            "context": "level"
+        },
+        {
+            "text": "I'll never match his level of ability at this rate...",
+            "context": "level"
+        },
+        {
+            "text": "You have my gratitude. I swear to repay this debt.",
+            "context": "growth"
+        },
+        {
+            "text": "Back when my father was teaching me how to use a sword, I was barely more than a boy. Every training battle was more frustrating than the last. I...I just struggled with it constantly. Then he died. I had to protect my sister, the Greil Mercenaries, everyone that he did...it was all on me. But I was told to use what I'd been given. If I did, then great things would happen. That really stuck with me. Now here I am, fighting in battles with real Heroes. And I'm battling enemies that are sometimes stronger than I am. Do I really have a place here? But you hired me—rolled the dice that I might help you do great things here. So...right. Let's just cut this short there. You believed in me, so I'm glad to give my all for you.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 8,
+        "spd": 6,
+        "def": 7,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 60,
+        "spd": 55,
+        "def": 55,
+        "res": 30
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 42,
+                "low": 39,
+                "high": 45
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "def": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "res": {
+                "base": 18,
+                "low": 14,
+                "high": 21
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 158
+            }
+        }
+    }
+}

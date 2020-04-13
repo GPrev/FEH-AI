@@ -1,0 +1,9 @@
+{
+    "name": "Aegis",
+    "description": "If foe's Range = 2, reduces damage from that foe's attack by 50%.",
+    "docType": "special",
+    "idTag": "SID_聖盾",
+    "spCost": 200,
+    "cooldownCount": 3,
+    "_id": "special:aegis"
+}

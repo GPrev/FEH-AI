@@ -1,0 +1,11 @@
+{
+    "name": "Fortress Res 2",
+    "description": "Grants Res+4. Inflicts Atk-3.",
+    "docType": "passive-a",
+    "idTag": "SID_魔防の城塞2",
+    "nextSkill": {
+        "_id": "passive-a:fortress-res-3"
+    },
+    "spCost": 80,
+    "_id": "passive-a:fortress-res-2"
+}

@@ -1,0 +1,9 @@
+{
+    "exclusive": true,
+    "name": "S Drink",
+    "description": "At the start of turn 1, restores 99 HP and grants Special cooldown count-1.",
+    "docType": "passive-b",
+    "idTag": "SID_Ｓドリンク",
+    "spCost": 300,
+    "_id": "passive-b:s-drink"
+}

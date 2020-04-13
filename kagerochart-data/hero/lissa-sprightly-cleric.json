@@ -1,0 +1,323 @@
+{
+    "_id": "hero:lissa-sprightly-cleric",
+    "display": "Lissa: Sprightly Cleric",
+    "name": "Lissa",
+    "color": "Colorless",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:gravity-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:gravity",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:assault",
+            "unlock": 1
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:kindled-fire-balm",
+            "unlock": 3
+        },
+        {
+            "_id": "special:imbue",
+            "unlock": 2
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:rehabilitate-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "assist:rehabilitate",
+            "unlock": 4
+        },
+        {
+            "_id": "assist:reconcile",
+            "unlock": 2
+        },
+        {
+            "_id": "assist:heal",
+            "unlock": 0
+        }
+    ],
+    "docType": "hero",
+    "passiveB": [
+        {
+            "_id": "passive-b:renewal-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:renewal-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:renewal-1",
+            "unlock": 3
+        }
+    ],
+    "passiveA": [],
+    "passiveC": [],
+    "description": "Princess of Ylisse's royal house and Chrom's younger sister. Determined to prove herself. Appears in Fire Emblem Awakening.",
+    "weaponType": "Colorless Staff",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Awakening",
+    "gender": "Female",
+    "voiceActorEN": "Kate Davis",
+    "voiceActorJP": "阿澄佳奈",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistJP": "ザザ",
+    "artistEN": "Zaza",
+    "voiceActorJPEN": "Asumi Kana",
+    "insights": [],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Sprightly Cleric",
+    "artist": "Zaza (ザザ)",
+    "dialogue": [
+        {
+            "text": "I'm Lissa, and despite what my brother says, I am not delicate! I'm a princess and a member of the Shepherds!",
+            "context": "joined"
+        },
+        {
+            "text": "I wish I knew why I don't have the royal Brand like my brother and sister...",
+            "context": "castle"
+        },
+        {
+            "text": "I'm a Shepherd, just like my brother. We travel everywhere and help people all over the world!",
+            "context": "castle"
+        },
+        {
+            "text": "You feeling OK? If you get hurt, just let me know. I'll have you patched up in a jiffy!",
+            "context": "castle"
+        },
+        {
+            "text": "Sharena seems nice. I wonder if we could have a \"princess chat\" sometime...",
+            "context": "castle"
+        },
+        {
+            "text": "Heehee! I'll put the frog here and... AH, <Player Name>?! Awww, you caught me before I pulled the BEST prank!",
+            "context": "castle"
+        },
+        {
+            "text": "Hey, <Player Name>! Guess who sent me to say hello? It was <Friend Name>!",
+            "context": "friend"
+        },
+        {
+            "text": "I think I'm ready for the front lines!",
+            "context": "level"
+        },
+        {
+            "text": "I've still got a few tricks up my sleeve!",
+            "context": "level"
+        },
+        {
+            "text": "Maybe I didn't work hard enough?",
+            "context": "level"
+        },
+        {
+            "text": "I've come far since meeting you.",
+            "context": "growth"
+        },
+        {
+            "text": "Hey! I was thinking that I've grown up a lot since I got here. Don'tcha think, <Player Name>? I've learned to fight, I've made friends with people in the Order, and I always clean my plate! ...Thanks! Glad you agree! Of course, it's all because of your help that I'm so princessy now! I feel like I'm one step closer to being the ideal lady. I hope you'll keep helping me get there! Oh, and I've gotten better at little pranks, too. I can't wait for you to find the frog I just hid!",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 6,
+        "spd": 5,
+        "def": 5,
+        "res": 7
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 45,
+        "spd": 45,
+        "def": 50,
+        "res": 50
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "atk": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            },
+            "spd": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "def": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "res": {
+                "base": 26,
+                "low": 23,
+                "high": 29
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "atk": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            },
+            "spd": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            },
+            "def": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            },
+            "res": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 39,
+                "low": 35,
+                "high": 42
+            },
+            "atk": {
+                "base": 26,
+                "low": 23,
+                "high": 30
+            },
+            "spd": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "def": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "res": {
+                "base": 30,
+                "low": 26,
+                "high": 33
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 148
+            }
+        }
+    }
+}

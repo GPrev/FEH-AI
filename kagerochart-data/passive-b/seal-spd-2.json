@@ -1,0 +1,11 @@
+{
+    "name": "Seal Spd 2",
+    "description": "Inflicts Spd-5 on foe through its next action after combat.",
+    "docType": "passive-b",
+    "idTag": "SID_速さ封じ2",
+    "nextSkill": {
+        "_id": "passive-b:seal-spd-3"
+    },
+    "spCost": 80,
+    "_id": "passive-b:seal-spd-2"
+}

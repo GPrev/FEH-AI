@@ -1,0 +1,211 @@
+{
+    "_id": "hero:myrrh-great-dragon",
+    "display": "Myrrh: Great Dragon",
+    "name": "Myrrh",
+    "color": "Green",
+    "weapon": [
+        {
+            "_id": "weapon:great-flame",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:flametongue",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:fire-breath-plus",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:fire-breath",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:bonfire",
+            "unlock": 4
+        },
+        {
+            "_id": "special:glowing-ember",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Green Breath",
+    "moveType": "Flying",
+    "passiveA": [
+        {
+            "_id": "passive-a:fury-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:fury-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:fury-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:hone-dragons",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:hone-atk-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:hone-atk-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [],
+    "insights": [
+        "Myrrh is the only hero with Great Flame.",
+        "Myrrh has the highest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Flying heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Great Dragon",
+    "description": "A manakete who is much older than her appearance suggests. She's shy but oddly attached to Ephraim. Appears in Fire Emblem: The Sacred Stones.",
+    "artist": "Amagaitaro (アマガイタロー)",
+    "voiceActorEN": "Erica Lindbeck",
+    "voiceActorJP": "門脇舞以",
+    "dialogue": [
+        {
+            "text": "I'm Myrrh, from Darkling Woods. What? It's impolite to ask a woman her age. That's what Ephraim says. I think you're being rude.",
+            "context": "joined"
+        },
+        {
+            "text": "Father... Brother... I miss you.",
+            "context": "castle"
+        },
+        {
+            "text": "The Darkling Woods, where I was born, are very peaceful. Well, they were...until one day...",
+            "context": "castle"
+        },
+        {
+            "text": "Are you doing OK? Oh, no... Don't worry. It's just that you looked so sad to me.",
+            "context": "castle"
+        },
+        {
+            "text": "Um... I have a request. Would you mind watching over me while I take a nap? I don't like sleeping alone.",
+            "context": "castle"
+        },
+        {
+            "text": "I was looking at the sky. It's a pretty kind of blue... I wonder if it stretches all the way back to the woods I come from.",
+            "context": "castle"
+        },
+        {
+            "text": "I'm Myrrh. I come with greetings from <Friend Name>... Oh, and hello from me, too.",
+            "context": "friend"
+        },
+        {
+            "text": "I've been doing a good job, right? Oh...you don't need to pet me.",
+            "context": "level"
+        },
+        {
+            "text": "I'll keep on trying.",
+            "context": "level"
+        },
+        {
+            "text": "Aww... Did anything even change?",
+            "context": "level"
+        },
+        {
+            "text": "Did this power come from humans...or monsters?",
+            "context": "growth"
+        },
+        {
+            "text": "You worry about me a lot, don't you? I'm fine. I promise. People are born every day. They laugh, they cry, and someday...they die. I've seen it so many times... Dragons...are both human and monster. And so we are also neither, and part of neither community. That used to make me sad. It doesn't anymore. I think it's better this way. I will watch over everyone, until the very end... And I will live with their memories. You work harder than anybody else. I love to see that. I promise that I will always, always remember you.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: The Sacred Stones",
+    "releaseDate": "2018-01-25T07:00:00.000Z",
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 6,
+        "spd": 5,
+        "def": 2,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 60,
+        "atk": 60,
+        "spd": 45,
+        "def": 75,
+        "res": 55
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 42,
+                "low": 39,
+                "high": 45
+            },
+            "atk": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "spd": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "def": {
+                "base": 36,
+                "low": 32,
+                "high": 39
+            },
+            "res": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 167
+            }
+        }
+    }
+}

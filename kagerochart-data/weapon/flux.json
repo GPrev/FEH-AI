@@ -1,0 +1,12 @@
+{
+    "range": 2,
+    "might": 4,
+    "name": "Flux",
+    "docType": "weapon",
+    "idTag": "SID_ミィル",
+    "nextSkill": {
+        "_id": "weapon:ruin"
+    },
+    "spCost": 50,
+    "_id": "weapon:flux"
+}

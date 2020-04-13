@@ -1,0 +1,10 @@
+{
+    "exclusive": true,
+    "name": "Sirius",
+    "description": "Boosts damage by 30% of unit's Spd. Restores HP = 30% of damage dealt.",
+    "docType": "special",
+    "idTag": "SID_天狼",
+    "spCost": 500,
+    "cooldownCount": 2,
+    "_id": "special:sirius"
+}

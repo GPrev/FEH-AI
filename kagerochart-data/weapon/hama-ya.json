@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Hama Ya",
+    "description": "Effective against flying foes. Grants Def/Res+2 to allies within 2 spaces during combat.",
+    "docType": "weapon",
+    "idTag": "SID_破魔矢",
+    "nextSkill": {
+        "_id": "weapon:hama-ya-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:hama-ya"
+}

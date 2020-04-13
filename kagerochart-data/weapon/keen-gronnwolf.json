@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Keen Gronnwolf",
+    "description": "Effective against cavalry foes.",
+    "docType": "weapon",
+    "idTag": "SID_グルンウルフ2",
+    "nextSkill": {
+        "_id": "weapon:keen-gronnwolf-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:keen-gronnwolf"
+}

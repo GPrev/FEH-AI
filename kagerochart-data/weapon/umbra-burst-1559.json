@@ -1,0 +1,10 @@
+{
+    "range": 2,
+    "might": 14,
+    "name": "Umbra Burst",
+    "description": "Unit can counterattack regardless of foe's range. Calculates damage from staff like other weapons. Deals a minimum of 1 damage.",
+    "docType": "weapon",
+    "idTag": "SID_影没の波動・杖",
+    "spCost": 0,
+    "_id": "weapon:umbra-burst-1559"
+}

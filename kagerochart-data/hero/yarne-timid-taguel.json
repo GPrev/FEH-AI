@@ -1,0 +1,223 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Yarne",
+    "epitet": "Timid Taguel",
+    "display": "Yarne: Timid Taguel",
+    "description": "Panne's son. The last of the taguel. Continually terrified that his death will mark the end of his race. Appears in Fire Emblem Awakening.",
+    "artist": "PenekoR (п猫Ｒ)",
+    "voiceActorEN": "Chris Smith",
+    "voiceActorJP": "遠藤大輔",
+    "dialogue": [
+        {
+            "text": "I'm Yarne, Panne's son. If I die, the taguel go extinct, so...keep me somewhere safe, please!",
+            "context": "joined"
+        },
+        {
+            "text": "Can you summon some more taguel with that divine weapon? We could stop worrying about extinction! What? You can't control who you summon? Well...that's too bad.",
+            "context": "castle"
+        },
+        {
+            "text": "I don't want to die. I'm sure that's how everybody feels... Including the folks who died in that terrible future. That's why I'm fighting to save them.",
+            "context": "castle"
+        },
+        {
+            "text": "You always look so busy. Why don't you take a break and pet my fur? I hear that it's pretty relaxing.",
+            "context": "castle"
+        },
+        {
+            "text": "I'm not big on danger, but I don't want to see you go extinct, either. On the battlefield, you stay behind me, OK?",
+            "context": "castle"
+        },
+        {
+            "text": "There are so many different Heroes here... It's fascinating! I wonder if anybody else can turn into an animal! Maybe a fox, a cat, a wolf... Even a bird!",
+            "context": "castle"
+        },
+        {
+            "text": "Agh! Don't do that! You scared me. Once I greet you, I'll be on my way! Hello, <Player Name>!",
+            "context": "friend"
+        },
+        {
+            "text": "The future of the taguel is lookin' bright!",
+            "context": "level"
+        },
+        {
+            "text": "Getting stronger is great, and it makes me worry a little less.",
+            "context": "level"
+        },
+        {
+            "text": "Ack! If I don't pick up the pace, I'm extinct!",
+            "context": "level"
+        },
+        {
+            "text": "Hey! You're helping me get stronger. Take that, extinction!",
+            "context": "growth"
+        },
+        {
+            "text": "Hey, <Player Name>... Did you notice? I didn't jump when you spoke to me. I heard you coming. Lately, I catch myself listening for your footsteps, wondering where you're going... If you ended up getting attacked, summoners would go extinct! And I'd be pretty lonely. If you're ever in danger, shout my name, or just make a loud noise. I'll hear it and come running! Thanks to you, I've gotten plenty strong. Now I can protect you! Thanks for giving me the courage to help.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Green",
+    "origin": "Fire Emblem: Awakening",
+    "releaseDate": "2019-06-11T07:00:00.000Z",
+    "weapon": [
+        {
+            "_id": "weapon:bunny-fang",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:adult-cavalry",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:yearling-cavalry",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:whelp-cavalry",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:galeforce",
+            "unlock": 5
+        },
+        {
+            "_id": "special:astra",
+            "unlock": 4
+        },
+        {
+            "_id": "special:night-sky",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Green Beast",
+    "tomeClass": 0,
+    "moveType": "Cavalry",
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 8,
+        "spd": 6,
+        "def": 7,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 60,
+        "def": 55,
+        "res": 30
+    },
+    "passiveB": [
+        {
+            "_id": "passive-b:escape-route-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:escape-route-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:escape-route-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:atk-spd-solo-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:atk-spd-solo-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:atk-spd-solo-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:odd-spd-wave-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:odd-spd-wave-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:odd-spd-wave-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:yarne-timid-taguel",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 40,
+                "low": 36,
+                "high": 43
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "res": {
+                "base": 17,
+                "low": 13,
+                "high": 20
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 157
+            }
+        }
+    }
+}

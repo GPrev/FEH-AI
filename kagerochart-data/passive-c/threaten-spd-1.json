@@ -1,0 +1,11 @@
+{
+    "name": "Threaten Spd 1",
+    "description": "At start of turn, inflicts Spd-3 on foes within 2 spaces through their next actions.",
+    "docType": "passive-c",
+    "idTag": "SID_速さの威嚇1",
+    "nextSkill": {
+        "_id": "passive-c:threaten-spd-2"
+    },
+    "spCost": 50,
+    "_id": "passive-c:threaten-spd-1"
+}

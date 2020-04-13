@@ -1,0 +1,72 @@
+{
+    "range": 1,
+    "might": 14,
+    "name": "Zanbato+",
+    "description": "Effective against cavalry foes.",
+    "docType": "weapon",
+    "idTag": "SID_斬馬刀＋",
+    "spCost": 300,
+    "_id": "weapon:zanbato-plus",
+    "refines": [
+        {
+            "might": 14,
+            "stats": {
+                "hp": 5,
+                "spd": 3
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 16,
+            "stats": {
+                "hp": 5,
+                "atk": 2
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 14,
+            "stats": {
+                "hp": 5,
+                "def": 4
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 14,
+            "stats": {
+                "hp": 5,
+                "res": 4
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 14,
+            "stats": {
+                "hp": 3
+            },
+            "description": "Neutralizes cavalry foes’ bonuses (from skills like Fortify, Rally, etc.) during combat.",
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        }
+    ]
+}

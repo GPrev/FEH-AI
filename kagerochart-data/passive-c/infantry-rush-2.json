@@ -1,0 +1,11 @@
+{
+    "name": "Infantry Rush 2",
+    "description": "Infantry allies within 2 spaces gain: \"If unit's Atk ≥ foe's Atk+3, grants Special cooldown charge +1 per unit's attack. (Only highest value applied. Does not stack.)\"",
+    "docType": "passive-c",
+    "idTag": "SID_歩行の剛撃2",
+    "nextSkill": {
+        "_id": "passive-c:infantry-rush-3"
+    },
+    "spCost": 120,
+    "_id": "passive-c:infantry-rush-2"
+}

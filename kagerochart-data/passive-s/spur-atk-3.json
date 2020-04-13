@@ -1,0 +1,9 @@
+{
+    "_id": "passive-s:spur-atk-3",
+    "name": "Spur Atk 3",
+    "sp": 200,
+    "type": "s",
+    "description": "Grants adjacent allies Atk+4 during combat.",
+    "icon": "/images/icons/passives/spur-atk-3.png",
+    "docType": "passive-s"
+}

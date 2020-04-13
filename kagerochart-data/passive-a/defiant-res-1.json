@@ -1,0 +1,11 @@
+{
+    "name": "Defiant Res 1",
+    "description": "At start of turn, if unit's HP ≤ 50%, grants Res+3 for 1 turn.",
+    "docType": "passive-a",
+    "idTag": "SID_魔防の覚醒1",
+    "nextSkill": {
+        "_id": "passive-a:defiant-res-2"
+    },
+    "spCost": 40,
+    "_id": "passive-a:defiant-res-1"
+}

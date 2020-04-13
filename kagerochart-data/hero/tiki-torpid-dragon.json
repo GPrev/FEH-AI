@@ -1,0 +1,211 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Tiki",
+    "epitet": "Torpid Dragon",
+    "display": "Tiki: Torpid Dragon",
+    "description": "Princess of the Divine Dragon tribe. She was taken to the Fane of Raman and, under Gharnef's control, incinerated all those who entered. Appears in Fire Emblem: Mystery of the Emblem.",
+    "artist": "lack",
+    "voiceActorEN": "Mela Lee",
+    "voiceActorJP": "諸星すみれ",
+    "dialogue": [
+        {
+            "text": "I am...Tiki... The holy grounds must be cleansed of those who taint it...",
+            "context": "joined"
+        },
+        {
+            "text": "Defilers... They must be punished...",
+            "context": "castle"
+        },
+        {
+            "text": "Where are you, Ban-Ban? I'm... so frightened...",
+            "context": "castle"
+        },
+        {
+            "text": "No... Stop... Come no closer...",
+            "context": "castle"
+        },
+        {
+            "text": "Are you...another part of my dream?",
+            "context": "castle"
+        },
+        {
+            "text": "If I keep my eyes closed like this... time will just pass me by...",
+            "context": "castle"
+        },
+        {
+            "text": "Th-this is...something I must give you. It's from <Friend Name>...",
+            "context": "friend"
+        },
+        {
+            "text": "I can't...keep going...",
+            "context": "level"
+        },
+        {
+            "text": "You shouldn't come so close to me... Bad things happen.",
+            "context": "level"
+        },
+        {
+            "text": "No! I-I can't... I'm so scared!",
+            "context": "level"
+        },
+        {
+            "text": "Defilers...must be punished...",
+            "context": "growth"
+        },
+        {
+            "text": "I'm s-so...scared... Don't leave me... Please... ...Hm? O-oh, <Player Name>! In my dreams...I always have the same nightmare... Everyone leaves... and I stay behind... But you're different... You stay with me, <Player Name>... Please, promise you'll never leave me... I hate being alone...",
+            "context": "maxed"
+        }
+    ],
+    "color": "Colorless",
+    "origin": "Fire Emblem: Mystery of the Emblem",
+    "releaseDate": "2019-05-10T07:00:00.000Z",
+    "weapon": [
+        {
+            "_id": "weapon:razing-breath",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:flametongue",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:fire-breath-plus",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:fire-breath",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:ignis",
+            "unlock": 4
+        },
+        {
+            "_id": "special:glowing-ember",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Colorless Breath",
+    "tomeClass": 0,
+    "moveType": "Armored",
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 9,
+        "spd": 9,
+        "def": 3,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 65,
+        "atk": 60,
+        "spd": 55,
+        "def": 75,
+        "res": 50
+    },
+    "passiveA": [
+        {
+            "_id": "passive-a:brazen-atk-spd-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:brazen-atk-spd-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:brazen-atk-spd-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:special-fighter-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:special-fighter-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:special-fighter-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:solitary-dream",
+            "unlock": 5
+        }
+    ],
+    "_id": "hero:tiki-torpid-dragon",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 45,
+                "low": 42,
+                "high": 48
+            },
+            "atk": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "spd": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "def": {
+                "base": 37,
+                "low": 33,
+                "high": 40
+            },
+            "res": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 180
+            }
+        }
+    }
+}

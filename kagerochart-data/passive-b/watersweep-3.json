@@ -1,0 +1,8 @@
+{
+    "name": "Watersweep 3",
+    "description": "If unit initiates combat, unit cannot make a follow-up attack. If unit’s Spd > foe’s Spd and foe uses magic, staff, or dragonstone, foe cannot counterattack.",
+    "docType": "passive-b",
+    "idTag": "SID_水薙ぎ3",
+    "spCost": 240,
+    "_id": "passive-b:watersweep-3"
+}

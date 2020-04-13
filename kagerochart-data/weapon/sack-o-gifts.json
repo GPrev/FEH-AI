@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 10,
+    "name": "Sack o' Gifts",
+    "description": "If foe initiates combat, grants Atk/Spd/Def/Res+2 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_プレゼント袋",
+    "nextSkill": {
+        "_id": "weapon:sack-o-gifts-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:sack-o-gifts"
+}

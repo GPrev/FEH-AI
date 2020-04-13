@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 7,
+    "name": "Rauðrraven",
+    "description": "Grants weapon-triangle advantage against colorless foes, and inflicts weapon-triangle disadvantage on colorless foes during combat.",
+    "docType": "weapon",
+    "idTag": "SID_ナートラウア",
+    "nextSkill": {
+        "_id": "weapon:raurraven-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:raurraven"
+}

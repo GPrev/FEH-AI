@@ -1,0 +1,9 @@
+{
+    "name": "Vengeance",
+    "description": "Boosts damage by 50% of damage dealt to unit.",
+    "docType": "special",
+    "idTag": "SID_復讐",
+    "spCost": 200,
+    "cooldownCount": 3,
+    "_id": "special:vengeance"
+}

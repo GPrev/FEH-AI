@@ -1,0 +1,11 @@
+{
+    "name": "Flier Guidance 2",
+    "description": "If unit's HP ≥ 50%, flying allies within 2 spaces can move to a space adjacent to unit.",
+    "docType": "passive-c",
+    "idTag": "SID_飛行の先導2",
+    "nextSkill": {
+        "_id": "passive-c:flier-guidance-3"
+    },
+    "spCost": 120,
+    "_id": "passive-c:flier-guidance-2"
+}

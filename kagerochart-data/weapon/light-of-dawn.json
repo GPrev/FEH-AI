@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Light of Dawn",
+    "description": "Effective against armored and cavalry foes. Grants Res+3. Grants bonus to Atk/Spd/Def/Res during combat = current penalty on each of target's stats. Calculates each stat bonus independently.",
+    "docType": "weapon",
+    "idTag": "SID_暁の光",
+    "spCost": 400,
+    "_id": "weapon:light-of-dawn"
+}

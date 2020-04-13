@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Naglfar",
+    "description": "Grants weapon-triangle advantage against colorless foes, and inflicts weapon-triangle disadvantage on colorless foes during combat.",
+    "docType": "weapon",
+    "idTag": "SID_ナグルファル",
+    "spCost": 400,
+    "_id": "weapon:naglfar"
+}

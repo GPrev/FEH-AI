@@ -1,0 +1,8 @@
+{
+    "name": "Squad Ace D 2",
+    "description": "Grants Spd+2.",
+    "docType": "passive-s",
+    "idTag": "SID_第4迷宮の覇者2",
+    "spCost": 60,
+    "_id": "passive-s:squad-ace-d-2"
+}

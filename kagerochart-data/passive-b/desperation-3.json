@@ -1,0 +1,8 @@
+{
+    "name": "Desperation 3",
+    "description": "If unit’s HP ≤ 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+    "docType": "passive-b",
+    "idTag": "SID_攻め立て3",
+    "spCost": 200,
+    "_id": "passive-b:desperation-3"
+}

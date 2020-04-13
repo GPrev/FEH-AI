@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 7,
+    "name": "Firesweep Bow",
+    "description": "Effective against flying foes. Unit and foe cannot counterattack.",
+    "docType": "weapon",
+    "idTag": "SID_火薙ぎの弓",
+    "nextSkill": {
+        "_id": "weapon:firesweep-bow-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:firesweep-bow"
+}

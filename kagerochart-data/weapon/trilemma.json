@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Trilemma",
+    "description": "After combat, if unit attacked, inflicts the following status on foe through its next action: \"If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.\"",
+    "docType": "weapon",
+    "idTag": "SID_トリレンマ",
+    "nextSkill": {
+        "_id": "weapon:trilemma-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:trilemma"
+}

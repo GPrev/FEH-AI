@@ -1,0 +1,9 @@
+{
+    "exclusive": true,
+    "name": "Solitary Dream",
+    "description": "At start of turn, if unit is adjacent to only dragon allies or if unit is not adjacent to any ally, grants Atk/Spd/Def/Res+4 to unit and unit can move 1 extra space. (That turn only. Does not stack.)",
+    "docType": "passive-c",
+    "idTag": "SID_ひとりぼっちのゆめ",
+    "spCost": 300,
+    "_id": "passive-c:solitary-dream"
+}

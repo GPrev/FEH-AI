@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 5,
+    "name": "Steel Dagger",
+    "description": "After combat, if unit attacked, inflicts Def/Res-3 on foe through its next action.",
+    "docType": "weapon",
+    "idTag": "SID_鋼の暗器",
+    "nextSkill": {
+        "_id": "weapon:silver-dagger"
+    },
+    "spCost": 100,
+    "_id": "weapon:steel-dagger"
+}

@@ -1,0 +1,324 @@
+{
+    "_id": "hero:larachel-princess-of-light",
+    "display": "L'Arachel: Princess of Light",
+    "name": "L'Arachel",
+    "lowestRarity": 3,
+    "color": "Blue",
+    "weapon": [
+        {
+            "_id": "weapon:ivaldi",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:shine",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:ellight",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:light",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:growing-light",
+            "unlock": 4
+        },
+        {
+            "_id": "special:rising-light",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Blue Tome",
+    "moveType": "Cavalry",
+    "passiveB": [
+        {
+            "_id": "passive-b:renewal-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:renewal-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:renewal-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:res-tactic-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:res-tactic-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:res-tactic-1",
+            "unlock": 3
+        }
+    ],
+    "passiveA": [],
+    "insights": [
+        "L'Arachel is the only hero with Ivaldi.",
+        "L'Arachel has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Cavalry heroes.",
+        "L'Arachel has the lowest <abbr title=\"Health Points\">HP</abbr> potential possible among Tome heroes.",
+        "L'Arachel has the lowest <abbr title=\"Health Points\">HP</abbr> potential possible among Blue heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Princess of Light",
+    "description": "Princess of Rausten. Dozla and Rennac accompany her on their quest to defeat the monsters around Magvel. Appears in Fire Emblem: The Sacred Stones.",
+    "artist": "Konfuzi Kokon (紺藤ココン)",
+    "voiceActorEN": "Carrie Keranen",
+    "voiceActorJP": "生天目仁美",
+    "dialogue": [
+        {
+            "text": "Friends of justice! Allies of righteousness and order! Know that I, L'Arachel, have arrived!",
+            "context": "joined"
+        },
+        {
+            "text": "No matter the world, no matter the era...I will never forgive those who make a mockery of what is just.",
+            "context": "castle"
+        },
+        {
+            "text": "Magvel is simply crawling with foul creatures. I'm glad to say it's very different here! But it's such a shame that, even here, people must still fight one another... ",
+            "context": "castle"
+        },
+        {
+            "text": "Oh, my. There are dark circles under your eyes. You had better get more sleep, <Player Name>!",
+            "context": "castle"
+        },
+        {
+            "text": "Are you lost as well? Castles are always so tricky to navigate, no matter the world, aren't they? If you would, please guide me to my chambers.",
+            "context": "castle"
+        },
+        {
+            "text": "Take that! And that! Watch as I wield my staff with such grace! I'll whack our enemies with it.",
+            "context": "castle"
+        },
+        {
+            "text": "Are you, by any chance, a friend of <Friend Name>? No, you need not say a thing. I can tell. An endeavor with a noble goal naturally draws comrades in arms!",
+            "context": "friend"
+        },
+        {
+            "text": "As befits my refinement and grace. It is providence!",
+            "context": "level"
+        },
+        {
+            "text": "I've grown stronger. My mother and father would praise me.",
+            "context": "level"
+        },
+        {
+            "text": "This must be a test from the gods!",
+            "context": "level"
+        },
+        {
+            "text": "I will show you the splendor that is L'Arachel in action! Bear witness!",
+            "context": "growth"
+        },
+        {
+            "text": "So this is where you've been! There's something we need to talk about, and that's you. In the world I come from, monsters crept from the Darkling Woods and beset the people. My parents took it upon themselves to defend the citizenry, and I am told that this is how they lost their lives. They are the pride of Rausten. They are my pride, too. Like them, you're on a grand mission to bring righteousness and order to this world. I can see that. Then we are agreed! You had better not go dying in battle on me. Do I have your word? ",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: The Sacred Stones",
+    "releaseDate": "2018-01-25T07:00:00.000Z",
+    "tomeClass": 4,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 8,
+        "spd": 6,
+        "def": 3,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 40,
+        "atk": 55,
+        "spd": 55,
+        "def": 30,
+        "res": 55
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 15,
+                "low": 14,
+                "high": 16
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 15,
+                "low": 14,
+                "high": 16
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "atk": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "spd": {
+                "base": 27,
+                "low": 24,
+                "high": 30
+            },
+            "def": {
+                "base": 14,
+                "low": 11,
+                "high": 17
+            },
+            "res": {
+                "base": 27,
+                "low": 24,
+                "high": 30
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "atk": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "spd": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "def": {
+                "base": 15,
+                "low": 12,
+                "high": 18
+            },
+            "res": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "atk": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "spd": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "def": {
+                "base": 17,
+                "low": 13,
+                "high": 20
+            },
+            "res": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 145
+            }
+        }
+    }
+}

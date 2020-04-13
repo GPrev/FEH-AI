@@ -1,0 +1,8 @@
+{
+    "name": "Spur Spd 3",
+    "description": "Grants Spd+4 to adjacent allies during combat.",
+    "docType": "passive-c",
+    "idTag": "SID_速さの紋章3",
+    "spCost": 200,
+    "_id": "passive-c:spur-spd-3"
+}

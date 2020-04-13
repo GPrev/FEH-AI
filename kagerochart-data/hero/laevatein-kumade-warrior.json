@@ -1,0 +1,226 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Laevatein",
+    "epitet": "Kumade Warrior",
+    "display": "Laevatein: Kumade Warrior",
+    "description": "The second princess of Múspell, the Kingdom of Flame. She keeps her emotions in check but can't relax without her blade by her side.",
+    "artist": "kawasumi (かわすみ)",
+    "voiceActorEN": "Sarah Williams",
+    "voiceActorJP": "釘宮理恵",
+    "dialogue": [
+        {
+            "text": "I am Laevatein. Is my sister Laegjarn here? We're... We're supposed to visit a shrine together.",
+            "context": "joined"
+        },
+        {
+            "text": "My sister looks beautiful...always. Even in armor...or these foreign clothes. Correct?",
+            "context": "castle"
+        },
+        {
+            "text": "I don't have Laevatein right now. I have this staff. It's called a kumade. I am...uneasy.",
+            "context": "castle"
+        },
+        {
+            "text": "I have received a small paper bag full of money. What is the meaning of this?",
+            "context": "castle"
+        },
+        {
+            "text": "When we visit the shrine...and perform the rite Laegjarn told me about...I will succeed!",
+            "context": "castle"
+        },
+        {
+            "text": "Why are you looking at me? Is it these clothes? Is something...wrong with them?",
+            "context": "castle"
+        },
+        {
+            "text": "Happy New Year. That's what <Friend Name> said.",
+            "context": "friend"
+        },
+        {
+            "text": "I feel a little different...than last year.",
+            "context": "level"
+        },
+        {
+            "text": "All right.",
+            "context": "level"
+        },
+        {
+            "text": "I might have caught a cold.",
+            "context": "level"
+        },
+        {
+            "text": "Is this a New Year's present, too? Like the money?",
+            "context": "growth"
+        },
+        {
+            "text": "You're being slow... Hurry up. You're coming with us—to visit the mountain. The shrine...for the rite, for New Year. Do not worry. I will not let anyone stop us. I will protect you, and protect Laegjarn, too. You... You taught me something. I am...not just a blade. There is...more than that. At the shrine...I will pledge myself. To protecting you and Laegjarn. Hurry... She's waiting. For both of us.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Colorless",
+    "origin": "Fire Emblem Heroes",
+    "weapon": [
+        {
+            "_id": "weapon:kumade-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:kumade",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:assault",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:rehabilitate-plus",
+            "unlock": 0
+        },
+        {
+            "_id": "assist:rehabilitate",
+            "unlock": 3
+        },
+        {
+            "_id": "assist:reconcile",
+            "unlock": 2
+        },
+        {
+            "_id": "assist:heal",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:earthfire-balm-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "special:earthfire-balm",
+            "unlock": 4
+        },
+        {
+            "_id": "special:kindled-fire-balm",
+            "unlock": 3
+        },
+        {
+            "_id": "special:imbue",
+            "unlock": 2
+        }
+    ],
+    "weaponType": "Colorless Staff",
+    "tomeClass": 0,
+    "moveType": "Cavalry",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 9,
+        "spd": 5,
+        "def": 7,
+        "res": 2
+    },
+    "growthRates": {
+        "hp": 40,
+        "atk": 60,
+        "spd": 55,
+        "def": 45,
+        "res": 35
+    },
+    "passiveC": [
+        {
+            "_id": "passive-c:even-def-wave-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:even-def-wave-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:even-def-wave-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:wrathful-staff-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:wrathful-staff-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:wrathful-staff-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:laevatein-kumade-warrior",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "atk": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "spd": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "def": {
+                "base": 27,
+                "low": 24,
+                "high": 31
+            },
+            "res": {
+                "base": 18,
+                "low": 15,
+                "high": 21
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 144
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 14,
+    "name": "Sabertooth Fang",
+    "description": "Grants Def+3. If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, inflicts Atk/Spd/Def/Res-4 on foes within 2 spaces of unit and target through their next actions after movement. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and deals +10 damage when Special triggers.",
+    "docType": "weapon",
+    "idTag": "SID_虎戦士の爪牙",
+    "spCost": 400,
+    "_id": "weapon:sabertooth-fang"
+}

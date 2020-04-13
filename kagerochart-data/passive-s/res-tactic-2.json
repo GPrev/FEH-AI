@@ -1,0 +1,9 @@
+{
+    "_id": "passive-s:res-tactic-2",
+    "name": "Res Tactic 2",
+    "sp": 120,
+    "type": "s",
+    "description": "At start of turn, grants Res+4 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2.",
+    "icon": "/images/icons/passives/res-tactic-2.png",
+    "docType": "passive-s"
+}

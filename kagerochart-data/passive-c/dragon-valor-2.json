@@ -1,0 +1,11 @@
+{
+    "name": "Dragon Valor 2",
+    "description": "While unit lives, all dragonstone allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+    "docType": "passive-c",
+    "idTag": "SID_竜の技量2",
+    "nextSkill": {
+        "_id": "passive-c:dragon-valor-3"
+    },
+    "spCost": 60,
+    "_id": "passive-c:dragon-valor-2"
+}

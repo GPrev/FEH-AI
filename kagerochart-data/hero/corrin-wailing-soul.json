@@ -1,0 +1,205 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Corrin",
+    "epitet": "Wailing Soul",
+    "display": "Corrin: Wailing Soul",
+    "description": "Unfortunate soul torn between both Nohr and Hoshido, overtaken by the power lurking in her blood. Appears in Fire Emblem Fates.",
+    "artist": "Sencha (煎茶)",
+    "voiceActorEN": "Marcella Lentz-Pope",
+    "voiceActorJP": "佐藤聡美",
+    "dialogue": [
+        {
+            "text": "I am...Corrin. If the power that swirls in my blood awakens, it can bring only catastrophe...",
+            "context": "joined"
+        },
+        {
+            "text": "My body...burns. My blood...is searing... How long till this power consumes me?",
+            "context": "castle"
+        },
+        {
+            "text": "In my world...my siblings and friends helped me to...be myself.",
+            "context": "castle"
+        },
+        {
+            "text": "Thank you for your concern, but...it's in your best interest to not get too close.",
+            "context": "castle"
+        },
+        {
+            "text": "When there's a nice breeze, I can feel my blood cooling until, finally... comfort.",
+            "context": "castle"
+        },
+        {
+            "text": "I pray for peace and tranquility, but... I know not what gods exist in this world...",
+            "context": "castle"
+        },
+        {
+            "text": "Apparently I'm to bring you greetings. So, this is your greeting. I brought it from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Such searing heat... Like...a fire burning through me from the inside!",
+            "context": "level"
+        },
+        {
+            "text": "I can't take much more... The beast inside is...growing restless!",
+            "context": "level"
+        },
+        {
+            "text": "*pant* *pant* Have to...keep control...",
+            "context": "level"
+        },
+        {
+            "text": "I am...on the edge of...losing myself... Please... I'm so afraid...",
+            "context": "growth"
+        },
+        {
+            "text": "Somewhere deep down...I can feel a wild hunger I can't control. Each day, it grows a little stronger... I can suppress it for now, but...the time will come when I won't be able to anymore. If... When that happens, I...might hurt you. Or worse. I don't want to hurt anyone I care about...ever again. I want to protect, but...this power yearns to destroy. I beg you... If my power ever awakens to threaten you or anyone, please... stop me, <Player Name>.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Colorless",
+    "origin": "Fire Emblem: Fates",
+    "releaseDate": "2019-05-10T07:00:00.000Z",
+    "weapon": [
+        {
+            "_id": "weapon:savage-breath",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:flametongue",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:fire-breath-plus",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:fire-breath",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:dragon-fang",
+            "unlock": 4
+        },
+        {
+            "_id": "special:dragon-gaze",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Colorless Breath",
+    "tomeClass": 0,
+    "moveType": "Infantry",
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 14,
+        "atk": 6,
+        "spd": 6,
+        "def": 6,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 65,
+        "atk": 65,
+        "spd": 70,
+        "def": 55,
+        "res": 50
+    },
+    "passiveA": [
+        {
+            "_id": "passive-a:atk-spd-solo-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:atk-spd-solo-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:atk-spd-solo-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:sudden-panic-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:sudden-panic-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:sudden-panic-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:corrin-wailing-soul",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 15,
+                "low": 14,
+                "high": 16
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 43,
+                "low": 40,
+                "high": 46
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 37,
+                "low": 34,
+                "high": 41
+            },
+            "def": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "res": {
+                "base": 27,
+                "low": 23,
+                "high": 30
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 173
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 10,
+    "name": "Hagoita",
+    "description": "Grants Def/Res+2 to allies within 2 spaces during combat.",
+    "docType": "weapon",
+    "idTag": "SID_羽子板",
+    "nextSkill": {
+        "_id": "weapon:hagoita-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:hagoita"
+}

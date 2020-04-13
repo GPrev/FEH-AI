@@ -1,0 +1,12 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Hunting Blade",
+    "description": "Accelerates Special trigger (cooldown count-1). Effective against beast foes. At start of combat, if unit's Atk/Spd/Def/Res < that of an ally within 2 spaces, grants +5 to unit's corresponding stat during combat. Calculates each stat bonus independently. Effect:【Dagger ７】  【Dagger ７】 After combat, if unit attacked, inflicts Def/Res-７ on target and foes within 2 spaces of target through their next actions.",
+    "docType": "weapon",
+    "idTag": "SID_狩猟の鋭刃",
+    "spCost": 400,
+    "cooldownCount": -1,
+    "_id": "weapon:hunting-blade"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Renewal 3",
+    "description": "At the start of every second turn, restores 10 HP.",
+    "docType": "passive-b",
+    "idTag": "SID_回復3",
+    "spCost": 240,
+    "_id": "passive-b:renewal-3"
+}

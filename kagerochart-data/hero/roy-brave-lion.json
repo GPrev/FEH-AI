@@ -1,0 +1,216 @@
+{
+    "_id": "hero:roy-brave-lion",
+    "display": "Roy: Brave Lion",
+    "name": "Roy",
+    "color": "Red",
+    "weapon": [
+        {
+            "_id": "weapon:blazing-durandal",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-sword",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:galeforce",
+            "unlock": 5
+        },
+        {
+            "_id": "special:astra",
+            "unlock": 4
+        },
+        {
+            "_id": "special:night-sky",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:steady-blow-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:steady-blow-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:darting-blow-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:desperation-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:desperation-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:desperation-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [],
+    "description": "The son of Eliwood, Marquess of Pherae. Has immense respect for his father and wields his weapon, Durandal. Appears in Fire Emblem: The Binding Blade.",
+    "weaponType": "Red Sword",
+    "moveType": "Cavalry",
+    "origin": "Fire Emblem: The Binding Blade",
+    "gender": "Male",
+    "voiceActorEN": "Ray Chase",
+    "voiceActorJP": "福山潤",
+    "releaseDate": "2017-08-31T00:00:00.000Z",
+    "artistJP": "ワダサチコ",
+    "artistEN": "Wada Sachiko",
+    "voiceActorJPEN": "Fukuyama Jun",
+    "insights": [],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Brave Lion",
+    "artist": "Wada Sachiko (ワダサチコ)",
+    "dialogue": [
+        {
+            "text": "I'm Roy. With this sword Durandal in hand, I will aid your army in place of my father.",
+            "context": "joined"
+        },
+        {
+            "text": "I like to believe that heroes are born from people's wishes.",
+            "context": "castle"
+        },
+        {
+            "text": "My father is Eliwood, the Marquess of Pherae. He's a hero known as the Knight of Lycia.",
+            "context": "castle"
+        },
+        {
+            "text": "I want to help out so you can take a break. Do you mind if I observe you for a bit to get a sense of your work?",
+            "context": "castle"
+        },
+        {
+            "text": "This is Durandal, the sword of sacred fire... It's a legendary weapon. My father once wielded it, too.",
+            "context": "castle"
+        },
+        {
+            "text": "I haven't had much training in mounted combat. I've still got a lot to learn.",
+            "context": "castle"
+        },
+        {
+            "text": "Are you <Player Name>? I've brought you a message from your friend <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Someday I'll be just like my father!",
+            "context": "level"
+        },
+        {
+            "text": "I think I'm getting the hang of fighting on horseback.",
+            "context": "level"
+        },
+        {
+            "text": "I need to learn more from my father's example.",
+            "context": "level"
+        },
+        {
+            "text": "This is all because of you. Thank you.",
+            "context": "growth"
+        },
+        {
+            "text": "When I was young, Marcus—a knight who has long served my family—told me many tales about my father. He spoke of the heroic things my father did in his younger days, the many allies he met on his travels... And he told me about how my parents first met. I would get so excited hearing those stories. I looked forward to them far more than any other tale. That's why I admire my father so much. He's my hero. I may resemble him, but I still have so much to learn. And I have to get a lot stronger before I can truly claim to be like him. But if I stay by your side... I'm sure I'll be able to accomplish that goal. I promise you I'll continue to do my best.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 7,
+        "spd": 7,
+        "def": 6,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 55,
+        "spd": 60,
+        "def": 45,
+        "res": 40
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 38,
+                "low": 34,
+                "high": 41
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "def": {
+                "base": 26,
+                "low": 23,
+                "high": 30
+            },
+            "res": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 154
+            }
+        }
+    }
+}

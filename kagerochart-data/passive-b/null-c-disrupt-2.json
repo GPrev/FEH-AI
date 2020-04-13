@@ -1,0 +1,11 @@
+{
+    "name": "Null C-Disrupt 2",
+    "description": "At start of combat, if unit's HP ≥ 50%, neutralizes effects that prevent unit's counterattacks during combat.",
+    "docType": "passive-b",
+    "idTag": "SID_見切り・反撃不可2",
+    "nextSkill": {
+        "_id": "passive-b:null-c-disrupt-3"
+    },
+    "spCost": 120,
+    "_id": "passive-b:null-c-disrupt-2"
+}

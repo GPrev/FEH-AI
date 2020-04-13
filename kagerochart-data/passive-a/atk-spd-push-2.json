@@ -1,0 +1,11 @@
+{
+    "name": "Atk/Spd Push 2",
+    "description": "At start of combat, if unit's HP = 100%, grants Atk/Spd+4, but if unit attacked, deals 1 damage to unit after combat.",
+    "docType": "passive-a",
+    "idTag": "SID_攻撃速さの渾身2",
+    "nextSkill": {
+        "_id": "passive-a:atk-spd-push-3"
+    },
+    "spCost": 120,
+    "_id": "passive-a:atk-spd-push-2"
+}

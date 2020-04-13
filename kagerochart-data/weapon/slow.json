@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 5,
+    "name": "Slow",
+    "description": "After combat, if unit attacked, inflicts Spd-6 on foe through its next action.",
+    "docType": "weapon",
+    "idTag": "SID_スロウ",
+    "nextSkill": {
+        "_id": "weapon:slow-plus"
+    },
+    "spCost": 150,
+    "_id": "weapon:slow"
+}

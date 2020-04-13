@@ -1,0 +1,10 @@
+{
+    "range": 2,
+    "might": 14,
+    "name": "Umbra Burst",
+    "description": "Effective against flying foes. Unit can counterattack regardless of foe's range. Deals a minimum of 1 damage.",
+    "docType": "weapon",
+    "idTag": "SID_影没の波動・弓",
+    "spCost": 0,
+    "_id": "weapon:umbra-burst-1556"
+}

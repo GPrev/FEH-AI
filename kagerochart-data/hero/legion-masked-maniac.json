@@ -1,0 +1,325 @@
+{
+    "_id": "hero:legion-masked-maniac",
+    "display": "Legion: Masked Maniac",
+    "name": "Legion",
+    "color": "Green",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:legions-axe-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:legions-axe",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-axe",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-axe",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:reprisal",
+            "unlock": 4
+        },
+        {
+            "_id": "special:retribution",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:fury-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:fury-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:fury-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:obstruct-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:obstruct-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:obstruct-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [],
+    "description": "One of a group of assassins. Wears an odd mask, as do his many \"brothers.\" Appears in Fire Emblem: New Mystery of the Emblem.",
+    "weaponType": "Green Axe",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Mystery of the Emblem",
+    "gender": "Male",
+    "voiceActorEN": "Chris Smith",
+    "voiceActorJP": "丹沢晃之",
+    "releaseDate": "2017-06-16T00:00:00.000Z",
+    "artistEN": "nabe",
+    "voiceActorJPEN": "Tanzawa Teruyuki",
+    "insights": [
+        "Legion is the only hero with Legion's Axe+.",
+        "Legion is the only hero with Legion's Axe."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Masked Maniac",
+    "artist": "nabe",
+    "dialogue": [
+        {
+            "text": "Whuh? Whoses are youses? We are Legion...and we are Legion too. Uwe hee hee!",
+            "context": "joined"
+        },
+        {
+            "text": "Order of Heroeses! What's that? What's that? What's that? We like the soundses of it!",
+            "context": "castle"
+        },
+        {
+            "text": "There are manys of us and ones of us, all in oneses. That stick in your headses?",
+            "context": "castle"
+        },
+        {
+            "text": "What's this? Going round and round again? Have timeses to waste? Uwee hee hee!",
+            "context": "castle"
+        },
+        {
+            "text": "Clarisse in our group. Clarisse cold. Reese also in group. Reese is ones we hate. But also like!",
+            "context": "castle"
+        },
+        {
+            "text": "How do we trains? We fights ourselveses until ones of us dies. Then practiceses over!",
+            "context": "castle"
+        },
+        {
+            "text": "We is us. We friendses with <Friend Name>. And friendses with youses too. Uwee hee hee!",
+            "context": "friend"
+        },
+        {
+            "text": "We great of them allses! Uwee hee hee!",
+            "context": "level"
+        },
+        {
+            "text": "We allses are...better than thises.",
+            "context": "level"
+        },
+        {
+            "text": "We allses are uselesses.",
+            "context": "level"
+        },
+        {
+            "text": "Come on! Come on! Come on! Timeses to fight!",
+            "context": "growth"
+        },
+        {
+            "text": "We allses are strong now? Strong-strong? Uwe hee hee! We allses wonder somethings. Why youses use Legion? We know. But we don't. We know but don't. But we have guess. Legion is broken. Our heartses. Rest of us allses too. Like we allses are brokenses. Legion likes you. We allses think you don't hate us. But we too broken to know. We makes you promises. We stand by youses. Forevers and forevers! Uwee hee!",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 19,
+        "atk": 9,
+        "spd": 8,
+        "def": 4,
+        "res": 2
+    },
+    "growthRates": {
+        "hp": 60,
+        "atk": 60,
+        "spd": 60,
+        "def": 40,
+        "res": 35
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 19,
+                "low": 18,
+                "high": 20
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 2,
+                "low": 1,
+                "high": 3
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 19,
+                "low": 18,
+                "high": 20
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 2,
+                "low": 1,
+                "high": 3
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 20,
+                "low": 19,
+                "high": 21
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 42,
+                "low": 39,
+                "high": 45
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "def": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "res": {
+                "base": 15,
+                "low": 12,
+                "high": 18
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 43,
+                "low": 40,
+                "high": 46
+            },
+            "atk": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "res": {
+                "base": 16,
+                "low": 13,
+                "high": 19
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 46,
+                "low": 43,
+                "high": 49
+            },
+            "atk": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 18,
+                "low": 15,
+                "high": 21
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 157
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "_id": "passive-s:flashing-blade-2",
+    "name": "Flashing Blade 2",
+    "sp": 120,
+    "type": "s",
+    "description": "If unit's Spd - foe's Spd ≥ 3, unit gains Special cooldown charge +1 per attack.\r\n(If using other similar skill, only highest value applied.)",
+    "icon": "/images/icons/passives/flashing-blade-2.png",
+    "docType": "passive-s",
+    "specAccel": {
+        "stat": "spd",
+        "adv": 3
+    }
+}

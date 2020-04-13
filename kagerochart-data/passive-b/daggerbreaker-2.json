@@ -1,0 +1,11 @@
+{
+    "name": "Daggerbreaker 2",
+    "description": "If unit's HP ≥ 70% in combat against a colorless dagger foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+    "docType": "passive-b",
+    "idTag": "SID_暗器殺し2",
+    "nextSkill": {
+        "_id": "passive-b:daggerbreaker-3"
+    },
+    "spCost": 100,
+    "_id": "passive-b:daggerbreaker-2"
+}

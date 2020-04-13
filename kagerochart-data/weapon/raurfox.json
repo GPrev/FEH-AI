@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Rauðrfox",
+    "description": "If unit initiates combat, inflicts Atk/Spd/Def/Res-4 on foe during combat.",
+    "docType": "weapon",
+    "idTag": "SID_ラウアフォックス",
+    "nextSkill": {
+        "_id": "weapon:raurfox-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:raurfox"
+}

@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 9,
+    "name": "Carrot Lance",
+    "description": "If unit initiates combat, restores 4 HP after combat.",
+    "docType": "weapon",
+    "idTag": "SID_ニンジンの槍",
+    "nextSkill": {
+        "_id": "weapon:carrot-lance-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:carrot-lance"
+}

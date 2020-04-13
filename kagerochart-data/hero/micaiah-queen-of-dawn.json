@@ -1,0 +1,214 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Micaiah",
+    "epitet": "Queen of Dawn",
+    "display": "Micaiah: Queen of Dawn",
+    "description": "The fifteenth ruler of Daein. Determined to reconstruct and develop her home country. Appears in Fire Emblem: Radiant Dawn.",
+    "artist": "Kita Senri (北千里)",
+    "voiceActorEN": "Veronica Taylor",
+    "voiceActorJP": "桑谷夏子",
+    "dialogue": [
+        {
+            "text": "I am Micaiah. I hope to lead Daein as best I can. Any support you can offer is appreciated.",
+            "context": "joined"
+        },
+        {
+            "text": "I won't waver anymore... I will build an age in which everyone can live their lives in peace!",
+            "context": "castle"
+        },
+        {
+            "text": "I once thought Prince Pelleas ought to be ruler... But the people put their faith in me—I must do right by them.",
+            "context": "castle"
+        },
+        {
+            "text": "It's always \"My Queen this\" and \"My Queen that.\" I know it's the way of things, but the formality is tiresome...",
+            "context": "castle"
+        },
+        {
+            "text": "Whoops! Almost took a tumble there! I guess I'm still not used to this outfit. Thanks for having my back, as usual.",
+            "context": "castle"
+        },
+        {
+            "text": "I've been getting the feeling Yune still watches from somewhere just out of sight. Always up to some mischief...",
+            "context": "castle"
+        },
+        {
+            "text": "I'm visiting on behalf of your good friend, <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "We will build the future with our own hands! Yune, please watch over us!",
+            "context": "level"
+        },
+        {
+            "text": "I must fight now to forge a future age of peace!",
+            "context": "level"
+        },
+        {
+            "text": "I mustn't get discouraged! Not now, after Daein placed its trust in me!",
+            "context": "level"
+        },
+        {
+            "text": "Thank you. I will use this power for the benefit of all.",
+            "context": "growth"
+        },
+        {
+            "text": "My world is one of constant strife. People fought for power, influence, and even just for their daily bread... The fact is, the weak are no match for the strong... But I couldn't stay silent and watch from a distance. Thus, the Dawn Brigade was born... and with help from Sothe and the others, Daein has been restored. By following my heart and giving a voice to those who had none, I was able to change Tellian history... You and I are similar in that sense. This world needs you just as mine needed me. I can feel it. But I wouldn't call that a prophecy... more like a belief. Nevertheless, I am happy to join you in walking this path.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Green",
+    "origin": "Fire Emblem: Radiant Dawn",
+    "weapon": [
+        {
+            "_id": "weapon:light-of-dawn",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:rexcalibur",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elwind",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:wind",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:sacrifice",
+            "unlock": 5
+        },
+        {
+            "_id": "assist:ardent-sacrifice",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Green Tome",
+    "tomeClass": 3,
+    "moveType": "Flying",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 6,
+        "spd": 5,
+        "def": 3,
+        "res": 10
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 70,
+        "spd": 50,
+        "def": 30,
+        "res": 60
+    },
+    "passiveC": [
+        {
+            "_id": "passive-c:ground-orders-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:ground-orders-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:ground-orders-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:atk-res-bond-4",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:atk-res-bond-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:atk-res-bond-2",
+            "unlock": 3
+        },
+        {
+            "_id": "passive-a:atk-res-bond-1",
+            "unlock": 2
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:yunes-whispers",
+            "unlock": 5
+        }
+    ],
+    "_id": "hero:micaiah-queen-of-dawn",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 40
+            },
+            "atk": {
+                "base": 37,
+                "low": 34,
+                "high": 41
+            },
+            "spd": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "def": {
+                "base": 17,
+                "low": 13,
+                "high": 20
+            },
+            "res": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 155
+            }
+        }
+    }
+}

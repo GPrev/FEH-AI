@@ -1,0 +1,225 @@
+{
+    "_id": "hero:ike-brave-mercenary",
+    "display": "Ike: Brave Mercenary",
+    "name": "Ike",
+    "color": "Green",
+    "weapon": [
+        {
+            "_id": "weapon:urvan",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-axe",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-axe",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-axe",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:aether",
+            "unlock": 5
+        },
+        {
+            "_id": "special:luna",
+            "unlock": 4
+        },
+        {
+            "_id": "special:new-moon",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:steady-breath",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:steady-stance-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:steady-stance-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:beorcs-blessing",
+            "unlock": 5
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:threaten-def-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:threaten-def-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:threaten-def-1",
+            "unlock": 1
+        }
+    ],
+    "description": "A kindhearted but stoic young man who has taken command of his father's mercenary band. Wields the axe of his father, Greil. Appears in Fire Emblem: Path of Radiance.",
+    "weaponType": "Green Axe",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Path of Radiance",
+    "gender": "Male",
+    "voiceActorEN": "Greg Chun",
+    "voiceActorJP": "萩道彦",
+    "releaseDate": "2017-08-31T00:00:00.000Z",
+    "artistJP": "北千里",
+    "artistEN": "Kita Senri",
+    "voiceActorJPEN": "Hagi Michihiko",
+    "insights": [
+        "Ike is the only hero with Urvan.",
+        "Ike is the only hero with Steady Breath.",
+        "Ike is the only hero with Beorc's Blessing."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Brave Mercenary",
+    "artist": "Kita Senri (北千里)",
+    "dialogue": [
+        {
+            "text": "I'm Ike of the Greil Mercenaries. And this axe is Urvan. You might call it my current partner.",
+            "context": "joined"
+        },
+        {
+            "text": "So war has come to this world as well, and its people suffer for it. Seems there's work for me to do here.",
+            "context": "castle"
+        },
+        {
+            "text": "My father once led the Greil Mercenaries. Every person under his command trusted him fully.",
+            "context": "castle"
+        },
+        {
+            "text": "Let me take some chores off your hands so you can take a break. I'll... Hmm... I'll go chop some firewood!",
+            "context": "castle"
+        },
+        {
+            "text": "This is Urvan, my father's axe... It's rugged and strong. It reminds me of him.",
+            "context": "castle"
+        },
+        {
+            "text": "Using an axe is different from using a sword. This guy requires power over skill. I need to get stronger.",
+            "context": "castle"
+        },
+        {
+            "text": "I'm Ike, from the Greil Mercenaries. I have a message for you. It's from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Swinging this axe is becoming second nature.",
+            "context": "level"
+        },
+        {
+            "text": "Seems my body is finally getting used to this.",
+            "context": "level"
+        },
+        {
+            "text": "My training still has a long way to go.",
+            "context": "level"
+        },
+        {
+            "text": "I guess that means I need to work a bit harder around here now.",
+            "context": "growth"
+        },
+        {
+            "text": "I had the strangest dream... It was of another world, and there were entire crowds calling my name. Countless people, all cheering for me. Can you believe it? I don't pretend to understand magic, but... Well, it wouldn't surprise me if that cheering is why I was summoned to this world. But if that is the case...I have to make sure I don't let them down. I'm no knight, and certainly no nobleman. My father was my only example of how a man should be. So I need to carry out his vision and make sure our mercenary company is something he would be proud of. To fight for the people, not for the money... That is my desire.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 9,
+        "spd": 5,
+        "def": 8,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 60,
+        "atk": 60,
+        "spd": 50,
+        "def": 60,
+        "res": 35
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 43,
+                "low": 40,
+                "high": 46
+            },
+            "atk": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "spd": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "def": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "res": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 162
+            }
+        }
+    }
+}

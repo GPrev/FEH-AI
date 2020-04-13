@@ -1,0 +1,8 @@
+{
+    "name": "Fortress Res 3",
+    "description": "Grants Res+5. Inflicts Atk-3.",
+    "docType": "passive-a",
+    "idTag": "SID_魔防の城塞3",
+    "spCost": 160,
+    "_id": "passive-a:fortress-res-3"
+}

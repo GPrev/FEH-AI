@@ -1,0 +1,326 @@
+{
+    "_id": "hero:wrys-kindly-priest",
+    "display": "Wrys: Kindly Priest",
+    "name": "Wrys",
+    "color": "Colorless",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:slow-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:slow",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:assault",
+            "unlock": 1
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:heavenly-light",
+            "unlock": 3
+        },
+        {
+            "_id": "special:imbue",
+            "unlock": 2
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:rehabilitate-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "assist:rehabilitate",
+            "unlock": 4
+        },
+        {
+            "_id": "assist:reconcile",
+            "unlock": 2
+        },
+        {
+            "_id": "assist:heal",
+            "unlock": 0
+        }
+    ],
+    "docType": "hero",
+    "passiveB": [
+        {
+            "_id": "passive-b:live-to-serve-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:live-to-serve-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:live-to-serve-1",
+            "unlock": 3
+        }
+    ],
+    "passiveA": [],
+    "passiveC": [],
+    "description": "Humble priest of Talys who likes a quiet life. Despises battle, preferring to heal allies. Appears in Fire Emblem: Shadow Dragon and the Blade of Light.",
+    "weaponType": "Colorless Staff",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Mystery of the Emblem",
+    "gender": "Male",
+    "voiceActorEN": "DC Douglas",
+    "voiceActorJP": "利根健太朗",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistEN": "pikomaro",
+    "voiceActorJPEN": "Tone Kentarou",
+    "insights": [
+        "Wrys has the highest <abbr title=\"Resistance\">RES</abbr> potential possible among Staff heroes.",
+        "Wrys has the highest <abbr title=\"Resistance\">RES</abbr> potential possible among Colorless heroes.",
+        "Wrys has the lowest <abbr title=\"Speed\">SPD</abbr> potential possible among Staff heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Kindly Priest",
+    "artist": "pikomaro",
+    "dialogue": [
+        {
+            "text": "I am Wrys, a humble curate. I cannot fight, but this staff I carry can heal the wounded.",
+            "context": "joined"
+        },
+        {
+            "text": "This world is so close to the heavens... When you summoned me, I assumed my time had come!",
+            "context": "castle"
+        },
+        {
+            "text": "I hope the children at the orphanage are doing well without me...",
+            "context": "castle"
+        },
+        {
+            "text": "I applaud your constant patrols. If I could simply keep up, I would join you, but alas...",
+            "context": "castle"
+        },
+        {
+            "text": "Be careful not to overextend yourself. It's important to take time to simply pause and reflect.",
+            "context": "castle"
+        },
+        {
+            "text": "Grooming is simple with a head like mine! If you like, I could give you the same cut...",
+            "context": "castle"
+        },
+        {
+            "text": "I am Wrys, a humble curate. I cannot fight, but this staff I carry can heal the wounded.",
+            "context": "friend"
+        },
+        {
+            "text": "I suppose miracles happen after all!",
+            "context": "level"
+        },
+        {
+            "text": "At my age, this feels like a job well done!",
+            "context": "level"
+        },
+        {
+            "text": "Mm. Old age is catching up to me...",
+            "context": "level"
+        },
+        {
+            "text": "I see you're a risk taker! I'll try to live up to your expectations.",
+            "context": "growth"
+        },
+        {
+            "text": "I must admit...being surrounded by so many young people has me pushing myself beyond my years. But the journey has been very much worthwhile. I have seen that there is still much I can do. I will keep my prayers with those who have guided me on my way... and that includes you. Please continue to use this feeble old man in whatever way will help your cause. Let all be as the gods will.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 4,
+        "spd": 5,
+        "def": 4,
+        "res": 9
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 45,
+        "spd": 40,
+        "def": 40,
+        "res": 60
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 38,
+                "low": 35,
+                "high": 41
+            },
+            "atk": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "spd": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "def": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "res": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 39,
+                "low": 36,
+                "high": 42
+            },
+            "atk": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "spd": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "def": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "res": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 42,
+                "low": 39,
+                "high": 45
+            },
+            "atk": {
+                "base": 24,
+                "low": 21,
+                "high": 28
+            },
+            "spd": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 147
+            }
+        }
+    }
+}

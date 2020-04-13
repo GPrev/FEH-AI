@@ -1,0 +1,9 @@
+{
+    "exclusive": true,
+    "name": "With Everyone!",
+    "description": "At start of turn, if unit is adjacent to an ally, grants Def/Res+5 to unit and adjacent allies for 1 turn.",
+    "docType": "passive-c",
+    "idTag": "SID_みんなと一緒に",
+    "spCost": 300,
+    "_id": "passive-c:with-everyone"
+}

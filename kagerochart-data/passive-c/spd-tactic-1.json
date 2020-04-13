@@ -1,0 +1,11 @@
+{
+    "name": "Spd Tactic 1",
+    "description": "At start of turn, grants Spd+2 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2.",
+    "docType": "passive-c",
+    "idTag": "SID_速さの指揮1",
+    "nextSkill": {
+        "_id": "passive-c:spd-tactic-2"
+    },
+    "spCost": 60,
+    "_id": "passive-c:spd-tactic-1"
+}

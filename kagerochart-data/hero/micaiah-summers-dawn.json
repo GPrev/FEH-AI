@@ -1,0 +1,226 @@
+{
+    "_id": "hero:micaiah-summers-dawn",
+    "display": "Micaiah: Summer's Dawn",
+    "name": "Micaiah",
+    "color": "Red",
+    "weapon": [
+        {
+            "_id": "weapon:dawn-suzu",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:bolganone",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elfire",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:fire",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:dance",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "weaponType": "Red Tome",
+    "moveType": "Infantry",
+    "passiveA": [
+        {
+            "_id": "passive-a:atk-res-bond-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:atk-res-bond-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:atk-res-bond-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:fireflood-dance-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:fireflood-dance-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:torrent-dance-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:res-ploy-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:res-ploy-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:res-ploy-1",
+            "unlock": 1
+        }
+    ],
+    "insights": [
+        "Micaiah is the only hero with Dawn Suzu.",
+        "Micaiah is the only hero with Fireflood Dance 2.",
+        "Micaiah is the only hero with Fireflood Dance 1.",
+        "Micaiah has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible in Fire Emblem Heroes.",
+        "Micaiah has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Infantry heroes.",
+        "Micaiah has the lowest <abbr title=\"Health Points\">HP</abbr> potential possible among Tome heroes.",
+        "Micaiah has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Tome heroes.",
+        "Micaiah has the lowest <abbr title=\"Health Points\">HP</abbr> potential possible among Red heroes.",
+        "Micaiah has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Red heroes."
+    ],
+    "refresher": true,
+    "dragonflowers": 10,
+    "epitet": "Summer's Dawn",
+    "description": "A member of the Dawn Brigade with silver hair who is a little apprehensive about wearing unfamiliar summer festival garb. Appears in Fire Emblem: Radiant Dawn.",
+    "artist": "Chiko (チーコ)",
+    "voiceActorEN": "Veronica Taylor",
+    "voiceActorJP": "桑谷夏子",
+    "dialogue": [
+        {
+            "text": "I'm Micaiah of the Dawn Brigade. Thank you for inviting me to the summer festival. Hmm... I sense quite a bit of fun waiting for me...",
+            "context": "joined"
+        },
+        {
+            "text": "The festival has everyone energized. I can sense all their joy! It feels like we're all smiling as one. So this is what a summer festival is like, huh?",
+            "context": "castle"
+        },
+        {
+            "text": "Festivals are a time to forget our troubles and leave our sadness behind... If only for a brief moment.",
+            "context": "castle"
+        },
+        {
+            "text": "This outfit is so foreign to me... I'm a little nervous wearing it if I'm being honest. I don't look odd in it, do I?",
+            "context": "castle"
+        },
+        {
+            "text": "I used to be a fortune-teller, you know. Would you like me to read your fortune sometime?",
+            "context": "castle"
+        },
+        {
+            "text": "I've never seen a dance such as this Hoshidan one. It's so...mysterious to me... I cannot help but feel that Sothe would be much better at performing it than I.",
+            "context": "castle"
+        },
+        {
+            "text": "Oh, hello. I was just at the festival where I saw your friend <Friend Name>. Will you be joining them soon?",
+            "context": "friend"
+        },
+        {
+            "text": "I can sense all of our hearts joining as one.",
+            "context": "level"
+        },
+        {
+            "text": "I feel like I've become a better dancer.",
+            "context": "level"
+        },
+        {
+            "text": "Hmm... Perhaps there's still some hesitation hidden in my heart...",
+            "context": "level"
+        },
+        {
+            "text": "I hope my dance is enough to show my appreciation.",
+            "context": "growth"
+        },
+        {
+            "text": "The time I've spent with everyone here—laughing, dancing, singing...it will live within my heart forever. These memories will become my beacon of hope. And I sense that one day... this same light will shine upon everyone's future. Endless fighting can wear down our hearts, and swelling stagnation can lead us toward even greater calamity. However, the joy we feel today will become a light that never fades. One that drives the darkness away. I want to step into that light with the people most precious to me... Each of us carrying this summer's memories deep within our hearts.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Radiant Dawn",
+    "tomeClass": 1,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 13,
+        "atk": 7,
+        "spd": 4,
+        "def": 2,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 60,
+        "spd": 35,
+        "def": 35,
+        "res": 65
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 14,
+                "low": 13,
+                "high": 15
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 33,
+                "low": 30,
+                "high": 37
+            },
+            "atk": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "spd": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "def": {
+                "base": 18,
+                "low": 15,
+                "high": 21
+            },
+            "res": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 139
+            }
+        }
+    }
+}

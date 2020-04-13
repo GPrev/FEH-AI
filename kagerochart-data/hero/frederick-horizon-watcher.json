@@ -1,0 +1,213 @@
+{
+    "_id": "hero:frederick-horizon-watcher",
+    "display": "Frederick: Horizon Watcher",
+    "name": "Frederick",
+    "color": "Colorless",
+    "weapon": [
+        {
+            "_id": "weapon:seashell-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:seashell",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-dagger",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-dagger",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:ardent-sacrifice",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:armored-blow-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:armored-blow-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:armored-blow-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:seal-atk-spd-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:seal-atk-spd-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:seal-spd-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [],
+    "description": "A knight who serves the royal house of Ylisse. Collector of pebbles and shells on the beach. Appears in Fire Emblem Awakening.",
+    "weaponType": "Colorless Dagger",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Awakening",
+    "gender": "Male",
+    "voiceActorEN": "Kyle Hebert",
+    "voiceActorJP": "小野大輔",
+    "releaseDate": "2017-06-30T00:00:00.000Z",
+    "artistJP": "スエカネクミコ",
+    "artistEN": "Suekane Kumiko",
+    "voiceActorJPEN": "Ono Daisuke",
+    "insights": [
+        "Frederick is the only hero with Seashell+.",
+        "Frederick is the only hero with Seashell.",
+        "Frederick is the only hero with Seal Atk Spd 2.",
+        "Frederick is the only hero with Seal Atk Spd 1."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Horizon Watcher",
+    "artist": "Suekane Kumiko (スエカネクミコ)",
+    "dialogue": [
+        {
+            "text": "I am Frederick. I was on the beach protecting Lord Chrom. Tell me... Where am I now?",
+            "context": "joined"
+        },
+        {
+            "text": "Hmm... There are many Heroes here, no doubt. But few show as much skin as I...",
+            "context": "castle"
+        },
+        {
+            "text": "The Outrealms resort was so exhilarating! I kept busy training on the beach, smiting miscreants, and— it pains me to admit this—sinning.",
+            "context": "castle"
+        },
+        {
+            "text": "When I consider the poor souls who, barefoot, might tread on a pebble... I know I must redouble my efforts. What efforts? To remove debris at every opportunity! I can only hope this eases your journeys too.",
+            "context": "castle"
+        },
+        {
+            "text": "Might you be willing to train with me? It pains me to say it, but your defenses are...lacking. Perhaps we can forge a body of steel to match your stout heart!",
+            "context": "castle"
+        },
+        {
+            "text": "Ah, I'm fretting over Lord Chrom and Lady Lissa. I hope they don't step on seashells while I'm away!",
+            "context": "castle"
+        },
+        {
+            "text": "I apologize for appearing before you like this. I was tasked with conveying <Friend Name>'s tidings.",
+            "context": "friend"
+        },
+        {
+            "text": "Delightful. I can't wait to run and jump into the sea!",
+            "context": "level"
+        },
+        {
+            "text": "My beach training regimen seems to have paid off.",
+            "context": "level"
+        },
+        {
+            "text": "How embarrassing. Perhaps it's the heat...",
+            "context": "level"
+        },
+        {
+            "text": "You honor me. I'll focus on my efforts to clean up seashells.",
+            "context": "growth"
+        },
+        {
+            "text": "I feel that I've gotten much stronger since I came here. You've put a lot of time and energy into my training. Honestly, I had my misgivings at first. I never expected you to take me seriously, dressed like this... How wrong I was. You helped me train. Even so, I worried that you might earn my trust and then... you'd spring a terrible surprise on me. I spent my nights sleepless, certain you'd suddenly force me to eat bear... But thinking about it, I confess I can see no reason you'd ever do that, Summoner. To make amends, I'll give my utmost on the battlefield. I've always relied on my armor, but now it's my zeal that will see me through!",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 7,
+        "spd": 6,
+        "def": 5,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 55,
+        "spd": 55,
+        "def": 50,
+        "res": 30
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 40,
+                "low": 36,
+                "high": 43
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "def": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "res": {
+                "base": 18,
+                "low": 14,
+                "high": 21
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 149
+            }
+        }
+    }
+}

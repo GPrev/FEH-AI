@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Madness Flask",
+    "description": "Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit.",
+    "docType": "weapon",
+    "idTag": "SID_フラスコ",
+    "nextSkill": {
+        "_id": "weapon:madness-flask-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:madness-flask"
+}

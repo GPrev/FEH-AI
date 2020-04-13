@@ -1,0 +1,12 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Cursed Lance",
+    "description": "Accelerates Special trigger (cooldown count-1). Grants Atk/Spd+2. Deals 4 damage to unit after combat.",
+    "docType": "weapon",
+    "idTag": "SID_魔性の槍",
+    "spCost": 400,
+    "cooldownCount": -1,
+    "_id": "weapon:cursed-lance"
+}

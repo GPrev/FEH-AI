@@ -1,0 +1,8 @@
+{
+    "name": "Sorcery Blade 3",
+    "description": "At start of combat, if unit is adjacent to a magic ally, calculates damage using the lower of foe's Def or Res.",
+    "docType": "passive-a",
+    "idTag": "SID_魔道の刃3",
+    "spCost": 240,
+    "_id": "passive-a:sorcery-blade-3"
+}

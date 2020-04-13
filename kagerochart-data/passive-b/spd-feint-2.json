@@ -1,0 +1,11 @@
+{
+    "name": "Spd Feint 2",
+    "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd-5 on foes in cardinal directions of unit through their next actions.",
+    "docType": "passive-b",
+    "idTag": "SID_速さの共謀2",
+    "nextSkill": {
+        "_id": "passive-b:spd-feint-3"
+    },
+    "spCost": 120,
+    "_id": "passive-b:spd-feint-2"
+}

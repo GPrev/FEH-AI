@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Ovoid Staff",
+    "description": "At start of turn, restores 5 HP to unit and adjacent allies.",
+    "docType": "weapon",
+    "idTag": "SID_卵の杖",
+    "nextSkill": {
+        "_id": "weapon:ovoid-staff-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:ovoid-staff"
+}

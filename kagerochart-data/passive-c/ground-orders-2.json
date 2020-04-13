@@ -1,0 +1,11 @@
+{
+    "name": "Ground Orders 2",
+    "description": "At start of turn, if unit's HP ≥ 50%, grants the following status to adjacent infantry, armored, and cavalry allies for 1 turn: \"Unit can move to a space adjacent to any ally within 2 spaces.\"",
+    "docType": "passive-c",
+    "idTag": "SID_先導の伝令・地2",
+    "nextSkill": {
+        "_id": "passive-c:ground-orders-3"
+    },
+    "spCost": 120,
+    "_id": "passive-c:ground-orders-2"
+}

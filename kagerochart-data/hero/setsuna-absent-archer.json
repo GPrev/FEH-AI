@@ -1,0 +1,322 @@
+{
+    "_id": "hero:setsuna-absent-archer",
+    "display": "Setsuna: Absent Archer",
+    "name": "Setsuna",
+    "color": "Colorless",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:assassins-bow-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:assassins-bow",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-bow",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-bow",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:reciprocal-aid",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:hp-plus-5",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:hp-plus-4",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:hp-plus-3",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:bowbreaker-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:bowbreaker-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:bowbreaker-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [],
+    "description": "Hoshidan archer who is either fearless or daydreaming. One of Hinoka's retainers. Appears in Fire Emblem Fates.",
+    "weaponType": "Colorless Bow",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Fates",
+    "gender": "Female",
+    "voiceActorEN": "Connor Kelley",
+    "voiceActorJP": "石川綾乃",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistJP": "久杉トク",
+    "artistEN": "Kusugi Toku",
+    "voiceActorJPEN": "Ishikawa Ayano",
+    "insights": [
+        "Setsuna is the only hero with Assassin's Bow+.",
+        "Setsuna is the only hero with Assassin's Bow."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Absent Archer",
+    "artist": "Kusugi Toku (久杉トク)",
+    "dialogue": [
+        {
+            "text": "I'm Setsuna from the Kingdom of Hoshido. I'm good with bows. And, uh...falling into traps?",
+            "context": "joined"
+        },
+        {
+            "text": "Hey, your weapon shoots things. Mine too... It's like we're twins.",
+            "context": "castle"
+        },
+        {
+            "text": "I serve Lady Hinoka. She's strong... and kind...and really nice. I like her lots and lots.",
+            "context": "castle"
+        },
+        {
+            "text": "On patrol, huh? Watch out for traps. Or you'll fall into one. Wait... Am I in a trap now?",
+            "context": "castle"
+        },
+        {
+            "text": "We should go hunting. We'll step into a trap, I bet. But you can just summon Lady Hinoka to save us.",
+            "context": "castle"
+        },
+        {
+            "text": "When I practice at the range here, I nearly hit some guy named Alfonse. Usually, anyway. The face he makes!",
+            "context": "castle"
+        },
+        {
+            "text": "...<Player Name>? Oh, good. I'm here to tell you... uh...? Yeah. Hi. Your friend <Friend Name> sent me.",
+            "context": "friend"
+        },
+        {
+            "text": "I'm doing well...",
+            "context": "level"
+        },
+        {
+            "text": "Woo-hoo.",
+            "context": "level"
+        },
+        {
+            "text": "Yay. Wait, that wasn't much, was it?",
+            "context": "level"
+        },
+        {
+            "text": "One step closer to...uh, not stepping into more traps.",
+            "context": "growth"
+        },
+        {
+            "text": "Woo-hoo. It's you, Summoner. You going to do more of that summoning thing today? I like a crowd. It's nice. And more of us means more people around to help if I fall into a trap. That happens all the time, you know. Have I ever mentioned it? But you know, more of us also means you have less time for me. Sad. What? You promise you won't forget about me? What? You never could? Yay. I feel the same. Are you sure we're not the same person? It wouldn't surprise me at all!",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 5,
+        "spd": 8,
+        "def": 4,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 50,
+        "spd": 65,
+        "def": 40,
+        "res": 40
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "atk": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "res": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "atk": {
+                "base": 26,
+                "low": 23,
+                "high": 29
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "res": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 37,
+                "low": 34,
+                "high": 41
+            },
+            "atk": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "spd": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 147
+            }
+        }
+    }
+}

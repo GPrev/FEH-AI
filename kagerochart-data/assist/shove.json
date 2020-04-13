@@ -1,0 +1,8 @@
+{
+    "name": "Shove",
+    "description": "Pushes target ally 1 space away.",
+    "docType": "assist",
+    "idTag": "SID_体当たり",
+    "spCost": 150,
+    "_id": "assist:shove"
+}

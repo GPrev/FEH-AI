@@ -1,0 +1,11 @@
+{
+    "name": "AR-D Atk/Def 1",
+    "description": "If defending in Aether Raids, grants Atk/Def+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +4; 4 grants +3; 3 grants +2; ≤2 grants +1. Destroyed defensive structures are not counted.)",
+    "docType": "passive-a",
+    "idTag": "SID_攻撃守備の防城戦1",
+    "nextSkill": {
+        "_id": "passive-a:ar-d-atk-def-2"
+    },
+    "spCost": 60,
+    "_id": "passive-a:ar-d-atk-def-1"
+}

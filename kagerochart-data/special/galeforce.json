@@ -1,0 +1,9 @@
+{
+    "name": "Galeforce",
+    "description": "If unit initiates combat, grants unit another action after combat. (Once per turn.)",
+    "docType": "special",
+    "idTag": "SID_疾風迅雷",
+    "spCost": 500,
+    "cooldownCount": 5,
+    "_id": "special:galeforce"
+}

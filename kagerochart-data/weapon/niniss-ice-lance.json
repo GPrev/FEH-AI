@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Ninis's Ice Lance",
+    "description": "Effective against dragon and beast foes. Grants Spd+3. If unit initiates combat, grants Atk/Spd/Def/Res+4 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_氷精ニニスの槍",
+    "spCost": 400,
+    "_id": "weapon:niniss-ice-lance"
+}

@@ -1,0 +1,256 @@
+{
+    "refresher": true,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Rinea",
+    "epitet": "Reminiscent Belle",
+    "display": "Rinea: Reminiscent Belle",
+    "description": "Berkut's betrothed. Typically on the reserved side, she loves to dance. She moves to the beat of any music playing in earshot. Appears in Fire Emblem Echoes: Shadows of Valentia.",
+    "artist": "Asatani Tomoyo (麻谷知世)",
+    "voiceActorEN": "Dorothy Fahn",
+    "voiceActorJP": "山村響",
+    "lowestRarity": 4,
+    "dialogue": [
+        {
+            "text": "Hello! I am called Rinea. Shall we head to the festival together and, perhaps, dance?",
+            "context": "joined"
+        },
+        {
+            "text": "The emperor is not much for revelry. Truthfully, Lord Berkut is forlorn.",
+            "context": "castle"
+        },
+        {
+            "text": "Rigel also holds a festival at this time of year. Everyone in the castle and in the town is so happy... As am I.",
+            "context": "castle"
+        },
+        {
+            "text": "If you're tired from dancing, why not revive yourself with a treat? I made this. Please try it.",
+            "context": "castle"
+        },
+        {
+            "text": "Would you care for a dance? Of course Lord Berkut won't mind! You need not fret.",
+            "context": "castle"
+        },
+        {
+            "text": "Oh my! You've caught me. Yes, I bought this treat. I can't help myself! Please don't tell Berkut.",
+            "context": "castle"
+        },
+        {
+            "text": "I bear an invtation to a dance festival from <Friend Name>. How shall I respond?",
+            "context": "friend"
+        },
+        {
+            "text": "My heart is so light that my feet must follow it.",
+            "context": "level"
+        },
+        {
+            "text": "What a nice rhythm. Shall we dance another song?",
+            "context": "level"
+        },
+        {
+            "text": "Let us dance our sorrows away...",
+            "context": "level"
+        },
+        {
+            "text": "What a wonderful memento of our time spent dancing together. I shall always treasure it.",
+            "context": "growth"
+        },
+        {
+            "text": "Hello, there. Are you taking a break? You look a little peaked. Me? Oh, I'll dance some more! Does that surprise you? Hee-hee. I get that a lot. My love of dance astounds even Lord Berkut. I love to dance so much... So much so that, well, when I was a child... I told my parents I wanted to be a dancer. They didn't take it very well. I couldn't help myself, though! When I was young, I'd dance alone in the forest...my only audience birds and rabbits. Now, though, I can dance here, in front of everyone. Even Lord Berkut looks to be having fun. What a wonderful time. I'm so happy.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Blue",
+    "origin": "Fire Emblem Echoes: Shadows of Valentia",
+    "weapon": [
+        {
+            "_id": "weapon:silver-goblet-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-goblet",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elthunder",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:thunder",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:dance",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Blue Tome",
+    "tomeClass": 2,
+    "moveType": "Infantry",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 5,
+        "spd": 6,
+        "def": 3,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 55,
+        "spd": 60,
+        "def": 45,
+        "res": 50
+    },
+    "passiveB": [
+        {
+            "_id": "passive-b:fireflood-dance-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:fireflood-dance-1",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:torrent-dance-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:bracing-blow-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:bracing-blow-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:warding-blow-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:rinea-reminiscent-belle",
+    "minStats": {
+        "4": {
+            "hp": {
+                "base": 15,
+                "low": 14,
+                "high": 16
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "4": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "atk": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "spd": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "def": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "res": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 38,
+                "low": 34,
+                "high": 41
+            },
+            "atk": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 23,
+                "low": 20,
+                "high": 27
+            },
+            "res": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 152
+            }
+        }
+    }
+}

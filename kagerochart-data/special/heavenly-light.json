@@ -1,0 +1,9 @@
+{
+    "name": "Heavenly Light",
+    "description": "When healing an ally with a staff, restores 10 HP to all allies.",
+    "docType": "special",
+    "idTag": "SID_天照",
+    "spCost": 150,
+    "cooldownCount": 2,
+    "_id": "special:heavenly-light"
+}

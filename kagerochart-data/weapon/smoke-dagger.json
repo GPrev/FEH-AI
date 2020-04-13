@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 6,
+    "name": "Smoke Dagger",
+    "description": "After combat, if unit attacked, inflicts Def/Res-4 on foes within 2 spaces of target through their next actions.",
+    "docType": "weapon",
+    "idTag": "SID_紫煙の暗器",
+    "nextSkill": {
+        "_id": "weapon:smoke-dagger-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:smoke-dagger"
+}

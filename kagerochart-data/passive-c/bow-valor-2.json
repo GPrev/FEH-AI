@@ -1,0 +1,11 @@
+{
+    "name": "Bow Valor 2",
+    "description": "While unit lives, all bow allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+    "docType": "passive-c",
+    "idTag": "SID_弓の技量2",
+    "nextSkill": {
+        "_id": "passive-c:bow-valor-3"
+    },
+    "spCost": 60,
+    "_id": "passive-c:bow-valor-2"
+}

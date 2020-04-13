@@ -1,0 +1,324 @@
+{
+    "_id": "hero:legault-the-hurricane",
+    "display": "Legault: The Hurricane",
+    "name": "Legault",
+    "color": "Colorless",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:the-cleaner-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:the-cleaner",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-dagger",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-dagger",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:glimmer",
+            "unlock": 4
+        },
+        {
+            "_id": "special:night-sky",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Colorless Dagger",
+    "moveType": "Infantry",
+    "passiveA": [
+        {
+            "_id": "passive-a:swift-strike-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:swift-strike-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:darting-blow-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:atk-tactic-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:atk-tactic-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:atk-tactic-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "insights": [
+        "Legault is the only hero with The Cleaner+.",
+        "Legault is the only hero with The Cleaner.",
+        "Legault has the highest <abbr title=\"Speed\">SPD</abbr> potential possible among Dagger heroes.",
+        "Legault has the highest <abbr title=\"Speed\">SPD</abbr> potential possible among Colorless heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "The Hurricane",
+    "description": "Former member of the Black Fang. He was one of the founding members and is known as the \"cleaner.\" Left the group when it lost its way. Appears in Fire Emblem: The Blazing Blade.",
+    "artist": "PenekoR (п猫Ｒ)",
+    "voiceActorEN": "Christopher Bevins",
+    "voiceActorJP": "安元洋貴",
+    "dialogue": [
+        {
+            "text": "Me? I'm just a small-time thief. You can call me Legault. I don't know if I'll be able to live up to your expectations, but I'll do what I can...within reason.",
+            "context": "joined"
+        },
+        {
+            "text": "Nice place. What I like best is that there seems to be little need for those in my line of work.",
+            "context": "castle"
+        },
+        {
+            "text": "The Black Fang was formed with a goal of ridding the world of those who deserved it... Things changed, though. I know well whose fault that was.",
+            "context": "castle"
+        },
+        {
+            "text": "On patrol, are you? Don't forget to take a break every now and again.",
+            "context": "castle"
+        },
+        {
+            "text": "I know a great spot to relax. Why don't you join me? It's quite the luxury, not having to worry about what you're going to eat or where you're going to sleep.",
+            "context": "castle"
+        },
+        {
+            "text": "As a rule, assassins are weaklings... They can't win if they fight fair, so they use trickery. Keep your eyes peeled—that's my advice.",
+            "context": "castle"
+        },
+        {
+            "text": "Sorry for sneaking up on you. Old habits... I'm just here to say hello for <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "They don't call me the Hurricane for nothing.",
+            "context": "level"
+        },
+        {
+            "text": "I still have some skill.",
+            "context": "level"
+        },
+        {
+            "text": "I've lost my touch...",
+            "context": "level"
+        },
+        {
+            "text": "You're hanging your hopes on me? I'll have to get to work.",
+            "context": "growth"
+        },
+        {
+            "text": "Hi there, <Player Name>. You did well today. I did...well enough, I suppose. You might guess it by looking at me, but I don't scare easily. Coming here did put me on edge, though... I wondered what bunch of scoundrels might summon somebody like me to fight for them. Now, though... We've been through it all. I've come to realize you're not up to no good. In fact, you have an aura of downright goodness. It reminds me of old times... Keep to your path, and keep moving forward. I'd hate to see something like this fall to pieces again.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: The Blazing Blade",
+    "releaseDate": "2018-06-08T07:00:00.000Z",
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 6,
+        "spd": 9,
+        "def": 6,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 55,
+        "spd": 65,
+        "def": 40,
+        "res": 35
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "atk": {
+                "base": 27,
+                "low": 24,
+                "high": 30
+            },
+            "spd": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "def": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "res": {
+                "base": 16,
+                "low": 13,
+                "high": 19
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "atk": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "spd": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 17,
+                "low": 14,
+                "high": 20
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 39,
+                "low": 35,
+                "high": 42
+            },
+            "atk": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "spd": {
+                "base": 38,
+                "low": 35,
+                "high": 41
+            },
+            "def": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "res": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 151
+            }
+        }
+    }
+}

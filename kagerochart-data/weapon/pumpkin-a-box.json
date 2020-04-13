@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Pumpkin-a-Box",
+    "description": "Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit. Effect:【Dagger ５】  【Dagger ５】 After combat, if unit attacked, inflicts Def/Res-５ on target and foes within 2 spaces of target through their next actions.",
+    "docType": "weapon",
+    "idTag": "SID_びっくり箱",
+    "nextSkill": {
+        "_id": "weapon:pumpkin-a-box-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:pumpkin-a-box"
+}

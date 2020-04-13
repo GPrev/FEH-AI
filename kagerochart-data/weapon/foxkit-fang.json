@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 14,
+    "name": "Foxkit Fang",
+    "description": "Grants Res+3. At start of combat, if unit's Res > foe's Res, and if foe uses sword, lance, axe, dragonstone, or beast damage, grants bonus to Atk/Spd/Def/Res = 50% of difference between stats. (Maximum bonus of +8 to each stat.) At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.",
+    "docType": "weapon",
+    "idTag": "SID_妖狐娘の爪牙",
+    "spCost": 400,
+    "_id": "weapon:foxkit-fang"
+}

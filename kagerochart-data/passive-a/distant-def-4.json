@@ -1,0 +1,8 @@
+{
+    "name": "Distant Def 4",
+    "description": "If foe initiates combat and uses bow, dagger, magic, or staff, grants Def/Res+8 and neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_遠距離防御4",
+    "spCost": 300,
+    "_id": "passive-a:distant-def-4"
+}

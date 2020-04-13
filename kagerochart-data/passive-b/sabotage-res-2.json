@@ -1,0 +1,11 @@
+{
+    "name": "Sabotage Res 2",
+    "description": "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Res-5 on that foe through its next action.",
+    "docType": "passive-b",
+    "idTag": "SID_魔防の混乱2",
+    "nextSkill": {
+        "_id": "passive-b:sabotage-res-3"
+    },
+    "spCost": 120,
+    "_id": "passive-b:sabotage-res-2"
+}

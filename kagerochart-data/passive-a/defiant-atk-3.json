@@ -1,0 +1,8 @@
+{
+    "name": "Defiant Atk 3",
+    "description": "At start of turn, if unit's HP ≤ 50%, grants Atk+7 for 1 turn.",
+    "docType": "passive-a",
+    "idTag": "SID_攻撃の覚醒3",
+    "spCost": 160,
+    "_id": "passive-a:defiant-atk-3"
+}

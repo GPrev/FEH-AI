@@ -1,0 +1,230 @@
+{
+    "legendary": {
+        "element": "Water",
+        "bst": 0,
+        "stats": {
+            "hp": 3,
+            "res": 4
+        },
+        "duel": false,
+        "duo_skill_id": null,
+        "kind": 1,
+        "pair_up": false
+    },
+    "refresher": true,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Azura",
+    "epitet": "Vallite Songstress",
+    "display": "Azura: Vallite Songstress",
+    "description": "Daughter of Arete and the former king of Valla. Gripped by an unkind fate, she strives to lead both Hoshido and Nohr to the truth. Appears in Fire Emblem Fates.",
+    "artist": "kaya8",
+    "voiceActorEN": "Rena Strober",
+    "voiceActorJP": "Lynn",
+    "dialogue": [
+        {
+            "text": "My name is Azura. Something about you tells me the power of my songs may be of use to you.",
+            "context": "joined"
+        },
+        {
+            "text": "The intriguing conversations I have here are so inspirational... I feel as if I could compose a beautiful song.",
+            "context": "castle"
+        },
+        {
+            "text": "While malicious plots eat silently away at Hoshido and Nohr, my own silence consumes me.",
+            "context": "castle"
+        },
+        {
+            "text": "The brightness of your smile seems faded. Please, allow me to lift your spirits with a song.",
+            "context": "castle"
+        },
+        {
+            "text": "Performing is a far more strenuous task than you might think. You're welcome to join my daily training.",
+            "context": "castle"
+        },
+        {
+            "text": "Sleep was particularly evasive last night... My preparations may be more lengthy than usual today.",
+            "context": "castle"
+        },
+        {
+            "text": "Greetings, <Player Name>. Please receive this gift on behalf of <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "With the power of this song, tranquility will be restored to everyone's troubled hearts.",
+            "context": "level"
+        },
+        {
+            "text": "Today, my voice resonates!",
+            "context": "level"
+        },
+        {
+            "text": "My apologies. It seems my performance today is lackluster.",
+            "context": "level"
+        },
+        {
+            "text": "You have my gratitude. My songs will now carry to even more souls in need.",
+            "context": "growth"
+        },
+        {
+            "text": "There's a shadow darkening your brow, <Player Name>. Does something trouble you? If you don't wish to speak, I won't press you. There are silent secrets nestled in all our hearts... Such a secret plagued me once. I couldn't share my burden with anyone... Not even with one as dear to me as a sibling. But words swallowed can cause much pain. It seems as though you may be carrying too much. Please... Speak with me if you trust me. ...Now I'm pressing you, as I promised I wouldn't. Forgive me, if you will. I merely want to help. When you can no longer swallow your secret, come speak with me. With song, I'll soothe your soul.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Blue",
+    "origin": "Fire Emblem: Fates",
+    "weapon": [
+        {
+            "_id": "weapon:prayer-wheel",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:shine",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:ellight",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:light",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:gray-waves",
+            "unlock": 5
+        },
+        {
+            "_id": "assist:sing",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Blue Tome",
+    "tomeClass": 4,
+    "moveType": "Flying",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 13,
+        "atk": 5,
+        "spd": 6,
+        "def": 3,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 55,
+        "spd": 65,
+        "def": 30,
+        "res": 45
+    },
+    "passiveC": [
+        {
+            "_id": "passive-c:atk-tactic-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:atk-tactic-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:atk-tactic-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:b-duel-flying-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:b-duel-flying-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:b-duel-flying-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:aerobatics-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:aerobatics-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:aerobatics-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:azura-vallite-songstress",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 14,
+                "low": 13,
+                "high": 15
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 33,
+                "low": 30,
+                "high": 37
+            },
+            "atk": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 17,
+                "low": 13,
+                "high": 20
+            },
+            "res": {
+                "base": 24,
+                "low": 21,
+                "high": 28
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 139
+            }
+        }
+    }
+}

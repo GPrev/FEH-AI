@@ -1,0 +1,256 @@
+{
+    "refresher": true,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Reyson",
+    "epitet": "White Prince",
+    "display": "Reyson: White Prince",
+    "description": "Prince of Serenes, the former kingdom of the heron laguz. Brother of Leanne. Frail, but strong willed. Appears in Fire Emblem: Radiant Dawn.",
+    "artist": "Yura (由良)",
+    "voiceActorEN": "Frank Todaro",
+    "voiceActorJP": "石田彰",
+    "lowestRarity": 4,
+    "dialogue": [
+        {
+            "text": "I am Reyson, of Serenes Forest. The heron clan does not easily trust, I warn you. I will be watching closely.",
+            "context": "joined"
+        },
+        {
+            "text": "Ah—the chirping of the birds. Even in the most foreign of lands, it would seem there is familiarity to be found.",
+            "context": "castle"
+        },
+        {
+            "text": "My home, Serenes Forest, was rich and bright beyond compare. One day, that beauty will be restored.",
+            "context": "castle"
+        },
+        {
+            "text": "Herons only eat fruit and nuts, but that just means more meat for you. Please don't refrain on my account.",
+            "context": "castle"
+        },
+        {
+            "text": "You want to hear me sing? Perhaps another time. Apologies, but the moment has to be right.",
+            "context": "castle"
+        },
+        {
+            "text": "The chaos of battle saps my strength. That my body is not meant for war is...vexing to say the least.",
+            "context": "castle"
+        },
+        {
+            "text": "I am Reyson, of the heron clan. I've been sent by <Friend Name> to wish you well.",
+            "context": "friend"
+        },
+        {
+            "text": "The spirit of order invigorates me. I can fight awhile longer.",
+            "context": "level"
+        },
+        {
+            "text": "Perhaps there is some strength in me after all.",
+            "context": "level"
+        },
+        {
+            "text": "The spirit of chaos suffocates me...",
+            "context": "level"
+        },
+        {
+            "text": "I do feel a little more robust, now, I must say.",
+            "context": "growth"
+        },
+        {
+            "text": "I am grateful to you for saving my life, <Player Name>. To fall to the spirit of chaos was...shameful for me. It is frustrating to feel as if I offer only feelings in battle. I envy Tibarn's powerful body and strong wings. If I'd had his strength, I may have been able to save myself from capture, my home from the torch. Thinking of my people's fate cleaves my heart in two. I feel as if I failed them, and I cannot forgive myself. What I can do is focus on my talents. I know that I possess a rare gift, and I do not mean to waste it. So as thanks for saving me, and as a sign of my trust and friendship... I will sing for you.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Green",
+    "origin": "Fire Emblem: Radiant Dawn",
+    "weapon": [
+        {
+            "_id": "weapon:heron-wing",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:adult-flier",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:fledgling-flier",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:hatchling-flier",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:sing",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Green Beast",
+    "tomeClass": 0,
+    "moveType": "Flying",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 14,
+        "atk": 6,
+        "spd": 7,
+        "def": 4,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 50,
+        "spd": 60,
+        "def": 45,
+        "res": 50
+    },
+    "passiveA": [
+        {
+            "_id": "passive-a:steady-posture-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:steady-posture-1",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:darting-stance-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:fortify-beasts",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:fortify-res-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:fortify-res-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:reyson-white-prince",
+    "minStats": {
+        "4": {
+            "hp": {
+                "base": 14,
+                "low": 13,
+                "high": 15
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 15,
+                "low": 14,
+                "high": 16
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "4": {
+            "hp": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "atk": {
+                "base": 27,
+                "low": 24,
+                "high": 30
+            },
+            "spd": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 37,
+                "low": 33,
+                "high": 40
+            },
+            "atk": {
+                "base": 29,
+                "low": 25,
+                "high": 32
+            },
+            "spd": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "def": {
+                "base": 24,
+                "low": 21,
+                "high": 28
+            },
+            "res": {
+                "base": 26,
+                "low": 22,
+                "high": 29
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 150
+            }
+        }
+    }
+}

@@ -1,0 +1,220 @@
+{
+    "_id": "hero:shigure-dark-sky-singer",
+    "display": "Shigure: Dark Sky Singer",
+    "name": "Shigure",
+    "color": "Blue",
+    "weapon": [
+        {
+            "_id": "weapon:dancers-score-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:dancers-score",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elthunder",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:thunder",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:sing",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveB": [
+        {
+            "_id": "passive-b:geyser-dance-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:geyser-dance-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:torrent-dance-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:b-tome-valor-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:b-tome-valor-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:b-tome-valor-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [],
+    "description": "A descendant of the songstress Azura. Sings in Cyrkensia while hiding his identity. Appears in Fire Emblem Fates.",
+    "weaponType": "Blue Tome",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Fates",
+    "gender": "Male",
+    "voiceActorEN": "Matt Mercer",
+    "voiceActorJP": "細谷佳正",
+    "releaseDate": "2017-09-29T00:00:00.000Z",
+    "artistJP": "由良",
+    "artistEN": "Yura",
+    "voiceActorJPEN": "Hosoya Yoshimasa",
+    "insights": [
+        "Shigure is the only hero with Dancer's Score+.",
+        "Shigure is the only hero with Dancer's Score.",
+        "Shigure is the only hero with Geyser Dance 2.",
+        "Shigure is the only hero with Geyser Dance 1.",
+        "Shigure is the only hero with B Tome Valor 3.",
+        "Shigure is the only hero with B Tome Valor 2.",
+        "Shigure is the only hero with B Tome Valor 1.",
+        "Shigure has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible in Fire Emblem Heroes.",
+        "Shigure has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Infantry heroes.",
+        "Shigure has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Tome heroes.",
+        "Shigure has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Blue heroes."
+    ],
+    "refresher": true,
+    "dragonflowers": 10,
+    "epitet": "Dark Sky Singer",
+    "artist": "Yura (由良)",
+    "dialogue": [
+        {
+            "text": "I'm Shigure. My songs hold mysterious power. Would you like me to sing one for you?",
+            "context": "joined"
+        },
+        {
+            "text": "I once thought this outfit too somber, but I've come to think it suits me. I can show a different side of myself...",
+            "context": "castle"
+        },
+        {
+            "text": "On stage, I cover my face with a veil. My mother was a songstress with no equal, you see... I don't want that to color people's opinions of me.",
+            "context": "castle"
+        },
+        {
+            "text": "There's always a price to be paid for power. You can summon Heroes, but at what cost to yourself? I hope I don't have to worry about you.",
+            "context": "castle"
+        },
+        {
+            "text": "Come, let's go for a walk together. It's too bad my pegasus isn't here... We could have strolled the skies.",
+            "context": "castle"
+        },
+        {
+            "text": "Ah, it's you. I was just practicing my singing. I wonder how far my voice could reach...",
+            "context": "castle"
+        },
+        {
+            "text": "You are the ocean's gray waves... Ah, you've caught me in a song. I've simply come to say hello...",
+            "context": "friend"
+        },
+        {
+            "text": "Wonderful. I can only grow by experiencing many things.",
+            "context": "level"
+        },
+        {
+            "text": "I have a little catch in my throat...",
+            "context": "level"
+        },
+        {
+            "text": "I am sorry. My feelings are muted just now. Ah, well.",
+            "context": "level"
+        },
+        {
+            "text": "I'm glad. This can only mean that you have high expectations of me.",
+            "context": "growth"
+        },
+        {
+            "text": "You've come to hear me sing some more? I like that you come alone. It helps me concentrate. I prefer singing for just one person. I know that you must be wondering why I performed at that festival, then... I'm searching for someone—my mother. She went missing after the war ended. You see, I thought that maybe, just maybe...if I sang there, and if I used the power I have... Then maybe I'd see her in the audience. That's why I was there. I sound like a fool, don't I? I may not have found my mother, but I did find you. You need me, so I'll sing for you while I can.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 2,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 14,
+        "atk": 6,
+        "spd": 4,
+        "def": 3,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 55,
+        "spd": 55,
+        "def": 40,
+        "res": 45
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 15,
+                "low": 14,
+                "high": 16
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 34,
+                "low": 31,
+                "high": 38
+            },
+            "atk": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "spd": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "def": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "res": {
+                "base": 24,
+                "low": 21,
+                "high": 28
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 139
+            }
+        }
+    }
+}

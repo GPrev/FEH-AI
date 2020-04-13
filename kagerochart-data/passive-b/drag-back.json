@@ -1,0 +1,8 @@
+{
+    "name": "Drag Back",
+    "description": "If unit initiates combat, unit moves 1 space away after combat. Target foe moves to unit's previous space.",
+    "docType": "passive-b",
+    "idTag": "SID_引き込み",
+    "spCost": 150,
+    "_id": "passive-b:drag-back"
+}

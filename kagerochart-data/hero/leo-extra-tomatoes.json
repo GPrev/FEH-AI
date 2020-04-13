@@ -1,0 +1,260 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Leo",
+    "epitet": "Extra Tomatoes",
+    "display": "Leo: Extra Tomatoes",
+    "description": "Younger prince of Nohr. Comes off as displeased about the unexpected picnic, but secretly having a lovely time. Appears in Fire Emblem Fates.",
+    "artist": "Hino Shinnosuke (日野慎之助)",
+    "voiceActorEN": "Max Mittelman",
+    "voiceActorJP": "宮野真守",
+    "lowestRarity": 4,
+    "dialogue": [
+        {
+            "text": "I am Leo, prince of Nohr. Today is a rare chance to rest, so let's not get too rowdy, hmm?",
+            "context": "joined"
+        },
+        {
+            "text": "Today's weather is quite lovely. I do not care for direct sunlight, but spring is...pleasant.",
+            "context": "castle"
+        },
+        {
+            "text": "Nohr, where I come from, has four seasons, of course. But the climate is never quite this nice... I just want to sit under a tree and study a tactical manual.",
+            "context": "castle"
+        },
+        {
+            "text": "Are you fatigued? I have some chilled tomato juice. Let us share it in the shade of that tree.",
+            "context": "castle"
+        },
+        {
+            "text": "It's about time for lunch, isn't it? I made this. Be sure to savor it.",
+            "context": "castle"
+        },
+        {
+            "text": "Wait, I bid you! I must divide the food into equal portions. There. Eat as much as you like.",
+            "context": "castle"
+        },
+        {
+            "text": "I am Leo, prince of Nohr. I know you must be busy, so I've brought you some lunch.",
+            "context": "friend"
+        },
+        {
+            "text": "I'm in top form. It must be thanks to that delicious tomato sandwich I had for lunch.",
+            "context": "level"
+        },
+        {
+            "text": "Unsatisfactory. Perhaps the tomatoes weren't quite ripe...",
+            "context": "level"
+        },
+        {
+            "text": "I was up so late cooking that I didn't get enough sleep. That must be it...",
+            "context": "level"
+        },
+        {
+            "text": "Tremendous. I'll use this newfound strength to pore over recipe books and uncover more delicious cuisine.",
+            "context": "growth"
+        },
+        {
+            "text": "What's your most enjoyable memory, <Player Name>? You might be surprised to hear that today may well be one of mine. I've had so few chances to simply relax with my friends and family, you see... Seeing everyone gobble up the food I made put a smile on my face. I'd be happy to cook for you again. So please, eat as much as you like.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Green",
+    "origin": "Fire Emblem: Fates",
+    "weapon": [
+        {
+            "_id": "weapon:sandwiches-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:sandwiches",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elwind",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:wind",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:glimmer",
+            "unlock": 4
+        },
+        {
+            "_id": "special:night-sky",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Green Tome",
+    "tomeClass": 3,
+    "moveType": "Cavalry",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 14,
+        "atk": 10,
+        "spd": 5,
+        "def": 4,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 50,
+        "spd": 35,
+        "def": 50,
+        "res": 50
+    },
+    "passiveA": [
+        {
+            "_id": "passive-a:distant-def-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:distant-def-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:distant-def-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:quick-riposte-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:quick-riposte-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:quick-riposte-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:leo-extra-tomatoes",
+    "minStats": {
+        "4": {
+            "hp": {
+                "base": 14,
+                "low": 13,
+                "high": 15
+            },
+            "atk": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 15,
+                "low": 14,
+                "high": 16
+            },
+            "atk": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "4": {
+            "hp": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "atk": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "spd": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "def": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "res": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 37,
+                "low": 33,
+                "high": 40
+            },
+            "atk": {
+                "base": 33,
+                "low": 29,
+                "high": 36
+            },
+            "spd": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "def": {
+                "base": 27,
+                "low": 23,
+                "high": 30
+            },
+            "res": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 146
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Mercurius",
+    "description": "Grants Atk+3. At start of turn, if unit's HP ≥ 50%, grants Atk/Spd/Def/Res+4 to unit and sword, lance, axe, bow, dagger, or beast allies within 2 spaces for 1 turn. (Bonus granted to unit even if no allies are within 2 spaces.)",
+    "docType": "weapon",
+    "idTag": "SID_メリクル",
+    "spCost": 400,
+    "_id": "weapon:mercurius"
+}

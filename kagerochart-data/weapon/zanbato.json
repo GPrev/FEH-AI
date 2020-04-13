@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 10,
+    "name": "Zanbato",
+    "description": "Effective against cavalry foes.",
+    "docType": "weapon",
+    "idTag": "SID_斬馬刀",
+    "nextSkill": {
+        "_id": "weapon:zanbato-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:zanbato"
+}

@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Gratia",
+    "description": "Effective against flying foes. If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+    "docType": "weapon",
+    "idTag": "SID_グラーティア",
+    "nextSkill": {
+        "_id": "weapon:gratia-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:gratia"
+}

@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Ivaldi",
+    "description": "Grants Def+3. At start of combat, if foe's HP = 100%, grants Atk/Spd+3 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_イーヴァルディ",
+    "spCost": 400,
+    "_id": "weapon:ivaldi"
+}

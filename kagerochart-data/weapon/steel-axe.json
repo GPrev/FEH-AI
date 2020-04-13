@@ -1,0 +1,12 @@
+{
+    "range": 1,
+    "might": 8,
+    "name": "Steel Axe",
+    "docType": "weapon",
+    "idTag": "SID_鋼の斧",
+    "nextSkill": {
+        "_id": "weapon:silver-axe"
+    },
+    "spCost": 100,
+    "_id": "weapon:steel-axe"
+}

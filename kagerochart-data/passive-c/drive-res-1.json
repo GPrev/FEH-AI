@@ -1,0 +1,11 @@
+{
+    "name": "Drive Res 1",
+    "description": "Grants Res+2 to allies within 2 spaces during combat.",
+    "docType": "passive-c",
+    "idTag": "SID_魔防の大紋章1",
+    "nextSkill": {
+        "_id": "passive-c:drive-res-2"
+    },
+    "spCost": 120,
+    "_id": "passive-c:drive-res-1"
+}

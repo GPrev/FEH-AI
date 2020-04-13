@@ -1,0 +1,11 @@
+{
+    "name": "Atk Opening 2",
+    "description": "At start of turn, grants Atk+4 to ally with the highest Atk for 1 turn. (Excludes unit.)",
+    "docType": "passive-c",
+    "idTag": "SID_攻撃の開放2",
+    "nextSkill": {
+        "_id": "passive-c:atk-opening-3"
+    },
+    "spCost": 120,
+    "_id": "passive-c:atk-opening-2"
+}

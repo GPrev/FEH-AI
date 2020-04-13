@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 6,
+    "name": "Yearling (Cavalry)",
+    "description": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack.",
+    "docType": "weapon",
+    "idTag": "SID_若獣の化身・騎馬",
+    "nextSkill": {
+        "_id": "weapon:adult-cavalry"
+    },
+    "spCost": 100,
+    "_id": "weapon:yearling-cavalry"
+}

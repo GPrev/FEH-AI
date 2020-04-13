@@ -1,0 +1,9 @@
+{
+    "name": "Windfire Balm+",
+    "description": "When healing an ally with a staff, grants Atk/Spd+6 to all allies for 1 turn.",
+    "docType": "special",
+    "idTag": "SID_業火疾風の祝福＋",
+    "spCost": 300,
+    "cooldownCount": 1,
+    "_id": "special:windfire-balm-plus"
+}

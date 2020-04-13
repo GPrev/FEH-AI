@@ -1,0 +1,10 @@
+{
+    "range": 2,
+    "might": 11,
+    "name": "Blárraven+",
+    "description": "Grants weapon-triangle advantage against colorless foes, and inflicts weapon-triangle disadvantage on colorless foes during combat.",
+    "docType": "weapon",
+    "idTag": "SID_ナートブラー＋",
+    "spCost": 300,
+    "_id": "weapon:blarraven-plus"
+}

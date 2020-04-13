@@ -1,0 +1,327 @@
+{
+    "_id": "hero:shanna-sprightly-flier",
+    "display": "Shanna: Sprightly Flier",
+    "name": "Shanna",
+    "color": "Blue",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:shannas-lance",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:killer-lance-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:killer-lance",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:iceberg",
+            "unlock": 4
+        },
+        {
+            "_id": "special:chilling-wind",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveB": [
+        {
+            "_id": "passive-b:desperation-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:desperation-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:desperation-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:threaten-spd-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:threaten-spd-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:threaten-spd-1",
+            "unlock": 3
+        }
+    ],
+    "passiveA": [],
+    "description": "A trainee of the Pegasus Knights of Ilia. Cheerful and optimistic. Appears in Fire Emblem: The Binding Blade.",
+    "weaponType": "Blue Lance",
+    "moveType": "Flying",
+    "origin": "Fire Emblem: The Binding Blade",
+    "gender": "Female",
+    "voiceActorEN": "Marisha Ray",
+    "voiceActorJP": "白城なお",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistJP": "羽公",
+    "artistEN": "HAKO",
+    "voiceActorJPEN": "Shiraki Nao",
+    "insights": [],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Sprightly Flier",
+    "artist": "HAKO (羽公)",
+    "dialogue": [
+        {
+            "text": "I'm Shanna from Ilia! I'm a pegasus knight! Well...sorta? I'm actually still in training, but I'll do my best!",
+            "context": "joined"
+        },
+        {
+            "text": "My homeland, Ilia, is so cold—and I mean COLD. This place is a real hothouse in comparison.",
+            "context": "castle"
+        },
+        {
+            "text": "I have two sisters named Thea and Juno. They're older than me. Guess that makes me the youngest!",
+            "context": "castle"
+        },
+        {
+            "text": "Want to chat? Sure! What d'ya feel like talking about? How about...? Hmm. Or maybe...? Nah.",
+            "context": "castle"
+        },
+        {
+            "text": "You're welcome to ride my pegasus anytime. Flying is the best!",
+            "context": "castle"
+        },
+        {
+            "text": "Are you going to scold me for flying too far ahead of the front lines? Sorry, sorry—I can't help it!",
+            "context": "castle"
+        },
+        {
+            "text": "Oh, <Player Name>? Great! It is you! One of your friends asked me to say hi. You remember <Friend Name>, right?",
+            "context": "friend"
+        },
+        {
+            "text": "Yeah! I bet I could beat any enemy now.",
+            "context": "level"
+        },
+        {
+            "text": "Hee hee! I'll be as good as my sisters soon!",
+            "context": "level"
+        },
+        {
+            "text": "I'll never NOT be a trainee if I can't do better than that.",
+            "context": "level"
+        },
+        {
+            "text": "I won't be a pegasus knight in training for much longer!",
+            "context": "growth"
+        },
+        {
+            "text": "Some people say I'm childish. Not nice to say, but maybe not totally wrong either. But since I've come here and fought alongside everyone, I feel like I've grown up a lot! Hey, and here you are, I bet, thinking that ol' Shanna looks just the same, right? How do I know? Oh, I know. Everyone always looks at me like I'm just the same. Looky there—it's Shanna! And there—it's Shanna! The thing is, I like being me. So I wouldn't mind putting off this whole growing-up thing. That is, if you don't mind. Ha! I knew you wouldn't!",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 7,
+        "spd": 8,
+        "def": 5,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 50,
+        "spd": 60,
+        "def": 45,
+        "res": 50
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "atk": {
+                "base": 26,
+                "low": 23,
+                "high": 29
+            },
+            "spd": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "atk": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            },
+            "res": {
+                "base": 26,
+                "low": 23,
+                "high": 29
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 39,
+                "low": 35,
+                "high": 42
+            },
+            "atk": {
+                "base": 30,
+                "low": 26,
+                "high": 33
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "res": {
+                "base": 29,
+                "low": 25,
+                "high": 32
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 158
+            }
+        }
+    }
+}

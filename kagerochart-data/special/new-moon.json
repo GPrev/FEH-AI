@@ -1,0 +1,12 @@
+{
+    "name": "New Moon",
+    "description": "Treats foe’s Def/Res as if reduced by 30% during combat.",
+    "docType": "special",
+    "idTag": "SID_影月",
+    "nextSkill": {
+        "_id": "special:luna"
+    },
+    "spCost": 100,
+    "cooldownCount": 3,
+    "_id": "special:new-moon"
+}

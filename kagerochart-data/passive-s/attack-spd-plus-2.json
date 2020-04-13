@@ -1,0 +1,12 @@
+{
+    "_id": "passive-s:attack-spd-plus-2",
+    "name": "Attack Spd +2",
+    "sp": 160,
+    "description": "Grants Atk/Spd+2.",
+    "type": "s",
+    "docType": "passive-s",
+    "statMod": {
+        "atk": 2,
+        "spd": 2
+    }
+}

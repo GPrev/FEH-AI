@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Resolute Blade",
+    "description": "Grants Atk+3. Deals +10 damage when Special triggers.",
+    "docType": "weapon",
+    "idTag": "SID_気鋭ワユの剣",
+    "spCost": 400,
+    "_id": "weapon:resolute-blade"
+}

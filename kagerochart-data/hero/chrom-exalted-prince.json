@@ -1,0 +1,327 @@
+{
+    "_id": "hero:chrom-exalted-prince",
+    "display": "Chrom: Exalted Prince",
+    "name": "Chrom",
+    "color": "Red",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:falchion-14",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-sword",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:aether",
+            "unlock": 5
+        },
+        {
+            "_id": "special:sol",
+            "unlock": 4
+        },
+        {
+            "_id": "special:daylight",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:defiant-def-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:defiant-def-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:defiant-def-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:spur-def-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:spur-def-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:spur-def-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [],
+    "description": "A prince of Ylisse and descendant of the Hero-King. Leads the Shepherds. Appears in Fire Emblem Awakening.",
+    "weaponType": "Red Sword",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Awakening",
+    "gender": "Male",
+    "voiceActorEN": "Matt Mercer",
+    "voiceActorJP": "杉田智和",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistJP": "えびら",
+    "artistEN": "Ebila",
+    "voiceActorJPEN": "Sugita Tomokazu",
+    "insights": [],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Exalted Prince",
+    "artist": "Ebila (えびら)",
+    "dialogue": [
+        {
+            "text": "I'm Chrom, leader of the Shepherds and Prince of the Halidom of Ylisse. For my friends...for peace...I'll fight.",
+            "context": "joined"
+        },
+        {
+            "text": "Seeing you and Alfonse together reminds me of the time I've spent with a friend of mine...",
+            "context": "castle"
+        },
+        {
+            "text": "Back home, my Shepherds deal with outlaws and monsters. It's strange that here we battle against Heroes.",
+            "context": "castle"
+        },
+        {
+            "text": "Keeping watch? Your dedication reminds me of a certain tactician. Don't push yourself too hard!",
+            "context": "castle"
+        },
+        {
+            "text": "Care to spar? Or perhaps we could just work on self-defense drills so I don't break anything...",
+            "context": "castle"
+        },
+        {
+            "text": "I was practicing my swing and wound up smashing a pot. Forgive me, <Player Name>.",
+            "context": "castle"
+        },
+        {
+            "text": "Ah, are you the master of this castle? I bring warm regards from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "No one can stop me now!",
+            "context": "level"
+        },
+        {
+            "text": "My strength comes from diligence.",
+            "context": "level"
+        },
+        {
+            "text": "Well, that was underwhelming.",
+            "context": "level"
+        },
+        {
+            "text": "I vow to use the power you grant me wisely and well.",
+            "context": "growth"
+        },
+        {
+            "text": "It seems like a lot of time has passed since you and I first met. At first I was bewildered, but... your guidance has made me stronger. May we ever remain side by side. You know, when I first met you, you reminded me a lot of Robin. Not just your manner, but the way you plan, help everyone, and work to keep all of your allies alive. There is no one I'd rather have guiding my steps. This bond we've built will last forever. ",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 20,
+        "atk": 8,
+        "spd": 5,
+        "def": 6,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 60,
+        "atk": 65,
+        "spd": 45,
+        "def": 55,
+        "res": 30
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 20,
+                "low": 19,
+                "high": 21
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 20,
+                "low": 19,
+                "high": 21
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 21,
+                "low": 20,
+                "high": 22
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 43,
+                "low": 40,
+                "high": 46
+            },
+            "atk": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "spd": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "def": {
+                "base": 27,
+                "low": 24,
+                "high": 30
+            },
+            "res": {
+                "base": 14,
+                "low": 11,
+                "high": 17
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 44,
+                "low": 41,
+                "high": 47
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            },
+            "def": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "res": {
+                "base": 15,
+                "low": 12,
+                "high": 18
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 47,
+                "low": 44,
+                "high": 50
+            },
+            "atk": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "spd": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "def": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "res": {
+                "base": 17,
+                "low": 13,
+                "high": 20
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 157
+            }
+        }
+    }
+}

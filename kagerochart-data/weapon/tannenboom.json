@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 10,
+    "name": "Tannenboom!",
+    "description": "If foe initiates combat, grants Atk/Spd/Def/Res+2 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_聖樹",
+    "nextSkill": {
+        "_id": "weapon:tannenboom-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:tannenboom"
+}

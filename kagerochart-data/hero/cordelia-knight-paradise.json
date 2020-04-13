@@ -1,0 +1,209 @@
+{
+    "_id": "hero:cordelia-knight-paradise",
+    "display": "Cordelia: Knight Paradise",
+    "name": "Cordelia",
+    "color": "Blue",
+    "weapon": [
+        {
+            "_id": "weapon:shell-lance-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:shell-lance",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:harsh-command",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "weaponType": "Blue Lance",
+    "moveType": "Cavalry",
+    "passiveA": [
+        {
+            "_id": "passive-a:sturdy-blow-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:sturdy-blow-1",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:armored-blow-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:dull-close-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:dull-close-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:dull-close-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [],
+    "insights": [
+        "Cordelia is the only hero with Shell Lance+.",
+        "Cordelia is the only hero with Shell Lance.",
+        "Cordelia is the only hero with Dull Close 3.",
+        "Cordelia is the only hero with Dull Close 2.",
+        "Cordelia is the only hero with Dull Close 1."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Knight Paradise",
+    "description": "The sole survivor of Ylisse's pegasus knights. Supremely talented, but not so sure about swimwear. Appears in Fire Emblem Awakening.",
+    "artist": "Mayo (まよ)",
+    "voiceActorEN": "Julie Ann Taylor",
+    "voiceActorJP": "岡田栄美",
+    "dialogue": [
+        {
+            "text": "My name is Cordelia. I pledge to aid you however I can, so long as I am here. A knight in a swimsuit... Unusual, I know.",
+            "context": "joined"
+        },
+        {
+            "text": "I feel a little ill at ease in this swimsuit... What if I were to run into Chrom? What then, I ask? What then?",
+            "context": "castle"
+        },
+        {
+            "text": "It seems that wearing a swimsuit puts you on edge, too... I know that feeling. This outfit is so revealing! There's nothing practical about it... When it comes to battle, at any rate! Don't you agree?",
+            "context": "castle"
+        },
+        {
+            "text": "You want to play on the beach? Well... Right. There's no reason to stand here being embarrassed!",
+            "context": "castle"
+        },
+        {
+            "text": "I've tried a lot of different exercise regimens... I'm trying to build on my strengths. If I work hard enough, that might have some ancillary benefits, too...",
+            "context": "castle"
+        },
+        {
+            "text": "The ocean is beautiful... It reminds me of a trip I took, once. Water so clear that it glittered like jewels...",
+            "context": "castle"
+        },
+        {
+            "text": "Hot today, isn't it? I've got some chilled juice for you to share. It's from <Friend Name>!",
+            "context": "friend"
+        },
+        {
+            "text": "No matter how I am dressed, effort brings results.",
+            "context": "level"
+        },
+        {
+            "text": "I may be a bit uneasy, but I'm still getting stronger!",
+            "context": "level"
+        },
+        {
+            "text": "This is the worst... How embarrassing.",
+            "context": "level"
+        },
+        {
+            "text": "This swimsuit won't hold me back... I think! Right?",
+            "context": "growth"
+        },
+        {
+            "text": "Are you tired already? I think you may need to spend more time on training. Don't skip a day, either. I can tell by your expression that you thought today would be a little more... relaxing. Sorry to disappoint, but summertime training for a pegasus knight is always intense. We always have to be prepared. I'm concerned that you aren't ready for battlefield emergencies... You can't stay on the sidelines forever. And I'm happy to help whip you into shape. Well... We did complete today's training regimen. So we can take it easy for the rest of the day. If you want to goof off, you have to earn it. I'll race you to those rocks over there—then we can play!",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Awakening",
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 7,
+        "spd": 9,
+        "def": 5,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 55,
+        "spd": 65,
+        "def": 50,
+        "res": 30
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 41,
+                "low": 38,
+                "high": 44
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 38,
+                "low": 35,
+                "high": 41
+            },
+            "def": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "res": {
+                "base": 18,
+                "low": 14,
+                "high": 21
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 157
+            }
+        }
+    }
+}

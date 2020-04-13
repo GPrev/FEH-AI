@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Oracle's Breath",
+    "description": "Grants Atk+3. If a bonus granted by a skill like Rally or Hone is active on unit, foe cannot make a follow-up attack. If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
+    "docType": "weapon",
+    "idTag": "SID_神託のブレス",
+    "spCost": 400,
+    "_id": "weapon:oracles-breath"
+}

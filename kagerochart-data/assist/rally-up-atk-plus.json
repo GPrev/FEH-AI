@@ -1,0 +1,8 @@
+{
+    "name": "Rally Up Atk+",
+    "description": "Grants Atk+6 to target ally and allies within 2 spaces of target (excluding unit) for 1 turn.",
+    "docType": "assist",
+    "idTag": "SID_攻撃の大応援＋",
+    "spCost": 400,
+    "_id": "assist:rally-up-atk-plus"
+}

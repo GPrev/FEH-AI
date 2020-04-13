@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Keen Rauðrwolf",
+    "description": "Effective against cavalry foes.",
+    "docType": "weapon",
+    "idTag": "SID_ラウアウルフ2",
+    "nextSkill": {
+        "_id": "weapon:keen-raurwolf-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:keen-raurwolf"
+}

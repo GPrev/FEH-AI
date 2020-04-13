@@ -1,0 +1,225 @@
+{
+    "legendary": {
+        "element": "Earth",
+        "bst": 175,
+        "stats": {
+            "hp": 3
+        },
+        "duel": true,
+        "duo_skill_id": null,
+        "kind": 1,
+        "pair_up": true
+    },
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Julia",
+    "epitet": "Crusader of Light",
+    "display": "Julia: Crusader of Light",
+    "description": "Princess of Grannvale. As the inheritor of the Book of Naga, she must perform her duties in spite of the obstacles before her. Appears in Fire Emblem: Genealogy of the Holy War.",
+    "artist": "sachie (茶ちえ)",
+    "voiceActorEN": "Cassandra Lee Morris",
+    "voiceActorJP": "佐倉綾音",
+    "dialogue": [
+        {
+            "text": "I am Julia. You think me a...Legendary Hero? I am not certain I understand, but I am here to help nonetheless.",
+            "context": "joined"
+        },
+        {
+            "text": "My dear Julius... Is there nothing yet left of my gentle brother?",
+            "context": "castle"
+        },
+        {
+            "text": "Though we saved the world from the ambitions of the Loptr Church, the cost paid in lives was high...",
+            "context": "castle"
+        },
+        {
+            "text": "Forgive my saying so, but you seem exhausted... Please, get some rest. I am here for you.",
+            "context": "castle"
+        },
+        {
+            "text": "I have an uneasy feeling... Apologies, but...would you mind if I stay near to you today?",
+            "context": "castle"
+        },
+        {
+            "text": "Ah, I was just admiring the flowers... When we were young, my brother and I would play in the flower beds...",
+            "context": "castle"
+        },
+        {
+            "text": "Oh, hello. I seem to be lost. Is this not <Friend Name>'s castle?",
+            "context": "friend"
+        },
+        {
+            "text": "This new power flowing through me bears a mysterious warmth...",
+            "context": "level"
+        },
+        {
+            "text": "I must have the strength to command my fate!",
+            "context": "level"
+        },
+        {
+            "text": "What has happened to me...",
+            "context": "level"
+        },
+        {
+            "text": "For me? Thank you. I will use it to aid others wherever I am needed.",
+            "context": "growth"
+        },
+        {
+            "text": "In the past, I've resented the crusader blood flowing through my veins... Yet, it gives me the strength to fight fate. Now I understand. In order to face the great malice that threatens the world, this strength is necessary. It's like your ability to summon... But I fear even still we will both face even greater threats to overcome. Though I cannot take your place, allow me to pray for you, that it might bring us closer to peace... I pray the gods grant you protection, gentle <Player Name>.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Blue",
+    "origin": "Fire Emblem: Genealogy of the Holy War",
+    "weapon": [
+        {
+            "_id": "weapon:virtuous-naga",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:shine",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:ellight",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:light",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:dragon-fang",
+            "unlock": 4
+        },
+        {
+            "_id": "special:dragon-gaze",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Blue Tome",
+    "tomeClass": 4,
+    "moveType": "Infantry",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 8,
+        "spd": 5,
+        "def": 3,
+        "res": 9
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 70,
+        "spd": 50,
+        "def": 35,
+        "res": 60
+    },
+    "passiveC": [
+        {
+            "_id": "passive-c:atk-res-oath-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:atk-res-oath-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:atk-res-oath-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:mirror-impact",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:mirror-strike-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:mirror-strike-1",
+            "unlock": 3
+        },
+        {
+            "_id": "passive-a:warding-blow-1",
+            "unlock": 2
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:light-and-dark",
+            "unlock": 5
+        }
+    ],
+    "_id": "hero:julia-crusader-of-light",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 40,
+                "low": 36,
+                "high": 43
+            },
+            "atk": {
+                "base": 39,
+                "low": 36,
+                "high": 43
+            },
+            "spd": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "def": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "res": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 162
+            }
+        }
+    }
+}

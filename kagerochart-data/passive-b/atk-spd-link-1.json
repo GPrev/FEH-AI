@@ -1,0 +1,11 @@
+{
+    "name": "Atk/Spd Link 1",
+    "description": "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Atk/Spd+2 to unit and target ally or unit and targeting ally for 1 turn.",
+    "docType": "passive-b",
+    "idTag": "SID_攻撃速さの連携1",
+    "nextSkill": {
+        "_id": "passive-b:atk-spd-link-2"
+    },
+    "spCost": 60,
+    "_id": "passive-b:atk-spd-link-1"
+}

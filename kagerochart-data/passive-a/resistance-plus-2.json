@@ -1,0 +1,11 @@
+{
+    "name": "Resistance +2",
+    "description": "Grants Res+2.",
+    "docType": "passive-a",
+    "idTag": "SID_魔防2",
+    "nextSkill": {
+        "_id": "passive-a:resistance-plus-3"
+    },
+    "spCost": 60,
+    "_id": "passive-a:resistance-plus-2"
+}

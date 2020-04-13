@@ -1,0 +1,8 @@
+{
+    "name": "Harsh Command+",
+    "description": "Neutralizes target ally's penalties (from skills like Panic, Threaten, etc.) and negative status effects (preventing counterattacks, restricting movement, etc.) that last through ally's next action. Converts any penalties on target ally into bonuses.",
+    "docType": "assist",
+    "idTag": "SID_一喝＋",
+    "spCost": 400,
+    "_id": "assist:harsh-command-plus"
+}

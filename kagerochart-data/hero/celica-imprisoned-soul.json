@@ -1,0 +1,210 @@
+{
+    "_id": "hero:celica-imprisoned-soul",
+    "display": "Celica: Imprisoned Soul",
+    "name": "Celica",
+    "color": "Red",
+    "weapon": [
+        {
+            "_id": "weapon:beloved-zofia",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-sword",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:luna",
+            "unlock": 4
+        },
+        {
+            "_id": "special:new-moon",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Red Sword",
+    "moveType": "Infantry",
+    "passiveB": [
+        {
+            "_id": "passive-b:chill-spd-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:chill-spd-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:chill-spd-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:hone-atk-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:hone-atk-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:hone-atk-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [],
+    "insights": [
+        "Celica is the only hero with Beloved Zofia."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Imprisoned Soul",
+    "description": "Celica's form as a witch after giving her soul to Duma. It seems her old memories occassionally rise to the surface. Appears in Fire Emblem Echoes: Shadows of Valentia.",
+    "artist": "Fujikawa Akira (藤川祥)",
+    "voiceActorEN": "Erica Lindbeck",
+    "voiceActorJP": "東山奈央",
+    "dialogue": [
+        {
+            "text": "I am Lord Duma's faithful servant, Celica. I shall fill this world...with Lord Duma's power...",
+            "context": "joined"
+        },
+        {
+            "text": "All is for Lord Duma's sake. Someday this world, too, shall belong to him. Heeheehee...",
+            "context": "castle"
+        },
+        {
+            "text": "More...about me? There is nothing more. I have nothing special. Nothing...",
+            "context": "castle"
+        },
+        {
+            "text": "Why do you insist on spending so much time near me? You are...a strange one...",
+            "context": "castle"
+        },
+        {
+            "text": "Would you accept Lord Duma's blessing? You'll become more powerful than you know. You'll obtain the power...to destroy all... Heehee...",
+            "context": "castle"
+        },
+        {
+            "text": "I know not of whom, but I sometimes have...visions...of a familiar face. It's the face of... Of my...",
+            "context": "castle"
+        },
+        {
+            "text": "Your friend <Friend Name> sends blessings... From Lord Duma. Heeheehee...",
+            "context": "friend"
+        },
+        {
+            "text": "Bow before the might of Lord Duma!",
+            "context": "level"
+        },
+        {
+            "text": "Thank you... Lord Duma...",
+            "context": "level"
+        },
+        {
+            "text": "What...madness...is this?!",
+            "context": "level"
+        },
+        {
+            "text": "This shall bring me closer still to Lord Duma's vision.",
+            "context": "growth"
+        },
+        {
+            "text": "The visions appear as dreams... I see myself living in a small village... With an old man and a young boy. And I want...to go there... Yet, I do not know them or this village. It vexes me so. I am certain you are the cause of these visions... You and the warmth you have shown me. What was that? You think that someday...I can go there? Curious... I am Lord Duma's faithful servant. And yet... I feel like I might believe your words... No. I mustn't give in.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem Echoes: Shadows of Valentia",
+    "releaseDate": "2018-02-21T07:00:00.000Z",
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 8,
+        "spd": 8,
+        "def": 4,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 60,
+        "def": 50,
+        "res": 45
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 40,
+                "low": 36,
+                "high": 43
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "def": {
+                "base": 27,
+                "low": 23,
+                "high": 30
+            },
+            "res": {
+                "base": 26,
+                "low": 23,
+                "high": 30
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 163
+            }
+        }
+    }
+}

@@ -1,0 +1,224 @@
+{
+    "_id": "hero:mikoto-caring-mother",
+    "display": "Mikoto: Caring Mother",
+    "name": "Mikoto",
+    "color": "Colorless",
+    "weapon": [
+        {
+            "_id": "weapon:flash-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:flash",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:assault",
+            "unlock": 1
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:miracle",
+            "unlock": 3
+        },
+        {
+            "_id": "special:imbue",
+            "unlock": 2
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:martyr-plus",
+            "unlock": 0
+        },
+        {
+            "_id": "assist:martyr",
+            "unlock": 3
+        },
+        {
+            "_id": "assist:reconcile",
+            "unlock": 2
+        },
+        {
+            "_id": "assist:heal",
+            "unlock": 0
+        }
+    ],
+    "docType": "hero",
+    "weaponType": "Colorless Staff",
+    "moveType": "Infantry",
+    "passiveA": [
+        {
+            "_id": "passive-a:brazen-atk-res-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:brazen-atk-res-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:brazen-atk-res-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:infantry-rush-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:infantry-rush-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:infantry-rush-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [],
+    "insights": [
+        "Mikoto is the only hero with Flash+.",
+        "Mikoto is the only hero with Flash."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Caring Mother",
+    "description": "The extremely affectionate queen of another Hoshido. She is a nurturing adoptive mother to Azura. Appears in Fire Emblem Fates.",
+    "artist": "Ito Misei (伊藤未生)",
+    "voiceActorEN": "Marisha Ray",
+    "voiceActorJP": "大原さやか",
+    "dialogue": [
+        {
+            "text": "I am Mikoto, queen of Hoshido. I hastened to follow a familiar voice and found myself in this realm.",
+            "context": "joined"
+        },
+        {
+            "text": "Azura is such a gentle child. But her insight into others' hearts makes her oversensitive, and she harbors ill will.",
+            "context": "castle"
+        },
+        {
+            "text": "Ryoma, Hinoka, Corrin, Azura, Takumi, and Sakura... Oh, my children.",
+            "context": "castle"
+        },
+        {
+            "text": "Even if we aren't bound by blood... we are still a family. I love all of them so much.",
+            "context": "castle"
+        },
+        {
+            "text": "While I am with you, please...think of me as your mother. If that's all right with you, <Player Name>.",
+            "context": "castle"
+        },
+        {
+            "text": "So many dream of a world without war. I hope you can realize that dream. I believe in you.",
+            "context": "castle"
+        },
+        {
+            "text": "I don't mean to intrude. I am here to check up on you. I was asked to by <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Never give up and your dreams will come true. I want all of my children to understand that.",
+            "context": "level"
+        },
+        {
+            "text": "I am grateful.",
+            "context": "level"
+        },
+        {
+            "text": "How unfortunate. We all stumble sometimes.",
+            "context": "level"
+        },
+        {
+            "text": "No matter how old you get, you will always respond to kindness.",
+            "context": "growth"
+        },
+        {
+            "text": "Am I dreaming? Or is my existence itself a dream? I have the sense that I fell before I was able to accomplish everything I had hoped... But here, I am able to see how all of my children have grown. It was your power that brought me here, <Player Name>. You and young Azura's voice. Even if I cannot stay...I am grateful to the both of you. You have shown me the continuation of my dream. For my part, I can help by tending to you and to Azura. I can only hope that if I nurture you, you can both move forward. And as long as this dream continues... I will be right here beside you.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Fates",
+    "releaseDate": "2018-11-09T07:00:00.000Z",
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 8,
+        "spd": 7,
+        "def": 4,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 55,
+        "def": 35,
+        "res": 45
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 38,
+                "low": 34,
+                "high": 41
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "def": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "res": {
+                "base": 26,
+                "low": 23,
+                "high": 30
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 151
+            }
+        }
+    }
+}

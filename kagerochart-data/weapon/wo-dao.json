@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 9,
+    "name": "Wo Dao",
+    "description": "Deals +10 damage when Special triggers.",
+    "docType": "weapon",
+    "idTag": "SID_倭刀",
+    "nextSkill": {
+        "_id": "weapon:wo-dao-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:wo-dao"
+}

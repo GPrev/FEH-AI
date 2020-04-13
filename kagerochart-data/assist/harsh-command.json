@@ -1,0 +1,8 @@
+{
+    "name": "Harsh Command",
+    "description": "Converts penalties on target into bonuses.",
+    "docType": "assist",
+    "idTag": "SID_一喝",
+    "spCost": 150,
+    "_id": "assist:harsh-command"
+}

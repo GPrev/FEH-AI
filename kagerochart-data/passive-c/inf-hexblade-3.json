@@ -1,0 +1,8 @@
+{
+    "name": "Inf. Hexblade 3",
+    "description": "If adjacent infantry allies use sword, lance, axe, bow, or dagger, grants Atk/Spd+2 to those allies and calculates their damage using the lower of foe's Def or Res during combat. (Does not affect damage dealt by Specials that trigger before combat.)",
+    "docType": "passive-c",
+    "idTag": "SID_歩行の魔刃3",
+    "spCost": 240,
+    "_id": "passive-c:inf-hexblade-3"
+}

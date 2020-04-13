@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 6,
+    "name": "Gronnowl",
+    "description": "During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies × 2.",
+    "docType": "weapon",
+    "idTag": "SID_グルンアウル",
+    "nextSkill": {
+        "_id": "weapon:gronnowl-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:gronnowl"
+}

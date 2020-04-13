@@ -1,0 +1,226 @@
+{
+    "legendary": {
+        "element": "Anima",
+        "bst": 0,
+        "stats": {
+            "hp": 5,
+            "def": 5
+        },
+        "duel": false,
+        "duo_skill_id": null,
+        "kind": 1,
+        "pair_up": false
+    },
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Thrasir",
+    "epitet": "Omnicidal Witch",
+    "display": "Thrasir: Omnicidal Witch",
+    "description": "General of the realm of the dead. At her queen's command, this witch uses her powers to swell the ranks of the dead.",
+    "artist": "Kozaki Yusuke (コザキユースケ)",
+    "voiceActorEN": "Lizzie Freeman",
+    "voiceActorJP": "小倉唯",
+    "dialogue": [
+        {
+            "text": "I am Thrasir. The one who called me here... It was you, wasn't it?",
+            "context": "joined"
+        },
+        {
+            "text": "Brother... I will fix things. So wait for me...",
+            "context": "castle"
+        },
+        {
+            "text": "My brother gave me this tome. The cover is worn, but I treasure it.",
+            "context": "castle"
+        },
+        {
+            "text": "As your general, I will see your foes defeated... I'll snap their heads off, like so many dolls.",
+            "context": "castle"
+        },
+        {
+            "text": "Líf and I have fought together for some time now. We share a bond.",
+            "context": "castle"
+        },
+        {
+            "text": "Do not address me as Veronica. I am not her. My world, my destiny... they are likewise not hers. I am Thrasir.",
+            "context": "castle"
+        },
+        {
+            "text": "I am Thrasir, general of the realm of the dead. Well, no...a general of <Friend Name>'s forces now.",
+            "context": "friend"
+        },
+        {
+            "text": "Should I be pleased?",
+            "context": "level"
+        },
+        {
+            "text": "My world may be in ruin, but I persist.",
+            "context": "level"
+        },
+        {
+            "text": "What? Have you something to say?",
+            "context": "level"
+        },
+        {
+            "text": "I thank you.",
+            "context": "growth"
+        },
+        {
+            "text": "My world was destroyed... And my battle was lost. My hope is gone. Or so I had thought. Your presence makes the fantastical seem real. Some day, perhaps, my brother... You... I know that even you cannot save a world that has fallen to ruin. I know that... But I can't help but cling to my selfish wishes. Do not let it trouble you.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Green",
+    "origin": "Fire Emblem Heroes",
+    "weapon": [
+        {
+            "_id": "weapon:ifingr",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:rexcalibur",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elwind",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:wind",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:moonbow",
+            "unlock": 4
+        },
+        {
+            "_id": "special:new-moon",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Green Tome",
+    "tomeClass": 3,
+    "moveType": "Infantry",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 8,
+        "spd": 8,
+        "def": 5,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 55,
+        "spd": 70,
+        "def": 40,
+        "res": 50
+    },
+    "passiveC": [
+        {
+            "_id": "passive-c:panic-smoke-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:panic-smoke-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:panic-smoke-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:flashing-blade-4",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:flashing-blade-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:flashing-blade-2",
+            "unlock": 3
+        },
+        {
+            "_id": "passive-a:flashing-blade-1",
+            "unlock": 2
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:killing-intent",
+            "unlock": 5
+        }
+    ],
+    "_id": "hero:thrasir-omnicidal-witch",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 40,
+                "low": 36,
+                "high": 43
+            },
+            "atk": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "spd": {
+                "base": 39,
+                "low": 36,
+                "high": 43
+            },
+            "def": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            },
+            "res": {
+                "base": 27,
+                "low": 23,
+                "high": 30
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 162
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Defiant Spd 2",
+    "description": "At start of turn, if unit's HP ≤ 50%, grants Spd+5 for 1 turn.",
+    "docType": "passive-a",
+    "idTag": "SID_速さの覚醒2",
+    "nextSkill": {
+        "_id": "passive-a:defiant-spd-3"
+    },
+    "spCost": 80,
+    "_id": "passive-a:defiant-spd-2"
+}

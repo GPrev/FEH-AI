@@ -1,0 +1,11 @@
+{
+    "name": "Death Blow 2",
+    "description": "If unit initiates combat, grants Atk+4 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_鬼神の一撃2",
+    "nextSkill": {
+        "_id": "passive-a:death-blow-3"
+    },
+    "spCost": 100,
+    "_id": "passive-a:death-blow-2"
+}

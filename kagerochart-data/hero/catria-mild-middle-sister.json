@@ -1,0 +1,223 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Catria",
+    "epitet": "Mild Middle Sister",
+    "display": "Catria: Mild Middle Sister",
+    "description": "The middle sister of three pegasus knights of Macedon who ventured to Valentia to rescue her kidnapped younger sister. Appears in Fire Emblem Echoes: Shadows of Valentia.",
+    "artist": "Kakage (かかげ)",
+    "voiceActorEN": "Connor Kelly",
+    "voiceActorJP": "生天目仁美",
+    "dialogue": [
+        {
+            "text": "I'm Catria. My younger sister was kidnapped by pirates... Might I find her in this world, I wonder?",
+            "context": "joined"
+        },
+        {
+            "text": "Though I know they're from other worlds, seeing multiple Pallas and Ests here still feels quite strange...",
+            "context": "castle"
+        },
+        {
+            "text": "I went all the way from Archanea to Valentia, looking for my sister... And that's how I met Celica.",
+            "context": "castle"
+        },
+        {
+            "text": "With all these...unique...Heroes under your command, how are you not always exhausted by their antics? I ask because, having a free-spirited younger sister, I feel like I can relate...",
+            "context": "castle"
+        },
+        {
+            "text": "I'd like to acclimate my pegasus to the sights and sounds of this world... Any suggestion on where to start?",
+            "context": "castle"
+        },
+        {
+            "text": "Huh? Oh, no, I'm not looking for anyone right now. I'm just out on a walk, that's all...",
+            "context": "castle"
+        },
+        {
+            "text": "Ah! Glad I finally found you. You're <Player Name>, right?",
+            "context": "friend"
+        },
+        {
+            "text": "YES! Er... Excuse me. I shouldn't get so excited...",
+            "context": "level"
+        },
+        {
+            "text": "Ah, a result to match the effort. Satisfactory.",
+            "context": "level"
+        },
+        {
+            "text": "I've disappointed even myself. Forgive me...",
+            "context": "level"
+        },
+        {
+            "text": "With this, I'll protect you, and this world, without fail!",
+            "context": "growth"
+        },
+        {
+            "text": "I traveled from Archanea to Valentia searching for Est, and now I find myself in Askr... My head is spinning! Palla always says new places lead to new faces...and I'm sure Est is ecstatic exploring new places... Why am I so different? Sometimes it makes me wish I'd been born a bit more carefree... Wishing won't make it so, though... And besides, I've come to accept that who I am now isn't all that bad. After all...I see a bit of myself in you. The glue that binds Heroes together... It may be hard, but we'll do our best!",
+            "context": "maxed"
+        }
+    ],
+    "color": "Red",
+    "origin": "Fire Emblem Echoes: Shadows of Valentia",
+    "releaseDate": "2019-10-21T07:00:00.000Z",
+    "weapon": [
+        {
+            "_id": "weapon:astra-blade",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-sword",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-sword",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-sword",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:harsh-command-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "assist:harsh-command",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Red Sword",
+    "tomeClass": 0,
+    "moveType": "Flying",
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 7,
+        "spd": 9,
+        "def": 7,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 70,
+        "spd": 60,
+        "def": 45,
+        "res": 40
+    },
+    "passiveB": [
+        {
+            "_id": "passive-b:aerobatics-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:aerobatics-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:aerobatics-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:atk-spd-bond-4",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:atk-spd-bond-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:atk-spd-bond-2",
+            "unlock": 3
+        },
+        {
+            "_id": "passive-a:atk-spd-bond-1",
+            "unlock": 2
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:spd-tactic-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:spd-tactic-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:spd-tactic-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:catria-mild-middle-sister",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 41,
+                "low": 38,
+                "high": 44
+            },
+            "atk": {
+                "base": 38,
+                "low": 35,
+                "high": 42
+            },
+            "spd": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "def": {
+                "base": 27,
+                "low": 24,
+                "high": 31
+            },
+            "res": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 166
+            }
+        }
+    }
+}

@@ -1,0 +1,205 @@
+{
+    "_id": "hero:xander-spring-prince",
+    "display": "Xander: Spring Prince",
+    "name": "Xander",
+    "color": "Blue",
+    "weapon": [
+        {
+            "_id": "weapon:carrot-lance-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:carrot-lance",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:swap",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveB": [
+        {
+            "_id": "passive-b:live-for-honor",
+            "unlock": 4
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:fortify-def-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:fortify-def-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:fortify-def-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [],
+    "description": "Nohrian prince who normally wields the divine blade Siegfried but left it behind for the festival. Appears in Fire Emblem Fates.",
+    "weaponType": "Blue Lance",
+    "moveType": "Cavalry",
+    "origin": "Fire Emblem: Fates",
+    "gender": "Male",
+    "voiceActorEN": "George Spelvin",
+    "voiceActorJP": "小西克幸",
+    "releaseDate": "2017-03-30T00:00:00.000Z",
+    "artistJP": "スエカネクミコ",
+    "artistEN": "Suekane Kumiko",
+    "voiceActorJPEN": "Konishi Katsuyuki",
+    "insights": [
+        "Xander is the only hero with Carrot Lance+.",
+        "Xander is the only hero with Carrot Lance.",
+        "Xander has the lowest <abbr title=\"Attack\">ATK</abbr> potential possible among Cavalry heroes.",
+        "Xander has the lowest <abbr title=\"Attack\">ATK</abbr> potential possible among Lance heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Spring Prince",
+    "artist": "Suekane Kumiko (スエカネクミコ)",
+    "dialogue": [
+        {
+            "text": "I am Xander, Crown Prince of Nohr. Is this outfit correct for the occasion? I ought to look festive.",
+            "context": "joined"
+        },
+        {
+            "text": "Prince Alfonse's sword reminds me of my own Siegfried, which I hope is being stored safely at my castle.",
+            "context": "castle"
+        },
+        {
+            "text": "The spring in Nohr is cold and dark, so I like my kingdom to celebrate spring as best we can. That, if little else, always serves to warm my people's hearts.",
+            "context": "castle"
+        },
+        {
+            "text": "Even in busy times, remember what the spring season brings back into our lives after a long winter. Ease and sleep, and simply slowing down to enjoy life, restores us all to peak condition.",
+            "context": "castle"
+        },
+        {
+            "text": "During my kingdom's spring festival, we hide eggs and then search for them. It's the definition of fun. I wonder if it would be appropriate to hide eggs in this castle?",
+            "context": "castle"
+        },
+        {
+            "text": "My siblings goaded me into wearing such a bright and outlandish outfit. I hardly recognize my reflection.",
+            "context": "castle"
+        },
+        {
+            "text": "I bring to you spring greetings, <Player Name>. These tidings come from none other than <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "I didn't expect such growth. Spring does bring surprises.",
+            "context": "level"
+        },
+        {
+            "text": "One can only hope for more growth by season's end.",
+            "context": "level"
+        },
+        {
+            "text": "Surely the result of fighting with an unfamiliar weapon.",
+            "context": "level"
+        },
+        {
+            "text": "You have my thanks. This is as welcome as a spring breeze.",
+            "context": "growth"
+        },
+        {
+            "text": "I have hidden an egg for you to find, <Player Name>. Now, try your best to locate the— What? You think it's in the hand behind my back? Hmm. You are correct. I should have known that I couldn't outwit you, Summoner. Maybe you will be impressed by how I painted this egg. On this side is the symbol of Nohr. Beside it is the symbol of the Order of Heroes. Thus, this egg represents our friendship, created in the spring and strengthened in battle. Now, you should be careful with this egg, taking great care never to break it. Other painted eggs may be made to be rolled through grass in festival games... But not this one.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 5,
+        "spd": 5,
+        "def": 8,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 45,
+        "spd": 50,
+        "def": 60,
+        "res": 45
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 40,
+                "low": 36,
+                "high": 43
+            },
+            "atk": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "spd": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "def": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "res": {
+                "base": 26,
+                "low": 23,
+                "high": 30
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 154
+            }
+        }
+    }
+}

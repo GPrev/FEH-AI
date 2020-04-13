@@ -1,0 +1,9 @@
+{
+    "_id": "passive-s:spur-res-2",
+    "name": "Spur Res 2",
+    "sp": 100,
+    "type": "s",
+    "description": "Grants adjacent allies Res+3 during combat.",
+    "icon": "/images/icons/passives/spur-res-2.png",
+    "docType": "passive-s"
+}

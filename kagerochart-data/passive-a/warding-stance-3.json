@@ -1,0 +1,8 @@
+{
+    "name": "Warding Stance 3",
+    "description": "If foe initiates combat, grants Res+6 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_明鏡の構え3",
+    "spCost": 200,
+    "_id": "passive-a:warding-stance-3"
+}

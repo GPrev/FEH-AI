@@ -1,0 +1,318 @@
+{
+    "_id": "hero:linus-mad-dog",
+    "display": "Linus: Mad Dog",
+    "name": "Linus",
+    "color": "Green",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:basilikos",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-axe",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-axe",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-axe",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:luna",
+            "unlock": 4
+        },
+        {
+            "_id": "special:new-moon",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Green Axe",
+    "moveType": "Infantry",
+    "passiveA": [
+        {
+            "_id": "passive-a:brazen-atk-spd-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:brazen-atk-spd-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:brazen-atk-spd-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:drive-def-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:drive-def-1",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:spur-def-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "insights": [],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Mad Dog",
+    "description": "A member of the Black Fang known as Mad Dog and an equal match for his brother Lloyd. He brings judgment down on those he deems evil. Appears in Fire Emblem: The Blazing Blade.",
+    "artist": "Meka (めか)",
+    "voiceActorEN": "Joe Brogie",
+    "voiceActorJP": "成田剣",
+    "dialogue": [
+        {
+            "text": "I'm Linus, the one and only Mad Dog of the Four Fangs! I'm ready to go— show me the filth, and I'll deal with it.",
+            "context": "joined"
+        },
+        {
+            "text": "My brother is very skilled. Nobody can beat him—not even me. And he never makes mistakes.",
+            "context": "castle"
+        },
+        {
+            "text": "You could say that my brother Lloyd and I are well known, at least to those who travel in certain circles... We're the Reed brothers of the Black Fang.",
+            "context": "castle"
+        },
+        {
+            "text": "Show me your weapon. What is this thing? Don't tell me you use it to fight!",
+            "context": "castle"
+        },
+        {
+            "text": "Places like this... So pretty, so proper... They just aren't for me. Give me a target! I need something to do.",
+            "context": "castle"
+        },
+        {
+            "text": "It's not that I enjoy violence... But I have to uphold our code. Dispensing the Fang's justice is my job.",
+            "context": "castle"
+        },
+        {
+            "text": "Bring me <Player Name>! I've come with greetings. That's right—the Mad Dog is here in person!",
+            "context": "friend"
+        },
+        {
+            "text": "Now everyone will know what the Mad Dog is capable of!",
+            "context": "level"
+        },
+        {
+            "text": "Nowhere near good enough—not yet!",
+            "context": "level"
+        },
+        {
+            "text": "Is this a joke? It's a bad one.",
+            "context": "level"
+        },
+        {
+            "text": "More strength to take care of the Fang's business...",
+            "context": "growth"
+        },
+        {
+            "text": "I'm fighting at my peak, day after day. I was on edge when I first got here, but you've put me at ease. You make a good leader. I'm stronger than just about anyone, but I'm not a deep thinker. I leave that to my brother and my father. I can be impulsive, and it's gotten me into trouble, I'll admit. But I can tell that you're sharp, and your heart is in the right place, too. I've seen the worst of humanity, and you're one of the good ones. Believe me—I know. That's why I trust you, and why I fight just as hard for you as I do for my brother. Enough talk. Where's our next target? I promise to bring down the Fang's justice on them!",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: The Blazing Blade",
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 8,
+        "spd": 8,
+        "def": 7,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 65,
+        "spd": 55,
+        "def": 55,
+        "res": 35
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 38,
+                "low": 35,
+                "high": 41
+            },
+            "atk": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "spd": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "def": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "res": {
+                "base": 16,
+                "low": 13,
+                "high": 19
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 39,
+                "low": 36,
+                "high": 42
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "def": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "res": {
+                "base": 17,
+                "low": 14,
+                "high": 20
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 42,
+                "low": 39,
+                "high": 45
+            },
+            "atk": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "res": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 163
+            }
+        }
+    }
+}

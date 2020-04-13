@@ -1,0 +1,11 @@
+{
+    "name": "Darting Blow 2",
+    "description": "If unit initiates combat, grants Spd+4 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_飛燕の一撃2",
+    "nextSkill": {
+        "_id": "passive-a:darting-blow-3"
+    },
+    "spCost": 100,
+    "_id": "passive-a:darting-blow-2"
+}

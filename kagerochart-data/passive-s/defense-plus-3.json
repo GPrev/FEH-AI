@@ -1,0 +1,12 @@
+{
+    "_id": "passive-s:defense-plus-3",
+    "name": "Defense +3",
+    "sp": 120,
+    "type": "s",
+    "description": "Grants Def +3.",
+    "icon": "/images/icons/passives/defense-plus-3.png",
+    "docType": "passive-s",
+    "statMod": {
+        "def": 3
+    }
+}

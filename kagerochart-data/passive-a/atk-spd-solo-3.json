@@ -1,0 +1,8 @@
+{
+    "name": "Atk/Spd Solo 3",
+    "description": "If unit is not adjacent to an ally, grants Atk/Spd+6 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_攻撃速さの孤軍3",
+    "spCost": 240,
+    "_id": "passive-a:atk-spd-solo-3"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Restore+",
+    "description": "Restores HP = 50% of Atk. (Minimum of 8 HP.) Neutralizes ally's penalties (from skills like Panic, Threaten, etc.) and negative status effects (preventing counterattacks, restricting movement, etc.) that last through ally's next action.",
+    "docType": "assist",
+    "idTag": "SID_レスト＋",
+    "spCost": 300,
+    "_id": "assist:restore-plus"
+}

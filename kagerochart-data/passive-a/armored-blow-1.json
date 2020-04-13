@@ -1,0 +1,11 @@
+{
+    "name": "Armored Blow 1",
+    "description": "If unit initiates combat, grants Def+2 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_金剛の一撃1",
+    "nextSkill": {
+        "_id": "passive-a:armored-blow-2"
+    },
+    "spCost": 50,
+    "_id": "passive-a:armored-blow-1"
+}

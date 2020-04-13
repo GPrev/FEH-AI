@@ -1,0 +1,11 @@
+{
+    "name": "Spd Smoke 2",
+    "description": "Inflicts Spd-5 on foes within 2 spaces of target through their next actions after combat.",
+    "docType": "passive-c",
+    "idTag": "SID_速さの紫煙2",
+    "nextSkill": {
+        "_id": "passive-c:spd-smoke-3"
+    },
+    "spCost": 120,
+    "_id": "passive-c:spd-smoke-2"
+}

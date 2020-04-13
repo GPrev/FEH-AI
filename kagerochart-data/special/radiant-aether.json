@@ -1,0 +1,10 @@
+{
+    "exclusive": true,
+    "name": "Radiant Aether",
+    "description": "During combat, treats foe's Def/Res as if reduced by 50%. Restores HP = 50% of damage dealt.",
+    "docType": "special",
+    "idTag": "SID_蒼の天空",
+    "spCost": 500,
+    "cooldownCount": 4,
+    "_id": "special:radiant-aether"
+}

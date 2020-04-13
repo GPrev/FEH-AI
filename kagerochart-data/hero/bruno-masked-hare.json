@@ -1,0 +1,218 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Bruno",
+    "epitet": "Masked Hare",
+    "display": "Bruno: Masked Hare",
+    "description": "Prince of the Emblian empire, whose lineage remains something of a mystery. Dressing as a rabbit isn't clarifying things for anybody.",
+    "artist": "PenekoR (п猫Ｒ)",
+    "voiceActorEN": "T. Axelrod",
+    "voiceActorJP": "三木眞一郎",
+    "dialogue": [
+        {
+            "text": "I shall stop myself before I reveal my name. Pay me no mind. I am merely attending the spring festival.",
+            "context": "joined"
+        },
+        {
+            "text": "Alfonse, Sharena... Before I faced the trial of the rabbit, you did too. And you overcame it.",
+            "context": "castle"
+        },
+        {
+            "text": "Even if you are forced onto a path that takes you far from yourself... spring will find you and awaken within your soul.",
+            "context": "castle"
+        },
+        {
+            "text": "It may just be me...but I see a change in my sister's eyes.",
+            "context": "castle"
+        },
+        {
+            "text": "You have no plans to dress as a rabbit? I feel the look would suit you, <Player Name>.",
+            "context": "castle"
+        },
+        {
+            "text": "A rabbit astride a horse... It's a strange vision, yet one apropos of the spring festival.",
+            "context": "castle"
+        },
+        {
+            "text": "Is it <Player Name>? Good. I bring spring tidings from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "Treat me as you'd treat a common hare, and you will find yourself in trouble.",
+            "context": "level"
+        },
+        {
+            "text": "I shall enliven the spring festival yet!",
+            "context": "level"
+        },
+        {
+            "text": "This is embarrassing, isn't it... I must persevere.",
+            "context": "level"
+        },
+        {
+            "text": "A spring blessing? I thank the festival for this boon.",
+            "context": "growth"
+        },
+        {
+            "text": "Zacharias? I apologize, but that name is unfamiliar to me. Perhaps the exuberance of spring has pushed thoughts of the past from my mind... All that matters to me at this moment is celebrating with my dear sister. The spring festival is a balm—a benediction for those who have triumphed over winter's cruelty. You would do well to bathe in the warmth, too, <Player Name>. Revel in this moment. The season only lasts so long...",
+            "context": "maxed"
+        }
+    ],
+    "color": "Colorless",
+    "origin": "Fire Emblem Heroes",
+    "weapon": [
+        {
+            "_id": "weapon:ovoid-staff-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:ovoid-staff",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:assault",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:martyr-plus",
+            "unlock": 0
+        },
+        {
+            "_id": "assist:martyr",
+            "unlock": 3
+        },
+        {
+            "_id": "assist:reconcile",
+            "unlock": 2
+        },
+        {
+            "_id": "assist:heal",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:miracle",
+            "unlock": 3
+        },
+        {
+            "_id": "special:imbue",
+            "unlock": 2
+        }
+    ],
+    "weaponType": "Colorless Staff",
+    "tomeClass": 0,
+    "moveType": "Cavalry",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 7,
+        "spd": 4,
+        "def": 8,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 50,
+        "spd": 45,
+        "def": 60,
+        "res": 25
+    },
+    "passiveA": [
+        {
+            "_id": "passive-a:atk-def-push-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:atk-def-push-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:atk-def-push-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:dazzling-staff-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:dazzling-staff-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:dazzling-staff-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:bruno-masked-hare",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 41,
+                "low": 38,
+                "high": 44
+            },
+            "atk": {
+                "base": 30,
+                "low": 26,
+                "high": 33
+            },
+            "spd": {
+                "base": 24,
+                "low": 21,
+                "high": 28
+            },
+            "def": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "res": {
+                "base": 14,
+                "low": 11,
+                "high": 18
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 144
+            }
+        }
+    }
+}

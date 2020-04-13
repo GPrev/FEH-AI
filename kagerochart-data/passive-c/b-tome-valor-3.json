@@ -1,0 +1,8 @@
+{
+    "name": "B Tome Valor 3",
+    "description": "While unit lives, all blue tome allies on team get 2x SP. (Only highest value applied. Does not stack.)",
+    "docType": "passive-c",
+    "idTag": "SID_青魔の技量3",
+    "spCost": 120,
+    "_id": "passive-c:b-tome-valor-3"
+}

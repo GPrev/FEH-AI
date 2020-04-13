@@ -1,0 +1,13 @@
+{
+    "range": 2,
+    "might": 8,
+    "name": "Cocobow",
+    "description": "Effective against flying foes. If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_ヤシの実の弓",
+    "nextSkill": {
+        "_id": "weapon:cocobow-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:cocobow"
+}

@@ -1,0 +1,317 @@
+{
+    "_id": "hero:sharena-princess-of-askr",
+    "display": "Sharena: Princess of Askr",
+    "name": "Sharena",
+    "color": "Blue",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:fensalir",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:silver-lance",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:rally-attack",
+            "unlock": 0
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:speed-plus-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:speed-plus-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:speed-plus-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:fortify-def-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:fortify-def-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:fortify-def-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [],
+    "description": "A princess of Askr and Alfonse's sister. Cheerful and loves making friends—especially with Heroes.",
+    "weaponType": "Blue Lance",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem Heroes",
+    "gender": "Female",
+    "voiceActorEN": "Julie Kliewer",
+    "voiceActorJP": "内田真礼",
+    "releaseDate": "2017-02-02T00:00:00.000Z",
+    "artistJP": "コザキユースケ",
+    "artistEN": "Kozaki Yusuke",
+    "voiceActorJPEN": "Uchida Maaya",
+    "insights": [
+        "Sharena is the only hero with Fensalir."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Princess of Askr",
+    "artist": "Kozaki Yusuke (コザキユースケ)",
+    "dialogue": [
+        {
+            "text": "My brother prefers not to burden me. I suppose that could mean that he thinks I'm not up to the task.",
+            "context": "castle"
+        },
+        {
+            "text": "I'm going to become friends with every Hero—ever! Oh, what a grand party it will be!",
+            "context": "castle"
+        },
+        {
+            "text": "Oh, are you possibly on patrol, <Player Name>? Well, of course you are. You're the best. Really, the BEST.",
+            "context": "castle"
+        },
+        {
+            "text": "Oh, do you have time to chat, <Player Name>? I'm a great listener. Bet you didn't know that!",
+            "context": "castle"
+        },
+        {
+            "text": "I often write letters to my mother. We live in the same castle, but we rarely have a chance to speak!",
+            "context": "castle"
+        },
+        {
+            "text": "How do you do? Huh? So this is another Askran Kingdom... Hey, tell me! How's the ME here? Nice, right?",
+            "context": "friend"
+        },
+        {
+            "text": "How wonderful. It's my time to shine!",
+            "context": "level"
+        },
+        {
+            "text": "I'm delighted to rise to the occasion!",
+            "context": "level"
+        },
+        {
+            "text": "Eeep! Sorry. I know that I can do much better.",
+            "context": "level"
+        },
+        {
+            "text": "More power? For me? I may well faint away!",
+            "context": "growth"
+        },
+        {
+            "text": "You know, I consider it a high honor and an exceptional privilege to spend these moments with you. Aw, who am I kidding, <Player Name>? Ha! Let's drop all that royal jibber-jabber. It's just us, right? Right! The thing is, I love being around you. I've never been happier! Sure, you're a valuable addition to the Order of Heroes—blah, blah, blabbity, blah. But after spending so much time with you, I just think of you more like...a close friend. Do you feel the same? Are we friends? Best friends? On our way to being best friends? We are? Er, which one? Never mind. I'm just delighted... so delighted...so very... Waah! You've made me cry, you silly goose. I won't forget this day. Why, I'll save all my tears of happiness in a vial to remind me—forever!",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": true,
+    "baseStats": {
+        "hp": 18,
+        "atk": 7,
+        "spd": 7,
+        "def": 6,
+        "res": 4
+    },
+    "growthRates": {
+        "hp": 55,
+        "atk": 55,
+        "spd": 55,
+        "def": 50,
+        "res": 40
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 19,
+                "low": 18,
+                "high": 20
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 39,
+                "low": 36,
+                "high": 42
+            },
+            "atk": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "spd": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "def": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            },
+            "res": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 40,
+                "low": 37,
+                "high": 43
+            },
+            "atk": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "spd": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "def": {
+                "base": 26,
+                "low": 23,
+                "high": 29
+            },
+            "res": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 43,
+                "low": 40,
+                "high": 46
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "def": {
+                "base": 29,
+                "low": 25,
+                "high": 32
+            },
+            "res": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 158
+            }
+        }
+    }
+}

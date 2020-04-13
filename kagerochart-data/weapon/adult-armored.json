@@ -1,0 +1,10 @@
+{
+    "range": 1,
+    "might": 9,
+    "name": "Adult (Armored)",
+    "description": "At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2, and unit can counterattack regardless of foe's range.",
+    "docType": "weapon",
+    "idTag": "SID_成獣の化身・重装",
+    "spCost": 200,
+    "_id": "weapon:adult-armored"
+}

@@ -1,0 +1,229 @@
+{
+    "_id": "hero:micaiah-priestess-of-dawn",
+    "display": "Micaiah: Priestess of Dawn",
+    "name": "Micaiah",
+    "color": "Blue",
+    "weapon": [
+        {
+            "_id": "weapon:thani",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:shine",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:ellight",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:light",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:sacrifice",
+            "unlock": 5
+        },
+        {
+            "_id": "assist:ardent-sacrifice",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "passiveA": [
+        {
+            "_id": "passive-a:distant-def-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:distant-def-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:distant-def-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:guard-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:guard-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:guard-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:drive-atk-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:drive-atk-1",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:spur-atk-1",
+            "unlock": 1
+        }
+    ],
+    "description": "A member of the Dawn Brigade with silver hair and mysterious powers. As close with Sothe as a sister, though they're not related by blood. Appears in Fire Emblem: Radiant Dawn.",
+    "weaponType": "Blue Tome",
+    "moveType": "Infantry",
+    "origin": "Fire Emblem: Radiant Dawn",
+    "gender": "Female",
+    "voiceActorEN": "Veronica Taylor",
+    "voiceActorJP": "桑谷夏子",
+    "releaseDate": "2018-01-12T07:00:00.000Z",
+    "artistJP": "チーコ",
+    "artistEN": "Chiko",
+    "voiceActorJPEN": "Kuwatani Natsuko",
+    "insights": [
+        "Micaiah is the only hero with Thani.",
+        "Micaiah is the only hero with Sacrifice.",
+        "Micaiah has the highest <abbr title=\"Resistance\">RES</abbr> potential possible among Blue heroes."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Priestess of Dawn",
+    "artist": "Chiko (チーコ)",
+    "dialogue": [
+        {
+            "text": "I'm Micaiah. The townspeople call me the Silver-Haired Maiden. I'm pleased to meet you!",
+            "context": "joined"
+        },
+        {
+            "text": "I saw a lovely sunset the other day. Even though I've been summoned to a different world, nature continues to astound me with its beauty.",
+            "context": "castle"
+        },
+        {
+            "text": "People continue to fight and kill each other, no matter the world, or the era. Yet, still... I find myself...",
+            "context": "castle"
+        },
+        {
+            "text": "I don't really like crowds. Sometimes, I sneak off to the forest to catch a break. I'm guessing the guiding hand of this army might need a break, too!",
+            "context": "castle"
+        },
+        {
+            "text": "I found some delicious-looking fruit while I was strolling around the castle grounds. Want some?",
+            "context": "castle"
+        },
+        {
+            "text": "I was thinking... While I'm here, I can be my true self. Here, my past has no hold on me. And when I think that... I can't help but wish that I could stay here forever.",
+            "context": "castle"
+        },
+        {
+            "text": "Hello. I'm Micaiah. I'm on a visit from <Friend Name>'s place.",
+            "context": "friend"
+        },
+        {
+            "text": "Goddess Ashunera, I thank you for your guidance.",
+            "context": "level"
+        },
+        {
+            "text": "I've got to work harder. Everyone is counting on me.",
+            "context": "level"
+        },
+        {
+            "text": "This is a trial willed by the goddess. I'll overcome it.",
+            "context": "level"
+        },
+        {
+            "text": "I can use this power to help end all the sorrow fighting brings.",
+            "context": "growth"
+        },
+        {
+            "text": "You know, you're kind and thoughtful, <Player Name>. My brother and I live apart, now...but the way you worry about me reminds me of him. It's strange to feel this way, yet it's also intensely familiar... The skies that separate me from my brother are vast. But I'm starting to think of you as family, too. Still, there's something I haven't been able to tell you yet—something about myself. Even now, I can't reveal everything about myself or my powers.  Someday, though... I'm certain I'll be able to tell you everything.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 4,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 8,
+        "spd": 5,
+        "def": 4,
+        "res": 8
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 60,
+        "spd": 50,
+        "def": 30,
+        "res": 60
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 39
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 28,
+                "low": 24,
+                "high": 31
+            },
+            "def": {
+                "base": 18,
+                "low": 14,
+                "high": 21
+            },
+            "res": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 151
+            }
+        }
+    }
+}

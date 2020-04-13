@@ -1,0 +1,200 @@
+{
+    "refresher": true,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Nephenee",
+    "epitet": "Sincere Dancer",
+    "display": "Nephenee: Sincere Dancer",
+    "description": "A militia member from the Crimean countryside. Urges her allies onward with the dance steps she's been practicing. Appears in Fire Emblem: Path of Radiance.",
+    "artist": "HACCAN",
+    "voiceActorEN": "Julie Ann Taylor",
+    "voiceActorJP": "大本眞基子",
+    "dialogue": [
+        {
+            "text": "I'm, uh... I'm Nephenee. Just a gal born and bred in Crimea's countryside. I'll dance my heart out.",
+            "context": "joined"
+        },
+        {
+            "text": "I learned to dance at my village... Nothin' like how these castle-breds do it.",
+            "context": "castle"
+        },
+        {
+            "text": "Hey, uh... I'm practicin' my routine, here. Could you... could you not stare?",
+            "context": "castle"
+        },
+        {
+            "text": "Dancin' is a good way to get your feelings across—without ever havin' to speak.",
+            "context": "castle"
+        },
+        {
+            "text": "Brom had such a time dancin' the night away with everybody at my village's festivals.",
+            "context": "castle"
+        },
+        {
+            "text": "So... This ball's a chance to get all gussied up, is it? Glitterin' like a jewel...",
+            "context": "castle"
+        },
+        {
+            "text": "Howdy! Uh, I mean... Greetings! I'm here for <Friend Name>. And... That's that.",
+            "context": "friend"
+        },
+        {
+            "text": "Well, this is fine as fine can be.",
+            "context": "level"
+        },
+        {
+            "text": "*sigh*",
+            "context": "level"
+        },
+        {
+            "text": "These butterflies won't leave my stomach be... C'mon legs, get movin'!",
+            "context": "level"
+        },
+        {
+            "text": "You're a rare duck! Oh, uh... thanks. That's what I meant!",
+            "context": "growth"
+        },
+        {
+            "text": "This brings back memories. The festivals in my village sure were somethin'. We danced and danced. The young, the old...we all got in a circle, everybody dancin' and laughin'. We broke our backs in the fields day after day... But come festival time, we danced even harder than we worked. That's the way to live. That ain't possible when war is in the air. We gotta get rid of it—make the world a place where there ain't nothin' to fight over. Well, enough tough talk. Gotta focus on my dancin'! Ready to teach me, <Player Name>?",
+            "context": "maxed"
+        }
+    ],
+    "color": "Colorless",
+    "origin": "Fire Emblem: Path of Radiance",
+    "weapon": [
+        {
+            "_id": "weapon:fiddlestick-bow-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:fiddlestick-bow",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-bow",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-bow",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:dance",
+            "unlock": 3
+        }
+    ],
+    "weaponType": "Colorless Bow",
+    "tomeClass": 0,
+    "moveType": "Infantry",
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 14,
+        "atk": 8,
+        "spd": 7,
+        "def": 4,
+        "res": 2
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 65,
+        "def": 45,
+        "res": 50
+    },
+    "passiveB": [
+        {
+            "_id": "passive-b:caldera-dance-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:caldera-dance-1",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:earth-dance-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:spd-tactic-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:spd-tactic-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:spd-tactic-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:nephenee-sincere-dancer",
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 15,
+                "low": 14,
+                "high": 16
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 37,
+                "low": 33,
+                "high": 40
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "def": {
+                "base": 24,
+                "low": 21,
+                "high": 28
+            },
+            "res": {
+                "base": 25,
+                "low": 21,
+                "high": 28
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 157
+            }
+        }
+    }
+}

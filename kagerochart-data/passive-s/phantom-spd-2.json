@@ -1,0 +1,8 @@
+{
+    "name": "Phantom Spd 2",
+    "description": "If a skill compares unit’s Spd to a foe’s or ally's Spd, treats unit's Spd as if granted +8.",
+    "docType": "passive-s",
+    "idTag": "SID_速さの虚勢2",
+    "spCost": 100,
+    "_id": "passive-s:phantom-spd-2"
+}

@@ -1,0 +1,275 @@
+{
+    "refresher": false,
+    "dragonflowers": 5,
+    "docType": "hero",
+    "name": "Mercedes",
+    "epitet": "Kindly Devotee",
+    "display": "Mercedes: Kindly Devotee",
+    "description": "Adopted daughter of a merchant family in the Holy Kingdom of Faerghus. Former nobility with a gentle, easygoing personality. Appears in Fire Emblem: Three Houses.",
+    "artist": "Kakage (かかげ)",
+    "voiceActorEN": "Dorothy Fahn",
+    "voiceActorJP": "花守ゆみり",
+    "lowestRarity": 4,
+    "dialogue": [
+        {
+            "text": "It's so nice to meet you! My name is Mercedes von Martritz, but you can just call me Mercie.",
+            "context": "joined"
+        },
+        {
+            "text": "Goodness, I don't know that I would call myself a \"Hero.\" But I'll try to be as heroic as I possibly can.",
+            "context": "castle"
+        },
+        {
+            "text": "I was born as a noble in the Empire, but when I was young my mother and I fled to a small church in Faerghus.",
+            "context": "castle"
+        },
+        {
+            "text": "Don't work too hard, all right? If you need any help, let me know. I would be more than happy to lend a hand.",
+            "context": "castle"
+        },
+        {
+            "text": "When you're done with your work, why don't we have tea? I can bake some treats for us to eat!",
+            "context": "castle"
+        },
+        {
+            "text": "I know that the goddess is always watching over us. That's why I make sure to pray regularly.",
+            "context": "castle"
+        },
+        {
+            "text": "Hello! My, what a lovely place this is. I come bearing a message from your friend <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "You can rely on me.",
+            "context": "level"
+        },
+        {
+            "text": "I feel more...powerful!",
+            "context": "level"
+        },
+        {
+            "text": "This is not going as well as I'd hoped.",
+            "context": "level"
+        },
+        {
+            "text": "A new way to make myself useful!",
+            "context": "growth"
+        },
+        {
+            "text": "How long has it been since we met? It feels like so long ago—but at the same time, I remember it vividly. I felt nervous to be in this unfamiliar world, far away from the land I had called home. I was trying to put on a brave face, but deep down, I was feeling uneasy. I had no idea what might happen. Yet when I saw your face... It's hard to explain. Somehow I knew I would be safe here. You're so unlike me. You don't wait in fear for \"what might happen.\" You carve your own path. You have shown me that I, too, can carve my own path. And I'll make sure my path hews close to yours.",
+            "context": "maxed"
+        }
+    ],
+    "color": "Colorless",
+    "origin": "Fire Emblem: Three Houses",
+    "releaseDate": "2019-08-07T07:00:00.000Z",
+    "assist": [
+        {
+            "_id": "assist:martyr-plus",
+            "unlock": 0
+        },
+        {
+            "_id": "assist:martyr",
+            "unlock": 3
+        },
+        {
+            "_id": "assist:reconcile",
+            "unlock": 2
+        },
+        {
+            "_id": "assist:heal",
+            "unlock": 0
+        }
+    ],
+    "weapon": [
+        {
+            "_id": "weapon:gravity-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:gravity",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:assault",
+            "unlock": 1
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:miracle",
+            "unlock": 3
+        },
+        {
+            "_id": "special:imbue",
+            "unlock": 2
+        }
+    ],
+    "weaponType": "Colorless Staff",
+    "tomeClass": 0,
+    "moveType": "Infantry",
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 8,
+        "spd": 5,
+        "def": 4,
+        "res": 8
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 55,
+        "spd": 55,
+        "def": 40,
+        "res": 55
+    },
+    "passiveC": [
+        {
+            "_id": "passive-c:odd-res-wave-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:odd-res-wave-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:odd-res-wave-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:ar-d-spd-res-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:ar-d-spd-res-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:ar-d-spd-res-1",
+            "unlock": 3
+        }
+    ],
+    "_id": "hero:mercedes-kindly-devotee",
+    "minStats": {
+        "4": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "def": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "res": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "4": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "atk": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "spd": {
+                "base": 27,
+                "low": 24,
+                "high": 30
+            },
+            "def": {
+                "base": 20,
+                "low": 17,
+                "high": 23
+            },
+            "res": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 39,
+                "low": 35,
+                "high": 42
+            },
+            "atk": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "spd": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 157
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "exclusive": true,
+    "name": "Sacae's Blessing",
+    "description": "If foe uses sword, lance, or axe, foe cannot counterattack. (Skill cannot be inherited.)",
+    "docType": "passive-b",
+    "idTag": "SID_サカの加護",
+    "spCost": 300,
+    "_id": "passive-b:sacaes-blessing"
+}

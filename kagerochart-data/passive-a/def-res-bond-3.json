@@ -1,0 +1,8 @@
+{
+    "name": "Def/Res Bond 3",
+    "description": "If unit is adjacent to an ally, grants Def/Res+5 during combat.",
+    "docType": "passive-a",
+    "idTag": "SID_守備魔防の絆3",
+    "spCost": 240,
+    "_id": "passive-a:def-res-bond-3"
+}

@@ -1,0 +1,219 @@
+{
+    "_id": "hero:nina-eye-spy",
+    "display": "Nina: Eye Spy",
+    "name": "Nina",
+    "color": "Colorless",
+    "weapon": [
+        {
+            "_id": "weapon:shining-bow-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:shining-bow",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-bow",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-bow",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:draw-back",
+            "unlock": 3
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:moonbow",
+            "unlock": 4
+        },
+        {
+            "_id": "special:new-moon",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "weaponType": "Colorless Bow",
+    "moveType": "Infantry",
+    "passiveB": [
+        {
+            "_id": "passive-b:spd-res-link-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:spd-res-link-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:spd-res-link-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:bow-valor-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:bow-valor-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:bow-valor-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [],
+    "insights": [
+        "Nina is the only hero with Shining Bow+.",
+        "Nina is the only hero with Shining Bow.",
+        "Nina is the only hero with Spd/Res Link 3.",
+        "Nina is the only hero with Spd/Res Link 2.",
+        "Nina is the only hero with Spd/Res Link 1."
+    ],
+    "refresher": false,
+    "dragonflowers": 10,
+    "epitet": "Eye Spy",
+    "description": "Niles's daughter. Calm and intelligent but prone to intense bouts of daydreaming. Appears in Fire Emblem Fates.",
+    "artist": "Mikuro (みく郎)",
+    "voiceActorEN": "Liv Strander",
+    "voiceActorJP": "辻あゆみ",
+    "dialogue": [
+        {
+            "text": "It's good to meet you. I'm Nina. Niles is my father, but let's not worry about him. I'm gonna do what I think is right!",
+            "context": "joined"
+        },
+        {
+            "text": "A forbidden love between Heroes from different worlds... Oh, now that sounds juicy. Returning home would tear them apart, but if they stay together... This is getting good!",
+            "context": "castle"
+        },
+        {
+            "text": "I was raised in the Deeprealms, but sometimes I'd sneak out to pursue my true calling as a chivalrous thief!",
+            "context": "castle"
+        },
+        {
+            "text": "Consider this your lucky day! I'm gonna start going on patrols with you. What's with that look? It's for your safety! You can't fight, so it's dangerous for you to go alone. I'll be your bodyguard!",
+            "context": "castle"
+        },
+        {
+            "text": "Is it just me, or does your weapon share a special bond with Prince Alfonse's weapon? Hey, let's store them beside each other in the armory and see if any sparks fly!",
+            "context": "castle"
+        },
+        {
+            "text": "Oh, I was just reading this book—a totally normal book. So don't even bother asking my parents about it! While we're on the topic, anything you hear about my books or reading habits is a complete lie. All right?",
+            "context": "castle"
+        },
+        {
+            "text": "Oh, now those two would make a great pair... Hehe—gyah! How long have you been there?! Hi from <Friend Name>! Bye!",
+            "context": "friend"
+        },
+        {
+            "text": "This is one daydream you can't wake me from!",
+            "context": "level"
+        },
+        {
+            "text": "Not bad, not bad... But next time will be even better!",
+            "context": "level"
+        },
+        {
+            "text": "Sometimes you have to take the thorns with the roses.",
+            "context": "level"
+        },
+        {
+            "text": "Thanks for the new power! Today will have a storybook ending!",
+            "context": "growth"
+        },
+        {
+            "text": "Heehee... I've had such good daydreams since coming here. It feels like I'm still in one. I can even feel a hand...on...my shoulder... EEK! <Player Name>?! Wh-what's the big idea, huh? Speak up before approaching someone who's daydreaming! I was just imagining what might happen if a Summoner happened to summon a certain Hero... Don't tell me that's not the best combo! Summoner and summoned! A story of the bond they share... And the sad fate that awaits them as they're one day forced to return to their homes. It practically writes itself because it describes us so— So...perfectly... Hadn't thought about that before... Kinda makes me sad. After all this time we've spent together, one day... Well, let's not dwell on it. We've still got a long way to go before we say our good-byes! I'll find all sorts of creative ways to keep you happy until then... Like sending all our enemies up to the heavens!",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Fates",
+    "releaseDate": "2018-09-14T07:00:00.000Z",
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 15,
+        "atk": 7,
+        "spd": 10,
+        "def": 2,
+        "res": 6
+    },
+    "growthRates": {
+        "hp": 45,
+        "atk": 55,
+        "spd": 60,
+        "def": 30,
+        "res": 55
+    },
+    "minStats": {
+        "5": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 11,
+                "low": 10,
+                "high": 12
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "5": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 39
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "def": {
+                "base": 16,
+                "low": 12,
+                "high": 19
+            },
+            "res": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 151
+            }
+        }
+    }
+}

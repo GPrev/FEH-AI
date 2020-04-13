@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 2,
+    "might": 14,
+    "name": "Sagittae",
+    "description": "Grants Def+3. At start of combat, if foe's Atk ≥ unit's Atk+5, grants Atk/Spd/Def/Res+5 during combat.",
+    "docType": "weapon",
+    "idTag": "SID_アロー",
+    "spCost": 400,
+    "_id": "weapon:sagittae"
+}

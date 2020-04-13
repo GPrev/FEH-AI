@@ -1,0 +1,326 @@
+{
+    "_id": "hero:abel-the-panther",
+    "display": "Abel: The Panther",
+    "name": "Abel",
+    "color": "Blue",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:panther-lance",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:brave-lance-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:brave-lance",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:aegis",
+            "unlock": 4
+        },
+        {
+            "_id": "special:holy-vestments",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "passiveB": [
+        {
+            "_id": "passive-b:swordbreaker-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:swordbreaker-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-b:swordbreaker-1",
+            "unlock": 1
+        }
+    ],
+    "passiveA": [
+        {
+            "_id": "passive-a:hp-plus-5",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:hp-plus-4",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:hp-plus-3",
+            "unlock": 3
+        }
+    ],
+    "description": "Altean cavalier known for his sensibility. Rode with Cain in service of Marth. Appears in Fire Emblem: Mystery of the Emblem.",
+    "weaponType": "Blue Lance",
+    "moveType": "Cavalry",
+    "origin": "Fire Emblem: Mystery of the Emblem",
+    "gender": "Male",
+    "voiceActorEN": "Mick Wingert",
+    "voiceActorJP": "佐藤拓也",
+    "releaseDate": "2017-02-02",
+    "artistJP": "笹島彗星",
+    "artistEN": "Sasashima Suisei",
+    "voiceActorJPEN": "Satou Takuya",
+    "insights": [],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "The Panther",
+    "artist": "Sasashima Suisei (笹島彗星)",
+    "dialogue": [
+        {
+            "text": "I am Abel, a knight of Altea—or former knight, anyway. These days, I am but a shopkeeper.",
+            "context": "joined"
+        },
+        {
+            "text": "I once betrayed Prince Marth, if only because Est was a hostage. I will never atone for that crime.",
+            "context": "castle"
+        },
+        {
+            "text": "I own a small shop in Altea. If you ever have need of goods, you have but to ask.",
+            "context": "castle"
+        },
+        {
+            "text": "Here, take this torch with you for patrols. It should make it a little easier to find your way in the dark.",
+            "context": "castle"
+        },
+        {
+            "text": "I'm curious about the shops in town. Would you join me to visit them sometime?",
+            "context": "castle"
+        },
+        {
+            "text": "My Est prepares the most wonderful dishes. If only you could try them!",
+            "context": "castle"
+        },
+        {
+            "text": "You're <Player Name>, yes? I've been sent to deliver greetings from <Friend Name>!",
+            "context": "friend"
+        },
+        {
+            "text": "For my homeland and for my beloved.",
+            "context": "level"
+        },
+        {
+            "text": "I'm pleased that I haven't gotten too rusty.",
+            "context": "level"
+        },
+        {
+            "text": "Drat. I've neglected my training...",
+            "context": "level"
+        },
+        {
+            "text": "Thank you. I will always be a proud knight of Altea.",
+            "context": "growth"
+        },
+        {
+            "text": "Prince Marth and my beloved Est are both so important to me. My loyalty toward my liege, my affection toward my beloved... Both feelings are clear and strong. But are my feelings toward you loyalty because you summoned me? Or genuine, growing friendship? I cannot say. The only thing that is clear...is that now I have someone else who is important to me. I hope you will continue to count on me as you always have.",
+            "context": "maxed"
+        }
+    ],
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 16,
+        "atk": 6,
+        "spd": 7,
+        "def": 7,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 55,
+        "def": 40,
+        "res": 45
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 16,
+                "low": 15,
+                "high": 17
+            },
+            "atk": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "atk": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "spd": {
+                "base": 28,
+                "low": 25,
+                "high": 31
+            },
+            "def": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "res": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "atk": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "spd": {
+                "base": 30,
+                "low": 27,
+                "high": 33
+            },
+            "def": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            },
+            "res": {
+                "base": 23,
+                "low": 20,
+                "high": 26
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 39,
+                "low": 35,
+                "high": 42
+            },
+            "atk": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "spd": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "def": {
+                "base": 25,
+                "low": 22,
+                "high": 28
+            },
+            "res": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 154
+            }
+        }
+    }
+}

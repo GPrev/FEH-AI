@@ -1,0 +1,9 @@
+{
+    "exclusive": true,
+    "name": "Vision of Arcadia",
+    "description": "At start of turn, if a dragon or beast ally is deployed, grants Atk/Def+6 to ally with the highest Atk for 1 turn.",
+    "docType": "passive-c",
+    "idTag": "SID_理想郷となるように",
+    "spCost": 300,
+    "_id": "passive-c:vision-of-arcadia"
+}

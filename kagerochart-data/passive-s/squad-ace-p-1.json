@@ -1,0 +1,8 @@
+{
+    "name": "Squad Ace P 1",
+    "description": "Grants HP+3.",
+    "docType": "passive-s",
+    "idTag": "SID_第16迷宮の覇者1",
+    "spCost": 40,
+    "_id": "passive-s:squad-ace-p-1"
+}

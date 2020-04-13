@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Raijinto",
+    "description": "Unit can counterattack regardless of foe's range.",
+    "docType": "weapon",
+    "idTag": "SID_雷神刀",
+    "spCost": 400,
+    "_id": "weapon:raijinto"
+}

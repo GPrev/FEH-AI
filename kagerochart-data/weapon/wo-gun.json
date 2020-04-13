@@ -1,0 +1,13 @@
+{
+    "range": 1,
+    "might": 9,
+    "name": "Wo Gùn",
+    "description": "Deals +10 damage when Special triggers.",
+    "docType": "weapon",
+    "idTag": "SID_倭棍",
+    "nextSkill": {
+        "_id": "weapon:wo-gun-plus"
+    },
+    "spCost": 200,
+    "_id": "weapon:wo-gun"
+}

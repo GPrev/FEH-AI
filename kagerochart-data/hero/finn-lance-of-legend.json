@@ -1,0 +1,259 @@
+{
+    "_id": "hero:finn-lance-of-legend",
+    "display": "Finn: Lance of Legend",
+    "name": "Finn",
+    "color": "Blue",
+    "lowestRarity": 4,
+    "weapon": [
+        {
+            "_id": "weapon:brave-lance-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:brave-lance",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "special": [
+        {
+            "_id": "special:miracle",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "assist": [],
+    "weaponType": "Blue Lance",
+    "moveType": "Cavalry",
+    "passiveA": [
+        {
+            "_id": "passive-a:attack-def-plus-2",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-a:attack-def-plus-1",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:attack-plus-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:goad-cavalry",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:spur-atk-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-c:spur-atk-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [],
+    "insights": [],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Lance of Legend",
+    "description": "A servant of Leonster who swore his loyalty to Leif's father, Quan. His main objective in life is to protect Leif. Appears in Fire Emblem: Thracia 776.",
+    "artist": "Itagaki Hako (板垣ハコ)",
+    "voiceActorEN": "Robert Clotworthy",
+    "voiceActorJP": "置鮎龍太郎",
+    "dialogue": [
+        {
+            "text": "As one of Leonster's knights of the lance, I swear on my weapon that I will become your strength.",
+            "context": "joined"
+        },
+        {
+            "text": "This realm rules over different eras and different worlds... There's someone I'd like to see. Perhaps...",
+            "context": "castle"
+        },
+        {
+            "text": "I was blessed with a just lord—one worthy of my loyalty. I was proud to serve him. But when the time came... I could do nothing.",
+            "context": "castle"
+        },
+        {
+            "text": "Do you always patrol the castle like this? I see you take your responsibility seriously. Take care of yourself, too.",
+            "context": "castle"
+        },
+        {
+            "text": "Could you tour the castle with me? I must be sure of everything, should an emergency arise.",
+            "context": "castle"
+        },
+        {
+            "text": "I was repairing my lance. My liege gave it to me... It serves as a symbol of my loyalty.",
+            "context": "castle"
+        },
+        {
+            "text": "I am Finn, and I've been tasked with bringing you a greeting. It's from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "This is worthy of the lance I wield.",
+            "context": "level"
+        },
+        {
+            "text": "Strength is an accumulation of efforts made day by day.",
+            "context": "level"
+        },
+        {
+            "text": "Can I achieve no more?",
+            "context": "level"
+        },
+        {
+            "text": "From the bottom of my heart, I thank you. I'll repay you on the battlefield, lance in hand.",
+            "context": "growth"
+        },
+        {
+            "text": "I must express to you my heartfelt gratitude. Thank you for allowing me to stay by your side. As a knight, fighting for my lord is not just my duty. It does me honor. Long before I came here, I was blessed to serve a remarkable man, and grateful for it. I feel now as I did then... Yet still, regret pierces me. My lord lost his life. I was ordered to remain behind that day, but even so... It stings. And so I shall stay by your side until the very end. I swear it on the lance I wield.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Thracia 776",
+    "tomeClass": 0,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 7,
+        "spd": 8,
+        "def": 7,
+        "res": 2
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 55,
+        "def": 55,
+        "res": 35
+    },
+    "minStats": {
+        "4": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "res": {
+                "base": 2,
+                "low": 1,
+                "high": 3
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "def": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "4": {
+            "hp": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "atk": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "spd": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "def": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "res": {
+                "base": 16,
+                "low": 13,
+                "high": 19
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 40,
+                "low": 36,
+                "high": 43
+            },
+            "atk": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "spd": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "def": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "res": {
+                "base": 18,
+                "low": 15,
+                "high": 21
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 157
+            }
+        }
+    }
+}

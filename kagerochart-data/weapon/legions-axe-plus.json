@@ -1,0 +1,60 @@
+{
+    "range": 1,
+    "might": 14,
+    "name": "Legion's Axe+",
+    "description": "After combat, if unit attacked, converts bonuses on foe into penalties through its next action.",
+    "docType": "weapon",
+    "idTag": "SID_ローローの斧＋",
+    "spCost": 300,
+    "_id": "weapon:legions-axe-plus",
+    "refines": [
+        {
+            "might": 14,
+            "stats": {
+                "hp": 5,
+                "spd": 3
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 16,
+            "stats": {
+                "hp": 5,
+                "atk": 2
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 14,
+            "stats": {
+                "hp": 5,
+                "def": 4
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        },
+        {
+            "might": 14,
+            "stats": {
+                "hp": 5,
+                "res": 4
+            },
+            "cost": {
+                "sp": 350,
+                "medal": 500,
+                "stone": 50
+            }
+        }
+    ]
+}

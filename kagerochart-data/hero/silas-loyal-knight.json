@@ -1,0 +1,321 @@
+{
+    "_id": "hero:silas-loyal-knight",
+    "display": "Silas: Loyal Knight",
+    "name": "Silas",
+    "color": "Blue",
+    "lowestRarity": 3,
+    "weapon": [
+        {
+            "_id": "weapon:slaying-spear-plus",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:slaying-spear",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:steel-lance",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:iron-lance",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:reposition",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "weaponType": "Blue Lance",
+    "moveType": "Cavalry",
+    "passiveA": [
+        {
+            "_id": "passive-a:steady-stance-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:steady-stance-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:steady-stance-1",
+            "unlock": 1
+        }
+    ],
+    "passiveC": [
+        {
+            "_id": "passive-c:even-def-wave-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-c:even-def-wave-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-c:even-def-wave-1",
+            "unlock": 3
+        }
+    ],
+    "passiveB": [],
+    "insights": [
+        "Silas is the only hero with Slaying Spear+.",
+        "Silas is the only hero with Slaying Spear.",
+        "Silas is the only hero with Even Def Wave 3.",
+        "Silas is the only hero with Even Def Wave 2.",
+        "Silas is the only hero with Even Def Wave 1."
+    ],
+    "refresher": false,
+    "dragonflowers": 5,
+    "epitet": "Loyal Knight",
+    "description": "A newly appointed Nohrian knight and Corrin's childhood friend. Often asked for advice. Appears in Fire Emblem Fates.",
+    "artist": "Meka (めか)",
+    "voiceActorEN": "—",
+    "voiceActorJP": "奥村翔",
+    "dialogue": [
+        {
+            "text": "My name is Silas, a knight of Nohr. I'm a little surprised I was summoned, but I'll do what I can to help!",
+            "context": "joined"
+        },
+        {
+            "text": "Whether as a knight or as a Hero, my mission remains unchanged—fight on behalf of all citizens. I'll do my best.",
+            "context": "castle"
+        },
+        {
+            "text": "I was a castle knight back in Nohr. But I was still green... Someday I'll be a knight my friend can be proud of.",
+            "context": "castle"
+        },
+        {
+            "text": "I hear you're from another world too. Getting used to a new place isn't easy, so let's help each other out.",
+            "context": "castle"
+        },
+        {
+            "text": "How about we invite some other Heroes to head into town together sometime soon... I'd like to see someplace other than a battlefield. Give it some thought, OK?",
+            "context": "castle"
+        },
+        {
+            "text": "Oh, I was just checking up on my horse's gear. Finding replacements for my own gear is tough enough. I need everything I came here with to last until I can return home.",
+            "context": "castle"
+        },
+        {
+            "text": "Friends are the treasure of a lifetime, so be sure to care for yours. Tidings from <Friend Name>.",
+            "context": "friend"
+        },
+        {
+            "text": "I'm a step closer to being a great knight!",
+            "context": "level"
+        },
+        {
+            "text": "I'm stronger today than I was yesterday.",
+            "context": "level"
+        },
+        {
+            "text": "Hmm... Maybe I need to train more?",
+            "context": "level"
+        },
+        {
+            "text": "Thanks to your help, I'm on my way to becoming a proper knight.",
+            "context": "growth"
+        },
+        {
+            "text": "Thanks for coming to chat with me. It's a good distraction. I've grown used to this world by now, but... There are still a lot of Heroes around here I don't know. I didn't realize how tense that made me. And you wouldn't believe how stiff that's made my shoulders! Huh? You want to give me a shoulder rub? Heh, I must be a pretty big deal to garner such attention from you! I'm kidding of course... But that does feel better already. Speaking with you is just as soothing, I might say. You'll have to let me return the favor. Do you have any problems you'd like me to help you resolve? No need to hold back. Ask me anything. After all, our friendship spans both space and time, right?",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Fates",
+    "releaseDate": "2018-09-14T07:00:00.000Z",
+    "tomeClass": 0,
+    "regularHero": true,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 17,
+        "atk": 8,
+        "spd": 4,
+        "def": 9,
+        "res": 3
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 45,
+        "def": 60,
+        "res": 40
+    },
+    "minStats": {
+        "3": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 8,
+                "low": 7,
+                "high": 9
+            },
+            "spd": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "def": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 3
+        },
+        "4": {
+            "hp": {
+                "base": 17,
+                "low": 16,
+                "high": 18
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "def": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "res": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 18,
+                "low": 17,
+                "high": 19
+            },
+            "atk": {
+                "base": 9,
+                "low": 8,
+                "high": 10
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 10,
+                "low": 9,
+                "high": 11
+            },
+            "res": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "3": {
+            "hp": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "atk": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "spd": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "def": {
+                "base": 32,
+                "low": 29,
+                "high": 35
+            },
+            "res": {
+                "base": 18,
+                "low": 15,
+                "high": 21
+            }
+        },
+        "4": {
+            "hp": {
+                "base": 37,
+                "low": 34,
+                "high": 40
+            },
+            "atk": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "spd": {
+                "base": 22,
+                "low": 19,
+                "high": 25
+            },
+            "def": {
+                "base": 34,
+                "low": 31,
+                "high": 37
+            },
+            "res": {
+                "base": 19,
+                "low": 16,
+                "high": 22
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 40,
+                "low": 36,
+                "high": 43
+            },
+            "atk": {
+                "base": 35,
+                "low": 32,
+                "high": 38
+            },
+            "spd": {
+                "base": 24,
+                "low": 21,
+                "high": 28
+            },
+            "def": {
+                "base": 36,
+                "low": 33,
+                "high": 39
+            },
+            "res": {
+                "base": 21,
+                "low": 18,
+                "high": 24
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 156
+            }
+        }
+    }
+}

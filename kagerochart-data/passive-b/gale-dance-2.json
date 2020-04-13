@@ -1,0 +1,11 @@
+{
+    "name": "Gale Dance 2",
+    "description": "If Sing or Dance is used, grants Spd+3 to target.",
+    "docType": "passive-b",
+    "idTag": "SID_疾風の舞い2",
+    "nextSkill": {
+        "_id": "passive-b:gale-dance-3"
+    },
+    "spCost": 100,
+    "_id": "passive-b:gale-dance-2"
+}

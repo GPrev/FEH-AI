@@ -1,0 +1,11 @@
+{
+    "exclusive": true,
+    "range": 1,
+    "might": 16,
+    "name": "Beloved Zofia",
+    "description": "Grants Def+3. At start of combat, if unit's HP = 100%, grants Atk/Spd/Def/Res+4, but after combat, if unit attacked, deals 4 damage to unit.",
+    "docType": "weapon",
+    "idTag": "SID_宝剣ソフィア",
+    "spCost": 400,
+    "_id": "weapon:beloved-zofia"
+}

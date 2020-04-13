@@ -1,0 +1,11 @@
+{
+    "name": "B Tome Valor 2",
+    "description": "While unit lives, all blue tome allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+    "docType": "passive-c",
+    "idTag": "SID_青魔の技量2",
+    "nextSkill": {
+        "_id": "passive-c:b-tome-valor-3"
+    },
+    "spCost": 60,
+    "_id": "passive-c:b-tome-valor-2"
+}

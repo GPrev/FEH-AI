@@ -1,0 +1,267 @@
+{
+    "_id": "hero:azura-young-songstress",
+    "display": "Azura: Young Songstress",
+    "name": "Azura",
+    "color": "Green",
+    "lowestRarity": 4,
+    "weapon": [
+        {
+            "_id": "weapon:book-of-shadows",
+            "unlock": 5
+        },
+        {
+            "_id": "weapon:rexcalibur",
+            "unlock": 3
+        },
+        {
+            "_id": "weapon:elwind",
+            "unlock": 2
+        },
+        {
+            "_id": "weapon:wind",
+            "unlock": 0
+        }
+    ],
+    "assist": [
+        {
+            "_id": "assist:sing",
+            "unlock": 3
+        }
+    ],
+    "docType": "hero",
+    "special": [],
+    "weaponType": "Green Tome",
+    "moveType": "Infantry",
+    "passiveA": [
+        {
+            "_id": "passive-a:spd-res-bond-3",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-a:spd-res-bond-2",
+            "unlock": 2
+        },
+        {
+            "_id": "passive-a:spd-res-bond-1",
+            "unlock": 1
+        }
+    ],
+    "passiveB": [
+        {
+            "_id": "passive-b:torrent-dance-3",
+            "unlock": 5
+        },
+        {
+            "_id": "passive-b:torrent-dance-2",
+            "unlock": 4
+        },
+        {
+            "_id": "passive-b:torrent-dance-1",
+            "unlock": 3
+        }
+    ],
+    "passiveC": [],
+    "insights": [
+        "Azura is the only hero with Book of Shadows.",
+        "Azura is the only hero with Torrent Dance 3.",
+        "Azura is the only hero with Torrent Dance 2.",
+        "Azura has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible in Fire Emblem Heroes.",
+        "Azura has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Infantry heroes.",
+        "Azura has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Tome heroes.",
+        "Azura has the lowest <abbr title=\"Base Stat Total\">BST</abbr> potential possible among Green heroes."
+    ],
+    "refresher": true,
+    "dragonflowers": 10,
+    "epitet": "Young Songstress",
+    "description": "The daughter of Arete, queen of Nohr. She is treated badly by the denizens of the castle, and her heart is touched by darkness. Appears in Fire Emblem Fates.",
+    "artist": "kaya8",
+    "voiceActorEN": "Rena Strober",
+    "voiceActorJP": "Lynn",
+    "dialogue": [
+        {
+            "text": "I am Azura, princess of Nohr. I hope you'll be nice to me. Please...",
+            "context": "joined"
+        },
+        {
+            "text": "Why did you call for me? Nobody ever wants to see me. Maybe I'm dreaming...",
+            "context": "castle"
+        },
+        {
+            "text": "You don't have to be nice to me. I know how to take care of myself. Nobody else will...",
+            "context": "castle"
+        },
+        {
+            "text": "We can't change things. Can we? I don't think so. Do you?",
+            "context": "castle"
+        },
+        {
+            "text": "You want to hear me sing? That's... But... There are much better singers than me.",
+            "context": "castle"
+        },
+        {
+            "text": "I can't trust anybody. Maybe in a dream I could. That's the one place... where nobody hurts me.",
+            "context": "castle"
+        },
+        {
+            "text": "I was asked to come greet you by <Friend Name>. Are you mean, or are you nice?",
+            "context": "friend"
+        },
+        {
+            "text": "God may be capricious, but for today...I'm happy.",
+            "context": "level"
+        },
+        {
+            "text": "I can feel the power inside me...",
+            "context": "level"
+        },
+        {
+            "text": "This...is what I expected.",
+            "context": "level"
+        },
+        {
+            "text": "Why are you being so nice to me?",
+            "context": "growth"
+        },
+        {
+            "text": "I felt trapped, trapped in a world where I hated everything. I hated it so much that I wanted it to just go away...all of it. But there are a few people I can trust...and so many voices calling to me in my dreams. There are people like you—you're nice to me. You're very gentle, and you even pat me on the head. Maybe...maybe I should spend a little longer here. I don't know what's going to happen next... But if I'm with you, maybe things will be OK. I feel like I can keep going.",
+            "context": "maxed"
+        }
+    ],
+    "origin": "Fire Emblem: Fates",
+    "tomeClass": 3,
+    "regularHero": false,
+    "permanentHero": false,
+    "baseStats": {
+        "hp": 13,
+        "atk": 6,
+        "spd": 4,
+        "def": 3,
+        "res": 5
+    },
+    "growthRates": {
+        "hp": 50,
+        "atk": 60,
+        "spd": 55,
+        "def": 30,
+        "res": 45
+    },
+    "minStats": {
+        "4": {
+            "hp": {
+                "base": 13,
+                "low": 12,
+                "high": 14
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "def": {
+                "base": 3,
+                "low": 2,
+                "high": 4
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 4
+        },
+        "5": {
+            "hp": {
+                "base": 14,
+                "low": 13,
+                "high": 15
+            },
+            "atk": {
+                "base": 7,
+                "low": 6,
+                "high": 8
+            },
+            "spd": {
+                "base": 5,
+                "low": 4,
+                "high": 6
+            },
+            "def": {
+                "base": 4,
+                "low": 3,
+                "high": 5
+            },
+            "res": {
+                "base": 6,
+                "low": 5,
+                "high": 7
+            },
+            "rarity": 5
+        }
+    },
+    "maxStats": {
+        "4": {
+            "hp": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "atk": {
+                "base": 31,
+                "low": 28,
+                "high": 34
+            },
+            "spd": {
+                "base": 26,
+                "low": 23,
+                "high": 29
+            },
+            "def": {
+                "base": 15,
+                "low": 12,
+                "high": 18
+            },
+            "res": {
+                "base": 24,
+                "low": 21,
+                "high": 27
+            }
+        },
+        "5": {
+            "hp": {
+                "base": 36,
+                "low": 32,
+                "high": 39
+            },
+            "atk": {
+                "base": 33,
+                "low": 30,
+                "high": 36
+            },
+            "spd": {
+                "base": 29,
+                "low": 26,
+                "high": 32
+            },
+            "def": {
+                "base": 17,
+                "low": 13,
+                "high": 20
+            },
+            "res": {
+                "base": 25,
+                "low": 22,
+                "high": 29
+            },
+            "bst": {
+                "low": null,
+                "high": null,
+                "base": 140
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Earthwater Balm+",
+    "description": "When healing an ally with a staff, grants Def/Res+6 to all allies for 1 turn.",
+    "docType": "special",
+    "idTag": "SID_大地静水の祝福＋",
+    "spCost": 300,
+    "cooldownCount": 1,
+    "_id": "special:earthwater-balm-plus"
+}
