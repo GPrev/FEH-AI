@@ -45,8 +45,8 @@ namespace FehSimTests
 			Assert::AreEqual(43, _map.getState(&_foe1).getHP());
 
 			_rules.doBattle(_map, &_ally1, &_foe1);
-			Assert::AreEqual(43, _map.getState(&_ally1).getHP()); // Should be 0 with weapon and WT
-			Assert::AreEqual(37, _map.getState(&_foe1).getHP()); // Should be 31 with weapon and WT
+			Assert::AreEqual(31, _map.getState(&_ally1).getHP()); // Should be 0 with weapon and WT
+			Assert::AreEqual(43, _map.getState(&_foe1).getHP()); // Should be 31 with weapon and WT
 		}
 	};
 }

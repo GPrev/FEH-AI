@@ -28,6 +28,41 @@ void Rules::strike(UnitState& _attacker, UnitState& _defender)
 {
 	if (!_attacker.isDead())
 	{
-		_defender.loseLife(std::max(0, _attacker.getAtk() - _defender.getDef()));
+		int attackPower = (int) std::floor(_attacker.getAtk() * (1. + .2 * weaponTriangle(_attacker, _defender)));
+		_defender.loseLife(std::max(0, attackPower - _defender.getDef()));
 	}
+}
+
+int Rules::weaponTriangle(UnitState& _attacker, UnitState& _defender)
+{
+	return weaponTriangle(_attacker.getUnit()->getData()->getColor(), _defender.getUnit()->getData()->getColor());
+}
+
+int Rules::weaponTriangle(UnitColor _attacker, UnitColor _defender)
+{
+	int result = 0;
+	switch (_attacker)
+	{
+	case RED:
+		if (_defender == GREEN)
+			result = 1;
+		if (_defender == BLUE)
+			result = -1;
+		break;
+	case BLUE:
+		if (_defender == RED)
+			result = 1;
+		if (_defender == GREEN)
+			result = -1;
+		break;
+	case GREEN:
+		if (_defender == BLUE)
+			result = 1;
+		if (_defender == BLUE)
+			result = -1;
+		break;
+	default:
+		break;
+	}
+	return result;
 }

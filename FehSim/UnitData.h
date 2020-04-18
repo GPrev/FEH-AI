@@ -50,9 +50,9 @@ public:
 
 	std::string getName() { return m_name; }
 
-	UnitColor getColor() { return m_color; }
-	WeaponType getWeaponType() { return m_type; }
-	MvtType getMvtType() { return m_mvt; }
+	UnitColor getColor() const { return m_color; }
+	WeaponType getWeaponType() const { return m_type; }
+	MvtType getMvtType() const { return m_mvt; }
 
 	int getBaseHP()  const { return m_baseHP; }
 	int getBaseAtk() const  { return m_baseAtk; }

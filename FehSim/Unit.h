@@ -20,6 +20,8 @@ public:
 	Unit(UnitData& data) : m_data(&data) {}
 	~Unit() {};
 
+	const UnitData* getData() const { return m_data; }
+
 	int getMaxHP() { return m_data->getBaseHP(); }
 	int getAtk()   { return m_data->getBaseAtk(); }
 	int getSpd()   { return m_data->getBaseSpd(); }
