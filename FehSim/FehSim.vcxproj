@@ -130,6 +130,7 @@
     <ClInclude Include="Position.h" />
     <ClInclude Include="Unit.h" />
     <ClInclude Include="UnitData.h" />
+    <ClInclude Include="UnitState.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DataLoader.cpp" />
@@ -138,6 +139,7 @@
     <ClCompile Include="Position.cpp" />
     <ClCompile Include="Unit.cpp" />
     <ClCompile Include="UnitData.cpp" />
+    <ClCompile Include="UnitState.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

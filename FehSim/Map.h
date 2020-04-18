@@ -2,6 +2,7 @@
 
 #include "FehSim.h"
 #include "MapData.h"
+#include "UnitState.h"
 
 #pragma warning( push )
 #pragma warning( disable : 4251)
@@ -11,7 +12,8 @@ class FEHSIM_API Map
 private:
 	MapData* m_data;
 
-	std::map<Unit*, Position> m_units;
+	std::map<Unit*, UnitState> m_unitsStates;
+	std::map<Unit*, Position> m_unitsPos;
 
 public:
 	Map() {}
@@ -27,6 +29,7 @@ public:
 	bool canMakeMove(Unit* unit, Position movement, Position action = Position::nowhere);
 
 private:
+	void clearUnits() { m_unitsStates.clear(); m_unitsPos.clear(); };
 	void setUnit(Unit* ally, const Position& pos);
 };
 

@@ -3,7 +3,11 @@
 
 void Map::init(Unit* ally1, Unit* ally2, Unit* ally3, Unit* ally4)
 {
-	m_units = m_data->getFoes();
+	clearUnits();
+	for (auto foe : m_data->getFoes())
+	{
+		setUnit(foe.first, foe.second);
+	}
 	setUnit(ally1, m_data->getAllyPositions().at(0));
 	if (m_data->getAllyPositions().size() > 1) { setUnit(ally2, m_data->getAllyPositions().at(1)); }
 	if (m_data->getAllyPositions().size() > 2) { setUnit(ally3, m_data->getAllyPositions().at(2)); }
@@ -17,22 +21,23 @@ bool Map::isValid(Position pos) const
 
 bool Map::isFree(Position pos) const
 {
-	return isValid(pos) && m_units.end() == std::find_if(m_units.begin(), m_units.end(), [&pos](const std::pair<Unit*, Position> &pair) { return pair.second == pos; });
+	return isValid(pos) && m_unitsPos.end() == std::find_if(m_unitsPos.begin(), m_unitsPos.end(), [&pos](const std::pair<Unit*, Position> &pair) { return pair.second == pos; });
 }
 
-void Map::setUnit(Unit* ally, const Position& pos)
+void Map::setUnit(Unit* unit, const Position& pos)
 {
-	if (ally != nullptr)
+	if (unit != nullptr)
 	{
-		m_units[ally] = pos;
+		m_unitsStates[unit] = UnitState(*unit);
+		m_unitsPos[unit] = pos;
 	}
 }
 
 Position Map::getPos(Unit* unit) const
 {
 	Position res = Position::nowhere;
-	auto it = std::find_if(m_units.begin(), m_units.end(), [&unit](const std::pair<Unit*, Position> &pair) { return pair.first == unit; });
-	if (it != m_units.end())
+	auto it = std::find_if(m_unitsPos.begin(), m_unitsPos.end(), [&unit](const std::pair<Unit*, Position> &pair) { return pair.first == unit; });
+	if (it != m_unitsPos.end())
 	{
 		res = it->second;
 	}
