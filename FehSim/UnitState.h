@@ -46,7 +46,7 @@ public:
 	static Buffs resBuff(int res) { return Buffs(0, 0, 0, res); }
 };
 
-class UnitState
+class FEHSIM_API UnitState
 {
 private:
 	Unit* m_unit;
@@ -56,13 +56,14 @@ private:
 
 public:
 	UnitState() {}
-	UnitState(Unit& unit) : m_unit(&unit) {}
+	UnitState(Unit& unit) : m_unit(&unit), m_currentHP(unit.getMaxHP()) {}
 	~UnitState() {};
 
 	Unit* getUnit() { return m_unit; }
 
 	int getMaxHP() { return m_unit->getMaxHP(); }
 	int getHP() { return m_currentHP; }
+	bool isDead() { return m_currentHP <= 0; }
 	int getAtk() { return m_unit->getAtk() + m_buffs.getAtk(); }
 	int getSpd() { return m_unit->getSpd() + m_buffs.getSpd(); }
 	int getDef() { return m_unit->getDef() + m_buffs.getDef(); }
@@ -74,5 +75,8 @@ public:
 
 	void addBuffs(Buffs buffs) { m_buffs = Buffs::max(m_buffs, buffs); }
 	void resetBuffs() { m_buffs = Buffs(); }
+
+	void loseLife(int amount, bool canKill = true) { m_currentHP -= std::min(amount, m_currentHP - (canKill ? 0 : 1)); }
+	void gainLife(int amount) { m_currentHP = std::min(getMaxHP(), m_currentHP + amount); }
 };
 

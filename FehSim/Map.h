@@ -25,6 +25,7 @@ public:
 	bool isFree(Position pos) const;
 
 	Position getPos(Unit* unit) const;
+	UnitState& getState(Unit* unit) { return m_unitsStates.at(unit); };
 
 	bool canMakeMove(Unit* unit, Position movement, Position action = Position::nowhere);
 
