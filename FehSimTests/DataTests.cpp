@@ -8,7 +8,7 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace FehSimTests
 {
-	TEST_CLASS(UnitDataTests)
+	TEST_CLASS(DataTests)
 	{
 	private:
 		DataLoader m_data;
@@ -37,6 +37,14 @@ namespace FehSimTests
 			Assert::AreEqual(32, data->getBaseDef());
 			Assert::AreEqual(22, data->getBaseRes());
 			Assert::AreEqual(157, data->getBST());
+		}
+
+		TEST_METHOD(LoadFensalir)
+		{
+			Weapon* weapon = m_data.GetWeaponData("fensalir");
+			Assert::IsNotNull(weapon);
+			Assert::AreEqual(std::string("Fensalir"), weapon->getName());
+			Assert::AreEqual(16, weapon->getMight());
 		}
 	};
 }

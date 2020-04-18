@@ -41,7 +41,6 @@ UnitData DataLoader::UnitDataFromFile(std::string filePath)
 
 	UnitData d;
 
-
 	d.m_name = j["name"];
 
 	std::string weapontypeStr, colorStr;
@@ -61,4 +60,35 @@ UnitData DataLoader::UnitDataFromFile(std::string filePath)
 	d.m_baseRes = j["maxStats"]["5"]["res"]["base"];
 
 	return d;
+}
+
+Weapon* DataLoader::GetWeaponData(std::string weaponID)
+{
+	if (m_weapons.count(weaponID) == 0)
+	{
+		try
+		{
+			m_weapons[weaponID] = WeaponDataFromFile(m_weaponDataPath + weaponID + ".json");
+		}
+		catch (...)
+		{
+			return nullptr;
+		}
+	}
+
+	return &m_weapons.at(weaponID);
+}
+
+Weapon DataLoader::WeaponDataFromFile(std::string filePath)
+{
+	std::ifstream i(filePath);
+	json j;
+	i >> j;
+
+	Weapon w;
+
+	w.m_name = j["name"];
+	w.m_might = j["might"];
+
+	return w;
 }

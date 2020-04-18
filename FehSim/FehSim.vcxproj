@@ -132,6 +132,7 @@
     <ClInclude Include="Unit.h" />
     <ClInclude Include="UnitData.h" />
     <ClInclude Include="UnitState.h" />
+    <ClInclude Include="Weapon.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DataLoader.cpp" />
@@ -142,6 +143,7 @@
     <ClCompile Include="Unit.cpp" />
     <ClCompile Include="UnitData.cpp" />
     <ClCompile Include="UnitState.cpp" />
+    <ClCompile Include="Weapon.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
