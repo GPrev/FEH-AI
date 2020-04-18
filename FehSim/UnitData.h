@@ -43,12 +43,14 @@ protected:
 	int m_baseDef;
 	int m_baseRes;
 
+	std::string m_defaultWeaponID;
+
 public:
 	UnitData() {}
 	UnitData(std::string name, UnitColor color, WeaponType type, int hp, int atk, int spd, int def, int res)
 		: m_name(name), m_color(color), m_type(type), m_baseHP(hp), m_baseAtk(atk), m_baseSpd(spd), m_baseDef(def), m_baseRes(res) {}
 
-	std::string getName() { return m_name; }
+	std::string getName() const { return m_name; }
 
 	UnitColor getColor() const { return m_color; }
 	WeaponType getWeaponType() const { return m_type; }
@@ -60,6 +62,8 @@ public:
 	int getBaseDef() const { return m_baseDef; }
 	int getBaseRes() const { return m_baseRes; }
 	int getBST() const { return m_baseHP + m_baseAtk + m_baseSpd + m_baseDef + m_baseRes; }
+
+	std::string getDefaultWeaponID() { return m_defaultWeaponID; }
 };
 
 #pragma warning( pop ) 

@@ -28,7 +28,7 @@ void Rules::strike(UnitState& _attacker, UnitState& _defender)
 {
 	if (!_attacker.isDead())
 	{
-		int attackPower = (int) std::floor(_attacker.getAtk() * (1. + .2 * weaponTriangle(_attacker, _defender)));
+		int attackPower = _attacker.getAtk() + (int) std::trunc(_attacker.getAtk() * .2 * weaponTriangle(_attacker, _defender));
 		_defender.loseLife(std::max(0, attackPower - _defender.getDef()));
 	}
 }

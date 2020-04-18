@@ -12,28 +12,30 @@ namespace FehSimTests
 	TEST_CLASS(RulesTests)
 	{
 	private:
-		UnitData* _udata1, * _udata2;
-		Unit _ally1;
-		Unit _foe1;
-		MapData _mdata;
-		Map _map;
-		Rules _rules;
-		DataLoader _loader;
+		UnitData* m_alphData, * m_sharData;
+		Unit m_alphonse;
+		Unit m_sharena;
+		MapData mm_mapData;
+		Map m_map;
+		Rules m_rules;
+		DataLoader m_dataLoader;
 
 		void setup()
 		{
-			_udata1 = _loader.GetUnitData("alfonse-prince-of-askr");
-			_udata2 = _loader.GetUnitData("sharena-princess-of-askr");
-			_ally1 = Unit(*_udata1);
-			_foe1 = Unit(*_udata2);
+			m_alphData = m_dataLoader.GetUnitData("alfonse-prince-of-askr");
+			m_sharData = m_dataLoader.GetUnitData("sharena-princess-of-askr");
+			m_alphonse = Unit(*m_alphData);
+			m_sharena = Unit(*m_sharData);
+			m_alphonse.makeBaseKit(m_dataLoader);
+			m_sharena.makeBaseKit(m_dataLoader);
 
 			std::vector<Position> allyPos;
 			allyPos.push_back(Position(5, 5));
 			std::map<Unit*, Position> foes;
-			foes[&_foe1] = Position(3, 3);
-			_mdata = MapData(10, 10, allyPos, foes);
-			_map = Map(_mdata);
-			_map.init(&_ally1);
+			foes[&m_sharena] = Position(3, 3);
+			mm_mapData = MapData(10, 10, allyPos, foes);
+			m_map = Map(mm_mapData);
+			m_map.init(&m_alphonse);
 		}
 
 	public:
@@ -41,12 +43,12 @@ namespace FehSimTests
 		TEST_METHOD(SimpleBattle)
 		{
 			setup();
-			Assert::AreEqual(43, _map.getState(&_ally1).getHP());
-			Assert::AreEqual(43, _map.getState(&_foe1).getHP());
+			Assert::AreEqual(43, m_map.getState(&m_alphonse).getHP());
+			Assert::AreEqual(43, m_map.getState(&m_sharena).getHP());
 
-			_rules.doBattle(_map, &_ally1, &_foe1);
-			Assert::AreEqual(31, _map.getState(&_ally1).getHP()); // Should be 0 with weapon and WT
-			Assert::AreEqual(43, _map.getState(&_foe1).getHP()); // Should be 31 with weapon and WT
+			m_rules.doBattle(m_map, &m_alphonse, &m_sharena);
+			Assert::AreEqual(0, m_map.getState(&m_alphonse).getHP());
+			Assert::AreEqual(31, m_map.getState(&m_sharena).getHP());
 		}
 	};
 }

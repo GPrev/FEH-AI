@@ -59,6 +59,9 @@ UnitData DataLoader::UnitDataFromFile(std::string filePath)
 	d.m_baseDef = j["maxStats"]["5"]["def"]["base"];
 	d.m_baseRes = j["maxStats"]["5"]["res"]["base"];
 
+	std::string weaponStr = j["weapon"][0]["_id"];
+	d.m_defaultWeaponID = weaponStr.substr(7);
+
 	return d;
 }
 

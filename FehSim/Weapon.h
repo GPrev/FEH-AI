@@ -10,8 +10,8 @@ public:
 	Weapon();
 	~Weapon();
 
-	std::string getName() { return m_name; }
-	int getMight() { return m_might; }
+	std::string getName() const { return m_name; }
+	int getMight() const { return m_might; }
 
 protected:
 	std::string m_name;
