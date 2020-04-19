@@ -61,7 +61,7 @@ bool Map::canMakeMove(Unit* unit, Position movement, Position action)
 	
 	// Vérif départ
 	Position unitPos = getPos(unit);
-	ok = unitPos.isSomewhere();
+	ok = unitPos.isSomewhere() && isValid(movement) && (!action.isSomewhere() || isValid(action));
 
 	// Vérif mvt
 	if (ok)

@@ -1,7 +1,7 @@
 #pragma once
-#include "FehAI.h"
+#include "AI.h"
 
-class DumbAI : public FehAI
+class FEHAI_API DumbAI : public FehAI
 {
 public:
 	DumbAI();

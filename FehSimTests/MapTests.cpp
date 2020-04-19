@@ -101,6 +101,10 @@ namespace FehSimTests
 
 			auto moves = m_map.getPossibleMoves(&m_ally1);
 			Assert::AreEqual(14, (int)moves.size());
+
+			m_map.makeMove(&m_ally1, Position(8, 8));
+			moves = m_map.getPossibleMoves(&m_ally1);
+			Assert::AreEqual(11, (int)moves.size());
 		}
 
 	};

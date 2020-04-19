@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FehSimTests", "FehSimTests\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FehAI", "FehAI\FehAI.vcxproj", "{08DD01D3-097A-41CF-8E22-F23C17807294}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FehAiTests", "FehAiTests\FehAiTests.vcxproj", "{8A70A277-DA1A-447A-8789-2AB19857C5E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -49,6 +51,16 @@ Global
 		{08DD01D3-097A-41CF-8E22-F23C17807294}.Release|x64.Build.0 = Release|x64
 		{08DD01D3-097A-41CF-8E22-F23C17807294}.Release|x86.ActiveCfg = Release|Win32
 		{08DD01D3-097A-41CF-8E22-F23C17807294}.Release|x86.Build.0 = Release|Win32
+		{8A70A277-DA1A-447A-8789-2AB19857C5E3}.Debug|ARM.ActiveCfg = Debug|Win32
+		{8A70A277-DA1A-447A-8789-2AB19857C5E3}.Debug|x64.ActiveCfg = Debug|x64
+		{8A70A277-DA1A-447A-8789-2AB19857C5E3}.Debug|x64.Build.0 = Debug|x64
+		{8A70A277-DA1A-447A-8789-2AB19857C5E3}.Debug|x86.ActiveCfg = Debug|Win32
+		{8A70A277-DA1A-447A-8789-2AB19857C5E3}.Debug|x86.Build.0 = Debug|Win32
+		{8A70A277-DA1A-447A-8789-2AB19857C5E3}.Release|ARM.ActiveCfg = Release|Win32
+		{8A70A277-DA1A-447A-8789-2AB19857C5E3}.Release|x64.ActiveCfg = Release|x64
+		{8A70A277-DA1A-447A-8789-2AB19857C5E3}.Release|x64.Build.0 = Release|x64
+		{8A70A277-DA1A-447A-8789-2AB19857C5E3}.Release|x86.ActiveCfg = Release|Win32
+		{8A70A277-DA1A-447A-8789-2AB19857C5E3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

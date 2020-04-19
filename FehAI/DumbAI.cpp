@@ -51,7 +51,7 @@ Position DumbAI::closestEnemy(Map& map, Unit* unit)
 			if (minDistance > dist)
 			{
 				minDistance = dist;
-				best = pos;
+				best = unit.second;
 			}
 		}
 	}
