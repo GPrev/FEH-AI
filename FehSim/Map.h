@@ -7,6 +7,17 @@
 #pragma warning( push )
 #pragma warning( disable : 4251)
 
+class FEHSIM_API Move
+{
+public:
+	Unit* m_unit = nullptr;
+	Position m_movement = Position::nowhere;
+	Position m_action = Position::nowhere;
+
+	Move(Unit* unit, Position movement, Position action = Position::nowhere)
+		: m_unit(unit), m_movement(movement), m_action(action) {}
+};
+
 class FEHSIM_API Map
 {
 private:
@@ -32,9 +43,13 @@ public:
 	bool canMakeMove(Unit* unit, Position movement, Position action = Position::nowhere);
 	void makeMove(Unit* unit, Position movement, Position action = Position::nowhere);
 
+	std::vector<Move> getPossibleMoves(UnitColor side);
+	std::vector<Move> getPossibleMoves(Unit* unit);
+
 private:
 	void clearUnits() { m_unitsStates.clear(); m_unitsPos.clear(); };
 	void addUnit(Unit* ally, const Position& pos, UnitColor side);
+	void getPossibleMoves(Unit* unit, Position movement, std::vector<Move>& res);
 };
 
 #pragma warning( pop ) 

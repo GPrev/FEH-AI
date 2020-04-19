@@ -67,7 +67,7 @@ bool Map::canMakeMove(Unit* unit, Position movement, Position action)
 	if (ok)
 	{
 		// TODO consider terrain
-		ok = isFree(movement) && unitPos.distance(movement) <= unit->getMvt();
+		ok = (movement == unitPos) || (isFree(movement) && unitPos.distance(movement) <= unit->getMvt());
 	}
 
 	// Vérif action
@@ -101,6 +101,78 @@ void Map::makeMove(Unit* unit, Position movement, Position action)
 		if (opState.isDead())
 		{
 			m_unitsPos[oponent] = Position::nowhere;
+		}
+	}
+}
+
+std::vector<Move> Map::getPossibleMoves(UnitColor side)
+{
+	std::vector<Move> res;
+	for (auto unit : m_unitsStates)
+	{
+		if (!unit.second.isDead() && unit.second.getSide() == side)
+		{
+			std::vector<Move> unitRes = getPossibleMoves(unit.first);
+			res.reserve(res.size() + unitRes.size());
+			res.insert(res.end(), unitRes.begin(), unitRes.end());
+		}
+	}
+	return res;
+}
+
+int distance1[][2] = { { -1, 0 }, { 0, -1 }, { 1, 0 }, { 0, 1 } };
+int distance2[][2] = { { -2, 0 },{ -1, -1 },{ 0, -2 },{ 1, -1 },{ 2, 0 },{ 1, 1 },{ 0, 2 },{ -1, 1 } };
+int distance3[][2] = { { -3, 0 }, { -2, -1 }, { -1, -2 }, { 0, -3 }, { 1, -2 }, { 2, -1 }, { 3, 0 }, { 2, 1 }, { 1, 2 }, { 0, 3 }, { -1, 2 }, { -2, 1 } };
+
+std::vector<Move> Map::getPossibleMoves(Unit* unit)
+{
+	std::vector<Move> res;
+
+	Position pos = getPos(unit);
+
+	getPossibleMoves(unit, pos, res);
+	for (int* offset : distance1)
+	{
+		getPossibleMoves(unit, pos + offset, res);
+	}
+	if (unit->getMvt() > 1)
+	{
+		for (int* offset : distance2)
+		{
+			getPossibleMoves(unit, pos + offset, res);
+		}
+	}
+	if (unit->getMvt() > 2)
+	{
+		for (int* offset : distance3)
+		{
+			getPossibleMoves(unit, pos + offset, res);
+		}
+	}
+
+	return res;
+}
+
+void Map::getPossibleMoves(Unit* unit, Position movement, std::vector<Move>& res)
+{
+	if (canMakeMove(unit, movement))
+	{
+		res.push_back(Move(unit, movement));
+	}
+	for (int* offset : distance1)
+	{
+		Position action = movement + offset;
+		if (canMakeMove(unit, movement, action))
+		{
+			res.push_back(Move(unit, movement, action));
+		}
+	}
+	for (int* offset : distance2)
+	{
+		Position action = movement + offset;
+		if (canMakeMove(unit, movement, action))
+		{
+			res.push_back(Move(unit, movement, action));
 		}
 	}
 }

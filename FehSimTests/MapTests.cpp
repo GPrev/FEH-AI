@@ -65,6 +65,7 @@ namespace FehSimTests
 		{
 			setup();
 
+			Assert::IsTrue(m_map.canMakeMove(&m_ally1, Position(5, 5)));
 			Assert::IsTrue(m_map.canMakeMove(&m_ally1, Position(6, 6)));
 			Assert::IsFalse(m_map.canMakeMove(&m_ally1, Position(4, 4)));
 			Assert::IsFalse(m_map.canMakeMove(&m_ally1, Position(7, 7)));
@@ -92,6 +93,14 @@ namespace FehSimTests
 			m_map.makeMove(&m_ally1, Position(4, 5), Position(4, 4));
 			Assert::IsTrue(m_map.getState(&m_foe2).isDead());
 			Assert::AreEqual(Position::nowhere, m_map.getPos(&m_foe2));
+		}
+
+		TEST_METHOD(PossibleMoves)
+		{
+			setup();
+
+			auto moves = m_map.getPossibleMoves(&m_ally1);
+			Assert::AreEqual(14, (int)moves.size());
 		}
 
 	};
