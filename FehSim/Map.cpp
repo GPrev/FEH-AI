@@ -76,7 +76,7 @@ bool Map::canMakeMove(Unit* unit, Position movement, Position action)
 		// TODO check equips, teams...
 		// TODO actions on allies
 		UnitState& state = getState(unit);
-		ok = !isFree(action) && movement.distance(action) <= unit->getRange() && state.canAttack() && getUnitState(action).getSide() != state.getSide();
+		ok = !isFree(action) && movement.distance(action) == unit->getRange() && state.canAttack() && getUnitState(action).getSide() != state.getSide();
 	}
 
 	return ok;

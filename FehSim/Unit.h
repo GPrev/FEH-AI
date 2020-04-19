@@ -35,8 +35,9 @@ public:
 	int getMvt()   { return getMvtRange(m_data->getMvtType()); } // TODO consider mvt types
 	int getRange() { return getAttackRange(m_data->getWeaponType()); }
 	bool canAttack() { return m_weapon != nullptr; }
-	bool canCC()   { return true; } // TODO consider weapon and skills
-	bool canDC()   { return false; } // TODO consider weapon and skills
+	bool canCC()   { return getRange() == 1; } // TODO consider weapon and skills
+	bool canDC()   { return getRange() == 2; } // TODO consider weapon and skills
+	bool canCounter(int range) { return (range == 1 && canCC()) || (range == 2 && canDC()); }
 
 	Weapon* getWeapon() { return m_weapon; }
 

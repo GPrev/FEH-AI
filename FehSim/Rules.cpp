@@ -11,9 +11,13 @@ void Rules::doBattle(Map& map, Unit* _attacker, Unit* _defender)
 	UnitState& attState = map.getState(_attacker);
 	UnitState& defState = map.getState(_defender);
 	bool attackerDoubles = (attState.getSpd() >= defState.getSpd() + 4);
-	bool defenderDoubles = (defState.getSpd() >= attState.getSpd() + 4);
+	bool defenderDoubles = false;
 	strike(attState, defState);
-	strike(defState, attState);
+	if (_defender->canCounter(_attacker->getRange()))
+	{
+		strike(defState, attState);
+		defenderDoubles = (defState.getSpd() >= attState.getSpd() + 4);
+	}
 	if (attackerDoubles)
 	{
 		strike(attState, defState);

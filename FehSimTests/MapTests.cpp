@@ -71,6 +71,7 @@ namespace FehSimTests
 
 			Assert::IsTrue(m_map.canMakeMove(&m_ally1, Position(4, 5), Position(4, 4)));
 			Assert::IsTrue(m_map.canMakeMove(&m_ally1, Position(5, 4), Position(4, 4)));
+			Assert::IsFalse(m_map.canMakeMove(&m_ally1, Position(5, 5), Position(4, 4)));
 			Assert::IsFalse(m_map.canMakeMove(&m_ally1, Position(6, 6), Position(4, 4)));
 		}
 
