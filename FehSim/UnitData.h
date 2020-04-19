@@ -26,6 +26,10 @@ inline UnitColor  FEHSIM_API unitColorFromString (const std::string& str) { retu
 inline WeaponType FEHSIM_API weaponTypeFromString(const std::string& str) { return (WeaponType)findInArray(str, weaponTypeStr, BEAST); }
 inline MvtType    FEHSIM_API mvtTypeFromString   (const std::string& str) { return (MvtType)   findInArray(str, mvtTypeStr, ARMOUR); }
 
+inline int getAttackRange(WeaponType type) { return (type == TOME || type == BOW || type == DAGGER || type == STAFF) ? 2 : 1; }
+inline int getMvtRange(MvtType type) { return type == ARMOUR ? 1 : type == CAVALRY ? 3 : 2; }
+inline bool canFly(MvtType type) { return (type == FLYER); }
+
 class FEHSIM_API UnitData
 {
 	friend class DataLoader;

@@ -25,13 +25,15 @@ public:
 	bool isFree(Position pos) const;
 
 	Position getPos(Unit* unit) const;
+	Unit* getUnit(Position pos);
 	UnitState& getState(Unit* unit) { return m_unitsStates.at(unit); };
+	UnitState& getUnitState(Position pos) { return getState(getUnit(pos)); };
 
 	bool canMakeMove(Unit* unit, Position movement, Position action = Position::nowhere);
 
 private:
 	void clearUnits() { m_unitsStates.clear(); m_unitsPos.clear(); };
-	void setUnit(Unit* ally, const Position& pos);
+	void setUnit(Unit* ally, const Position& pos, UnitColor side);
 };
 
 #pragma warning( pop ) 

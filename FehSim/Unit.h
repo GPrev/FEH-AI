@@ -32,8 +32,8 @@ public:
 	int getSpd()   { return m_data->getBaseSpd(); }
 	int getDef()   { return m_data->getBaseDef(); }
 	int getRes()   { return m_data->getBaseRes(); }
-	int getMvt()   { return 2; } // TODO consider mvt types
-	int getRange() { return 2; } // TODO consider weapon
+	int getMvt()   { return getMvtRange(m_data->getMvtType()); } // TODO consider mvt types
+	int getRange() { return getAttackRange(m_data->getWeaponType()); }
 	bool canAttack() { return m_weapon != nullptr; }
 	bool canCC()   { return true; } // TODO consider weapon and skills
 	bool canDC()   { return false; } // TODO consider weapon and skills

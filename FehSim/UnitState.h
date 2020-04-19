@@ -51,15 +51,18 @@ class FEHSIM_API UnitState
 private:
 	Unit* m_unit;
 
+	UnitColor m_side = COLORLESS;
 	int m_currentHP;
 	Buffs m_buffs;
 
 public:
 	UnitState() {}
-	UnitState(Unit& unit) : m_unit(&unit), m_currentHP(unit.getMaxHP()) {}
+	UnitState(Unit& unit, UnitColor side) : m_unit(&unit), m_side(side), m_currentHP(unit.getMaxHP()) {}
 	~UnitState() {};
 
 	Unit* getUnit() { return m_unit; }
+
+	UnitColor getSide() const { return m_side; }
 
 	int getMaxHP() { return m_unit->getMaxHP(); }
 	int getHP() { return m_currentHP; }
@@ -70,6 +73,7 @@ public:
 	int getRes() { return m_unit->getRes() + m_buffs.getRes(); }
 	int getMvt() { return m_unit->getMvt(); } // TODO consider buffs
 	int getRange() { return m_unit->getRange(); }
+	bool canAttack() { return m_unit->canAttack(); }
 	bool canCC() { return m_unit->canCC(); } // TODO consider debuffs
 	bool canDC() { return m_unit->canDC(); } // TODO consider debuffs
 
