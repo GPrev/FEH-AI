@@ -49,6 +49,8 @@ public:
 	std::vector<Move> getPossibleMoves(UnitColor side);
 	std::vector<Move> getPossibleMoves(Unit* unit);
 
+	void newTurn();
+
 private:
 	void clearUnits() { m_unitsStates.clear(); m_unitsPos.clear(); };
 	void addUnit(Unit* ally, const Position& pos, UnitColor side);

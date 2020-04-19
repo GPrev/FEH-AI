@@ -104,6 +104,11 @@ namespace FehSimTests
 
 			m_map.makeMove(&m_ally1, Position(8, 8));
 			moves = m_map.getPossibleMoves(&m_ally1);
+			Assert::AreEqual(0, (int)moves.size());
+
+			m_map.newTurn();
+			Assert::IsFalse(m_map.getState(&m_ally1).hasActed());
+			moves = m_map.getPossibleMoves(&m_ally1);
 			Assert::AreEqual(11, (int)moves.size());
 		}
 

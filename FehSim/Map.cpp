@@ -57,11 +57,14 @@ Unit* Map::getUnit(Position pos)
 
 bool Map::canMakeMove(Unit* unit, Position movement, Position action)
 {
-	bool ok = true;
+	bool ok = !getState(unit).hasActed();
 	
 	// Vérif départ
 	Position unitPos = getPos(unit);
-	ok = unitPos.isSomewhere() && isValid(movement) && (!action.isSomewhere() || isValid(action));
+	if (ok)
+	{
+		ok = unitPos.isSomewhere() && isValid(movement) && (!action.isSomewhere() || isValid(action));
+	}
 
 	// Vérif mvt
 	if (ok)
@@ -84,6 +87,8 @@ bool Map::canMakeMove(Unit* unit, Position movement, Position action)
 
 void Map::makeMove(Unit* unit, Position movement, Position action)
 {
+	UnitState& state = getState(unit);
+
 	m_unitsPos[unit] = movement;
 	// TODO actions on allies
 	if (action.isSomewhere())
@@ -91,7 +96,6 @@ void Map::makeMove(Unit* unit, Position movement, Position action)
 		Rules::doBattle(*this, unit, getUnit(action));
 
 		// Check death
-		UnitState& state = getState(unit);
 		Unit* oponent = getUnit(action);
 		UnitState& opState = getState(oponent);
 		if (state.isDead())
@@ -103,6 +107,8 @@ void Map::makeMove(Unit* unit, Position movement, Position action)
 			m_unitsPos[oponent] = Position::nowhere;
 		}
 	}
+	// Mark unit as "has acted"
+	state.setHasActed(true);
 }
 
 std::vector<Move> Map::getPossibleMoves(UnitColor side)
@@ -174,5 +180,13 @@ void Map::getPossibleMoves(Unit* unit, Position movement, std::vector<Move>& res
 		{
 			res.push_back(Move(unit, movement, action));
 		}
+	}
+}
+
+void Map::newTurn()
+{
+	for (std::pair<Unit* const, UnitState>& unit : m_unitsStates)
+	{
+		unit.second.setHasActed(false);
 	}
 }

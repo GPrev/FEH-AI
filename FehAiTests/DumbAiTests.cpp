@@ -51,13 +51,23 @@ namespace FehAiTests
 			Assert::AreEqual(Position(4, 2), m_map.getPos(&m_sharena));
 			Assert::AreEqual(Position(7, 2), m_map.getPos(&m_nino));
 			Assert::AreEqual(7, m_map.getPos(&m_alphonse).distance(m_map.getPos(&m_sharena)));
+			Assert::AreEqual(8, m_map.getPos(&m_alphonse).distance(m_map.getPos(&m_nino)));
 
 			m_ai.makeMove(m_map, BLUE);
 			Assert::AreEqual(5, m_map.getPos(&m_alphonse).distance(m_map.getPos(&m_sharena)));
 
+			m_map.newTurn();
+
 			m_ai.makeMove(m_map, RED);
 			Assert::AreEqual(3, m_map.getPos(&m_alphonse).distance(m_map.getPos(&m_sharena)));
+			m_ai.makeMove(m_map, RED);
+			Assert::AreEqual(6, m_map.getPos(&m_alphonse).distance(m_map.getPos(&m_nino)));
 
+			m_map.newTurn();
+
+			m_ai.makeMove(m_map, BLUE);
+			Assert::IsTrue(m_map.getState(&m_alphonse).isDead());
+			Assert::AreNotEqual(43, m_map.getState(&m_sharena).getHP());
 		}
 
 	};

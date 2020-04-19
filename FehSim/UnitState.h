@@ -55,6 +55,8 @@ private:
 	int m_currentHP;
 	Buffs m_buffs;
 
+	bool m_hasActed = false;
+
 public:
 	UnitState() {}
 	UnitState(Unit& unit, UnitColor side) : m_unit(&unit), m_side(side), m_currentHP(unit.getMaxHP()) {}
@@ -63,6 +65,9 @@ public:
 	Unit* getUnit() { return m_unit; }
 
 	UnitColor getSide() const { return m_side; }
+
+	bool hasActed() { return m_hasActed; }
+	void setHasActed(bool hasActed) { m_hasActed = hasActed; }
 
 	int getMaxHP() { return m_unit->getMaxHP(); }
 	int getHP() { return m_currentHP; }
