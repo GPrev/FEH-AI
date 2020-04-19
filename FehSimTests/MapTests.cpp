@@ -29,6 +29,8 @@ namespace FehSimTests
 			m_foe2 = Unit(*m_udata1);
 
 			m_ally1.makeBaseKit(m_dataLoader);
+			m_foe1.makeBaseKit(m_dataLoader);
+			m_foe2.makeBaseKit(m_dataLoader);
 
 			std::vector<Position> allyPos;
 			allyPos.push_back(Position(5, 5));
@@ -70,6 +72,25 @@ namespace FehSimTests
 			Assert::IsTrue(m_map.canMakeMove(&m_ally1, Position(4, 5), Position(4, 4)));
 			Assert::IsTrue(m_map.canMakeMove(&m_ally1, Position(5, 4), Position(4, 4)));
 			Assert::IsFalse(m_map.canMakeMove(&m_ally1, Position(6, 6), Position(4, 4)));
+		}
+
+		TEST_METHOD(MakeMove)
+		{
+			setup();
+
+			m_map.makeMove(&m_ally1, Position(5, 6));
+			Assert::AreEqual(Position(5, 6), m_map.getPos(&m_ally1));
+
+			m_map.makeMove(&m_ally1, Position(4, 5), Position(4, 4));
+			Assert::AreEqual(Position(4, 5), m_map.getPos(&m_ally1));
+			Assert::AreEqual(24, m_map.getState(&m_ally1).getHP());
+			Assert::AreEqual(24, m_map.getState(&m_foe2).getHP());
+			Assert::AreEqual(43, m_map.getState(&m_foe1).getHP());
+
+			m_map.makeMove(&m_ally1, Position(4, 5), Position(4, 4));
+			m_map.makeMove(&m_ally1, Position(4, 5), Position(4, 4));
+			Assert::IsTrue(m_map.getState(&m_foe2).isDead());
+			Assert::AreEqual(Position::nowhere, m_map.getPos(&m_foe2));
 		}
 
 	};

@@ -30,10 +30,11 @@ public:
 	UnitState& getUnitState(Position pos) { return getState(getUnit(pos)); };
 
 	bool canMakeMove(Unit* unit, Position movement, Position action = Position::nowhere);
+	void makeMove(Unit* unit, Position movement, Position action = Position::nowhere);
 
 private:
 	void clearUnits() { m_unitsStates.clear(); m_unitsPos.clear(); };
-	void setUnit(Unit* ally, const Position& pos, UnitColor side);
+	void addUnit(Unit* ally, const Position& pos, UnitColor side);
 };
 
 #pragma warning( pop ) 
