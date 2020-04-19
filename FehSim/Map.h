@@ -35,12 +35,15 @@ public:
 	bool isValid(Position pos) const;
 	bool isFree(Position pos) const;
 
+	const std::map<Unit*, Position>& getUnits() const { return m_unitsPos; }
+
 	Position getPos(Unit* unit) const;
 	Unit* getUnit(Position pos);
 	UnitState& getState(Unit* unit) { return m_unitsStates.at(unit); };
 	UnitState& getUnitState(Position pos) { return getState(getUnit(pos)); };
 
 	bool canMakeMove(Unit* unit, Position movement, Position action = Position::nowhere);
+	inline void makeMove(Move move) { makeMove(move.m_unit, move.m_movement, move.m_action); }
 	void makeMove(Unit* unit, Position movement, Position action = Position::nowhere);
 
 	std::vector<Move> getPossibleMoves(UnitColor side);
