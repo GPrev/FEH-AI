@@ -31,6 +31,7 @@ public:
 	Map(MapData& data) : m_data(&data) {}
 
 	void init(Unit* ally1, Unit* ally2 = nullptr, Unit* ally3 = nullptr, Unit* ally4 = nullptr);
+	void init(const std::vector<Unit*>* allies, const std::vector<Unit*>* foes = nullptr);
 
 	bool isValid(Position pos) const;
 	bool isFree(Position pos) const;

@@ -3,15 +3,34 @@
 
 void Map::init(Unit* ally1, Unit* ally2, Unit* ally3, Unit* ally4)
 {
-	clearUnits();
-	for (auto foe : m_data->getFoes())
+	std::vector<Unit*> allies;
+	allies.push_back(ally1);
+	if (m_data->getAllyPositions().size() > 1) { allies.push_back(ally2); }
+	if (m_data->getAllyPositions().size() > 2) { allies.push_back(ally3); }
+	if (m_data->getAllyPositions().size() > 3) { allies.push_back(ally4); }
+	init(&allies);
+}
+
+void Map::init(const std::vector<Unit*>* allies, const std::vector<Unit*>* foes)
+{
+	if (foes == nullptr)
 	{
-		addUnit(foe.first, foe.second, RED);
+		foes = &m_data->getFoes();
 	}
-	addUnit(ally1, m_data->getAllyPositions().at(0), BLUE);
-	if (m_data->getAllyPositions().size() > 1) { addUnit(ally2, m_data->getAllyPositions().at(1), BLUE); }
-	if (m_data->getAllyPositions().size() > 2) { addUnit(ally3, m_data->getAllyPositions().at(2), BLUE); }
-	if (m_data->getAllyPositions().size() > 3) { addUnit(ally4, m_data->getAllyPositions().at(3), BLUE); }
+
+	clearUnits();
+	for (size_t i = 0; i < allies->size(); ++i)
+	{
+		Unit* ally = allies->at(i);
+		Position pos = m_data->getAllyPositions().at(i);
+		addUnit(ally, pos, BLUE);
+	}
+	for (size_t i = 0; i < foes->size(); ++i)
+	{
+		Unit* foe = foes->at(i);
+		Position pos = m_data->getEnemyPositions().at(i);
+		addUnit(foe, pos, RED);
+	}
 }
 
 bool Map::isValid(Position pos) const
@@ -57,7 +76,8 @@ Unit* Map::getUnit(Position pos)
 
 bool Map::canMakeMove(Unit* unit, Position movement, Position action)
 {
-	bool ok = !getState(unit).hasActed();
+	UnitState state = getState(unit);
+	bool ok = !(state.hasActed() || state.isDead());
 	
 	// Vérif départ
 	Position unitPos = getPos(unit);
