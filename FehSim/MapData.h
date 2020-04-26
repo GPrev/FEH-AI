@@ -22,7 +22,7 @@ private:
 
 public:
 	MapData() {}
-	MapData(int width, int height, std::vector<Position> allyPos, std::vector<Position> enemyPos, std::vector<Unit*> foes)
+	MapData(int width, int height, std::vector<Position> allyPos, std::vector<Position> enemyPos, std::vector<Unit*> foes = std::vector<Unit*>())
 		: m_width(width), m_height(height), m_allyPos(allyPos), m_enemyPos(enemyPos), m_foes(foes) {}
 	MapData(int width, int height, std::vector<Position> allyPos, std::map<Unit*, Position> foesPos)
 		: m_width(width), m_height(height), m_allyPos(allyPos)

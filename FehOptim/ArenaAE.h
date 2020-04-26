@@ -5,5 +5,7 @@ class FEHOPTIM_API ArenaAE : public PvpOptimiser
 public:
 	ArenaAE();
 	~ArenaAE();
+
+	virtual void optimize();
 };
 
