@@ -27,12 +27,18 @@
     <ClInclude Include="FehAI.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="AutoPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DumbAI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="AI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoPlayer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

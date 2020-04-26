@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{08DD01D3-097A-41CF-8E22-F23C17807294}</ProjectGuid>
+    <ProjectGuid>{7605D9EC-DF7B-4690-B4B2-37461CF5AED7}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>FehAI</RootNamespace>
+    <RootNamespace>FehOptim</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -87,94 +87,98 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>FEHAI_EXPORTS;WIN32;_DEBUG;_WINDOWS;_USRDLL;FEHAI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>FEHOPTIM_EXPORTS;WIN32;_DEBUG;_WINDOWS;_USRDLL;FEHOPTIM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir)FehSim\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)FehSim\;$(SolutionDir)FehAI\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>FehSim.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FehSim.lib;FehAI.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>FEHAI_EXPORTS;_DEBUG;_WINDOWS;_USRDLL;FEHAI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>FEHOPTIM_EXPORTS;_DEBUG;_WINDOWS;_USRDLL;FEHOPTIM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir)FehSim\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)FehSim\;$(SolutionDir)FehAI\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>FehSim.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FehSim.lib;FehAI.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>FEHAI_EXPORTS;WIN32;NDEBUG;_WINDOWS;_USRDLL;FEHAI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>FEHOPTIM_EXPORTS;WIN32;NDEBUG;_WINDOWS;_USRDLL;FEHOPTIM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir)FehSim\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)FehSim\;$(SolutionDir)FehAI\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>FehSim.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FehSim.lib;FehAI.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>FEHAI_EXPORTS;NDEBUG;_WINDOWS;_USRDLL;FEHAI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>FEHOPTIM_EXPORTS;NDEBUG;_WINDOWS;_USRDLL;FEHOPTIM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir)FehSim\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)FehSim\;$(SolutionDir)FehAI\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>FehSim.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FehSim.lib;FehAI.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AutoPlayer.h" />
-    <ClInclude Include="DumbAI.h" />
-    <ClInclude Include="AI.h" />
-    <ClInclude Include="FehAI.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="AutoPlayer.cpp" />
-    <ClCompile Include="DumbAI.cpp" />
-    <ClCompile Include="AI.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FehSim\FehSim.vcxproj">
-      <Project>{e5ca4c01-992c-4f30-9b4c-34867b830084}</Project>
+    <ProjectReference Include="..\FehAI\FehAI.vcxproj">
+      <Project>{08dd01d3-097a-41cf-8e22-f23c17807294}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArenaAE.h" />
+    <ClInclude Include="FehOptim.h" />
+    <ClInclude Include="PvpOptimiser.h" />
+    <ClInclude Include="TeamBuilder.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArenaAE.cpp" />
+    <ClCompile Include="PvpOptimiser.cpp" />
+    <ClCompile Include="TeamBuilder.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

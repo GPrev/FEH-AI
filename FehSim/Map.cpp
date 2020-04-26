@@ -108,30 +108,35 @@ bool Map::canMakeMove(Unit* unit, Position movement, Position action)
 	return ok;
 }
 
-void Map::makeMove(Unit* unit, Position movement, Position action)
+bool Map::makeMove(Unit* unit, Position movement, Position action)
 {
-	UnitState& state = getState(unit);
-
-	m_unitsPos[unit] = movement;
-	// TODO actions on allies
-	if (action.isSomewhere())
+	if (unit != nullptr && movement.isSomewhere())
 	{
-		Rules::doBattle(*this, unit, getUnit(action));
+		UnitState& state = getState(unit);
 
-		// Check death
-		Unit* oponent = getUnit(action);
-		UnitState& opState = getState(oponent);
-		if (state.isDead())
+		m_unitsPos[unit] = movement;
+		// TODO actions on allies
+		if (action.isSomewhere())
 		{
-			m_unitsPos[unit] = Position::nowhere;
+			Rules::doBattle(*this, unit, getUnit(action));
+
+			// Check death
+			Unit* oponent = getUnit(action);
+			UnitState& opState = getState(oponent);
+			if (state.isDead())
+			{
+				m_unitsPos[unit] = Position::nowhere;
+			}
+			if (opState.isDead())
+			{
+				m_unitsPos[oponent] = Position::nowhere;
+			}
 		}
-		if (opState.isDead())
-		{
-			m_unitsPos[oponent] = Position::nowhere;
-		}
+		// Mark unit as "has acted"
+		state.setHasActed(true);
 	}
-	// Mark unit as "has acted"
-	state.setHasActed(true);
+
+	return movement.isSomewhere();
 }
 
 std::vector<Move> Map::getPossibleMoves(UnitColor side)
@@ -218,4 +223,17 @@ void Map::newTurn()
 	{
 		unit.second.setHasActed(false);
 	}
+}
+
+bool Map::isGameOver()
+{
+	std::map<UnitColor, int> nbAlive;
+	for (auto state : m_unitsStates)
+	{
+		if (!state.second.isDead())
+		{
+			nbAlive[state.second.getSide()]++;
+		}
+	}
+	return nbAlive.size() > 1;
 }

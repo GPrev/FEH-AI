@@ -15,24 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FehOptim.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="targetver.h">
+    <ClInclude Include="PvpOptimiser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ToString.h">
+    <ClInclude Include="TeamBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArenaAE.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="PvpOptimiser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DumbAiTests.cpp">
+    <ClCompile Include="TeamBuilder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AutoPlayerTests.cpp">
+    <ClCompile Include="ArenaAE.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -14,6 +14,10 @@ Move DumbAI::chooseMove(Map& map, UnitColor side)
 {
 	auto choices = map.getPossibleMoves(side);
 	int minDistance = 1000;
+	if (choices.size() == 0)
+	{
+		return Move();
+	}
 	Move best = choices[0];
 	for (auto choice : choices)
 	{

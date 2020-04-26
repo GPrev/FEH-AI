@@ -14,7 +14,7 @@ public:
 	Position m_movement = Position::nowhere;
 	Position m_action = Position::nowhere;
 
-	Move(Unit* unit, Position movement, Position action = Position::nowhere)
+	Move(Unit* unit = nullptr, Position movement = Position::nowhere, Position action = Position::nowhere)
 		: m_unit(unit), m_movement(movement), m_action(action) {}
 };
 
@@ -50,9 +50,11 @@ public:
 	int getTurnPlayerID() { return m_turnPlayer; }
 	UnitColor getTurnPlayerColor() { return m_sides[m_turnPlayer]; }
 
+	bool isGameOver();
+
 	bool canMakeMove(Unit* unit, Position movement, Position action = Position::nowhere);
-	inline void makeMove(Move move) { makeMove(move.m_unit, move.m_movement, move.m_action); }
-	void makeMove(Unit* unit, Position movement, Position action = Position::nowhere);
+	inline bool makeMove(Move move) { return makeMove(move.m_unit, move.m_movement, move.m_action); }
+	bool makeMove(Unit* unit, Position movement, Position action = Position::nowhere);
 
 	std::vector<Move> getPossibleMoves(UnitColor side);
 	std::vector<Move> getPossibleMoves(Unit* unit);
