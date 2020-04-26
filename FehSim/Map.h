@@ -22,7 +22,10 @@ class FEHSIM_API Map
 {
 private:
 	MapData* m_data;
+	std::vector<UnitColor> m_sides = { BLUE, RED };
 
+	int m_turnNumber = 1;
+	int m_turnPlayer = 0;
 	std::map<Unit*, UnitState> m_unitsStates;
 	std::map<Unit*, Position> m_unitsPos;
 
@@ -43,6 +46,10 @@ public:
 	UnitState& getState(Unit* unit) { return m_unitsStates.at(unit); };
 	UnitState& getUnitState(Position pos) { return getState(getUnit(pos)); };
 
+	int getTurnNumber() { return m_turnNumber; }
+	int getTurnPlayerID() { return m_turnPlayer; }
+	UnitColor getTurnPlayerColor() { return m_sides[m_turnPlayer]; }
+
 	bool canMakeMove(Unit* unit, Position movement, Position action = Position::nowhere);
 	inline void makeMove(Move move) { makeMove(move.m_unit, move.m_movement, move.m_action); }
 	void makeMove(Unit* unit, Position movement, Position action = Position::nowhere);
@@ -51,6 +58,9 @@ public:
 	std::vector<Move> getPossibleMoves(Unit* unit);
 
 	void newTurn();
+
+	UnitColor playerIdToColor(int id) { return m_sides[id]; }
+	int colorToPlayerId(UnitColor color) { return std::distance(m_sides.begin(), std::find(m_sides.begin(), m_sides.end(), color)); }
 
 private:
 	void clearUnits() { m_unitsStates.clear(); m_unitsPos.clear(); };

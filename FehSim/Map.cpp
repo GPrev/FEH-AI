@@ -31,6 +31,9 @@ void Map::init(const std::vector<Unit*>* allies, const std::vector<Unit*>* foes)
 		Position pos = m_data->getEnemyPositions().at(i);
 		addUnit(foe, pos, RED);
 	}
+
+	m_turnNumber = 1;
+	m_turnPlayer = 0;
 }
 
 bool Map::isValid(Position pos) const
@@ -77,7 +80,7 @@ Unit* Map::getUnit(Position pos)
 bool Map::canMakeMove(Unit* unit, Position movement, Position action)
 {
 	UnitState state = getState(unit);
-	bool ok = !(state.hasActed() || state.isDead());
+	bool ok = state.getSide() == getTurnPlayerColor() && !(state.hasActed() || state.isDead());
 	
 	// Vérif départ
 	Position unitPos = getPos(unit);
@@ -205,6 +208,12 @@ void Map::getPossibleMoves(Unit* unit, Position movement, std::vector<Move>& res
 
 void Map::newTurn()
 {
+	m_turnPlayer = (m_turnPlayer + 1) % m_sides.size();
+	if (m_turnPlayer == 0)
+	{
+		m_turnNumber++;
+	}
+
 	for (std::pair<Unit* const, UnitState>& unit : m_unitsStates)
 	{
 		unit.second.setHasActed(false);
