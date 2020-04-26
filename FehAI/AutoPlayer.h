@@ -15,6 +15,6 @@ public:
 	bool playMove(Map& map);
 	void playTurn(Map& map);
 	void playToTheEnd(Map& map);
-	void playToTheEnd(MapData& map, Team* allies, Team* foes = nullptr);
+	bool playToTheEnd(MapData& map, Team* allies, Team* foes = nullptr);
 };
 

@@ -2,6 +2,7 @@
 
 #include <string>
 #include <map>
+#include <vector>
 #include "UnitData.h"
 #include "Weapon.h"
 
@@ -17,16 +18,20 @@ private:
 	std::map<std::string, UnitData> m_units;
 	std::map<std::string, Weapon> m_weapons;
 
+	std::vector<std::string> m_unitNames;
+
 public:
 	DataLoader();
 	~DataLoader();
 
-	UnitData* GetUnitData(std::string unitID);
-	Weapon* GetWeaponData(std::string unitID);
+	UnitData* getUnitData(std::string unitID);
+	Weapon* getWeaponData(std::string unitID);
+
+	std::vector<std::string>& getUnitNames();
 
 private:
-	UnitData UnitDataFromFile(std::string filePath);
-	Weapon WeaponDataFromFile(std::string filePath);
+	UnitData unitDataFromFile(std::string filePath);
+	Weapon weaponDataFromFile(std::string filePath);
 };
 
 #pragma warning( pop )

@@ -33,9 +33,10 @@ void AutoPlayer::playToTheEnd(Map& map)
 	}
 }
 
-void AutoPlayer::playToTheEnd(MapData& mapdata, Team* allies, Team* foes)
+bool AutoPlayer::playToTheEnd(MapData& mapdata, Team* allies, Team* foes)
 {
 	Map map(mapdata);
 	map.init(allies, foes);
 	playToTheEnd(map);
+	return map.getWinnerColor() == BLUE;
 }

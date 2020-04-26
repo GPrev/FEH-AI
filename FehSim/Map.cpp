@@ -11,6 +11,23 @@ void Map::init(Unit* ally1, Unit* ally2, Unit* ally3, Unit* ally4)
 	init(&allies);
 }
 
+void Map::init(std::vector<Unit>* allies, std::vector<Unit>* foes)
+{
+	std::vector<Unit*> alliesp;
+	alliesp.reserve(allies->size());
+	std::vector<Unit*> foesp;
+	foesp.reserve(foes->size());
+	for (Unit& ally : *allies)
+	{
+		alliesp.push_back(&ally);
+	}
+	for (Unit& foe : *foes)
+	{
+		foesp.push_back(&foe);
+	}
+	init(&alliesp, &foesp);
+}
+
 void Map::init(const std::vector<Unit*>* allies, const std::vector<Unit*>* foes)
 {
 	if (foes == nullptr)
@@ -236,4 +253,16 @@ bool Map::isGameOver()
 		}
 	}
 	return nbAlive.size() > 1;
+}
+
+UnitColor Map::getWinnerColor()
+{
+	for (auto state : m_unitsStates)
+	{
+		if (!state.second.isDead())
+		{
+			return state.second.getSide();
+		}
+	}
+	return COLORLESS;
 }

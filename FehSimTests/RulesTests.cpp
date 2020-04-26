@@ -21,10 +21,10 @@ namespace FehSimTests
 
 		void setup()
 		{
-			m_alphData = m_dataLoader.GetUnitData("alfonse-prince-of-askr");
-			m_sharData = m_dataLoader.GetUnitData("sharena-princess-of-askr");
-			m_ninoData = m_dataLoader.GetUnitData("nino-pious-mage");
-			m_takData  = m_dataLoader.GetUnitData("takumi-wild-card");
+			m_alphData = m_dataLoader.getUnitData("alfonse-prince-of-askr");
+			m_sharData = m_dataLoader.getUnitData("sharena-princess-of-askr");
+			m_ninoData = m_dataLoader.getUnitData("nino-pious-mage");
+			m_takData  = m_dataLoader.getUnitData("takumi-wild-card");
 			m_alphonse = Unit(*m_alphData);
 			m_sharena = Unit(*m_sharData);
 			m_nino = Unit(*m_ninoData);

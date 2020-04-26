@@ -22,10 +22,10 @@ namespace FehSimTests
 
 		TEST_METHOD(LoadAlfonse)
 		{
-			UnitData* data = m_dataLoader.GetUnitData("alfonse");
+			UnitData* data = m_dataLoader.getUnitData("alfonse");
 			Assert::IsNull(data);
 
-			data = m_dataLoader.GetUnitData("alfonse-prince-of-askr");
+			data = m_dataLoader.getUnitData("alfonse-prince-of-askr");
 			Assert::IsNotNull(data);
 			Assert::AreEqual(std::string("Alfonse"), data->getName());
 			Assert::AreEqual(RED, data->getColor());
@@ -42,7 +42,7 @@ namespace FehSimTests
 
 		TEST_METHOD(LoadFensalir)
 		{
-			Weapon* weapon = m_dataLoader.GetWeaponData("fensalir");
+			Weapon* weapon = m_dataLoader.getWeaponData("fensalir");
 			Assert::IsNotNull(weapon);
 			Assert::AreEqual(std::string("Fensalir"), weapon->getName());
 			Assert::AreEqual(16, weapon->getMight());
@@ -50,14 +50,14 @@ namespace FehSimTests
 
 		TEST_METHOD(LoadBaseKit)
 		{
-			UnitData* data = m_dataLoader.GetUnitData("alfonse-prince-of-askr");
+			UnitData* data = m_dataLoader.getUnitData("alfonse-prince-of-askr");
 			Assert::AreEqual(std::string("folkvangr"), data->getDefaultWeaponID());
 
 			Unit unit(*data);
 			Assert::IsNull(unit.getWeapon());
 
 			unit.makeBaseKit(m_dataLoader);
-			Assert::AreEqual(m_dataLoader.GetWeaponData("folkvangr")->getName(), unit.getWeapon()->getName());
+			Assert::AreEqual(m_dataLoader.getWeaponData("folkvangr")->getName(), unit.getWeapon()->getName());
 		}
 	};
 }

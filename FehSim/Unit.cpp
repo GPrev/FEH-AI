@@ -3,5 +3,5 @@
 
 void Unit::makeBaseKit(DataLoader& loader)
 {
-	m_weapon = loader.GetWeaponData(m_data->getDefaultWeaponID());
+	m_weapon = loader.getWeaponData(m_data->getDefaultWeaponID());
 }

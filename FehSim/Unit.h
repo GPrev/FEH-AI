@@ -1,5 +1,6 @@
 #pragma once
 
+#include <vector>
 #include <algorithm>
 #include "FehSim.h"
 #include "UnitData.h"
@@ -42,5 +43,7 @@ public:
 	Weapon* getWeapon() { return m_weapon; }
 
 };
+
+typedef std::vector<Unit> Team;
 
 #pragma warning( pop ) 

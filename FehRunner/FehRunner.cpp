@@ -4,6 +4,7 @@
 #include "stdafx.h"
 
 #include <iostream>
+#include <time.h>
 
 #include "ArenaAE.h"
 #include "DumbAI.h"
@@ -11,6 +12,8 @@
 
 int main()
 {
+	srand((unsigned)time(NULL));
+
 	ArenaAE ae;
 	DumbAI ai;
 	std::vector<MapData*> availableMaps;
@@ -32,24 +35,24 @@ int main()
 	std::cout << "Done." << std::endl;
 
 	std::cout << std::endl << "== Best Offense Teams ==" << std::endl;
-	auto it = ae.getOffenseScores().begin();
-	for (int i = 0; i < 10 && it != ae.getOffenseScores().end(); ++i)
+	auto it = ae.getOffenseScores().rbegin();
+	for (int i = 0; i < 10 && it != ae.getOffenseScores().rend(); ++i, ++it)
 	{
-		std::cout << "-- " << i << " (" << it->first << ")" << " --" << std::endl;
-		for (auto unit : it->second)
+		std::cout << "-- " << i + 1 << " (" << it->first << ")" << " --" << std::endl;
+		for (auto& unit : it->second)
 		{
-			std::cout << unit->getData()->getName() << std::endl;
+			std::cout << unit.getData()->getName() << std::endl;
 		}
 	}
 
 	std::cout << std::endl << "== Best Defense Teams ==" << std::endl;
-	it = ae.getDefenseScores().begin();
-	for (int i = 0; i < 10 && it != ae.getDefenseScores().end(); ++i)
+	it = ae.getDefenseScores().rbegin();
+	for (int i = 0; i < 10 && it != ae.getDefenseScores().rend(); ++i, ++it)
 	{
-		std::cout << "-- " << i << " (" << it->first << ")" << " --" << std::endl;
-		for (auto unit : it->second)
+		std::cout << "-- " << i + 1 << " (" << it->first << ")" << " --" << std::endl;
+		for (auto& unit : it->second)
 		{
-			std::cout << unit->getData()->getName() << std::endl;
+			std::cout << unit.getData()->getName() << std::endl;
 		}
 	}
 

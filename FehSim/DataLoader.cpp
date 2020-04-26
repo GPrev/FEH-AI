@@ -16,13 +16,13 @@ DataLoader::~DataLoader()
 {
 }
 
-UnitData* DataLoader::GetUnitData(std::string unitID)
+UnitData* DataLoader::getUnitData(std::string unitID)
 {
 	if (m_units.count(unitID) == 0)
 	{
 		try
 		{
-			m_units[unitID] = UnitDataFromFile(m_heroDataPath + unitID + ".json");
+			m_units[unitID] = unitDataFromFile(m_heroDataPath + unitID + ".json");
 		}
 		catch (...)
 		{
@@ -33,7 +33,7 @@ UnitData* DataLoader::GetUnitData(std::string unitID)
 	return &m_units.at(unitID);
 }
 
-UnitData DataLoader::UnitDataFromFile(std::string filePath)
+UnitData DataLoader::unitDataFromFile(std::string filePath)
 {
 	std::ifstream i(filePath);
 	json j;
@@ -65,13 +65,13 @@ UnitData DataLoader::UnitDataFromFile(std::string filePath)
 	return d;
 }
 
-Weapon* DataLoader::GetWeaponData(std::string weaponID)
+Weapon* DataLoader::getWeaponData(std::string weaponID)
 {
 	if (m_weapons.count(weaponID) == 0)
 	{
 		try
 		{
-			m_weapons[weaponID] = WeaponDataFromFile(m_weaponDataPath + weaponID + ".json");
+			m_weapons[weaponID] = weaponDataFromFile(m_weaponDataPath + weaponID + ".json");
 		}
 		catch (...)
 		{
@@ -82,7 +82,7 @@ Weapon* DataLoader::GetWeaponData(std::string weaponID)
 	return &m_weapons.at(weaponID);
 }
 
-Weapon DataLoader::WeaponDataFromFile(std::string filePath)
+Weapon DataLoader::weaponDataFromFile(std::string filePath)
 {
 	std::ifstream i(filePath);
 	json j;
@@ -94,4 +94,19 @@ Weapon DataLoader::WeaponDataFromFile(std::string filePath)
 	w.m_might = j["might"];
 
 	return w;
+}
+
+std::vector<std::string>& DataLoader::getUnitNames()
+{
+	if (m_unitNames.size() == 0)
+	{
+		std::string path = m_heroDataPath + "_heroes.txt";
+		std::ifstream i(path);
+
+		for (std::string name; std::getline(i, name); )
+		{
+			m_unitNames.push_back(name);
+		}
+	}
+	return m_unitNames;
 }

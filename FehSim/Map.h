@@ -35,6 +35,7 @@ public:
 
 	void init(Unit* ally1, Unit* ally2 = nullptr, Unit* ally3 = nullptr, Unit* ally4 = nullptr);
 	void init(const std::vector<Unit*>* allies, const std::vector<Unit*>* foes = nullptr);
+	void init(std::vector<Unit>* allies, std::vector<Unit>* foes = nullptr);
 
 	bool isValid(Position pos) const;
 	bool isFree(Position pos) const;
@@ -51,6 +52,7 @@ public:
 	UnitColor getTurnPlayerColor() { return m_sides[m_turnPlayer]; }
 
 	bool isGameOver();
+	UnitColor getWinnerColor();
 
 	bool canMakeMove(Unit* unit, Position movement, Position action = Position::nowhere);
 	inline bool makeMove(Move move) { return makeMove(move.m_unit, move.m_movement, move.m_action); }

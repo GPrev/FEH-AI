@@ -22,9 +22,9 @@ namespace FehAiTests
 
 		void setup()
 		{
-			UnitData* aData = m_dataLoader.GetUnitData("alfonse-prince-of-askr");
-			UnitData* sData = m_dataLoader.GetUnitData("sharena-princess-of-askr");
-			UnitData* nData = m_dataLoader.GetUnitData("nino-pious-mage");
+			UnitData* aData = m_dataLoader.getUnitData("alfonse-prince-of-askr");
+			UnitData* sData = m_dataLoader.getUnitData("sharena-princess-of-askr");
+			UnitData* nData = m_dataLoader.getUnitData("nino-pious-mage");
 			m_alphonse = Unit(*aData);
 			m_sharena = Unit(*sData);
 			m_nino = Unit(*nData);

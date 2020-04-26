@@ -22,7 +22,7 @@ namespace FehSimTests
 
 		void setup()
 		{
-			m_udata1 = m_dataLoader.GetUnitData("alfonse-prince-of-askr");
+			m_udata1 = m_dataLoader.getUnitData("alfonse-prince-of-askr");
 
 			m_ally1 = Unit(*m_udata1);
 			m_foe1 = Unit(*m_udata1);
