@@ -18,10 +18,10 @@ public:
 
 	Buffs(int atk, int spd, int def, int res) : m_atk(atk), m_spd(spd), m_def(def), m_res(res) {}
 
-	int getAtk() { return m_atk; }
-	int getSpd() { return m_spd; }
-	int getDef() { return m_def; }
-	int getRes() { return m_res; }
+	int getAtk() const { return m_atk; }
+	int getSpd() const { return m_spd; }
+	int getDef() const { return m_def; }
+	int getRes() const { return m_res; }
 
 	Buffs operator+(const Buffs& b) const
 	{
@@ -49,10 +49,10 @@ public:
 class FEHSIM_API UnitState
 {
 private:
-	Unit* m_unit;
+	Unit* m_unit = nullptr;
 
 	UnitColor m_side = COLORLESS;
-	int m_currentHP;
+	int m_currentHP = 0;
 	Buffs m_buffs;
 
 	bool m_hasActed = false;
@@ -66,21 +66,21 @@ public:
 
 	UnitColor getSide() const { return m_side; }
 
-	bool hasActed() { return m_hasActed; }
+	bool hasActed() const { return m_hasActed; }
 	void setHasActed(bool hasActed) { m_hasActed = hasActed; }
 
-	int getMaxHP() { return m_unit->getMaxHP(); }
-	int getHP() { return m_currentHP; }
-	bool isDead() { return m_currentHP <= 0; }
-	int getAtk() { return m_unit->getAtk() + m_buffs.getAtk(); }
-	int getSpd() { return m_unit->getSpd() + m_buffs.getSpd(); }
-	int getDef() { return m_unit->getDef() + m_buffs.getDef(); }
-	int getRes() { return m_unit->getRes() + m_buffs.getRes(); }
-	int getMvt() { return m_unit->getMvt(); } // TODO consider buffs
-	int getRange() { return m_unit->getRange(); }
-	bool canAttack() { return m_unit->canAttack(); }
-	bool canCC() { return m_unit->canCC(); } // TODO consider debuffs
-	bool canDC() { return m_unit->canDC(); } // TODO consider debuffs
+	int getMaxHP() const { return m_unit->getMaxHP(); }
+	int getHP() const { return m_currentHP; }
+	bool isDead() const { return m_currentHP <= 0; }
+	int getAtk() const { return m_unit->getAtk() + m_buffs.getAtk(); }
+	int getSpd() const { return m_unit->getSpd() + m_buffs.getSpd(); }
+	int getDef() const { return m_unit->getDef() + m_buffs.getDef(); }
+	int getRes() const { return m_unit->getRes() + m_buffs.getRes(); }
+	int getMvt() const { return m_unit->getMvt(); } // TODO consider buffs
+	int getRange() const { return m_unit->getRange(); }
+	bool canAttack() const { return m_unit->canAttack(); }
+	bool canCC() const { return m_unit->canCC(); } // TODO consider debuffs
+	bool canDC() const { return m_unit->canDC(); } // TODO consider debuffs
 
 	void addBuffs(Buffs buffs) { m_buffs = Buffs::max(m_buffs, buffs); }
 	void resetBuffs() { m_buffs = Buffs(); }

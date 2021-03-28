@@ -42,7 +42,7 @@ public:
 
 	const std::map<Unit*, Position>& getUnits() const { return m_unitsPos; }
 
-	Position getPos(Unit* unit) const;
+	const Position& getPos(Unit* unit) const;
 	Unit* getUnit(Position pos);
 	UnitState& getState(Unit* unit) { return m_unitsStates.at(unit); };
 	UnitState& getUnitState(Position pos) { return getState(getUnit(pos)); };
@@ -64,7 +64,7 @@ public:
 	void newTurn();
 
 	UnitColor playerIdToColor(int id) { return m_sides[id]; }
-	int colorToPlayerId(UnitColor color) { return std::distance(m_sides.begin(), std::find(m_sides.begin(), m_sides.end(), color)); }
+	int colorToPlayerId(UnitColor color) { return (int) std::distance(m_sides.begin(), std::find(m_sides.begin(), m_sides.end(), color)); }
 
 private:
 	void clearUnits() { m_unitsStates.clear(); m_unitsPos.clear(); };

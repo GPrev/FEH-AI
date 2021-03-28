@@ -22,7 +22,7 @@ public:
 	int getX() const { return m_x; }
 	int getY() const { return m_y; }
 
-	bool isSomewhere() { return *this != nowhere; }
+	bool isSomewhere() const { return *this != nowhere; }
 	int distance(const Position& pos) const { return abs(m_x - pos.m_x) + abs(m_y - pos.m_y); }
 
 	bool operator==(const Position& pos) const { return m_x == pos.m_x && m_y == pos.m_y; }

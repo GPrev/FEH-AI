@@ -72,15 +72,17 @@ void Map::addUnit(Unit* unit, const Position& pos, UnitColor side)
 	}
 }
 
-Position Map::getPos(Unit* unit) const
+const Position& Map::getPos(Unit* unit) const
 {
-	Position res = Position::nowhere;
 	auto it = std::find_if(m_unitsPos.begin(), m_unitsPos.end(), [&unit](const std::pair<Unit*, Position> &pair) { return pair.first == unit; });
 	if (it != m_unitsPos.end())
 	{
-		res = it->second;
+		return it->second;
 	}
-	return res;
+	else
+	{
+		return Position::nowhere;
+	}
 }
 
 Unit* Map::getUnit(Position pos)
@@ -96,11 +98,11 @@ Unit* Map::getUnit(Position pos)
 
 bool Map::canMakeMove(Unit* unit, Position movement, Position action)
 {
-	UnitState state = getState(unit);
+	const UnitState& state = getState(unit);
 	bool ok = state.getSide() == getTurnPlayerColor() && !(state.hasActed() || state.isDead());
 	
 	// Vérif départ
-	Position unitPos = getPos(unit);
+	const Position& unitPos = getPos(unit);
 	if (ok)
 	{
 		ok = unitPos.isSomewhere() && isValid(movement) && (!action.isSomewhere() || isValid(action));
@@ -118,7 +120,6 @@ bool Map::canMakeMove(Unit* unit, Position movement, Position action)
 	{
 		// TODO check equips, teams...
 		// TODO actions on allies
-		UnitState& state = getState(unit);
 		ok = !isFree(action) && movement.distance(action) == unit->getRange() && state.canAttack() && getUnitState(action).getSide() != state.getSide();
 	}
 

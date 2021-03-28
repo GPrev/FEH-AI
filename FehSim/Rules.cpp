@@ -1,5 +1,5 @@
+#include <cmath>
 #include "Rules.h"
-
 
 
 Rules::Rules()
