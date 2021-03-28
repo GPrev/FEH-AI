@@ -437,4 +437,3 @@ ylgr-fresh-snowfall
 yune-chaos-goddess
 zelgius-jet-black-general
 zephiel-the-liberator
-_heroes.txt
