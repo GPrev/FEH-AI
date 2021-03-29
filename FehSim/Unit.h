@@ -4,7 +4,7 @@
 #include <algorithm>
 #include "FehSim.h"
 #include "UnitData.h"
-#include "Weapon.h"
+#include "Skill.h"
 
 #pragma warning( push )
 #pragma warning( disable : 4251)
@@ -17,7 +17,7 @@ private:
 	int m_stars = 5;
 	int m_merges = 0;
 
-	Weapon* m_weapon = nullptr;
+	Skill* m_weapon = nullptr;
 
 public:
 	Unit() {}
@@ -28,11 +28,9 @@ public:
 
 	const UnitData* getData() const { return m_data; }
 
-	int getMaxHP() { return m_data->getBaseHP(); }
-	int getAtk() { return m_data->getBaseAtk() + (m_weapon == nullptr ? 0 : m_weapon->getMight()); }
-	int getSpd()   { return m_data->getBaseSpd(); }
-	int getDef()   { return m_data->getBaseDef(); }
-	int getRes()   { return m_data->getBaseRes(); }
+	WeaponType getWeaponType() { return m_data->getWeaponType(); }
+	UnitColor getColor() { return m_data->getColor(); }
+	Stats getStats() { return m_data->getBaseStats() + Stats::atkStat(m_weapon == nullptr ? 0 : m_weapon->getMight()); }
 	int getMvt()   { return getMvtRange(m_data->getMvtType()); } // TODO consider mvt types
 	int getRange() { return getAttackRange(m_data->getWeaponType()); }
 	bool canAttack() { return m_weapon != nullptr; }
@@ -40,7 +38,7 @@ public:
 	bool canDC()   { return getRange() == 2; } // TODO consider weapon and skills
 	bool canCounter(int range) { return (range == 1 && canCC()) || (range == 2 && canDC()); }
 
-	Weapon* getWeapon() { return m_weapon; }
+	Skill* getWeapon() { return m_weapon; }
 
 };
 

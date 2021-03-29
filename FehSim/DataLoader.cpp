@@ -1,112 +1,131 @@
 #include "DataLoader.h"
-#include "json.hpp"
 #include <fstream>
 #include <string>
 #include <sstream>
+#include <filesystem>
 
 using json = nlohmann::json;
+using std::filesystem::directory_iterator;
 
 
-DataLoader::DataLoader()
+DataLoader::DataLoader(bool loadNow)
 {
-}
-
-
-DataLoader::~DataLoader()
-{
+	if (loadNow)
+	{
+		loadAllUnits();
+		loadAllSkills();
+	}
 }
 
 UnitData* DataLoader::getUnitData(std::string unitID)
 {
-	if (m_units.count(unitID) == 0)
+	if (m_units.size() == 0)
 	{
-		try
-		{
-			m_units[unitID] = unitDataFromFile(m_heroDataPath + unitID + ".json");
-		}
-		catch (...)
-		{
-			return nullptr;
-		}
+		getUnitNames();
 	}
 
-	return &m_units.at(unitID);
+	if(MAP_CONTAINS_KEY(m_units, unitID))
+		return &m_units.at(unitID);
+	else
+		return nullptr;
 }
 
-UnitData DataLoader::unitDataFromFile(std::string filePath)
+Skill* DataLoader::getSkillData(std::string skillID)
 {
-	std::ifstream i(filePath);
-	json j;
-	i >> j;
-
-	UnitData d;
-
-	d.m_name = j["name"];
-
-	std::string weapontypeStr, colorStr;
-	std::string s = j["weaponType"];
-	std::istringstream iss(s);
-	iss >> colorStr >> weapontypeStr;
-	std::string mvtTypeStr = j["moveType"];
-
-	d.m_color = unitColorFromString (colorStr);
-	d.m_type  = weaponTypeFromString(weapontypeStr);
-	d.m_mvt   = mvtTypeFromString   (mvtTypeStr);
-
-	d.m_baseHP  = j["maxStats"]["5"]["hp"]["base"];
-	d.m_baseAtk = j["maxStats"]["5"]["atk"]["base"];
-	d.m_baseSpd = j["maxStats"]["5"]["spd"]["base"];
-	d.m_baseDef = j["maxStats"]["5"]["def"]["base"];
-	d.m_baseRes = j["maxStats"]["5"]["res"]["base"];
-
-	std::string weaponStr = j["weapon"][0]["_id"];
-	d.m_defaultWeaponID = weaponStr.substr(7);
-
-	return d;
-}
-
-Weapon* DataLoader::getWeaponData(std::string weaponID)
-{
-	if (m_weapons.count(weaponID) == 0)
+	if (m_skills.size() == 0)
 	{
-		try
-		{
-			m_weapons[weaponID] = weaponDataFromFile(m_weaponDataPath + weaponID + ".json");
-		}
-		catch (...)
-		{
-			return nullptr;
-		}
+		loadAllSkills();
 	}
 
-	return &m_weapons.at(weaponID);
-}
-
-Weapon DataLoader::weaponDataFromFile(std::string filePath)
-{
-	std::ifstream i(filePath);
-	json j;
-	i >> j;
-
-	Weapon w;
-
-	w.m_name = j["name"];
-	w.m_might = j["might"];
-
-	return w;
+	if (MAP_CONTAINS_KEY(m_skills, skillID))
+		return &m_skills.at(skillID);
+	else
+		return nullptr;
 }
 
 std::vector<std::string>& DataLoader::getUnitNames()
 {
-	if (m_unitNames.size() == 0)
-	{
-		std::string path = m_heroDataPath + "_heroes.txt";
-		std::ifstream i(path);
+	loadAllUnits();
+	return m_unitNames;
+}
 
-		for (std::string name; std::getline(i, name); )
+Stats DataLoader::statsFromJson(const json& j)
+{
+	return Stats(j["hp"], j["atk"], j["spd"], j["def"], j["res"]);
+}
+
+void DataLoader::loadAllUnits()
+{
+	if (m_units.size() == 0)
+	{
+		for (const auto& file : directory_iterator(m_heroDataPath))
 		{
-			m_unitNames.push_back(name);
+			unitDataFromFile(file.path().string());
 		}
 	}
-	return m_unitNames;
+}
+
+void DataLoader::unitDataFromFile(std::string filePath)
+{
+	std::ifstream i(filePath);
+	json j;
+	i >> j;
+
+	for (json::iterator it = j.begin(); it != j.end(); ++it) {
+		unitDataFromJson(*it);
+	}
+}
+
+void DataLoader::unitDataFromJson(const json& j)
+{
+	std::string unitID = j["id_tag"];
+
+	UnitData& d = m_units[unitID];
+	d = UnitData();
+
+	d.m_id = unitID;
+	d.m_name = j["roman"]; // TODO use translation file
+
+	d.m_weaponIdx = (WeaponIndex)j["weapon_type"];
+	d.m_color = getWeaponColor(d.m_weaponIdx);
+	d.m_type = getWeaponType(d.m_weaponIdx);
+	d.m_mvt = (MvtType)j["move_type"];
+
+	d.m_baseStats = statsFromJson(j["base_stats"]);
+	d.m_growths = statsFromJson(j["growth_rates"]);
+}
+
+void DataLoader::loadAllSkills()
+{
+	if (m_skills.size() == 0)
+	{
+		for (const auto& file : directory_iterator(m_skillDataPath))
+		{
+			skillDataFromFile(file.path().string());
+		}
+	}
+}
+
+void DataLoader::skillDataFromFile(std::string filePath)
+{
+	std::ifstream i(filePath);
+	json j;
+	i >> j;
+
+	for (json::iterator it = j.begin(); it != j.end(); ++it) {
+		skillDataFromJson(*it);
+	}
+}
+
+void DataLoader::skillDataFromJson(const json& j)
+{
+	std::string unitID = j["id_tag"];
+
+	Skill& d = m_skills[unitID];
+	d = Skill();
+
+	d.m_id = unitID;
+	d.m_name = j["name_id"]; // TODO use translation file
+	d.m_stats = statsFromJson(j["stats"]);
+	d.m_might = j["might"];
 }

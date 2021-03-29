@@ -32,7 +32,7 @@ namespace Microsoft {
 			static std::wstring ToString<UnitData>(const UnitData& unit) { return to_wstring(unit.getName()); }
 
 			template<>
-			static std::wstring ToString<Weapon>(const Weapon& weapon) { return to_wstring(weapon.getName()); }
+			static std::wstring ToString<Skill>(const Skill& skill) { return to_wstring(skill.getName()); }
 		}
 	}
 }

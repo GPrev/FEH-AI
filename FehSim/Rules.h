@@ -10,7 +10,7 @@ public:
 	static void doBattle(Map& map, Unit* _attacker, Unit* _defender);
 
 private:
-	static void strike(UnitState& _attacker, UnitState& _defender);
+	static void strike(UnitState& _attacker, UnitState& _defender, Stats& _attStats, Stats& _defStats);
 	static int weaponTriangle(UnitState& _attacker, UnitState& _defender);
 	static int weaponTriangle(UnitColor _attacker, UnitColor _defender);
 };
