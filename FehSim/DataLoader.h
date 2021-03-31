@@ -7,6 +7,7 @@
 #include "UnitData.h"
 #include "Weapon.h"
 #include "Skill.h"
+#include "SkillSet.h"
 
 #pragma warning( push )
 #pragma warning( disable : 4251)
@@ -41,6 +42,9 @@ private:
 	void loadAllSkills();
 	void skillDataFromFile(std::string filePath);
 	void skillDataFromJson(const nlohmann::json& j);
+
+	SkillSet skillSetFromJson(const nlohmann::json& j);
+	std::pair<SkillSet, SkillSet> twoSkillSetsFromJson(const nlohmann::json& j);
 };
 
 #pragma warning( pop )

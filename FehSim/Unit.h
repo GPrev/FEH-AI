@@ -4,7 +4,7 @@
 #include <algorithm>
 #include "FehSim.h"
 #include "UnitData.h"
-#include "Skill.h"
+#include "SkillSet.h"
 
 #pragma warning( push )
 #pragma warning( disable : 4251)
@@ -14,31 +14,33 @@ class FEHSIM_API Unit
 private:
 	UnitData* m_data;
 
-	int m_stars = 5;
+	int m_rarity = 5;
 	int m_merges = 0;
 
-	Skill* m_weapon = nullptr;
+	SkillSet m_skills;
 
 public:
 	Unit() {}
 	Unit(UnitData& data) : m_data(&data) {}
 	~Unit() {};
 
-	void makeBaseKit(DataLoader& loader);
+	void makeBaseKit();
+	void makeFullKit();
 
 	const UnitData* getData() const { return m_data; }
 
 	WeaponType getWeaponType() { return m_data->getWeaponType(); }
 	UnitColor getColor() { return m_data->getColor(); }
-	Stats getStats() { return m_data->getBaseStats() + Stats::atkStat(m_weapon == nullptr ? 0 : m_weapon->getMight()); }
+	Stats getStats() { return m_data->getBaseStats() + Stats::atkStat(m_skills.getSkill(SkillCategory::WEAPON) == nullptr ? 0 : m_skills.getSkill(SkillCategory::WEAPON)->getMight()); }
 	int getMvt()   { return getMvtRange(m_data->getMvtType()); } // TODO consider mvt types
 	int getRange() { return getAttackRange(m_data->getWeaponType()); }
-	bool canAttack() { return m_weapon != nullptr; }
+	bool canAttack() { return m_skills.getSkill(SkillCategory::WEAPON) != nullptr; }
 	bool canCC()   { return getRange() == 1; } // TODO consider weapon and skills
 	bool canDC()   { return getRange() == 2; } // TODO consider weapon and skills
 	bool canCounter(int range) { return (range == 1 && canCC()) || (range == 2 && canDC()); }
 
-	Skill* getWeapon() { return m_weapon; }
+	const SkillSet& getSkills() const { return m_skills; }
+	Skill const* getSkill(SkillCategory slot) const { return m_skills.getSkill(slot); }
 
 };
 

@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "CppUnitTest.h"
 
 #include "ToString.h"
@@ -22,15 +22,15 @@ namespace FehSimTests
 
 		void setup()
 		{
-			m_udata1 = m_dataLoader.getUnitData("alfonse-prince-of-askr");
+			m_udata1 = m_dataLoader.getUnitData(u8"PID_アルフォンス");
 
 			m_ally1 = Unit(*m_udata1);
 			m_foe1 = Unit(*m_udata1);
 			m_foe2 = Unit(*m_udata1);
 
-			m_ally1.makeBaseKit(m_dataLoader);
-			m_foe1.makeBaseKit(m_dataLoader);
-			m_foe2.makeBaseKit(m_dataLoader);
+			m_ally1.makeBaseKit();
+			m_foe1.makeBaseKit();
+			m_foe2.makeBaseKit();
 
 			std::vector<Position> allyPos;
 			allyPos.push_back(Position(5, 5));

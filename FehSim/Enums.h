@@ -45,14 +45,29 @@ enum WeaponIndex
 	COLORLESS_BEAST = 23
 };
 
+enum class SkillCategory
+{
+	WEAPON = 0,
+	ASSIST = 1,
+	SPECIAL = 2,
+	PASSIVE_A = 3,
+	PASSIVE_B = 4,
+	PASSIVE_C = 5,
+	SACRED_SEAL = 6,
+	REFINED_WEAPON = 7,
+	BEAST_TRANSFORMATION = 8
+};
+
 static std::string unitColorStr[4]{ "RED", "BLUE", "GREEN", "COLORLESS" };
 static std::string weaponTypeStr[9]{ "SWORD", "LANCE", "AXE", "TOME", "BOW", "DAGGER", "STAFF", "BREATH", "BEAST" };
 static std::string mvtTypeStr[4]{ "INFANTRY", "ARMORED", "CAVALRY", "FLYING" };
+static std::string SkillCategoryStr[9]{ "WEAPON", "ASSIST", "SPECIAL", "PASSIVE_A", "PASSIVE_B", "PASSIVE_C", "SACRED_SEAL", "REFINED_WEAPON", "BEAST_TRANSFORMATION" };
 
 inline std::string FEHSIM_API toString(const UnitColor color) { if (color < RED || color > COLORLESS) return "ERROR"; else return unitColorStr[(int)color]; }
 inline std::string FEHSIM_API toString(const WeaponType type) { if (type < SWORD || type > BEAST)     return "ERROR"; else return weaponTypeStr[(int)type]; }
 inline std::string FEHSIM_API toString(const MvtType type) { if (type < INFANTRY || type > ARMORED) return "ERROR"; else return mvtTypeStr[(int)type]; }
 std::string FEHSIM_API toString(const WeaponIndex weapon);
+inline std::string FEHSIM_API toString(const SkillCategory category) { return SkillCategoryStr[(int)category]; }
 
 UnitColor getWeaponColor(const WeaponIndex weapon);
 WeaponType getWeaponType(const WeaponIndex weapon);

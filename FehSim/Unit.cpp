@@ -1,7 +1,12 @@
 #include "Unit.h"
 #include "DataLoader.h"
 
-void Unit::makeBaseKit(DataLoader& loader)
+void Unit::makeBaseKit()
 {
-	m_weapon = loader.getSkillData(m_data->getDefaultWeaponID());
+	m_skills = m_data->getLearnedSkills(m_rarity);
+}
+
+void Unit::makeFullKit()
+{
+	m_skills = m_data->getLearnableSkills(m_rarity);
 }

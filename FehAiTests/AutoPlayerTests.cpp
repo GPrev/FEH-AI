@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "CppUnitTest.h"
 #include "DumbAI.h"
 #include "AutoPlayer.h"
@@ -22,15 +22,15 @@ namespace FehAiTests
 
 		void setup()
 		{
-			UnitData* aData = m_dataLoader.getUnitData("alfonse-prince-of-askr");
-			UnitData* sData = m_dataLoader.getUnitData("sharena-princess-of-askr");
-			UnitData* nData = m_dataLoader.getUnitData("nino-pious-mage");
+			UnitData* aData = m_dataLoader.getUnitData(u8"PID_アルフォンス");
+			UnitData* sData = m_dataLoader.getUnitData(u8"PID_シャロン");
+			UnitData* nData = m_dataLoader.getUnitData(u8"PID_ニノ");
 			m_alphonse = Unit(*aData);
 			m_sharena = Unit(*sData);
 			m_nino = Unit(*nData);
-			m_alphonse.makeBaseKit(m_dataLoader);
-			m_sharena.makeBaseKit(m_dataLoader);
-			m_nino.makeBaseKit(m_dataLoader);
+			m_alphonse.makeBaseKit();
+			m_sharena.makeBaseKit();
+			m_nino.makeBaseKit();
 
 			std::vector<Position> allyPos;
 			allyPos.push_back(Position(5, 8));

@@ -4,6 +4,7 @@
 #include "Enums.h"
 #include "FehSim.h"
 #include "Stats.h"
+#include "SkillSet.h"
 
 #pragma warning( push )
 #pragma warning( disable : 4251)
@@ -24,7 +25,8 @@ protected:
 	Stats m_baseStats;
 	Stats m_growths;
 
-	std::string m_defaultWeaponID;
+	SkillSet m_learnedSkills[5] = { SkillSet(), SkillSet(), SkillSet(), SkillSet(), SkillSet() };
+	SkillSet m_learnableSkills[5] = { SkillSet(), SkillSet(), SkillSet(), SkillSet(), SkillSet() };
 
 public:
 	UnitData() {}
@@ -37,7 +39,8 @@ public:
 
 	const Stats& getBaseStats() const { return m_baseStats; }
 
-	std::string getDefaultWeaponID() { return m_defaultWeaponID; }
+	const SkillSet& getLearnedSkills(int nbStar) const { return m_learnedSkills[nbStar - 1]; }
+	const SkillSet& getLearnableSkills(int nbStar) const { return m_learnableSkills[nbStar - 1]; }
 };
 
 #pragma warning( pop ) 

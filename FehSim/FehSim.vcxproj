@@ -142,6 +142,7 @@
     <ClInclude Include="Position.h" />
     <ClInclude Include="Rules.h" />
     <ClInclude Include="Skill.h" />
+    <ClInclude Include="SkillSet.h" />
     <ClInclude Include="Stats.h" />
     <ClInclude Include="Unit.h" />
     <ClInclude Include="UnitData.h" />
@@ -156,6 +157,7 @@
     <ClCompile Include="Position.cpp" />
     <ClCompile Include="Rules.cpp" />
     <ClCompile Include="Skill.cpp" />
+    <ClCompile Include="SkillSet.cpp" />
     <ClCompile Include="Unit.cpp" />
     <ClCompile Include="UnitData.cpp" />
     <ClCompile Include="UnitState.cpp" />

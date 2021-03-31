@@ -21,6 +21,6 @@ Unit TeamBuilder::getRandomUnit()
 	int unitId = rand() % m_loader->getUnitNames().size();
 	std::string unitName = m_loader->getUnitNames().at(unitId);
 	Unit u(*m_loader->getUnitData(unitName));
-	u.makeBaseKit(*m_loader);
+	u.makeBaseKit();
 	return u;
 }

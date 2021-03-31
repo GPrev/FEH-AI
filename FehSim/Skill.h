@@ -16,14 +16,19 @@ protected:
 	std::string m_id;
 	std::string m_name;
 
+	SkillCategory m_category;
+
 	Stats m_stats;
 	int m_might;
 
 public:
 	Skill() {};
 
+	std::string getId() const { return m_id; }
 	std::string getName() const { return m_name; }
+	SkillCategory getCategory() const { return m_category; }
 	int getMight() const { return m_might; }
 	const Stats& getStats() const { return m_stats; }
 };
 
+#pragma warning( pop ) 
