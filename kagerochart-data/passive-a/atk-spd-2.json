@@ -1,8 +1,0 @@
-{
-    "name": "Atk/Spd 2",
-    "description": "Grants Atk/Spd+2.",
-    "docType": "passive-a",
-    "idTag": "SID_攻撃速さ2",
-    "spCost": 160,
-    "_id": "passive-a:atk-spd-2"
-}

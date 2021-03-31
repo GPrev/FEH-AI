@@ -1,8 +1,0 @@
-{
-    "name": "Poison Strike 3",
-    "description": "If unit initiates combat, deals 10 damage to foe after combat.",
-    "docType": "passive-b",
-    "idTag": "SID_蛇毒3",
-    "spCost": 240,
-    "_id": "passive-b:poison-strike-3"
-}

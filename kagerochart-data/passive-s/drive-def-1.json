@@ -1,9 +1,0 @@
-{
-    "_id": "passive-s:drive-def-1",
-    "name": "Drive Def 1",
-    "sp": 120,
-    "type": "s",
-    "description": "Grants allies within 2 spaces Def+2 during combat.",
-    "icon": "/images/icons/passives/drive-def-1.png",
-    "docType": "passive-s"
-}

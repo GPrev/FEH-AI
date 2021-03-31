@@ -1,8 +1,0 @@
-{
-    "name": "Lull Atk/Spd 3",
-    "description": "Inflicts Atk/Spd-3 on foe and neutralizes foe's bonuses to Atk/Spd (from skills like Fortify, Rally, etc.) during combat.",
-    "docType": "passive-b",
-    "idTag": "SID_攻撃速さの凪3",
-    "spCost": 240,
-    "_id": "passive-b:lull-atk-spd-3"
-}

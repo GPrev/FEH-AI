@@ -1,9 +1,0 @@
-{
-    "name": "Noontime",
-    "description": "Restores HP = 30% of damage dealt.",
-    "docType": "special",
-    "idTag": "SID_夕陽",
-    "spCost": 200,
-    "cooldownCount": 2,
-    "_id": "special:noontime"
-}

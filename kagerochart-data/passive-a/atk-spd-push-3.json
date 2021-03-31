@@ -1,8 +1,0 @@
-{
-    "name": "Atk/Spd Push 3",
-    "description": "At start of combat, if unit's HP = 100%, grants Atk/Spd+5, but if unit attacked, deals 1 damage to unit after combat.",
-    "docType": "passive-a",
-    "idTag": "SID_攻撃速さの渾身3",
-    "spCost": 240,
-    "_id": "passive-a:atk-spd-push-3"
-}

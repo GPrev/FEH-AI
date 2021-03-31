@@ -1,9 +1,0 @@
-{
-    "exclusive": true,
-    "name": "Sparkling Boost",
-    "description": "At start of turn, restores 10 HP to ally that has been dealt the most damage. (Excludes unit.)",
-    "docType": "passive-c",
-    "idTag": "SID_生命の輝き",
-    "spCost": 300,
-    "_id": "passive-c:sparkling-boost"
-}

@@ -1,8 +1,0 @@
-{
-    "name": "Seal Def/Res 2",
-    "description": "Inflicts Def/Res-5 on foe through its next action after combat.",
-    "docType": "passive-b",
-    "idTag": "SID_守備魔防封じ2",
-    "spCost": 200,
-    "_id": "passive-b:seal-def-res-2"
-}

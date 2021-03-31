@@ -1,8 +1,0 @@
-{
-    "name": "Ward Cavalry",
-    "description": "Grants Def/Res+4 to cavalry allies within 2 spaces during combat.",
-    "docType": "passive-c",
-    "idTag": "SID_騎盾の紋章",
-    "spCost": 200,
-    "_id": "passive-c:ward-cavalry"
-}

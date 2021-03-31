@@ -1,8 +1,0 @@
-{
-    "name": "Fury 3",
-    "description": "Grants Atk/Spd/Def/Res+3. After combat, deals 6 damage to unit.",
-    "docType": "passive-a",
-    "idTag": "SID_獅子奮迅3",
-    "spCost": 200,
-    "_id": "passive-a:fury-3"
-}

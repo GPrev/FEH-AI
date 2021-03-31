@@ -1,8 +1,0 @@
-{
-    "name": "Steady Stance 3",
-    "description": "If foe initiates combat, grants Def+6 during combat.",
-    "docType": "passive-a",
-    "idTag": "SID_金剛の構え3",
-    "spCost": 200,
-    "_id": "passive-a:steady-stance-3"
-}

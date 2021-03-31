@@ -1,8 +1,0 @@
-{
-    "name": "Fortify Dragons",
-    "description": "At start of turn, grants Def/Res+6 to adjacent dragon allies for 1 turn.",
-    "docType": "passive-c",
-    "idTag": "SID_竜盾の鼓舞",
-    "spCost": 200,
-    "_id": "passive-c:fortify-dragons"
-}

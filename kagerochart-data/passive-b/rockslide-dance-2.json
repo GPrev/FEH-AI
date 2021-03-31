@@ -1,8 +1,0 @@
-{
-    "name": "Rockslide Dance 2",
-    "description": "If Sing or Dance is used, grants Spd+3 and Def+4 to target.",
-    "docType": "passive-b",
-    "idTag": "SID_疾風大地の舞い2",
-    "spCost": 240,
-    "_id": "passive-b:rockslide-dance-2"
-}

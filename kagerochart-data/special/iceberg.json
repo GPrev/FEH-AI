@@ -1,9 +1,0 @@
-{
-    "name": "Iceberg",
-    "description": "Boosts damage by 50% of unit's Res.",
-    "docType": "special",
-    "idTag": "SID_氷蒼",
-    "spCost": 200,
-    "cooldownCount": 3,
-    "_id": "special:iceberg"
-}

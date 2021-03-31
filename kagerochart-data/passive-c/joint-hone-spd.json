@@ -1,8 +1,0 @@
-{
-    "name": "Joint Hone Spd",
-    "description": "At start of turn, if unit is adjacent to an ally, grants Spd+5 to unit and adjacent allies for 1 turn.",
-    "docType": "passive-c",
-    "idTag": "SID_速さの相互鼓舞",
-    "spCost": 300,
-    "_id": "passive-c:joint-hone-spd"
-}

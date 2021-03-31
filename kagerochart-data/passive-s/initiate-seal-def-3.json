@@ -1,8 +1,0 @@
-{
-    "name": "Initiate Seal Def 3",
-    "description": "Grants Def+3.",
-    "docType": "passive-s",
-    "idTag": "SID_鍛錬の証_守備3",
-    "spCost": 120,
-    "_id": "passive-s:initiate-seal-def-3"
-}

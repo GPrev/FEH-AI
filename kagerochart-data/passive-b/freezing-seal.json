@@ -1,9 +1,0 @@
-{
-    "exclusive": true,
-    "name": "Freezing Seal",
-    "description": "At start of turn, if unit's HP ≥ 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Res through its next action.",
-    "docType": "passive-b",
-    "idTag": "SID_凍結の封印",
-    "spCost": 300,
-    "_id": "passive-b:freezing-seal"
-}

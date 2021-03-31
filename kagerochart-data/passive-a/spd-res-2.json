@@ -1,8 +1,0 @@
-{
-    "name": "Spd/Res 2",
-    "description": "Grants Spd/Res+2.",
-    "docType": "passive-a",
-    "idTag": "SID_速さ魔防2",
-    "spCost": 160,
-    "_id": "passive-a:spd-res-2"
-}

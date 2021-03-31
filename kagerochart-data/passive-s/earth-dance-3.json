@@ -1,9 +1,0 @@
-{
-    "_id": "passive-s:earth-dance-3",
-    "name": "Earth Dance 3",
-    "sp": 200,
-    "type": "s",
-    "description": "If Sing or Dance is used, target also granted Def+5.",
-    "icon": "/images/icons/passives/earth-dance-3.png",
-    "docType": "passive-s"
-}

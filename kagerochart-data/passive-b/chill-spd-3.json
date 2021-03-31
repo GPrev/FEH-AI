@@ -1,8 +1,0 @@
-{
-    "name": "Chill Spd 3",
-    "description": "At start of turn, inflicts Spd-7 on foe on the enemy team with the highest Spd through its next action.",
-    "docType": "passive-b",
-    "idTag": "SID_速さの封印3",
-    "spCost": 240,
-    "_id": "passive-b:chill-spd-3"
-}

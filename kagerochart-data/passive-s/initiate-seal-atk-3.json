@@ -1,8 +1,0 @@
-{
-    "name": "Initiate Seal Atk 3",
-    "description": "Grants Atk+3.",
-    "docType": "passive-s",
-    "idTag": "SID_鍛錬の証_攻撃3",
-    "spCost": 120,
-    "_id": "passive-s:initiate-seal-atk-3"
-}

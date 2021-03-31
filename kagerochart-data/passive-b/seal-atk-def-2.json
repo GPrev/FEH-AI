@@ -1,8 +1,0 @@
-{
-    "name": "Seal Atk/Def 2",
-    "description": "Inflicts Atk/Def-5 on foe through its next action after combat.",
-    "docType": "passive-b",
-    "idTag": "SID_攻撃守備封じ2",
-    "spCost": 200,
-    "_id": "passive-b:seal-atk-def-2"
-}

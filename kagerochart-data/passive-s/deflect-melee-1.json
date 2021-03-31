@@ -1,8 +1,0 @@
-{
-    "name": "Deflect Melee 1",
-    "description": "If unit receives consecutive attacks and foe uses a sword, lance, or axe, reduces damage from foe's second attack onward by 30%.",
-    "docType": "passive-s",
-    "idTag": "SID_連撃防御・剣槍斧1",
-    "spCost": 50,
-    "_id": "passive-s:deflect-melee-1"
-}

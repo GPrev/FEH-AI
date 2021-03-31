@@ -1,8 +1,0 @@
-{
-    "name": "Fireflood Dance 2",
-    "description": "If Sing or Dance is used, grants Atk+3 and Res+4 to target.",
-    "docType": "passive-b",
-    "idTag": "SID_業火静水の舞い2",
-    "spCost": 240,
-    "_id": "passive-b:fireflood-dance-2"
-}

@@ -1,8 +1,0 @@
-{
-    "name": "Swap",
-    "description": "Unit and target ally swap spaces.",
-    "docType": "assist",
-    "idTag": "SID_入れ替え",
-    "spCost": 150,
-    "_id": "assist:swap"
-}

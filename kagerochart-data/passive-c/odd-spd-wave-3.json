@@ -1,8 +1,0 @@
-{
-    "name": "Odd Spd Wave 3",
-    "description": "At start of odd-numbered turns, grants Spd+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)",
-    "docType": "passive-c",
-    "idTag": "SID_速さの波・奇数3",
-    "spCost": 240,
-    "_id": "passive-c:odd-spd-wave-3"
-}

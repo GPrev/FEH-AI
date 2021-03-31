@@ -1,9 +1,0 @@
-{
-    "exclusive": true,
-    "name": "Surtr's Menace",
-    "description": "At start of turn, if unit is within 2 spaces of a foe, grants Atk/Spd/Def/Res+4 for 1 turn and inflicts Atk/Spd/Def/Res-4 on foes within 2 spaces through their next actions.",
-    "docType": "passive-c",
-    "idTag": "SID_炎王の威嚇",
-    "spCost": 300,
-    "_id": "passive-c:surtrs-menace"
-}

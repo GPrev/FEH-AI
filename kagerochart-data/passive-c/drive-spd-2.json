@@ -1,8 +1,0 @@
-{
-    "name": "Drive Spd 2",
-    "description": "Grants Spd+3 to allies within 2 spaces during combat.",
-    "docType": "passive-c",
-    "idTag": "SID_速さの大紋章2",
-    "spCost": 240,
-    "_id": "passive-c:drive-spd-2"
-}

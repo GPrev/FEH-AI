@@ -1,8 +1,0 @@
-{
-    "name": "Threaten Res 3",
-    "description": "At start of turn, inflicts Res-5 on foes within 2 spaces through their next actions.",
-    "docType": "passive-c",
-    "idTag": "SID_魔防の威嚇3",
-    "spCost": 200,
-    "_id": "passive-c:threaten-res-3"
-}

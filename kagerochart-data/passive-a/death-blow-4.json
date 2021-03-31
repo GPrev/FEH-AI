@@ -1,8 +1,0 @@
-{
-    "name": "Death Blow 4",
-    "description": "If unit initiates combat, grants Atk+8 during combat.",
-    "docType": "passive-a",
-    "idTag": "SID_鬼神の一撃4",
-    "spCost": 300,
-    "_id": "passive-a:death-blow-4"
-}

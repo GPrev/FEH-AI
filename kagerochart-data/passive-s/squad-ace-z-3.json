@@ -1,8 +1,0 @@
-{
-    "name": "Squad Ace Z 3",
-    "description": "Grants HP+5.",
-    "docType": "passive-s",
-    "idTag": "SID_第26迷宮の覇者3",
-    "spCost": 160,
-    "_id": "passive-s:squad-ace-z-3"
-}

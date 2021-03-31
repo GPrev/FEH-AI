@@ -1,8 +1,0 @@
-{
-    "name": "Fort. Def/Res 3",
-    "description": "Grants Def/Res+6. Inflicts Atk-2.",
-    "docType": "passive-a",
-    "idTag": "SID_守備魔防の城塞3",
-    "spCost": 300,
-    "_id": "passive-a:fort-def-res-3"
-}

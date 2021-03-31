@@ -1,8 +1,0 @@
-{
-    "name": "Live to Serve 3",
-    "description": "When healing an ally with a staff, restores HP to unit = HP restored to target.",
-    "docType": "passive-b",
-    "idTag": "SID_ご奉仕の喜び3",
-    "spCost": 160,
-    "_id": "passive-b:live-to-serve-3"
-}

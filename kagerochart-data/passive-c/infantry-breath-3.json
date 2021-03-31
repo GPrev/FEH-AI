@@ -1,8 +1,0 @@
-{
-    "name": "Infantry Breath 3",
-    "description": "Adjacent infantry allies gain: \"If foe initiates combat, grants Def/Res+2 during combat and Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)\"",
-    "docType": "passive-c",
-    "idTag": "SID_歩行の呼吸3",
-    "spCost": 240,
-    "_id": "passive-c:infantry-breath-3"
-}

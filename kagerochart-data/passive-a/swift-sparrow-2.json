@@ -1,8 +1,0 @@
-{
-    "name": "Swift Sparrow 2",
-    "description": "If unit initiates combat, grants Atk/Spd+4 during combat.",
-    "docType": "passive-a",
-    "idTag": "SID_鬼神飛燕の一撃2",
-    "spCost": 240,
-    "_id": "passive-a:swift-sparrow-2"
-}

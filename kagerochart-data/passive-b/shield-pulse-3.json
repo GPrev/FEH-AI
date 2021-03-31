@@ -1,8 +1,0 @@
-{
-    "name": "Shield Pulse 3",
-    "description": "At the start of turn 1, if foe's attack triggers Special, grants Special cooldown count-2. Reduces damage dealt to unit by 5 when Special triggers.",
-    "docType": "passive-b",
-    "idTag": "SID_盾の鼓動3",
-    "spCost": 240,
-    "_id": "passive-b:shield-pulse-3"
-}

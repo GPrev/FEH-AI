@@ -1,9 +1,0 @@
-{
-    "exclusive": true,
-    "name": "Killing Intent",
-    "description": "At start of combat, if foe's HP < 100% or if【Penalty】is active on foe, inflicts Spd/Res-5 on foe, and if unit initiates combat, unit can make a follow-up attack before foe can counterattack.  【Penalty】 All effects that last \"on foe through its next action.\" Includes penalties inflicted by a skill like Panic or Threaten and negative status effects (preventing counterattacks, restricting movement, or the effects of a skill like Triangle Adept or Guard).",
-    "docType": "passive-b",
-    "idTag": "SID_死んでほしいの",
-    "spCost": 300,
-    "_id": "passive-b:killing-intent"
-}

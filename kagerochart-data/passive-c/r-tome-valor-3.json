@@ -1,8 +1,0 @@
-{
-    "name": "R Tome Valor 3",
-    "description": "While unit lives, all red tome allies on team get 2x SP. (Only highest value applied. Does not stack.)",
-    "docType": "passive-c",
-    "idTag": "SID_赤魔の技量3",
-    "spCost": 120,
-    "_id": "passive-c:r-tome-valor-3"
-}

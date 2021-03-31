@@ -1,9 +1,0 @@
-{
-    "_id": "passive-s:atk-smoke-1",
-    "name": "Atk Smoke 1",
-    "sp": 60,
-    "type": "s",
-    "description": "After combat, inflicts Atk-3 on foes within 2 spaces of target through their next actions.",
-    "icon": "/images/icons/passives/atk-smoke-1.png",
-    "docType": "passive-s"
-}

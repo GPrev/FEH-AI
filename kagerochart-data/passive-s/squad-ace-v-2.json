@@ -1,8 +1,0 @@
-{
-    "name": "Squad Ace V 2",
-    "description": "Grants Def+2.",
-    "docType": "passive-s",
-    "idTag": "SID_第22迷宮の覇者2",
-    "spCost": 60,
-    "_id": "passive-s:squad-ace-v-2"
-}

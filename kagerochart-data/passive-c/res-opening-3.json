@@ -1,8 +1,0 @@
-{
-    "name": "Res Opening 3",
-    "description": "At start of turn, grants Res+6 to ally with the highest Res for 1 turn. (Excludes unit.)",
-    "docType": "passive-c",
-    "idTag": "SID_魔防の開放3",
-    "spCost": 240,
-    "_id": "passive-c:res-opening-3"
-}

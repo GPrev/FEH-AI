@@ -1,8 +1,0 @@
-{
-    "name": "Torrent Dance 3",
-    "description": "If Sing or Dance is used, grants Res+5 to target.",
-    "docType": "passive-b",
-    "idTag": "SID_静水の舞い3",
-    "spCost": 200,
-    "_id": "passive-b:torrent-dance-3"
-}

@@ -1,8 +1,0 @@
-{
-    "name": "Reciprocal Aid",
-    "description": "Unit and target ally swap HP. (Neither can go above their max HP.)",
-    "docType": "assist",
-    "idTag": "SID_相互援助",
-    "spCost": 150,
-    "_id": "assist:reciprocal-aid"
-}

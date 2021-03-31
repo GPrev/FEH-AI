@@ -1,8 +1,0 @@
-{
-    "name": "Warding Stance 4",
-    "description": "If foe initiates combat, grants Res+8 during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
-    "docType": "passive-a",
-    "idTag": "SID_明鏡の構え4",
-    "spCost": 300,
-    "_id": "passive-a:warding-stance-4"
-}

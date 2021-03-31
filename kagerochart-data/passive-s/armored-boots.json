@@ -1,8 +1,0 @@
-{
-    "name": "Armored Boots",
-    "description": "At start of turn, if unit's HP = 100%, unit can move 1 extra space. (That turn only. Does not stack.)",
-    "docType": "passive-s",
-    "idTag": "SID_重装のブーツ",
-    "spCost": 100,
-    "_id": "passive-s:armored-boots"
-}

@@ -1,8 +1,0 @@
-{
-    "name": "Initiate Seal HP 2",
-    "description": "Grants HP+4.",
-    "docType": "passive-s",
-    "idTag": "SID_鍛錬の証_HP2",
-    "spCost": 80,
-    "_id": "passive-s:initiate-seal-hp-2"
-}

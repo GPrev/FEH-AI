@@ -1,8 +1,0 @@
-{
-    "name": "Special Spiral 3",
-    "description": "If Special triggers before or during combat, grants Special cooldown count-2 after combat.",
-    "docType": "passive-b",
-    "idTag": "SID_奥義の螺旋3",
-    "spCost": 240,
-    "_id": "passive-b:special-spiral-3"
-}

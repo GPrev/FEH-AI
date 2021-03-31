@@ -1,8 +1,0 @@
-{
-    "name": "Atk/Spd Push 4",
-    "description": "At start of combat, if unit's HP ≥ 25%, grants Atk/Spd+7, but after combat, if unit attacked, deals 5 damage to unit.",
-    "docType": "passive-a",
-    "idTag": "SID_攻撃速さの渾身4",
-    "spCost": 300,
-    "_id": "passive-a:atk-spd-push-4"
-}

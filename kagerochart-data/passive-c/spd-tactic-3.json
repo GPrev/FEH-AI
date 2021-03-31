@@ -1,8 +1,0 @@
-{
-    "name": "Spd Tactic 3",
-    "description": "At start of turn, grants Spd+6 to allies within 2 spaces for 1 turn. Granted only if number of that ally's movement type on current team ≤ 2.",
-    "docType": "passive-c",
-    "idTag": "SID_速さの指揮3",
-    "spCost": 240,
-    "_id": "passive-c:spd-tactic-3"
-}

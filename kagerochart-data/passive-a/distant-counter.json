@@ -1,8 +1,0 @@
-{
-    "name": "Distant Counter",
-    "description": "Unit can counterattack regardless of foe's range.",
-    "docType": "passive-a",
-    "idTag": "SID_遠距離反撃",
-    "spCost": 300,
-    "_id": "passive-a:distant-counter"
-}

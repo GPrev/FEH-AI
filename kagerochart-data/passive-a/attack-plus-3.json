@@ -1,8 +1,0 @@
-{
-    "name": "Attack +3",
-    "description": "Grants Atk+3.",
-    "docType": "passive-a",
-    "idTag": "SID_攻撃3",
-    "spCost": 120,
-    "_id": "passive-a:attack-plus-3"
-}

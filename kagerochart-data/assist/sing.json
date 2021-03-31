@@ -1,9 +1,0 @@
-{
-    "exclusive": true,
-    "name": "Sing",
-    "description": "Grants another action to target ally. (Cannot target an ally with Sing or Dance.)",
-    "docType": "assist",
-    "idTag": "SID_歌う",
-    "spCost": 150,
-    "_id": "assist:sing"
-}

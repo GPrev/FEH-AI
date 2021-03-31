@@ -1,8 +1,0 @@
-{
-    "name": "Seal Def 3",
-    "description": "Inflicts Def-7 on foe through its next action after combat.",
-    "docType": "passive-b",
-    "idTag": "SID_守備封じ3",
-    "spCost": 160,
-    "_id": "passive-b:seal-def-3"
-}

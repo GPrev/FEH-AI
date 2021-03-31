@@ -1,9 +1,0 @@
-{
-    "name": "Glimmer",
-    "description": "Boosts damage dealt by 50%.",
-    "docType": "special",
-    "idTag": "SID_凶星",
-    "spCost": 200,
-    "cooldownCount": 2,
-    "_id": "special:glimmer"
-}

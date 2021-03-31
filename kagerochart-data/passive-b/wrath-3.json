@@ -1,8 +1,0 @@
-{
-    "name": "Wrath 3",
-    "description": "At start of turn, if unit's HP ≤ 75% and unit's attack triggers Special, grants Special cooldown count-1, and deals +10 damage when Special triggers.",
-    "docType": "passive-b",
-    "idTag": "SID_怒り3",
-    "spCost": 240,
-    "_id": "passive-b:wrath-3"
-}

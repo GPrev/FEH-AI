@@ -1,8 +1,0 @@
-{
-    "name": "Hone Spd 3",
-    "description": "At start of turn, grants Spd+4 to adjacent allies for 1 turn.",
-    "docType": "passive-c",
-    "idTag": "SID_速さの鼓舞3",
-    "spCost": 200,
-    "_id": "passive-c:hone-spd-3"
-}

@@ -1,8 +1,0 @@
-{
-    "name": "Defense +3",
-    "description": "Grants Def+3.",
-    "docType": "passive-a",
-    "idTag": "SID_守備3",
-    "spCost": 120,
-    "_id": "passive-a:defense-plus-3"
-}

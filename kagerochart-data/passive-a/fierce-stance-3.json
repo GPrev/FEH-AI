@@ -1,8 +1,0 @@
-{
-    "name": "Fierce Stance 3",
-    "description": "If foe initiates combat, grants Atk+6 during combat.",
-    "docType": "passive-a",
-    "idTag": "SID_鬼神の構え3",
-    "spCost": 200,
-    "_id": "passive-a:fierce-stance-3"
-}

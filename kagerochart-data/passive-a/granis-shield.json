@@ -1,8 +1,0 @@
-{
-    "name": "Grani's Shield",
-    "description": "Neutralizes \"effective against cavalry\" bonuses.",
-    "docType": "passive-a",
-    "idTag": "SID_グラニの盾",
-    "spCost": 200,
-    "_id": "passive-a:granis-shield"
-}

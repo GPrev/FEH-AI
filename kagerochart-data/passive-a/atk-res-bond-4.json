@@ -1,8 +1,0 @@
-{
-    "name": "Atk/Res Bond 4",
-    "description": "If unit is adjacent to an ally, grants Atk/Res+7 to unit and neutralizes unit's penalties to Atk/Res during combat.",
-    "docType": "passive-a",
-    "idTag": "SID_攻撃魔防の絆4",
-    "spCost": 300,
-    "_id": "passive-a:atk-res-bond-4"
-}

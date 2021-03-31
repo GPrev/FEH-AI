@@ -1,9 +1,0 @@
-{
-    "exclusive": true,
-    "name": "Glare",
-    "description": "After combat, if unit attacked, inflicts status on target and foes within 1 space of target restricting movement to 1 space through their next actions.",
-    "docType": "passive-c",
-    "idTag": "SID_邪眼",
-    "spCost": 300,
-    "_id": "passive-c:glare"
-}

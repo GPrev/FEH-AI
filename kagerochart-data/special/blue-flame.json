@@ -1,9 +1,0 @@
-{
-    "name": "Blue Flame",
-    "description": "Boosts damage by 10. If unit is adjacent to an ally, boosts damage by 25 instead.",
-    "docType": "special",
-    "idTag": "SID_ブルーフレイム",
-    "spCost": 500,
-    "cooldownCount": 3,
-    "_id": "special:blue-flame"
-}

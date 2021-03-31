@@ -1,9 +1,0 @@
-{
-    "name": "Fireflood Balm",
-    "description": "When healing an ally with a staff, grants Atk/Res+4 to all allies for 1 turn.",
-    "docType": "special",
-    "idTag": "SID_業火静水の祝福",
-    "spCost": 200,
-    "cooldownCount": 1,
-    "_id": "special:fireflood-balm"
-}

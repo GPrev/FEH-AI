@@ -1,8 +1,0 @@
-{
-    "name": "Steady Stance 4",
-    "description": "If foe initiates combat, grants Def+8 during combat and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
-    "docType": "passive-a",
-    "idTag": "SID_金剛の構え4",
-    "spCost": 300,
-    "_id": "passive-a:steady-stance-4"
-}

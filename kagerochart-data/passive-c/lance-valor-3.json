@@ -1,8 +1,0 @@
-{
-    "name": "Lance Valor 3",
-    "description": "While unit lives, all lance allies on team get 2x SP. (Only highest value applied. Does not stack.)",
-    "docType": "passive-c",
-    "idTag": "SID_槍の技量3",
-    "spCost": 120,
-    "_id": "passive-c:lance-valor-3"
-}

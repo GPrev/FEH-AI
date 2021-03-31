@@ -1,9 +1,0 @@
-{
-    "exclusive": true,
-    "name": "Bushido",
-    "description": "Deals +10 damage when Special triggers.",
-    "docType": "passive-b",
-    "idTag": "SID_武士道",
-    "spCost": 300,
-    "_id": "passive-b:bushido"
-}

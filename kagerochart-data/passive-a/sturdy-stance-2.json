@@ -1,8 +1,0 @@
-{
-    "name": "Sturdy Stance 2",
-    "description": "If foe initiates combat, grants Atk/Def+4 during combat.",
-    "docType": "passive-a",
-    "idTag": "SID_鬼神金剛の構え2",
-    "spCost": 240,
-    "_id": "passive-a:sturdy-stance-2"
-}

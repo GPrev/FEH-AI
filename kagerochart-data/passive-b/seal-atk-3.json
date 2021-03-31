@@ -1,8 +1,0 @@
-{
-    "name": "Seal Atk 3",
-    "description": "Inflicts Atk-7 on foe through its next action after combat.",
-    "docType": "passive-b",
-    "idTag": "SID_攻撃封じ3",
-    "spCost": 160,
-    "_id": "passive-b:seal-atk-3"
-}

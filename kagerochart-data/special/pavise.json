@@ -1,9 +1,0 @@
-{
-    "name": "Pavise",
-    "description": "Reduces damage from an adjacent foe's attack by 50%.",
-    "docType": "special",
-    "idTag": "SID_大盾",
-    "spCost": 200,
-    "cooldownCount": 3,
-    "_id": "special:pavise"
-}

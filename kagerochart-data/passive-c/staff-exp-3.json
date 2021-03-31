@@ -1,8 +1,0 @@
-{
-    "name": "Staff Exp. 3",
-    "description": "While unit lives, all staff allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
-    "docType": "passive-c",
-    "idTag": "SID_杖の経験3",
-    "spCost": 120,
-    "_id": "passive-c:staff-exp-3"
-}

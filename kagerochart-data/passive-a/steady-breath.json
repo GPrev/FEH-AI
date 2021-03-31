@@ -1,8 +1,0 @@
-{
-    "name": "Steady Breath",
-    "description": "If foe initiates combat, grants Def+4 during combat and Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
-    "docType": "passive-a",
-    "idTag": "SID_金剛の呼吸",
-    "spCost": 240,
-    "_id": "passive-a:steady-breath"
-}

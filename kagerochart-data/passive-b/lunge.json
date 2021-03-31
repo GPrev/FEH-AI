@@ -1,8 +1,0 @@
-{
-    "name": "Lunge",
-    "description": "If unit initiates combat, unit and target foe swap spaces after combat.",
-    "docType": "passive-b",
-    "idTag": "SID_切り込み",
-    "spCost": 150,
-    "_id": "passive-b:lunge"
-}

@@ -1,9 +1,0 @@
-{
-    "name": "Dragon Fang",
-    "description": "Boosts damage by 50% of unit's Atk.",
-    "docType": "special",
-    "idTag": "SID_竜穿",
-    "spCost": 200,
-    "cooldownCount": 4,
-    "_id": "special:dragon-fang"
-}

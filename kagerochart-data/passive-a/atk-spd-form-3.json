@@ -1,8 +1,0 @@
-{
-    "name": "Atk/Spd Form 3",
-    "description": "Grants Atk/Spd+X to unit during combat. (X = 2 × number of allies within 2 spaces, + 1; max 7.)",
-    "docType": "passive-a",
-    "idTag": "SID_攻撃速さの密集3",
-    "spCost": 240,
-    "_id": "passive-a:atk-spd-form-3"
-}

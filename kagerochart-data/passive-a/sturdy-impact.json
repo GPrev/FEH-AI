@@ -1,8 +1,0 @@
-{
-    "name": "Sturdy Impact",
-    "description": "If unit initiates combat, grants Atk+6, Def+10 during combat and foe cannot make a follow-up attack.",
-    "docType": "passive-a",
-    "idTag": "SID_鬼神金剛の一撃3",
-    "spCost": 300,
-    "_id": "passive-a:sturdy-impact"
-}

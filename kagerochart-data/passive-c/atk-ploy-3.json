@@ -1,8 +1,0 @@
-{
-    "name": "Atk Ploy 3",
-    "description": "At start of turn, inflicts Atk-5 on foes in cardinal directions with Res < unit’s Res through their next actions.",
-    "docType": "passive-c",
-    "idTag": "SID_攻撃の謀策3",
-    "spCost": 240,
-    "_id": "passive-c:atk-ploy-3"
-}

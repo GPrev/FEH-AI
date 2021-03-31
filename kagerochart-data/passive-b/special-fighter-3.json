@@ -1,8 +1,0 @@
-{
-    "name": "Special Fighter 3",
-    "description": "At start of combat, if unit's HP ≥ 50%, grants Special cooldown charge +1 to unit and inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
-    "docType": "passive-b",
-    "idTag": "SID_奥義隊形3",
-    "spCost": 240,
-    "_id": "passive-b:special-fighter-3"
-}

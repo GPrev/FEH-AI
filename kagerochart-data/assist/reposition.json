@@ -1,8 +1,0 @@
-{
-    "name": "Reposition",
-    "description": "Target ally moves to opposite side of unit.",
-    "docType": "assist",
-    "idTag": "SID_引き戻し",
-    "spCost": 150,
-    "_id": "assist:reposition"
-}

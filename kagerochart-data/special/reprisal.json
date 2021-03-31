@@ -1,9 +1,0 @@
-{
-    "name": "Reprisal",
-    "description": "Boosts damage by 30% of damage dealt to unit.",
-    "docType": "special",
-    "idTag": "SID_血讐",
-    "spCost": 200,
-    "cooldownCount": 2,
-    "_id": "special:reprisal"
-}

@@ -1,9 +1,0 @@
-{
-    "exclusive": true,
-    "name": "Chilling Seal",
-    "description": "At start of turn, if unit's HP ≥ 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Def through its next action. (Skill cannot be inherited.)",
-    "docType": "passive-b",
-    "idTag": "SID_氷の封印",
-    "spCost": 300,
-    "_id": "passive-b:chilling-seal"
-}

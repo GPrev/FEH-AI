@@ -1,9 +1,0 @@
-{
-    "name": "Earthfire Balm+",
-    "description": "When healing an ally with a staff, grants Atk/Def+6 to all allies for 1 turn.",
-    "docType": "special",
-    "idTag": "SID_業火大地の祝福＋",
-    "spCost": 300,
-    "cooldownCount": 1,
-    "_id": "special:earthfire-balm-plus"
-}

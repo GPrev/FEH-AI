@@ -1,8 +1,0 @@
-{
-    "name": "Draw Back",
-    "description": "Unit moves 1 space away from target ally. Ally moves to unit’s previous space.",
-    "docType": "assist",
-    "idTag": "SID_引き寄せ",
-    "spCost": 150,
-    "_id": "assist:draw-back"
-}

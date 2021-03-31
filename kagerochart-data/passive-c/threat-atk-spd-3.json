@@ -1,8 +1,0 @@
-{
-    "name": "Threat. Atk/Spd 3",
-    "description": "At start of turn, if unit is within 2 spaces of a foe, grants Atk/Spd+5 to unit for 1 turn and inflicts Atk/Spd-5 on foes within 2 spaces through their next actions.",
-    "docType": "passive-c",
-    "idTag": "SID_攻撃速さの威嚇3",
-    "spCost": 300,
-    "_id": "passive-c:threat-atk-spd-3"
-}

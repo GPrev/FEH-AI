@@ -1,8 +1,0 @@
-{
-    "name": "Knock Back",
-    "description": "If unit initiates combat, target foe moves 1 space away after combat.",
-    "docType": "passive-b",
-    "idTag": "SID_叩き込み",
-    "spCost": 150,
-    "_id": "passive-b:knock-back"
-}

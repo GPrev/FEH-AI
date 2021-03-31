@@ -1,8 +1,0 @@
-{
-    "name": "Initiate Seal Spd 3",
-    "description": "Grants Spd+3.",
-    "docType": "passive-s",
-    "idTag": "SID_鍛錬の証_速さ3",
-    "spCost": 120,
-    "_id": "passive-s:initiate-seal-spd-3"
-}

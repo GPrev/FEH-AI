@@ -1,8 +1,0 @@
-{
-    "name": "Goad Cavalry",
-    "description": "Grants Atk/Spd+4 to cavalry allies within 2 spaces during combat.",
-    "docType": "passive-c",
-    "idTag": "SID_騎刃の紋章",
-    "spCost": 200,
-    "_id": "passive-c:goad-cavalry"
-}

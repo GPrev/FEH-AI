@@ -1,9 +1,0 @@
-{
-    "_id": "passive-s:spur-spd-1",
-    "name": "Spur Spd 1",
-    "sp": 50,
-    "type": "s",
-    "description": "Grants adjacent allies Spd+2 during combat.",
-    "icon": "/images/icons/passives/spur-spd-1.png",
-    "docType": "passive-s"
-}

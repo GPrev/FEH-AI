@@ -1,9 +1,0 @@
-{
-    "exclusive": true,
-    "name": "Ostian Counter",
-    "description": "Unit can counterattack regardless of foe's range. If foe initiates combat, grants Atk/Def+4 during combat.",
-    "docType": "passive-a",
-    "idTag": "SID_オスティアの反撃",
-    "spCost": 350,
-    "_id": "passive-a:ostian-counter"
-}

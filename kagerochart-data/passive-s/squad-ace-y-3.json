@@ -1,8 +1,0 @@
-{
-    "name": "Squad Ace Y 3",
-    "description": "Grants Atk+3.",
-    "docType": "passive-s",
-    "idTag": "SID_第25迷宮の覇者3",
-    "spCost": 120,
-    "_id": "passive-s:squad-ace-y-3"
-}

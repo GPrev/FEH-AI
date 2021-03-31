@@ -1,9 +1,0 @@
-{
-    "name": "Miracle",
-    "description": "If unit’s HP > 1 and foe would reduce unit’s HP to 0, unit survives with 1 HP.",
-    "docType": "special",
-    "idTag": "SID_祈り",
-    "spCost": 200,
-    "cooldownCount": 5,
-    "_id": "special:miracle"
-}

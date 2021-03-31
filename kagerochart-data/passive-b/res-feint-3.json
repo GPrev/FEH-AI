@@ -1,8 +1,0 @@
-{
-    "name": "Res Feint 3",
-    "description": "If a Rally Assist skill is used by unit or targets unit, inflicts Res-7 on foes in cardinal directions of unit through their next actions.",
-    "docType": "passive-b",
-    "idTag": "SID_魔防の共謀3",
-    "spCost": 240,
-    "_id": "passive-b:res-feint-3"
-}

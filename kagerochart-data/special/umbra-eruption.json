@@ -1,9 +1,0 @@
-{
-    "name": "Umbra Eruption",
-    "description": "After combat, deals 10 damage to target and foes within 2 spaces of target and then unit and target foe swap spaces.",
-    "docType": "special",
-    "idTag": "SID_影滅・中級",
-    "spCost": 0,
-    "cooldownCount": 9,
-    "_id": "special:umbra-eruption"
-}

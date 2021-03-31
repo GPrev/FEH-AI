@@ -1,8 +1,0 @@
-{
-    "name": "Flashing Blade 4",
-    "description": "If unit's Spd > foe's Spd, grants Special cooldown charge +1 and deals +5 damage per unit's attack. (Only highest value applied. Does not stack.)",
-    "docType": "passive-a",
-    "idTag": "SID_柔剣4",
-    "spCost": 300,
-    "_id": "passive-a:flashing-blade-4"
-}

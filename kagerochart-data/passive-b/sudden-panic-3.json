@@ -1,8 +1,0 @@
-{
-    "name": "Sudden Panic 3",
-    "description": "At start of turn, if any foe's HP ≤ unit's HP-1 and that foe is adjacent to another foe, inflicts 【Panic】on that foe.  【Panic】 Converts bonuses on target into penalties through its next action.",
-    "docType": "passive-b",
-    "idTag": "SID_恐慌の惑乱3",
-    "spCost": 240,
-    "_id": "passive-b:sudden-panic-3"
-}

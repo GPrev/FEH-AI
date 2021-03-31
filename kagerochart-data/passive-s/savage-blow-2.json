@@ -1,9 +1,0 @@
-{
-    "_id": "passive-s:savage-blow-2",
-    "name": "Savage Blow 2",
-    "sp": 100,
-    "type": "s",
-    "description": "If unit initiates attack, foes within 2 spaces of target take 5 damage after combat.",
-    "icon": "/images/icons/passives/savage-blow-2.png",
-    "docType": "passive-s"
-}

@@ -1,8 +1,0 @@
-{
-    "name": "Hone Cavalry",
-    "description": "At start of turn, grants Atk/Spd+6 to adjacent cavalry allies for 1 turn.",
-    "docType": "passive-c",
-    "idTag": "SID_騎刃の鼓舞",
-    "spCost": 200,
-    "_id": "passive-c:hone-cavalry"
-}

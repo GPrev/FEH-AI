@@ -1,8 +1,0 @@
-{
-    "name": "Steady Posture 2",
-    "description": "If foe initiates combat, grants Spd/Def+4 during combat.",
-    "docType": "passive-a",
-    "idTag": "SID_飛燕金剛の構え2",
-    "spCost": 240,
-    "_id": "passive-a:steady-posture-2"
-}

@@ -1,8 +1,0 @@
-{
-    "name": "Deflect Missile 3",
-    "description": "If unit receives consecutive attacks and foe uses bow or dagger, reduces damage from foe's second attack onward by 80%.",
-    "docType": "passive-s",
-    "idTag": "SID_連撃防御・弓暗器3",
-    "spCost": 200,
-    "_id": "passive-s:deflect-missile-3"
-}

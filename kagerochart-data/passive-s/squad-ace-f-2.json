@@ -1,8 +1,0 @@
-{
-    "name": "Squad Ace F 2",
-    "description": "Grants HP+4.",
-    "docType": "passive-s",
-    "idTag": "SID_第6迷宮の覇者2",
-    "spCost": 80,
-    "_id": "passive-s:squad-ace-f-2"
-}

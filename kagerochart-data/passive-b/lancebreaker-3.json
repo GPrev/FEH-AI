@@ -1,8 +1,0 @@
-{
-    "name": "Lancebreaker 3",
-    "description": "If unit's HP ≥ 50% in combat against a lance foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
-    "docType": "passive-b",
-    "idTag": "SID_槍殺し3",
-    "spCost": 200,
-    "_id": "passive-b:lancebreaker-3"
-}

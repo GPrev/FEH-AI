@@ -1,8 +1,0 @@
-{
-    "name": "Death Blow 3",
-    "description": "If unit initiates combat, grants Atk+6 during combat.",
-    "docType": "passive-a",
-    "idTag": "SID_鬼神の一撃3",
-    "spCost": 200,
-    "_id": "passive-a:death-blow-3"
-}

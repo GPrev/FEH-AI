@@ -1,8 +1,0 @@
-{
-    "name": "Live for Honor",
-    "description": "If unit survives, get 1.5x badges from a Training Tower map. (Only highest value applied. Does not stack.)",
-    "docType": "passive-b",
-    "idTag": "SID_栄誉の喜び",
-    "spCost": 100,
-    "_id": "passive-b:live-for-honor"
-}

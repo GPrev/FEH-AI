@@ -1,8 +1,0 @@
-{
-    "name": "Distant Def 3",
-    "description": "If foe initiates combat and uses bow, dagger, magic, or staff, grants Def/Res+6 during combat.",
-    "docType": "passive-a",
-    "idTag": "SID_遠距離防御3",
-    "spCost": 240,
-    "_id": "passive-a:distant-def-3"
-}

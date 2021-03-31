@@ -1,8 +1,0 @@
-{
-    "name": "Bow Valor 3",
-    "description": "While unit lives, all bow allies on team get 2x SP. (Only highest value applied. Does not stack.)",
-    "docType": "passive-c",
-    "idTag": "SID_弓の技量3",
-    "spCost": 120,
-    "_id": "passive-c:bow-valor-3"
-}

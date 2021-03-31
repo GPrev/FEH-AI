@@ -1,8 +1,0 @@
-{
-    "name": "Hit and Run",
-    "description": "If unit initiates combat, unit moves 1 space away after combat.",
-    "docType": "passive-b",
-    "idTag": "SID_一撃離脱",
-    "spCost": 150,
-    "_id": "passive-b:hit-and-run"
-}

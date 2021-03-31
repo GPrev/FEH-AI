@@ -1,9 +1,0 @@
-{
-    "exclusive": true,
-    "name": "Scendscale",
-    "description": "Deals damage = 25% of unit's Atk, but after combat, if unit attacked, deals 7 damage to unit.",
-    "docType": "passive-a",
-    "idTag": "SID_覇神断竜剣",
-    "spCost": 300,
-    "_id": "passive-a:scendscale"
-}

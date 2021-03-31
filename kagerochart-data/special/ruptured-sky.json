@@ -1,9 +1,0 @@
-{
-    "name": "Ruptured Sky",
-    "description": "Boosts damage by 20% of foe's Atk. If in combat against a dragon foe or beast foe, boosts damage by 40% instead of 20%.",
-    "docType": "special",
-    "idTag": "SID_破天",
-    "spCost": 500,
-    "cooldownCount": 2,
-    "_id": "special:ruptured-sky"
-}

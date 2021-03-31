@@ -1,9 +1,0 @@
-{
-    "exclusive": true,
-    "name": "Sacrifice",
-    "description": "Converts penalties on target into bonuses. Restores HP to target = unit's current HP-1. Reduces unit's HP by amount restored.",
-    "docType": "assist",
-    "idTag": "SID_癒しの手",
-    "spCost": 400,
-    "_id": "assist:sacrifice"
-}

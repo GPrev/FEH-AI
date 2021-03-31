@@ -1,8 +1,0 @@
-{
-    "name": "Guard 3",
-    "description": "At start of combat, if unit's HP ≥ 80%, inflicts Special cooldown charge -1 on foe per attack. (Only highest value applied. Does not stack.)",
-    "docType": "passive-b",
-    "idTag": "SID_キャンセル3",
-    "spCost": 200,
-    "_id": "passive-b:guard-3"
-}

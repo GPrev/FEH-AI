@@ -1,8 +1,0 @@
-{
-    "name": "Escape Route 3",
-    "description": "If unit’s HP ≤ 50%, unit can move to a space adjacent to any ally.",
-    "docType": "passive-b",
-    "idTag": "SID_離脱の行路3",
-    "spCost": 240,
-    "_id": "passive-b:escape-route-3"
-}

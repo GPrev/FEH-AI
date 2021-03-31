@@ -1,8 +1,0 @@
-{
-    "name": "Svalinn Shield",
-    "description": "Neutralizes \"effective against armored\" bonuses.",
-    "docType": "passive-a",
-    "idTag": "SID_スヴェルの盾",
-    "spCost": 200,
-    "_id": "passive-a:svalinn-shield"
-}

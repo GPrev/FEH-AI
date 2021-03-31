@@ -1,8 +1,0 @@
-{
-    "name": "Disarm Trap 3",
-    "description": "While attacking in Aether Raids, if unit ends movement on a space with a Bolt Trap or a Heavy Trap, cancels trap's effect.",
-    "docType": "passive-b",
-    "idTag": "SID_罠解除3",
-    "spCost": 240,
-    "_id": "passive-b:disarm-trap-3"
-}

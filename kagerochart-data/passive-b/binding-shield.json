@@ -1,9 +1,0 @@
-{
-    "exclusive": true,
-    "name": "Binding Shield",
-    "description": "In combat against a dragon foe, unit makes a guaranteed follow-up attack and foe cannot counterattack or make a follow-up attack.",
-    "docType": "passive-b",
-    "idTag": "SID_封印の盾",
-    "spCost": 300,
-    "_id": "passive-b:binding-shield"
-}

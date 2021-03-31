@@ -1,8 +1,0 @@
-{
-    "name": "Pass 3",
-    "description": "If unit’s HP ≥ 25%, unit can move through foes’ spaces.",
-    "docType": "passive-b",
-    "idTag": "SID_すり抜け3",
-    "spCost": 200,
-    "_id": "passive-b:pass-3"
-}

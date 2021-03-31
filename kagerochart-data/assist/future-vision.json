@@ -1,9 +1,0 @@
-{
-    "exclusive": true,
-    "name": "Future Vision",
-    "description": "Unit and target ally swap spaces. Grants another action to unit. (Additional action granted once per turn only.)",
-    "docType": "assist",
-    "idTag": "SID_未来を映す瞳",
-    "spCost": 400,
-    "_id": "assist:future-vision"
-}

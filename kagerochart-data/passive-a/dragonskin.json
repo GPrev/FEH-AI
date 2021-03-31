@@ -1,9 +1,0 @@
-{
-    "exclusive": true,
-    "name": "Dragonskin",
-    "description": "Neutralizes \"effective against flying\" bonuses. If foe initiates combat, grants Def/Res+4 during combat.",
-    "docType": "passive-a",
-    "idTag": "SID_邪竜の鱗",
-    "spCost": 300,
-    "_id": "passive-a:dragonskin"
-}

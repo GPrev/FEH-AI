@@ -1,8 +1,0 @@
-{
-    "name": "Dagger Valor 3",
-    "description": "While unit lives, all dagger allies on team get 2x SP. (Only highest value applied. Does not stack.)",
-    "docType": "passive-c",
-    "idTag": "SID_暗器の技量3",
-    "spCost": 120,
-    "_id": "passive-c:dagger-valor-3"
-}

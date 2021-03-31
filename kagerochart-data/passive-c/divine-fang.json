@@ -1,9 +1,0 @@
-{
-    "exclusive": true,
-    "name": "Divine Fang",
-    "description": "At start of turn, grants \"effective against dragons\" to adjacent allies for 1 turn.",
-    "docType": "passive-c",
-    "idTag": "SID_神竜王の牙",
-    "spCost": 300,
-    "_id": "passive-c:divine-fang"
-}

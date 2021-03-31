@@ -1,8 +1,0 @@
-{
-    "name": "Swift Strike 2",
-    "description": "If unit initiates combat, grants Spd/Res+4 during combat.",
-    "docType": "passive-a",
-    "idTag": "SID_飛燕明鏡の一撃2",
-    "spCost": 240,
-    "_id": "passive-a:swift-strike-2"
-}

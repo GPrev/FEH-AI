@@ -1,8 +1,0 @@
-{
-    "name": "Bracing Blow 2",
-    "description": "If unit initiates combat, grants Def/Res+4 during combat.",
-    "docType": "passive-a",
-    "idTag": "SID_金剛明鏡の一撃2",
-    "spCost": 240,
-    "_id": "passive-a:bracing-blow-2"
-}

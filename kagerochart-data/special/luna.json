@@ -1,9 +1,0 @@
-{
-    "name": "Luna",
-    "description": "Treats foe’s Def/Res as if reduced by 50% during combat.",
-    "docType": "special",
-    "idTag": "SID_月光",
-    "spCost": 200,
-    "cooldownCount": 3,
-    "_id": "special:luna"
-}

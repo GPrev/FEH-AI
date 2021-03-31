@@ -1,8 +1,0 @@
-{
-    "name": "Rally Speed",
-    "description": "Grants Spd+4 to target ally for 1 turn.",
-    "docType": "assist",
-    "idTag": "SID_速さの応援",
-    "spCost": 150,
-    "_id": "assist:rally-speed"
-}

@@ -1,8 +1,0 @@
-{
-    "name": "Seal Res 3",
-    "description": "Inflicts Res-7 on foe through its next action after combat.",
-    "docType": "passive-b",
-    "idTag": "SID_魔防封じ3",
-    "spCost": 160,
-    "_id": "passive-b:seal-res-3"
-}

@@ -1,9 +1,0 @@
-{
-    "name": "Still-Water Balm",
-    "description": "When healing an ally with a staff, grants Res+4 to all allies for 1 turn.",
-    "docType": "special",
-    "idTag": "SID_静水の祝福",
-    "spCost": 150,
-    "cooldownCount": 1,
-    "_id": "special:still-water-balm"
-}

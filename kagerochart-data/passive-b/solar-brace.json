@@ -1,9 +1,0 @@
-{
-    "exclusive": true,
-    "name": "Solar Brace",
-    "description": "Restores HP = 30% of damage dealt when Special triggers. (Stacks with effects of skills like Sol.)",
-    "docType": "passive-b",
-    "idTag": "SID_太陽の腕輪",
-    "spCost": 300,
-    "_id": "passive-b:solar-brace"
-}

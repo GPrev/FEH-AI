@@ -1,8 +1,0 @@
-{
-    "name": "Quick Riposte 3",
-    "description": "If unit’s HP ≥ 70% and foe initiates combat, unit makes a guaranteed follow-up attack.",
-    "docType": "passive-b",
-    "idTag": "SID_切り返し3",
-    "spCost": 240,
-    "_id": "passive-b:quick-riposte-3"
-}

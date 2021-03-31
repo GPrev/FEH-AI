@@ -1,8 +1,0 @@
-{
-    "name": "Earth Dance 3",
-    "description": "If Sing or Dance is used, grants Def+5 to target.",
-    "docType": "passive-b",
-    "idTag": "SID_大地の舞い3",
-    "spCost": 200,
-    "_id": "passive-b:earth-dance-3"
-}

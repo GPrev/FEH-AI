@@ -1,8 +1,0 @@
-{
-    "name": "Air Orders 3",
-    "description": "At start of turn, grants the following status to adjacent flying allies for 1 turn: \"Unit can move to a space adjacent to any ally within 2 spaces.\"",
-    "docType": "passive-c",
-    "idTag": "SID_先導の伝令・天3",
-    "spCost": 240,
-    "_id": "passive-c:air-orders-3"
-}

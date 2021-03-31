@@ -1,9 +1,0 @@
-{
-    "exclusive": true,
-    "name": "Beorc's Blessing",
-    "description": "Neutralizes cavalry and flying foes’ bonuses (from skills like Fortify, Rally, etc.) during combat. (Skill cannot be inherited.)",
-    "docType": "passive-b",
-    "idTag": "SID_ベオクの加護",
-    "spCost": 300,
-    "_id": "passive-b:beorcs-blessing"
-}

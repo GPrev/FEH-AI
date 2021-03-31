@@ -1,9 +1,0 @@
-{
-    "exclusive": true,
-    "name": "Recover Ring",
-    "description": "At start of turn, restores 10 HP. (Skill cannot be inherited.)",
-    "docType": "passive-b",
-    "idTag": "SID_リカバーリング",
-    "spCost": 200,
-    "_id": "passive-b:recover-ring"
-}

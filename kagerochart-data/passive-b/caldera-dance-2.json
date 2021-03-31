@@ -1,8 +1,0 @@
-{
-    "name": "Caldera Dance 2",
-    "description": "If Sing or Dance is used, grants Atk+3 and Def+4 to target.",
-    "docType": "passive-b",
-    "idTag": "SID_業火大地の舞い2",
-    "spCost": 240,
-    "_id": "passive-b:caldera-dance-2"
-}

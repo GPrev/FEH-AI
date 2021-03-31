@@ -1,8 +1,0 @@
-{
-    "name": "Recover+",
-    "description": "Restores HP = 50% of Atk +10. (Minimum of 15 HP.)",
-    "docType": "assist",
-    "idTag": "SID_リカバー＋",
-    "spCost": 300,
-    "_id": "assist:recover-plus"
-}

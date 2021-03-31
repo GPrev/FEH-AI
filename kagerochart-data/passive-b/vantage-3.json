@@ -1,8 +1,0 @@
-{
-    "name": "Vantage 3",
-    "description": "If unit’s HP ≤ 75% and foe initiates combat, unit can counterattack before foe’s first attack.",
-    "docType": "passive-b",
-    "idTag": "SID_待ち伏せ3",
-    "spCost": 200,
-    "_id": "passive-b:vantage-3"
-}

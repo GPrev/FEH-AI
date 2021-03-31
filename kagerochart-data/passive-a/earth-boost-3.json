@@ -1,8 +1,0 @@
-{
-    "name": "Earth Boost 3",
-    "description": "At start of combat, if unit’s HP ≥ foe's HP+3, grants Def+6 during combat.",
-    "docType": "passive-a",
-    "idTag": "SID_生命の大地3",
-    "spCost": 200,
-    "_id": "passive-a:earth-boost-3"
-}

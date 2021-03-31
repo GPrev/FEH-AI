@@ -1,8 +1,0 @@
-{
-    "name": "Dazzling Staff 3",
-    "description": "Foe cannot counterattack.",
-    "docType": "passive-b",
-    "idTag": "SID_幻惑の杖3",
-    "spCost": 240,
-    "_id": "passive-b:dazzling-staff-3"
-}

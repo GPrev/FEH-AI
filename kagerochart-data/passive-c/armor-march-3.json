@@ -1,8 +1,0 @@
-{
-    "name": "Armor March 3",
-    "description": "At start of turn, if unit is adjacent to an armored ally, unit and adjacent armored allies can move 1 extra space. (That turn only. Does not stack.)",
-    "docType": "passive-c",
-    "idTag": "SID_重装の行軍3",
-    "spCost": 240,
-    "_id": "passive-c:armor-march-3"
-}

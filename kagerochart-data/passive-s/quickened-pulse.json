@@ -1,8 +1,0 @@
-{
-    "name": "Quickened Pulse",
-    "description": "At the start of turn 1, grants Special cooldown count-1.",
-    "docType": "passive-s",
-    "idTag": "SID_奥義の鼓動",
-    "spCost": 100,
-    "_id": "passive-s:quickened-pulse"
-}

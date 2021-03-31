@@ -1,8 +1,0 @@
-{
-    "name": "Vengeful Fighter 3",
-    "description": "If unit's HP ≥ 50% and foe initiates combat, grants Special cooldown charge +1 per unit's attack, and unit makes a guaranteed follow-up attack. (Does not stack.)",
-    "docType": "passive-b",
-    "idTag": "SID_迎撃隊形3",
-    "spCost": 240,
-    "_id": "passive-b:vengeful-fighter-3"
-}
