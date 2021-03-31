@@ -2,7 +2,7 @@
 #include "CppUnitTest.h"
 #include "DumbAI.h"
 #include "Rules.h"
-#include "DataLoader.h"
+#include "UniversalDataLoader.h"
 #include "ToString.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
@@ -12,11 +12,11 @@ namespace FehAiTests
 	TEST_CLASS(DumbAiTests)
 	{
 	private:
+		DataLoader& m_dataLoader = UniversalDataLoader::m_dataLoader;
 		MapData m_mapData;
 		Unit m_alphonse, m_sharena, m_nino;
 		Map m_map;
 		Rules m_rules;
-		DataLoader m_dataLoader;
 		DumbAI m_ai;
 
 		void setup()

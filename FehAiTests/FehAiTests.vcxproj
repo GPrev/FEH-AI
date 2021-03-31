@@ -161,6 +161,7 @@
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="ToString.h" />
+    <ClInclude Include="UniversalDataLoader.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AutoPlayerTests.cpp" />
@@ -171,6 +172,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="DumbAiTests.cpp" />
+    <ClCompile Include="UniversalDataLoader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FehAI\FehAI.vcxproj">

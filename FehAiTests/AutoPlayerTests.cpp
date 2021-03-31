@@ -3,7 +3,7 @@
 #include "DumbAI.h"
 #include "AutoPlayer.h"
 #include "Rules.h"
-#include "DataLoader.h"
+#include "UniversalDataLoader.h"
 #include "ToString.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
@@ -13,10 +13,10 @@ namespace FehAiTests
 	TEST_CLASS(AutoPlayerTests)
 	{
 	private:
+		DataLoader& m_dataLoader = UniversalDataLoader::m_dataLoader;
 		MapData m_mapData;
 		Unit m_alphonse, m_sharena, m_nino;
 		Map m_map;
-		DataLoader m_dataLoader;
 		DumbAI m_ai;
 		AutoPlayer m_player;
 
