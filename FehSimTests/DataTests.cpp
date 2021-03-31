@@ -2,7 +2,7 @@
 #include "CppUnitTest.h"
 
 #include "ToString.h"
-#include "DataLoader.h"
+#include "UniversalDataLoader.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -11,10 +11,9 @@ namespace FehSimTests
 	TEST_CLASS(DataTests)
 	{
 	private:
-		static DataLoader m_dataLoader;
+		DataLoader& m_dataLoader = UniversalDataLoader::m_dataLoader;
 
 	public:
-
 		TEST_METHOD(EnumToString)
 		{
 			Assert::AreEqual(std::string("BLUE"), toString(BLUE));
@@ -72,7 +71,32 @@ namespace FehSimTests
 			Assert::AreEqual(std::string(u8"SID_回り込み"), unit.getSkill(SkillCategory::ASSIST)->getId());
 			Assert::IsNull(unit.getSkill(SkillCategory::PASSIVE_B));
 		}
-	};
 
-	DataLoader DataTests::m_dataLoader(true);
+		void TestUnit(const Unit& unit, const Stats& expectedStats)
+		{
+			const Stats& actualStats = unit.getStats();
+			Assert::AreEqual(expectedStats.getHp(), actualStats.getHp());
+			Assert::AreEqual(expectedStats.getAtk(), actualStats.getAtk());
+			Assert::AreEqual(expectedStats.getSpd(), actualStats.getSpd());
+			Assert::AreEqual(expectedStats.getDef(), actualStats.getDef());
+			Assert::AreEqual(expectedStats.getRes(), actualStats.getRes());
+		}
+
+		TEST_METHOD(StatCalculation)
+		{
+			UnitData* data = m_dataLoader.getUnitData(u8"PID_マルス");
+
+			TestUnit(Unit(*data, 1, 1), Stats(17, 5, 6, 5, 4));
+			TestUnit(Unit(*data, 2, 1), Stats(17, 6, 7, 5, 4));
+			TestUnit(Unit(*data, 3, 1), Stats(18, 6, 7, 6, 5));
+			TestUnit(Unit(*data, 4, 1), Stats(18, 7, 8, 6, 5));
+			TestUnit(Unit(*data, 5, 1), Stats(19, 7, 8, 7, 6));
+
+			TestUnit(Unit(*data, 1, 40), Stats(33, 23, 25, 21, 17));
+			TestUnit(Unit(*data, 2, 40), Stats(34, 25, 28, 22, 18));
+			TestUnit(Unit(*data, 3, 40), Stats(37, 27, 30, 25, 20));
+			TestUnit(Unit(*data, 4, 40), Stats(38, 29, 32, 26, 21));
+			TestUnit(Unit(*data, 5, 40), Stats(41, 31, 34, 29, 23));
+		}
+	};
 }

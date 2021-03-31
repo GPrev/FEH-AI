@@ -38,6 +38,7 @@ public:
 	MvtType getMvtType() const { return m_mvt; }
 
 	const Stats& getBaseStats() const { return m_baseStats; }
+	const Stats& getGrowths() const { return m_growths; }
 
 	const SkillSet& getLearnedSkills(int nbStar) const { return m_learnedSkills[nbStar - 1]; }
 	const SkillSet& getLearnableSkills(int nbStar) const { return m_learnableSkills[nbStar - 1]; }

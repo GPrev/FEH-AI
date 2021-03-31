@@ -3,7 +3,7 @@
 
 #include "ToString.h"
 #include "Map.h"
-#include "DataLoader.h"
+#include "UniversalDataLoader.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -12,7 +12,7 @@ namespace FehSimTests
 	TEST_CLASS(MapTests)
 	{
 	private:
-		DataLoader m_dataLoader;
+		DataLoader& m_dataLoader = UniversalDataLoader::m_dataLoader;
 		UnitData* m_udata1;
 		Unit m_ally1;
 		Unit m_foe1;

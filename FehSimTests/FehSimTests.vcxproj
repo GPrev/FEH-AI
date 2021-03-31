@@ -161,6 +161,7 @@
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="ToString.h" />
+    <ClInclude Include="UniversalDataLoader.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="RulesTests.cpp" />
@@ -172,6 +173,7 @@
     </ClCompile>
     <ClCompile Include="MapTests.cpp" />
     <ClCompile Include="DataTests.cpp" />
+    <ClCompile Include="UniversalDataLoader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FehSim\FehSim.vcxproj">

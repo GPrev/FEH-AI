@@ -3,7 +3,7 @@
 
 #include "ToString.h"
 #include "Rules.h"
-#include "DataLoader.h"
+#include "UniversalDataLoader.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -12,19 +12,19 @@ namespace FehSimTests
 	TEST_CLASS(RulesTests)
 	{
 	private:
+		DataLoader& m_dataLoader = UniversalDataLoader::m_dataLoader;
 		UnitData* m_alphData, * m_sharData, * m_takData, * m_ninoData;
 		Unit m_alphonse, m_sharena, m_takumi, m_nino;
 		MapData m_mapData;
 		Map m_map;
 		Rules m_rules;
-		DataLoader m_dataLoader;
 
 		void setup()
 		{
 			m_alphData = m_dataLoader.getUnitData(u8"PID_アルフォンス");
 			m_sharData = m_dataLoader.getUnitData(u8"PID_シャロン");
 			m_ninoData = m_dataLoader.getUnitData(u8"PID_ニノ");
-			m_takData  = m_dataLoader.getUnitData("takumi-wild-card");
+			m_takData  = m_dataLoader.getUnitData(u8"PID_タクミ");
 			m_alphonse = Unit(*m_alphData);
 			m_sharena = Unit(*m_sharData);
 			m_nino = Unit(*m_ninoData);

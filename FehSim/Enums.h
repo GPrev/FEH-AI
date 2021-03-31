@@ -58,6 +58,16 @@ enum class SkillCategory
 	BEAST_TRANSFORMATION = 8
 };
 
+enum class StatNames
+{
+	HP = 0,
+	ATK = 1,
+	SPD = 2, 
+	DEF = 3, 
+	RES = 4,
+	NONE = -1,
+};
+
 static std::string unitColorStr[4]{ "RED", "BLUE", "GREEN", "COLORLESS" };
 static std::string weaponTypeStr[9]{ "SWORD", "LANCE", "AXE", "TOME", "BOW", "DAGGER", "STAFF", "BREATH", "BEAST" };
 static std::string mvtTypeStr[4]{ "INFANTRY", "ARMORED", "CAVALRY", "FLYING" };

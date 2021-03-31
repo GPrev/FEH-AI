@@ -21,14 +21,24 @@ public:
 	int getDef() const { return m_def; }
 	int getRes() const { return m_res; }
 
+	bool operator==(const Stats& b) const
+	{
+		return (m_hp == b.m_hp && m_atk == b.m_atk && m_spd == b.m_spd && m_def == b.m_def && m_res == b.m_res);
+	}
+
 	Stats operator+(const Stats& b) const
 	{
 		return Stats(m_hp + b.m_hp, m_atk + b.m_atk, m_spd + b.m_spd, m_def + b.m_def, m_res + b.m_res);
 	}
 
+	Stats operator+(const int& b) const
+	{
+		return Stats(m_hp + b, m_atk + b, m_spd + b, m_def + b, m_res + b);
+	}
+
 	Stats operator-() const
 	{
-		return Stats(-m_atk, -m_spd, -m_def, -m_res);
+		return Stats(-m_hp, -m_atk, -m_spd, -m_def, -m_res);
 	}
 
 	Stats operator-(const Stats& b) const
@@ -36,7 +46,25 @@ public:
 		return *this + (-b);
 	}
 
-	static Stats max(const Stats& a, const Stats& b) { return Stats(std::max(a.m_hp, b.m_hp), std::max(a.m_atk, b.m_atk), std::max(a.m_spd, b.m_spd), std::max(a.m_def, b.m_def), std::max(a.m_res, b.m_res)); }
+	Stats operator-(const int& b) const
+	{
+		return *this + (-b);
+	}
+
+	Stats operator*(const int& b) const
+	{
+		return Stats(m_hp * b, m_atk * b, m_spd * b, m_def * b, m_res * b);
+	}
+
+	Stats operator*(const double& b) const
+	{
+		return Stats((int)(m_hp * b), (int)(m_atk * b), (int)(m_spd * b), (int)(m_def * b), (int)(m_res * b));
+	}
+
+	static Stats max(const Stats& a, const Stats& b)
+	{
+		return Stats(std::max(a.m_hp, b.m_hp), std::max(a.m_atk, b.m_atk), std::max(a.m_spd, b.m_spd), std::max(a.m_def, b.m_def), std::max(a.m_res, b.m_res));
+	}
 
 	static Stats hpStat (int hp)  { return Stats(hp, 0, 0, 0, 0);  }
 	static Stats atkStat(int atk) { return Stats(0, atk, 0, 0, 0); }
