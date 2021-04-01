@@ -173,6 +173,7 @@
     </ClCompile>
     <ClCompile Include="MapTests.cpp" />
     <ClCompile Include="DataTests.cpp" />
+    <ClCompile Include="TranslatorTests.cpp" />
     <ClCompile Include="UniversalDataLoader.cpp" />
   </ItemGroup>
   <ItemGroup>

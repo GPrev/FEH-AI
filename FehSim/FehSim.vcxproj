@@ -145,6 +145,7 @@
     <ClInclude Include="SkillSet.h" />
     <ClInclude Include="StatGrowth.h" />
     <ClInclude Include="Stats.h" />
+    <ClInclude Include="Translator.h" />
     <ClInclude Include="Unit.h" />
     <ClInclude Include="UnitData.h" />
     <ClInclude Include="UnitState.h" />
@@ -160,6 +161,7 @@
     <ClCompile Include="Skill.cpp" />
     <ClCompile Include="SkillSet.cpp" />
     <ClCompile Include="StatGrowth.cpp" />
+    <ClCompile Include="Translator.cpp" />
     <ClCompile Include="Unit.cpp" />
     <ClCompile Include="UnitData.cpp" />
     <ClCompile Include="UnitState.cpp" />

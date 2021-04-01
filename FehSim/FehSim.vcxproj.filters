@@ -63,6 +63,9 @@
     <ClInclude Include="StatGrowth.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Translator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UnitData.cpp">
@@ -102,6 +105,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="StatGrowth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Translator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
