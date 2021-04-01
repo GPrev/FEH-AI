@@ -4,7 +4,8 @@
 #include <random>
 
 
-ArenaAE::ArenaAE()
+ArenaAE::ArenaAE(int _popSize, int _nbGen)
+	: m_popSize(_popSize), m_nbGen(_nbGen)
 {
 }
 

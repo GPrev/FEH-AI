@@ -5,6 +5,7 @@
 #include "FehSim.h"
 #include "Stats.h"
 #include "SkillSet.h"
+#include "Translator.h"
 
 #pragma warning( push )
 #pragma warning( disable : 4251)
@@ -31,14 +32,19 @@ protected:
 public:
 	UnitData() {}
 
-	std::string getName() const { return m_name; }
+	std::string getName()				const { return m_name; }
+	std::string getTitle()				const;
+	std::string getName(Translator& t)	const { return t.translate(getName()); }
+	std::string getTitle(Translator& t)	const { return t.translate(getTitle()); }
+	std::string toString()				const { return getName() + " : " + getTitle(); }
+	std::string toString(Translator& t)	const { return getName(t) + " : " + getTitle(t); }
 
-	UnitColor getColor() const { return m_color; }
-	WeaponType getWeaponType() const { return m_type; }
-	MvtType getMvtType() const { return m_mvt; }
+	UnitColor getColor()		const { return m_color; }
+	WeaponType getWeaponType()	const { return m_type; }
+	MvtType getMvtType()		const { return m_mvt; }
 
-	const Stats& getBaseStats() const { return m_baseStats; }
-	const Stats& getGrowths() const { return m_growths; }
+	const Stats& getBaseStats()	const { return m_baseStats; }
+	const Stats& getGrowths()	const { return m_growths; }
 
 	const SkillSet& getLearnedSkills(int nbStar) const { return m_learnedSkills[nbStar - 1]; }
 	const SkillSet& getLearnableSkills(int nbStar) const { return m_learnableSkills[nbStar - 1]; }

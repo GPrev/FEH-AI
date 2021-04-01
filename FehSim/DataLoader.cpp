@@ -81,11 +81,13 @@ void DataLoader::unitDataFromJson(const json& j)
 {
 	std::string unitID = j["id_tag"];
 
+	m_unitNames.push_back(unitID);
+
 	UnitData& d = m_units[unitID];
 	d = UnitData();
 
 	d.m_id = unitID;
-	d.m_name = j["roman"]; // TODO use translation file
+	d.m_name = "M" + unitID; // Not found elsewhere to my knowledge
 
 	d.m_weaponIdx = (WeaponIndex)j["weapon_type"];
 	d.m_color = getWeaponColor(d.m_weaponIdx);
@@ -134,7 +136,7 @@ void DataLoader::skillDataFromJson(const json& j)
 	d = Skill();
 
 	d.m_id = unitID;
-	d.m_name = j["name_id"]; // TODO use translation file
+	d.m_name = j["name_id"];
 	d.m_category = j["category"];
 	d.m_stats = statsFromJson(j["stats"]);
 	d.m_might = j["might"];

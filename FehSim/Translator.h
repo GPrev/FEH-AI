@@ -26,7 +26,7 @@ enum class Language
 class FEHSIM_API Translator
 {
 public:
-	Translator() { m_translations[Language::NONE]; }
+	Translator(Language language = Language::NONE) { m_translations[Language::NONE]; setLanguage(language); }
 
 	void setLanguage(Language language = Language::NONE, bool load = false) { m_language = language; if (load) loadTranslations(language); }
 	std::string translate(std::string text);

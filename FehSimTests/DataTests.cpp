@@ -26,7 +26,7 @@ namespace FehSimTests
 
 			data = m_dataLoader.getUnitData(u8"PID_マルス");
 			Assert::IsNotNull(data);
-			Assert::AreEqual(std::string("MARTH"), data->getName());
+			Assert::AreEqual(std::string(u8"MPID_マルス"), data->getName());
 			
 			Assert::AreEqual(RED, data->getColor());
 			Assert::AreEqual(SWORD, data->getWeaponType());

@@ -9,12 +9,14 @@
 #include "ArenaAE.h"
 #include "DumbAI.h"
 #include "DataLoader.h"
+#include "Translator.h"
 
 int main()
 {
 	srand((unsigned)time(NULL));
 
-	ArenaAE ae;
+	Translator translator(Language::EUEN);
+	ArenaAE ae(10, 10);
 	DumbAI ai;
 	std::vector<MapData*> availableMaps;
 
@@ -41,7 +43,7 @@ int main()
 		std::cout << "-- " << i + 1 << " (" << it->first << ")" << " --" << std::endl;
 		for (auto& unit : it->second)
 		{
-			std::cout << unit.getData()->getName() << std::endl;
+			std::cout << unit.getData()->toString(translator) << std::endl;
 		}
 	}
 
@@ -52,7 +54,7 @@ int main()
 		std::cout << "-- " << i + 1 << " (" << it->first << ")" << " --" << std::endl;
 		for (auto& unit : it->second)
 		{
-			std::cout << unit.getData()->getName() << std::endl;
+			std::cout << unit.getData()->toString(translator) << std::endl;
 		}
 	}
 
