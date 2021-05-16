@@ -32,14 +32,14 @@ namespace FehAiTests
 			m_sharena.makeBaseKit();
 			m_nino.makeBaseKit();
 
-			std::vector<Position> allyPos;
-			allyPos.push_back(Position(5, 8));
-			std::map<Unit*, Position> foes;
-			foes[&m_sharena] = Position(4, 2);
-			foes[&m_nino] = Position(7, 2);
-			m_mapData = MapData(10, 10, allyPos, foes);
+			std::vector<Position> allyPos{ Position(5, 8) };
+			std::vector<Position> foesPos{ Position(4, 2), Position(7, 2) };
+			m_mapData = MapData("map", 10, 10, allyPos, foesPos);
 			m_map = Map(m_mapData);
-			m_map.init(&m_alphonse);
+
+			std::vector<Unit*> allies{ &m_alphonse };
+			std::vector<Unit*> foes{ &m_sharena, &m_nino };
+			m_map.init(&allies, &foes);
 
 			m_player = AutoPlayer(&m_ai, &m_ai);
 		}

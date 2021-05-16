@@ -30,10 +30,6 @@ void Map::init(std::vector<Unit>* allies, std::vector<Unit>* foes)
 
 void Map::init(const std::vector<Unit*>* allies, const std::vector<Unit*>* foes)
 {
-	if (foes == nullptr)
-	{
-		foes = &m_data->getFoes();
-	}
 
 	clearUnits();
 	for (size_t i = 0; i < allies->size(); ++i)
@@ -42,11 +38,27 @@ void Map::init(const std::vector<Unit*>* allies, const std::vector<Unit*>* foes)
 		Position pos = m_data->getAllyPositions().at(i);
 		addUnit(ally, pos, BLUE);
 	}
-	for (size_t i = 0; i < foes->size(); ++i)
+
+	if (foes == nullptr)
 	{
-		Unit* foe = foes->at(i);
-		Position pos = m_data->getEnemyPositions().at(i);
-		addUnit(foe, pos, RED);
+		// Foes from map data
+		const std::vector<Unit>* dataFoes = &m_data->getFoes();
+		for (size_t i = 0; i < dataFoes->size(); ++i)
+		{
+			const Unit& foe = dataFoes->at(i);
+			Position pos = m_data->getEnemyPositions().at(i);
+			addUnit(&foe, pos, RED);
+		}
+	}
+	else
+	{
+		// Foes from arguments
+		for (size_t i = 0; i < foes->size(); ++i)
+		{
+			Unit* foe = foes->at(i);
+			Position pos = m_data->getEnemyPositions().at(i);
+			addUnit(foe, pos, RED);
+		}
 	}
 
 	m_turnNumber = 1;
@@ -60,10 +72,10 @@ bool Map::isValid(Position pos) const
 
 bool Map::isFree(Position pos) const
 {
-	return isValid(pos) && m_unitsPos.end() == std::find_if(m_unitsPos.begin(), m_unitsPos.end(), [&pos](const std::pair<Unit*, Position> &pair) { return pair.second == pos; });
+	return isValid(pos) && m_unitsPos.end() == std::find_if(m_unitsPos.begin(), m_unitsPos.end(), [&pos](const std::pair<const Unit*, Position> &pair) { return pair.second == pos; });
 }
 
-void Map::addUnit(Unit* unit, const Position& pos, UnitColor side)
+void Map::addUnit(const Unit* unit, const Position& pos, UnitColor side)
 {
 	if (unit != nullptr)
 	{
@@ -72,9 +84,9 @@ void Map::addUnit(Unit* unit, const Position& pos, UnitColor side)
 	}
 }
 
-const Position& Map::getPos(Unit* unit) const
+const Position& Map::getPos(const Unit* unit) const
 {
-	auto it = std::find_if(m_unitsPos.begin(), m_unitsPos.end(), [&unit](const std::pair<Unit*, Position> &pair) { return pair.first == unit; });
+	auto it = std::find_if(m_unitsPos.begin(), m_unitsPos.end(), [&unit](const std::pair<const Unit*, Position> &pair) { return pair.first == unit; });
 	if (it != m_unitsPos.end())
 	{
 		return it->second;
@@ -85,10 +97,10 @@ const Position& Map::getPos(Unit* unit) const
 	}
 }
 
-Unit* Map::getUnit(Position pos)
+const Unit* Map::getUnit(Position pos)
 {
-	Unit* res = nullptr;
-	auto it = std::find_if(m_unitsPos.begin(), m_unitsPos.end(), [&pos](const std::pair<Unit*, Position> &pair) { return pair.second == pos; });
+	const Unit* res = nullptr;
+	auto it = std::find_if(m_unitsPos.begin(), m_unitsPos.end(), [&pos](const std::pair<const Unit*, Position> &pair) { return pair.second == pos; });
 	if (it != m_unitsPos.end())
 	{
 		res = it->first;
@@ -96,7 +108,7 @@ Unit* Map::getUnit(Position pos)
 	return res;
 }
 
-bool Map::canMakeMove(Unit* unit, Position movement, Position action)
+bool Map::canMakeMove(const Unit* unit, Position movement, Position action)
 {
 	const UnitState& state = getState(unit);
 	bool ok = state.getSide() == getTurnPlayerColor() && !(state.hasActed() || state.isDead());
@@ -126,7 +138,7 @@ bool Map::canMakeMove(Unit* unit, Position movement, Position action)
 	return ok;
 }
 
-bool Map::makeMove(Unit* unit, Position movement, Position action)
+bool Map::makeMove(const Unit* unit, Position movement, Position action)
 {
 	if (unit != nullptr && movement.isSomewhere())
 	{
@@ -139,7 +151,7 @@ bool Map::makeMove(Unit* unit, Position movement, Position action)
 			Rules::doBattle(*this, unit, getUnit(action));
 
 			// Check death
-			Unit* oponent = getUnit(action);
+			const Unit* oponent = getUnit(action);
 			UnitState& opState = getState(oponent);
 			if (state.isDead())
 			{
@@ -176,7 +188,7 @@ int distance1[][2] = { { -1, 0 }, { 0, -1 }, { 1, 0 }, { 0, 1 } };
 int distance2[][2] = { { -2, 0 },{ -1, -1 },{ 0, -2 },{ 1, -1 },{ 2, 0 },{ 1, 1 },{ 0, 2 },{ -1, 1 } };
 int distance3[][2] = { { -3, 0 }, { -2, -1 }, { -1, -2 }, { 0, -3 }, { 1, -2 }, { 2, -1 }, { 3, 0 }, { 2, 1 }, { 1, 2 }, { 0, 3 }, { -1, 2 }, { -2, 1 } };
 
-std::vector<Move> Map::getPossibleMoves(Unit* unit)
+std::vector<Move> Map::getPossibleMoves(const Unit* unit)
 {
 	std::vector<Move> res;
 
@@ -205,7 +217,7 @@ std::vector<Move> Map::getPossibleMoves(Unit* unit)
 	return res;
 }
 
-void Map::getPossibleMoves(Unit* unit, Position movement, std::vector<Move>& res)
+void Map::getPossibleMoves(const Unit* unit, Position movement, std::vector<Move>& res)
 {
 	if (canMakeMove(unit, movement))
 	{
@@ -237,7 +249,7 @@ void Map::newTurn()
 		m_turnNumber++;
 	}
 
-	for (std::pair<Unit* const, UnitState>& unit : m_unitsStates)
+	for (std::pair<const Unit* const, UnitState>& unit : m_unitsStates)
 	{
 		unit.second.setHasActed(false);
 	}

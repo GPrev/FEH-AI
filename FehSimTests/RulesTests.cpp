@@ -34,15 +34,14 @@ namespace FehSimTests
 			m_nino.makeBaseKit();
 			m_takumi.makeBaseKit();
 
-			std::vector<Position> allyPos;
-			allyPos.push_back(Position(5, 5));
-			std::map<Unit*, Position> foes;
-			foes[&m_sharena] = Position(3, 3);
-			foes[&m_nino] = Position(2, 2);
-			foes[&m_takumi] = Position(1, 1);
-			m_mapData = MapData(10, 10, allyPos, foes);
+			std::vector<Position> allyPos{ Position(5, 5) };
+			std::vector<Position> foesPos{ Position(3, 3), Position(2, 2), Position(1, 1) };
+			m_mapData = MapData("map", 10, 10, allyPos, foesPos);
 			m_map = Map(m_mapData);
-			m_map.init(&m_alphonse);
+
+			std::vector<Unit*> allies{ &m_alphonse };
+			std::vector<Unit*> foes{ &m_sharena, &m_nino, &m_takumi };
+			m_map.init(&allies, &foes);
 		}
 
 	public:

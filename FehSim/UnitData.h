@@ -15,13 +15,13 @@ class FEHSIM_API UnitData
 	friend class DataLoader;
 
 protected:
-	std::string m_id;
-	std::string m_name;
+	std::string m_id = "";
+	std::string m_name = "";
 
-	WeaponIndex m_weaponIdx;
-	UnitColor m_color;
-	WeaponType m_type;
-	MvtType m_mvt;
+	WeaponIndex m_weaponIdx = WeaponIndex::RED_SWORD;
+	UnitColor m_color = UnitColor::RED;
+	WeaponType m_type = WeaponType::SWORD;
+	MvtType m_mvt = MvtType::INFANTRY;
 
 	Stats m_baseStats;
 	Stats m_growths;
@@ -39,9 +39,9 @@ public:
 	std::string toString()				const { return getName() + " : " + getTitle(); }
 	std::string toString(Translator& t)	const { return getName(t) + " : " + getTitle(t); }
 
-	UnitColor getColor()		const { return m_color; }
-	WeaponType getWeaponType()	const { return m_type; }
-	MvtType getMvtType()		const { return m_mvt; }
+	UnitColor	getColor()		const { return m_color; }
+	WeaponType	getWeaponType()	const { return m_type; }
+	MvtType		getMvtType()	const { return m_mvt; }
 
 	const Stats& getBaseStats()	const { return m_baseStats; }
 	const Stats& getGrowths()	const { return m_growths; }

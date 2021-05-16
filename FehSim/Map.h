@@ -10,11 +10,11 @@
 class FEHSIM_API Move
 {
 public:
-	Unit* m_unit = nullptr;
+	const Unit* m_unit = nullptr;
 	Position m_movement = Position::nowhere;
 	Position m_action = Position::nowhere;
 
-	Move(Unit* unit = nullptr, Position movement = Position::nowhere, Position action = Position::nowhere)
+	Move(const Unit* unit = nullptr, Position movement = Position::nowhere, Position action = Position::nowhere)
 		: m_unit(unit), m_movement(movement), m_action(action) {}
 };
 
@@ -26,8 +26,8 @@ private:
 
 	int m_turnNumber = 1;
 	int m_turnPlayer = 0;
-	std::map<Unit*, UnitState> m_unitsStates;
-	std::map<Unit*, Position> m_unitsPos;
+	std::map<const Unit*, UnitState> m_unitsStates;
+	std::map<const Unit*, Position> m_unitsPos;
 
 public:
 	Map() {}
@@ -40,11 +40,11 @@ public:
 	bool isValid(Position pos) const;
 	bool isFree(Position pos) const;
 
-	const std::map<Unit*, Position>& getUnits() const { return m_unitsPos; }
+	const std::map<const Unit*, Position>& getUnits() const { return m_unitsPos; }
 
-	const Position& getPos(Unit* unit) const;
-	Unit* getUnit(Position pos);
-	UnitState& getState(Unit* unit) { return m_unitsStates.at(unit); };
+	const Position& getPos(const Unit* unit) const;
+	const Unit* getUnit(Position pos);
+	UnitState& getState(const Unit* unit) { return m_unitsStates.at(unit); };
 	UnitState& getUnitState(Position pos) { return getState(getUnit(pos)); };
 
 	int getTurnNumber() { return m_turnNumber; }
@@ -54,12 +54,12 @@ public:
 	bool isGameOver();
 	UnitColor getWinnerColor();
 
-	bool canMakeMove(Unit* unit, Position movement, Position action = Position::nowhere);
+	bool canMakeMove(const Unit* unit, Position movement, Position action = Position::nowhere);
 	inline bool makeMove(Move move) { return makeMove(move.m_unit, move.m_movement, move.m_action); }
-	bool makeMove(Unit* unit, Position movement, Position action = Position::nowhere);
+	bool makeMove(const Unit* unit, Position movement, Position action = Position::nowhere);
 
 	std::vector<Move> getPossibleMoves(UnitColor side);
-	std::vector<Move> getPossibleMoves(Unit* unit);
+	std::vector<Move> getPossibleMoves(const Unit* unit);
 
 	void newTurn();
 
@@ -68,8 +68,8 @@ public:
 
 private:
 	void clearUnits() { m_unitsStates.clear(); m_unitsPos.clear(); };
-	void addUnit(Unit* ally, const Position& pos, UnitColor side);
-	void getPossibleMoves(Unit* unit, Position movement, std::vector<Move>& res);
+	void addUnit(const Unit* ally, const Position& pos, UnitColor side);
+	void getPossibleMoves(const Unit* unit, Position movement, std::vector<Move>& res);
 };
 
 #pragma warning( pop ) 

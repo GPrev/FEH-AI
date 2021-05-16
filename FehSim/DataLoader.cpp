@@ -130,12 +130,12 @@ void DataLoader::skillDataFromFile(std::string filePath)
 
 void DataLoader::skillDataFromJson(const json& j)
 {
-	std::string unitID = j["id_tag"];
+	std::string skillID = j["id_tag"];
 
-	Skill& d = m_skills[unitID];
+	Skill& d = m_skills[skillID];
 	d = Skill();
 
-	d.m_id = unitID;
+	d.m_id = skillID;
 	d.m_name = j["name_id"];
 	d.m_category = j["category"];
 	d.m_stats = statsFromJson(j["stats"]);
@@ -177,4 +177,93 @@ std::pair<SkillSet, SkillSet> DataLoader::twoSkillSetsFromJson(const json& j)
 		}
 	}
 	return std::pair<SkillSet, SkillSet>(ss1, ss2);
+}
+
+void DataLoader::loadAllMaps()
+{
+	if (m_maps.size() == 0)
+	{
+		for (const auto& file : directory_iterator(m_mapDataPath))
+		{
+			mapDataFromFile(file.path().string());
+		}
+	}
+}
+
+void DataLoader::mapDataFromFile(std::string filePath)
+{
+	std::ifstream i(filePath);
+	json j;
+	i >> j;
+	mapDataFromJson(j);
+}
+
+void DataLoader::mapDataFromJson(const json& j)
+{
+	const json& jField = j["field"];
+
+	std::string mapID = jField["id"];
+
+	int width = jField["width"];
+	int height = jField["height"];
+
+	const json& jTerrain = jField["terrain"];
+	std::vector<std::vector<int>> terrain(height);
+	for (json::const_iterator itRow = jTerrain.cbegin(); itRow != jTerrain.cend(); ++itRow)
+	{
+		terrain.push_back(std::vector<int>(width));
+		std::vector<int>& row = terrain[terrain.size() - 1];
+		for (json::const_iterator itCol = itRow->cbegin(); itCol != itRow->cend(); ++itCol)
+		{
+			row.push_back(*itCol);
+		}
+	}
+
+	int allyCount = j["player_count"];
+	std::vector<Position> allyPos(allyCount);
+	const json& jAllies = j["player_pos"];
+	for (json::const_iterator it = jAllies.cbegin(); it != jAllies.cend(); ++it)
+	{
+		allyPos.push_back(positionFromJson(*it));
+	}
+
+	std::map<Position, Unit> foesPos;
+	const json& jFoes = j["units"];
+	for (json::const_iterator it = jFoes.cbegin(); it != jFoes.cend(); ++it)
+	{
+		std::pair<Position, Unit> foe = mapDataUnitFromJson(*it);
+		foesPos[foe.first] = foe.second;
+	}
+
+	m_maps[mapID] = MapData(mapID, width, height, allyPos, foesPos);
+
+	MapData& data = m_maps[mapID];
+	data = MapData(mapID, width, height, allyPos, foesPos);
+
+	data.m_turnsToWin = j["turns_to_win"];
+	data.m_lastEnemyPhase = j["last_enemy_phase"];
+	data.m_turnsToDefend = j["turns_to_defend"];
+}
+
+Position DataLoader::positionFromJson(const json& j)
+{
+	return Position(j["x"], j["y"]);
+}
+
+std::pair<Position, Unit> DataLoader::mapDataUnitFromJson(const json& j)
+{
+	Position pos = positionFromJson(j["pos"]);
+
+	Unit u;
+
+	std::string unitID = j["id_tag"];
+
+	u.m_data = getUnitData(unitID);
+
+	u.m_rarity = j["rarity"];
+	u.m_level = j["lv"];
+	u.m_stats = statsFromJson(j["stats"]);
+	u.m_skills = skillSetFromJson(j["skills"]);
+
+	return std::pair<Position, Unit>(pos, u);
 }

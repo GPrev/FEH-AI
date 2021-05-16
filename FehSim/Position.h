@@ -30,6 +30,8 @@ public:
 
 	Position operator+(const Position& pos) { return Position(m_x + pos.m_x, m_y + pos.m_y); }
 
+	bool operator<(const Position& pos) const { return m_y < pos.m_y || (m_y == pos.m_y&& m_x < pos.m_x); }
+
 	std::string toString() const;
 
 	static const Position nowhere;

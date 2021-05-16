@@ -8,6 +8,7 @@
 #include "Weapon.h"
 #include "Skill.h"
 #include "SkillSet.h"
+#include "MapData.h"
 
 #pragma warning( push )
 #pragma warning( disable : 4251)
@@ -17,10 +18,12 @@ class FEHSIM_API DataLoader
 private:
 	std::string m_heroDataPath = "../../feh-assets-json/files/assets/Common/SRPG/Person/";
 	std::string m_skillDataPath = "../../feh-assets-json/files/assets/Common/SRPG/Skill/";
+	std::string m_mapDataPath = "../../feh-assets-json/files/assets/Common/SRPGMap/";
 
 	std::map<std::string, UnitData> m_units;
 	std::map<std::string, Weapon> m_weapons;
 	std::map<std::string, Skill> m_skills;
+	std::map<std::string, MapData> m_maps;
 
 	std::vector<std::string> m_unitNames;
 
@@ -34,6 +37,7 @@ public:
 
 private:
 	Stats statsFromJson(const nlohmann::json& j);
+	Position DataLoader::positionFromJson(const nlohmann::json& j);
 
 	void loadAllUnits();
 	void unitDataFromFile(std::string filePath);
@@ -45,6 +49,11 @@ private:
 
 	SkillSet skillSetFromJson(const nlohmann::json& j);
 	std::pair<SkillSet, SkillSet> twoSkillSetsFromJson(const nlohmann::json& j);
+
+	void loadAllMaps();
+	void mapDataFromFile(std::string filePath);
+	void mapDataFromJson(const nlohmann::json& j);
+	std::pair<Position, Unit> mapDataUnitFromJson(const nlohmann::json& j);
 };
 
 #pragma warning( pop )

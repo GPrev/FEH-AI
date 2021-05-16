@@ -6,7 +6,7 @@ Rules::Rules()
 {
 }
 
-void Rules::doBattle(Map& map, Unit* _attacker, Unit* _defender)
+void Rules::doBattle(Map& map, const Unit* _attacker, const Unit* _defender)
 {
 	UnitState& attState = map.getState(_attacker);
 	Stats attStats = attState.getStats();

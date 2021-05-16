@@ -9,7 +9,7 @@
 class FEHSIM_API UnitState
 {
 private:
-	Unit* m_unit = nullptr;
+	const Unit* m_unit = nullptr;
 
 	UnitColor m_side = COLORLESS;
 	int m_currentHP = 0;
@@ -19,10 +19,10 @@ private:
 
 public:
 	UnitState() {}
-	UnitState(Unit& unit, UnitColor side) : m_unit(&unit), m_side(side), m_currentHP(unit.getStats().getHp()) {}
+	UnitState(const Unit& unit, UnitColor side) : m_unit(&unit), m_side(side), m_currentHP(unit.getStats().getHp()) {}
 	~UnitState() {};
 
-	Unit* getUnit() { return m_unit; }
+	const Unit* getUnit() { return m_unit; }
 
 	UnitColor getSide() const { return m_side; }
 

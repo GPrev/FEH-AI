@@ -29,7 +29,7 @@ int main()
 	enemyPos.push_back(Position(2, 6));
 	enemyPos.push_back(Position(3, 6));
 	enemyPos.push_back(Position(4, 6));
-	availableMaps.push_back(new MapData(6, 8, allyPos, enemyPos));
+	availableMaps.push_back(new MapData("map", 6, 8, allyPos, enemyPos));
 
 	std::cout << "Optimising..." << std::endl;
 	ae.init(&ai, &ai, &availableMaps);

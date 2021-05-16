@@ -7,7 +7,7 @@ class FEHSIM_API Rules
 public:
 	Rules();
 
-	static void doBattle(Map& map, Unit* _attacker, Unit* _defender);
+	static void doBattle(Map& map, const Unit* _attacker, const Unit* _defender);
 
 private:
 	static void strike(UnitState& _attacker, UnitState& _defender, Stats& _attStats, Stats& _defStats);

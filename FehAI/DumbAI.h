@@ -11,6 +11,6 @@ protected:
 	virtual Move chooseMove(Map& map, UnitColor side);
 
 private:
-	Position closestEnemy(Map& map, Unit* unit);
+	Position closestEnemy(Map& map, const Unit* unit);
 };
 

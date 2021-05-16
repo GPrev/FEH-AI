@@ -11,6 +11,8 @@
 
 class FEHSIM_API Unit
 {
+	friend class DataLoader;
+
 private:
 	UnitData* m_data;
 
@@ -34,7 +36,9 @@ public:
 	const UnitData* getData() const { return m_data; }
 
 	WeaponType getWeaponType() const { return m_data->getWeaponType(); }
-	UnitColor getColor() const		{ return m_data->getColor(); }
+	UnitColor getColor() const { return m_data->getColor(); }
+	MvtType getMvtType() const { return m_data->getMvtType(); }
+
 	Stats getStats() const	{ return m_stats + Stats::atkStat(m_skills.getSkill(SkillCategory::WEAPON) == nullptr ? 0 : m_skills.getSkill(SkillCategory::WEAPON)->getMight()); }
 	int getMvt() const   { return getMvtRange(m_data->getMvtType()); } // TODO consider mvt types
 	int getRange() const { return getAttackRange(m_data->getWeaponType()); }

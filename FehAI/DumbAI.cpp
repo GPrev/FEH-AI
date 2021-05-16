@@ -40,7 +40,7 @@ Move DumbAI::chooseMove(Map& map, UnitColor side)
 	return best;
 }
 
-Position DumbAI::closestEnemy(Map& map, Unit* unit)
+Position DumbAI::closestEnemy(Map& map, const Unit* unit)
 {
 	UnitColor side = map.getState(unit).getSide();
 	Position pos = map.getPos(unit);
