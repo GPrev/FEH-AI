@@ -17,6 +17,7 @@ class FEHSIM_API DataLoader
 {
 private:
 	std::string m_heroDataPath = "../../feh-assets-json/files/assets/Common/SRPG/Person/";
+	std::string m_enemyDataPath = "../../feh-assets-json/files/assets/Common/SRPG/Enemy/";
 	std::string m_skillDataPath = "../../feh-assets-json/files/assets/Common/SRPG/Skill/";
 	std::string m_mapDataPath = "../../feh-assets-json/files/assets/Common/SRPGMap/";
 
@@ -26,22 +27,25 @@ private:
 	std::map<std::string, MapData> m_maps;
 
 	std::vector<std::string> m_unitNames;
+	std::vector<std::string> m_mapNames;
 
 public:
 	DataLoader(bool loadNow = false);
 
 	UnitData* getUnitData(std::string unitID);
-	Skill* getSkillData(std::string unitID);
+	Skill* getSkillData(std::string skillID);
+	MapData* getMapData(std::string mapID);
 
 	std::vector<std::string>& getUnitNames(); // Used to pick random units
+	std::vector<std::string>& getMapNames();
 
 private:
 	Stats statsFromJson(const nlohmann::json& j);
 	Position DataLoader::positionFromJson(const nlohmann::json& j);
 
 	void loadAllUnits();
-	void unitDataFromFile(std::string filePath);
-	void unitDataFromJson(const nlohmann::json& j);
+	void unitDataFromFile(std::string filePath, bool playable);
+	void unitDataFromJson(const nlohmann::json& j, bool playable);
 
 	void loadAllSkills();
 	void skillDataFromFile(std::string filePath);
@@ -50,6 +54,7 @@ private:
 	SkillSet skillSetFromJson(const nlohmann::json& j);
 	std::pair<SkillSet, SkillSet> twoSkillSetsFromJson(const nlohmann::json& j);
 
+	void loadAllMapNames();
 	void loadAllMaps();
 	void mapDataFromFile(std::string filePath);
 	void mapDataFromJson(const nlohmann::json& j);

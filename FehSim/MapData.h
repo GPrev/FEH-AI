@@ -41,9 +41,11 @@ public:
 			m_enemyPos.push_back(imap.first);
 		}
 	}
-	
-	int getWidth() const { return m_width; }
-	int getHeight() const { return m_height; }
+
+	std::string getId() const { return m_id; }
+
+	int getWidth()	const { return m_width; }
+	int getHeight()	const { return m_height; }
 
 	std::vector<Position>& getAllyPositions() { return m_allyPos; }
 	std::vector<Position>& getEnemyPositions() { return m_enemyPos; }

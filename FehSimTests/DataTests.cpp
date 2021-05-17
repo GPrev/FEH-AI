@@ -98,5 +98,35 @@ namespace FehSimTests
 			TestUnit(Unit(*data, 4, 40), Stats(38, 29, 32, 26, 21));
 			TestUnit(Unit(*data, 5, 40), Stats(41, 31, 34, 29, 23));
 		}
+
+		TEST_METHOD(LoadMap)
+		{
+			std::vector<std::string>& mapNames = m_dataLoader.getMapNames();
+			Assert::AreNotEqual((size_t)0, mapNames.size());
+			MapData* data = m_dataLoader.getMapData("F0001");
+			Assert::AreEqual(std::string("F0001"), data->getId());
+
+			Assert::AreEqual(6, data->getWidth());
+			Assert::AreEqual(8, data->getHeight());
+
+			auto& allyPos = data->getAllyPositions();
+			auto& enemyPos = data->getEnemyPositions();
+			auto& foes = data->getFoes();
+
+			Assert::AreEqual((size_t)4, allyPos.size());
+			Assert::AreEqual(1, allyPos[0].getX());
+			Assert::AreEqual(2, allyPos[0].getY());
+
+			Assert::AreEqual((size_t)10, enemyPos.size());
+			Assert::AreEqual(1, enemyPos[0].getX());
+			Assert::AreEqual(7, enemyPos[0].getY());
+
+			Assert::AreEqual((size_t)10, foes.size());
+			Assert::IsNotNull(foes[0].getData());
+			Assert::AreEqual(std::string(u8"EID_ソードファイター"), foes[0].getData()->getId());
+			Assert::AreEqual(18, foes[0].getStats().getHp());
+			Assert::AreEqual(5, foes[0].getStats().getSpd());
+			Assert::AreEqual(std::string(u8"SID_鉄の剣"), foes[0].getSkill(SkillCategory::WEAPON)->getId());
+		}
 	};
 }

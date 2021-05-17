@@ -18,6 +18,8 @@ protected:
 	std::string m_id = "";
 	std::string m_name = "";
 
+	bool m_playable = true;
+
 	WeaponIndex m_weaponIdx = WeaponIndex::RED_SWORD;
 	UnitColor m_color = UnitColor::RED;
 	WeaponType m_type = WeaponType::SWORD;
@@ -32,6 +34,7 @@ protected:
 public:
 	UnitData() {}
 
+	std::string getId()					const { return m_id; }
 	std::string getName()				const { return m_name; }
 	std::string getTitle()				const;
 	std::string getName(Translator& t)	const { return t.translate(getName()); }

@@ -43,10 +43,33 @@ Skill* DataLoader::getSkillData(std::string skillID)
 		return nullptr;
 }
 
+MapData* DataLoader::getMapData(std::string mapID)
+{
+	if (m_maps.count(mapID) == 0)
+	{
+		try
+		{
+			mapDataFromFile(m_mapDataPath + mapID + ".json");
+		}
+		catch (...)
+		{
+			return nullptr;
+		}
+	}
+
+	return &m_maps.at(mapID);
+}
+
 std::vector<std::string>& DataLoader::getUnitNames()
 {
 	loadAllUnits();
 	return m_unitNames;
+}
+
+std::vector<std::string>& DataLoader::getMapNames()
+{
+	loadAllMapNames();
+	return m_mapNames;
 }
 
 Stats DataLoader::statsFromJson(const json& j)
@@ -60,12 +83,16 @@ void DataLoader::loadAllUnits()
 	{
 		for (const auto& file : directory_iterator(m_heroDataPath))
 		{
-			unitDataFromFile(file.path().string());
+			 unitDataFromFile(file.path().string(), true);
+		}
+		for (const auto& file : directory_iterator(m_enemyDataPath))
+		{
+			unitDataFromFile(file.path().string(), false);
 		}
 	}
 }
 
-void DataLoader::unitDataFromFile(std::string filePath)
+void DataLoader::unitDataFromFile(std::string filePath, bool playable)
 {
 	std::ifstream i(filePath);
 	json j;
@@ -73,11 +100,11 @@ void DataLoader::unitDataFromFile(std::string filePath)
 
 	for (json::iterator it = j.begin(); it != j.end(); ++it)
 	{
-		unitDataFromJson(*it);
+		unitDataFromJson(*it, playable);
 	}
 }
 
-void DataLoader::unitDataFromJson(const json& j)
+void DataLoader::unitDataFromJson(const json& j, bool playable)
 {
 	std::string unitID = j["id_tag"];
 
@@ -89,6 +116,8 @@ void DataLoader::unitDataFromJson(const json& j)
 	d.m_id = unitID;
 	d.m_name = "M" + unitID; // Not found elsewhere to my knowledge
 
+	d.m_playable = playable;
+
 	d.m_weaponIdx = (WeaponIndex)j["weapon_type"];
 	d.m_color = getWeaponColor(d.m_weaponIdx);
 	d.m_type = getWeaponType(d.m_weaponIdx);
@@ -97,11 +126,15 @@ void DataLoader::unitDataFromJson(const json& j)
 	d.m_baseStats = statsFromJson(j["base_stats"]);
 	d.m_growths = statsFromJson(j["growth_rates"]);
 
-	for (int i = 0; i < 5; ++i)
+	// Only playable units can learn skills
+	if (playable)
 	{
-		std::pair<SkillSet, SkillSet> skillSets = twoSkillSetsFromJson(j["skills"][i]);
-		d.m_learnedSkills[i] = skillSets.first;
-		d.m_learnableSkills[i] = skillSets.second;
+		for (int i = 0; i < 5; ++i)
+		{
+			std::pair<SkillSet, SkillSet> skillSets = twoSkillSetsFromJson(j["skills"][i]);
+			d.m_learnedSkills[i] = skillSets.first;
+			d.m_learnableSkills[i] = skillSets.second;
+		}
 	}
 }
 
@@ -179,6 +212,17 @@ std::pair<SkillSet, SkillSet> DataLoader::twoSkillSetsFromJson(const json& j)
 	return std::pair<SkillSet, SkillSet>(ss1, ss2);
 }
 
+void DataLoader::loadAllMapNames()
+{
+	if (m_mapNames.size() == 0)
+	{
+		for (const auto& file : directory_iterator(m_mapDataPath))
+		{
+			m_mapNames.push_back(file.path().stem().string());
+		}
+	}
+}
+
 void DataLoader::loadAllMaps()
 {
 	if (m_maps.size() == 0)
@@ -222,27 +266,32 @@ void DataLoader::mapDataFromJson(const json& j)
 	int allyCount = j["player_count"];
 	std::vector<Position> allyPos(allyCount);
 	const json& jAllies = j["player_pos"];
+	int i = 0;
 	for (json::const_iterator it = jAllies.cbegin(); it != jAllies.cend(); ++it)
 	{
-		allyPos.push_back(positionFromJson(*it));
+		allyPos[i] = positionFromJson(*it);
+		i++;
 	}
 
-	std::map<Position, Unit> foesPos;
+	int foeCount = j["unit_count"];
+	std::vector<Unit> foes(foeCount);
+	std::vector<Position> foesPos(foeCount);
 	const json& jFoes = j["units"];
+	i = 0;
 	for (json::const_iterator it = jFoes.cbegin(); it != jFoes.cend(); ++it)
 	{
 		std::pair<Position, Unit> foe = mapDataUnitFromJson(*it);
-		foesPos[foe.first] = foe.second;
+		foesPos[i] = foe.first;
+		foes[i] = foe.second;
+		i++;
 	}
 
-	m_maps[mapID] = MapData(mapID, width, height, allyPos, foesPos);
-
 	MapData& data = m_maps[mapID];
-	data = MapData(mapID, width, height, allyPos, foesPos);
+	data = MapData(mapID, width, height, allyPos, foesPos, foes);
 
-	data.m_turnsToWin = j["turns_to_win"];
-	data.m_lastEnemyPhase = j["last_enemy_phase"];
-	data.m_turnsToDefend = j["turns_to_defend"];
+	data.m_turnsToWin		= j["turns_to_win"];
+	data.m_lastEnemyPhase	= j["last_enemy_phase"];
+	data.m_turnsToDefend	= j["turns_to_defend"];
 }
 
 Position DataLoader::positionFromJson(const json& j)
