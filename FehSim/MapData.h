@@ -6,6 +6,7 @@
 #include "FehSim.h"
 #include "Unit.h"
 #include "Position.h"
+#include "Terrain.h"
 
 #pragma warning( push )
 #pragma warning( disable : 4251)
@@ -23,6 +24,7 @@ private:
 
 	int m_width;
 	int m_height;
+	std::vector<std::vector<const Terrain*>> m_terrain;
 
 	std::vector<Position> m_allyPos;
 	std::vector<Position> m_enemyPos;
@@ -46,6 +48,7 @@ public:
 
 	int getWidth()	const { return m_width; }
 	int getHeight()	const { return m_height; }
+	const Terrain* getTerrain(const Position& pos) { return m_terrain[pos.getY()][pos.getX()]; }
 
 	std::vector<Position>& getAllyPositions() { return m_allyPos; }
 	std::vector<Position>& getEnemyPositions() { return m_enemyPos; }

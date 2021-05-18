@@ -60,6 +60,19 @@ MapData* DataLoader::getMapData(std::string mapID)
 	return &m_maps.at(mapID);
 }
 
+Terrain* DataLoader::getTerrain(int terrainID)
+{
+	if (m_terrain.size() == 0)
+	{
+		loadAllTerrain();
+	}
+
+	if (m_terrain.size() > terrainID)
+		return &m_terrain.at(terrainID);
+	else
+		return nullptr;
+}
+
 std::vector<std::string>& DataLoader::getUnitNames()
 {
 	loadAllUnits();
@@ -252,14 +265,20 @@ void DataLoader::mapDataFromJson(const json& j)
 	int height = jField["height"];
 
 	const json& jTerrain = jField["terrain"];
-	std::vector<std::vector<int>> terrain(height);
+	std::vector<std::vector<const Terrain*>> terrain(height);
+	int x = 0;
 	for (json::const_iterator itRow = jTerrain.cbegin(); itRow != jTerrain.cend(); ++itRow)
 	{
-		terrain.push_back(std::vector<int>(width));
-		std::vector<int>& row = terrain[terrain.size() - 1];
+		terrain[x] = std::vector<const Terrain*>(width);
+		std::vector<const Terrain*>& row = terrain[x];
+		x++;
+		row = std::vector<const Terrain*>(width);
+		int y = 0;
 		for (json::const_iterator itCol = itRow->cbegin(); itCol != itRow->cend(); ++itCol)
 		{
-			row.push_back(*itCol);
+			int terrainID = itCol->get<int>();
+			row[y] = getTerrain(terrainID);
+			y++;
 		}
 	}
 
@@ -289,6 +308,8 @@ void DataLoader::mapDataFromJson(const json& j)
 	MapData& data = m_maps[mapID];
 	data = MapData(mapID, width, height, allyPos, foesPos, foes);
 
+	data.m_terrain = terrain;
+
 	data.m_turnsToWin		= j["turns_to_win"];
 	data.m_lastEnemyPhase	= j["last_enemy_phase"];
 	data.m_turnsToDefend	= j["turns_to_defend"];
@@ -315,4 +336,47 @@ std::pair<Position, Unit> DataLoader::mapDataUnitFromJson(const json& j)
 	u.m_skills = skillSetFromJson(j["skills"]);
 
 	return std::pair<Position, Unit>(pos, u);
+}
+
+void DataLoader::loadAllTerrain()
+{
+	std::ifstream i(m_terrainDataPath);
+	json j;
+	i >> j;
+
+	// Resize once to save time
+	m_terrain.resize(j.size());
+
+	for (json::iterator it = j.begin(); it != j.end(); ++it)
+	{
+		terrainFromJson(*it);
+	}
+}
+
+void DataLoader::terrainFromJson(const json& j)
+{
+	int terrainID = j["index"];
+
+	// Makes sure we don't go out of bounds
+	if (m_terrain.size() <= terrainID)
+	{
+		m_terrain.resize(terrainID + 1);
+	}
+
+	Terrain& t = m_terrain[terrainID];
+	t.m_index = terrainID;
+	t.m_baseTerrain = j["base_terrain"];
+	t.m_foeBaseTerrain = j["foe_base_terrain"];
+	t.m_side = j["side"];
+	t.m_terrainGroup = j["terrain_group"];
+	t.m_inaccessible = j["inaccessible"];
+	t.m_hp = j["hp"];
+	t.m_isWall = j["is_wall"];
+	t.m_isLiquid = j["is_liquid"];
+	t.m_isBridge = j["is_bridge"];
+	t.m_isTrench = j["is_trench"];
+	t.m_isFortress = j["is_fortress"];
+	t.m_isRdTerrain = j["is_rd_terrain"];
+	t.m_mitMod = j["mit_mod"];
+	t.m_regenHp = j["regen_hp"];
 }

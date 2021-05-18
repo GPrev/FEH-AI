@@ -99,6 +99,30 @@ namespace FehSimTests
 			TestUnit(Unit(*data, 5, 40), Stats(41, 31, 34, 29, 23));
 		}
 
+		void TestTerrain(uint terrainID, int expectedFlyCost, int expectedCrawlCost, int expectedWalkCost, int expectedRideCost)
+		{
+			const Terrain* terrain = m_dataLoader.getTerrain(terrainID);
+			Assert::AreEqual(expectedFlyCost, terrain->moveCost(MvtType::FLYING));
+			Assert::AreEqual(expectedCrawlCost, terrain->moveCost(MvtType::ARMORED));
+			Assert::AreEqual(expectedWalkCost, terrain->moveCost(MvtType::INFANTRY));
+			Assert::AreEqual(expectedRideCost, terrain->moveCost(MvtType::CAVALRY));
+		}
+
+		TEST_METHOD(LoadTerrain)
+		{
+			TestTerrain(0, 1, 1, 1, 1); //Outdoor
+			TestTerrain(1, 1, 1, 1, 1); //Indoor
+			TestTerrain(2, 1, 1, 1, 1); //Desert
+			TestTerrain(3, 1, 1, 2, 0); //Forest
+			TestTerrain(4, 1, 0, 0, 0); //Mountain
+			TestTerrain(5, 1, 0, 0, 0); //River
+			TestTerrain(6, 1, 0, 0, 0); //Sea
+			TestTerrain(7, 1, 0, 0, 0); //Lava
+			TestTerrain(8, 0, 0, 0, 0); //Wall
+			TestTerrain(22, 1, 1, 1, 2); //Outdoor trench
+			TestTerrain(23, 1, 1, 1, 2); //Indoor trench
+		}
+
 		TEST_METHOD(LoadMap)
 		{
 			std::vector<std::string>& mapNames = m_dataLoader.getMapNames();
@@ -127,6 +151,9 @@ namespace FehSimTests
 			Assert::AreEqual(18, foes[0].getStats().getHp());
 			Assert::AreEqual(5, foes[0].getStats().getSpd());
 			Assert::AreEqual(std::string(u8"SID_鉄の剣"), foes[0].getSkill(SkillCategory::WEAPON)->getId());
+
+			Assert::AreEqual((uint)4, data->getTerrain(Position(5, 0))->getId());
+			Assert::AreEqual((uint)4, data->getTerrain(Position(0, 7))->getId());
 		}
 	};
 }
