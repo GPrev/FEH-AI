@@ -15,22 +15,31 @@ void Map::init(std::vector<Unit>* allies, std::vector<Unit>* foes)
 {
 	std::vector<Unit*> alliesp;
 	alliesp.reserve(allies->size());
-	std::vector<Unit*> foesp;
-	foesp.reserve(foes->size());
 	for (Unit& ally : *allies)
 	{
 		alliesp.push_back(&ally);
 	}
-	for (Unit& foe : *foes)
+	std::vector<Unit*> foesp;
+	if (foes != nullptr)
 	{
-		foesp.push_back(&foe);
+		foesp.reserve(foes->size());
+		for (Unit& foe : *foes)
+		{
+			foesp.push_back(&foe);
+		}
 	}
-	init(&alliesp, &foesp);
+	if (foes != nullptr)
+	{
+		init(&alliesp, &foesp);
+	}
+	else
+	{
+		init(&alliesp);
+	}
 }
 
 void Map::init(const std::vector<Unit*>* allies, const std::vector<Unit*>* foes)
 {
-
 	clearUnits();
 	for (size_t i = 0; i < allies->size(); ++i)
 	{
@@ -72,7 +81,12 @@ bool Map::isValid(Position pos) const
 
 bool Map::isFree(Position pos) const
 {
-	return isValid(pos) && m_unitsPos.end() == std::find_if(m_unitsPos.begin(), m_unitsPos.end(), [&pos](const std::pair<const Unit*, Position> &pair) { return pair.second == pos; });
+	return isValid(pos) && m_unitsPos.end() == std::find_if(m_unitsPos.begin(), m_unitsPos.end(), [&pos](const std::pair<const Unit*, Position>& pair) { return pair.second == pos; });
+}
+
+bool Map::isFreeOrAlly(Position pos, UnitColor side) const
+{
+	return isValid(pos) && m_unitsPos.end() == std::find_if(m_unitsPos.begin(), m_unitsPos.end(), [this, &pos, &side](const std::pair<const Unit*, Position>& pair) { return pair.second == pos && getState(pair.first).getSide() != side; });
 }
 
 void Map::addUnit(const Unit* unit, const Position& pos, UnitColor side)
@@ -123,8 +137,8 @@ bool Map::canMakeMove(const Unit* unit, Position movement, Position action)
 	// Vérif mvt
 	if (ok)
 	{
-		// TODO consider terrain
-		ok = (movement == unitPos) || (isFree(movement) && unitPos.distance(movement) <= unit->getMvt());
+		// Not moving is always valid. Destination must be free and not too far. Lastly, a path must exist that is not too long.
+		ok = (movement == unitPos) || (isFree(movement) && unitPos.distance(movement) <= unit->getMvt() && canFindPath(unitPos, movement, unit->getMvtType(), unit->getMvt(), state.getSide()));
 	}
 
 	// Vérif action
@@ -238,6 +252,66 @@ void Map::getPossibleMoves(const Unit* unit, Position movement, std::vector<Move
 		{
 			res.push_back(Move(unit, movement, action));
 		}
+	}
+}
+
+bool Map::canFindPath(const Position& origin, const Position& destination, MvtType mvtType, int maxLength, UnitColor side)
+{
+	// We can always not move
+	if (origin.distance(destination) == 0)
+	{
+		return true;
+	}
+	// Destination must be free
+	else if (!isFree(destination))
+	{
+		return false;
+	}
+	// Moving one tile depends on the cost of the tile
+	else if (origin.distance(destination) == 1)
+	{
+		// Note that if the tile is not accessible its move cost will just be very big
+		return  m_data->getTerrain(destination)->moveCost(mvtType) <= maxLength;
+	}
+	// When the tiles are not side by side we have to try different paths
+	else
+	{
+		// Since the maximum movement length is 3, moving in the direction opposite of the destination will always fail
+		// That means we can test only the tiles going in the direction we want to go
+		std::vector<Position> toBeTested;
+		if (origin.getX() < destination.getX())
+		{
+			toBeTested.push_back(origin + Position(1, 0));
+		}
+		else if (origin.getX() > destination.getX())
+		{
+			toBeTested.push_back(origin + Position(-1, 0));
+		}
+		if (origin.getY() < destination.getY())
+		{
+			toBeTested.push_back(origin + Position(0, 1));
+		}
+		else if (origin.getY() > destination.getY())
+		{
+			toBeTested.push_back(origin + Position(0, -1));
+		}
+		for (Position& pos : toBeTested)
+		{
+			// We cannot use a position occupied by an enemy
+			if (isFreeOrAlly(pos, side))
+			{
+				// We test one path, substracting the cost of the first move to the total
+				// Note that if the tile is not accessible its move cost will just be very big
+				int firstMoveCost = m_data->getTerrain(pos)->moveCost(mvtType);
+				if (maxLength > firstMoveCost && canFindPath(pos, destination, mvtType, maxLength - firstMoveCost, side))
+				{
+					// No need to test more if one path works
+					return true;
+				}
+			}
+		}
+		// If no path was found
+		return false;
 	}
 }
 

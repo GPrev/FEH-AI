@@ -39,11 +39,13 @@ public:
 
 	bool isValid(Position pos) const;
 	bool isFree(Position pos) const;
+	bool isFreeOrAlly(Position pos, UnitColor side) const;
 
 	const std::map<const Unit*, Position>& getUnits() const { return m_unitsPos; }
 
 	const Position& getPos(const Unit* unit) const;
 	const Unit* getUnit(Position pos);
+	const UnitState& getState(const Unit* unit) const { return m_unitsStates.at(unit); };
 	UnitState& getState(const Unit* unit) { return m_unitsStates.at(unit); };
 	UnitState& getUnitState(Position pos) { return getState(getUnit(pos)); };
 
@@ -70,6 +72,7 @@ private:
 	void clearUnits() { m_unitsStates.clear(); m_unitsPos.clear(); };
 	void addUnit(const Unit* ally, const Position& pos, UnitColor side);
 	void getPossibleMoves(const Unit* unit, Position movement, std::vector<Move>& res);
+	bool canFindPath(const Position& origin, const Position& destination, MvtType mvtType, int maxLength, UnitColor side);
 };
 
 #pragma warning( pop ) 

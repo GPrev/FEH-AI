@@ -48,7 +48,7 @@ public:
 
 	int getWidth()	const { return m_width; }
 	int getHeight()	const { return m_height; }
-	const Terrain* getTerrain(const Position& pos) { return m_terrain[pos.getY()][pos.getX()]; }
+	const Terrain* getTerrain(const Position& pos) { if (m_terrain.size() == 0) return &Terrain::noTerrain; else return m_terrain[pos.getY()][pos.getX()]; }
 
 	std::vector<Position>& getAllyPositions() { return m_allyPos; }
 	std::vector<Position>& getEnemyPositions() { return m_enemyPos; }

@@ -32,16 +32,19 @@ public:
 
 	uint getId() const { return m_index; }
 
-	bool canMove(MvtType mvt) const { return moveCost(mvt) > 0; }
+	bool canMove(MvtType mvt) const { return moveCost(mvt) != noMove; }
 	int moveCost(MvtType mvt) const;
+	
+	static const Terrain noTerrain;
+	static const int noMove = 99;
 
 private:
 	bool isForest()	const { return m_terrainGroup == 3; }
 	bool isLiquidOrMountain()	const { return m_isLiquid || m_index == 4; }
-	int flyCost()	const { if (m_isWall) return 0; else return 1; }
-	int crawlCost()	const { if (m_isWall || isLiquidOrMountain()) return 0; else return 1; }
-	int walkCost()	const { if (m_isWall || isLiquidOrMountain()) return 0; else if (isForest()) return 2; else return 1; }
-	int rideCost()	const { if (m_isWall || isLiquidOrMountain() || isForest()) return 0; else if (m_isTrench) return 2; else return 1; }
+	int flyCost()	const { if (m_isWall) return noMove; else return 1; }
+	int crawlCost()	const { if (m_isWall || isLiquidOrMountain()) return noMove; else return 1; }
+	int walkCost()	const { if (m_isWall || isLiquidOrMountain()) return noMove; else if (isForest()) return 2; else return 1; }
+	int rideCost()	const { if (m_isWall || isLiquidOrMountain() || isForest()) return noMove; else if (m_isTrench) return 2; else return 1; }
 };
 
 #pragma warning( pop )

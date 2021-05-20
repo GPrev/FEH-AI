@@ -114,5 +114,42 @@ namespace FehSimTests
 			Assert::AreEqual(11, (int)moves.size());
 		}
 
+		TEST_METHOD(MoveThroughTerrain)
+		{
+			Map map(*m_dataLoader.getMapData("F0001"));
+
+			Unit foot(*m_dataLoader.getUnitData(u8"PID_アルフォンス"));
+			Unit cav(*m_dataLoader.getUnitData(u8"PID_ラインハルト"));
+			Unit armor(*m_dataLoader.getUnitData(u8"PID_ヘクトル"));
+			Unit fly(*m_dataLoader.getUnitData(u8"PID_ティアモ"));
+			std::vector<Unit*> allies = { &cav, &foot, &armor, &fly };
+			map.init(&allies);
+
+			// Cavalry movement
+			Assert::IsTrue(map.canMakeMove(&cav, Position(1, 3))); // Up once
+			Assert::IsTrue(map.canMakeMove(&cav, Position(1, 4))); // Up twice
+			Assert::IsTrue(map.canMakeMove(&cav, Position(2, 4))); // Three tiles away
+			Assert::IsFalse(map.canMakeMove(&cav, Position(1, 6))); // Four tiles away
+			Assert::IsFalse(map.canMakeMove(&cav, Position(1, 1))); // Down to the forest
+
+			// Infantry movement
+			Assert::IsTrue(map.canMakeMove(&foot, Position(2, 1))); // Down once
+			Assert::IsTrue(map.canMakeMove(&foot, Position(0, 2))); // Left twice
+			Assert::IsFalse(map.canMakeMove(&foot, Position(5, 2))); // Right three times
+			Assert::IsTrue(map.canMakeMove(&foot, Position(2, 3))); // Up to the forest
+			Assert::IsFalse(map.canMakeMove(&foot, Position(2, 4))); // Up through the forest
+			Assert::IsFalse(map.canMakeMove(&foot, Position(3, 1))); // Down right to the forest
+
+			// Armor movement
+			Assert::IsTrue(map.canMakeMove(&armor, Position(3, 3))); // Up once
+			Assert::IsFalse(map.canMakeMove(&armor, Position(3, 4))); // Up twice
+			Assert::IsTrue(map.canMakeMove(&armor, Position(3, 1))); // Down to the forest
+
+			// Flying movement
+			Assert::IsTrue(map.canMakeMove(&fly, Position(4, 3))); // Up to the forest
+			Assert::IsTrue(map.canMakeMove(&fly, Position(4, 4))); // Up opver the forest
+			Assert::IsFalse(map.canMakeMove(&fly, Position(4, 5))); // Three tiles away
+		}
+
 	};
 }

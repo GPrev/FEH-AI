@@ -110,15 +110,16 @@ namespace FehSimTests
 
 		TEST_METHOD(LoadTerrain)
 		{
+			int n = Terrain::noMove;
 			TestTerrain(0, 1, 1, 1, 1); //Outdoor
 			TestTerrain(1, 1, 1, 1, 1); //Indoor
 			TestTerrain(2, 1, 1, 1, 1); //Desert
-			TestTerrain(3, 1, 1, 2, 0); //Forest
-			TestTerrain(4, 1, 0, 0, 0); //Mountain
-			TestTerrain(5, 1, 0, 0, 0); //River
-			TestTerrain(6, 1, 0, 0, 0); //Sea
-			TestTerrain(7, 1, 0, 0, 0); //Lava
-			TestTerrain(8, 0, 0, 0, 0); //Wall
+			TestTerrain(3, 1, 1, 2, n); //Forest
+			TestTerrain(4, 1, n, n, n); //Mountain
+			TestTerrain(5, 1, n, n, n); //River
+			TestTerrain(6, 1, n, n, n); //Sea
+			TestTerrain(7, 1, n, n, n); //Lava
+			TestTerrain(8, n, n, n, n); //Wall
 			TestTerrain(22, 1, 1, 1, 2); //Outdoor trench
 			TestTerrain(23, 1, 1, 1, 2); //Indoor trench
 		}

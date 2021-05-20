@@ -1,5 +1,7 @@
 #include "Terrain.h"
 
+const Terrain Terrain::noTerrain;
+
 int Terrain::moveCost(MvtType mvt) const
 {
 	switch (mvt)
