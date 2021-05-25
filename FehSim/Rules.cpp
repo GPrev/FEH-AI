@@ -35,7 +35,8 @@ void Rules::strike(UnitState& _attacker, UnitState& _defender, Stats& _attStats,
 {
 	if (!_attacker.isDead())
 	{
-		int attackPower = _attStats.getAtk() + (int) std::trunc(_attStats.getAtk() * .2 * weaponTriangle(_attacker, _defender));
+		int atkEff = (int) std::floor(_attStats.getAtk() * (1.0 + 0.5 * effective(_attacker, _defender)));
+		int attackPower = atkEff + (int) std::trunc(atkEff * .2 * weaponTriangle(_attacker, _defender));
 		bool targetsRes = Rules::targetsRes(_attacker.getUnit()->getWeaponType());
 		int defensePower = _defStats.getDef();
 		if (targetsRes)
@@ -44,6 +45,19 @@ void Rules::strike(UnitState& _attacker, UnitState& _defender, Stats& _attStats,
 		}
 		_defender.loseLife(std::max(0, attackPower - defensePower));
 	}
+}
+
+int Rules::effective(UnitState& _attacker, UnitState& _defender)
+{
+	int wep_vuln = _defender.getUnit()->getWeaponWeaknessMask();
+	int mov_vuln = _defender.getUnit()->getMovementWeaknessMask();
+
+	int wep_eff = _attacker.getUnit()->getWeaponEffectiveMask();
+	int mov_eff = _attacker.getUnit()->getMovementEffectiveMask();
+
+	bool isEffective = ((wep_vuln & wep_eff) != 0) || ((mov_vuln & mov_eff) != 0);
+
+	return isEffective ? 1 : 0;
 }
 
 int Rules::weaponTriangle(UnitState& _attacker, UnitState& _defender)

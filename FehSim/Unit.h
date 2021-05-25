@@ -50,6 +50,14 @@ public:
 	const SkillSet& getSkills() const { return m_skills; }
 	Skill const* getSkill(SkillCategory slot) const { return m_skills.getSkill(slot); }
 
+	int getWeaponEffectiveMask()	const { return m_skills.getWeaponEffectiveMask(); }
+	int getMovementEffectiveMask()	const { return m_skills.getMovementEffectiveMask(); }
+	int getWeaponProtectionMask()	const { return m_skills.getWeaponProtectionMask(); }
+	int getMovementProtectionMask()	const { return m_skills.getMovementProtectionMask(); }
+	int getWeaponWeaknessMask()		const { return m_skills.getWeaponWeaknessMask() | (1 << m_data->getWeaponIndex()); }
+	int getMovementWeaknessMask()	const { return m_skills.getMovementWeaknessMask() | (1 << m_data->getMvtType()); }
+	int getWeaponAdaptiveMask()		const { return m_skills.getWeaponAdaptiveMask(); }
+	int getMovementAdaptiveMask()	const { return m_skills.getMovementAdaptiveMask(); }
 };
 
 typedef std::vector<Unit> Team;

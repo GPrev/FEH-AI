@@ -72,5 +72,28 @@ namespace FehSimTests
 			Assert::AreEqual(13, m_map.getState(&m_alphonse).getHP());
 			Assert::AreEqual(13, m_map.getState(&m_nino).getHP());
 		}
+
+		TEST_METHOD(WeaponEffectiveness)
+		{
+			Unit takumi(*m_dataLoader.getUnitData(u8"PID_タクミ"));
+			Unit cordelia(*m_dataLoader.getUnitData(u8"PID_ティアモ"), 5, 40, 10); // 5*+10
+			takumi.makeBaseKit();
+			cordelia.makeBaseKit();
+
+			std::vector<Position> allyPos{ Position(5, 5) };
+			std::vector<Position> foesPos{ Position(4, 4) };
+			m_mapData = MapData("map", 10, 10, allyPos, foesPos);
+			m_map = Map(m_mapData);
+
+			std::vector<Unit*> allies{ &takumi };
+			std::vector<Unit*> foes{ &cordelia };
+			m_map.init(&allies, &foes);
+
+			Assert::AreEqual(40, m_map.getState(&takumi).getHP());
+			Assert::AreEqual(45, m_map.getState(&cordelia).getHP());
+			m_rules.doBattle(m_map, &takumi, &cordelia);
+			Assert::AreEqual(40, m_map.getState(&takumi).getHP());
+			Assert::AreEqual(2, m_map.getState(&cordelia).getHP());
+		}
 	};
 }

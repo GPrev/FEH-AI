@@ -42,6 +42,7 @@ public:
 	std::string toString()				const { return getName() + " : " + getTitle(); }
 	std::string toString(Translator& t)	const { return getName(t) + " : " + getTitle(t); }
 
+	WeaponIndex	getWeaponIndex()const { return m_weaponIdx; }
 	UnitColor	getColor()		const { return m_color; }
 	WeaponType	getWeaponType()	const { return m_type; }
 	MvtType		getMvtType()	const { return m_mvt; }

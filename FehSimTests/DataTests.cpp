@@ -97,6 +97,17 @@ namespace FehSimTests
 			TestUnit(Unit(*data, 3, 40), Stats(37, 27, 30, 25, 20));
 			TestUnit(Unit(*data, 4, 40), Stats(38, 29, 32, 26, 21));
 			TestUnit(Unit(*data, 5, 40), Stats(41, 31, 34, 29, 23));
+
+			TestUnit(Unit(*data, 5, 40, 1), Stats(43, 32, 36, 29, 23));
+			TestUnit(Unit(*data, 5, 40, 2), Stats(43, 33, 36, 30, 23));
+			TestUnit(Unit(*data, 5, 40, 3), Stats(44, 33, 36, 30, 24));
+			TestUnit(Unit(*data, 5, 40, 4), Stats(44, 34, 37, 30, 24));
+			TestUnit(Unit(*data, 5, 40, 5), Stats(44, 34, 37, 31, 25));
+			TestUnit(Unit(*data, 5, 40, 6), Stats(45, 34, 38, 31, 25));
+			TestUnit(Unit(*data, 5, 40, 7), Stats(45, 35, 38, 32, 25));
+			TestUnit(Unit(*data, 5, 40, 8), Stats(46, 35, 38, 32, 26));
+			TestUnit(Unit(*data, 5, 40, 9), Stats(46, 36, 39, 32, 26));
+			TestUnit(Unit(*data, 5, 40, 10), Stats(46, 36, 39, 33, 27));
 		}
 
 		void TestTerrain(uint terrainID, int expectedFlyCost, int expectedCrawlCost, int expectedWalkCost, int expectedRideCost)
