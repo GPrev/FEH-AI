@@ -95,5 +95,38 @@ namespace FehSimTests
 			Assert::AreEqual(40, m_map.getState(&takumi).getHP());
 			Assert::AreEqual(2, m_map.getState(&cordelia).getHP());
 		}
+
+		TEST_METHOD(SkillDeathBlow3)
+		{
+			// When attacking
+
+			setup();
+
+			m_alphonse.makeFullKit();
+			Assert::AreEqual(std::string(u8"SID_鬼神の一撃3"), m_alphonse.getSkill(SkillCategory::PASSIVE_A)->getId());
+
+			Assert::AreEqual(43, m_map.getState(&m_alphonse).getHP());
+			Assert::AreEqual(43, m_map.getState(&m_sharena).getHP());
+
+			m_rules.doBattle(m_map, &m_alphonse, &m_sharena);
+			Assert::AreEqual(0, m_map.getState(&m_alphonse).getHP());
+			Assert::AreEqual(26, m_map.getState(&m_sharena).getHP());
+
+			// When attacked
+
+			setup();
+
+			m_alphonse.makeFullKit();
+			Assert::AreEqual(std::string(u8"SID_鬼神の一撃3"), m_alphonse.getSkill(SkillCategory::PASSIVE_A)->getId());
+			Skill* ironLance = m_dataLoader.getSkillData(u8"SID_鉄の槍");
+			m_sharena.setSkill(ironLance);
+
+			Assert::AreEqual(43, m_map.getState(&m_alphonse).getHP());
+			Assert::AreEqual(43, m_map.getState(&m_sharena).getHP());
+
+			m_rules.doBattle(m_map, &m_sharena, &m_alphonse);
+			Assert::AreEqual(17, m_map.getState(&m_alphonse).getHP());
+			Assert::AreEqual(31, m_map.getState(&m_sharena).getHP());
+		}
 	};
 }

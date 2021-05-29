@@ -15,5 +15,11 @@ void Unit::makeBaseKit()
 
 void Unit::makeFullKit()
 {
-	m_skills = m_data->getLearnableSkills(m_rarity);
+	// Start with the base kit
+	makeBaseKit();
+	// We miss some skills if we don't go through every rarity
+	for (int rarity = 1; rarity < m_rarity; ++rarity)
+	{
+		m_skills.addAllIfMoreExpensive(m_data->getLearnableSkills(rarity));
+	}
 }

@@ -31,6 +31,15 @@ public:
 		return Stats(m_hp + b.m_hp, m_atk + b.m_atk, m_spd + b.m_spd, m_def + b.m_def, m_res + b.m_res);
 	}
 
+	void operator+=(const Stats& b)
+	{
+		m_hp += b.m_hp;
+		m_atk += b.m_atk;
+		m_spd += b.m_spd;
+		m_def += b.m_def;
+		m_res += b.m_res;
+	}
+
 	Stats operator+(const int& b) const
 	{
 		return Stats(m_hp + b, m_atk + b, m_spd + b, m_def + b, m_res + b);

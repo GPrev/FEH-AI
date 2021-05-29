@@ -16,11 +16,18 @@ class FEHSIM_API Skill
 protected:
 	std::string m_id;
 	std::string m_name;
-
 	SkillCategory m_category = SkillCategory::WEAPON;
+	int m_spCost = 0;
 
 	Stats m_stats;
 	int m_might = 0;
+
+	int m_abilityId = 0;
+	int m_timingId = 0;
+	int m_limit1Id = 0;
+	int m_limit2Id = 0;
+
+	Stats m_skillParams;
 
 	int m_wepEffective	= 0; // A bitmask indexed by weapon_index, representing weapon class effectivenesses this skill grants. Only meaningful on weapon skills.
 	int m_movEffective	= 0; // A bitmask indexed by move_index, representing movement class effectivenesses this skill grants. Only meaningful on weapon skills.
@@ -38,9 +45,17 @@ public:
 	std::string getName() const { return m_name; }
 	std::string getName(Translator& t)	const { return t.translate(getName()); }
 	SkillCategory getCategory() const { return m_category; }
+	int getSpCost() const { return m_spCost; }
 
 	int getMight() const { return m_might; }
 	const Stats& getStats() const { return m_stats; }
+
+	int getAbilityId() const { return m_abilityId; }
+	int getTimingId() const { return m_timingId; }
+	int getLimit1Id() const { return m_limit1Id; }
+	int getLimit2Id() const { return m_limit2Id; }
+
+	const Stats& getSkillParams() const { return m_skillParams; }
 
 	int getWeaponEffectiveMask()	const { return m_wepEffective; }
 	int getMovementEffectiveMask()	const { return m_movEffective; }

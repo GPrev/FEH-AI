@@ -184,8 +184,13 @@ void DataLoader::skillDataFromJson(const json& j)
 	d.m_id = skillID;
 	d.m_name = j["name_id"];
 	d.m_category = j["category"];
+	d.m_spCost = j["sp_cost"];
+
 	d.m_stats = statsFromJson(j["stats"]);
 	d.m_might = j["might"];
+
+	d.m_skillParams = statsFromJson(j["skill_params"]);
+
 	d.m_wepEffective = j["wep_effective"];
 	d.m_movEffective = j["mov_effective"];
 	d.wep_shield = j["wep_shield"];
@@ -194,6 +199,11 @@ void DataLoader::skillDataFromJson(const json& j)
 	d.mov_weakness = j["mov_weakness"];
 	d.wep_adaptive = j["wep_adaptive"];
 	d.mov_adaptive = j["mov_adaptive"];
+
+	d.m_timingId = j["timing_id"];
+	d.m_abilityId = j["ability_id"];
+	d.m_limit1Id = j["limit1_id"];
+	d.m_limit2Id = j["limit2_id"];
 }
 
 SkillSet DataLoader::skillSetFromJson(const json& j)
