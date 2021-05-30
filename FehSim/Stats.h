@@ -70,6 +70,11 @@ public:
 		return Stats((int)(m_hp * b), (int)(m_atk * b), (int)(m_spd * b), (int)(m_def * b), (int)(m_res * b));
 	}
 
+	Stats noHP() const
+	{
+		return Stats(m_atk, m_spd, m_def, m_res);
+	}
+
 	static Stats max(const Stats& a, const Stats& b)
 	{
 		return Stats(std::max(a.m_hp, b.m_hp), std::max(a.m_atk, b.m_atk), std::max(a.m_spd, b.m_spd), std::max(a.m_def, b.m_def), std::max(a.m_res, b.m_res));

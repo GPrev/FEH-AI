@@ -16,7 +16,9 @@ public:
 	SkillSet() { };
 
 	const Skill* getSkill(SkillCategory slot) const;
+	const bool hasSkill(SkillCategory slot) const { return getSkill(slot) != nullptr; }
 	void setSkill(const Skill* skill);
+	void removeSkill(SkillCategory slot) { m_skills[(int)slot] = nullptr; }
 	void setSkillIfMoreExpensive(const Skill* skill);
 
 	void addAll(const SkillSet& skills);

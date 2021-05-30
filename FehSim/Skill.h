@@ -21,6 +21,7 @@ protected:
 
 	Stats m_stats;
 	int m_might = 0;
+	int m_range = 0;
 
 	int m_abilityId = 0;
 	int m_timingId = 0;
@@ -49,6 +50,7 @@ public:
 
 	int getMight() const { return m_might; }
 	const Stats& getStats() const { return m_stats; }
+	int getRange() const { return m_range; }
 
 	int getAbilityId() const { return m_abilityId; }
 	int getTimingId() const { return m_timingId; }

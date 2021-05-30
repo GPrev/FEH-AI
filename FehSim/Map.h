@@ -72,7 +72,11 @@ private:
 	void clearUnits() { m_unitsStates.clear(); m_unitsPos.clear(); };
 	void addUnit(const Unit* ally, const Position& pos, UnitColor side);
 	void getPossibleMoves(const Unit* unit, Position movement, std::vector<Move>& res);
+	bool canBeOnTile(MvtType mvtType, const Position& pos) { return  m_data->getTerrain(pos)->moveCost(mvtType) != Terrain::noMove; }
+	bool canBeOnTile(const Unit* unit, const Position& pos) { return canBeOnTile(unit->getMvtType(), pos); }
 	bool canFindPath(const Position& origin, const Position& destination, MvtType mvtType, int maxLength, UnitColor side);
+	bool canPerformAssist(const Skill* assist, const Unit* user, const Unit* target, const Position& userPos);
+	std::pair<Position, Position> getAssistMovement(const Skill* assist, const Position & userPos, const Position & targetPos);
 };
 
 #pragma warning( pop ) 

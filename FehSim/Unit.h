@@ -49,7 +49,9 @@ public:
 
 	const SkillSet& getSkills() const { return m_skills; }
 	Skill const* getSkill(SkillCategory slot) const { return m_skills.getSkill(slot); }
+	bool hasSkill(SkillCategory slot) const { return m_skills.hasSkill(slot); }
 	void setSkill(const Skill* skill) { return m_skills.setSkill(skill); }
+	void removeSkill(SkillCategory slot) { return m_skills.removeSkill(slot); }
 
 	int getWeaponEffectiveMask()	const { return m_skills.getWeaponEffectiveMask(); }
 	int getMovementEffectiveMask()	const { return m_skills.getMovementEffectiveMask(); }

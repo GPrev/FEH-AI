@@ -144,9 +144,24 @@ bool Map::canMakeMove(const Unit* unit, Position movement, Position action)
 	// Vérif action
 	if (ok && action.isSomewhere())
 	{
-		// TODO check equips, teams...
-		// TODO actions on allies
-		ok = !isFree(action) && movement.distance(action) == unit->getRange() && state.canAttack() && getUnitState(action).getSide() != state.getSide();
+		// If there is an action, there needs to be a target
+		ok = !isFree(action);
+
+		if (ok)
+		{
+			const Unit* target = getUnit(action);
+			if (getState(target).getSide() != state.getSide())
+			{
+				// Action on enemy (attack) needs a weapon and correct distance
+				ok = state.canAttack() && movement.distance(action) == unit->getRange();
+			}
+			else
+			{
+				// Action on ally (assist)
+				const Skill* assist = unit->getSkill(SkillCategory::ASSIST);
+				ok = assist != nullptr && target != unit && canPerformAssist(assist, unit, target, movement);
+			}
+		}
 	}
 
 	return ok;
@@ -159,21 +174,33 @@ bool Map::makeMove(const Unit* unit, Position movement, Position action)
 		UnitState& state = getState(unit);
 
 		m_unitsPos[unit] = movement;
-		// TODO actions on allies
 		if (action.isSomewhere())
 		{
-			Rules::doBattle(*this, unit, getUnit(action));
+			if (getUnitState(action).getSide() != state.getSide())
+			{
+				// Action on enemy (attack)
+				Rules::doBattle(*this, unit, getUnit(action));
 
-			// Check death
-			const Unit* oponent = getUnit(action);
-			UnitState& opState = getState(oponent);
-			if (state.isDead())
-			{
-				m_unitsPos[unit] = Position::nowhere;
+				// Check death
+				const Unit* oponent = getUnit(action);
+				UnitState& opState = getState(oponent);
+				if (state.isDead())
+				{
+					m_unitsPos[unit] = Position::nowhere;
+				}
+				if (opState.isDead())
+				{
+					m_unitsPos[oponent] = Position::nowhere;
+				}
 			}
-			if (opState.isDead())
+			else
 			{
-				m_unitsPos[oponent] = Position::nowhere;
+				// Action on ally (assist)
+				const Skill* assist = unit->getSkill(SkillCategory::ASSIST);
+				std::pair<Position, Position> assistMvt = getAssistMovement(assist, movement, action);
+				m_unitsPos[unit] = assistMvt.first;
+				m_unitsPos[getUnit(action)] = assistMvt.second;
+
 			}
 		}
 		// Mark unit as "has acted"
@@ -181,6 +208,73 @@ bool Map::makeMove(const Unit* unit, Position movement, Position action)
 	}
 
 	return movement.isSomewhere();
+}
+
+bool Map::canPerformAssist(const Skill* assist, const Unit* user, const Unit* target, const Position& userPos)
+{
+	Position targetPos = getPos(target);
+	bool ok = userPos.distance(targetPos) == assist->getRange();
+	if (ok)
+	{
+		std::pair<Position, Position> assistMvt = getAssistMovement(assist, userPos, targetPos);
+		for (const Position& pos : { assistMvt.first, assistMvt.second })
+		{
+			// Both tiles must be free, or be one of the origin tiles
+			ok = ok && (pos == userPos || pos == targetPos || isFree(pos));
+		}
+		ok = ok && canBeOnTile(user, assistMvt.first);
+		ok = ok && canBeOnTile(target, assistMvt.second);
+	}
+	return ok;
+}
+
+std::pair<Position, Position> Map::getAssistMovement(const Skill* assist, const Position & userPos, const Position & targetPos)
+{
+	// No move by default
+	std::pair<Position, Position> res(userPos, targetPos);
+
+	// Direction from user to target
+	Position direction = targetPos - userPos;
+
+	if (direction.distance(Position()) != assist->getRange())
+	{
+		throw std::exception("Illegal use of movement assist");
+	}
+
+	switch (assist->getAbilityId())
+	{
+	case 17: // Shove/Smite
+		// Target is pushed away. Distance is stored in the hp parameter of the skill
+		res.second += direction * assist->getSkillParams().getHp();
+		break;
+
+	case 18: // Swap
+		// Positions are wsapped
+		res.first = targetPos;
+		res.second = userPos;
+		break;
+
+	case 19: // Draw Back
+		// Both units go back, away from target position
+		res.first -= direction;
+		res.second -= direction;
+		break;
+
+	case 20: // Reposition
+		// Target ally moves to opposite side of unit.
+		res.second = userPos - direction;
+		break;
+
+	case 21: // Pivot
+		// Unit moves to opposite side of target ally.
+		res.first = targetPos + direction;
+		break;
+
+	default:
+		break;
+	}
+
+	return res;
 }
 
 std::vector<Move> Map::getPossibleMoves(UnitColor side)

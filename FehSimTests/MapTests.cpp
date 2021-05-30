@@ -151,5 +151,136 @@ namespace FehSimTests
 			Assert::IsFalse(map.canMakeMove(&fly, Position(4, 5))); // Three tiles away
 		}
 
+		TEST_METHOD(AssistShove)
+		{
+			setup();
+
+			// Gives second enemy the skill, and removes his wepapon
+			m_foe2.removeSkill(SkillCategory::WEAPON);
+			m_foe2.setSkill(m_dataLoader.getSkillData(u8"SID_体当たり"));
+
+			// Set enemy turn
+			m_map.newTurn();
+
+			// Test restrictions
+			Assert::IsFalse(m_map.canMakeMove(&m_foe2, Position(4, 4), Position(3, 3)));
+			Assert::IsFalse(m_map.canMakeMove(&m_foe2, Position(4, 5), Position(5, 5)));
+			Assert::IsTrue(m_map.canMakeMove(&m_foe2, Position(4, 3), Position(3, 3)));
+
+			// Test usage
+			m_map.makeMove(&m_foe2, Position(4, 3), Position(3, 3));
+			Assert::AreEqual(Position(4, 3), m_map.getPos(&m_foe2));
+			Assert::AreEqual(Position(2, 3), m_map.getPos(&m_foe1));
+		}
+
+		TEST_METHOD(AssistSmite)
+		{
+			setup();
+
+			// Gives second enemy the skill, and removes his wepapon
+			m_foe2.removeSkill(SkillCategory::WEAPON);
+			m_foe2.setSkill(m_dataLoader.getSkillData(u8"SID_ぶちかまし"));
+
+			// Set enemy turn
+			m_map.newTurn();
+
+			// Test restrictions
+			Assert::IsFalse(m_map.canMakeMove(&m_foe2, Position(4, 4), Position(3, 3)));
+			Assert::IsFalse(m_map.canMakeMove(&m_foe2, Position(4, 5), Position(5, 5)));
+			Assert::IsTrue(m_map.canMakeMove(&m_foe2, Position(4, 3), Position(3, 3)));
+
+			// Test usage
+			m_map.makeMove(&m_foe2, Position(4, 3), Position(3, 3));
+			Assert::AreEqual(Position(4, 3), m_map.getPos(&m_foe2));
+			Assert::AreEqual(Position(1, 3), m_map.getPos(&m_foe1));
+		}
+
+		TEST_METHOD(AssistSwap)
+		{
+			setup();
+
+			// Gives second enemy the skill, and removes his wepapon
+			m_foe2.removeSkill(SkillCategory::WEAPON);
+			m_foe2.setSkill(m_dataLoader.getSkillData(u8"SID_入れ替え"));
+
+			// Set enemy turn
+			m_map.newTurn();
+
+			// Test restrictions
+			Assert::IsFalse(m_map.canMakeMove(&m_foe2, Position(4, 4), Position(3, 3)));
+			Assert::IsFalse(m_map.canMakeMove(&m_foe2, Position(4, 5), Position(5, 5)));
+			Assert::IsTrue(m_map.canMakeMove(&m_foe2, Position(4, 3), Position(3, 3)));
+
+			// Test usage
+			m_map.makeMove(&m_foe2, Position(4, 3), Position(3, 3));
+			Assert::AreEqual(Position(3, 3), m_map.getPos(&m_foe2));
+			Assert::AreEqual(Position(4, 3), m_map.getPos(&m_foe1));
+		}
+
+		TEST_METHOD(AssistDrawBack)
+		{
+			setup();
+
+			// Gives second enemy the skill, and removes his wepapon
+			m_foe2.removeSkill(SkillCategory::WEAPON);
+			m_foe2.setSkill(m_dataLoader.getSkillData(u8"SID_引き寄せ"));
+
+			// Set enemy turn
+			m_map.newTurn();
+
+			// Test restrictions
+			Assert::IsFalse(m_map.canMakeMove(&m_foe2, Position(4, 4), Position(3, 3)));
+			Assert::IsFalse(m_map.canMakeMove(&m_foe2, Position(4, 5), Position(5, 5)));
+			Assert::IsTrue(m_map.canMakeMove(&m_foe2, Position(4, 3), Position(3, 3)));
+
+			// Test usage
+			m_map.makeMove(&m_foe2, Position(4, 3), Position(3, 3));
+			Assert::AreEqual(Position(5, 3), m_map.getPos(&m_foe2));
+			Assert::AreEqual(Position(4, 3), m_map.getPos(&m_foe1));
+		}
+
+		TEST_METHOD(AssistReposition)
+		{
+			setup();
+
+			// Gives second enemy the skill, and removes his wepapon
+			m_foe2.removeSkill(SkillCategory::WEAPON);
+			m_foe2.setSkill(m_dataLoader.getSkillData(u8"SID_運命を変える！"));
+
+			// Set enemy turn
+			m_map.newTurn();
+
+			// Test restrictions
+			Assert::IsFalse(m_map.canMakeMove(&m_foe2, Position(4, 4), Position(3, 3)));
+			Assert::IsFalse(m_map.canMakeMove(&m_foe2, Position(4, 5), Position(5, 5)));
+			Assert::IsTrue(m_map.canMakeMove(&m_foe2, Position(4, 3), Position(3, 3)));
+
+			// Test usage
+			m_map.makeMove(&m_foe2, Position(4, 3), Position(3, 3));
+			Assert::AreEqual(Position(4, 3), m_map.getPos(&m_foe2));
+			Assert::AreEqual(Position(5, 3), m_map.getPos(&m_foe1));
+		}
+
+		TEST_METHOD(AssistPivot)
+		{
+			setup();
+
+			// Gives second enemy the skill, and removes his wepapon
+			m_foe2.removeSkill(SkillCategory::WEAPON);
+			m_foe2.setSkill(m_dataLoader.getSkillData(u8"SID_回り込み"));
+
+			// Set enemy turn
+			m_map.newTurn();
+
+			// Test restrictions
+			Assert::IsFalse(m_map.canMakeMove(&m_foe2, Position(4, 4), Position(3, 3)));
+			Assert::IsFalse(m_map.canMakeMove(&m_foe2, Position(4, 5), Position(5, 5)));
+			Assert::IsTrue(m_map.canMakeMove(&m_foe2, Position(4, 3), Position(3, 3)));
+
+			// Test usage
+			m_map.makeMove(&m_foe2, Position(4, 3), Position(3, 3));
+			Assert::AreEqual(Position(2, 3), m_map.getPos(&m_foe2));
+			Assert::AreEqual(Position(3, 3), m_map.getPos(&m_foe1));
+		}
 	};
 }

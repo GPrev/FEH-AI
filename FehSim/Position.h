@@ -29,6 +29,11 @@ public:
 	bool operator!=(const Position& pos) const { return !(*this == pos); }
 
 	Position operator+(const Position& pos) const { return Position(m_x + pos.m_x, m_y + pos.m_y); }
+	Position operator-(const Position& pos) const { return Position(m_x - pos.m_x, m_y - pos.m_y); }
+	void operator+=(const Position& pos) { m_x += pos.m_x; m_y += pos.m_y; }
+	void operator-=(const Position& pos) { m_x -= pos.m_x; m_y -= pos.m_y; }
+
+	Position operator*(const int& nb) const { return Position(m_x * nb, m_y * nb); }
 
 	bool operator<(const Position& pos) const { return m_y < pos.m_y || (m_y == pos.m_y&& m_x < pos.m_x); }
 

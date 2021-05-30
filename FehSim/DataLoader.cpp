@@ -188,6 +188,7 @@ void DataLoader::skillDataFromJson(const json& j)
 
 	d.m_stats = statsFromJson(j["stats"]);
 	d.m_might = j["might"];
+	d.m_range = j["range"];
 
 	d.m_skillParams = statsFromJson(j["skill_params"]);
 

@@ -32,6 +32,12 @@ namespace FehAiTests
 			m_sharena.makeBaseKit();
 			m_nino.makeBaseKit();
 
+			for (Unit* unit : { &m_alphonse, &m_sharena, &m_nino })
+			{
+				// No assist
+				unit->removeSkill(SkillCategory::ASSIST);
+			}
+
 			std::vector<Position> allyPos{ Position(5, 8) };
 			std::vector<Position> foesPos{ Position(4, 2), Position(7, 2) };
 			m_mapData = MapData("map", 10, 10, allyPos, foesPos);
